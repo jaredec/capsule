@@ -3,8 +3,11 @@ name: Capsule Daily Trend Fetcher
 on:
   workflow_dispatch:
   schedule:
-    # 06:00 UTC every day = ~midnight Central / 2am Eastern; trends from the prior day
+    # 06:00 UTC every day = ~1am Central / 2am Eastern
     - cron: '0 6 * * *'
+
+permissions:
+  contents: write
 
 jobs:
   fetch:
@@ -27,7 +30,17 @@ jobs:
         working-directory: backend
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           PLATFORM: x
         run: python fetch_daily_trend.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "capsule-bot"
+          git config user.email "capsule-bot@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain frontend/data/trends.json)" ]]; then
+            git add frontend/data/trends.json
+            git commit -m "Add trend for $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No changes to commit."
+          fi

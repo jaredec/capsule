@@ -1,41 +1,27 @@
 "use client";
 
 import { useState } from "react";
-import useSWR from "swr";
-import type { Trend } from "@/lib/supabase";
-
-const fetcher = (url: string) => fetch(url).then((r) => r.json());
-
-const PLATFORMS = [
-  { value: "x", label: "X" },
-];
+import type { Trend } from "@/lib/types";
 
 const MONTH_NAMES = [
   "January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December",
 ];
 
-function monthKey(d: Date) {
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
-}
-
 function daysInMonth(year: number, month: number) {
   return new Date(year, month + 1, 0).getDate();
 }
 
-export default function Calendar() {
+export default function Calendar({ trends }: { trends: Trend[] }) {
   const today = new Date();
   const [cursor, setCursor] = useState(new Date(today.getFullYear(), today.getMonth(), 1));
   const [platform] = useState("x");
   const [selected, setSelected] = useState<Trend | null>(null);
 
-  const month = monthKey(cursor);
-  const { data, isLoading } = useSWR<{ trends: Trend[] }>(
-    `/api/trends?platform=${platform}&month=${month}`,
-    fetcher,
-  );
   const byDate = new Map<string, Trend>();
-  for (const t of data?.trends ?? []) byDate.set(t.date, t);
+  for (const t of trends) {
+    if (t.platform === platform) byDate.set(t.date, t);
+  }
 
   const year = cursor.getFullYear();
   const monthIdx = cursor.getMonth();
@@ -109,8 +95,6 @@ export default function Calendar() {
           );
         })}
       </div>
-
-      {isLoading && <p className="text-xs text-[var(--muted)] mt-4">Loading…</p>}
 
       {selected && (
         <div

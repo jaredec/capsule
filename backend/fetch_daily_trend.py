@@ -1,7 +1,7 @@
 """Daily trend fetcher.
 
 Asks Claude (with web search) for today's biggest viral moment on a given
-platform, parses the JSON response, and upserts it into Supabase.
+platform, then writes the result into frontend/data/trends.json.
 """
 from __future__ import annotations
 
@@ -10,12 +10,15 @@ import os
 import re
 import sys
 from datetime import datetime, timezone
+from pathlib import Path
 
 import anthropic
-from supabase import create_client
 
 MODEL = "claude-sonnet-4-6"
 PLATFORM = os.environ.get("PLATFORM", "x")
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+DATA_FILE = REPO_ROOT / "frontend" / "data" / "trends.json"
 
 PROMPT_TEMPLATE = """Find the single biggest viral moment on {platform_name} today ({date}).
 
@@ -49,8 +52,7 @@ PLATFORM_NAMES = {"x": "X (Twitter)"}
 
 
 def extract_json(text: str) -> dict:
-    text = text.strip()
-    m = re.search(r"\{.*\}", text, re.DOTALL)
+    m = re.search(r"\{.*\}", text.strip(), re.DOTALL)
     if not m:
         raise ValueError(f"No JSON found in response: {text[:500]}")
     return json.loads(m.group(0))
@@ -74,29 +76,39 @@ def fetch_trend(platform: str, date: str) -> dict:
     return extract_json(text_blocks[-1])
 
 
+def load_trends() -> list[dict]:
+    if not DATA_FILE.exists():
+        return []
+    return json.loads(DATA_FILE.read_text())
+
+
+def save_trends(trends: list[dict]) -> None:
+    DATA_FILE.parent.mkdir(parents=True, exist_ok=True)
+    DATA_FILE.write_text(json.dumps(trends, indent=2) + "\n")
+
+
 def main() -> int:
     today = datetime.now(timezone.utc).date().isoformat()
     print(f"[{today}] fetching trend for platform={PLATFORM}")
 
     payload = fetch_trend(PLATFORM, today)
     if not payload.get("title"):
-        print("No viral moment identified for today; skipping insert.")
+        print("No viral moment identified for today; skipping.")
         return 0
 
-    supabase = create_client(
-        os.environ["SUPABASE_URL"],
-        os.environ["SUPABASE_SERVICE_ROLE_KEY"],
-    )
-    row = {
+    trends = load_trends()
+    trends = [t for t in trends if not (t["date"] == today and t["platform"] == PLATFORM)]
+    trends.append({
         "date": today,
         "platform": PLATFORM,
         "title": payload["title"],
         "description": payload.get("description") or "",
         "link": payload.get("link"),
         "image_url": payload.get("image_url"),
-    }
-    res = supabase.table("trends").upsert(row, on_conflict="date,platform").execute()
-    print(f"upserted: {res.data}")
+    })
+    trends.sort(key=lambda t: (t["date"], t["platform"]), reverse=True)
+    save_trends(trends)
+    print(f"wrote {len(trends)} trends to {DATA_FILE}")
     return 0
 
 

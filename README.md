@@ -1,24 +1,26 @@
 # Capsule
 
-A daily archive of the biggest viral moment on the internet. Each day a cron job asks Claude (with web search) what the single biggest viral moment was on a given platform, stores it in Supabase, and renders it on a calendar.
+A daily archive of the biggest viral moment on the internet. Each day a cron job asks Claude (with web search) what the single biggest viral moment was on a given platform, appends it to a JSON file in this repo, and commits. Vercel auto-redeploys.
 
 MVP: X only. More platforms later.
 
 ## Stack
 
-- **Frontend**: Next.js 15 (App Router) on Vercel
-- **DB**: Supabase Postgres
-- **Cron**: GitHub Actions, daily at 06:00 UTC
+- **Frontend**: Next.js 15 (App Router) on Vercel — fully static, reads `frontend/data/trends.json` at build time
+- **Cron**: GitHub Actions, daily at 06:00 UTC — runs the Python script, commits the updated JSON
 - **Research**: Anthropic API (`claude-sonnet-4-6`) with the `web_search` tool
+
+No database. The git history is the audit log.
 
 ## Layout
 
 ```
 capsule/
-├── frontend/                  # Next.js calendar UI
+├── frontend/
+│   ├── data/trends.json       # the entire dataset
+│   └── ...                    # Next.js app
 ├── backend/
 │   ├── fetch_daily_trend.py   # cron entrypoint
-│   ├── schema.sql             # run once in Supabase
 │   └── requirements.txt
 └── .github/workflows/
     └── fetch_daily_trend.yml  # daily cron
@@ -26,10 +28,9 @@ capsule/
 
 ## Setup
 
-1. **Supabase** — create a project, run `backend/schema.sql` in the SQL editor.
-2. **GitHub secrets** — add `ANTHROPIC_API_KEY`, `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY` to the repo's Actions secrets.
-3. **Frontend env** — set `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` in Vercel.
-4. **First run** — trigger the workflow manually in the Actions tab to seed today.
+1. **GitHub secret** — repo Settings → Secrets and variables → Actions → add `ANTHROPIC_API_KEY`.
+2. **First run** — Actions tab → "Capsule Daily Trend Fetcher" → "Run workflow". If a new commit lands on `main` with an entry in `frontend/data/trends.json`, the pipeline works.
+3. **Vercel** — import the repo, set root directory to `frontend`, deploy. No env vars needed.
 
 ## Local dev
 
@@ -37,12 +38,11 @@ capsule/
 # frontend
 cd frontend
 npm install
-cp .env.example .env.local   # fill in values
 npm run dev
 
-# backend (manual test)
+# backend (manual test — will write to frontend/data/trends.json)
 cd backend
 pip install -r requirements.txt
-cp .env.example .env         # fill in values
-export $(cat .env | xargs) && python fetch_daily_trend.py
+export ANTHROPIC_API_KEY=sk-ant-...
+python fetch_daily_trend.py
 ```
