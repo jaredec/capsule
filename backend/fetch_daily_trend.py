@@ -20,12 +20,18 @@ PLATFORM = os.environ.get("PLATFORM", "x")
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = REPO_ROOT / "frontend" / "data" / "trends.json"
 
-PROMPT_TEMPLATE = """Find the single biggest viral moment on {platform_name} today ({date}).
+PROMPT_TEMPLATE = """Find the single biggest viral moment on {platform_name} on {date}, scoped to the US audience.
+
+Scope: US-anchored virality only.
+- The moment should have dominated American X timelines that day.
+- Reject moments that were big only regionally outside the US (e.g., huge in India,
+  Korea, Brazil but barely a ripple in the US). If unsure, prefer something with
+  English-language coverage in mainstream US outlets.
 
 What counts as a "viral moment":
-- A specific post, video, tweet, meme, or cultural moment that lots of people
-  are reacting to, sharing, or talking about.
-- Internet culture, fandoms, sports moments, memes, drama, weird viral clips —
+- A specific post, video, tweet, meme, or cultural moment lots of Americans
+  reacted to, shared, or talked about.
+- Internet culture, fandoms, sports moments, memes, drama, viral clips —
   all fair game.
 
 What does NOT count:
@@ -33,8 +39,14 @@ What does NOT count:
   itself became a viral piece of content (e.g., a memeable clip, a reaction
   that took over the platform).
 - Generic topics or hashtags without a specific moment behind them.
+- Fake/parody-account claims that didn't actually pan out (e.g., a hoax
+  "announcement" from a Pop Crave clone). If the post is fake or a known
+  misinformation account, skip it.
 
-Use the web_search tool to figure out what is actually trending right now.
+Use the web_search tool to figure out what is actually trending. Prefer
+sources like Know Your Meme, US-based pop culture sites, and US news outlets
+covering an X moment over generic SEO-bait listicles.
+
 Then return ONLY a JSON object (no prose, no markdown) with this shape:
 
 {{
@@ -44,7 +56,7 @@ Then return ONLY a JSON object (no prose, no markdown) with this shape:
   "image_url": "URL to a representative image/screenshot, or null"
 }}
 
-If you genuinely can't find one clear viral moment for today, return:
+If you genuinely can't find one clear US viral moment for today, return:
 {{"title": null, "description": null, "link": null, "image_url": null}}
 """
 
