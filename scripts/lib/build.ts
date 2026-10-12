@@ -1,5 +1,6 @@
 import { itemSchema, type Item } from "../../src/lib/schema";
 import { compactNumber, enrichStory, lookupXPost } from "./enrich";
+import { preferMomentPost } from "./featured";
 import { attachMedia, type MediaOverrides } from "./media";
 import type { ScoredStory } from "./pick";
 import type { Signals } from "./signals";
@@ -37,6 +38,7 @@ export async function buildItems(
     const pinned = pinnedId ? await lookupXPost(pinnedId) : null;
     if (story.sourceUrl && !pinned) log(`    pinned sourceUrl not found: ${story.sourceUrl}`);
     if (pinned) enrichment.xPosts.unshift(pinned);
+    else enrichment.xPosts = await preferMomentPost(story, enrichment.xPosts, log);
     const post = enrichment.xPosts[0] ?? null;
     log(
       `  "${story.title}" pulse=${story.pulse.score} refs=${enrichment.references.length} xPosts=${enrichment.xPosts.length}` +

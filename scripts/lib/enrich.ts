@@ -124,13 +124,11 @@ export async function lookupXPost(id: string): Promise<XPost | null> {
 }
 
 /**
- * A quote post usually rides on the post it quotes, so feature the original. The quote only
- * wins when it is the viral thing itself: it brought its own photo or video and out-liked the original.
+ * A quote post piles onto the post it quotes, even when it out-likes it, so feature the original.
+ * The rare quote that is the viral thing itself has to be pinned by the editor.
  */
 export function originalPost(post: XPost): XPost {
-  const q = post.quoted;
-  if (!q || (post.hasOwnMedia && post.likes > q.likes)) return post;
-  return originalPost(q);
+  return post.quoted ? originalPost(post.quoted) : post;
 }
 
 export function compactNumber(n: number): string {
