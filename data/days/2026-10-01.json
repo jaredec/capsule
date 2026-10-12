@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-01",
+  "items": [
+    {
+      "id": "2026-10-01-x-mike-tomlin-minecraft-city",
+      "platform": "x",
+      "rank": 1,
+      "title": "Mike Tomlin reveals the Minecraft city he built for 12 years",
+      "summary": "Former Steelers coach Mike Tomlin premiered a tour of the Minecraft city he had secretly built since 2014, and his X announcement passed 20 million views. The internet couldn't get over a Super Bowl-winning coach obsessing over rooftop penthouses and 'appropriate amenities'. The jokes flowed: Le'Veon Bell posted 'we were tryna win super bowls and coach T was on minecraft building cities', his son Mayce said his PlayStation used to vanish, and meme accounts tied the build to the Steelers' playoff struggles.",
+      "kind": "moment",
+      "tags": ["sports", "gaming", "nfl"],
+      "author": "@CoachTomlin",
+      "sourceUrl": null,
+      "metrics": { "views": "20M+" },
+      "references": [
+        {
+          "title": "NBC's Mike Tomlin shows off his 'Minecraft' city with full tour – NBC10 Philadelphia",
+          "url": "https://www.nbcphiladelphia.com/news/sports/nfl/mike-tomlin-minecraft-city-full-tour/4472732/"
+        },
+        {
+          "title": "The Funniest Reactions To Mike Tomlin's Mindblowing 12-Year-Old 'Minecraft' City Came From His Son Mayce – BroBible",
+          "url": "https://brobible.com/sports/article/mike-tomlin-son-mayce-reaction-minecraft-city/"
+        },
+        {
+          "title": "Mike Tomlin's 'Minecraft' city is going viral — and at least one former Steelers player is incredulous – DNYUZ",
+          "url": "https://dnyuz.com/2026/10/01/mike-tomlins-minecraft-city-is-going-viral-and-at-least-one-former-steelers-player-is-incredulous/"
+        }
+      ],
+      "collectedBy": "web-research",
+      "collectedAt": "2026-10-12T00:00:00Z"
+    },
+    {
+      "id": "2026-10-01-youtube-tomlin-minecraft-ep1",
+      "platform": "youtube",
+      "rank": 2,
+      "title": "Tomlin's 'EP 1: Rooftops, Penthouses, and Urban Living' blows up",
+      "summary": "The nearly 20-minute first episode of Tomlin's Minecraft series premiered at 8 p.m. ET on Sept. 30 and topped 334,000 views in four hours, then kept climbing toward a million overnight. Viewers loved his apologies for his 'lack of stick control' and the 'Trump Tower' penthouse with its disclaimer caption. The official NFL and Minecraft accounts both showed up in the comments.",
+      "kind": "video",
+      "tags": ["gaming", "sports"],
+      "author": "@miket757",
+      "sourceUrl": null,
+      "metrics": { "views": "1.5M" },
+      "references": [
+        {
+          "title": "Mike Tomlin is a Super Bowl-winning coach. His real passion might have been 'Minecraft.' – NBC News",
+          "url": "https://www.nbcnews.com/sports/nfl/mike-tomlin-nfl-coach-minecraft-passion-rcna600771"
+        },
+        {
+          "title": "Former Steelers HC Mike Tomlin reveals massive Minecraft city – ESPN",
+          "url": "https://www.espn.com/nfl/story/_/id/50073098/former-steelers-coach-mike-tomlin-minecraft-city-12-year-reveal"
+        },
+        {
+          "title": "The Internet Is Losing Its Mind Over Retired NFL Coach Mike Tomlin Spending 12 Years Making A Very Intricate Minecraft City – Best in Gaming",
+          "url": "https://bestingaming.org/the-internet-is-losing-its-mind-over-retired-nfl-coach-mike-tomlin-spending-12-years-making-a-very-intricate-minecraft-city/"
+        }
+      ],
+      "collectedBy": "web-research",
+      "collectedAt": "2026-10-12T00:00:00Z"
+    }
+  ]
+}

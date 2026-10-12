@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-08",
+  "items": [
+    {
+      "id": "2026-10-08-x-kardashians-ai-could-never",
+      "platform": "x",
+      "rank": 1,
+      "title": "The Kardashians open Season 8 with a glitchy \"AI Could Never\" skit",
+      "summary": "The Season 8 premiere of Hulu's The Kardashians, released October 8, opened with deliberately distorted AI versions of the family: Kim with a nose for an ear, Kris with extra fingers, Kylie with a tail. Then the real cast \"replaced\" them under the title card \"AI Could Never.\" X split into \"who approved that AI intro\" outrage and \"using AI was the point\" defenses, and many viewers simply asked \"Is this REAL?\"",
+      "kind": "moment",
+      "tags": ["tv", "celebrity", "ai"],
+      "author": null,
+      "sourceUrl": null,
+      "references": [
+        {
+          "title": "\"The Kardashians\" Is Back – But The AI Intro Is Leaving Fans Scratching Their Heads: \"Please Don't Do That Again\"",
+          "url": "https://www.buzzfeed.com/beccamonaghan/the-kardashians-ai-intro-reaction"
+        },
+        {
+          "title": "The Kardashians launch bizarre AI promo for new season as viewers question 'is this real?'",
+          "url": "https://www.themirror.com/entertainment/tv/the-kardashians-season-8-ai-2061819"
+        },
+        {
+          "title": "\"The Kardashians\" Returned With A Bizarre AI Intro That Left Fans Confused",
+          "url": "https://www.yahoo.com/entertainment/tv/articles/kardashians-returned-bizarre-ai-intro-133402218.html"
+        }
+      ],
+      "collectedBy": "web-research",
+      "collectedAt": "2026-10-12T02:00:00Z"
+    },
+    {
+      "id": "2026-10-08-tiktok-was-it-a-frog",
+      "platform": "tiktok",
+      "rank": 2,
+      "title": "\"WAS IT A FROG\": Mom's wild guess about a bug sums up all moms",
+      "summary": "TikToker Jordyn (@jordyndecastro) flicked a bug off her shoulder, and her mom Allison immediately asked, \"Oh my god, was that a frog?!\" Jordyn captioned it \"WAS IT A FROG. she's unreal. i love her.\" The 20-second clip passed 13 million views, and the comments turned into a mass swap of \"moms acting like it's their first day on Earth\" stories.",
+      "kind": "video",
+      "tags": ["family", "relatable"],
+      "author": "@jordyndecastro",
+      "sourceUrl": null,
+      "metrics": { "views": "13M" },
+      "references": [
+        {
+          "title": "\"It's Their First Day On Earth Everyday\": Over 13 Million People Are Resonating With This Video That Sums Up Moms In 20 Seconds",
+          "url": "https://www.buzzfeed.com/zoerobotin/moms-acting-like-its-their-first-day-on-earth"
+        },
+        {
+          "title": "Over 13 Million People Resonate With This Video That Sums Up Moms In 20 Seconds - Yahoo Life Singapore",
+          "url": "https://sg.style.yahoo.com/over-13-million-people-resonate-173359872.html"
+        }
+      ],
+      "collectedBy": "web-research",
+      "collectedAt": "2026-10-12T02:00:00Z"
+    }
+  ]
+}

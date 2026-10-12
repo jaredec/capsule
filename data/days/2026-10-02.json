@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-02",
+  "items": [
+    {
+      "id": "2026-10-02-x-browns-minecraft-game-over",
+      "platform": "x",
+      "rank": 1,
+      "title": "Browns troll Tomlin with a Minecraft 'game over.' screen",
+      "summary": "Hours after beating the Steelers 27-24 on Thursday Night Football, the Cleveland Browns posted 'game over.' with a Minecraft death screen that offered 'Respawn in Pittsburgh' or 'Generate new world'. It was a dig at ex-Steelers coach Mike Tomlin, who had revealed his 12-year Minecraft city a day earlier and had said 'The Browns is the Browns' earlier in the season. Fans called it a perfect troll, and ESPN listed it among the week's best.",
+      "kind": "image",
+      "tags": ["sports", "nfl", "gaming"],
+      "author": "@Browns",
+      "sourceUrl": null,
+      "references": [
+        {
+          "title": "Browns troll Mike Tomlin's 12-year Minecraft build after TNF win – Larry Brown Sports",
+          "url": "https://larrybrownsports.com/football/browns-troll-mike-tomlin-12-year-minecraft-build/772741"
+        },
+        {
+          "title": "Browns Troll Mike Tomlin, Steelers with Minecraft Post After TNF Win – Bleacher Report",
+          "url": "https://bleacherreport.com/articles/25505831-browns-troll-mike-tomlin-steelers-minecraft-post-after-tnf-win"
+        },
+        {
+          "title": "Cleveland Browns troll Steelers with perfect Minecraft meme after clutch win – Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/cleveland-browns-troll-steelers-perfect-103247508.html"
+        }
+      ],
+      "collectedBy": "web-research",
+      "collectedAt": "2026-10-12T00:00:00Z"
+    },
+    {
+      "id": "2026-10-02-instagram-ebay-camera-childhood",
+      "platform": "instagram",
+      "rank": 2,
+      "title": "'I found your entire childhood on this camera I bought on eBay'",
+      "summary": "New York musician Ben Coleman found old home movies on a used camera he bought on eBay and posted a Reel asking an 'Abby/Abigail from Utah' to DM him for the tape. The Reel passed 3.9 million views in two days. The family found it and commented, and even eBay's official account joined in.",
+      "kind": "video",
+      "tags": ["wholesome", "nostalgia"],
+      "author": "@bentcoleman",
+      "sourceUrl": null,
+      "metrics": { "views": "3.9M" },
+      "references": [
+        {
+          "title": "'I Found Your Entire Childhood': Man Buys Camera On eBay And Launches Search For Woman In The Videos – Know Your Meme",
+          "url": "https://trending.knowyourmeme.com/editorials/i-found-your-entire-childhood-man-buys-camera-on-ebay-and-launches-search-for-woman-in-the-videos"
+        }
+      ],
+      "collectedBy": "web-research",
+      "collectedAt": "2026-10-12T00:00:00Z"
+    }
+  ]
+}

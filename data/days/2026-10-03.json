@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-03",
+  "items": [
+    {
+      "id": "2026-10-03-x-lindsay-lohan-its-october-3rd",
+      "platform": "x",
+      "rank": 1,
+      "title": "Lindsay Lohan says 'It's October 3rd' with Mean Girls director",
+      "summary": "On Mean Girls Day, Lindsay Lohan posted a recreation of the movie's most-quoted scene, delivering 'It's October 3rd' as Cady Heron opposite director Mark Waters before winking and cracking up. The clip was posted to X, TikTok and Instagram and drew millions of views on each. Original Aaron Samuels actor Jonathan Bennett joined the comments, and the annual 'so fetch' meme cycle went into overdrive.",
+      "kind": "video",
+      "tags": ["movies", "celebrity", "nostalgia"],
+      "author": "@lindsaylohan",
+      "sourceUrl": "https://x.com/lindsaylohan/status/2106370548813218059",
+      "metrics": { "views": "2M+" },
+      "references": [
+        {
+          "title": "Lindsay Lohan Recreates 'Mean Girls' Scene For A Most Fetch October 3rd – TODAY",
+          "url": "https://www.today.com/popculture/movies/lindsay-lohan-recreates-mean-girls-scene-oct-3-rcna601301"
+        },
+        {
+          "title": "Lindsay Lohan recreates scene for Mean Girls Day on Oct. 3 – USA Today",
+          "url": "https://www.usatoday.com/story/entertainment/movies/2026/10/03/lindsay-lohan-mean-girls-day-video/92080000007/"
+        },
+        {
+          "title": "VIDEO Lindsay Lohan vuelve a ser Cady Heron – Uniradio Informa",
+          "url": "https://www.uniradioinforma.com/fama/video-lindsay-lohan-vuelve-ser-cady-heron-n906696"
+        }
+      ],
+      "collectedBy": "web-research",
+      "collectedAt": "2026-10-12T00:00:00Z"
+    }
+  ]
+}

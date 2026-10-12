@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-05",
+  "items": [
+    {
+      "id": "2026-10-05-x-jensen-huang-michael-jackson-deepfake",
+      "platform": "x",
+      "rank": 1,
+      "title": "AI Jensen Huang moonwalks as Michael Jackson; Musk: \"RAM is so expensive\"",
+      "summary": "An 86-second AI deepfake from Bilibili creator Wang Yuyexing put Nvidia CEO Jensen Huang in Michael Jackson's 1992 Bucharest concert, with an AI crowd of tech CEOs (Sam Altman, Lisa Su, Tim Cook and others) and Bill Gates fainting onto a stretcher. It was reposted to X on October 5 and reportedly topped 5.4 million views in a day. Elon Musk replied \"This is why RAM is so expensive,\" which turned it into a running joke about AI eating up memory chips and Huang's \"world tour.\"",
+      "kind": "video",
+      "tags": ["ai", "tech", "deepfake", "music"],
+      "author": null,
+      "sourceUrl": null,
+      "metrics": { "views": "5.4M" },
+      "references": [
+        {
+          "title": "AI deepfake of Jensen Huang moonwalking like Michael Jackson goes viral; Elon Musk reposts with jab about RAM prices",
+          "url": "https://finance.biggo.com/news/e196f5d6-7884-452f-89f2-945b1a18cf74"
+        },
+        {
+          "title": "Is This the World You Want? AI Swaps Jensen Huang's Face Onto Michael Jackson in Moonwalking Video That Racked Up 5.4 Million Views in a Day",
+          "url": "https://news.vocofm.com/en/%e7%94%a2%e6%a5%ad%e7%a7%91%e6%8a%80/205557/"
+        },
+        {
+          "title": "黃仁勳萬人前「大跳月球漫步」影片瘋傳！科技大佬反應超真實　馬斯克7字回應笑翻網友 - 鏡報",
+          "url": "https://www.mirrordaily.news/story/90104"
+        }
+      ],
+      "collectedBy": "web-research",
+      "collectedAt": "2026-10-12T02:00:00Z"
+    },
+    {
+      "id": "2026-10-05-reddit-w-ife-airplane-device",
+      "platform": "reddit",
+      "rank": 2,
+      "title": "Mystery airplane box turns out to be a \"W-IFE\" unit",
+      "summary": "A passenger posted a photo to r/whatisit of a device a flight attendant switched on in the overhead bin before takeoff. Commenters identified it as a Bluebox Wow portable wireless in-flight entertainment (W-IFE) system. The thread hit about 8,000 upvotes as people piled on with \"wireless wife\" jokes.",
+      "kind": "image",
+      "tags": ["travel", "wordplay"],
+      "author": "u/Acrobatic-Doctor-324",
+      "sourceUrl": null,
+      "metrics": { "upvotes": "8K" },
+      "references": [
+        {
+          "title": "Passenger Spots a Mystery Device in Airplane Overhead Compartment — Commenters Identified It and Made Endless Jokes About the Acronym",
+          "url": "https://dailydot.com/passenger-spots-a-mystery-device-in-airplane-overhead-compartment-commenters-identified-it-and-made-endless-jokes-about-the-acronym"
+        }
+      ],
+      "collectedBy": "web-research",
+      "collectedAt": "2026-10-12T02:00:00Z"
+    }
+  ]
+}

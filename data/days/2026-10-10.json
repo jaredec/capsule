@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-10",
+  "items": [
+    {
+      "id": "2026-10-10-x-john-mateer-flag-plant",
+      "platform": "x",
+      "rank": 1,
+      "title": "John Mateer plants the OU flag on Texas, Baker Mayfield style",
+      "summary": "Oklahoma upset No. 1 Texas 27-24 in the Red River Rivalry on a walk-off 47-yard field goal after a late Arch Manning interception. Quarterback John Mateer then waved and planted an Oklahoma flag in the end zone as Longhorns players walked past, adding a \"Horns Down\" for good measure. The clip, shared by On3, spread across X as fans compared it to Baker Mayfield's infamous 2017 flag plant at Ohio State.",
+      "kind": "video",
+      "tags": ["sports", "college-football", "rivalry"],
+      "author": "@On3",
+      "sourceUrl": null,
+      "references": [
+        {
+          "title": "John Mateer flag plant for Oklahoma against Texas was savage - For The Win",
+          "url": "https://ftw.usatoday.com/story/sports/ncaaf/2026/10/10/john-mateer-flag-plant-oklahoma-texas/92198036007/"
+        },
+        {
+          "title": "Video shows John Mateer trolling Texas after Oklahoma's win - Larry Brown Sports",
+          "url": "https://larrybrownsports.com/college-football/video-john-mateer-trolling-texas-fans/773894"
+        },
+        {
+          "title": "Oklahoma Sooners quarterback John Mateer just channeled his inner Baker Mayfield in a hilarious way after beating Texas - A to Z Sports",
+          "url": "https://atozsports.com/college-football/oklahoma-sooners-news/quarterback-john-mateer-planted-flag-after-beating-texas-baker-mayfield/"
+        }
+      ],
+      "collectedBy": "web-research",
+      "collectedAt": "2026-10-12T02:00:00Z"
+    }
+  ]
+}

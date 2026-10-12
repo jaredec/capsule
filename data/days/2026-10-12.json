@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-12",
+  "items": [
+    {
+      "id": "2026-10-12-x-docteur-guerit-tout",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"C'est le docteur Guérit-tout\": Serge Veilleux's 1981 TV performance",
+      "summary": "An archival Quebec TV clip shows Serge Veilleux, a pint-sized 16-year-old who had received a kidney transplant four years earlier, belting the traditional Quebec folk song \"Le docteur Guérit-tout\" (\"C'est le docteur Guérit-tout, qui a un remède à tout\"), a comic call-and-response tune about a doctor who cures every ailment by cutting off another body part. The clip resurfaced and took over X on the night of Oct 11-12, 2026. It had a first viral run on TikTok in late 2024, tied to the folklore show Soirée canadienne, when many viewers mistook the boy for actor Antoine Bertrand.",
+      "kind": "video",
+      "tags": ["quebec", "tv", "music", "throwback"],
+      "author": null,
+      "sourceUrl": null,
+      "references": [
+        {
+          "title": "Des gens croient avoir reconnu Antoine Bertrand à «Soirée canadienne» - Le Sac de chips",
+          "url": "https://www.lesacdechips.com/2024/12/02/des-gens-croient-avoir-reconnu-antoine-bertrand-a-soiree-canadienne"
+        }
+      ],
+      "collectedBy": "web-research",
+      "collectedAt": "2026-10-12T02:00:00Z"
+    }
+  ]
+}
