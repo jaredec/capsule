@@ -14,6 +14,8 @@ export type XPost = {
   likes: number;
   replies: number;
   createdAt: string;
+  /** X's language code for the text: "en", "pt", ... or a non-language code like "zxx" (media only). */
+  lang: string | null;
   /** First photo, or the poster frame of a video (the quoted post's when the post has none). */
   mediaUrl: string | null;
   /** The video as an MP4, for picking a still that shows the moment rather than its first frame. */
@@ -84,6 +86,7 @@ export async function lookupXPost(id: string): Promise<XPost | null> {
       favorite_count?: number;
       conversation_count?: number;
       created_at?: string;
+      lang?: string;
       user?: { screen_name?: string; name?: string; is_blue_verified?: boolean; verified?: boolean; profile_image_url_https?: string };
       quoted_tweet?: SyndicatedMedia;
     };
@@ -98,6 +101,7 @@ export async function lookupXPost(id: string): Promise<XPost | null> {
       likes: t.favorite_count ?? 0,
       replies: t.conversation_count ?? 0,
       createdAt: t.created_at,
+      lang: t.lang ?? null,
       ...(t.mediaDetails?.length || !t.quoted_tweet ? media(t) : media(t.quoted_tweet)),
     };
   } catch {
@@ -133,7 +137,16 @@ export async function enrichStory(date: string, headlines: Headline[], maxArticl
     const day = archiveDateOf(post.createdAt);
     if (day >= windowStart && day <= windowEnd) xPosts.push(post);
   }
-  xPosts.sort((a, b) => b.likes - a.likes);
+  xPosts.sort((a, b) => languageRank(a) - languageRank(b) || b.likes - a.likes);
 
   return { references, xPosts };
+}
+
+// X's codes for posts without real text: media or links only, emoji, hashtags, mentions, too short.
+const NO_LANGUAGE = new Set(["zxx", "und", "qme", "qam", "qct", "qht", "qst", "art"]);
+
+/** The featured post is quoted in an English archive: English first, then posts with no text to read, then the rest. */
+function languageRank(post: XPost): number {
+  if (post.lang === "en") return 0;
+  return post.lang === null || NO_LANGUAGE.has(post.lang) ? 1 : 2;
 }
