@@ -2,24 +2,23 @@
   "date": "2026-10-09",
   "stories": [
     {
-      "title": "Druski's \"That's So Zion\" skit roasts grown-up Disney child stars",
-      "summary": "Druski posted a sketch as Zion, the unhinged adult star of a fake Disney Channel sitcom called \"That's So Zion,\" captioned \"Kid Stars growup & be so Unpredictable.\" Viewers decided he had played Raven-Symone, Orlando Brown and JoJo Siwa all at once, and Raven-Symone herself weighed in. Replies quoted its lines and called it a speedrun of every child-star meltdown phase.",
-      "kind": "video",
-      "tags": ["comedy", "celebrity", "disney"],
-      "category": "pop-culture",
+      "title": "Tom Welling's \"Hello, NYCC\" skyline photo shows more than the view",
+      "summary": "The Smallville star posted a New York hotel-window view to his Instagram Story ahead of Comic Con, not noticing his nude reflection in the glass; it stayed up about 10 hours and screenshots spread with millions of views. Fans made \"POV: you're a tourist and see Tom Welling at his hotel window\" Reels, and co-star Michael Rosenbaum posted a parody window selfie holding a \"PERVERTS\" sign. Welling reposted it and commented \"Came for the sights.\"",
+      "kind": "image",
+      "tags": ["celebrity", "tv", "comic-con"],
+      "category": "celebrity",
       "crossover": false,
-      "reach": 6,
-      "dominance": 7,
+      "reach": 8,
+      "dominance": 8,
       "memeability": 8,
       "platform": "x",
-      "headlineIds": [113],
-      "sourceUrl": "https://x.com/druski/status/2108331576836981125",
-      "frameAt": 67.2,
+      "headlineIds": [29],
+      "sourceUrl": "https://x.com/Okori13Okorie/status/2109212596939235353",
       "crop": {
-        "x": 0,
-        "y": 0.12,
-        "w": 1,
-        "h": 0.58
+        "x": 0.05,
+        "y": 0.17,
+        "w": 0.9,
+        "h": 0.62
       }
     }
   ]

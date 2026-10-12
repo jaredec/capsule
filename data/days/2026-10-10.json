@@ -2,66 +2,44 @@
   "date": "2026-10-10",
   "items": [
     {
-      "id": "2026-10-10-x-tom-welling-s-hello-nycc-skyline-photo-shows-mor",
+      "id": "2026-10-10-x-docteur-guerit-tout",
       "platform": "x",
       "rank": 1,
-      "title": "Tom Welling's \"Hello, NYCC\" skyline photo shows more than the view",
-      "summary": "The Smallville star posted a New York hotel-window view to his Instagram Story ahead of Comic Con, not noticing his nude reflection in the glass; it stayed up about 10 hours and screenshots spread with millions of views. Fans made \"POV: you're a tourist and see Tom Welling at his hotel window\" Reels, and co-star Michael Rosenbaum posted a parody window selfie holding a \"PERVERTS\" sign. Welling reposted it and commented \"Came for the sights.\"",
-      "kind": "image",
+      "title": "\"C'est le docteur Guérit-tout\": Serge Veilleux's 1981 TV performance",
+      "summary": "An archival Quebec TV clip shows Serge Veilleux, a pint-sized 16-year-old who had received a kidney transplant four years earlier, belting the traditional Quebec folk song \"Le docteur Guérit-tout\" (\"C'est le docteur Guérit-tout, qui a un remède à tout\"), a comic call-and-response tune about a doctor who cures every ailment by cutting off another body part. The clip resurfaced and took over X on the evening of Oct 11, 2026. It had a first viral run on TikTok in late 2024, tied to the folklore show Soirée canadienne, when many viewers mistook the boy for actor Antoine Bertrand.",
+      "kind": "video",
       "tags": [
-        "celebrity",
+        "quebec",
         "tv",
-        "comic-con"
+        "music",
+        "throwback"
       ],
-      "author": "@Okori13Okorie",
-      "sourceUrl": "https://x.com/Okori13Okorie/status/2109212596939235353",
-      "metrics": {
-        "likes": "5.5K",
-        "replies": "19"
-      },
+      "author": null,
+      "sourceUrl": null,
       "references": [
         {
-          "title": "Tom Welling Has Hilarious Reaction to Viral NSFW Hotel Window Photo",
-          "url": "https://www.eonline.com/news/1436977/tom-welling-reacts-to-viral-nsfw-hotel-window-photo"
+          "title": "LE DOCTEUR GUERIT-TOUT · Serge Veilleux (live 1981) · HD",
+          "url": "https://www.youtube.com/watch?v=qb4nEa64n0U"
         },
         {
-          "title": "Tom Welling's NSFW Instagram Story Goes Viral: 'Smallville' Star Deletes NYC Hotel Window Photo After 10 Hours",
-          "url": "https://www.ibtimes.sg/tom-wellings-nsfw-instagram-story-goes-viral-smallville-star-deletes-nyc-hotel-window-photo-94921"
-        },
-        {
-          "title": "After His Revealing Hotel Window Photo Went Viral, Tom Welling Faces Fans at New York Comic Con",
-          "url": "https://socialitelife.com/tom-welling-new-york-comic-con-deleted-nude-photo/"
+          "title": "Des gens croient avoir reconnu Antoine Bertrand à «Soirée canadienne» - Le Sac de chips",
+          "url": "https://www.lesacdechips.com/2024/12/02/des-gens-croient-avoir-reconnu-antoine-bertrand-a-soiree-canadienne"
         }
       ],
-      "pulse": {
-        "score": 8,
-        "reach": 8,
-        "dominance": 8,
-        "memeability": 8,
-        "category": "celebrity",
-        "crossover": false
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T03:49:55.655Z",
-      "post": {
-        "name": "Godwin",
-        "handle": "@Okori13Okorie",
-        "verified": false,
-        "avatar": "/media/avatars/okori13okorie.webp",
-        "text": "I can't take this Tom Welling gigolo-ing naked in the stories outta nowhere"
-      },
       "image": {
-        "src": "/media/2026-10-10/2026-10-10-x-tom-welling-s-hello-nycc-skyline-photo-shows-mor.webp",
-        "width": 679,
-        "height": 1200,
-        "from": "https://pbs.twimg.com/media/HUVtobCXQAA5qdf.jpg?name=medium",
+        "src": "/media/2026-10-10/2026-10-10-x-docteur-guerit-tout.webp",
+        "width": 720,
+        "height": 405,
+        "from": "https://i.ytimg.com/vi/qb4nEa64n0U/maxresdefault.jpg",
         "crop": {
-          "x": 0.05,
-          "y": 0.17,
-          "w": 0.9,
-          "h": 0.62
+          "x": 0.45,
+          "y": 0,
+          "w": 0.42,
+          "h": 1
         }
-      }
+      },
+      "collectedBy": "web-research",
+      "collectedAt": "2026-10-12T02:00:00Z"
     }
   ]
 }

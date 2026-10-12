@@ -22,23 +22,24 @@
       }
     },
     {
-      "title": "Marlins Man chats up Dua Lipa at her first baseball game",
-      "summary": "At Game 3 of the Yankees-Rays ALDS, broadcast cameras caught Marlins Man, the famous fan in the orange jersey, chatting all night with Dua Lipa and her husband Callum Turner behind home plate. X users joked he was shooting his shot, not realizing her husband was right there. He later posted that he had no idea who they were, and that it was her first game and her first hot dog.",
+      "title": "Druski's \"That's So Zion\" skit roasts grown-up Disney child stars",
+      "summary": "Druski posted a sketch as Zion, the unhinged adult star of a fake Disney Channel sitcom called \"That's So Zion,\" captioned \"Kid Stars growup & be so Unpredictable.\" Viewers decided he had played Raven-Symone, Orlando Brown and JoJo Siwa all at once, and Raven-Symone herself weighed in. Replies quoted its lines and called it a speedrun of every child-star meltdown phase.",
       "kind": "video",
-      "tags": ["celebrity", "baseball", "music"],
-      "category": "celebrity",
-      "crossover": true,
-      "reach": 5,
-      "dominance": 5,
-      "memeability": 5,
+      "tags": ["comedy", "celebrity", "disney"],
+      "category": "pop-culture",
+      "crossover": false,
+      "reach": 6,
+      "dominance": 7,
+      "memeability": 8,
       "platform": "x",
-      "headlineIds": [122],
-      "sourceUrl": "https://x.com/marlins_man/status/2108058126263914691",
+      "headlineIds": [117],
+      "sourceUrl": "https://x.com/druski/status/2108331576836981125",
+      "frameAt": 67.2,
       "crop": {
-        "x": 0.08,
-        "y": 0.1,
-        "w": 0.52,
-        "h": 0.9
+        "x": 0,
+        "y": 0.12,
+        "w": 1,
+        "h": 0.58
       }
     }
   ]

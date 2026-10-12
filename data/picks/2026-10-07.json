@@ -2,6 +2,26 @@
   "date": "2026-10-07",
   "stories": [
     {
+      "title": "Marlins Man chats up Dua Lipa at her first baseball game",
+      "summary": "At Game 3 of the Yankees-Rays ALDS, broadcast cameras caught Marlins Man, the famous fan in the orange jersey, chatting all night with Dua Lipa and her husband Callum Turner behind home plate. X users joked he was shooting his shot, not realizing her husband was right there. He later posted that he had no idea who they were, and that it was her first game and her first hot dog.",
+      "kind": "video",
+      "tags": ["celebrity", "baseball", "music"],
+      "category": "celebrity",
+      "crossover": true,
+      "reach": 5,
+      "dominance": 5,
+      "memeability": 5,
+      "platform": "x",
+      "headlineIds": [118],
+      "sourceUrl": "https://x.com/marlins_man/status/2108058126263914691",
+      "crop": {
+        "x": 0.08,
+        "y": 0.1,
+        "w": 0.52,
+        "h": 0.9
+      }
+    },
+    {
       "title": "Amazon's 'About You' page says you have flat buttocks",
       "summary": "Shoppers discovered Amazon's beta 'About You' page, which lists conclusions drawn from purchases, searches and reviews, and began posting the strangest ones, such as 'has flat buttocks', 'husband has skinny legs' and 'treats cats as biological children.' A Threads post started a wave of people sharing their own profiles. Outlets ran how-to guides for finding yours, and the screenshots turned into a mix of comedy and privacy unease.",
       "kind": "image",
