@@ -20,6 +20,10 @@ export type XPost = {
   mediaUrl: string | null;
   /** The video as an MP4, for picking a still that shows the moment rather than its first frame. */
   videoUrl: string | null;
+  /** Whether the post attached its own photo or video (rather than only quoting one). */
+  hasOwnMedia: boolean;
+  /** The post this one quotes, if any. */
+  quoted: XPost | null;
 };
 
 export type Enrichment = {
@@ -73,6 +77,38 @@ function syndicationToken(id: string): string {
   return ((Number(id) / 1e15) * Math.PI).toString(36).replace(/(0+|\.)/g, "");
 }
 
+type Syndicated = SyndicatedTweet & SyndicatedMedia & {
+  __typename?: string;
+  id_str?: string;
+  favorite_count?: number;
+  conversation_count?: number;
+  created_at?: string;
+  lang?: string;
+  user?: { screen_name?: string; name?: string; is_blue_verified?: boolean; verified?: boolean; profile_image_url_https?: string };
+  quoted_tweet?: Syndicated;
+};
+
+function toXPost(t: Syndicated, id: string): XPost | null {
+  if (t.__typename === "TweetTombstone" || !t.user?.screen_name || !t.created_at) return null;
+  const quoted = t.quoted_tweet?.id_str ? toXPost(t.quoted_tweet, t.quoted_tweet.id_str) : null;
+  const hasOwnMedia = Boolean(t.mediaDetails?.length || t.photos?.length || t.video);
+  return {
+    url: `https://x.com/${t.user.screen_name}/status/${id}`,
+    handle: `@${t.user.screen_name}`,
+    name: t.user.name ?? t.user.screen_name,
+    verified: Boolean(t.user.is_blue_verified || t.user.verified),
+    avatarUrl: t.user.profile_image_url_https?.replace("_normal.", "_bigger.") ?? null,
+    text: postText(t),
+    likes: t.favorite_count ?? 0,
+    replies: t.conversation_count ?? 0,
+    createdAt: t.created_at,
+    lang: t.lang ?? null,
+    ...(hasOwnMedia || !t.quoted_tweet ? media(t) : media(t.quoted_tweet)),
+    hasOwnMedia,
+    quoted,
+  };
+}
+
 /** Public, unauthenticated post lookup (what embedded posts use). Costs nothing. */
 export async function lookupXPost(id: string): Promise<XPost | null> {
   const text = await fetchText(
@@ -81,32 +117,20 @@ export async function lookupXPost(id: string): Promise<XPost | null> {
   );
   if (!text) return null;
   try {
-    const t = JSON.parse(text) as SyndicatedTweet & SyndicatedMedia & {
-      __typename?: string;
-      favorite_count?: number;
-      conversation_count?: number;
-      created_at?: string;
-      lang?: string;
-      user?: { screen_name?: string; name?: string; is_blue_verified?: boolean; verified?: boolean; profile_image_url_https?: string };
-      quoted_tweet?: SyndicatedMedia;
-    };
-    if (t.__typename === "TweetTombstone" || !t.user?.screen_name || !t.created_at) return null;
-    return {
-      url: `https://x.com/${t.user.screen_name}/status/${id}`,
-      handle: `@${t.user.screen_name}`,
-      name: t.user.name ?? t.user.screen_name,
-      verified: Boolean(t.user.is_blue_verified || t.user.verified),
-      avatarUrl: t.user.profile_image_url_https?.replace("_normal.", "_bigger.") ?? null,
-      text: postText(t),
-      likes: t.favorite_count ?? 0,
-      replies: t.conversation_count ?? 0,
-      createdAt: t.created_at,
-      lang: t.lang ?? null,
-      ...(t.mediaDetails?.length || !t.quoted_tweet ? media(t) : media(t.quoted_tweet)),
-    };
+    return toXPost(JSON.parse(text) as Syndicated, id);
   } catch {
     return null;
   }
+}
+
+/**
+ * A quote post usually rides on the post it quotes, so feature the original. The quote only
+ * wins when it is the viral thing itself: it brought its own photo or video and out-liked the original.
+ */
+export function originalPost(post: XPost): XPost {
+  const q = post.quoted;
+  if (!q || (post.hasOwnMedia && post.likes > q.likes)) return post;
+  return originalPost(q);
 }
 
 export function compactNumber(n: number): string {
@@ -135,7 +159,9 @@ export async function enrichStory(date: string, headlines: Headline[], maxArticl
     const post = await lookupXPost(id);
     if (!post) continue;
     const day = archiveDateOf(post.createdAt);
-    if (day >= windowStart && day <= windowEnd) xPosts.push(post);
+    if (day < windowStart || day > windowEnd) continue;
+    const featured = originalPost(post);
+    if (!xPosts.some((p) => p.url === featured.url)) xPosts.push(featured);
   }
   xPosts.sort((a, b) => languageRank(a) - languageRank(b) || b.likes - a.likes);
 
