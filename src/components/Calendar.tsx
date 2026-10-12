@@ -338,7 +338,7 @@ function DayDrawer({
         </header>
         <div className="flex-1 space-y-12 px-6 py-6">
           {ordered.map((item) => (
-            <ItemDetail key={item.id} item={item} />
+            <ItemDetail key={item.id} item={item} date={date} />
           ))}
         </div>
       </div>

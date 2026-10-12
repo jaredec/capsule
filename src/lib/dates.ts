@@ -81,6 +81,13 @@ export function formatLongDate(iso: string): string {
   return `${weekday}, ${MONTH_NAMES[month - 1]} ${day}, ${year}`;
 }
 
+/** "Oct 8", with the year only when it differs from `relativeTo`'s. */
+export function formatShortDate(iso: string, relativeTo?: string): string {
+  const { year, month, day } = parseIsoDate(iso);
+  const short = `${MONTH_NAMES[month - 1].slice(0, 3)} ${day}`;
+  return relativeTo && parseIsoDate(relativeTo).year !== year ? `${short}, ${year}` : short;
+}
+
 /** Leading nulls pad the first week so day 1 lands on its weekday column. */
 export function monthGrid(year: number, month: number): (string | null)[] {
   const cells: (string | null)[] = Array(weekdayOf(year, month, 1)).fill(null);

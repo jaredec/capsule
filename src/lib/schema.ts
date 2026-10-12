@@ -75,6 +75,8 @@ export const itemSchema = z.object({
       verified: z.boolean(),
       avatar: z.string().startsWith("/media/").nullable(),
       text: z.string(),
+      /** When the post went up; it can fall on a different day than the one it's filed under. */
+      postedAt: z.string().optional(),
     })
     .optional(),
   collectedBy: z.string().min(1),

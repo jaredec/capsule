@@ -44,7 +44,7 @@ export default async function DayRoute({ params }: PageProps<"/day/[date]">) {
 
       <div className="mt-8 space-y-14">
         {day.items.map((item) => (
-          <ItemDetail key={item.id} item={item} />
+          <ItemDetail key={item.id} item={item} date={date} />
         ))}
       </div>
 

@@ -355,7 +355,14 @@ export async function attachMedia(
   const post = xId ? await lookupXPost(xId) : null;
   const out: Item = { ...item };
   if (post) {
-    out.post = { name: post.name, handle: post.handle, verified: post.verified, avatar: await storeAvatar(post), text: post.text };
+    out.post = {
+      name: post.name,
+      handle: post.handle,
+      verified: post.verified,
+      avatar: await storeAvatar(post),
+      text: post.text,
+      postedAt: new Date(post.createdAt).toISOString(),
+    };
   }
   const from = item.image?.from ?? "";
   if (imageUrl ? from !== imageUrl : frameAt !== undefined && !from.endsWith(`#t=${frameAt}`)) redoImage = true;
