@@ -1,6 +1,6 @@
 import { KINDS, type Platform } from "../../src/lib/schema";
 
-const API_URL = "https://api.x.ai/v1/responses";
+const API_URL = `${process.env.XAI_BASE_URL ?? "https://api.x.ai/v1"}/responses`;
 
 export type Candidate = {
   title: string;

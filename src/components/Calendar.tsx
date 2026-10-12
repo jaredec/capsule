@@ -16,16 +16,18 @@ type Props = {
   nextHref: string | null;
 };
 
-type DayState = "archived" | "today" | "future" | "missing" | "unknown";
+type DayState = "archived" | "filtered" | "today" | "future" | "missing" | "unknown";
 
-function dayState(date: string, hasItems: boolean, today: string | null): DayState {
-  if (hasItems) return "archived";
+function dayState(date: string, hasVisible: boolean, hasAny: boolean, today: string | null): DayState {
+  if (hasVisible) return "archived";
+  if (hasAny) return "filtered";
   if (!today) return "unknown";
   if (date === today) return "today";
   return date > today ? "future" : "missing";
 }
 
 const EMPTY_LABEL: Record<Exclude<DayState, "archived">, string> = {
+  filtered: "No pick on this platform",
   today: "Collecting…",
   future: "",
   missing: "Not archived yet",
@@ -113,7 +115,7 @@ export function Calendar({ year, month, itemsByDate, prevHref, nextHref }: Props
                 key={date}
                 date={date}
                 items={visible[date] ?? []}
-                state={dayState(date, Boolean(visible[date]), today)}
+                state={dayState(date, Boolean(visible[date]), Boolean(itemsByDate[date]), today)}
                 isToday={date === today}
                 onOpen={() => setSelected(date)}
               />
@@ -130,7 +132,7 @@ export function Calendar({ year, month, itemsByDate, prevHref, nextHref }: Props
           .filter((d): d is string => d !== null)
           .map((date) => {
             const items = visible[date] ?? [];
-            const state = dayState(date, items.length > 0, today);
+            const state = dayState(date, items.length > 0, Boolean(itemsByDate[date]), today);
             if (state === "future") return null;
             return (
               <li key={date}>

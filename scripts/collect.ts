@@ -44,6 +44,7 @@ function resolveDates(): { dates: string[]; refresh: boolean } {
   if (values.date) {
     const date = values.date === "today" ? today : values.date === "yesterday" ? addDays(today, -1) : values.date;
     if (!isValidIsoDate(date)) fail(`invalid --date ${values.date}`);
+    if (date > today) fail(`--date ${date} is in the future`);
     return { dates: [date], refresh: values.refresh };
   }
   if (values.from || values.to) {
