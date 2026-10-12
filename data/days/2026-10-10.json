@@ -13,11 +13,11 @@
         "tv",
         "comic-con"
       ],
-      "author": "@garfielwds",
-      "sourceUrl": "https://x.com/garfielwds/status/2108817184520548530",
+      "author": "@MediumSizeMeech",
+      "sourceUrl": "https://x.com/MediumSizeMeech/status/2108985330485616935",
       "metrics": {
-        "likes": "19.7K",
-        "replies": "99"
+        "likes": "43.7K",
+        "replies": "15"
       },
       "references": [
         {
@@ -41,6 +41,15 @@
         "category": "celebrity",
         "crossover": false
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T03:25:08.265Z",
+      "post": {
+        "name": "Meech",
+        "handle": "@MediumSizeMeech",
+        "verified": false,
+        "avatar": "/media/avatars/mediumsizemeech.webp",
+        "text": "Gays: “Tom Welling naked!”\n\nThe photo of Tom Welling naked:"
+      },
       "image": {
         "src": "/media/2026-10-10/2026-10-10-x-tom-welling-s-hello-nycc-skyline-photo-shows-mor.webp",
         "width": 688,
@@ -52,16 +61,7 @@
           "w": 0.8,
           "h": 0.6
         }
-      },
-      "post": {
-        "name": "paulo",
-        "handle": "@garfielwds",
-        "verified": false,
-        "avatar": "/media/avatars/garfielwds.webp",
-        "text": "nao tô aguentando com o tom welling gigolando pelado nos storys do nada"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:41:37.791Z"
+      }
     }
   ]
 }

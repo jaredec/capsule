@@ -2,67 +2,58 @@
   "date": "2026-10-05",
   "items": [
     {
-      "id": "2026-10-05-x-nicole-kidman-lip-syncs-nicole-kidman-at-chanel-",
+      "id": "2026-10-05-x-ai-rumpelstiltskin-goes-tip-toein-in-my-jordans",
       "platform": "x",
       "rank": 1,
-      "title": "Nicole Kidman lip-syncs 'Nicole Kidman' at Chanel with Dua and Pedro",
-      "summary": "Before Chanel's Spring/Summer 2027 show in Paris, Kristen Wiig, Pedro Pascal and Dua Lipa passed a phone down the front row lip-syncing ADELA's viral song 'Nicole Kidman', ending on Kidman herself mouthing her own name and blowing a kiss. Chanel posted the clip to TikTok, where it drew about 1.6 million likes and close to 95,000 shares. It became the definitive entry in a trend built on the song, and fans loved that the song's namesake joined in.",
+      "title": "AI Rumpelstiltskin goes 'Tip Toein' In My Jordans'",
+      "summary": "An AI-generated clip styled like a 1980s fantasy film, an imp tiptoeing around a crying woman in a barn before turning the straw into gold, was set to Riff Raff's 'Tip Toe Wing In My Jawwdinz' and took over feeds; one Oct 5 post asking what it was ('I am literally seeing it EVERYWHERE') drew 11,000 likes. Viewers hunted for the 'old movie' it came from before explainers confirmed it was AI, and users swapped in everyone from Supernatural's Sam and Dean to Asmongold.",
       "kind": "video",
       "tags": [
-        "celebrity",
-        "music",
-        "fashion",
-        "tiktok-trend"
+        "ai",
+        "meme-template",
+        "music"
       ],
-      "author": "@PopCrave",
-      "sourceUrl": "https://x.com/PopCrave/status/2107274961832509496",
+      "author": "@SharrellAnne2",
+      "sourceUrl": "https://x.com/SharrellAnne2/status/2107181948984524832",
       "metrics": {
-        "likes": "172.6K",
-        "replies": "421"
+        "likes": "11.5K",
+        "replies": "746"
       },
       "references": [
         {
-          "title": "Watch: TikTok goes wild as A-listers help Nicole Kidman recreate viral meme",
-          "url": "https://evoke.ie/2026/10/06/entertainment/celebrity/nicole-kidman-meme"
-        },
-        {
-          "title": "Dua Lipa, Kristen Wiig, Pedro Pascal stun at Chanel show with viral 'Nicole Kidman' trend",
-          "url": "https://jang.com.pk/en/74244-dua-lipa-kristen-wiig-pedro-pascal-stun-at-chanel-show-with-viral-nicole-kidman-trend-news"
-        },
-        {
-          "title": "Pedro Pascal, Dua Lipa, Kristen Wiig bring befitting twist to TikTok trend",
-          "url": "https://www.geo.tv/latest/685249-pedro-pascal-dua-lipa-kristen-wiig-bring-befitting-twist-to-tiktok-trend"
+          "title": "Creepy backstory behind 'Rumpelstiltskin tiptoe' man that's taking over the internet",
+          "url": "https://www.ladbible.com/technology/rumpelstiltskin-meme-origin-ai-generated-129242-20261006"
         }
       ],
       "pulse": {
-        "score": 7.4,
-        "reach": 8,
+        "score": 7.5,
+        "reach": 7,
         "dominance": 7,
-        "memeability": 7,
-        "category": "celebrity",
+        "memeability": 9,
+        "category": "internet-culture",
         "crossover": false
       },
-      "image": {
-        "src": "/media/2026-10-05/2026-10-05-x-nicole-kidman-lip-syncs-nicole-kidman-at-chanel-.webp",
-        "width": 720,
-        "height": 1280,
-        "from": "https://video.twimg.com/amplify_video/2107274931218313216/vid/avc1/720x1280/HF-pPJwcdjfJGhum.mp4#t=12.5",
-        "crop": {
-          "x": 0.12,
-          "y": 0.22,
-          "w": 0.76,
-          "h": 0.55
-        }
-      },
-      "post": {
-        "name": "Pop Crave",
-        "handle": "@PopCrave",
-        "verified": true,
-        "avatar": "/media/avatars/popcrave.webp",
-        "text": "Kristen Wiig, Pedro Pascal, Dua Lipa and Nicole Kidman herself doing a video to ADÉLA’s hit single, “Nicole Kidman.”"
-      },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:41:20.394Z"
+      "collectedAt": "2026-10-12T03:25:03.489Z",
+      "post": {
+        "name": "SharrellAnne",
+        "handle": "@SharrellAnne2",
+        "verified": true,
+        "avatar": "/media/avatars/sharrellanne2.webp",
+        "text": "Can somebody please explain this to me? I am literally seeing it EVERYWHERE, and every single time, it sends a chill down my spine. I have no idea what it is about this creepy little thing, but something about it is deeply unsettling. 😭"
+      },
+      "image": {
+        "src": "/media/2026-10-05/2026-10-05-x-ai-rumpelstiltskin-goes-tip-toein-in-my-jordans.webp",
+        "width": 720,
+        "height": 410,
+        "from": "https://video.twimg.com/amplify_video/2107181921063026688/vid/avc1/854x486/WB-5Xq-kaA523o7Z.mp4#t=5.5",
+        "crop": {
+          "x": 0.15,
+          "y": 0,
+          "w": 0.46,
+          "h": 1
+        }
+      }
     }
   ]
 }

@@ -41,6 +41,15 @@
         "category": "celebrity",
         "crossover": false
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T03:25:06.180Z",
+      "post": {
+        "name": "Gracie",
+        "handle": "@graciem120001",
+        "verified": true,
+        "avatar": "/media/avatars/graciem120001.webp",
+        "text": "Yes he does 😭"
+      },
       "image": {
         "src": "/media/2026-10-06/2026-10-06-x-skyler-gisondo-becomes-everyone-s-childhood-frie.webp",
         "width": 720,
@@ -52,78 +61,7 @@
           "w": 0.75,
           "h": 0.42
         }
-      },
-      "post": {
-        "name": "Gracie",
-        "handle": "@graciem120001",
-        "verified": true,
-        "avatar": "/media/avatars/graciem120001.webp",
-        "text": "Yes he does 😭"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:41:23.487Z"
-    },
-    {
-      "id": "2026-10-06-x-ai-rumpelstiltskin-goes-tip-toein-in-my-jordans",
-      "platform": "x",
-      "rank": 2,
-      "title": "AI Rumpelstiltskin goes 'Tip Toein' In My Jordans'",
-      "summary": "An AI-generated clip styled like an 1980s fantasy film, showing an imp dancing for a crying woman before turning straw into gold, was set to Riff Raff's 'Tip Toe Wing In My Jawwdinz' and became a meme template. Many viewers searched for the 'old movie' it came from before explainers confirmed it was AI. Users swapped in other characters, including Supernatural's Sam and Dean, and some re-enacted the dance in real life.",
-      "kind": "video",
-      "tags": [
-        "ai",
-        "meme-template",
-        "music"
-      ],
-      "author": "@guysocke",
-      "sourceUrl": "https://x.com/guysocke/status/2107628261761282497",
-      "metrics": {
-        "likes": "2.3K",
-        "replies": "15"
-      },
-      "references": [
-        {
-          "title": "An AI-generated Rumpelstiltskin meme is freaking out much of the internet",
-          "url": "https://www.nbcnews.com/tech/internet/ai-generated-rumpelstiltskin-meme-freaking-much-internet-rcna602132"
-        },
-        {
-          "title": "Creepy backstory behind 'Rumpelstiltskin tiptoe' man that's taking over the internet",
-          "url": "https://www.ladbible.com/technology/rumpelstiltskin-meme-origin-ai-generated-129242-20261006"
-        },
-        {
-          "title": "Is The Rumpelstiltskin 'Tip Toein' In My Jordans' Meme AI? The Viral '80s Fantasy Movie Memes Explained",
-          "url": "https://www.yahoo.com/entertainment/articles/rumpelstiltskin-tip-toein-jordans-meme-171500100.html"
-        }
-      ],
-      "pulse": {
-        "score": 7.5,
-        "reach": 7,
-        "dominance": 7,
-        "memeability": 9,
-        "category": "internet-culture",
-        "crossover": false
-      },
-      "image": {
-        "src": "/media/2026-10-06/2026-10-06-x-ai-rumpelstiltskin-goes-tip-toein-in-my-jordans.webp",
-        "width": 720,
-        "height": 410,
-        "from": "https://video.twimg.com/amplify_video/2107110694600495105/vid/avc1/854x486/4BckF1QBU6LZRjdS.mp4?tag=14#t=13.6",
-        "crop": {
-          "x": 0.16,
-          "y": 0,
-          "w": 0.43,
-          "h": 1
-        }
-      },
-      "post": {
-        "name": "Guy",
-        "handle": "@guysocke",
-        "verified": false,
-        "avatar": "/media/avatars/guysocke.webp",
-        "text": "*Police officer thinking he has me dead to rights on a DUI*\n\nMe, acing the field sobriety test:"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:41:26.027Z"
+      }
     }
   ]
 }

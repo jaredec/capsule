@@ -19,27 +19,6 @@
         "w": 0.75,
         "h": 0.42
       }
-    },
-    {
-      "title": "AI Rumpelstiltskin goes 'Tip Toein' In My Jordans'",
-      "summary": "An AI-generated clip styled like an 1980s fantasy film, showing an imp dancing for a crying woman before turning straw into gold, was set to Riff Raff's 'Tip Toe Wing In My Jawwdinz' and became a meme template. Many viewers searched for the 'old movie' it came from before explainers confirmed it was AI. Users swapped in other characters, including Supernatural's Sam and Dean, and some re-enacted the dance in real life.",
-      "kind": "video",
-      "tags": ["ai", "meme-template", "music"],
-      "category": "internet-culture",
-      "crossover": false,
-      "reach": 7,
-      "dominance": 7,
-      "memeability": 9,
-      "platform": "x",
-      "headlineIds": [56, 66, 247],
-      "sourceUrl": "https://x.com/guysocke/status/2107628261761282497",
-      "frameAt": 13.6,
-      "crop": {
-        "x": 0.16,
-        "y": 0,
-        "w": 0.43,
-        "h": 1
-      }
     }
   ]
 }
