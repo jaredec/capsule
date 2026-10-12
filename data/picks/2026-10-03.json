@@ -2,23 +2,22 @@
   "date": "2026-10-03",
   "stories": [
     {
-      "title": "Vivek Ramaswamy nearly drops a kid at a Trump rally: \"Big guy!\"",
-      "summary": "At a Trump rally in Vandalia, Ohio, gubernatorial candidate Vivek Ramaswamy called 10-year-old Hunter up to the podium, announced \"I'm going to pick you up\" and hoisted him, only for the boy to tip sideways as Ramaswamy staggered and blurted \"Whoa! Big guy!\" The clip racked up millions of views, drew comparisons to Dukakis in the tank and got roasted by Jimmy Fallon.",
-      "kind": "video",
-      "tags": ["politics", "awkward", "rally"],
-      "category": "politics",
-      "crossover": true,
-      "reach": 7,
+      "title": "Street View shows McDonald’s losing its color, 2009 to 2025",
+      "summary": "A post put two Google Street View captures of the same McDonald’s side by side: a red roof, balloons and flower beds in October 2009, and a flat grey box in October 2025. It asked \"I want someone to explain to me why the colors disappeared\" and passed 20 million views. Thousands of replies and quote posts offered answers, from buildings that are easier to resell and the end of marketing to kids to minimalism, greed, or simply \"we grew up, McDonald’s did too.\"",
+      "kind": "image",
+      "tags": ["mcdonalds", "nostalgia", "street-view", "architecture"],
+      "category": "everyday-life",
+      "crossover": false,
+      "reach": 8,
       "dominance": 7,
-      "memeability": 8,
+      "memeability": 7,
       "platform": "x",
-      "headlineIds": [43],
-      "sourceUrl": "https://x.com/Acyn/status/2106507025274569114",
-      "frameAt": 2.65,
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/Nexiraluv/status/2106432033975410971",
       "crop": {
-        "x": 0.32,
+        "x": 0.096,
         "y": 0,
-        "w": 0.42,
+        "w": 0.808,
         "h": 1
       }
     }

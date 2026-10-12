@@ -2,71 +2,9 @@
   "date": "2026-10-08",
   "items": [
     {
-      "id": "2026-10-08-x-susan-dell-s-frozen-oval-office-face-sets-off-ma",
-      "platform": "x",
-      "rank": 1,
-      "title": "Susan Dell's 'frozen' Oval Office face sets off Mar-a-Lago face jokes",
-      "summary": "Philanthropist Susan Dell stood beside President Trump in the Oval Office to promote the Dells' $6.25 billion pledge to Trump Accounts, but viewers fixated on her still expressions and makeup instead. Clips spread across X with 'NPC', 'robot' and 'reptilian' comparisons and jokes like 'someone at the White House needs to hit CTRL + ALT + DELETE.' The moment revived the 'Mar-a-Lago face' meme, while others pushed back on mocking her appearance.",
-      "kind": "video",
-      "tags": [
-        "appearance",
-        "white-house",
-        "mar-a-lago-face"
-      ],
-      "author": "@iluminatibot",
-      "sourceUrl": "https://x.com/iluminatibot/status/2107998875013558782",
-      "metrics": {
-        "likes": "68.4K",
-        "replies": "2.7K"
-      },
-      "references": [
-        {
-          "title": "Dell CEO's Wife Goes Viral For 'Frozen' Look During Event With Trump",
-          "url": "https://www.ndtv.com/offbeat/dell-ceos-wife-susan-dells-appearance-at-white-house-sparks-social-media-frenzy-12157221"
-        },
-        {
-          "title": "Who Is Susan Dell? All About the Woman Whose Face Is Going Viral",
-          "url": "https://radaronline.com/p/susan-dell-ceo-wife-whose-white-house-appearance-is-going-viral/"
-        },
-        {
-          "title": "\"There's Too Many\": After Susan Dell's Transformation Sparked Frenzy, People Are Noting A Troubling Pattern",
-          "url": "https://www.boredpanda.com/after-susan-dell-transformation-frenzy-people-note-troubling-pattern/"
-        }
-      ],
-      "pulse": {
-        "score": 7,
-        "reach": 7,
-        "dominance": 7,
-        "memeability": 7,
-        "category": "internet-culture",
-        "crossover": true
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T04:25:08.321Z",
-      "post": {
-        "name": "illuminatibot",
-        "handle": "@iluminatibot",
-        "verified": true,
-        "avatar": "/media/avatars/iluminatibot.webp",
-        "text": "The aliens are already here!"
-      },
-      "image": {
-        "src": "/media/2026-10-08/2026-10-08-x-susan-dell-s-frozen-oval-office-face-sets-off-ma.webp",
-        "width": 720,
-        "height": 1280,
-        "from": "https://video.twimg.com/amplify_video/2107922499816321024/vid/avc1/720x1280/gL8AgEyGGZ1Fve0V.mp4#t=26.2",
-        "crop": {
-          "x": 0.1,
-          "y": 0.04,
-          "w": 0.8,
-          "h": 0.6
-        }
-      }
-    },
-    {
       "id": "2026-10-08-x-druski-s-that-s-so-zion-skit-roasts-grown-up-dis",
       "platform": "x",
-      "rank": 2,
+      "rank": 1,
       "title": "Druski's \"That's So Zion\" skit roasts grown-up Disney child stars",
       "summary": "Druski posted a sketch as Zion, the unhinged adult star of a fake Disney Channel sitcom called \"That's So Zion,\" captioned \"Kid Stars growup & be so Unpredictable.\" Viewers decided he had played Raven-Symone, Orlando Brown and JoJo Siwa all at once, and Raven-Symone herself weighed in. Replies quoted its lines and called it a speedrun of every child-star meltdown phase.",
       "kind": "video",
@@ -96,7 +34,7 @@
         "crossover": false
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T04:25:09.438Z",
+      "collectedAt": "2026-10-12T04:43:40.044Z",
       "post": {
         "name": "DRUSKI",
         "handle": "@druski",
@@ -108,12 +46,12 @@
         "src": "/media/2026-10-08/2026-10-08-x-druski-s-that-s-so-zion-skit-roasts-grown-up-dis.webp",
         "width": 720,
         "height": 1280,
-        "from": "https://video.twimg.com/amplify_video/2108331387124109312/vid/avc1/720x1280/sENV-_rN577_jeJt.mp4#t=67.2",
+        "from": "https://video.twimg.com/amplify_video/2108331387124109312/vid/avc1/720x1280/sENV-_rN577_jeJt.mp4#t=59.6",
         "crop": {
           "x": 0,
-          "y": 0.12,
+          "y": 0.13,
           "w": 1,
-          "h": 0.58
+          "h": 0.75
         }
       }
     }

@@ -2,55 +2,51 @@
   "date": "2026-10-03",
   "items": [
     {
-      "id": "2026-10-03-x-vivek-ramaswamy-nearly-drops-a-kid-at-a-trump-ra",
+      "id": "2026-10-03-x-street-view-shows-mcdonald-s-losing-its-color-20",
       "platform": "x",
       "rank": 1,
-      "title": "Vivek Ramaswamy nearly drops a kid at a Trump rally: \"Big guy!\"",
-      "summary": "At a Trump rally in Vandalia, Ohio, gubernatorial candidate Vivek Ramaswamy called 10-year-old Hunter up to the podium, announced \"I'm going to pick you up\" and hoisted him, only for the boy to tip sideways as Ramaswamy staggered and blurted \"Whoa! Big guy!\" The clip racked up millions of views, drew comparisons to Dukakis in the tank and got roasted by Jimmy Fallon.",
-      "kind": "video",
+      "title": "Street View shows McDonald’s losing its color, 2009 to 2025",
+      "summary": "A post put two Google Street View captures of the same McDonald’s side by side: a red roof, balloons and flower beds in October 2009, and a flat grey box in October 2025. It asked \"I want someone to explain to me why the colors disappeared\" and passed 20 million views. Thousands of replies and quote posts offered answers, from buildings that are easier to resell and the end of marketing to kids to minimalism, greed, or simply \"we grew up, McDonald’s did too.\"",
+      "kind": "image",
       "tags": [
-        "politics",
-        "awkward",
-        "rally"
+        "mcdonalds",
+        "nostalgia",
+        "street-view",
+        "architecture"
       ],
-      "author": "@Acyn",
-      "sourceUrl": "https://x.com/Acyn/status/2106507025274569114",
+      "author": "@Nexiraluv",
+      "sourceUrl": "https://x.com/Nexiraluv/status/2106432033975410971",
       "metrics": {
-        "likes": "18K",
-        "replies": "1.6K"
+        "likes": "255.5K",
+        "replies": "7.3K"
       },
-      "references": [
-        {
-          "title": "Ohio Gubernatorial Candidate Vivek Ramaswamy Goes Viral After Awkward Moment With 10-Year-Old at Trump Rally: ‘Big Guy!’",
-          "url": "https://thenerdstash.com/ohio-gubernatorial-candidate-vivek-ramaswamy-goes-viral-after-awkward-moment-with-10-year-old-at-trump-rally-big-guy/"
-        }
-      ],
+      "references": [],
       "pulse": {
-        "score": 6.5,
-        "reach": 7,
+        "score": 7.4,
+        "reach": 8,
         "dominance": 7,
-        "memeability": 8,
-        "category": "politics",
-        "crossover": true
+        "memeability": 7,
+        "category": "everyday-life",
+        "crossover": false
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T03:31:37.238Z",
+      "collectedAt": "2026-10-12T04:43:39.100Z",
       "post": {
-        "name": "Acyn",
-        "handle": "@Acyn",
+        "name": "𝒩 𝑒 𝒙",
+        "handle": "@Nexiraluv",
         "verified": true,
-        "avatar": "/media/avatars/acyn.webp",
-        "text": "Ramaswamy: I’m going to pick you up. *almost drops kid*"
+        "avatar": "/media/avatars/nexiraluv.webp",
+        "text": "I want someone to explain to me why the colors disappeared"
       },
       "image": {
-        "src": "/media/2026-10-03/2026-10-03-x-vivek-ramaswamy-nearly-drops-a-kid-at-a-trump-ra.webp",
+        "src": "/media/2026-10-03/2026-10-03-x-street-view-shows-mcdonald-s-losing-its-color-20.webp",
         "width": 720,
-        "height": 406,
-        "from": "https://video.twimg.com/amplify_video/2106506990654820352/vid/avc1/1278x720/aS7yd11RYPYeurKQ.mp4#t=2.65",
+        "height": 776,
+        "from": "https://x.com/Nexiraluv/status/2106432033975410971#photos",
         "crop": {
-          "x": 0.32,
+          "x": 0.096,
           "y": 0,
-          "w": 0.42,
+          "w": 0.808,
           "h": 1
         }
       }
