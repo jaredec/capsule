@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-24",
+  "items": [
+    {
+      "id": "2026-09-24-x-let-s-watch-influencer-breakup-videos-and-pick-s",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"Let’s Watch Influencer Breakup Videos and Pick Sides\"",
+      "summary": "A screenshot of YouTuber The Lucas Lounge grinning ear to ear with open arms next to somber influencer breakup thumbnails quickly became an emblem of internet schadenfreude. Captioned simply \"LMFAO???\", the post hit over 660K likes as viewers celebrated the shameless monetization of creator drama.",
+      "kind": "image",
+      "tags": [
+        "lucas-lounge",
+        "influencers",
+        "breakup-videos",
+        "youtube"
+      ],
+      "author": "@technicoluor",
+      "sourceUrl": "https://x.com/technicoluor/status/2103176478322205037",
+      "metrics": {
+        "likes": "664.4K",
+        "replies": "1K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 8.3,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 9,
+        "category": "internet-culture",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-24/2026-09-24-x-let-s-watch-influencer-breakup-videos-and-pick-s.webp",
+        "width": 720,
+        "height": 585,
+        "from": "https://pbs.twimg.com/media/HS_72-kWcAAQIlE.jpg?name=medium",
+        "crop": {
+          "x": 0.25,
+          "y": 0,
+          "w": 0.61,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "ari",
+        "handle": "@technicoluor",
+        "verified": false,
+        "avatar": "/media/avatars/technicoluor.webp",
+        "text": "LMFAO???",
+        "postedAt": "2026-09-24T17:35:22.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T07:35:25.531Z"
+    }
+  ]
+}

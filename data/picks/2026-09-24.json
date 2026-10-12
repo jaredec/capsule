@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-24",
+  "stories": [
+    {
+      "title": "\"Let’s Watch Influencer Breakup Videos and Pick Sides\"",
+      "summary": "A screenshot of YouTuber The Lucas Lounge grinning ear to ear with open arms next to somber influencer breakup thumbnails quickly became an emblem of internet schadenfreude. Captioned simply \"LMFAO???\", the post hit over 660K likes as viewers celebrated the shameless monetization of creator drama.",
+      "kind": "image",
+      "tags": ["lucas-lounge", "influencers", "breakup-videos", "youtube"],
+      "category": "internet-culture",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 9,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/technicoluor/status/2103176478322205037",
+      "crop": {
+        "x": 0.25,
+        "y": 0,
+        "w": 0.61,
+        "h": 1
+      }
+    }
+  ]
+}

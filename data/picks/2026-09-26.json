@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-26",
+  "stories": [
+    {
+      "title": "\"You cannot be that tired\"",
+      "summary": "A photo of a neighborhood tabby cat completely knocked out on its back in the dirt, neck arched backward against a wooden garden bed, struck a universal chord of exhaustion. The post racked up over 200K likes as users declared the deeply sleeping feline the ultimate weekend mood.",
+      "kind": "image",
+      "tags": ["sleeping-cat", "tired", "cats-of-x", "weekend-mood"],
+      "category": "animals",
+      "crossover": true,
+      "reach": 7,
+      "dominance": 7,
+      "memeability": 8,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/prodmiroh/status/2103777542985371951",
+      "crop": {
+        "x": 0.05,
+        "y": 0.45,
+        "w": 0.9,
+        "h": 0.55
+      }
+    }
+  ]
+}

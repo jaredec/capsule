@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-25",
+  "items": [
+    {
+      "id": "2026-09-25-x-i-was-being-very-normal-about-these-until-i-saw-",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"I was being very normal about these until I saw them stack\"",
+      "summary": "When design account @dollbodydoesoul shared photos of ceramic cups by Sara Gaia, the individual vessel seemed innocent enough—until the second slide showed them stacked into a curvy, bamboo-joint silhouette. The post amassed over 720K likes as users marveled at the suggestive silhouette created by nesting ceramics.",
+      "kind": "image",
+      "tags": [
+        "ceramics",
+        "sara-gaia",
+        "stacking-cups",
+        "design"
+      ],
+      "author": "@dollbodydoesoul",
+      "sourceUrl": "https://x.com/dollbodydoesoul/status/2103462270680317980",
+      "metrics": {
+        "likes": "721.6K",
+        "replies": "592"
+      },
+      "references": [],
+      "pulse": {
+        "score": 8.3,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 9,
+        "category": "internet-culture",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-25/2026-09-25-x-i-was-being-very-normal-about-these-until-i-saw-.webp",
+        "width": 676,
+        "height": 1200,
+        "from": "https://pbs.twimg.com/media/HTD_yTYWAAAvHxr.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0.249,
+          "w": 1,
+          "h": 0.751
+        }
+      },
+      "post": {
+        "name": "something something fashion",
+        "handle": "@dollbodydoesoul",
+        "verified": false,
+        "avatar": "/media/avatars/dollbodydoesoul.webp",
+        "text": "I was being very normal about these until I saw them stack",
+        "postedAt": "2026-09-25T12:31:00.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T07:35:26.104Z"
+    }
+  ]
+}
