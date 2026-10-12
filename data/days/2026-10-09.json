@@ -2,58 +2,117 @@
   "date": "2026-10-09",
   "items": [
     {
-      "id": "2026-10-09-x-dak-prescott-embarrassing",
-      "platform": "x",
+      "id": "2026-10-09-instagram-druski-s-that-s-so-zion-skit-roasts-grown-up-dis",
+      "platform": "instagram",
       "rank": 1,
-      "title": "\"Embarrassing\": Dak Prescott's tunnel side-eye at a heckler",
-      "summary": "After the Cowboys lost 24-16 at home to the previously winless Buccaneers on Thursday Night Football, a car service driver in the AT&T Stadium tunnel called the performance \"embarrassing\" as Dak Prescott walked by. Video of Prescott's long stare, his \"You say that once I look off, huh?\" reply and him asking staff to remove the man spread across X overnight. Fans split between \"give whoever said that a raise\" jokes and memes about the side-eye, and Prescott had to address it at his press conference.",
+      "title": "Druski's \"That's So Zion\" skit roasts grown-up Disney child stars",
+      "summary": "Druski posted a sketch as Zion, the unhinged adult star of a fake Disney Channel sitcom called \"That's So Zion,\" captioned \"Kid Stars growup & be so Unpredictable.\" Viewers decided he had played Raven-Symone, Orlando Brown and JoJo Siwa all at once, and Raven-Symone herself weighed in. Replies quoted its lines and called it a speedrun of every child-star meltdown phase.",
       "kind": "video",
-      "tags": ["sports", "nfl", "reaction"],
+      "tags": [
+        "comedy",
+        "celebrity",
+        "disney"
+      ],
       "author": null,
-      "sourceUrl": null,
+      "sourceUrl": "https://www.instagram.com/p/DeQCVZMxttd/",
       "references": [
         {
-          "title": "Dak Prescott takes issue with 'embarrassing' comment by heckler after Cowboys' shocking loss to Bucs - CBS Sports",
-          "url": "https://www.cbssports.com/nfl/news/dak-prescott-takes-issue-embarrassing-comment-cowboys-bucs/"
-        },
-        {
-          "title": "Twitter reactions to Cowboys loss, 'Embarrassing' Dak dimes out critic - Cowboys Wire",
-          "url": "https://cowboyswire.usatoday.com/story/sports/nfl/cowboys/2026/10/09/cowboys-bucs-week-twitter-reactions-stadium-worker/92166734007/"
-        },
-        {
-          "title": "'Why's He Upset?' 'Give Whoever Said That a Raise' — NFL Fans React as Dak Prescott Gets Heckled by Cowboys Employee With Cutting 1-Word Jab",
-          "url": "https://www.profootballnetwork.com/fans-reaction-cowboys-dak-prescott-heckled-employee/"
+          "title": "Raven-Symoné Enters The Chat After Druski Seemingly Impersonates Her In Viral Disney Stars Skit (VIDEO)",
+          "url": "https://theshaderoom.com/listicle/raven-symone-reacts-druski-disney-stars-skit-instagram-video-the-shade-room/"
         }
       ],
-      "collectedBy": "web-research",
-      "collectedAt": "2026-10-12T02:00:00Z"
+      "pulse": {
+        "score": 6.9,
+        "reach": 6,
+        "dominance": 7,
+        "memeability": 8,
+        "category": "pop-culture",
+        "crossover": false
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:16:50.883Z"
     },
     {
-      "id": "2026-10-09-instagram-druski-thats-so-zion",
-      "platform": "instagram",
+      "id": "2026-10-09-x-embarrassing-tunnel-heckler-gets-under-dak-presc",
+      "platform": "x",
       "rank": 2,
-      "title": "Druski's \"That's So Zion\" former child star parody",
-      "summary": "Druski dropped a two-minute sketch as Zion, the grown-up star of a fake Disney Channel sitcom called \"That's So Zion\", captioned \"Kid stars grow up and be so unpredictable.\" Viewers immediately read it as Raven-Symoné, Orlando Brown and JoJo Siwa rolled into one character. His Instagram comments filled with jokes that Raven would be coming for him next, while DJ Vlad complained that AI was used to recreate his voice.",
+      "title": "\"Embarrassing\": tunnel heckler gets under Dak Prescott's skin",
+      "summary": "After the Cowboys lost at home to the previously winless Buccaneers, a car-service driver in the AT&T Stadium tunnel said \"Embarrassing\" as Dak Prescott walked past, and Prescott shot back and had him removed. Clips from several angles spread overnight, and Prescott's postgame line that the man was \"not wrong\" but shouldn't look away kept it going. Fans piled on with Dak memes, and the one-word heckle stuck as the verdict on Dallas's start.",
       "kind": "video",
-      "tags": ["comedy", "celebrity", "sketch"],
+      "tags": [
+        "nfl",
+        "cowboys",
+        "heckler"
+      ],
+      "author": "@SamGannon87",
+      "sourceUrl": "https://x.com/SamGannon87/status/2108397722348716044",
+      "metrics": {
+        "likes": "25.1K",
+        "replies": "960"
+      },
+      "references": [
+        {
+          "title": "Cowboys' Dak Prescott Addresses Viral Video of Person Yelling 'Embarrassing' After Loss to Bucs",
+          "url": "https://bleacherreport.com/articles/25508420-cowboys-dak-prescott-addresses-viral-video-person-yelling-embarrassing-after-loss-bucs"
+        },
+        {
+          "title": "What did Dak Prescott say after Cowboys employee called loss embarrassing? Viral video explained",
+          "url": "https://en.as.com/nfl/what-did-dak-prescott-say-after-cowboys-employee-called-loss-embarrassing-viral-video-explained-f202610-n/?outputType"
+        },
+        {
+          "title": "Dallas Cowboys fans leave ruthless comments for TE's wife after terrible game, Dak memes & Jerry's mad",
+          "url": "https://www.foxnews.com/outkick-sports/dallas-cowboys-fans-leave-ruthless-comments-te-wife-terrible-game-dak-memes-jerry-mad"
+        }
+      ],
+      "pulse": {
+        "score": 6.1,
+        "reach": 7,
+        "dominance": 7,
+        "memeability": 6,
+        "category": "sports",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:16:54.128Z"
+    },
+    {
+      "id": "2026-10-09-x-ohio-blogger-found-guilty-over-a-lewd-shrek-meme",
+      "platform": "x",
+      "rank": 3,
+      "title": "Ohio blogger found guilty over a lewd Shrek meme",
+      "summary": "A jury in Willoughby, Ohio, took about 30 minutes to convict political blogger D.J. Byrnes, \"The Rooster,\" of telecommunications harassment for texting a state senator an explicit Shrek image; he was fined $200. The prosecutor projecting the naked Shrek onto the courtroom wall and the free-speech debate made the verdict an absurd headline that spread well beyond Ohio.",
+      "kind": "image",
+      "tags": [
+        "shrek",
+        "court",
+        "free-speech"
+      ],
       "author": null,
       "sourceUrl": null,
       "references": [
         {
-          "title": "Druski Hilariously Takes on the Role of a Former Child Star in New Skit - Complex",
-          "url": "https://www.complex.com/pop-culture/a/backwoodsaltar/child-stars-druski-comedy-skit"
+          "title": "Blogger on Trial: Is a Lewd Image of Shrek Free Speech or Harassment?",
+          "url": "https://www.nytimes.com/2026/10/09/us/ohio-blogger-shrek-meme-trial.html"
         },
         {
-          "title": "Druski roasts child stars then cashes in with Gopuff - Rolling Out",
-          "url": "https://rollingout.com/2026/10/09/druski-roasts-child-stars-cashes-gopuff/"
+          "title": "Blogger Found Guilty of Harassment for Sending Shrek Penis Meme to Ohio State Senator",
+          "url": "https://gizmodo.com/blogger-found-guilty-of-harassment-for-sending-shrek-penis-meme-to-ohio-state-senator-2000824414"
         },
         {
-          "title": "Druski Appears To Take Shots At Former Child Stars In New Skit - The Shade Room",
-          "url": "https://theshaderoom.com/druski-appears-diss-former-child-stars-in-new-skit-fans-think-they-know-who-video/"
+          "title": "Rooster’s wings clipped: Ohio political blogger found guilty in explicit Shrek meme trial",
+          "url": "https://www.news5cleveland.com/news/politics/ohio-politics/roosters-wings-clipped-ohio-political-blogger-found-guilty-in-explicit-shrek-meme-trial"
         }
       ],
-      "collectedBy": "web-research",
-      "collectedAt": "2026-10-12T02:00:00Z"
+      "pulse": {
+        "score": 5,
+        "reach": 5,
+        "dominance": 5,
+        "memeability": 5,
+        "category": "internet-culture",
+        "crossover": false
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:16:55.076Z"
     }
   ]
 }
