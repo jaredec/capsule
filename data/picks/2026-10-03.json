@@ -2,22 +2,23 @@
   "date": "2026-10-03",
   "stories": [
     {
-      "title": "Street View shows McDonald’s losing its color, 2009 to 2025",
-      "summary": "A post put two Google Street View captures of the same McDonald’s side by side: a red roof, balloons and flower beds in October 2009, and a flat grey box in October 2025. It asked \"I want someone to explain to me why the colors disappeared\" and passed 20 million views. Thousands of replies and quote posts offered answers, from buildings that are easier to resell and the end of marketing to kids to minimalism, greed, or simply \"we grew up, McDonald’s did too.\"",
-      "kind": "image",
-      "tags": ["mcdonalds", "nostalgia", "street-view", "architecture"],
-      "category": "everyday-life",
+      "title": "Lindsay Lohan recreates \"It’s October 3rd\" for Mean Girls Day",
+      "summary": "On the unofficial Mean Girls Day, Lindsay Lohan posted a video of herself at a school desk delivering Cady Heron’s \"It’s October 3rd\" line to director Mark Waters standing in as Aaron Samuels, then cracking up. The clip passed 35 million views and 2 million likes on Instagram as fans flooded feeds with pink outfits, quotes and their own recreations of the scene.",
+      "kind": "video",
+      "tags": ["film", "nostalgia", "mean-girls"],
+      "category": "tv-film",
       "crossover": false,
-      "reach": 8,
+      "reach": 9,
       "dominance": 7,
-      "memeability": 7,
+      "memeability": 6,
       "platform": "x",
-      "headlineIds": [],
-      "sourceUrl": "https://x.com/Nexiraluv/status/2106432033975410971",
+      "headlineIds": [88],
+      "sourceUrl": "https://x.com/lindsaylohan/status/2106370548813218059",
+      "frameAt": 3,
       "crop": {
-        "x": 0.096,
+        "x": 0.29,
         "y": 0,
-        "w": 0.808,
+        "w": 0.42,
         "h": 1
       }
     }

@@ -2,11 +2,11 @@
   "date": "2026-10-10",
   "items": [
     {
-      "id": "2026-10-10-x-docteur-guerit-tout",
+      "id": "2026-10-10-x-c-est-le-docteur-guerit-tout-serge-veilleux-s-19",
       "platform": "x",
       "rank": 1,
-      "title": "\"C'est le docteur Guérit-tout\": Serge Veilleux's 1981 TV performance",
-      "summary": "An archival Quebec TV clip shows Serge Veilleux, a pint-sized 16-year-old who had received a kidney transplant four years earlier, belting the traditional Quebec folk song \"Le docteur Guérit-tout\" (\"C'est le docteur Guérit-tout, qui a un remède à tout\"), a comic call-and-response tune about a doctor who cures every ailment by cutting off another body part. The clip resurfaced and took over X on the evening of Oct 11, 2026. It had a first viral run on TikTok in late 2024, tied to the folklore show Soirée canadienne, when many viewers mistook the boy for actor Antoine Bertrand.",
+      "title": "\"C’est le docteur Guérit-tout\": Serge Veilleux’s 1981 TV performance",
+      "summary": "An archival clip from the Quebec folklore show Soirée canadienne shows Serge Veilleux, a pint-sized 16-year-old who had received a kidney transplant four years earlier, belting the traditional folk song \"Le docteur Guérit-tout\" (\"C’est le docteur Guérit-tout, qui a un remède à tout\"), a comic call-and-response tune about a doctor who cures every ailment by cutting off another body part. An English post captioned \"POV: You told a rude Québécois kid… that fries are better with ketchup than as poutine\" carried it far beyond Quebec, replies dug up who he was (he died in 2007), and even Pierre Poilievre quoted it.",
       "kind": "video",
       "tags": [
         "quebec",
@@ -14,32 +14,42 @@
         "music",
         "throwback"
       ],
-      "author": null,
-      "sourceUrl": null,
-      "references": [
-        {
-          "title": "LE DOCTEUR GUERIT-TOUT · Serge Veilleux (live 1981) · HD",
-          "url": "https://www.youtube.com/watch?v=qb4nEa64n0U"
-        },
-        {
-          "title": "Des gens croient avoir reconnu Antoine Bertrand à «Soirée canadienne» - Le Sac de chips",
-          "url": "https://www.lesacdechips.com/2024/12/02/des-gens-croient-avoir-reconnu-antoine-bertrand-a-soiree-canadienne"
-        }
-      ],
+      "author": "@UCCavalier",
+      "sourceUrl": "https://x.com/UCCavalier/status/2108182875120243177",
+      "metrics": {
+        "likes": "11.7K",
+        "replies": "655"
+      },
+      "references": [],
+      "pulse": {
+        "score": 6.7,
+        "reach": 7,
+        "dominance": 6,
+        "memeability": 7,
+        "category": "internet-culture",
+        "crossover": false
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T04:50:14.981Z",
+      "post": {
+        "name": "Upper Canadian Cavalier",
+        "handle": "@UCCavalier",
+        "verified": true,
+        "avatar": "/media/avatars/uccavalier.webp",
+        "text": "POV: You told a rude Québécois kid who gave you grief for daring to speak English that fries are better with ketchup than as poutine, so now he's folk-dancing to defend the village's honour."
+      },
       "image": {
-        "src": "/media/2026-10-10/2026-10-10-x-docteur-guerit-tout.webp",
+        "src": "/media/2026-10-10/2026-10-10-x-c-est-le-docteur-guerit-tout-serge-veilleux-s-19.webp",
         "width": 720,
-        "height": 405,
-        "from": "https://i.ytimg.com/vi/qb4nEa64n0U/maxresdefault.jpg",
+        "height": 548,
+        "from": "https://video.twimg.com/amplify_video/2107264295130042368/vid/avc1/946x720/dfAaU5t0zvNbbjxt.mp4#t=12",
         "crop": {
-          "x": 0.45,
+          "x": 0.21,
           "y": 0,
-          "w": 0.42,
+          "w": 0.57,
           "h": 1
         }
-      },
-      "collectedBy": "web-research",
-      "collectedAt": "2026-10-12T02:00:00Z"
+      }
     }
   ]
 }

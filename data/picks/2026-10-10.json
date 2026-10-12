@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-10",
+  "stories": [
+    {
+      "title": "\"C’est le docteur Guérit-tout\": Serge Veilleux’s 1981 TV performance",
+      "summary": "An archival clip from the Quebec folklore show Soirée canadienne shows Serge Veilleux, a pint-sized 16-year-old who had received a kidney transplant four years earlier, belting the traditional folk song \"Le docteur Guérit-tout\" (\"C’est le docteur Guérit-tout, qui a un remède à tout\"), a comic call-and-response tune about a doctor who cures every ailment by cutting off another body part. An English post captioned \"POV: You told a rude Québécois kid… that fries are better with ketchup than as poutine\" carried it far beyond Quebec, replies dug up who he was (he died in 2007), and even Pierre Poilievre quoted it.",
+      "kind": "video",
+      "tags": ["quebec", "tv", "music", "throwback"],
+      "category": "internet-culture",
+      "crossover": false,
+      "reach": 7,
+      "dominance": 6,
+      "memeability": 7,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/UCCavalier/status/2108182875120243177",
+      "frameAt": 12,
+      "crop": {
+        "x": 0.21,
+        "y": 0,
+        "w": 0.57,
+        "h": 1
+      }
+    }
+  ]
+}
