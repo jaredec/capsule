@@ -9,7 +9,7 @@ npm install
 npm run dev        # http://localhost:3000
 ```
 
-Days run midnight to midnight US Pacific time. The home page shows the latest archived month, with each day's pick shown as an image filling its cell, cropped to the part that matters; the author and title appear on hover. Click a day for details, or go to `/day/YYYY-MM-DD`. Month pages live at `/YYYY/MM`, and `?platform=x` filters any calendar view.
+Days run midnight to midnight US Pacific time. The home page shows the latest archived month, with each day's pick shown as an image filling its cell, cropped to the part that matters; the author and title appear on hover. Click a day to see its headline and X post, or go to `/day/YYYY-MM-DD`. Month pages live at `/YYYY/MM`, and `?platform=x` filters any calendar view.
 
 ## Layout
 
