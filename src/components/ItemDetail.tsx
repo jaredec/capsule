@@ -1,8 +1,8 @@
-import Image from "next/image";
 import { embedTarget } from "@/lib/embeds";
 import { PLATFORM_META } from "@/lib/platforms";
 import type { Item } from "@/lib/schema";
 import { Embed } from "./Embed";
+import { FittedImage } from "./FittedImage";
 
 export function PlatformBadge({ platform }: { platform: Item["platform"] }) {
   const meta = PLATFORM_META[platform];
@@ -54,16 +54,7 @@ export function ItemDetail({ item }: { item: Item }) {
       {target ? (
         <Embed target={target} title={item.title} />
       ) : (
-        item.image && (
-          <Image
-            src={item.image.src}
-            width={item.image.width}
-            height={item.image.height}
-            alt={item.title}
-            unoptimized
-            className="max-h-[28rem] w-full rounded-2xl bg-zinc-100 object-cover"
-          />
-        )
+        item.image && <FittedImage image={item.image} alt={item.title} className="aspect-video w-full rounded-2xl" />
       )}
 
       <div className="flex items-center gap-2">

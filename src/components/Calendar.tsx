@@ -7,6 +7,7 @@ import { MONTH_NAMES, WEEKDAYS_SHORT, formatLongDate, monthGrid, parseIsoDate } 
 import { usePlatformFilter, useToday } from "@/lib/hooks";
 import { PLATFORM_META } from "@/lib/platforms";
 import { PLATFORMS, type Item, type Platform } from "@/lib/schema";
+import { FittedImage } from "./FittedImage";
 import { ItemDetail } from "./ItemDetail";
 
 type Props = {
@@ -53,35 +54,21 @@ export function Calendar({ year, month, itemsByDate, prevHref, nextHref }: Props
 
   return (
     <>
-      <div className="flex items-end justify-between gap-4">
+      <div className="flex flex-wrap items-end justify-between gap-4">
         <h1 className="font-display text-4xl leading-none whitespace-nowrap text-zinc-900 sm:text-6xl md:text-7xl">
           {MONTH_NAMES[month - 1]} <span className="text-zinc-300">{year}</span>
         </h1>
-        <nav className="flex gap-2" aria-label="Month navigation">
-          <MonthLink href={prevHref} label="Previous month">
-            ←
-          </MonthLink>
-          <MonthLink href={nextHref} label="Next month">
-            →
-          </MonthLink>
-        </nav>
-      </div>
-
-      <div className="mt-6 flex flex-wrap gap-2" role="toolbar" aria-label="Filter by platform">
-        <FilterChip active={platform === null} onClick={() => setPlatform(null)}>
-          All
-        </FilterChip>
-        {PLATFORMS.map((p) => (
-          <FilterChip
-            key={p}
-            active={platform === p}
-            onClick={() => setPlatform(platform === p ? null : p)}
-            muted={counts[p] === 0}
-          >
-            <span className={`size-2 rounded-full ${PLATFORM_META[p].dot}`} />
-            {PLATFORM_META[p].label}
-          </FilterChip>
-        ))}
+        <div className="flex items-center gap-2">
+          <PlatformSelect value={platform} counts={counts} onChange={setPlatform} />
+          <nav className="flex gap-2" aria-label="Month navigation">
+            <MonthLink href={prevHref} label="Previous month">
+              ←
+            </MonthLink>
+            <MonthLink href={nextHref} label="Next month">
+              →
+            </MonthLink>
+          </nav>
+        </div>
       </div>
 
       {/* Desktop: month grid */}
@@ -155,53 +142,83 @@ function MonthLink({ href, label, children }: { href: string | null; label: stri
   );
 }
 
-function FilterChip({
-  active,
-  muted,
-  onClick,
-  children,
+function PlatformSelect({
+  value,
+  counts,
+  onChange,
 }: {
-  active: boolean;
-  muted?: boolean;
-  onClick: () => void;
-  children: React.ReactNode;
+  value: Platform | null;
+  counts: Record<Platform, number>;
+  onChange: (p: Platform | null) => void;
 }) {
   return (
-    <button
-      type="button"
-      onClick={onClick}
-      aria-pressed={active}
-      className={`inline-flex items-center gap-2 rounded-full border px-3.5 py-1.5 text-sm transition-colors ${
-        active
-          ? "border-zinc-900 bg-zinc-900 text-white"
-          : `border-zinc-200 bg-white hover:border-zinc-400 ${muted ? "text-zinc-400" : "text-zinc-700"}`
-      }`}
-    >
-      {children}
-    </button>
+    <label className="relative">
+      <span className="sr-only">Platform</span>
+      <select
+        value={value ?? ""}
+        onChange={(e) => onChange((e.target.value || null) as Platform | null)}
+        className="h-11 appearance-none rounded-full border border-zinc-300 bg-white pr-9 pl-4 text-sm text-zinc-700 hover:border-zinc-400 focus-visible:outline-2 focus-visible:outline-zinc-900"
+      >
+        <option value="">All platforms</option>
+        {PLATFORMS.map((p) => (
+          <option key={p} value={p} disabled={counts[p] === 0}>
+            {PLATFORM_META[p].label}
+            {counts[p] === 0 ? " (soon)" : ""}
+          </option>
+        ))}
+      </select>
+      <span aria-hidden className="pointer-events-none absolute top-1/2 right-4 -translate-y-1/2 text-xs text-zinc-400">
+        ▾
+      </span>
+    </label>
   );
 }
 
-function DayNumber({ day, isToday, onImage }: { day: number; isToday: boolean; onImage?: boolean }) {
-  const tone = isToday
-    ? "bg-zinc-900 font-semibold text-white"
-    : onImage
-      ? "bg-white/90 font-medium text-zinc-900 shadow-sm"
-      : "text-zinc-400";
-  return <span className={`grid size-7 place-items-center rounded-full text-sm tabular-nums ${tone}`}>{day}</span>;
+function DayNumber({ day, isToday }: { day: number; isToday: boolean }) {
+  return (
+    <span
+      className={`grid size-6 shrink-0 place-items-center rounded-full text-xs tabular-nums ${
+        isToday ? "bg-zinc-900 font-semibold text-white" : "font-medium text-zinc-400"
+      }`}
+    >
+      {day}
+    </span>
+  );
 }
 
-function PlatformDots({ items }: { items: Item[] }) {
+function VerifiedBadge() {
   return (
-    <span className="flex gap-1">
-      {[...new Set(items.map((i) => i.platform))].map((p) => (
-        <span
-          key={p}
-          title={PLATFORM_META[p].label}
-          className={`size-2 rounded-full ring-2 ring-white ${PLATFORM_META[p].dot}`}
-        />
-      ))}
-    </span>
+    <svg viewBox="0 0 22 22" aria-label="Verified" className="size-3.5 shrink-0 fill-sky-500">
+      <path d="M20.4 11c0-1.4-.8-2.6-2-3.2.4-1.3.1-2.8-.9-3.7-1-1-2.4-1.3-3.7-.9C13.2 2 12 1.2 10.6 1.2S8 2 7.4 3.2c-1.3-.4-2.8-.1-3.7.9-1 1-1.3 2.4-.9 3.7C1.6 8.4.8 9.6.8 11s.8 2.6 2 3.2c-.4 1.3-.1 2.8.9 3.7 1 1 2.4 1.3 3.7.9.6 1.2 1.8 2 3.2 2s2.6-.8 3.2-2c1.3.4 2.8.1 3.7-.9 1-1 1.3-2.4.9-3.7 1.2-.6 2-1.8 2-3.2zm-11.3 4.3L5.5 11.7l1.4-1.4 2.2 2.2 5-5 1.4 1.4-6.4 6.4z" />
+    </svg>
+  );
+}
+
+/** A day's top pick laid out like a compact X post: author, a line of text, then the media uncropped. */
+function PostCard({ item, day, isToday }: { item: Item; day: number; isToday: boolean }) {
+  const { post, image } = item;
+  const text = post?.text || item.title;
+  return (
+    <>
+      <span className="flex min-w-0 items-center gap-1.5">
+        <DayNumber day={day} isToday={isToday} />
+        {post && (
+          <>
+            {post.avatar ? (
+              <Image src={post.avatar} alt="" width={20} height={20} unoptimized className="size-5 shrink-0 rounded-full" />
+            ) : (
+              <span className="size-5 shrink-0 rounded-full bg-zinc-200" />
+            )}
+            <span className="truncate text-xs font-semibold text-zinc-900">{post.name}</span>
+            {post.verified && <VerifiedBadge />}
+          </>
+        )}
+      </span>
+      <span className={`mt-1 text-xs leading-snug text-zinc-600 ${image ? "line-clamp-2" : "line-clamp-[9]"}`}>
+        {text}
+      </span>
+      {image && <FittedImage image={image} className="mt-2 min-h-0 flex-1" />}
+    </>
   );
 }
 
@@ -224,7 +241,7 @@ function DayCell({
   if (!top) {
     return (
       <div
-        className={`flex aspect-[4/5] flex-col rounded-2xl p-2 ${
+        className={`flex aspect-[3/4] flex-col rounded-2xl p-2 ${
           state === "future" ? "border border-dashed border-zinc-200" : "bg-zinc-200/40"
         }`}
       >
@@ -239,37 +256,9 @@ function DayCell({
       type="button"
       onClick={onOpen}
       aria-label={`${formatLongDate(date)}: ${top.title}`}
-      className="group relative flex aspect-[4/5] flex-col overflow-hidden rounded-2xl bg-amber-50 p-2 text-left ring-1 ring-black/5 transition hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900"
+      className="flex aspect-[3/4] flex-col overflow-hidden rounded-2xl bg-white p-2 text-left ring-1 ring-black/5 transition hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900"
     >
-      {top.image ? (
-        <>
-          <Image
-            src={top.image.src}
-            alt=""
-            fill
-            unoptimized
-            className="object-cover transition duration-300 group-hover:scale-105"
-          />
-          <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-2.5 pt-10 text-[13px] font-medium leading-snug text-white opacity-0 transition group-hover:opacity-100 group-focus-visible:opacity-100">
-            <span className="line-clamp-3">{top.title}</span>
-          </span>
-        </>
-      ) : (
-        <span className="absolute inset-x-0 bottom-0 p-2.5 font-display text-lg leading-tight text-zinc-800">
-          <span className="line-clamp-4">{top.title}</span>
-        </span>
-      )}
-      <span className="relative flex items-center justify-between">
-        <DayNumber day={day} isToday={isToday} onImage={Boolean(top.image)} />
-        <span className="flex items-center gap-1.5">
-          {items.length > 1 && (
-            <span className="rounded-full bg-white/90 px-1.5 text-[11px] font-medium text-zinc-700 shadow-sm">
-              +{items.length - 1}
-            </span>
-          )}
-          <PlatformDots items={items} />
-        </span>
-      </span>
+      <PostCard item={top} day={day} isToday={isToday} />
     </button>
   );
 }
@@ -307,11 +296,12 @@ function AgendaRow({
       className="flex w-full items-center gap-3 rounded-2xl bg-white p-2 text-left ring-1 ring-black/5"
     >
       {dateLabel}
-      <div className="relative size-16 shrink-0 overflow-hidden rounded-xl bg-amber-50">
-        {top.image && <Image src={top.image.src} alt="" fill unoptimized className="object-cover" />}
-      </div>
+      {top.image ? (
+        <FittedImage image={top.image} className="size-16 shrink-0" />
+      ) : (
+        <div className="size-16 shrink-0 rounded-xl bg-zinc-100" />
+      )}
       <p className="line-clamp-2 min-w-0 flex-1 text-sm font-medium text-zinc-900">{top.title}</p>
-      {items.length > 1 && <span className="text-xs text-zinc-400">+{items.length - 1}</span>}
     </button>
   );
 }

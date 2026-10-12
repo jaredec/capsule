@@ -5,7 +5,6 @@ export type PlatformMeta = {
   label: string;
   /** Tailwind classes for the small badge shown on cards. */
   badge: string;
-  dot: string;
 };
 
 export const PLATFORM_META: Record<Platform, PlatformMeta> = {
@@ -13,30 +12,25 @@ export const PLATFORM_META: Record<Platform, PlatformMeta> = {
     id: "x",
     label: "X",
     badge: "bg-zinc-900 text-white",
-    dot: "bg-zinc-900",
   },
   tiktok: {
     id: "tiktok",
     label: "TikTok",
     badge: "bg-cyan-100 text-cyan-900",
-    dot: "bg-cyan-500",
   },
   instagram: {
     id: "instagram",
     label: "Instagram",
     badge: "bg-fuchsia-100 text-fuchsia-900",
-    dot: "bg-fuchsia-500",
   },
   reddit: {
     id: "reddit",
     label: "Reddit",
     badge: "bg-orange-100 text-orange-900",
-    dot: "bg-orange-500",
   },
   youtube: {
     id: "youtube",
     label: "YouTube",
     badge: "bg-red-100 text-red-900",
-    dot: "bg-red-500",
   },
 };
