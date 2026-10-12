@@ -26,11 +26,15 @@ const NICHE_CATEGORIES = new Set<Pulse["category"]>(["sports", "tech", "politics
 /**
  * Deterministic final score so the ranking rule is explicit and tunable, rather than
  * buried in the model's ordering. Sports/tech/politics/news only compete at full strength
- * when they crossed over into general meme culture.
+ * when they crossed over into general meme culture. Politics gets boosted by partisan accounts
+ * without reaching normal people, so it also needs near-total reach.
  */
 export function scoreStory(s: Pick<Story, "reach" | "dominance" | "memeability" | "category" | "crossover">): number {
   const base = 0.4 * s.reach + 0.35 * s.dominance + 0.25 * s.memeability;
-  const penalty = NICHE_CATEGORIES.has(s.category) ? (s.crossover ? 0.9 : 0.55) : 1;
+  const penalty =
+    s.category === "politics"
+      ? s.crossover && s.reach >= 9 ? 0.9 : 0.4
+      : NICHE_CATEGORIES.has(s.category) ? (s.crossover ? 0.9 : 0.55) : 1;
   return Math.round(base * penalty * 10) / 10;
 }
 
@@ -81,6 +85,7 @@ Editorial rules:
 - Prefer memes, pure internet absurdity, everyday-life drama, animals, food, brands, and pop culture moments people riffed on.
 - A celebrity story only counts when the celebrity became the joke or did something memeable that non-fans reposted for the laugh (a coach revealing a 12-year Minecraft city, an actor's old photo turned into a caption template, a comedian's skit). Fan-account content is NOT the pulse: red carpets, outfits, lip-syncs, thirst clips, cute candids, cast reunions, trailers, interviews, "X did Y and fans are losing it". For those set memeability and reach low.
 - Sports, tech/AI, business, and politics are normally NOT the pulse. Only set crossover=true when the moment became an instant meme shared by people who don't follow that world (e.g. a clip non-fans reposted for the joke, not for the game).
+- Politics almost never qualifies: political clips get boosted by partisan accounts and outlets without reaching normal people. This covers politicians, their families, and anyone who is only in the news because of a political event (an Oval Office guest, a rally moment). Only a mega-viral meme that everyone saw and remixed regardless of their politics counts, on the scale of the Marco Rubio couch meme; then set category=politics, crossover=true and reach 9 or 10. An awkward rally moment, a gaffe or a guest's odd appearance does not qualify.
 - Skip tragedies, crime, and local human-interest stories unless they became a genuine nationwide meme.
 - The story must have peaked on the target date (a US Pacific-time day). Headlines from the following day often recap the target day; use peakDay to say when it actually peaked.
 - Merge headlines about the same thing into one story and list all their ids in headlineIds (most informative first). Only cite ids from the list.
