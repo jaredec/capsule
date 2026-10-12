@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-06",
+  "stories": [
+    {
+      "title": "Skyler Gisondo becomes everyone's childhood friend, again",
+      "summary": "Skyler Gisondo's grinning 2015 Vacation red carpet photo returned as a meme format, captioned with hyper-specific childhood types like 'the kid you befriend at the hotel pool for the entire day and then never hear from again.' The Primetime actor joined in by switching his Instagram profile picture to the photo and joking that he had no peanut allergy but felt 'really seen.' A new batch using a photo of him holding a sleeping dog followed, and E! News, AOL and Yahoo all ran explainers.",
+      "kind": "image",
+      "tags": ["celebrity", "film", "nostalgia"],
+      "category": "celebrity",
+      "crossover": false,
+      "reach": 6,
+      "dominance": 7,
+      "memeability": 9,
+      "platform": "x",
+      "headlineIds": [10, 70, 63, 62]
+    },
+    {
+      "title": "AI Rumpelstiltskin goes 'Tip Toein' In My Jordans'",
+      "summary": "An AI-generated clip styled like an 1980s fantasy film, showing an imp dancing for a crying woman before turning straw into gold, was set to Riff Raff's 'Tip Toe Wing In My Jawwdinz' and became a meme template. Many viewers searched for the 'old movie' it came from before explainers confirmed it was AI. Users swapped in other characters, including Supernatural's Sam and Dean, and some re-enacted the dance in real life.",
+      "kind": "video",
+      "tags": ["ai", "meme-template", "music"],
+      "category": "internet-culture",
+      "crossover": false,
+      "reach": 7,
+      "dominance": 7,
+      "memeability": 9,
+      "platform": "tiktok",
+      "headlineIds": [56, 66, 247]
+    }
+  ]
+}

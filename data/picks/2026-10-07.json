@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-07",
+  "stories": [
+    {
+      "title": "Amazon's 'About You' page says you have flat buttocks",
+      "summary": "Shoppers discovered Amazon's beta 'About You' page, which lists conclusions drawn from purchases, searches and reviews, and began posting the strangest ones, such as 'has flat buttocks', 'husband has skinny legs' and 'treats cats as biological children.' A Threads post started a wave of people sharing their own profiles. Outlets ran how-to guides for finding yours, and the screenshots turned into a mix of comedy and privacy unease.",
+      "kind": "image",
+      "tags": ["amazon", "ai", "shopping", "screenshots"],
+      "category": "brands",
+      "crossover": false,
+      "reach": 8,
+      "dominance": 7,
+      "memeability": 8,
+      "platform": "instagram",
+      "headlineIds": [11, 87]
+    },
+    {
+      "title": "Zendaya stays seated to greet Brigitte Macron at Louis Vuitton",
+      "summary": "A Paris Match clip from the front row of Louis Vuitton's show at the Louvre showed Zendaya remaining seated while shaking hands with France's first lady Brigitte Macron, who had come over to say hello. One X post of the clip neared nine million views, with critics calling it rude and defenders saying she was caught off guard. Etiquette experts weighed in, and 'stand up, girl' replies filled the quote-posts.",
+      "kind": "video",
+      "tags": ["celebrity", "fashion", "etiquette"],
+      "category": "celebrity",
+      "crossover": false,
+      "reach": 7,
+      "dominance": 7,
+      "memeability": 5,
+      "platform": "x",
+      "headlineIds": [121, 117, 133]
+    }
+  ]
+}

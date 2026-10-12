@@ -2,31 +2,87 @@
   "date": "2026-10-07",
   "items": [
     {
-      "id": "2026-10-07-x-ai-rumpelstiltskin-tip-toein",
+      "id": "2026-10-07-x-amazon-s-about-you-page-says-you-have-flat-butto",
       "platform": "x",
       "rank": 1,
-      "title": "AI Rumpelstiltskin \"Tip Toein' In My Jordans\" takes over the internet",
-      "summary": "An AI-generated, '80s-fantasy-style clip of a creepy Rumpelstiltskin-like imp dancing for a crying princess, set to Riff Raff's \"Tip Toe Wing In My Jawwdinz,\" hit its mainstream peak on October 7, when NBC News and Know Your Meme both explained it. The footage looked so real that many people went hunting for the old movie it supposedly came from. Users swapped in everyone from Asmongold to Wednesday Addams and paired it with captions like sneaking downstairs at 2am. One early X post had reached 9.8 million views in five days.",
-      "kind": "video",
-      "tags": ["ai", "music", "remix"],
-      "author": null,
-      "sourceUrl": null,
+      "title": "Amazon's 'About You' page says you have flat buttocks",
+      "summary": "Shoppers discovered Amazon's beta 'About You' page, which lists conclusions drawn from purchases, searches and reviews, and began posting the strangest ones, such as 'has flat buttocks', 'husband has skinny legs' and 'treats cats as biological children.' A Threads post started a wave of people sharing their own profiles. Outlets ran how-to guides for finding yours, and the screenshots turned into a mix of comedy and privacy unease.",
+      "kind": "image",
+      "tags": [
+        "amazon",
+        "ai",
+        "shopping",
+        "screenshots"
+      ],
+      "author": "@venturetwins",
+      "sourceUrl": "https://x.com/venturetwins/status/2107673005732311301",
+      "metrics": {
+        "likes": "18.1K",
+        "replies": "554"
+      },
       "references": [
         {
-          "title": "An AI-generated Rumpelstiltskin meme is freaking out much of the internet",
-          "url": "https://www.nbcnews.com/tech/internet/ai-generated-rumpelstiltskin-meme-freaking-much-internet-rcna602132"
+          "title": "Amazon's 'About You' pages go viral as users share AI's surprising assumptions. Here's how to see yours",
+          "url": "https://www.9news.com/article/news/nation-world/amazons-about-you-pages-go-viral-heres-how-to-see-yours/507-18c3e3d7-4d35-4e04-82bf-8cd9021d280a"
         },
         {
-          "title": "Is The Rumpelstiltskin 'Tip Toein' In My Jordans' Meme AI? The Viral '80s Fantasy Movie Memes Explained",
-          "url": "https://trending.knowyourmeme.com/editorials/guides/is-the-rumpelstiltskin-tip-toein-in-my-jordans-meme-ai-the-viral-80s-fantasy-movie-memes-explained"
-        },
-        {
-          "title": "AI Rumpelstiltskin \"Tip Toein' In My Jordans\" | Know Your Meme",
-          "url": "https://knowyourmeme.com/memes/ai-rumplestiltskin-tip-toein-in-my-jordans"
+          "title": "The Internet Is Losing Its Mind Over Amazon’s “About You” Customer Profiles",
+          "url": "https://tech.yahoo.com/general/articles/internet-losing-mind-over-amazon-182201240.html"
         }
       ],
-      "collectedBy": "web-research",
-      "collectedAt": "2026-10-12T02:00:00Z"
+      "pulse": {
+        "score": 7.7,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 8,
+        "category": "brands",
+        "crossover": false
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:18:37.285Z"
+    },
+    {
+      "id": "2026-10-07-x-zendaya-stays-seated-to-greet-brigitte-macron-at",
+      "platform": "x",
+      "rank": 2,
+      "title": "Zendaya stays seated to greet Brigitte Macron at Louis Vuitton",
+      "summary": "A Paris Match clip from the front row of Louis Vuitton's show at the Louvre showed Zendaya remaining seated while shaking hands with France's first lady Brigitte Macron, who had come over to say hello. One X post of the clip neared nine million views, with critics calling it rude and defenders saying she was caught off guard. Etiquette experts weighed in, and 'stand up, girl' replies filled the quote-posts.",
+      "kind": "video",
+      "tags": [
+        "celebrity",
+        "fashion",
+        "etiquette"
+      ],
+      "author": "@popbackupp",
+      "sourceUrl": "https://x.com/popbackupp/status/2107525637556547983",
+      "metrics": {
+        "likes": "524",
+        "replies": "5"
+      },
+      "references": [
+        {
+          "title": "\"So disrespectful\" - Internet reacts to Zendaya choosing not to stand up while greeting France's first lady Brigitte Macron",
+          "url": "https://www.primetimer.com/news/so-disrespectful-internet-reacts-to-zendaya-choosing-not-to-stand-up-while-greeting-frances-first-lady-brigitte-macron"
+        },
+        {
+          "title": "Zendaya and Brigitte Macron: Was Not Standing Up Really Disrespectful?",
+          "url": "https://culturacolectiva.com/en/celebrities/zendaya-brigitte-macron-greeting-controversy-louis-vuitton-paris/"
+        },
+        {
+          "title": "Zendaya re-wears 'Odyssey' press tour look in Paris amid Brigitte Macron row: Here's the twist",
+          "url": "https://jang.com.pk/en/74288-zendaya-re-wears-odyssey-press-tour-look-in-paris-amid-brigitte-macron-row-heres-the-twist-news"
+        }
+      ],
+      "pulse": {
+        "score": 6.5,
+        "reach": 7,
+        "dominance": 7,
+        "memeability": 5,
+        "category": "celebrity",
+        "crossover": false
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:18:41.220Z"
     }
   ]
 }

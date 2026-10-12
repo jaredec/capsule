@@ -2,55 +2,117 @@
   "date": "2026-10-08",
   "items": [
     {
-      "id": "2026-10-08-x-kardashians-ai-could-never",
+      "id": "2026-10-08-x-susan-dell-s-frozen-oval-office-face-sets-off-ma",
       "platform": "x",
       "rank": 1,
-      "title": "The Kardashians open Season 8 with a glitchy \"AI Could Never\" skit",
-      "summary": "The Season 8 premiere of Hulu's The Kardashians, released October 8, opened with deliberately distorted AI versions of the family: Kim with a nose for an ear, Kris with extra fingers, Kylie with a tail. Then the real cast \"replaced\" them under the title card \"AI Could Never.\" X split into \"who approved that AI intro\" outrage and \"using AI was the point\" defenses, and many viewers simply asked \"Is this REAL?\"",
-      "kind": "moment",
-      "tags": ["tv", "celebrity", "ai"],
+      "title": "Susan Dell's 'frozen' Oval Office face sets off Mar-a-Lago face jokes",
+      "summary": "Philanthropist Susan Dell stood beside President Trump in the Oval Office to promote the Dells' $6.25 billion pledge to Trump Accounts, but viewers fixated on her still expressions and makeup instead. Clips spread across X with 'NPC', 'robot' and 'reptilian' comparisons and jokes like 'someone at the White House needs to hit CTRL + ALT + DELETE.' The moment revived the 'Mar-a-Lago face' meme, while others pushed back on mocking her appearance.",
+      "kind": "video",
+      "tags": [
+        "appearance",
+        "white-house",
+        "mar-a-lago-face"
+      ],
+      "author": "@iluminatibot",
+      "sourceUrl": "https://x.com/iluminatibot/status/2107998875013558782",
+      "metrics": {
+        "likes": "68.4K",
+        "replies": "2.7K"
+      },
+      "references": [
+        {
+          "title": "Dell CEO's Wife Goes Viral For 'Frozen' Look During Event With Trump",
+          "url": "https://www.ndtv.com/offbeat/dell-ceos-wife-susan-dells-appearance-at-white-house-sparks-social-media-frenzy-12157221"
+        },
+        {
+          "title": "Who Is Susan Dell? All About the Woman Whose Face Is Going Viral",
+          "url": "https://radaronline.com/p/susan-dell-ceo-wife-whose-white-house-appearance-is-going-viral/"
+        },
+        {
+          "title": "\"There's Too Many\": After Susan Dell's Transformation Sparked Frenzy, People Are Noting A Troubling Pattern",
+          "url": "https://www.boredpanda.com/after-susan-dell-transformation-frenzy-people-note-troubling-pattern/"
+        }
+      ],
+      "pulse": {
+        "score": 7,
+        "reach": 7,
+        "dominance": 7,
+        "memeability": 7,
+        "category": "internet-culture",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:18:45.082Z"
+    },
+    {
+      "id": "2026-10-08-x-marlins-man-chats-up-dua-lipa-at-her-first-baseb",
+      "platform": "x",
+      "rank": 2,
+      "title": "Marlins Man chats up Dua Lipa at her first baseball game",
+      "summary": "At Game 3 of the Yankees-Rays ALDS, broadcast cameras caught Marlins Man, the famous fan in the orange jersey, chatting all night with Dua Lipa and her husband Callum Turner behind home plate. X users joked he was shooting his shot, not realizing her husband was right there. He later posted that he had no idea who they were, and that it was her first game and her first hot dog.",
+      "kind": "video",
+      "tags": [
+        "celebrity",
+        "baseball",
+        "music"
+      ],
       "author": null,
       "sourceUrl": null,
       "references": [
         {
-          "title": "\"The Kardashians\" Is Back – But The AI Intro Is Leaving Fans Scratching Their Heads: \"Please Don't Do That Again\"",
-          "url": "https://www.buzzfeed.com/beccamonaghan/the-kardashians-ai-intro-reaction"
-        },
-        {
-          "title": "The Kardashians launch bizarre AI promo for new season as viewers question 'is this real?'",
-          "url": "https://www.themirror.com/entertainment/tv/the-kardashians-season-8-ai-2061819"
-        },
-        {
-          "title": "\"The Kardashians\" Returned With A Bizarre AI Intro That Left Fans Confused",
-          "url": "https://www.yahoo.com/entertainment/tv/articles/kardashians-returned-bizarre-ai-intro-133402218.html"
+          "title": "Marlins Man Caught Rizzing Up Dua Lipa During Yankees ALDS Game & The Internet Is Losing It [VIDEO]",
+          "url": "https://www.totalprosports.com/mlb/new-york-yankees/marlins-man-dua-lipa-yankees-game/"
         }
       ],
-      "collectedBy": "web-research",
-      "collectedAt": "2026-10-12T02:00:00Z"
+      "pulse": {
+        "score": 5,
+        "reach": 5,
+        "dominance": 5,
+        "memeability": 5,
+        "category": "celebrity",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:18:45.227Z"
     },
     {
-      "id": "2026-10-08-tiktok-was-it-a-frog",
-      "platform": "tiktok",
-      "rank": 2,
-      "title": "\"WAS IT A FROG\": Mom's wild guess about a bug sums up all moms",
-      "summary": "TikToker Jordyn (@jordyndecastro) flicked a bug off her shoulder, and her mom Allison immediately asked, \"Oh my god, was that a frog?!\" Jordyn captioned it \"WAS IT A FROG. she's unreal. i love her.\" The 20-second clip passed 13 million views, and the comments turned into a mass swap of \"moms acting like it's their first day on Earth\" stories.",
+      "id": "2026-10-08-instagram-donald-dive-guest-leaps-off-epcot-s-three-caball",
+      "platform": "instagram",
+      "rank": 3,
+      "title": "'Donald Dive': Guest leaps off EPCOT's Three Caballeros boat ride",
+      "summary": "A video from EPCOT's Gran Fiesta Tour showed a guest climbing out of his boat onto the set and making a headfirst dive into the shallow ride water while his friends cheered. The ride was stopped for about 15 minutes, and some commenters insisted the clip had to be AI. Disney said the guest and his party were trespassed, and local outlets dubbed it the 'Donald Dive.'",
       "kind": "video",
-      "tags": ["family", "relatable"],
-      "author": "@jordyndecastro",
-      "sourceUrl": null,
-      "metrics": { "views": "13M" },
+      "tags": [
+        "disney",
+        "theme-park",
+        "fail"
+      ],
+      "author": null,
+      "sourceUrl": "https://www.instagram.com/p/DeK8a4vCZ6H/",
       "references": [
         {
-          "title": "\"It's Their First Day On Earth Everyday\": Over 13 Million People Are Resonating With This Video That Sums Up Moms In 20 Seconds",
-          "url": "https://www.buzzfeed.com/zoerobotin/moms-acting-like-its-their-first-day-on-earth"
+          "title": "‘DONALD DIVE:’ Viral video shows man diving at EPCOT’s ‘Three Caballeros’ ride",
+          "url": "https://www.clickorlando.com/news/local/2026/10/08/donald-dive-viral-video-shows-man-diving-at-epcots-three-caballeros-ride/"
         },
         {
-          "title": "Over 13 Million People Resonate With This Video That Sums Up Moms In 20 Seconds - Yahoo Life Singapore",
-          "url": "https://sg.style.yahoo.com/over-13-million-people-resonate-173359872.html"
+          "title": "Disney responds to viral video of guest jumping into ride water - WSB-TV",
+          "url": "https://www.wsbtv.com/news/trending/disney-responds-viral-video-guest-jumping-into-ride-water/EJNOIGDFSNER3BI2WJGS3JK7UA/"
+        },
+        {
+          "title": "Viral video shows man jump into water on Disney World boat ride",
+          "url": "https://www.tallahassee.com/story/travel/amusement-parks/2026/10/09/man-jumps-in-water-disney-world-ride-viral-video/92170972007/"
         }
       ],
-      "collectedBy": "web-research",
-      "collectedAt": "2026-10-12T02:00:00Z"
+      "pulse": {
+        "score": 5.4,
+        "reach": 6,
+        "dominance": 5,
+        "memeability": 5,
+        "category": "everyday-life",
+        "crossover": false
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:18:48.231Z"
     }
   ]
 }
