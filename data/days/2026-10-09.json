@@ -2,8 +2,8 @@
   "date": "2026-10-09",
   "items": [
     {
-      "id": "2026-10-09-instagram-druski-s-that-s-so-zion-skit-roasts-grown-up-dis",
-      "platform": "instagram",
+      "id": "2026-10-09-x-druski-s-that-s-so-zion-skit-roasts-grown-up-dis",
+      "platform": "x",
       "rank": 1,
       "title": "Druski's \"That's So Zion\" skit roasts grown-up Disney child stars",
       "summary": "Druski posted a sketch as Zion, the unhinged adult star of a fake Disney Channel sitcom called \"That's So Zion,\" captioned \"Kid Stars growup & be so Unpredictable.\" Viewers decided he had played Raven-Symone, Orlando Brown and JoJo Siwa all at once, and Raven-Symone herself weighed in. Replies quoted its lines and called it a speedrun of every child-star meltdown phase.",
@@ -13,8 +13,12 @@
         "celebrity",
         "disney"
       ],
-      "author": null,
-      "sourceUrl": "https://www.instagram.com/p/DeQCVZMxttd/",
+      "author": "@druski",
+      "sourceUrl": "https://x.com/druski/status/2108331576836981125",
+      "metrics": {
+        "likes": "323.7K",
+        "replies": "4.2K"
+      },
       "references": [
         {
           "title": "Raven-Symoné Enters The Chat After Druski Seemingly Impersonates Her In Viral Disney Stars Skit (VIDEO)",
@@ -29,8 +33,21 @@
         "category": "pop-culture",
         "crossover": false
       },
+      "image": {
+        "src": "/media/2026-10-09/2026-10-09-x-druski-s-that-s-so-zion-skit-roasts-grown-up-dis.webp",
+        "width": 675,
+        "height": 1200,
+        "from": "https://pbs.twimg.com/amplify_video_thumb/2108331387124109312/img/W6poSfPX_gjGN_lZ.jpg"
+      },
+      "post": {
+        "name": "DRUSKI",
+        "handle": "@druski",
+        "verified": true,
+        "avatar": "/media/avatars/druski.webp",
+        "text": "Kid Stars growup & be so Unpredictable 😂"
+      },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:16:50.883Z"
+      "collectedAt": "2026-10-12T02:41:33.892Z"
     },
     {
       "id": "2026-10-09-x-embarrassing-tunnel-heckler-gets-under-dak-presc",
@@ -72,59 +89,21 @@
         "category": "sports",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:16:54.128Z",
       "image": {
         "src": "/media/2026-10-09/2026-10-09-x-embarrassing-tunnel-heckler-gets-under-dak-presc.webp",
         "width": 675,
         "height": 1200,
         "from": "https://pbs.twimg.com/amplify_video_thumb/2108397545403637760/img/4sqIx8wQaqkk7cjo.jpg"
-      }
-    },
-    {
-      "id": "2026-10-09-x-ohio-blogger-found-guilty-over-a-lewd-shrek-meme",
-      "platform": "x",
-      "rank": 3,
-      "title": "Ohio blogger found guilty over a lewd Shrek meme",
-      "summary": "A jury in Willoughby, Ohio, took about 30 minutes to convict political blogger D.J. Byrnes, \"The Rooster,\" of telecommunications harassment for texting a state senator an explicit Shrek image; he was fined $200. The prosecutor projecting the naked Shrek onto the courtroom wall and the free-speech debate made the verdict an absurd headline that spread well beyond Ohio.",
-      "kind": "image",
-      "tags": [
-        "shrek",
-        "court",
-        "free-speech"
-      ],
-      "author": null,
-      "sourceUrl": null,
-      "references": [
-        {
-          "title": "Blogger on Trial: Is a Lewd Image of Shrek Free Speech or Harassment?",
-          "url": "https://www.nytimes.com/2026/10/09/us/ohio-blogger-shrek-meme-trial.html"
-        },
-        {
-          "title": "Blogger Found Guilty of Harassment for Sending Shrek Penis Meme to Ohio State Senator",
-          "url": "https://gizmodo.com/blogger-found-guilty-of-harassment-for-sending-shrek-penis-meme-to-ohio-state-senator-2000824414"
-        },
-        {
-          "title": "Rooster’s wings clipped: Ohio political blogger found guilty in explicit Shrek meme trial",
-          "url": "https://www.news5cleveland.com/news/politics/ohio-politics/roosters-wings-clipped-ohio-political-blogger-found-guilty-in-explicit-shrek-meme-trial"
-        }
-      ],
-      "pulse": {
-        "score": 5,
-        "reach": 5,
-        "dominance": 5,
-        "memeability": 5,
-        "category": "internet-culture",
-        "crossover": false
+      },
+      "post": {
+        "name": "Sam Gannon",
+        "handle": "@SamGannon87",
+        "verified": true,
+        "avatar": "/media/avatars/samgannon87.webp",
+        "text": "An employee inside AT&T Stadium said “embarrassing,” after that Cowboys loss. \n\nDak looking back to see who it was. \n\n#dallascowboys #cowboysnation"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:16:55.076Z",
-      "image": {
-        "src": "/media/2026-10-09/2026-10-09-x-ohio-blogger-found-guilty-over-a-lewd-shrek-meme.webp",
-        "width": 720,
-        "height": 405,
-        "from": "https://gizmodo.com/app/uploads/2026/06/Shrek_5_trailer-1200x675.jpg"
-      }
+      "collectedAt": "2026-10-12T02:41:36.198Z"
     }
   ]
 }

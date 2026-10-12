@@ -24,8 +24,9 @@
       "reach": 7,
       "dominance": 7,
       "memeability": 9,
-      "platform": "tiktok",
-      "headlineIds": [56, 66, 247]
+      "platform": "x",
+      "headlineIds": [56, 66, 247],
+      "sourceUrl": "https://x.com/guysocke/status/2107628261761282497"
     }
   ]
 }

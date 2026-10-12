@@ -41,14 +41,21 @@
         "category": "celebrity",
         "crossover": false
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:17:46.629Z",
       "image": {
         "src": "/media/2026-10-04/2026-10-04-x-gillian-anderson-tells-superfans-to-stop-sitting.webp",
         "width": 720,
         "height": 700,
         "from": "https://pbs.twimg.com/media/HTycYmsXIAAwwYu.jpg?name=medium"
-      }
+      },
+      "post": {
+        "name": "Gillian Anderson",
+        "handle": "@GillianA",
+        "verified": true,
+        "avatar": "/media/avatars/gilliana.webp",
+        "text": "Hi everyone, just to say -"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:17:46.629Z"
     }
   ]
 }

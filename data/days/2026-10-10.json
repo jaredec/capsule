@@ -41,56 +41,26 @@
         "category": "celebrity",
         "crossover": false
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:16:56.357Z",
       "image": {
         "src": "/media/2026-10-10/2026-10-10-x-tom-welling-s-hello-nycc-skyline-photo-shows-mor.webp",
         "width": 688,
         "height": 1200,
         "from": "https://pbs.twimg.com/media/HUQGC7VXIAAI7oy.jpg?name=medium"
-      }
-    },
-    {
-      "id": "2026-10-10-tiktok-calm-down-yacob-khloe-kardashian-reads-a-teacher",
-      "platform": "tiktok",
-      "rank": 2,
-      "title": "\"Calm down, Yacob\": Khloe Kardashian reads a teacher's DMs on TV",
-      "summary": "On The Kardashians season premiere, Khloe recalled leaving a flirty \"How was your day?\" comment on a high school teacher's Instagram, then read his unanswered DMs aloud and told him, \"Calm down, Yacob... please, get a J.\" Viewers called it a mean roast, and the teacher answered with a deadpan classroom TikTok saying he gets roasted by high schoolers every day.",
-      "kind": "phrase",
-      "tags": [
-        "kardashians",
-        "reality-tv",
-        "tiktok"
-      ],
-      "author": null,
-      "sourceUrl": null,
-      "references": [
-        {
-          "title": "Khloe Kardashian Slammed For Mocking Hot Teacher Who Messaged Her On Instagram, He Reacts",
-          "url": "https://starmagazine.com/khloe-kardashian-slammed-for-mocking-hot-teacher-who-messaged-her-on-instagram-he-reacts/"
-        }
-      ],
-      "pulse": {
-        "score": 5.7,
-        "reach": 6,
-        "dominance": 5,
-        "memeability": 6,
-        "category": "tv-film",
-        "crossover": false
+      },
+      "post": {
+        "name": "paulo",
+        "handle": "@garfielwds",
+        "verified": false,
+        "avatar": "/media/avatars/garfielwds.webp",
+        "text": "nao tô aguentando com o tom welling gigolando pelado nos storys do nada"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:16:56.800Z",
-      "image": {
-        "src": "/media/2026-10-10/2026-10-10-tiktok-calm-down-yacob-khloe-kardashian-reads-a-teacher.webp",
-        "width": 720,
-        "height": 432,
-        "from": "https://starmagazine.com/wp-content/uploads/2026/10/Featured-6-Khloe-Kardashian-Jacob-Myers-Norys-1000x600.jpeg"
-      }
+      "collectedAt": "2026-10-12T02:41:37.791Z"
     },
     {
       "id": "2026-10-10-x-shopper-spots-nazi-salutes-in-a-barbie-box-s-che",
       "platform": "x",
-      "rank": 3,
+      "rank": 2,
       "title": "Shopper spots \"Nazi salutes\" in a Barbie box's cheering crowd",
       "summary": "A mom filmed a gymnastics Barbie from Mattel's \"You Can Do Anything\" line at CVS and zoomed in on the illustrated crowd, arguing that the spectators' raised arms looked like Nazi salutes; she captioned it with a \"heil-y disappointed\" pun. Commenters split between calls to boycott Mattel and people pointing out that many of the figures were cheering with both arms up, and Mattel did not respond.",
       "kind": "video",
@@ -127,14 +97,21 @@
         "category": "brands",
         "crossover": false
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:16:58.629Z",
       "image": {
         "src": "/media/2026-10-10/2026-10-10-x-shopper-spots-nazi-salutes-in-a-barbie-box-s-che.webp",
         "width": 576,
         "height": 1024,
         "from": "https://pbs.twimg.com/amplify_video_thumb/2108957274949734400/img/ZG_thVF2wAfd70HA.jpg"
-      }
+      },
+      "post": {
+        "name": "The Daily Sneed™",
+        "handle": "@Tr00peRR",
+        "verified": false,
+        "avatar": "/media/avatars/tr00perr.webp",
+        "text": "‘A shopper was shocked and appalled after allegedly spotting “Nazi symbolism” in a Barbie doll package at CVS.’\n\n- NY Post"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:41:40.105Z"
     }
   ]
 }

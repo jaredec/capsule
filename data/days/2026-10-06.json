@@ -41,18 +41,25 @@
         "category": "celebrity",
         "crossover": false
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:18:34.805Z",
       "image": {
         "src": "/media/2026-10-06/2026-10-06-x-skyler-gisondo-becomes-everyone-s-childhood-frie.webp",
         "width": 720,
         "height": 1186,
         "from": "https://pbs.twimg.com/media/HT3ew7ZX0AAfId-.jpg?name=medium"
-      }
+      },
+      "post": {
+        "name": "Gracie",
+        "handle": "@graciem120001",
+        "verified": true,
+        "avatar": "/media/avatars/graciem120001.webp",
+        "text": "Yes he does 😭"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:41:23.487Z"
     },
     {
-      "id": "2026-10-06-tiktok-ai-rumpelstiltskin-goes-tip-toein-in-my-jordans",
-      "platform": "tiktok",
+      "id": "2026-10-06-x-ai-rumpelstiltskin-goes-tip-toein-in-my-jordans",
+      "platform": "x",
       "rank": 2,
       "title": "AI Rumpelstiltskin goes 'Tip Toein' In My Jordans'",
       "summary": "An AI-generated clip styled like an 1980s fantasy film, showing an imp dancing for a crying woman before turning straw into gold, was set to Riff Raff's 'Tip Toe Wing In My Jawwdinz' and became a meme template. Many viewers searched for the 'old movie' it came from before explainers confirmed it was AI. Users swapped in other characters, including Supernatural's Sam and Dean, and some re-enacted the dance in real life.",
@@ -62,8 +69,12 @@
         "meme-template",
         "music"
       ],
-      "author": "@funnynewsonly",
-      "sourceUrl": "https://www.tiktok.com/@funnynewsonly/video/7691916168931609869",
+      "author": "@guysocke",
+      "sourceUrl": "https://x.com/guysocke/status/2107628261761282497",
+      "metrics": {
+        "likes": "2.3K",
+        "replies": "15"
+      },
       "references": [
         {
           "title": "An AI-generated Rumpelstiltskin meme is freaking out much of the internet",
@@ -86,14 +97,21 @@
         "category": "internet-culture",
         "crossover": false
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:18:36.577Z",
       "image": {
-        "src": "/media/2026-10-06/2026-10-06-tiktok-ai-rumpelstiltskin-goes-tip-toein-in-my-jordans.webp",
-        "width": 576,
-        "height": 1024,
-        "from": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/o0wRfA71lIAgeIQqFfLeOFAuoLowiYI1GuGvR9~tplv-tiktokx-origin.image?dr=9636&x-expires=1791943200&x-signature=utH24tj0FOL0cfwJtRKxsZ8ESx8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
-      }
+        "src": "/media/2026-10-06/2026-10-06-x-ai-rumpelstiltskin-goes-tip-toein-in-my-jordans.webp",
+        "width": 720,
+        "height": 410,
+        "from": "https://pbs.twimg.com/amplify_video_thumb/2107110694600495105/img/gpZN0cBGkDpi5qqP.jpg"
+      },
+      "post": {
+        "name": "Guy",
+        "handle": "@guysocke",
+        "verified": false,
+        "avatar": "/media/avatars/guysocke.webp",
+        "text": "*Police officer thinking he has me dead to rights on a DUI*\n\nMe, acing the field sobriety test:"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:41:26.027Z"
     }
   ]
 }

@@ -2,8 +2,8 @@
   "date": "2026-10-05",
   "items": [
     {
-      "id": "2026-10-05-tiktok-nicole-kidman-lip-syncs-nicole-kidman-at-chanel-",
-      "platform": "tiktok",
+      "id": "2026-10-05-x-nicole-kidman-lip-syncs-nicole-kidman-at-chanel-",
+      "platform": "x",
       "rank": 1,
       "title": "Nicole Kidman lip-syncs 'Nicole Kidman' at Chanel with Dua and Pedro",
       "summary": "Before Chanel's Spring/Summer 2027 show in Paris, Kristen Wiig, Pedro Pascal and Dua Lipa passed a phone down the front row lip-syncing ADELA's viral song 'Nicole Kidman', ending on Kidman herself mouthing her own name and blowing a kiss. Chanel posted the clip to TikTok, where it drew about 1.6 million likes and close to 95,000 shares. It became the definitive entry in a trend built on the song, and fans loved that the song's namesake joined in.",
@@ -14,8 +14,12 @@
         "fashion",
         "tiktok-trend"
       ],
-      "author": "@gala.fr",
-      "sourceUrl": "https://www.tiktok.com/@gala.fr/video/7693460810387016993",
+      "author": "@PopCrave",
+      "sourceUrl": "https://x.com/PopCrave/status/2107274961832509496",
+      "metrics": {
+        "likes": "172.6K",
+        "replies": "421"
+      },
       "references": [
         {
           "title": "Watch: TikTok goes wild as A-listers help Nicole Kidman recreate viral meme",
@@ -38,14 +42,21 @@
         "category": "celebrity",
         "crossover": false
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:18:31.650Z",
       "image": {
-        "src": "/media/2026-10-05/2026-10-05-tiktok-nicole-kidman-lip-syncs-nicole-kidman-at-chanel-.webp",
-        "width": 720,
-        "height": 1043,
-        "from": "https://p19-common-sign.tiktokcdn-us.com/tos-useast2a-p-0037-euttp/o4QA1AjIIGA8eQGJAVAge4ftMFXPmUiMVsKBLm~tplv-tiktokx-origin.image?dr=9636&x-expires=1791943200&x-signature=47Ejr%2Ffsnj7sCuLDVknIm4FO%2Blk%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
-      }
+        "src": "/media/2026-10-05/2026-10-05-x-nicole-kidman-lip-syncs-nicole-kidman-at-chanel-.webp",
+        "width": 675,
+        "height": 1200,
+        "from": "https://pbs.twimg.com/amplify_video_thumb/2107274931218313216/img/yL7okAFzbp0mk4XY.jpg"
+      },
+      "post": {
+        "name": "Pop Crave",
+        "handle": "@PopCrave",
+        "verified": true,
+        "avatar": "/media/avatars/popcrave.webp",
+        "text": "Kristen Wiig, Pedro Pascal, Dua Lipa and Nicole Kidman herself doing a video to ADÉLA’s hit single, “Nicole Kidman.”"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:41:20.394Z"
     }
   ]
 }

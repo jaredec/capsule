@@ -13,19 +13,6 @@
       "memeability": 7,
       "platform": "x",
       "headlineIds": [88, 55]
-    },
-    {
-      "title": "Estes Park bull elk smashes a car window during rut season",
-      "summary": "An Instagram video from Estes Park, Colorado, shows a bull elk charging a Honda parked near a golf course and shattering its rear window with its antlers before trotting back to his herd. Outlets compared the hit to an NFL linebacker, and commenters joked about the insurance claim and blamed the driver for parking too close during the rut.",
-      "kind": "video",
-      "tags": ["elk", "wildlife", "colorado"],
-      "category": "animals",
-      "crossover": false,
-      "reach": 6,
-      "dominance": 5,
-      "memeability": 5,
-      "platform": "instagram",
-      "headlineIds": [166, 167]
     }
   ]
 }

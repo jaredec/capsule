@@ -41,14 +41,21 @@
         "category": "internet-culture",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:18:45.082Z",
       "image": {
         "src": "/media/2026-10-08/2026-10-08-x-susan-dell-s-frozen-oval-office-face-sets-off-ma.webp",
         "width": 675,
         "height": 1200,
         "from": "https://pbs.twimg.com/amplify_video_thumb/2107922499816321024/img/W52ehZVb2WQDgU78.jpg"
-      }
+      },
+      "post": {
+        "name": "illuminatibot",
+        "handle": "@iluminatibot",
+        "verified": true,
+        "avatar": "/media/avatars/iluminatibot.webp",
+        "text": "The aliens are already here!"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:41:30.344Z"
     },
     {
       "id": "2026-10-08-x-marlins-man-chats-up-dua-lipa-at-her-first-baseb",
@@ -62,8 +69,12 @@
         "baseball",
         "music"
       ],
-      "author": null,
-      "sourceUrl": null,
+      "author": "@marlins_man",
+      "sourceUrl": "https://x.com/marlins_man/status/2108058126263914691",
+      "metrics": {
+        "likes": "138.3K",
+        "replies": "384"
+      },
       "references": [
         {
           "title": "Marlins Man Caught Rizzing Up Dua Lipa During Yankees ALDS Game & The Internet Is Losing It [VIDEO]",
@@ -78,53 +89,21 @@
         "category": "celebrity",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:18:45.227Z"
-    },
-    {
-      "id": "2026-10-08-instagram-donald-dive-guest-leaps-off-epcot-s-three-caball",
-      "platform": "instagram",
-      "rank": 3,
-      "title": "'Donald Dive': Guest leaps off EPCOT's Three Caballeros boat ride",
-      "summary": "A video from EPCOT's Gran Fiesta Tour showed a guest climbing out of his boat onto the set and making a headfirst dive into the shallow ride water while his friends cheered. The ride was stopped for about 15 minutes, and some commenters insisted the clip had to be AI. Disney said the guest and his party were trespassed, and local outlets dubbed it the 'Donald Dive.'",
-      "kind": "video",
-      "tags": [
-        "disney",
-        "theme-park",
-        "fail"
-      ],
-      "author": null,
-      "sourceUrl": "https://www.instagram.com/p/DeK8a4vCZ6H/",
-      "references": [
-        {
-          "title": "‘DONALD DIVE:’ Viral video shows man diving at EPCOT’s ‘Three Caballeros’ ride",
-          "url": "https://www.clickorlando.com/news/local/2026/10/08/donald-dive-viral-video-shows-man-diving-at-epcots-three-caballeros-ride/"
-        },
-        {
-          "title": "Disney responds to viral video of guest jumping into ride water - WSB-TV",
-          "url": "https://www.wsbtv.com/news/trending/disney-responds-viral-video-guest-jumping-into-ride-water/EJNOIGDFSNER3BI2WJGS3JK7UA/"
-        },
-        {
-          "title": "Viral video shows man jump into water on Disney World boat ride",
-          "url": "https://www.tallahassee.com/story/travel/amusement-parks/2026/10/09/man-jumps-in-water-disney-world-ride-viral-video/92170972007/"
-        }
-      ],
-      "pulse": {
-        "score": 5.4,
-        "reach": 6,
-        "dominance": 5,
-        "memeability": 5,
-        "category": "everyday-life",
-        "crossover": false
+      "image": {
+        "src": "/media/2026-10-08/2026-10-08-x-marlins-man-chats-up-dua-lipa-at-her-first-baseb.webp",
+        "width": 720,
+        "height": 405,
+        "from": "https://pbs.twimg.com/media/HUFTihRW0AANtqs.jpg?name=medium"
+      },
+      "post": {
+        "name": "Marlins_Man",
+        "handle": "@marlins_man",
+        "verified": true,
+        "avatar": "/media/avatars/marlins_man.webp",
+        "text": "So i had no idea who this couple were and they were so nice and friendly to everyone.  I told them i know sports, not music nor movies.  They recently got married in june in italy i think.  I wish them 50 years or more of happiness."
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:18:48.231Z",
-      "image": {
-        "src": "/media/2026-10-08/2026-10-08-instagram-donald-dive-guest-leaps-off-epcot-s-three-caball.webp",
-        "width": 700,
-        "height": 394,
-        "from": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/video/wkmg/3460bb68-06f0-4c7f-b954-5e2077fed3cc/image.jpg?api_key=clickorlando_488cff2bcc157b2e"
-      }
+      "collectedAt": "2026-10-12T02:41:33.240Z"
     }
   ]
 }

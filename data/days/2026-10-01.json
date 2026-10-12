@@ -38,55 +38,21 @@
         "category": "sports",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:17:37.891Z",
       "image": {
         "src": "/media/2026-10-01/2026-10-01-x-mike-tomlin-reveals-the-minecraft-city-he-built-.webp",
         "width": 720,
         "height": 405,
         "from": "https://pbs.twimg.com/media/HTej9dYWUAAPM1n.jpg?name=medium"
-      }
-    },
-    {
-      "id": "2026-10-01-instagram-estes-park-bull-elk-smashes-a-car-window-during-",
-      "platform": "instagram",
-      "rank": 2,
-      "title": "Estes Park bull elk smashes a car window during rut season",
-      "summary": "An Instagram video from Estes Park, Colorado, shows a bull elk charging a Honda parked near a golf course and shattering its rear window with its antlers before trotting back to his herd. Outlets compared the hit to an NFL linebacker, and commenters joked about the insurance claim and blamed the driver for parking too close during the rut.",
-      "kind": "video",
-      "tags": [
-        "elk",
-        "wildlife",
-        "colorado"
-      ],
-      "author": null,
-      "sourceUrl": null,
-      "references": [
-        {
-          "title": "Viral video shows massive elk smash car window with brute force in Colorado | OutKick",
-          "url": "https://www.foxnews.com/outkick-culture/viral-video-shows-massive-elk-smash-car-window-brute-force-colorado"
-        },
-        {
-          "title": "WATCH – Viral video shows a bull elk shattering a car window in Colorado",
-          "url": "https://kygo.com/watch-viral-video-shows-a-bull-elk-shattering-a-car-window-in-colorado/"
-        }
-      ],
-      "pulse": {
-        "score": 5.4,
-        "reach": 6,
-        "dominance": 5,
-        "memeability": 5,
-        "category": "animals",
-        "crossover": false
+      },
+      "post": {
+        "name": "Mike Tomlin",
+        "handle": "@CoachTomlin",
+        "verified": true,
+        "avatar": "/media/avatars/coachtomlin.webp",
+        "text": "Tonight. \n\n8 p.m.\n\nMy Minecraft City. \n\nSubscribe now: \nyoutube.com/@miket757"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:17:39.128Z",
-      "image": {
-        "src": "/media/2026-10-01/2026-10-01-instagram-estes-park-bull-elk-smashes-a-car-window-during-.webp",
-        "width": 720,
-        "height": 405,
-        "from": "https://static.foxnews.com/foxnews.com/content/uploads/2026/09/bull-elk-prairie-banff-national-park.jpg"
-      }
+      "collectedAt": "2026-10-12T02:41:17.410Z"
     }
   ]
 }

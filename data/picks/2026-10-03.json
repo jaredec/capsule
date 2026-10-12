@@ -5,40 +5,29 @@
       "title": "Lindsay Lohan recreates \"It's October 3rd\" for Mean Girls Day",
       "summary": "On the unofficial Mean Girls Day, Lindsay Lohan posted a video of herself at a school desk delivering Cady Heron's \"It's October 3rd\" line to director Mark Waters standing in as Aaron Samuels, then cracking up. The clip passed 35 million views and 2 million likes on Instagram as fans flooded feeds with pink outfits, quotes and their own recreations of the scene.",
       "kind": "video",
-      "tags": [
-        "film",
-        "celebrity",
-        "nostalgia"
-      ],
+      "tags": ["film", "celebrity", "nostalgia"],
       "category": "tv-film",
       "crossover": false,
       "reach": 9,
       "dominance": 7,
       "memeability": 6,
-      "platform": "instagram",
-      "headlineIds": [
-        88
-      ],
+      "platform": "x",
+      "headlineIds": [88],
       "sourceUrl": "https://x.com/lindsaylohan/status/2106370548813218059"
     },
     {
       "title": "\"Uncle Bron\" babysits Tyrese Maxey's baby at Sixers scrimmage",
       "summary": "During the 76ers' open Blue x White scrimmage, newly signed LeBron James sat on the bench bouncing Tyrese Maxey's infant daughter Marvel on his knee between possessions. The fan clip was reposted by the NBA, people dubbed him \"LeBabysitter,\" and James leaned in with his own \"Uncle Bron on babysitting duty\" post.",
       "kind": "video",
-      "tags": [
-        "nba",
-        "lebron",
-        "baby"
-      ],
+      "tags": ["nba", "lebron", "baby"],
       "category": "sports",
       "crossover": true,
       "reach": 7,
       "dominance": 5,
       "memeability": 5,
       "platform": "x",
-      "headlineIds": [
-        4
-      ]
+      "headlineIds": [4],
+      "sourceUrl": "https://x.com/NBA/status/2106757482874011871"
     }
   ]
 }

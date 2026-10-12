@@ -11,8 +11,9 @@
       "reach": 6,
       "dominance": 7,
       "memeability": 8,
-      "platform": "instagram",
-      "headlineIds": [113]
+      "platform": "x",
+      "headlineIds": [113],
+      "sourceUrl": "https://x.com/druski/status/2108331576836981125"
     },
     {
       "title": "\"Embarrassing\": tunnel heckler gets under Dak Prescott's skin",
@@ -26,19 +27,6 @@
       "memeability": 6,
       "platform": "x",
       "headlineIds": [173, 168, 52, 17]
-    },
-    {
-      "title": "Ohio blogger found guilty over a lewd Shrek meme",
-      "summary": "A jury in Willoughby, Ohio, took about 30 minutes to convict political blogger D.J. Byrnes, \"The Rooster,\" of telecommunications harassment for texting a state senator an explicit Shrek image; he was fined $200. The prosecutor projecting the naked Shrek onto the courtroom wall and the free-speech debate made the verdict an absurd headline that spread well beyond Ohio.",
-      "kind": "image",
-      "tags": ["shrek", "court", "free-speech"],
-      "category": "internet-culture",
-      "crossover": false,
-      "reach": 5,
-      "dominance": 5,
-      "memeability": 5,
-      "platform": "x",
-      "headlineIds": [51, 56, 48, 46, 50]
     }
   ]
 }

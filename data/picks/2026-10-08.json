@@ -25,20 +25,8 @@
       "dominance": 5,
       "memeability": 5,
       "platform": "x",
-      "headlineIds": [122]
-    },
-    {
-      "title": "'Donald Dive': Guest leaps off EPCOT's Three Caballeros boat ride",
-      "summary": "A video from EPCOT's Gran Fiesta Tour showed a guest climbing out of his boat onto the set and making a headfirst dive into the shallow ride water while his friends cheered. The ride was stopped for about 15 minutes, and some commenters insisted the clip had to be AI. Disney said the guest and his party were trespassed, and local outlets dubbed it the 'Donald Dive.'",
-      "kind": "video",
-      "tags": ["disney", "theme-park", "fail"],
-      "category": "everyday-life",
-      "crossover": false,
-      "reach": 6,
-      "dominance": 5,
-      "memeability": 5,
-      "platform": "instagram",
-      "headlineIds": [184, 183, 185]
+      "headlineIds": [122],
+      "sourceUrl": "https://x.com/marlins_man/status/2108058126263914691"
     }
   ]
 }

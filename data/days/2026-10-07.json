@@ -38,14 +38,21 @@
         "category": "brands",
         "crossover": false
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:18:37.285Z",
       "image": {
         "src": "/media/2026-10-07/2026-10-07-x-amazon-s-about-you-page-says-you-have-flat-butto.webp",
         "width": 720,
         "height": 1051,
         "from": "https://pbs.twimg.com/media/HT_1barbgAEDL6S.jpg?name=medium"
-      }
+      },
+      "post": {
+        "name": "Justine Moore",
+        "handle": "@venturetwins",
+        "verified": true,
+        "avatar": "/media/avatars/venturetwins.webp",
+        "text": "Someone discovered a new Amazon AI feature that summarizes what it knows about you and I am crying of laughter"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:18:37.285Z"
     },
     {
       "id": "2026-10-07-x-zendaya-stays-seated-to-greet-brigitte-macron-at",
@@ -87,14 +94,21 @@
         "category": "celebrity",
         "crossover": false
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:18:41.220Z",
       "image": {
         "src": "/media/2026-10-07/2026-10-07-x-zendaya-stays-seated-to-greet-brigitte-macron-at.webp",
         "width": 720,
         "height": 720,
         "from": "https://pbs.twimg.com/amplify_video_thumb/2107525479536185344/img/ypk5rNkhotBQQeNC.jpg"
-      }
+      },
+      "post": {
+        "name": "˖᯽ ݁˖ pop backup ˖᯽ ݁˖",
+        "handle": "@popbackupp",
+        "verified": true,
+        "avatar": "/media/avatars/popbackupp.webp",
+        "text": "brigitte macron & zendaya at louis vuitton spring 27 show"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:18:41.220Z"
     }
   ]
 }
