@@ -34,7 +34,7 @@
         "height": 480,
         "from": "https://pbs.twimg.com/media/HTeDPDOXoAAUUDh.jpg?name=medium",
         "crop": {
-          "x": 0.08,
+          "x": 0.2,
           "y": 0,
           "w": 0.5,
           "h": 1
