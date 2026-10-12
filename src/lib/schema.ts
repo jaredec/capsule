@@ -37,6 +37,13 @@ export const pulseSchema = z.object({
   crossover: z.boolean(),
 });
 
+const unit = z.number().min(0).max(1);
+
+/** The part of an image that matters, as fractions of its width and height; it's what fills a frame. */
+export const cropSchema = z
+  .object({ x: unit, y: unit, w: unit.positive(), h: unit.positive() })
+  .refine((c) => c.x + c.w <= 1.0001 && c.y + c.h <= 1.0001, "crop must lie inside the image");
+
 export const itemSchema = z.object({
   id: z.string().min(1),
   platform: z.enum(PLATFORMS),
@@ -52,7 +59,13 @@ export const itemSchema = z.object({
   pulse: pulseSchema.optional(),
   /** Self-hosted still under /public, so it can't expire or break when a platform rotates CDN URLs. */
   image: z
-    .object({ src: z.string().startsWith("/media/"), width: z.number(), height: z.number(), from: z.url() })
+    .object({
+      src: z.string().startsWith("/media/"),
+      width: z.number(),
+      height: z.number(),
+      from: z.url(),
+      crop: cropSchema.optional(),
+    })
     .optional(),
   /** Snapshot of the featured post, so the calendar can render it without loading the platform's embed. */
   post: z
@@ -74,6 +87,7 @@ export const dayFileSchema = z.object({
 });
 
 export type Reference = z.infer<typeof referenceSchema>;
+export type Crop = z.infer<typeof cropSchema>;
 export type Item = z.infer<typeof itemSchema>;
 export type Pulse = z.infer<typeof pulseSchema>;
 export type DayFile = z.infer<typeof dayFileSchema>;

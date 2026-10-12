@@ -9,7 +9,7 @@ npm install
 npm run dev        # http://localhost:3000
 ```
 
-Days run midnight to midnight US Pacific time. The home page shows the latest archived month, with each day's pick laid out as a compact X post (author, a line of text, and the media uncropped). Click a day for details, or go to `/day/YYYY-MM-DD`. Month pages live at `/YYYY/MM`, and `?platform=x` filters any calendar view.
+Days run midnight to midnight US Pacific time. The home page shows the latest archived month, with each day's pick shown as an image filling its cell, cropped to the part that matters; the author and title appear on hover. Click a day for details, or go to `/day/YYYY-MM-DD`. Month pages live at `/YYYY/MM`, and `?platform=x` filters any calendar view.
 
 ## Layout
 
@@ -45,7 +45,7 @@ Every candidate gets three 1–10 scores:
 1. **Gather (free).** Google News RSS searches for "went viral", memes, "the internet reacts" and similar, limited to the target day and the day after. Junk like meme-coin prices and evergreen listicles is filtered out. It also pulls the most-read Wikipedia pages and flags *breakouts*: pages that weren't in the top 1000 on the prior three days, a good "normies looked this up" signal. For recent days it adds Google's trending searches. Everything is saved to `data/signals/`. All of these sources take a date, which is what makes backfills cheap.
 2. **Pick (one cheap LLM call).** About 12k tokens of headlines go to a small model, which clusters them into stories and scores them with the rubric. It can only cite headline IDs from the snapshot, so references can't be invented.
 3. **Enrich (free).** Resolves the real article URLs, pulls the X posts embedded in those articles, and reads likes and replies from X's public embed endpoint. The featured post is the most-liked one from that day, unless the editor pinned one.
-4. **Media (free).** Each pick gets a still: the X post's photo or video poster, else a YouTube thumbnail or the coverage's og:image (generic logos are skipped), resized to a 720px WebP with sharp under `public/media/`. It also stores a snapshot of the post (name, handle, verified, avatar, text) so the calendar renders without X's embed script, and nothing breaks when X rotates CDN URLs. `npm run media -- 2026-10-05` (or no dates for all days, `--redo` to replace images) backfills existing days.
+4. **Media (free).** Each pick gets a still: the X post's photo or video poster, else a YouTube thumbnail or the coverage's og:image (generic logos are skipped), resized to a 720px WebP with sharp under `public/media/`. The image records a `crop` region (fractions of the image) that the calendar fills its 3:4 cells, square mobile thumbnails and 16:9 fallbacks with; by default it's the 3:4 window around the spot sharp's attention strategy finds most eye-catching. It also stores a snapshot of the post (name, handle, verified, avatar, text) so the calendar renders without X's embed script, and nothing breaks when X rotates CDN URLs. `npm run media -- 2026-10-05` (or no dates for all days, `--redo` to replace images) backfills existing days.
 
 Cost per day is one call of roughly 12k input and 1k output tokens:
 
@@ -76,7 +76,7 @@ Any OpenAI-compatible endpoint works. Set `LLM_PROVIDER=gemini|xai|openai`, or `
 
 ### Editor overrides
 
-Write `data/picks/<date>.json` with your stories (same fields the model returns, citing headline IDs from that day's signals), then run `npm run curate -- data/picks/<date>.json`. Curated days (`collectedBy` other than `pulse:*`) are never overwritten by the collector.
+Write `data/picks/<date>.json` with your stories (same fields the model returns, citing headline IDs from that day's signals), then run `npm run curate -- data/picks/<date>.json`. A story can also set `sourceUrl` to pin the X post to feature, `imageUrl` to use a better still than the post's media (a photo instead of a screenshot of text, say), and `crop` (`{ "x", "y", "w", "h" }` as fractions of the image) to choose what the calendar shows. Curated days (`collectedBy` other than `pulse:*`) are never overwritten by the collector.
 
 ### GitHub Actions
 
@@ -104,7 +104,7 @@ Add one model key as a repository secret (`GEMINI_API_KEY`, `XAI_API_KEY` or `OP
       "sourceUrl": "https://x.com/handle/status/123",   // embedded on the site
       "metrics": { "likes": "72K", "replies": "377" },
       "references": [{ "title": "Article", "url": "https://..." }],
-      "image": { "src": "/media/2026-10-07/2026-10-07-x-short-slug.webp", "width": 720, "height": 900, "from": "https://pbs.twimg.com/..." },
+      "image": { "src": "/media/2026-10-07/2026-10-07-x-short-slug.webp", "width": 720, "height": 900, "from": "https://pbs.twimg.com/...", "crop": { "x": 0.2, "y": 0, "w": 0.6, "h": 1 } },
       "post": { "name": "Display Name", "handle": "@handle", "verified": true, "avatar": "/media/avatars/handle.webp", "text": "The post text" },
       "pulse": { "score": 8.4, "reach": 9, "dominance": 8, "memeability": 8, "category": "brands", "crossover": false },
       "collectedBy": "pulse:gemini-3.5-flash-lite",

@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import sharp from "sharp";
-import type { Item } from "../../src/lib/schema";
+import type { Crop, Item } from "../../src/lib/schema";
 import { lookupXPost, type XPost } from "./enrich";
 import { BROWSER_UA, decodeEntities, fetchText } from "./http";
 
@@ -41,8 +41,8 @@ function youtubeId(url: string): string | null {
 }
 
 /** Candidate stills, best first: the post's own media, then preview images from the coverage. */
-async function imageCandidates(item: Item, post: XPost | null): Promise<string[]> {
-  const out: string[] = [];
+async function imageCandidates(item: Item, post: XPost | null, preferred?: string): Promise<string[]> {
+  const out: string[] = preferred ? [preferred] : [];
   if (post?.mediaUrl) out.push(post.mediaUrl.includes("pbs.twimg.com/media") ? `${post.mediaUrl}?name=medium` : post.mediaUrl);
   if (item.sourceUrl?.includes("tiktok.com")) {
     const thumb = await tiktokThumbnail(item.sourceUrl);
@@ -71,8 +71,14 @@ async function download(url: string): Promise<Buffer | null> {
   }
 }
 
-async function storeImage(date: string, item: Item, post: XPost | null, log: (m: string) => void): Promise<Item["image"]> {
-  for (const url of await imageCandidates(item, post)) {
+async function storeImage(
+  date: string,
+  item: Item,
+  post: XPost | null,
+  log: (m: string) => void,
+  preferred?: string,
+): Promise<Item["image"]> {
+  for (const url of await imageCandidates(item, post, preferred)) {
     const bytes = await download(url);
     if (!bytes) continue;
     try {
@@ -92,6 +98,33 @@ async function storeImage(date: string, item: Item, post: XPost | null, log: (m:
   return undefined;
 }
 
+// Calendar cells are 3:4; the automatic crop is the 3:4 window around the most salient spot.
+const CELL_ASPECT = 3 / 4;
+
+/** The largest cell-shaped window centred (as far as the edges allow) on what sharp finds most eye-catching. */
+async function autoCrop(file: string): Promise<Crop | undefined> {
+  try {
+    const { width: W = 0, height: H = 0 } = await sharp(file).metadata();
+    if (!W || !H) return undefined;
+    const scale = Math.max(300 / W, 400 / H);
+    const { info } = await sharp(file)
+      .resize(300, 400, { fit: "cover", position: sharp.strategy.attention })
+      .toBuffer({ resolveWithObject: true });
+    const ax = (info.attentionX ?? (W * scale) / 2) / (W * scale);
+    const ay = (info.attentionY ?? (H * scale) / 2) / (H * scale);
+    const round = (v: number) => Math.round(v * 1000) / 1000;
+    const clamp = (v: number, size: number) => round(Math.min(1 - size, Math.max(0, v - size / 2)));
+    if (W / H > CELL_ASPECT) {
+      const w = round((CELL_ASPECT * H) / W);
+      return { x: clamp(ax, w), y: 0, w, h: 1 };
+    }
+    const h = round(W / CELL_ASPECT / H);
+    return { x: 0, y: clamp(ay, h), w: 1, h };
+  } catch {
+    return undefined;
+  }
+}
+
 async function storeAvatar(post: XPost): Promise<string | null> {
   const bytes = post.avatarUrl ? await download(post.avatarUrl) : null;
   if (!bytes) return null;
@@ -109,13 +142,19 @@ async function storeAvatar(post: XPost): Promise<string | null> {
 }
 
 /**
- * Stores a still for the item under public/media/<date>/ and, for X items, a snapshot of the
- * featured post (author, avatar, text) so the calendar can render it without X's embed script.
+ * Stores a still for the item under public/media/<date>/ with the region worth showing, and,
+ * for X items, a snapshot of the featured post (author, avatar, text). An editor's imageUrl
+ * wins over the post's own media, and an editor's crop over the automatic one.
  */
 export async function attachMedia(
   date: string,
   item: Item,
-  { redoImage = false, log = console.log }: { redoImage?: boolean; log?: (m: string) => void } = {},
+  {
+    redoImage = false,
+    crop,
+    imageUrl,
+    log = console.log,
+  }: { redoImage?: boolean; crop?: Crop; imageUrl?: string; log?: (m: string) => void } = {},
 ): Promise<Item> {
   const xId = item.sourceUrl?.match(/x\.com\/\w+\/status\/(\d+)/)?.[1];
   const post = xId ? await lookupXPost(xId) : null;
@@ -123,9 +162,15 @@ export async function attachMedia(
   if (post) {
     out.post = { name: post.name, handle: post.handle, verified: post.verified, avatar: await storeAvatar(post), text: post.text };
   }
+  if (imageUrl && item.image?.from !== imageUrl) redoImage = true;
   if (!item.image || redoImage) {
-    const image = await storeImage(date, item, post, log);
+    const image = await storeImage(date, item, post, log, imageUrl);
     if (image) out.image = image;
+    else delete out.image;
+  }
+  if (out.image) {
+    const image = out.image;
+    out.image = { ...image, crop: crop ?? (redoImage ? undefined : image.crop) ?? (await autoCrop(path.join("public", image.src))) };
   }
   return out;
 }

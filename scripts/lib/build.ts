@@ -1,4 +1,4 @@
-import { itemSchema, type Item } from "../../src/lib/schema";
+import { itemSchema, type Crop, type Item } from "../../src/lib/schema";
 import { compactNumber, enrichStory, lookupXPost } from "./enrich";
 import { attachMedia } from "./media";
 import type { ScoredStory } from "./pick";
@@ -19,7 +19,7 @@ function slugify(text: string): string {
 /** Turns picked stories into X items, attaching real article links and the most-liked same-day post. */
 export async function buildItems(
   signals: Signals,
-  stories: (ScoredStory & { sourceUrl?: string })[],
+  stories: (ScoredStory & { sourceUrl?: string; imageUrl?: string; crop?: Crop })[],
   collectedBy: string,
   log: (msg: string) => void = console.log,
 ): Promise<Item[]> {
@@ -58,7 +58,7 @@ export async function buildItems(
       collectedBy,
       collectedAt: new Date().toISOString(),
     });
-    if (parsed.success) items.push(await attachMedia(signals.date, parsed.data, { log }));
+    if (parsed.success) items.push(await attachMedia(signals.date, parsed.data, { log, crop: story.crop, imageUrl: story.imageUrl }));
     else log(`    skipped: ${parsed.error.message}`);
   }
   return items;
