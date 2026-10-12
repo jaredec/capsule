@@ -16,7 +16,7 @@
       "author": "@kellyclarkson",
       "sourceUrl": "https://x.com/kellyclarkson/status/2108998378675933224",
       "metrics": {
-        "likes": "261.5K",
+        "likes": "261.6K",
         "replies": "8.3K"
       },
       "references": [
@@ -38,7 +38,7 @@
         "crossover": false
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T04:25:12.111Z",
+      "collectedAt": "2026-10-12T04:31:55.310Z",
       "post": {
         "name": "Kelly Clarkson",
         "handle": "@kellyclarkson",
@@ -49,12 +49,12 @@
       "image": {
         "src": "/media/2026-10-11/2026-10-11-x-kelly-clarkson-s-pretty-woman-feud-with-a-brookl.webp",
         "width": 720,
-        "height": 377,
-        "from": "https://new-cdn.mamamia.com.au/mamamia-pwa.appspot.com/mediaLibrary/GettyImages2262692625_1791773000527jpg_1791773068816.jpg",
+        "height": 960,
+        "from": "https://x.com/kellyclarkson/status/2108998378675933224",
         "crop": {
-          "x": 0.3,
+          "x": 0,
           "y": 0,
-          "w": 0.42,
+          "w": 1,
           "h": 1
         }
       }
