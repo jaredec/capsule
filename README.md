@@ -36,7 +36,7 @@ Every candidate gets three 1–10 scores:
 | dominance | How hard did it take over feeds: reposts, quote-posts, duets, outlets covering the reaction itself? |
 | memeability | Did it spawn remixes, templates, catchphrases, reaction images? |
 
-`pulse = 0.4·reach + 0.35·dominance + 0.25·memeability`. Sports, tech, politics and news are multiplied by 0.55, or by 0.9 when they crossed over into general meme culture. The rule lives in `scoreStory()` in `scripts/lib/pick.ts`, and the editorial prompt sits next to it.
+`pulse = 0.4·reach + 0.35·dominance + 0.25·memeability`. Sports, tech, politics and news are multiplied by 0.55, or by 0.9 when they crossed over into general meme culture. Celebrities count when they became the joke or did something non-fans reposted for the laugh, not for fan-account fare like red carpets, lip-syncs or thirst clips. The rule lives in `scoreStory()` in `scripts/lib/pick.ts`, and the editorial prompt sits next to it.
 
 ## The automated pipeline (cheap by design)
 

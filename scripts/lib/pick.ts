@@ -78,7 +78,8 @@ Scoring, each 1-10:
 - memeability: did it spawn remixes, templates, catchphrases, reaction images, parodies?
 
 Editorial rules:
-- Prefer pop culture, celebrities, TV/film moments, everyday-life drama, animals, food, brands, and pure internet absurdity.
+- Prefer memes, pure internet absurdity, everyday-life drama, animals, food, brands, and pop culture moments people riffed on.
+- A celebrity story only counts when the celebrity became the joke or did something memeable that non-fans reposted for the laugh (a coach revealing a 12-year Minecraft city, an actor's old photo turned into a caption template, a comedian's skit). Fan-account content is NOT the pulse: red carpets, outfits, lip-syncs, thirst clips, cute candids, cast reunions, trailers, interviews, "X did Y and fans are losing it". For those set memeability and reach low.
 - Sports, tech/AI, business, and politics are normally NOT the pulse. Only set crossover=true when the moment became an instant meme shared by people who don't follow that world (e.g. a clip non-fans reposted for the joke, not for the game).
 - Skip tragedies, crime, and local human-interest stories unless they became a genuine nationwide meme.
 - The story must have peaked on the target date (a US Pacific-time day). Headlines from the following day often recap the target day; use peakDay to say when it actually peaked.
