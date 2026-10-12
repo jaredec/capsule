@@ -126,18 +126,17 @@ function formatSignals(signals: Signals, recentTitles: string[]): string {
 }
 
 /**
- * `stories` are the day's picks: the top `count` candidates that peaked on the target day.
- * A day is never left empty, so when none did, the strongest candidate stands in. `reserves`
- * are the remaining candidates, strongest first, for when a pick has no usable source.
+ * Candidates in the order to try them: those that peaked on the target day by score, then the
+ * rest by score, so a day is never left empty when nothing peaked that day.
  */
 export async function pickStories(
   llm: LlmConfig,
   signals: Signals,
-  opts: { count: number; recentTitles: string[] },
-): Promise<{ stories: ScoredStory[]; reserves: ScoredStory[]; usage: unknown }> {
+  opts: { recentTitles: string[] },
+): Promise<{ candidates: ScoredStory[]; usage: unknown }> {
   const user = `${formatSignals(signals, opts.recentTitles)}
 
-Return the ${opts.count + 3} strongest candidates for this day's pulse, strongest first.`;
+Return the 5 strongest candidates for this day's pulse, strongest first.`;
   const { data, usage } = await completeJson<{ stories: Story[] }>(llm, {
     system: SYSTEM,
     user,
@@ -161,8 +160,8 @@ Return the ${opts.count + 3} strongest candidates for this day's pulse, stronges
       },
     }))
     .sort((a, b) => b.pulse.score - a.pulse.score);
-  const onDay = candidates.filter((s) => s.peakDay === "target");
-  const stories = onDay.length > 0 ? onDay.slice(0, opts.count) : candidates.slice(0, 1);
-  const reserves = [...onDay, ...candidates.filter((s) => s.peakDay !== "target")].filter((s) => !stories.includes(s));
-  return { stories, reserves, usage };
+  return {
+    candidates: [...candidates.filter((s) => s.peakDay === "target"), ...candidates.filter((s) => s.peakDay !== "target")],
+    usage,
+  };
 }

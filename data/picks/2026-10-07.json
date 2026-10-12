@@ -20,25 +20,6 @@
         "w": 0.52,
         "h": 0.9
       }
-    },
-    {
-      "title": "Amazon's 'About You' page says you have flat buttocks",
-      "summary": "Shoppers discovered Amazon's beta 'About You' page, which lists conclusions drawn from purchases, searches and reviews, and began posting the strangest ones, such as 'has flat buttocks', 'husband has skinny legs' and 'treats cats as biological children.' A Threads post started a wave of people sharing their own profiles. Outlets ran how-to guides for finding yours, and the screenshots turned into a mix of comedy and privacy unease.",
-      "kind": "image",
-      "tags": ["amazon", "ai", "shopping", "screenshots"],
-      "category": "brands",
-      "crossover": false,
-      "reach": 8,
-      "dominance": 7,
-      "memeability": 8,
-      "platform": "x",
-      "headlineIds": [11, 87],
-      "crop": {
-        "x": 0.08,
-        "y": 0.5,
-        "w": 0.6,
-        "h": 0.42
-      }
     }
   ]
 }

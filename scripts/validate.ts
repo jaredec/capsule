@@ -1,6 +1,6 @@
 /**
  * Validates every file in data/days against the shared schema, and that the archive has no
- * empty days: every date from the first day file to the last has at least one item, and every
+ * empty days: every date from the first day file to the last features exactly one item, and every
  * picks file lists at least one story. Used in CI.
  */
 import fs from "node:fs";
@@ -40,7 +40,8 @@ for (const file of files) {
     if (!item.id.startsWith(day.date)) report(`item id ${item.id} should start with ${day.date}`);
   }
   if (day.items.length === 0) report("day has no items");
-  else if (day.items.filter((i) => i.rank === 1).length !== 1) report("exactly one item must have rank 1");
+  else if (day.items.length > 1) report(`day has ${day.items.length} items, it should feature exactly one`);
+  else if (day.items[0].rank !== 1) report("the item must have rank 1");
 }
 
 const dates = files.map((f) => f.replace(/\.json$/, "")).filter(isValidIsoDate).sort();

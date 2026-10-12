@@ -42,10 +42,8 @@ export default async function DayRoute({ params }: PageProps<"/day/[date]">) {
       </Link>
       <h1 className="mt-6 font-display text-4xl text-zinc-900 md:text-5xl">{formatLongDate(date)}</h1>
 
-      <div className="mt-8 space-y-14">
-        {day.items.map((item) => (
-          <ItemDetail key={item.id} item={item} date={date} />
-        ))}
+      <div className="mt-8">
+        <ItemDetail item={day.items[0]} date={date} />
       </div>
 
       <nav className="mt-16 flex justify-between border-t border-zinc-200 pt-6 text-sm">

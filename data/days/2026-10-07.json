@@ -55,66 +55,6 @@
       },
       "collectedBy": "editor",
       "collectedAt": "2026-10-12T04:24:59.919Z"
-    },
-    {
-      "id": "2026-10-07-x-amazon-s-about-you-page-says-you-have-flat-butto",
-      "platform": "x",
-      "rank": 2,
-      "title": "Amazon's 'About You' page says you have flat buttocks",
-      "summary": "Shoppers discovered Amazon's beta 'About You' page, which lists conclusions drawn from purchases, searches and reviews, and began posting the strangest ones, such as 'has flat buttocks', 'husband has skinny legs' and 'treats cats as biological children.' A Threads post started a wave of people sharing their own profiles. Outlets ran how-to guides for finding yours, and the screenshots turned into a mix of comedy and privacy unease.",
-      "kind": "image",
-      "tags": [
-        "amazon",
-        "ai",
-        "shopping",
-        "screenshots"
-      ],
-      "author": "@venturetwins",
-      "sourceUrl": "https://x.com/venturetwins/status/2107673005732311301",
-      "metrics": {
-        "likes": "18.1K",
-        "replies": "553"
-      },
-      "references": [
-        {
-          "title": "Amazon's 'About You' pages go viral as users share AI's surprising assumptions. Here's how to see yours",
-          "url": "https://www.9news.com/article/news/nation-world/amazons-about-you-pages-go-viral-heres-how-to-see-yours/507-18c3e3d7-4d35-4e04-82bf-8cd9021d280a"
-        },
-        {
-          "title": "The Internet Is Losing Its Mind Over Amazon’s “About You” Customer Profiles",
-          "url": "https://tech.yahoo.com/general/articles/internet-losing-mind-over-amazon-182201240.html"
-        }
-      ],
-      "pulse": {
-        "score": 7.7,
-        "reach": 8,
-        "dominance": 7,
-        "memeability": 8,
-        "category": "brands",
-        "crossover": false
-      },
-      "image": {
-        "src": "/media/2026-10-07/2026-10-07-x-amazon-s-about-you-page-says-you-have-flat-butto.webp",
-        "width": 720,
-        "height": 1051,
-        "from": "https://pbs.twimg.com/media/HT_1barbgAEDL6S.jpg?name=medium",
-        "crop": {
-          "x": 0.08,
-          "y": 0.5,
-          "w": 0.6,
-          "h": 0.42
-        }
-      },
-      "post": {
-        "name": "Justine Moore",
-        "handle": "@venturetwins",
-        "verified": true,
-        "avatar": "/media/avatars/venturetwins.webp",
-        "text": "Someone discovered a new Amazon AI feature that summarizes what it knows about you and I am crying of laughter",
-        "postedAt": "2026-10-07T03:22:57.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T04:25:01.000Z"
     }
   ]
 }

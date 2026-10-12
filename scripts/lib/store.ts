@@ -14,9 +14,9 @@ export function readDay(date: string): DayFile {
 }
 
 export function writeDay(day: DayFile) {
-  if (day.items.length === 0) throw new Error(`${day.date}: refusing to write an empty day`);
+  if (day.items.length !== 1) throw new Error(`${day.date}: a day features exactly one item, got ${day.items.length}`);
   fs.mkdirSync(DAYS_DIR, { recursive: true });
-  const items = day.items.map((item, i) => ({ ...item, rank: i + 1 }));
+  const items = [{ ...day.items[0], rank: 1 }];
   const file = path.join(DAYS_DIR, `${day.date}.json`);
   fs.writeFileSync(file, `${JSON.stringify({ date: day.date, items }, null, 2)}\n`);
 }

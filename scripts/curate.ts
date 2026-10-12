@@ -1,6 +1,7 @@
 /**
- * Editor override: you choose the day's stories, the pipeline does the legwork
- * (article links, same-day posts, engagement numbers). Curated days are never
+ * Editor override: you choose the day's story, the pipeline does the legwork
+ * (article links, same-day posts, engagement numbers). A day features one story: the first
+ * one in the file with a usable source, so any after it are fallbacks. Curated days are never
  * overwritten by the collector, and they double as labeled examples for tuning the picker.
  *
  *   npm run curate -- picks/2026-10-07.json
@@ -15,6 +16,7 @@
  */
 import fs from "node:fs";
 import { isValidIsoDate } from "../src/lib/dates";
+import type { Item } from "../src/lib/schema";
 import { buildItems } from "./lib/build";
 import { scoreStory } from "./lib/pick";
 import type { PickFile } from "./lib/picks";
@@ -36,7 +38,7 @@ async function main() {
       signals = await gatherSignals(picks.date);
       writeSignals(signals);
     }
-    console.log(`${picks.date}: ${picks.stories.length} curated stories`);
+    console.log(`${picks.date}: ${picks.stories.length} curated ${picks.stories.length === 1 ? "story" : "stories"}`);
     const stories = picks.stories.map((s) => ({
       ...s,
       peakDay: "target" as const,
@@ -50,7 +52,12 @@ async function main() {
         crossover: s.crossover,
       },
     }));
-    const items = await buildItems(signals, stories, "editor");
+    let items: Item[] = [];
+    for (const story of stories) {
+      items = await buildItems(signals, [story], "editor");
+      if (items.length > 0) break;
+      console.log(`  no usable source for "${story.title}", trying the next story`);
+    }
     if (items.length === 0) throw new Error(`${file}: no story had a usable source, day left as it was`);
     writeDay({ date: picks.date, items });
   }

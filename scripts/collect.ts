@@ -14,13 +14,14 @@
  *   npm run collect -- --from 2026-01-01 --to 2026-09-30
  *   npm run collect -- --date 2026-10-05 --gather-only   # signals only, no LLM needed
  *
- * Options: --count 3, --refresh (redo automated days), --force (also replace curated days),
+ * Options: --refresh (redo automated days), --force (also replace curated days),
  *          --regather (refetch signals even if cached), --dry-run
  *
  * LLM: set GEMINI_API_KEY, XAI_API_KEY or OPENAI_API_KEY (see scripts/lib/llm.ts).
  */
 import { parseArgs } from "node:util";
 import { addDays, isValidIsoDate, todayPacific } from "../src/lib/dates";
+import type { Item } from "../src/lib/schema";
 import { buildItems } from "./lib/build";
 import { resolveLlm } from "./lib/llm";
 import { pickStories } from "./lib/pick";
@@ -33,7 +34,6 @@ const { values } = parseArgs({
     date: { type: "string" },
     from: { type: "string" },
     to: { type: "string" },
-    count: { type: "string", default: "3" },
     refresh: { type: "boolean", default: false },
     force: { type: "boolean", default: false },
     regather: { type: "boolean", default: false },
@@ -78,7 +78,6 @@ async function main() {
   const { dates, refresh } = resolveDates();
   const gatherOnly = values["gather-only"];
   const dryRun = values["dry-run"];
-  const count = Math.max(1, Math.min(5, Number(values.count) || 3));
   const llm = gatherOnly ? null : resolveLlm();
   if (!gatherOnly && !llm) fail("no LLM configured: set GEMINI_API_KEY, XAI_API_KEY or OPENAI_API_KEY (or use --gather-only)");
 
@@ -103,14 +102,17 @@ async function main() {
       console.log(`${date}: ${signals.headlines.length} headlines, ${signals.wikipedia.length} wiki pages`);
       if (gatherOnly || !llm) continue;
 
-      const { stories, reserves, usage } = await pickStories(llm, signals, { count, recentTitles: recentTitles(date) });
-      console.log(`  picked ${stories.length} with ${llm.label} usage=${JSON.stringify(usage)}`);
+      const { candidates, usage } = await pickStories(llm, signals, { recentTitles: recentTitles(date) });
+      console.log(`  ${candidates.length} candidates from ${llm.label} usage=${JSON.stringify(usage)}`);
       const collectedBy = `pulse:${llm.model}`;
-      let items = await buildItems(signals, stories, collectedBy);
-      for (const reserve of reserves) {
-        if (items.length > 0) break;
-        console.log(`  no usable picks, trying reserve "${reserve.title}"`);
-        items = await buildItems(signals, [reserve], collectedBy);
+      let items: Item[] = [];
+      for (const story of candidates) {
+        items = await buildItems(signals, [story], collectedBy);
+        if (items.length > 0) {
+          console.log(`  featured "${story.title}"`);
+          break;
+        }
+        console.log(`  no usable source for "${story.title}", trying the next candidate`);
       }
       // Every day must show something; keep whatever the day already had and flag it.
       if (items.length === 0) throw new Error("no candidate had a usable source");

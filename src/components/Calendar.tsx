@@ -114,13 +114,8 @@ export function Calendar({ year, month, itemsByDate, prevHref, nextHref }: Props
           })}
       </ol>
 
-      {selected && (
-        <DayDrawer
-          date={selected}
-          items={itemsByDate[selected] ?? []}
-          platform={platform}
-          onClose={() => setSelected(null)}
-        />
+      {selected && itemsByDate[selected]?.[0] && (
+        <DayDrawer date={selected} item={itemsByDate[selected][0]} onClose={() => setSelected(null)} />
       )}
     </>
   );
@@ -293,17 +288,7 @@ function AgendaRow({
   );
 }
 
-function DayDrawer({
-  date,
-  items,
-  platform,
-  onClose,
-}: {
-  date: string;
-  items: Item[];
-  platform: Platform | null;
-  onClose: () => void;
-}) {
+function DayDrawer({ date, item, onClose }: { date: string; item: Item; onClose: () => void }) {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => e.key === "Escape" && onClose();
     window.addEventListener("keydown", onKey);
@@ -314,10 +299,6 @@ function DayDrawer({
       document.body.style.overflow = overflow;
     };
   }, [onClose]);
-
-  const ordered = platform
-    ? [...items.filter((i) => i.platform === platform), ...items.filter((i) => i.platform !== platform)]
-    : items;
 
   return (
     <div className="fixed inset-0 z-50 flex justify-end" role="dialog" aria-modal="true" aria-label={formatLongDate(date)}>
@@ -336,10 +317,8 @@ function DayDrawer({
             ✕
           </button>
         </header>
-        <div className="flex-1 space-y-12 px-6 py-6">
-          {ordered.map((item) => (
-            <ItemDetail key={item.id} item={item} date={date} />
-          ))}
+        <div className="flex-1 px-6 py-6">
+          <ItemDetail item={item} date={date} />
         </div>
       </div>
     </div>
