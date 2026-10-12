@@ -2,7 +2,7 @@ import { embedTarget } from "@/lib/embeds";
 import { PLATFORM_META } from "@/lib/platforms";
 import type { Item } from "@/lib/schema";
 import { Embed } from "./Embed";
-import { FittedImage } from "./FittedImage";
+import { CroppedImage } from "./CroppedImage";
 
 export function PlatformBadge({ platform }: { platform: Item["platform"] }) {
   const meta = PLATFORM_META[platform];
@@ -54,7 +54,7 @@ export function ItemDetail({ item }: { item: Item }) {
       {target ? (
         <Embed target={target} title={item.title} />
       ) : (
-        item.image && <FittedImage image={item.image} alt={item.title} className="aspect-video w-full rounded-2xl" />
+        item.image && <CroppedImage image={item.image} aspect={16 / 9} alt={item.title} className="w-full rounded-2xl" />
       )}
 
       <div className="flex items-center gap-2">

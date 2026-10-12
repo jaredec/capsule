@@ -7,7 +7,7 @@ import { MONTH_NAMES, WEEKDAYS_SHORT, formatLongDate, monthGrid, parseIsoDate } 
 import { usePlatformFilter, useToday } from "@/lib/hooks";
 import { PLATFORM_META } from "@/lib/platforms";
 import { PLATFORMS, type Item, type Platform } from "@/lib/schema";
-import { FittedImage } from "./FittedImage";
+import { CroppedImage } from "./CroppedImage";
 import { ItemDetail } from "./ItemDetail";
 
 type Props = {
@@ -174,53 +174,18 @@ function PlatformSelect({
   );
 }
 
-function DayNumber({ day, isToday }: { day: number; isToday: boolean }) {
+function DayNumber({ day, isToday, onImage }: { day: number; isToday: boolean; onImage?: boolean }) {
+  const tone = isToday
+    ? "bg-zinc-900 font-semibold text-white"
+    : onImage
+      ? "bg-white/90 font-medium text-zinc-900 shadow-sm"
+      : "font-medium text-zinc-400";
   return (
-    <span
-      className={`grid size-6 shrink-0 place-items-center rounded-full text-xs tabular-nums ${
-        isToday ? "bg-zinc-900 font-semibold text-white" : "font-medium text-zinc-400"
-      }`}
-    >
-      {day}
-    </span>
+    <span className={`grid size-6 shrink-0 place-items-center rounded-full text-xs tabular-nums ${tone}`}>{day}</span>
   );
 }
 
-function VerifiedBadge() {
-  return (
-    <svg viewBox="0 0 22 22" aria-label="Verified" className="size-3.5 shrink-0 fill-sky-500">
-      <path d="M20.4 11c0-1.4-.8-2.6-2-3.2.4-1.3.1-2.8-.9-3.7-1-1-2.4-1.3-3.7-.9C13.2 2 12 1.2 10.6 1.2S8 2 7.4 3.2c-1.3-.4-2.8-.1-3.7.9-1 1-1.3 2.4-.9 3.7C1.6 8.4.8 9.6.8 11s.8 2.6 2 3.2c-.4 1.3-.1 2.8.9 3.7 1 1 2.4 1.3 3.7.9.6 1.2 1.8 2 3.2 2s2.6-.8 3.2-2c1.3.4 2.8.1 3.7-.9 1-1 1.3-2.4.9-3.7 1.2-.6 2-1.8 2-3.2zm-11.3 4.3L5.5 11.7l1.4-1.4 2.2 2.2 5-5 1.4 1.4-6.4 6.4z" />
-    </svg>
-  );
-}
-
-/** A day's top pick laid out like a compact X post: author, a line of text, then the media uncropped. */
-function PostCard({ item, day, isToday }: { item: Item; day: number; isToday: boolean }) {
-  const { post, image } = item;
-  const text = post?.text || item.title;
-  return (
-    <>
-      <span className="flex min-w-0 items-center gap-1.5">
-        <DayNumber day={day} isToday={isToday} />
-        {post && (
-          <>
-            {post.avatar ? (
-              <Image src={post.avatar} alt="" width={20} height={20} unoptimized className="size-5 shrink-0 rounded-full" />
-            ) : (
-              <span className="size-5 shrink-0 rounded-full bg-zinc-200" />
-            )}
-            <span className="truncate text-xs font-semibold text-zinc-900">{post.name}</span>
-            {post.verified && <VerifiedBadge />}
-          </>
-        )}
-      </span>
-      <span className={`mt-1 text-xs leading-snug text-zinc-600 ${image ? "line-clamp-2" : "line-clamp-[9]"}`}>
-        {text}
-      </span>
-      {image && <FittedImage image={image} className="mt-2 min-h-0 flex-1" />}
-    </>
-  );
-}
+const CELL_ASPECT = 3 / 4;
 
 function DayCell({
   date,
@@ -256,9 +221,31 @@ function DayCell({
       type="button"
       onClick={onOpen}
       aria-label={`${formatLongDate(date)}: ${top.title}`}
-      className="flex aspect-[3/4] flex-col overflow-hidden rounded-2xl bg-white p-2 text-left ring-1 ring-black/5 transition hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900"
+      className="group relative aspect-[3/4] overflow-hidden rounded-2xl bg-zinc-200 text-left ring-1 ring-black/5 transition hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900"
     >
-      <PostCard item={top} day={day} isToday={isToday} />
+      {top.image ? (
+        <CroppedImage image={top.image} aspect={CELL_ASPECT} className="absolute inset-0" />
+      ) : (
+        <span className="absolute inset-x-0 bottom-0 line-clamp-5 p-2.5 font-display text-lg leading-tight text-zinc-800">
+          {top.title}
+        </span>
+      )}
+      <span className="absolute top-2 left-2">
+        <DayNumber day={day} isToday={isToday} onImage={Boolean(top.image)} />
+      </span>
+      {top.image && (
+        <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 via-black/50 to-transparent p-2.5 pt-12 opacity-0 transition group-hover:opacity-100 group-focus-visible:opacity-100">
+          {top.post && (
+            <span className="mb-1 flex items-center gap-1.5 text-[11px] font-semibold text-white/90">
+              {top.post.avatar && (
+                <Image src={top.post.avatar} alt="" width={16} height={16} unoptimized className="size-4 rounded-full" />
+              )}
+              <span className="truncate">{top.post.name}</span>
+            </span>
+          )}
+          <span className="line-clamp-3 text-[13px] leading-snug font-medium text-white">{top.title}</span>
+        </span>
+      )}
     </button>
   );
 }
@@ -297,7 +284,7 @@ function AgendaRow({
     >
       {dateLabel}
       {top.image ? (
-        <FittedImage image={top.image} className="size-16 shrink-0" />
+        <CroppedImage image={top.image} aspect={1} className="size-16 shrink-0 rounded-xl" />
       ) : (
         <div className="size-16 shrink-0 rounded-xl bg-zinc-100" />
       )}

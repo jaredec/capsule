@@ -1,23 +1,33 @@
 import Image from "next/image";
+import { cropStyle } from "@/lib/crop";
 import type { Item } from "@/lib/schema";
 
-/**
- * Shows the whole image, never cropped, inside a frame of any shape; the leftover space is
- * filled with a blurred copy so every frame looks the same regardless of the image's aspect.
- */
-export function FittedImage({
+/** Fills a frame of the given aspect with the image, cropped around its important region. */
+export function CroppedImage({
   image,
+  aspect,
   alt = "",
   className = "",
 }: {
   image: NonNullable<Item["image"]>;
+  aspect: number;
   alt?: string;
   className?: string;
 }) {
   return (
-    <div className={`relative overflow-hidden rounded-xl bg-zinc-200 ring-1 ring-black/5 ${className}`}>
-      <Image src={image.src} alt="" fill unoptimized aria-hidden className="scale-125 object-cover opacity-70 blur-xl" />
-      <Image src={image.src} alt={alt} fill unoptimized className="object-contain" />
+    <div
+      className={`overflow-hidden bg-zinc-200 ${/\b(absolute|fixed)\b/.test(className) ? "" : "relative"} ${className}`}
+      style={{ aspectRatio: aspect }}
+    >
+      <Image
+        src={image.src}
+        alt={alt}
+        width={image.width}
+        height={image.height}
+        unoptimized
+        className="absolute max-w-none"
+        style={cropStyle(image, aspect)}
+      />
     </div>
   );
 }
