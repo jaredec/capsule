@@ -1,4 +1,25 @@
 {
   "date": "2026-10-02",
-  "stories": []
+  "stories": [
+    {
+      "title": "Jonathan Bailey's breathy Dracula audiobook clip sends fans feral",
+      "summary": "Entertainment Tonight shared a behind-the-scenes clip of Jonathan Bailey and Ella Purnell recording a feeding scene for Audible's new Bram Stoker's Dracula, with heavy breathing, a hand on his chest and Purnell biting an apple for the sound effect. The clip split viewers between thirst and second-hand embarrassment, and posts asking whether audiobooks were their new kink spread across X and TikTok.",
+      "kind": "video",
+      "tags": ["celebrity", "audiobook", "dracula"],
+      "category": "celebrity",
+      "crossover": false,
+      "reach": 6,
+      "dominance": 7,
+      "memeability": 7,
+      "platform": "x",
+      "headlineIds": [83, 97, 104],
+      "frameAt": 35.6,
+      "crop": {
+        "x": 0.31,
+        "y": 0,
+        "w": 0.48,
+        "h": 1
+      }
+    }
+  ]
 }

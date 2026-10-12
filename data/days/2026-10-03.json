@@ -2,53 +2,53 @@
   "date": "2026-10-03",
   "items": [
     {
-      "id": "2026-10-03-x-lindsay-lohan-recreates-it-s-october-3rd-for-mea",
+      "id": "2026-10-03-x-vivek-ramaswamy-nearly-drops-a-kid-at-a-trump-ra",
       "platform": "x",
       "rank": 1,
-      "title": "Lindsay Lohan recreates \"It's October 3rd\" for Mean Girls Day",
-      "summary": "On the unofficial Mean Girls Day, Lindsay Lohan posted a video of herself at a school desk delivering Cady Heron's \"It's October 3rd\" line to director Mark Waters standing in as Aaron Samuels, then cracking up. The clip passed 35 million views and 2 million likes on Instagram as fans flooded feeds with pink outfits, quotes and their own recreations of the scene.",
+      "title": "Vivek Ramaswamy nearly drops a kid at a Trump rally: \"Big guy!\"",
+      "summary": "At a Trump rally in Vandalia, Ohio, gubernatorial candidate Vivek Ramaswamy called 10-year-old Hunter up to the podium, announced \"I'm going to pick you up\" and hoisted him, only for the boy to tip sideways as Ramaswamy staggered and blurted \"Whoa! Big guy!\" The clip racked up millions of views, drew comparisons to Dukakis in the tank and got roasted by Jimmy Fallon.",
       "kind": "video",
       "tags": [
-        "film",
-        "celebrity",
-        "nostalgia"
+        "politics",
+        "awkward",
+        "rally"
       ],
-      "author": "@lindsaylohan",
-      "sourceUrl": "https://x.com/lindsaylohan/status/2106370548813218059",
+      "author": "@Acyn",
+      "sourceUrl": "https://x.com/Acyn/status/2106507025274569114",
       "metrics": {
-        "likes": "208.1K",
-        "replies": "657"
+        "likes": "18K",
+        "replies": "1.6K"
       },
       "references": [
         {
-          "title": "“Happy October 3rd”: Internet reacts as Lindsay Lohan revisits iconic Mean Girls moment",
-          "url": "https://www.soapcentral.com/entertainment/happy-october-3rd-internet-reacts-lindsay-lohan-revisits-iconic-mean-girls-moment"
+          "title": "Ohio Gubernatorial Candidate Vivek Ramaswamy Goes Viral After Awkward Moment With 10-Year-Old at Trump Rally: ‘Big Guy!’",
+          "url": "https://thenerdstash.com/ohio-gubernatorial-candidate-vivek-ramaswamy-goes-viral-after-awkward-moment-with-10-year-old-at-trump-rally-big-guy/"
         }
       ],
       "pulse": {
-        "score": 7.6,
-        "reach": 9,
+        "score": 6.5,
+        "reach": 7,
         "dominance": 7,
-        "memeability": 6,
-        "category": "tv-film",
-        "crossover": false
+        "memeability": 8,
+        "category": "politics",
+        "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T03:25:02.743Z",
+      "collectedAt": "2026-10-12T03:31:37.238Z",
       "post": {
-        "name": "Lindsay Lohan",
-        "handle": "@lindsaylohan",
+        "name": "Acyn",
+        "handle": "@Acyn",
         "verified": true,
-        "avatar": "/media/avatars/lindsaylohan.webp",
-        "text": "It’s October 3rd 💝"
+        "avatar": "/media/avatars/acyn.webp",
+        "text": "Ramaswamy: I’m going to pick you up. *almost drops kid*"
       },
       "image": {
-        "src": "/media/2026-10-03/2026-10-03-x-lindsay-lohan-recreates-it-s-october-3rd-for-mea.webp",
+        "src": "/media/2026-10-03/2026-10-03-x-vivek-ramaswamy-nearly-drops-a-kid-at-a-trump-ra.webp",
         "width": 720,
-        "height": 405,
-        "from": "https://video.twimg.com/amplify_video/2106370510779236352/vid/avc1/1280x720/dfRAW_ipAkeU3nGv.mp4#t=3.3",
+        "height": 406,
+        "from": "https://video.twimg.com/amplify_video/2106506990654820352/vid/avc1/1278x720/aS7yd11RYPYeurKQ.mp4#t=2.65",
         "crop": {
-          "x": 0.42,
+          "x": 0.32,
           "y": 0,
           "w": 0.42,
           "h": 1
