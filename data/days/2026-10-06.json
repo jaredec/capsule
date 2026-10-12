@@ -13,11 +13,11 @@
         "film",
         "nostalgia"
       ],
-      "author": "@graciem120001",
-      "sourceUrl": "https://x.com/graciem120001/status/2107085137615990931",
+      "author": "@marygracepurser",
+      "sourceUrl": "https://x.com/marygracepurser/status/2107300501360648215",
       "metrics": {
-        "likes": "170.6K",
-        "replies": "104"
+        "likes": "33.2K",
+        "replies": "25"
       },
       "references": [
         {
@@ -42,24 +42,24 @@
         "crossover": false
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T03:25:06.180Z",
+      "collectedAt": "2026-10-12T03:44:58.052Z",
       "post": {
-        "name": "Gracie",
-        "handle": "@graciem120001",
-        "verified": true,
-        "avatar": "/media/avatars/graciem120001.webp",
-        "text": "Yes he does 😭"
+        "name": "Mary Grace",
+        "handle": "@marygracepurser",
+        "verified": false,
+        "avatar": "/media/avatars/marygracepurser.webp",
+        "text": "the kid you befriend at the hotel pool for the entire day as a kid and then never hear from ever again"
       },
       "image": {
         "src": "/media/2026-10-06/2026-10-06-x-skyler-gisondo-becomes-everyone-s-childhood-frie.webp",
         "width": 720,
-        "height": 1186,
-        "from": "https://pbs.twimg.com/media/HT3ew7ZX0AAfId-.jpg?name=medium",
+        "height": 705,
+        "from": "https://pbs.twimg.com/media/HT6ioypW4AApsOl.jpg?name=medium",
         "crop": {
-          "x": 0.13,
-          "y": 0.38,
-          "w": 0.75,
-          "h": 0.42
+          "x": 0.27,
+          "y": 0.05,
+          "w": 0.5,
+          "h": 0.72
         }
       }
     }

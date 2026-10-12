@@ -13,11 +13,12 @@
       "memeability": 9,
       "platform": "x",
       "headlineIds": [10, 70, 63, 62],
+      "sourceUrl": "https://x.com/marygracepurser/status/2107300501360648215",
       "crop": {
-        "x": 0.13,
-        "y": 0.38,
-        "w": 0.75,
-        "h": 0.42
+        "x": 0.27,
+        "y": 0.05,
+        "w": 0.5,
+        "h": 0.72
       }
     }
   ]
