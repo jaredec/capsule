@@ -33,15 +33,6 @@
         "category": "internet-culture",
         "crossover": false
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T03:25:03.489Z",
-      "post": {
-        "name": "SharrellAnne",
-        "handle": "@SharrellAnne2",
-        "verified": true,
-        "avatar": "/media/avatars/sharrellanne2.webp",
-        "text": "Can somebody please explain this to me? I am literally seeing it EVERYWHERE, and every single time, it sends a chill down my spine. I have no idea what it is about this creepy little thing, but something about it is deeply unsettling. 😭"
-      },
       "image": {
         "src": "/media/2026-10-05/2026-10-05-x-ai-rumpelstiltskin-goes-tip-toein-in-my-jordans.webp",
         "width": 720,
@@ -53,7 +44,17 @@
           "w": 0.46,
           "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "SharrellAnne",
+        "handle": "@SharrellAnne2",
+        "verified": true,
+        "avatar": "/media/avatars/sharrellanne2.webp",
+        "text": "Can somebody please explain this to me? I am literally seeing it EVERYWHERE, and every single time, it sends a chill down my spine. I have no idea what it is about this creepy little thing, but something about it is deeply unsettling. 😭",
+        "postedAt": "2026-10-05T18:51:40.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T03:25:03.489Z"
     }
   ]
 }

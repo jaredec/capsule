@@ -33,15 +33,6 @@
         "category": "tv-film",
         "crossover": false
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T04:50:14.485Z",
-      "post": {
-        "name": "Lindsay Lohan",
-        "handle": "@lindsaylohan",
-        "verified": true,
-        "avatar": "/media/avatars/lindsaylohan.webp",
-        "text": "It’s October 3rd 💝"
-      },
       "image": {
         "src": "/media/2026-10-03/2026-10-03-x-lindsay-lohan-recreates-it-s-october-3rd-for-mea.webp",
         "width": 720,
@@ -53,7 +44,17 @@
           "w": 0.42,
           "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "Lindsay Lohan",
+        "handle": "@lindsaylohan",
+        "verified": true,
+        "avatar": "/media/avatars/lindsaylohan.webp",
+        "text": "It’s October 3rd 💝",
+        "postedAt": "2026-10-03T13:07:27.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T04:50:14.485Z"
     }
   ]
 }

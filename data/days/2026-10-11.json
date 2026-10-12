@@ -37,15 +37,6 @@
         "category": "celebrity",
         "crossover": false
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T04:31:55.310Z",
-      "post": {
-        "name": "Kelly Clarkson",
-        "handle": "@kellyclarkson",
-        "verified": true,
-        "avatar": "/media/avatars/kellyclarkson.webp",
-        "text": "Just drove all the way to Brooklyn to check out this store I thought looked really rad and had a few things in mind to buy and literally was looked at as if I couldn’t afford it and was told he could find something comparable for me. Wow, dude. You’re an idiot and just lost a"
-      },
       "image": {
         "src": "/media/2026-10-11/2026-10-11-x-kelly-clarkson-s-pretty-woman-feud-with-a-brookl.webp",
         "width": 720,
@@ -57,7 +48,17 @@
           "w": 1,
           "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "Kelly Clarkson",
+        "handle": "@kellyclarkson",
+        "verified": true,
+        "avatar": "/media/avatars/kellyclarkson.webp",
+        "text": "Just drove all the way to Brooklyn to check out this store I thought looked really rad and had a few things in mind to buy and literally was looked at as if I couldn’t afford it and was told he could find something comparable for me. Wow, dude. You’re an idiot and just lost a",
+        "postedAt": "2026-10-10T19:09:31.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T04:31:55.310Z"
     }
   ]
 }

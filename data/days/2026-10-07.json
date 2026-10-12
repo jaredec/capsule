@@ -33,15 +33,6 @@
         "category": "celebrity",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T04:24:59.919Z",
-      "post": {
-        "name": "Marlins_Man",
-        "handle": "@marlins_man",
-        "verified": true,
-        "avatar": "/media/avatars/marlins_man.webp",
-        "text": "So i had no idea who this couple were and they were so nice and friendly to everyone.  I told them i know sports, not music nor movies.  They recently got married in june in italy i think.  I wish them 50 years or more of happiness."
-      },
       "image": {
         "src": "/media/2026-10-07/2026-10-07-x-marlins-man-chats-up-dua-lipa-at-her-first-baseb.webp",
         "width": 720,
@@ -53,7 +44,17 @@
           "w": 0.52,
           "h": 0.9
         }
-      }
+      },
+      "post": {
+        "name": "Marlins_Man",
+        "handle": "@marlins_man",
+        "verified": true,
+        "avatar": "/media/avatars/marlins_man.webp",
+        "text": "So i had no idea who this couple were and they were so nice and friendly to everyone.  I told them i know sports, not music nor movies.  They recently got married in june in italy i think.  I wish them 50 years or more of happiness.",
+        "postedAt": "2026-10-08T04:53:17.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T04:24:59.919Z"
     },
     {
       "id": "2026-10-07-x-amazon-s-about-you-page-says-you-have-flat-butto",
@@ -92,15 +93,6 @@
         "category": "brands",
         "crossover": false
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T04:25:01.000Z",
-      "post": {
-        "name": "Justine Moore",
-        "handle": "@venturetwins",
-        "verified": true,
-        "avatar": "/media/avatars/venturetwins.webp",
-        "text": "Someone discovered a new Amazon AI feature that summarizes what it knows about you and I am crying of laughter"
-      },
       "image": {
         "src": "/media/2026-10-07/2026-10-07-x-amazon-s-about-you-page-says-you-have-flat-butto.webp",
         "width": 720,
@@ -112,7 +104,17 @@
           "w": 0.6,
           "h": 0.42
         }
-      }
+      },
+      "post": {
+        "name": "Justine Moore",
+        "handle": "@venturetwins",
+        "verified": true,
+        "avatar": "/media/avatars/venturetwins.webp",
+        "text": "Someone discovered a new Amazon AI feature that summarizes what it knows about you and I am crying of laughter",
+        "postedAt": "2026-10-07T03:22:57.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T04:25:01.000Z"
     }
   ]
 }

@@ -41,15 +41,6 @@
         "category": "celebrity",
         "crossover": false
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T03:39:32.616Z",
-      "post": {
-        "name": "DiscussingFilm",
-        "handle": "@DiscussingFilm",
-        "verified": true,
-        "avatar": "/media/avatars/discussingfilm.webp",
-        "text": "First clip of Jonathan Bailey and Ella Purnell recording lines for Audible's audiobook adaptation of ‘DRACULA’."
-      },
       "image": {
         "src": "/media/2026-10-02/2026-10-02-x-jonathan-bailey-s-breathy-dracula-audiobook-clip.webp",
         "width": 720,
@@ -61,7 +52,17 @@
           "w": 0.48,
           "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "DiscussingFilm",
+        "handle": "@DiscussingFilm",
+        "verified": true,
+        "avatar": "/media/avatars/discussingfilm.webp",
+        "text": "First clip of Jonathan Bailey and Ella Purnell recording lines for Audible's audiobook adaptation of ‘DRACULA’.",
+        "postedAt": "2026-10-01T16:20:47.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T03:39:32.616Z"
     }
   ]
 }

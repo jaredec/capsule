@@ -33,15 +33,6 @@
         "category": "pop-culture",
         "crossover": false
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T04:43:40.044Z",
-      "post": {
-        "name": "DRUSKI",
-        "handle": "@druski",
-        "verified": true,
-        "avatar": "/media/avatars/druski.webp",
-        "text": "Kid Stars growup & be so Unpredictable 😂"
-      },
       "image": {
         "src": "/media/2026-10-08/2026-10-08-x-druski-s-that-s-so-zion-skit-roasts-grown-up-dis.webp",
         "width": 720,
@@ -53,7 +44,17 @@
           "w": 1,
           "h": 0.75
         }
-      }
+      },
+      "post": {
+        "name": "DRUSKI",
+        "handle": "@druski",
+        "verified": true,
+        "avatar": "/media/avatars/druski.webp",
+        "text": "Kid Stars growup & be so Unpredictable 😂",
+        "postedAt": "2026-10-08T22:59:53.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T04:43:40.044Z"
     }
   ]
 }

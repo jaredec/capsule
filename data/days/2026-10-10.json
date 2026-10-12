@@ -29,15 +29,6 @@
         "category": "internet-culture",
         "crossover": false
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T04:50:14.981Z",
-      "post": {
-        "name": "Upper Canadian Cavalier",
-        "handle": "@UCCavalier",
-        "verified": true,
-        "avatar": "/media/avatars/uccavalier.webp",
-        "text": "POV: You told a rude Québécois kid who gave you grief for daring to speak English that fries are better with ketchup than as poutine, so now he's folk-dancing to defend the village's honour."
-      },
       "image": {
         "src": "/media/2026-10-10/2026-10-10-x-c-est-le-docteur-guerit-tout-serge-veilleux-s-19.webp",
         "width": 720,
@@ -49,7 +40,17 @@
           "w": 0.57,
           "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "Upper Canadian Cavalier",
+        "handle": "@UCCavalier",
+        "verified": true,
+        "avatar": "/media/avatars/uccavalier.webp",
+        "text": "POV: You told a rude Québécois kid who gave you grief for daring to speak English that fries are better with ketchup than as poutine, so now he's folk-dancing to defend the village's honour.",
+        "postedAt": "2026-10-08T13:09:00.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T04:50:14.981Z"
     }
   ]
 }

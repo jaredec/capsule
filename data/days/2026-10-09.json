@@ -33,15 +33,6 @@
         "category": "celebrity",
         "crossover": false
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T04:25:10.878Z",
-      "post": {
-        "name": "Godwin",
-        "handle": "@Okori13Okorie",
-        "verified": false,
-        "avatar": "/media/avatars/okori13okorie.webp",
-        "text": "I can't take this Tom Welling gigolo-ing naked in the stories outta nowhere"
-      },
       "image": {
         "src": "/media/2026-10-09/2026-10-09-x-tom-welling-s-hello-nycc-skyline-photo-shows-mor.webp",
         "width": 679,
@@ -53,7 +44,17 @@
           "w": 0.9,
           "h": 0.62
         }
-      }
+      },
+      "post": {
+        "name": "Godwin",
+        "handle": "@Okori13Okorie",
+        "verified": false,
+        "avatar": "/media/avatars/okori13okorie.webp",
+        "text": "I can't take this Tom Welling gigolo-ing naked in the stories outta nowhere",
+        "postedAt": "2026-10-11T09:20:45.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T04:25:10.878Z"
     }
   ]
 }
