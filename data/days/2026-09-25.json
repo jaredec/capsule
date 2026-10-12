@@ -2,23 +2,23 @@
   "date": "2026-09-25",
   "items": [
     {
-      "id": "2026-09-25-x-i-was-being-very-normal-about-these-until-i-saw-",
+      "id": "2026-09-25-x-discord-s-wumpus-gets-tortured-in-fan-art-over-t",
       "platform": "x",
       "rank": 1,
-      "title": "\"I was being very normal about these until I saw them stack\"",
-      "summary": "When design account @dollbodydoesoul shared photos of ceramic cups by Sara Gaia, the individual vessel seemed innocent enough—until the second slide showed them stacked into a curvy, bamboo-joint silhouette. The post amassed over 720K likes as users marveled at the suggestive silhouette created by nesting ceramics.",
+      "title": "Discord's Wumpus gets tortured in fan art over the age-check update",
+      "summary": "Discord tried to joke its way through a buggy age assurance update, which users said was misjudging adults as minors, by posting its mascot Wumpus crying and giving a thumbs-up. People answered with quote posts of ever more elaborate art of Wumpus being tortured. By Sep 25 the biggest had 313K and 273K likes, one user counted 20 \"museum-quality\" pieces in 48 hours, and Duolingo later joined in.",
       "kind": "image",
       "tags": [
-        "ceramics",
-        "sara-gaia",
-        "stacking-cups",
-        "design"
+        "discord",
+        "wumpus",
+        "age-verification",
+        "fan-art"
       ],
-      "author": "@dollbodydoesoul",
-      "sourceUrl": "https://x.com/dollbodydoesoul/status/2103462270680317980",
+      "author": "@discord",
+      "sourceUrl": "https://x.com/discord/status/2102947640124244226",
       "metrics": {
-        "likes": "721.6K",
-        "replies": "592"
+        "likes": "56.6K",
+        "replies": "13.3K"
       },
       "references": [],
       "pulse": {
@@ -30,27 +30,27 @@
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-09-25/2026-09-25-x-i-was-being-very-normal-about-these-until-i-saw-.webp",
-        "width": 676,
-        "height": 1200,
-        "from": "https://pbs.twimg.com/media/HTD_yTYWAAAvHxr.jpg",
+        "src": "/media/2026-09-25/2026-09-25-x-discord-s-wumpus-gets-tortured-in-fan-art-over-t.webp",
+        "width": 720,
+        "height": 753,
+        "from": "https://pbs.twimg.com/media/HS8rdDdbgAAguxc.jpg?name=medium",
         "crop": {
-          "x": 0,
-          "y": 0.249,
-          "w": 1,
-          "h": 0.751
+          "x": 0.1,
+          "y": 0,
+          "w": 0.78,
+          "h": 1
         }
       },
       "post": {
-        "name": "something something fashion",
-        "handle": "@dollbodydoesoul",
-        "verified": false,
-        "avatar": "/media/avatars/dollbodydoesoul.webp",
-        "text": "I was being very normal about these until I saw them stack",
-        "postedAt": "2026-09-25T12:31:00.000Z"
+        "name": "Discord",
+        "handle": "@discord",
+        "verified": true,
+        "avatar": "/media/avatars/discord.webp",
+        "text": "when you launch an extremely popular age assurance update that everyone on Discord was really looking forward to and it has bugs",
+        "postedAt": "2026-09-24T02:26:02.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T07:35:26.104Z"
+      "collectedAt": "2026-10-12T07:52:43.120Z"
     }
   ]
 }

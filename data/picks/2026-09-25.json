@@ -2,10 +2,15 @@
   "date": "2026-09-25",
   "stories": [
     {
-      "title": "\"I was being very normal about these until I saw them stack\"",
-      "summary": "When design account @dollbodydoesoul shared photos of ceramic cups by Sara Gaia, the individual vessel seemed innocent enough—until the second slide showed them stacked into a curvy, bamboo-joint silhouette. The post amassed over 720K likes as users marveled at the suggestive silhouette created by nesting ceramics.",
+      "title": "Discord's Wumpus gets tortured in fan art over the age-check update",
+      "summary": "Discord tried to joke its way through a buggy age assurance update, which users said was misjudging adults as minors, by posting its mascot Wumpus crying and giving a thumbs-up. People answered with quote posts of ever more elaborate art of Wumpus being tortured. By Sep 25 the biggest had 313K and 273K likes, one user counted 20 \"museum-quality\" pieces in 48 hours, and Duolingo later joined in.",
       "kind": "image",
-      "tags": ["ceramics", "sara-gaia", "stacking-cups", "design"],
+      "tags": [
+        "discord",
+        "wumpus",
+        "age-verification",
+        "fan-art"
+      ],
       "category": "internet-culture",
       "crossover": true,
       "reach": 8,
@@ -13,8 +18,13 @@
       "memeability": 9,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/dollbodydoesoul/status/2103462270680317980",
-      "imageUrl": "https://pbs.twimg.com/media/HTD_yTYWAAAvHxr.jpg"
+      "sourceUrl": "https://x.com/discord/status/2102947640124244226",
+      "crop": {
+        "x": 0.1,
+        "y": 0,
+        "w": 0.78,
+        "h": 1
+      }
     }
   ]
 }

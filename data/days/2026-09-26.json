@@ -2,23 +2,23 @@
   "date": "2026-09-26",
   "items": [
     {
-      "id": "2026-09-26-x-you-cannot-be-that-tired",
+      "id": "2026-09-26-x-german-husband-the-creator-s-husband-the-interne",
       "platform": "x",
       "rank": 1,
-      "title": "\"You cannot be that tired\"",
-      "summary": "A photo of a neighborhood tabby cat completely knocked out on its back in the dirt, neck arched backward against a wooden garden bed, struck a universal chord of exhaustion. The post racked up over 200K likes as users declared the deeply sleeping feline the ultimate weekend mood.",
+      "title": "\"German Husband\", the creator's husband the internet never sees",
+      "summary": "A post pointed out that Uyen Ninh, a Vietnamese creator whose videos are about life with her \"German Husband\", has kept his face off the internet even though he's in almost every video. It got 245K likes, and the top quote post showed she hides him in her comics too, with a leaf over his face.",
       "kind": "image",
       "tags": [
-        "sleeping-cat",
-        "tired",
-        "cats-of-x",
-        "weekend-mood"
+        "german-husband",
+        "uyen-ninh",
+        "influencers",
+        "privacy"
       ],
-      "author": "@prodmiroh",
-      "sourceUrl": "https://x.com/prodmiroh/status/2103777542985371951",
+      "author": "@MiMimUta",
+      "sourceUrl": "https://x.com/MiMimUta/status/2103891992388190531",
       "metrics": {
-        "likes": "202.1K",
-        "replies": "207"
+        "likes": "245.4K",
+        "replies": "302"
       },
       "references": [],
       "pulse": {
@@ -26,31 +26,31 @@
         "reach": 7,
         "dominance": 7,
         "memeability": 8,
-        "category": "animals",
+        "category": "internet-culture",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-09-26/2026-09-26-x-you-cannot-be-that-tired.webp",
-        "width": 720,
-        "height": 960,
-        "from": "https://pbs.twimg.com/media/HTIehRNXMAAGcnD.jpg?name=medium",
+        "src": "/media/2026-09-26/2026-09-26-x-german-husband-the-creator-s-husband-the-interne.webp",
+        "width": 554,
+        "height": 554,
+        "from": "https://pbs.twimg.com/media/HTLc9VSWkAAyVG0.jpg",
         "crop": {
-          "x": 0.05,
-          "y": 0.45,
-          "w": 0.9,
-          "h": 0.55
+          "x": 0.12,
+          "y": 0,
+          "w": 0.75,
+          "h": 1
         }
       },
       "post": {
-        "name": "hea #K1MI",
-        "handle": "@prodmiroh",
+        "name": "❤️Mimu💛",
+        "handle": "@MiMimUta",
         "verified": false,
-        "avatar": "/media/avatars/prodmiroh.webp",
-        "text": "you cannot be that tired",
-        "postedAt": "2026-09-26T09:23:47.000Z"
+        "avatar": "/media/avatars/mimimuta.webp",
+        "text": "This woman has done a better job censoring her husband from the internet than most people have done for their children and babies (despite him being in almost every video)",
+        "postedAt": "2026-09-26T16:58:34.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T07:35:26.461Z"
+      "collectedAt": "2026-10-12T07:52:43.522Z"
     }
   ]
 }
