@@ -44,8 +44,14 @@
       "image": {
         "src": "/media/2026-10-04/2026-10-04-x-gillian-anderson-tells-superfans-to-stop-sitting.webp",
         "width": 720,
-        "height": 700,
-        "from": "https://pbs.twimg.com/media/HTycYmsXIAAwwYu.jpg?name=medium"
+        "height": 405,
+        "from": "https://www.hollywoodreporter.com/wp-content/uploads/2026/10/GettyImages-2297419677-e1791209899364.jpg?w=1440&h=810&crop=1",
+        "crop": {
+          "x": 0.25,
+          "y": 0,
+          "w": 0.42,
+          "h": 1
+        }
       },
       "post": {
         "name": "Gillian Anderson",

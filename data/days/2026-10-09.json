@@ -37,7 +37,13 @@
         "src": "/media/2026-10-09/2026-10-09-x-druski-s-that-s-so-zion-skit-roasts-grown-up-dis.webp",
         "width": 675,
         "height": 1200,
-        "from": "https://pbs.twimg.com/amplify_video_thumb/2108331387124109312/img/W6poSfPX_gjGN_lZ.jpg"
+        "from": "https://pbs.twimg.com/amplify_video_thumb/2108331387124109312/img/W6poSfPX_gjGN_lZ.jpg",
+        "crop": {
+          "x": 0.3,
+          "y": 0.18,
+          "w": 0.65,
+          "h": 0.5
+        }
       },
       "post": {
         "name": "DRUSKI",
@@ -93,7 +99,13 @@
         "src": "/media/2026-10-09/2026-10-09-x-embarrassing-tunnel-heckler-gets-under-dak-presc.webp",
         "width": 675,
         "height": 1200,
-        "from": "https://pbs.twimg.com/amplify_video_thumb/2108397545403637760/img/4sqIx8wQaqkk7cjo.jpg"
+        "from": "https://pbs.twimg.com/amplify_video_thumb/2108397545403637760/img/4sqIx8wQaqkk7cjo.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0.2,
+          "w": 0.75,
+          "h": 0.58
+        }
       },
       "post": {
         "name": "Sam Gannon",

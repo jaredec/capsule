@@ -42,7 +42,13 @@
         "src": "/media/2026-10-07/2026-10-07-x-amazon-s-about-you-page-says-you-have-flat-butto.webp",
         "width": 720,
         "height": 1051,
-        "from": "https://pbs.twimg.com/media/HT_1barbgAEDL6S.jpg?name=medium"
+        "from": "https://pbs.twimg.com/media/HT_1barbgAEDL6S.jpg?name=medium",
+        "crop": {
+          "x": 0.08,
+          "y": 0.5,
+          "w": 0.6,
+          "h": 0.42
+        }
       },
       "post": {
         "name": "Justine Moore",
@@ -98,7 +104,13 @@
         "src": "/media/2026-10-07/2026-10-07-x-zendaya-stays-seated-to-greet-brigitte-macron-at.webp",
         "width": 720,
         "height": 720,
-        "from": "https://pbs.twimg.com/amplify_video_thumb/2107525479536185344/img/ypk5rNkhotBQQeNC.jpg"
+        "from": "https://pbs.twimg.com/amplify_video_thumb/2107525479536185344/img/ypk5rNkhotBQQeNC.jpg",
+        "crop": {
+          "x": 0.25,
+          "y": 0.15,
+          "w": 0.55,
+          "h": 0.75
+        }
       },
       "post": {
         "name": "˖᯽ ݁˖ pop backup ˖᯽ ݁˖",

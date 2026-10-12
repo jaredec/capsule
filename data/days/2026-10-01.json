@@ -42,7 +42,13 @@
         "src": "/media/2026-10-01/2026-10-01-x-mike-tomlin-reveals-the-minecraft-city-he-built-.webp",
         "width": 720,
         "height": 405,
-        "from": "https://pbs.twimg.com/media/HTej9dYWUAAPM1n.jpg?name=medium"
+        "from": "https://pbs.twimg.com/media/HTej9dYWUAAPM1n.jpg?name=medium",
+        "crop": {
+          "x": 0.56,
+          "y": 0,
+          "w": 0.44,
+          "h": 1
+        }
       },
       "post": {
         "name": "Mike Tomlin",

@@ -12,7 +12,13 @@
       "dominance": 7,
       "memeability": 7,
       "platform": "x",
-      "headlineIds": [83, 97, 104]
+      "headlineIds": [83, 97, 104],
+      "crop": {
+        "x": 0.33,
+        "y": 0,
+        "w": 0.52,
+        "h": 1
+      }
     },
     {
       "title": "Eminem fans revolt over his feature on Kid Rock's Christian album",
@@ -25,7 +31,13 @@
       "dominance": 6,
       "memeability": 4,
       "platform": "x",
-      "headlineIds": [318]
+      "headlineIds": [318],
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "w": 0.78,
+        "h": 1
+      }
     }
   ]
 }

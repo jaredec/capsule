@@ -13,7 +13,13 @@
       "memeability": 6,
       "platform": "x",
       "headlineIds": [88],
-      "sourceUrl": "https://x.com/lindsaylohan/status/2106370548813218059"
+      "sourceUrl": "https://x.com/lindsaylohan/status/2106370548813218059",
+      "crop": {
+        "x": 0.42,
+        "y": 0,
+        "w": 0.45,
+        "h": 1
+      }
     },
     {
       "title": "\"Uncle Bron\" babysits Tyrese Maxey's baby at Sixers scrimmage",
@@ -27,7 +33,13 @@
       "memeability": 5,
       "platform": "x",
       "headlineIds": [4],
-      "sourceUrl": "https://x.com/NBA/status/2106757482874011871"
+      "sourceUrl": "https://x.com/NBA/status/2106757482874011871",
+      "crop": {
+        "x": 0.22,
+        "y": 0.3,
+        "w": 0.5,
+        "h": 0.42
+      }
     }
   ]
 }

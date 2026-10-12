@@ -45,7 +45,13 @@
         "src": "/media/2026-10-02/2026-10-02-x-jonathan-bailey-s-breathy-dracula-audiobook-clip.webp",
         "width": 720,
         "height": 496,
-        "from": "https://s.yimg.com/lo/mysterio/api/70a32ac2ee073221ae3a3ee5c04183bda8bd83461185d417eed5a78c2ac24176/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbuzzfeed_articles_778%2Fcb90b4872de06293df568d7057a5baf7.jpg"
+        "from": "https://s.yimg.com/lo/mysterio/api/70a32ac2ee073221ae3a3ee5c04183bda8bd83461185d417eed5a78c2ac24176/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbuzzfeed_articles_778%2Fcb90b4872de06293df568d7057a5baf7.jpg",
+        "crop": {
+          "x": 0.33,
+          "y": 0,
+          "w": 0.52,
+          "h": 1
+        }
       },
       "post": {
         "name": "Tee💗",
@@ -93,7 +99,13 @@
         "src": "/media/2026-10-02/2026-10-02-x-eminem-fans-revolt-over-his-feature-on-kid-rock-.webp",
         "width": 720,
         "height": 720,
-        "from": "https://pbs.twimg.com/media/HTkbD-0XQAA78ar.jpg?name=medium"
+        "from": "https://pbs.twimg.com/media/HTkbD-0XQAA78ar.jpg?name=medium",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 0.78,
+          "h": 1
+        }
       },
       "post": {
         "name": "KidRock",

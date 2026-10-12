@@ -12,7 +12,13 @@
       "dominance": 7,
       "memeability": 9,
       "platform": "x",
-      "headlineIds": [10, 70, 63, 62]
+      "headlineIds": [10, 70, 63, 62],
+      "crop": {
+        "x": 0.13,
+        "y": 0.38,
+        "w": 0.75,
+        "h": 0.42
+      }
     },
     {
       "title": "AI Rumpelstiltskin goes 'Tip Toein' In My Jordans'",
@@ -26,7 +32,13 @@
       "memeability": 9,
       "platform": "x",
       "headlineIds": [56, 66, 247],
-      "sourceUrl": "https://x.com/guysocke/status/2107628261761282497"
+      "sourceUrl": "https://x.com/guysocke/status/2107628261761282497",
+      "crop": {
+        "x": 0.06,
+        "y": 0,
+        "w": 0.43,
+        "h": 1
+      }
     }
   ]
 }

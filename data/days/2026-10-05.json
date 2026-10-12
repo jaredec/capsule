@@ -46,7 +46,13 @@
         "src": "/media/2026-10-05/2026-10-05-x-nicole-kidman-lip-syncs-nicole-kidman-at-chanel-.webp",
         "width": 675,
         "height": 1200,
-        "from": "https://pbs.twimg.com/amplify_video_thumb/2107274931218313216/img/yL7okAFzbp0mk4XY.jpg"
+        "from": "https://pbs.twimg.com/amplify_video_thumb/2107274931218313216/img/yL7okAFzbp0mk4XY.jpg",
+        "crop": {
+          "x": 0.1,
+          "y": 0.05,
+          "w": 0.8,
+          "h": 0.75
+        }
       },
       "post": {
         "name": "Pop Crave",

@@ -45,7 +45,13 @@
         "src": "/media/2026-10-10/2026-10-10-x-tom-welling-s-hello-nycc-skyline-photo-shows-mor.webp",
         "width": 688,
         "height": 1200,
-        "from": "https://pbs.twimg.com/media/HUQGC7VXIAAI7oy.jpg?name=medium"
+        "from": "https://pbs.twimg.com/media/HUQGC7VXIAAI7oy.jpg?name=medium",
+        "crop": {
+          "x": 0.1,
+          "y": 0.15,
+          "w": 0.8,
+          "h": 0.6
+        }
       },
       "post": {
         "name": "paulo",
@@ -101,7 +107,13 @@
         "src": "/media/2026-10-10/2026-10-10-x-shopper-spots-nazi-salutes-in-a-barbie-box-s-che.webp",
         "width": 576,
         "height": 1024,
-        "from": "https://pbs.twimg.com/amplify_video_thumb/2108957274949734400/img/ZG_thVF2wAfd70HA.jpg"
+        "from": "https://pbs.twimg.com/amplify_video_thumb/2108957274949734400/img/ZG_thVF2wAfd70HA.jpg",
+        "crop": {
+          "x": 0.12,
+          "y": 0.06,
+          "w": 0.76,
+          "h": 0.55
+        }
       },
       "post": {
         "name": "The Daily Sneed™",

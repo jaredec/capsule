@@ -45,7 +45,13 @@
         "src": "/media/2026-10-08/2026-10-08-x-susan-dell-s-frozen-oval-office-face-sets-off-ma.webp",
         "width": 675,
         "height": 1200,
-        "from": "https://pbs.twimg.com/amplify_video_thumb/2107922499816321024/img/W52ehZVb2WQDgU78.jpg"
+        "from": "https://pbs.twimg.com/amplify_video_thumb/2107922499816321024/img/W52ehZVb2WQDgU78.jpg",
+        "crop": {
+          "x": 0.15,
+          "y": 0.08,
+          "w": 0.75,
+          "h": 0.55
+        }
       },
       "post": {
         "name": "illuminatibot",
@@ -93,7 +99,13 @@
         "src": "/media/2026-10-08/2026-10-08-x-marlins-man-chats-up-dua-lipa-at-her-first-baseb.webp",
         "width": 720,
         "height": 405,
-        "from": "https://pbs.twimg.com/media/HUFTihRW0AANtqs.jpg?name=medium"
+        "from": "https://pbs.twimg.com/media/HUFTihRW0AANtqs.jpg?name=medium",
+        "crop": {
+          "x": 0.08,
+          "y": 0.1,
+          "w": 0.52,
+          "h": 0.9
+        }
       },
       "post": {
         "name": "Marlins_Man",

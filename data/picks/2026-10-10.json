@@ -12,7 +12,13 @@
       "dominance": 8,
       "memeability": 8,
       "platform": "x",
-      "headlineIds": [4, 34, 28]
+      "headlineIds": [4, 34, 28],
+      "crop": {
+        "x": 0.1,
+        "y": 0.15,
+        "w": 0.8,
+        "h": 0.6
+      }
     },
     {
       "title": "Shopper spots \"Nazi salutes\" in a Barbie box's cheering crowd",
@@ -25,7 +31,13 @@
       "dominance": 5,
       "memeability": 5,
       "platform": "x",
-      "headlineIds": [290, 293, 133]
+      "headlineIds": [290, 293, 133],
+      "crop": {
+        "x": 0.12,
+        "y": 0.06,
+        "w": 0.76,
+        "h": 0.55
+      }
     }
   ]
 }

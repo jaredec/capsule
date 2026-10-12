@@ -13,7 +13,13 @@
       "memeability": 7,
       "platform": "x",
       "headlineIds": [78, 258, 248, 257],
-      "sourceUrl": "https://x.com/PopCrave/status/2107274961832509496"
+      "sourceUrl": "https://x.com/PopCrave/status/2107274961832509496",
+      "crop": {
+        "x": 0.1,
+        "y": 0.05,
+        "w": 0.8,
+        "h": 0.75
+      }
     }
   ]
 }

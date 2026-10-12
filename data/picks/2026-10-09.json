@@ -13,7 +13,13 @@
       "memeability": 8,
       "platform": "x",
       "headlineIds": [113],
-      "sourceUrl": "https://x.com/druski/status/2108331576836981125"
+      "sourceUrl": "https://x.com/druski/status/2108331576836981125",
+      "crop": {
+        "x": 0.3,
+        "y": 0.18,
+        "w": 0.65,
+        "h": 0.5
+      }
     },
     {
       "title": "\"Embarrassing\": tunnel heckler gets under Dak Prescott's skin",
@@ -26,7 +32,13 @@
       "dominance": 7,
       "memeability": 6,
       "platform": "x",
-      "headlineIds": [173, 168, 52, 17]
+      "headlineIds": [173, 168, 52, 17],
+      "crop": {
+        "x": 0,
+        "y": 0.2,
+        "w": 0.75,
+        "h": 0.58
+      }
     }
   ]
 }

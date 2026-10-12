@@ -45,7 +45,13 @@
         "src": "/media/2026-10-06/2026-10-06-x-skyler-gisondo-becomes-everyone-s-childhood-frie.webp",
         "width": 720,
         "height": 1186,
-        "from": "https://pbs.twimg.com/media/HT3ew7ZX0AAfId-.jpg?name=medium"
+        "from": "https://pbs.twimg.com/media/HT3ew7ZX0AAfId-.jpg?name=medium",
+        "crop": {
+          "x": 0.13,
+          "y": 0.38,
+          "w": 0.75,
+          "h": 0.42
+        }
       },
       "post": {
         "name": "Gracie",
@@ -101,7 +107,13 @@
         "src": "/media/2026-10-06/2026-10-06-x-ai-rumpelstiltskin-goes-tip-toein-in-my-jordans.webp",
         "width": 720,
         "height": 410,
-        "from": "https://pbs.twimg.com/amplify_video_thumb/2107110694600495105/img/gpZN0cBGkDpi5qqP.jpg"
+        "from": "https://pbs.twimg.com/amplify_video_thumb/2107110694600495105/img/gpZN0cBGkDpi5qqP.jpg",
+        "crop": {
+          "x": 0.06,
+          "y": 0,
+          "w": 0.43,
+          "h": 1
+        }
       },
       "post": {
         "name": "Guy",

@@ -12,7 +12,13 @@
       "dominance": 7,
       "memeability": 6,
       "platform": "x",
-      "headlineIds": [115, 348]
+      "headlineIds": [115, 348],
+      "crop": {
+        "x": 0.3,
+        "y": 0,
+        "w": 0.42,
+        "h": 1
+      }
     }
   ]
 }
