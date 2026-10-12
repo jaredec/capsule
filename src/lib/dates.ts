@@ -1,4 +1,7 @@
-// All dates in Capsule are calendar days in UTC, represented as "YYYY-MM-DD".
+// A Capsule day is a calendar day in US Pacific time (the day ends at midnight PT),
+// represented as "YYYY-MM-DD". Helpers below do pure date arithmetic in UTC on those strings.
+
+export const ARCHIVE_TIME_ZONE = "America/Los_Angeles";
 
 export const MONTH_NAMES = [
   "January",
@@ -88,6 +91,18 @@ export function monthGrid(year: number, month: number): (string | null)[] {
   return cells;
 }
 
-export function todayUtc(now: Date = new Date()): string {
-  return toIsoDate(now.getUTCFullYear(), now.getUTCMonth() + 1, now.getUTCDate());
+const pacificFormatter = new Intl.DateTimeFormat("en-CA", {
+  timeZone: ARCHIVE_TIME_ZONE,
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+});
+
+/** The Capsule day a moment in time belongs to. */
+export function archiveDateOf(instant: Date | string): string {
+  return pacificFormatter.format(typeof instant === "string" ? new Date(instant) : instant);
+}
+
+export function todayPacific(now: Date = new Date()): string {
+  return archiveDateOf(now);
 }

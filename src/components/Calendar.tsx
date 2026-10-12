@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { MONTH_NAMES, WEEKDAYS_SHORT, formatLongDate, monthGrid, parseIsoDate } from "@/lib/dates";
-import { usePlatformFilter, useTodayUtc } from "@/lib/hooks";
+import { usePlatformFilter, useToday } from "@/lib/hooks";
 import { PLATFORM_META } from "@/lib/platforms";
 import { PLATFORMS, type Item, type Platform } from "@/lib/schema";
 import { ItemDetail, PlatformBadge } from "./ItemDetail";
@@ -35,7 +35,7 @@ const EMPTY_LABEL: Record<Exclude<DayState, "archived">, string> = {
 };
 
 export function Calendar({ year, month, itemsByDate, prevHref, nextHref }: Props) {
-  const today = useTodayUtc();
+  const today = useToday();
   const [platform, setPlatform] = usePlatformFilter();
   const [selected, setSelected] = useState<string | null>(null);
 

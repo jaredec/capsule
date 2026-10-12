@@ -1,4 +1,4 @@
-import { addDays } from "../../src/lib/dates";
+import { ARCHIVE_TIME_ZONE, addDays } from "../../src/lib/dates";
 import { CATEGORIES, KINDS, PLATFORMS, type Kind, type Platform, type Pulse } from "../../src/lib/schema";
 import { completeJson, type LlmConfig } from "./llm";
 import type { Signals } from "./signals";
@@ -81,14 +81,26 @@ Editorial rules:
 - Prefer pop culture, celebrities, TV/film moments, everyday-life drama, animals, food, brands, and pure internet absurdity.
 - Sports, tech/AI, business, and politics are normally NOT the pulse. Only set crossover=true when the moment became an instant meme shared by people who don't follow that world (e.g. a clip non-fans reposted for the joke, not for the game).
 - Skip tragedies, crime, and local human-interest stories unless they became a genuine nationwide meme.
-- The story must have peaked on the target date (UTC). Headlines from the following day often recap the target day; use peakDay to say when it actually peaked.
+- The story must have peaked on the target date (a US Pacific-time day). Headlines from the following day often recap the target day; use peakDay to say when it actually peaked.
 - Merge headlines about the same thing into one story and list all their ids in headlineIds (most informative first). Only cite ids from the list.
 - Do not repeat stories already picked on recent days.
 - Write the title as a short punchy archival headline (max ~70 chars) and the summary in 2-3 sentences: what happened, why it blew up, how people riffed on it. No emojis, no hype words like "breaks the internet".`;
 
+const stampFormatter = new Intl.DateTimeFormat("en-CA", {
+  timeZone: ARCHIVE_TIME_ZONE,
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+  hour: "2-digit",
+  minute: "2-digit",
+  hour12: false,
+});
+
+const pacificStamp = (iso: string) => stampFormatter.format(new Date(iso)).replace(",", "");
+
 function formatSignals(signals: Signals, recentTitles: string[]): string {
   const lines: string[] = [];
-  lines.push(`TARGET DATE: ${signals.date} (UTC). The day after is ${addDays(signals.date, 1)}.`);
+  lines.push(`TARGET DATE: ${signals.date} (US Pacific time). The day after is ${addDays(signals.date, 1)}.`);
   if (recentTitles.length > 0) {
     lines.push("", "ALREADY PICKED ON RECENT DAYS (do not repeat):", ...recentTitles.map((t) => `- ${t}`));
   }
@@ -101,8 +113,8 @@ function formatSignals(signals: Signals, recentTitles: string[]): string {
     lines.push("", "MOST-READ WIKIPEDIA PAGES (breakout = not in top 1000 on the prior 3 days):");
     for (const w of wiki) lines.push(`- ${w.title}: ${w.views.toLocaleString("en-US")} views${w.breakout ? " [breakout]" : ""}`);
   }
-  lines.push("", "HEADLINES (id, published UTC, title, outlet):");
-  for (const h of signals.headlines) lines.push(`[${h.id}] ${h.publishedAt.slice(0, 16)} ${h.title} (${h.source})`);
+  lines.push("", "HEADLINES (id, published Pacific time, title, outlet):");
+  for (const h of signals.headlines) lines.push(`[${h.id}] ${pacificStamp(h.publishedAt)} ${h.title} (${h.source})`);
   return lines.join("\n");
 }
 

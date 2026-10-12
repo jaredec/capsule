@@ -1,4 +1,4 @@
-import { addDays } from "../../../src/lib/dates";
+import { addDays, archiveDateOf } from "../../../src/lib/dates";
 import { decodeEntities, fetchText, sleep } from "../http";
 
 export type Headline = {
@@ -57,13 +57,15 @@ export async function fetchPulseHeadlines(date: string): Promise<Headline[]> {
   const seen = new Set<string>();
   const out: Headline[] = [];
   for (const query of PULSE_QUERIES) {
-    const q = encodeURIComponent(`${query} after:${date} before:${before}`);
+    // Google's date operators are UTC-day based; ask for an extra day and trim to Pacific days below.
+    const q = encodeURIComponent(`${query} after:${date} before:${addDays(before, 1)}`);
     const xml = await fetchText(`https://news.google.com/rss/search?q=${q}&hl=en-US&gl=US&ceid=US:en`);
     if (xml) {
       for (const item of parseItems(xml)) {
         const key = item.title.toLowerCase().replace(/\W+/g, " ").trim();
         if (seen.has(key)) continue;
-        if (item.publishedAt.slice(0, 10) < date || item.publishedAt.slice(0, 10) >= before) continue;
+        const day = archiveDateOf(item.publishedAt);
+        if (day < date || day >= before) continue;
         seen.add(key);
         out.push({ id: out.length + 1, ...item });
       }

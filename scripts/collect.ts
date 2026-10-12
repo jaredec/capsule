@@ -9,7 +9,7 @@
  *   3. enrich  - resolve article URLs, pull embedded X/TikTok posts from them, and read
  *                like/reply counts from X's public embed endpoint (no X API credits)
  *
- *   npm run collect                                   # the last two complete days (UTC)
+ *   npm run collect                                   # the last two complete days (Pacific time)
  *   npm run collect -- --date 2026-10-05
  *   npm run collect -- --from 2026-01-01 --to 2026-09-30
  *   npm run collect -- --date 2026-10-05 --gather-only   # signals only, no LLM needed
@@ -20,7 +20,7 @@
  * LLM: set GEMINI_API_KEY, XAI_API_KEY or OPENAI_API_KEY (see scripts/lib/llm.ts).
  */
 import { parseArgs } from "node:util";
-import { addDays, isValidIsoDate, todayUtc } from "../src/lib/dates";
+import { addDays, isValidIsoDate, todayPacific } from "../src/lib/dates";
 import { buildItems } from "./lib/build";
 import { resolveLlm } from "./lib/llm";
 import { pickStories } from "./lib/pick";
@@ -47,7 +47,7 @@ function fail(message: string): never {
 }
 
 function resolveDates(): { dates: string[]; refresh: boolean } {
-  const today = todayUtc();
+  const today = todayPacific();
   if (values.date) {
     const date = values.date === "today" ? today : values.date === "yesterday" ? addDays(today, -1) : values.date;
     if (!isValidIsoDate(date)) fail(`invalid --date ${values.date}`);

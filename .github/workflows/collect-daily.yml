@@ -2,8 +2,8 @@ name: Collect daily pulse
 
 on:
   schedule:
-    # Twice a day: coverage of a viral moment trails it, so each run re-settles the last two days.
-    - cron: "17 6,18 * * *"
+    # Twice a day, after Pacific midnight and again in the afternoon PT: coverage of a viral moment trails it, so each run re-settles the last two days.
+    - cron: "17 9,21 * * *"
   workflow_dispatch:
     inputs:
       date:

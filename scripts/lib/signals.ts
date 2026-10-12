@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { addDays, todayUtc } from "../../src/lib/dates";
+import { addDays, archiveDateOf, todayPacific } from "../../src/lib/dates";
 import { fetchPulseHeadlines, type Headline } from "./sources/googleNews";
 import { fetchTrendingSearches, type TrendingSearch } from "./sources/googleTrends";
 import { fetchWikipediaPulse, type WikiArticle } from "./sources/wikipedia";
@@ -30,9 +30,9 @@ export function writeSignals(signals: Signals) {
 export async function gatherSignals(date: string): Promise<Signals> {
   const [headlines, wikipedia] = await Promise.all([fetchPulseHeadlines(date), fetchWikipediaPulse(date)]);
   // The trends feed only covers the last day or so; attaching it to older dates would be wrong.
-  const live = date >= addDays(todayUtc(), -1);
+  const live = date >= addDays(todayPacific(), -1);
   const trendingSearches = live
-    ? (await fetchTrendingSearches()).filter((t) => t.startedAt.slice(0, 10) === date)
+    ? (await fetchTrendingSearches()).filter((t) => archiveDateOf(t.startedAt) === date)
     : [];
   return { date, gatheredAt: new Date().toISOString(), headlines, wikipedia, trendingSearches };
 }

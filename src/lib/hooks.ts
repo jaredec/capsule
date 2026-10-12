@@ -1,14 +1,14 @@
 "use client";
 
 import { useCallback, useSyncExternalStore } from "react";
-import { todayUtc } from "./dates";
+import { todayPacific } from "./dates";
 import { PLATFORMS, type Platform } from "./schema";
 
 const noopSubscribe = () => () => {};
 
-/** Today's UTC date, or null during prerender so server and client markup match. */
-export function useTodayUtc(): string | null {
-  return useSyncExternalStore(noopSubscribe, todayUtc, () => null);
+/** Today in Pacific time, or null during prerender so server and client markup match. */
+export function useToday(): string | null {
+  return useSyncExternalStore(noopSubscribe, todayPacific, () => null);
 }
 
 const URL_CHANGE_EVENT = "capsule:urlchange";
