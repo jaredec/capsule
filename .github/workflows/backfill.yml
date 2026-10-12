@@ -1,4 +1,4 @@
-name: Backfill memes
+name: Backfill pulse
 
 on:
   workflow_dispatch:
@@ -9,12 +9,8 @@ on:
       to:
         description: "Last day (YYYY-MM-DD)"
         required: true
-      platform:
-        description: "Comma-separated platforms"
-        required: false
-        default: "x"
       refresh:
-        description: "Re-run days that already have automated items"
+        description: "Redo days that already have automated picks"
         type: boolean
         default: false
 
@@ -38,19 +34,23 @@ jobs:
       - run: npm ci
       - name: Backfill
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
-          XAI_MODEL: ${{ vars.XAI_MODEL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
           FROM: ${{ inputs.from }}
           TO: ${{ inputs.to }}
-          PLATFORM: ${{ inputs.platform }}
           REFRESH: ${{ inputs.refresh && '--refresh' || '' }}
-        run: npm run collect -- --from "$FROM" --to "$TO" --platform "$PLATFORM" $REFRESH
-      - run: npm run validate-data
+        run: npm run collect -- --from "$FROM" --to "$TO" $REFRESH
       - name: Commit data
+        # Runs even if the backfill timed out part-way, so finished days aren't lost.
+        if: always()
         run: |
+          npm run validate-data
           git config user.name "capsule-bot"
           git config user.email "capsule-bot@users.noreply.github.com"
-          git add data/days
+          git add data
           if git diff --cached --quiet; then
             echo "No changes."
             exit 0

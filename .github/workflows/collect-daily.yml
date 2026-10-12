@@ -1,18 +1,14 @@
-name: Collect daily memes
+name: Collect daily pulse
 
 on:
   schedule:
-    # Every 6 hours: keeps a live pick for today and finalizes yesterday after midnight UTC.
-    - cron: "17 */6 * * *"
+    # Twice a day: coverage of a viral moment trails it, so each run re-settles the last two days.
+    - cron: "17 6,18 * * *"
   workflow_dispatch:
     inputs:
       date:
-        description: "Single day to collect (YYYY-MM-DD, 'today' or 'yesterday'). Blank = yesterday + today."
+        description: "Single day to collect (YYYY-MM-DD or 'yesterday'). Blank = the last two complete days."
         required: false
-      platform:
-        description: "Comma-separated platforms"
-        required: false
-        default: "x"
 
 permissions:
   contents: write
@@ -34,26 +30,28 @@ jobs:
       - run: npm ci
       - name: Collect
         env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
-          XAI_MODEL: ${{ vars.XAI_MODEL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
           DATE: ${{ inputs.date }}
-          PLATFORM: ${{ inputs.platform || 'x' }}
         run: |
           if [ -n "$DATE" ]; then
-            npm run collect -- --date "$DATE" --platform "$PLATFORM" --refresh
+            npm run collect -- --date "$DATE" --refresh --regather
           else
-            npm run collect -- --platform "$PLATFORM"
+            npm run collect -- --regather
           fi
       - run: npm run validate-data
       - name: Commit data
         run: |
           git config user.name "capsule-bot"
           git config user.email "capsule-bot@users.noreply.github.com"
-          git add data/days
+          git add data
           if git diff --cached --quiet; then
             echo "No changes."
             exit 0
           fi
-          git commit -m "data: daily collection $(date -u +%Y-%m-%dT%H:%MZ)"
+          git commit -m "data: pulse $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase
           git push

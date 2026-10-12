@@ -11,6 +11,32 @@ export const referenceSchema = z.object({
   url: z.url(),
 });
 
+export const CATEGORIES = [
+  "pop-culture",
+  "celebrity",
+  "tv-film",
+  "music",
+  "everyday-life",
+  "animals",
+  "food",
+  "brands",
+  "internet-culture",
+  "sports",
+  "tech",
+  "politics",
+  "news",
+] as const;
+
+/** How the picker scored an item; 1-10 scales. */
+export const pulseSchema = z.object({
+  score: z.number(),
+  reach: z.number(),
+  dominance: z.number(),
+  memeability: z.number(),
+  category: z.enum(CATEGORIES),
+  crossover: z.boolean(),
+});
+
 export const itemSchema = z.object({
   id: z.string().min(1),
   platform: z.enum(PLATFORMS),
@@ -23,6 +49,7 @@ export const itemSchema = z.object({
   sourceUrl: z.url().nullish(),
   metrics: z.record(z.string(), z.union([z.string(), z.number()]).transform(String)).optional(),
   references: z.array(referenceSchema).default([]),
+  pulse: pulseSchema.optional(),
   collectedBy: z.string().min(1),
   collectedAt: z.string().min(1),
 });
@@ -34,4 +61,5 @@ export const dayFileSchema = z.object({
 
 export type Reference = z.infer<typeof referenceSchema>;
 export type Item = z.infer<typeof itemSchema>;
+export type Pulse = z.infer<typeof pulseSchema>;
 export type DayFile = z.infer<typeof dayFileSchema>;

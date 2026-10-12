@@ -19,6 +19,33 @@ function hostname(url: string): string {
   }
 }
 
+function PulseMeter({ pulse }: { pulse: NonNullable<Item["pulse"]> }) {
+  const parts = [
+    { label: "Reach", value: pulse.reach },
+    { label: "Feed takeover", value: pulse.dominance },
+    { label: "Memeability", value: pulse.memeability },
+  ];
+  return (
+    <div className="flex flex-wrap items-center gap-x-5 gap-y-2 rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3">
+      <div className="flex items-baseline gap-1.5">
+        <span className="font-display text-3xl leading-none text-amber-200">{pulse.score.toFixed(1)}</span>
+        <span className="text-xs uppercase tracking-wider text-zinc-500">pulse</span>
+      </div>
+      {parts.map((p) => (
+        <div key={p.label} className="min-w-24 flex-1">
+          <div className="flex justify-between text-[11px] text-zinc-500">
+            <span>{p.label}</span>
+            <span className="tabular-nums text-zinc-300">{p.value}</span>
+          </div>
+          <div className="mt-1 h-1 rounded-full bg-white/10">
+            <div className="h-1 rounded-full bg-amber-300/80" style={{ width: `${p.value * 10}%` }} />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 export function ItemDetail({ item, embed = true }: { item: Item; embed?: boolean }) {
   const metrics = Object.entries(item.metrics ?? {});
   return (
@@ -35,6 +62,8 @@ export function ItemDetail({ item, embed = true }: { item: Item; embed?: boolean
 
       <h3 className="font-display text-2xl leading-tight text-zinc-50">{item.title}</h3>
       <p className="leading-relaxed text-zinc-300">{item.summary}</p>
+
+      {item.pulse && <PulseMeter pulse={item.pulse} />}
 
       {(item.author || metrics.length > 0) && (
         <dl className="flex flex-wrap gap-x-6 gap-y-2 text-sm">

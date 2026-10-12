@@ -1,0 +1,142 @@
+import { addDays } from "../../src/lib/dates";
+import { CATEGORIES, KINDS, PLATFORMS, type Kind, type Platform, type Pulse } from "../../src/lib/schema";
+import { completeJson, type LlmConfig } from "./llm";
+import type { Signals } from "./signals";
+
+export type Story = {
+  title: string;
+  summary: string;
+  kind: Kind;
+  tags: string[];
+  category: Pulse["category"];
+  crossover: boolean;
+  reach: number;
+  dominance: number;
+  memeability: number;
+  platform: Platform;
+  peakDay: "target" | "previous" | "next";
+  headlineIds: number[];
+  why: string;
+};
+
+export type ScoredStory = Story & { pulse: Pulse };
+
+const NICHE_CATEGORIES = new Set<Pulse["category"]>(["sports", "tech", "politics", "news"]);
+
+/**
+ * Deterministic final score so the ranking rule is explicit and tunable, rather than
+ * buried in the model's ordering. Sports/tech/politics/news only compete at full strength
+ * when they crossed over into general meme culture.
+ */
+export function scoreStory(s: Pick<Story, "reach" | "dominance" | "memeability" | "category" | "crossover">): number {
+  const base = 0.4 * s.reach + 0.35 * s.dominance + 0.25 * s.memeability;
+  const penalty = NICHE_CATEGORIES.has(s.category) ? (s.crossover ? 0.9 : 0.55) : 1;
+  return Math.round(base * penalty * 10) / 10;
+}
+
+const score1to10 = { type: "integer", minimum: 1, maximum: 10 };
+
+const STORY_SCHEMA = {
+  type: "object",
+  additionalProperties: false,
+  required: ["stories"],
+  properties: {
+    stories: {
+      type: "array",
+      items: {
+        type: "object",
+        additionalProperties: false,
+        required: [
+          "title", "summary", "kind", "tags", "category", "crossover", "reach", "dominance",
+          "memeability", "platform", "peakDay", "headlineIds", "why",
+        ],
+        properties: {
+          title: { type: "string" },
+          summary: { type: "string" },
+          kind: { type: "string", enum: [...KINDS] },
+          tags: { type: "array", items: { type: "string" } },
+          category: { type: "string", enum: [...CATEGORIES] },
+          crossover: { type: "boolean" },
+          reach: score1to10,
+          dominance: score1to10,
+          memeability: score1to10,
+          platform: { type: "string", enum: [...PLATFORMS] },
+          peakDay: { type: "string", enum: ["target", "previous", "next"] },
+          headlineIds: { type: "array", items: { type: "integer" } },
+          why: { type: "string" },
+        },
+      },
+    },
+  },
+};
+
+const SYSTEM = `You are the editor of Capsule, an archive of the internet's daily pulse. For each day you pick what controlled the feed: the thing a normal person (not a terminally online one) would have seen reposted, heard coworkers mention, or had explained to them by a friend.
+
+Scoring, each 1-10:
+- reach: did it escape its niche and reach "normies"? 10 = your aunt saw it.
+- dominance: how hard did it take over feeds that day? Mass reposts, quote-posts, duets, stitches, "everyone is talking about", many outlets covering the reaction itself.
+- memeability: did it spawn remixes, templates, catchphrases, reaction images, parodies?
+
+Editorial rules:
+- Prefer pop culture, celebrities, TV/film moments, everyday-life drama, animals, food, brands, and pure internet absurdity.
+- Sports, tech/AI, business, and politics are normally NOT the pulse. Only set crossover=true when the moment became an instant meme shared by people who don't follow that world (e.g. a clip non-fans reposted for the joke, not for the game).
+- Skip tragedies, crime, and local human-interest stories unless they became a genuine nationwide meme.
+- The story must have peaked on the target date (UTC). Headlines from the following day often recap the target day; use peakDay to say when it actually peaked.
+- Merge headlines about the same thing into one story and list all their ids in headlineIds (most informative first). Only cite ids from the list.
+- Do not repeat stories already picked on recent days.
+- Write the title as a short punchy archival headline (max ~70 chars) and the summary in 2-3 sentences: what happened, why it blew up, how people riffed on it. No emojis, no hype words like "breaks the internet".`;
+
+function formatSignals(signals: Signals, recentTitles: string[]): string {
+  const lines: string[] = [];
+  lines.push(`TARGET DATE: ${signals.date} (UTC). The day after is ${addDays(signals.date, 1)}.`);
+  if (recentTitles.length > 0) {
+    lines.push("", "ALREADY PICKED ON RECENT DAYS (do not repeat):", ...recentTitles.map((t) => `- ${t}`));
+  }
+  if (signals.trendingSearches.length > 0) {
+    lines.push("", "GOOGLE TRENDING SEARCHES (US):");
+    for (const t of signals.trendingSearches) lines.push(`- ${t.query} (${t.traffic})`);
+  }
+  const wiki = signals.wikipedia.filter((w, i) => w.breakout || i < 25);
+  if (wiki.length > 0) {
+    lines.push("", "MOST-READ WIKIPEDIA PAGES (breakout = not in top 1000 on the prior 3 days):");
+    for (const w of wiki) lines.push(`- ${w.title}: ${w.views.toLocaleString("en-US")} views${w.breakout ? " [breakout]" : ""}`);
+  }
+  lines.push("", "HEADLINES (id, published UTC, title, outlet):");
+  for (const h of signals.headlines) lines.push(`[${h.id}] ${h.publishedAt.slice(0, 16)} ${h.title} (${h.source})`);
+  return lines.join("\n");
+}
+
+export async function pickStories(
+  llm: LlmConfig,
+  signals: Signals,
+  opts: { count: number; recentTitles: string[] },
+): Promise<{ stories: ScoredStory[]; usage: unknown }> {
+  const user = `${formatSignals(signals, opts.recentTitles)}
+
+Return the ${opts.count + 3} strongest candidates for this day's pulse, strongest first.`;
+  const { data, usage } = await completeJson<{ stories: Story[] }>(llm, {
+    system: SYSTEM,
+    user,
+    schemaName: "capsule_pulse",
+    schema: STORY_SCHEMA,
+  });
+
+  const validIds = new Set(signals.headlines.map((h) => h.id));
+  const stories = data.stories
+    .filter((s) => s.peakDay === "target")
+    .map((s) => ({ ...s, headlineIds: s.headlineIds.filter((id) => validIds.has(id)) }))
+    .filter((s) => s.headlineIds.length > 0)
+    .map((s) => ({
+      ...s,
+      pulse: {
+        score: scoreStory(s),
+        reach: s.reach,
+        dominance: s.dominance,
+        memeability: s.memeability,
+        category: s.category,
+        crossover: s.crossover,
+      },
+    }))
+    .sort((a, b) => b.pulse.score - a.pulse.score);
+  return { stories: stories.slice(0, opts.count), usage };
+}

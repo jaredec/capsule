@@ -88,5 +88,17 @@ export function Embed({ item }: { item: Item }) {
     );
   }
 
+  const ig = item.platform === "instagram" ? url.match(/instagram\.com\/(?:p|reel)\/([\w-]+)/)?.[1] : null;
+  if (ig) {
+    return (
+      <iframe
+        className="mx-auto h-[640px] w-full max-w-[400px] rounded-xl border border-white/10 bg-white"
+        src={`https://www.instagram.com/p/${ig}/embed`}
+        title={item.title}
+        allowFullScreen
+      />
+    );
+  }
+
   return null;
 }
