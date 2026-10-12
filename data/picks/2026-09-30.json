@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-30",
+  "stories": [
+    {
+      "title": "Backpack, Bear 89, is crowned Fat Bear Week champ",
+      "summary": "Katmai National Park’s Fat Bear Week ended with Bear 89, \"Backpack\", as the 2026 champion. The Interior Department’s post noted his mom, Holly \"the Duchess of Density\", won in 2019 and carried him on her back as a cub, and it became the most-liked post of the contest as accounts celebrated the year’s chonkiest bear.",
+      "kind": "image",
+      "tags": ["fat-bear-week", "katmai", "bears"],
+      "category": "animals",
+      "crossover": true,
+      "reach": 7,
+      "dominance": 6,
+      "memeability": 7,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/Interior/status/2105295755925745956",
+      "crop": {
+        "x": 0.08,
+        "y": 0,
+        "w": 0.5,
+        "h": 1
+      }
+    }
+  ]
+}

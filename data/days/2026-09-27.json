@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-27",
+  "items": [
+    {
+      "id": "2026-09-27-x-when-it-s-time-to-eat-the-rich-and-i-get-kim-kar",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"When it’s time to eat the rich and I get Kim Kardashian\"",
+      "summary": "An ASMR creator posted a clip of himself chewing on a clear silicone pad, captioned \"when it’s time to eat the rich and I get Kim Kardashian\", a dig at how much of her is supposedly plastic. It passed 300K likes within a day, the quote posts piled on, and people reused the format with other celebrities.",
+      "kind": "video",
+      "tags": [
+        "eat-the-rich",
+        "kim-kardashian",
+        "asmr",
+        "format"
+      ],
+      "author": "@taypalite",
+      "sourceUrl": "https://x.com/taypalite/status/2104239715746455831",
+      "metrics": {
+        "likes": "313.2K",
+        "replies": "500"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.3,
+        "reach": 7,
+        "dominance": 7,
+        "memeability": 8,
+        "category": "internet-culture",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-27/2026-09-27-x-when-it-s-time-to-eat-the-rich-and-i-get-kim-kar.webp",
+        "width": 720,
+        "height": 846,
+        "from": "https://video.twimg.com/amplify_video/2104239660805337089/vid/avc1/720x846/tFLgAWSygXxib66y.mp4#t=14",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 0.881,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "𝐀𝐱𝐞𝐥⸆⸉",
+        "handle": "@taypalite",
+        "verified": false,
+        "avatar": "/media/avatars/taypalite.webp",
+        "text": "when it’s time to eat the rich and I get Kim Kardashian",
+        "postedAt": "2026-09-27T16:00:17.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T07:03:02.929Z"
+    }
+  ]
+}

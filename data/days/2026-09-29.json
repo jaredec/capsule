@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-29",
+  "items": [
+    {
+      "id": "2026-09-29-x-malfoid-x-falls-for-a-female-draco-malfoy",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"Malfoid\": X falls for a female Draco Malfoy",
+      "summary": "\"Malfoid\", fan art imagining Draco Malfoy as a blonde Slytherin girl, took over X: artists posted their own versions by the dozen, Korean and Japanese fans traded jokes about a 110-chapter Harry x Malfoid fanfic, and posts like \"This Week’s Trending: The Bread / The Circus\" framed it as the meme of the week. Explainers followed the next day.",
+      "kind": "image",
+      "tags": [
+        "malfoid",
+        "harry-potter",
+        "fan-art"
+      ],
+      "author": "@ObviousRises",
+      "sourceUrl": "https://x.com/ObviousRises/status/2104904024717742204",
+      "metrics": {
+        "likes": "50.8K",
+        "replies": "46"
+      },
+      "references": [
+        {
+          "title": "What Is The 'Malfoid' Meme? The Viral 'Female Draco Malfoy' Fan Art Trend Explained",
+          "url": "https://sg.news.yahoo.com/malfoid-meme-viral-female-draco-193000273.html"
+        }
+      ],
+      "pulse": {
+        "score": 7.2,
+        "reach": 6,
+        "dominance": 8,
+        "memeability": 8,
+        "category": "internet-culture",
+        "crossover": false
+      },
+      "image": {
+        "src": "/media/2026-09-29/2026-09-29-x-malfoid-x-falls-for-a-female-draco-malfoy.webp",
+        "width": 632,
+        "height": 572,
+        "from": "https://pbs.twimg.com/media/HTXJqURbcAAHxOt.jpg?name=medium",
+        "crop": {
+          "x": 0,
+          "y": 0.27,
+          "w": 0.496,
+          "h": 0.73
+        }
+      },
+      "post": {
+        "name": "MR. OBVIOUS",
+        "handle": "@ObviousRises",
+        "verified": true,
+        "avatar": "/media/avatars/obviousrises.webp",
+        "text": "I'm very much enjoying this female Draco Malfoid meme.",
+        "postedAt": "2026-09-29T12:00:01.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T07:03:04.344Z"
+    }
+  ]
+}

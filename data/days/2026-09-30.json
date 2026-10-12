@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-30",
+  "items": [
+    {
+      "id": "2026-09-30-x-backpack-bear-89-is-crowned-fat-bear-week-champ",
+      "platform": "x",
+      "rank": 1,
+      "title": "Backpack, Bear 89, is crowned Fat Bear Week champ",
+      "summary": "Katmai National Park’s Fat Bear Week ended with Bear 89, \"Backpack\", as the 2026 champion. The Interior Department’s post noted his mom, Holly \"the Duchess of Density\", won in 2019 and carried him on her back as a cub, and it became the most-liked post of the contest as accounts celebrated the year’s chonkiest bear.",
+      "kind": "image",
+      "tags": [
+        "fat-bear-week",
+        "katmai",
+        "bears"
+      ],
+      "author": "@Interior",
+      "sourceUrl": "https://x.com/Interior/status/2105295755925745956",
+      "metrics": {
+        "likes": "140.2K",
+        "replies": "568"
+      },
+      "references": [],
+      "pulse": {
+        "score": 6.7,
+        "reach": 7,
+        "dominance": 6,
+        "memeability": 7,
+        "category": "animals",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-30/2026-09-30-x-backpack-bear-89-is-crowned-fat-bear-week-champ.webp",
+        "width": 720,
+        "height": 480,
+        "from": "https://pbs.twimg.com/media/HTeDPDOXoAAUUDh.jpg?name=medium",
+        "crop": {
+          "x": 0.08,
+          "y": 0,
+          "w": 0.5,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "U.S. Department of the Interior",
+        "handle": "@Interior",
+        "verified": true,
+        "avatar": "/media/avatars/interior.webp",
+        "text": "He got it from his mama.\n\nBear 89, aka Backpack, is the 2026 Fat Bear Week champ. Turns out hefty runs in the family.\n\nHis mom, Holly the Duchess of Density, won in 2019. She carried him on her back as a cub and helped him survive a serious leg injury. Now her little Backpack has",
+        "postedAt": "2026-09-30T13:56:37.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T07:03:04.744Z"
+    }
+  ]
+}

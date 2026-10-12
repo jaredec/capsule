@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-29",
+  "stories": [
+    {
+      "title": "\"Malfoid\": X falls for a female Draco Malfoy",
+      "summary": "\"Malfoid\", fan art imagining Draco Malfoy as a blonde Slytherin girl, took over X: artists posted their own versions by the dozen, Korean and Japanese fans traded jokes about a 110-chapter Harry x Malfoid fanfic, and posts like \"This Week’s Trending: The Bread / The Circus\" framed it as the meme of the week. Explainers followed the next day.",
+      "kind": "image",
+      "tags": ["malfoid", "harry-potter", "fan-art"],
+      "category": "internet-culture",
+      "crossover": false,
+      "reach": 6,
+      "dominance": 8,
+      "memeability": 8,
+      "platform": "x",
+      "headlineIds": [50],
+      "sourceUrl": "https://x.com/ObviousRises/status/2104904024717742204",
+      "crop": {
+        "x": 0,
+        "y": 0.27,
+        "w": 0.496,
+        "h": 0.73
+      }
+    }
+  ]
+}
