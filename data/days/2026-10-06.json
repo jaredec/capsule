@@ -42,7 +42,13 @@
         "crossover": false
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:18:34.805Z"
+      "collectedAt": "2026-10-12T02:18:34.805Z",
+      "image": {
+        "src": "/media/2026-10-06/2026-10-06-x-skyler-gisondo-becomes-everyone-s-childhood-frie.webp",
+        "width": 720,
+        "height": 1186,
+        "from": "https://pbs.twimg.com/media/HT3ew7ZX0AAfId-.jpg?name=medium"
+      }
     },
     {
       "id": "2026-10-06-tiktok-ai-rumpelstiltskin-goes-tip-toein-in-my-jordans",
@@ -81,7 +87,13 @@
         "crossover": false
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:18:36.577Z"
+      "collectedAt": "2026-10-12T02:18:36.577Z",
+      "image": {
+        "src": "/media/2026-10-06/2026-10-06-tiktok-ai-rumpelstiltskin-goes-tip-toein-in-my-jordans.webp",
+        "width": 576,
+        "height": 1024,
+        "from": "https://p19-common-sign.tiktokcdn-us.com/tos-useast5-p-0068-tx/o0wRfA71lIAgeIQqFfLeOFAuoLowiYI1GuGvR9~tplv-tiktokx-origin.image?dr=9636&x-expires=1791943200&x-signature=utH24tj0FOL0cfwJtRKxsZ8ESx8%3D&t=4d5b0474&ps=13740610&shp=81f88b70&shcp=43f4a2f9&idc=useast5"
+      }
     }
   ]
 }

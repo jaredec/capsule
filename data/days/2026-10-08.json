@@ -42,7 +42,13 @@
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:18:45.082Z"
+      "collectedAt": "2026-10-12T02:18:45.082Z",
+      "image": {
+        "src": "/media/2026-10-08/2026-10-08-x-susan-dell-s-frozen-oval-office-face-sets-off-ma.webp",
+        "width": 675,
+        "height": 1200,
+        "from": "https://pbs.twimg.com/amplify_video_thumb/2107922499816321024/img/W52ehZVb2WQDgU78.jpg"
+      }
     },
     {
       "id": "2026-10-08-x-marlins-man-chats-up-dua-lipa-at-her-first-baseb",
@@ -112,7 +118,13 @@
         "crossover": false
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:18:48.231Z"
+      "collectedAt": "2026-10-12T02:18:48.231Z",
+      "image": {
+        "src": "/media/2026-10-08/2026-10-08-instagram-donald-dive-guest-leaps-off-epcot-s-three-caball.webp",
+        "width": 700,
+        "height": 394,
+        "from": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/video/wkmg/3460bb68-06f0-4c7f-b954-5e2077fed3cc/image.jpg?api_key=clickorlando_488cff2bcc157b2e"
+      }
     }
   ]
 }

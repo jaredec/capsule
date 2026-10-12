@@ -34,7 +34,13 @@
         "crossover": false
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:18:04.335Z"
+      "collectedAt": "2026-10-12T02:18:04.335Z",
+      "image": {
+        "src": "/media/2026-10-03/2026-10-03-x-lindsay-lohan-recreates-it-s-october-3rd-for-mea.webp",
+        "width": 720,
+        "height": 405,
+        "from": "https://pbs.twimg.com/amplify_video_thumb/2106370510779236352/img/DVyOIw-r-of8v-fg.jpg"
+      }
     },
     {
       "id": "2026-10-03-x-uncle-bron-babysits-tyrese-maxey-s-baby-at-sixer",
@@ -65,7 +71,13 @@
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:18:04.721Z"
+      "collectedAt": "2026-10-12T02:18:04.721Z",
+      "image": {
+        "src": "/media/2026-10-03/2026-10-03-x-uncle-bron-babysits-tyrese-maxey-s-baby-at-sixer.webp",
+        "width": 720,
+        "height": 405,
+        "from": "https://imgcdn.basketballnews.com/LeBron-James-19.jpg"
+      }
     }
   ]
 }

@@ -39,7 +39,13 @@
         "crossover": false
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:18:37.285Z"
+      "collectedAt": "2026-10-12T02:18:37.285Z",
+      "image": {
+        "src": "/media/2026-10-07/2026-10-07-x-amazon-s-about-you-page-says-you-have-flat-butto.webp",
+        "width": 720,
+        "height": 1051,
+        "from": "https://pbs.twimg.com/media/HT_1barbgAEDL6S.jpg?name=medium"
+      }
     },
     {
       "id": "2026-10-07-x-zendaya-stays-seated-to-greet-brigitte-macron-at",
@@ -82,7 +88,13 @@
         "crossover": false
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:18:41.220Z"
+      "collectedAt": "2026-10-12T02:18:41.220Z",
+      "image": {
+        "src": "/media/2026-10-07/2026-10-07-x-zendaya-stays-seated-to-greet-brigitte-macron-at.webp",
+        "width": 720,
+        "height": 720,
+        "from": "https://pbs.twimg.com/amplify_video_thumb/2107525479536185344/img/ypk5rNkhotBQQeNC.jpg"
+      }
     }
   ]
 }

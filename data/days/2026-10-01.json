@@ -39,7 +39,13 @@
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:17:37.891Z"
+      "collectedAt": "2026-10-12T02:17:37.891Z",
+      "image": {
+        "src": "/media/2026-10-01/2026-10-01-x-mike-tomlin-reveals-the-minecraft-city-he-built-.webp",
+        "width": 720,
+        "height": 405,
+        "from": "https://pbs.twimg.com/media/HTej9dYWUAAPM1n.jpg?name=medium"
+      }
     },
     {
       "id": "2026-10-01-instagram-estes-park-bull-elk-smashes-a-car-window-during-",
@@ -74,7 +80,13 @@
         "crossover": false
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:17:39.128Z"
+      "collectedAt": "2026-10-12T02:17:39.128Z",
+      "image": {
+        "src": "/media/2026-10-01/2026-10-01-instagram-estes-park-bull-elk-smashes-a-car-window-during-.webp",
+        "width": 720,
+        "height": 405,
+        "from": "https://static.foxnews.com/foxnews.com/content/uploads/2026/09/bull-elk-prairie-banff-national-park.jpg"
+      }
     }
   ]
 }

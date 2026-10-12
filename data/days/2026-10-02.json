@@ -42,7 +42,13 @@
         "crossover": false
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:17:42.176Z"
+      "collectedAt": "2026-10-12T02:17:42.176Z",
+      "image": {
+        "src": "/media/2026-10-02/2026-10-02-x-jonathan-bailey-s-breathy-dracula-audiobook-clip.webp",
+        "width": 720,
+        "height": 496,
+        "from": "https://s.yimg.com/lo/mysterio/api/70a32ac2ee073221ae3a3ee5c04183bda8bd83461185d417eed5a78c2ac24176/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbuzzfeed_articles_778%2Fcb90b4872de06293df568d7057a5baf7.jpg"
+      }
     },
     {
       "id": "2026-10-02-x-eminem-fans-revolt-over-his-feature-on-kid-rock-",
@@ -77,7 +83,13 @@
         "crossover": false
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:17:43.859Z"
+      "collectedAt": "2026-10-12T02:17:43.859Z",
+      "image": {
+        "src": "/media/2026-10-02/2026-10-02-x-eminem-fans-revolt-over-his-feature-on-kid-rock-.webp",
+        "width": 720,
+        "height": 720,
+        "from": "https://pbs.twimg.com/media/HTkbD-0XQAA78ar.jpg?name=medium"
+      }
     }
   ]
 }

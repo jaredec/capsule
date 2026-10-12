@@ -37,39 +37,48 @@
         "category": "celebrity",
         "crossover": false
       },
+      "image": {
+        "src": "/media/2026-10-11/2026-10-11-x-kelly-clarkson-s-pretty-woman-feud-with-a-brookl.webp",
+        "width": 720,
+        "height": 377,
+        "from": "https://new-cdn.mamamia.com.au/mamamia-pwa.appspot.com/mediaLibrary/kellyclarkson_1791763482452jpg_1791764379143.jpg"
+      },
       "collectedBy": "editor",
       "collectedAt": "2026-10-12T02:16:59.508Z"
     },
     {
-      "id": "2026-10-11-x-kim-kardashian-finally-gives-martin-brundle-his-",
+      "id": "2026-10-11-x-docteur-guerit-tout",
       "platform": "x",
       "rank": 2,
-      "title": "Kim Kardashian finally gives Martin Brundle his grid-walk interview",
-      "summary": "Months after Kim Kardashian walked away from Sky Sports' Martin Brundle at the Monaco Grand Prix, she was waiting for him on the Singapore grid and opened with, \"Did I not know the rules? Did we get off on the wrong foot?\" The rematch of a widely memed snub circulated well beyond F1 fans as a Kardashian moment.",
+      "title": "\"C'est le docteur Guérit-tout\": Serge Veilleux's 1981 TV performance",
+      "summary": "An archival Quebec TV clip shows Serge Veilleux, a pint-sized 16-year-old who had received a kidney transplant four years earlier, belting the traditional Quebec folk song \"Le docteur Guérit-tout\" (\"C'est le docteur Guérit-tout, qui a un remède à tout\"), a comic call-and-response tune about a doctor who cures every ailment by cutting off another body part. The clip resurfaced and took over X on the evening of Oct 11, 2026. It had a first viral run on TikTok in late 2024, tied to the folklore show Soirée canadienne, when many viewers mistook the boy for actor Antoine Bertrand.",
       "kind": "video",
       "tags": [
-        "kardashian",
-        "f1",
-        "celebrity"
+        "quebec",
+        "tv",
+        "music",
+        "throwback"
       ],
       "author": null,
       "sourceUrl": null,
       "references": [
         {
-          "title": "Kim Kardashian Clears the Air With Reporter Martin Brundle After Viral Snub",
-          "url": "https://www.tmz.com/2026/10/11/kim-kardashian-and-martin-brundle-make-up/"
+          "title": "LE DOCTEUR GUERIT-TOUT · Serge Veilleux (live 1981) · HD",
+          "url": "https://www.youtube.com/watch?v=qb4nEa64n0U"
+        },
+        {
+          "title": "Des gens croient avoir reconnu Antoine Bertrand à «Soirée canadienne» - Le Sac de chips",
+          "url": "https://www.lesacdechips.com/2024/12/02/des-gens-croient-avoir-reconnu-antoine-bertrand-a-soiree-canadienne"
         }
       ],
-      "pulse": {
-        "score": 4.2,
-        "reach": 5,
-        "dominance": 4,
-        "memeability": 3,
-        "category": "celebrity",
-        "crossover": false
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:16:59.795Z"
+      "collectedBy": "web-research",
+      "collectedAt": "2026-10-12T02:00:00Z",
+      "image": {
+        "src": "/media/2026-10-11/2026-10-11-x-docteur-guerit-tout.webp",
+        "width": 480,
+        "height": 360,
+        "from": "https://i.ytimg.com/vi/qb4nEa64n0U/hqdefault.jpg"
+      }
     }
   ]
 }

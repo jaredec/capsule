@@ -73,7 +73,13 @@
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:16:54.128Z"
+      "collectedAt": "2026-10-12T02:16:54.128Z",
+      "image": {
+        "src": "/media/2026-10-09/2026-10-09-x-embarrassing-tunnel-heckler-gets-under-dak-presc.webp",
+        "width": 675,
+        "height": 1200,
+        "from": "https://pbs.twimg.com/amplify_video_thumb/2108397545403637760/img/4sqIx8wQaqkk7cjo.jpg"
+      }
     },
     {
       "id": "2026-10-09-x-ohio-blogger-found-guilty-over-a-lewd-shrek-meme",
@@ -112,7 +118,13 @@
         "crossover": false
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:16:55.076Z"
+      "collectedAt": "2026-10-12T02:16:55.076Z",
+      "image": {
+        "src": "/media/2026-10-09/2026-10-09-x-ohio-blogger-found-guilty-over-a-lewd-shrek-meme.webp",
+        "width": 720,
+        "height": 405,
+        "from": "https://gizmodo.com/app/uploads/2026/06/Shrek_5_trailer-1200x675.jpg"
+      }
     }
   ]
 }

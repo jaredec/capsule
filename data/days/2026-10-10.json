@@ -42,7 +42,13 @@
         "crossover": false
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:16:56.357Z"
+      "collectedAt": "2026-10-12T02:16:56.357Z",
+      "image": {
+        "src": "/media/2026-10-10/2026-10-10-x-tom-welling-s-hello-nycc-skyline-photo-shows-mor.webp",
+        "width": 688,
+        "height": 1200,
+        "from": "https://pbs.twimg.com/media/HUQGC7VXIAAI7oy.jpg?name=medium"
+      }
     },
     {
       "id": "2026-10-10-tiktok-calm-down-yacob-khloe-kardashian-reads-a-teacher",
@@ -73,7 +79,13 @@
         "crossover": false
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:16:56.800Z"
+      "collectedAt": "2026-10-12T02:16:56.800Z",
+      "image": {
+        "src": "/media/2026-10-10/2026-10-10-tiktok-calm-down-yacob-khloe-kardashian-reads-a-teacher.webp",
+        "width": 720,
+        "height": 432,
+        "from": "https://starmagazine.com/wp-content/uploads/2026/10/Featured-6-Khloe-Kardashian-Jacob-Myers-Norys-1000x600.jpeg"
+      }
     },
     {
       "id": "2026-10-10-x-shopper-spots-nazi-salutes-in-a-barbie-box-s-che",
@@ -116,7 +128,13 @@
         "crossover": false
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:16:58.629Z"
+      "collectedAt": "2026-10-12T02:16:58.629Z",
+      "image": {
+        "src": "/media/2026-10-10/2026-10-10-x-shopper-spots-nazi-salutes-in-a-barbie-box-s-che.webp",
+        "width": 576,
+        "height": 1024,
+        "from": "https://pbs.twimg.com/amplify_video_thumb/2108957274949734400/img/ZG_thVF2wAfd70HA.jpg"
+      }
     }
   ]
 }
