@@ -2,12 +2,13 @@ import fs from "node:fs";
 import path from "node:path";
 import sharp from "sharp";
 import type { Item } from "../../src/lib/schema";
-import { lookupXPost } from "./enrich";
+import { lookupXPost, type XPost } from "./enrich";
 import { BROWSER_UA, decodeEntities, fetchText } from "./http";
 
 const MEDIA_DIR = path.join(process.cwd(), "public", "media");
 const MAX_WIDTH = 720;
 const MIN_WIDTH = 300;
+const AVATAR_SIZE = 96;
 
 function metaImage(html: string): string | null {
   for (const prop of ["og:image", "twitter:image", "og:image:url"]) {
@@ -40,13 +41,9 @@ function youtubeId(url: string): string | null {
 }
 
 /** Candidate stills, best first: the post's own media, then preview images from the coverage. */
-async function imageCandidates(item: Item): Promise<string[]> {
+async function imageCandidates(item: Item, post: XPost | null): Promise<string[]> {
   const out: string[] = [];
-  const xId = item.sourceUrl?.match(/x\.com\/\w+\/status\/(\d+)/)?.[1];
-  if (xId) {
-    const post = await lookupXPost(xId);
-    if (post?.mediaUrl) out.push(post.mediaUrl.includes("pbs.twimg.com/media") ? `${post.mediaUrl}?name=medium` : post.mediaUrl);
-  }
+  if (post?.mediaUrl) out.push(post.mediaUrl.includes("pbs.twimg.com/media") ? `${post.mediaUrl}?name=medium` : post.mediaUrl);
   if (item.sourceUrl?.includes("tiktok.com")) {
     const thumb = await tiktokThumbnail(item.sourceUrl);
     if (thumb) out.push(thumb);
@@ -74,9 +71,8 @@ async function download(url: string): Promise<Buffer | null> {
   }
 }
 
-/** Finds, downsizes and stores a still for the item under public/media/<date>/. */
-export async function attachImage(date: string, item: Item, log: (m: string) => void = console.log): Promise<Item> {
-  for (const url of await imageCandidates(item)) {
+async function storeImage(date: string, item: Item, post: XPost | null, log: (m: string) => void): Promise<Item["image"]> {
+  for (const url of await imageCandidates(item, post)) {
     const bytes = await download(url);
     if (!bytes) continue;
     try {
@@ -87,11 +83,49 @@ export async function attachImage(date: string, item: Item, log: (m: string) => 
       fs.mkdirSync(dir, { recursive: true });
       const file = path.join(dir, `${item.id}.webp`);
       const info = await image.rotate().resize({ width: MAX_WIDTH, withoutEnlargement: true }).webp({ quality: 72 }).toFile(file);
-      return { ...item, image: { src: `/media/${date}/${item.id}.webp`, width: info.width, height: info.height, from: url } };
+      return { src: `/media/${date}/${item.id}.webp`, width: info.width, height: info.height, from: url };
     } catch {
       continue;
     }
   }
   log(`    no usable image for "${item.title}"`);
-  return item;
+  return undefined;
+}
+
+async function storeAvatar(post: XPost): Promise<string | null> {
+  const bytes = post.avatarUrl ? await download(post.avatarUrl) : null;
+  if (!bytes) return null;
+  const name = `${post.handle.slice(1).toLowerCase()}.webp`;
+  try {
+    fs.mkdirSync(path.join(MEDIA_DIR, "avatars"), { recursive: true });
+    await sharp(bytes, { failOn: "none" })
+      .resize(AVATAR_SIZE, AVATAR_SIZE, { fit: "cover" })
+      .webp({ quality: 80 })
+      .toFile(path.join(MEDIA_DIR, "avatars", name));
+    return `/media/avatars/${name}`;
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Stores a still for the item under public/media/<date>/ and, for X items, a snapshot of the
+ * featured post (author, avatar, text) so the calendar can render it without X's embed script.
+ */
+export async function attachMedia(
+  date: string,
+  item: Item,
+  { redoImage = false, log = console.log }: { redoImage?: boolean; log?: (m: string) => void } = {},
+): Promise<Item> {
+  const xId = item.sourceUrl?.match(/x\.com\/\w+\/status\/(\d+)/)?.[1];
+  const post = xId ? await lookupXPost(xId) : null;
+  const out: Item = { ...item };
+  if (post) {
+    out.post = { name: post.name, handle: post.handle, verified: post.verified, avatar: await storeAvatar(post), text: post.text };
+  }
+  if (!item.image || redoImage) {
+    const image = await storeImage(date, item, post, log);
+    if (image) out.image = image;
+  }
+  return out;
 }

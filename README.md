@@ -1,6 +1,6 @@
 # capsule
 
-An archive of the internet's daily pulse. Capsule is a calendar where every day holds what controlled the feed that day: the meme, clip or moment a normal person would have seen reposted or heard about. Filter by platform: X, TikTok, Instagram, Reddit, YouTube.
+An archive of the internet's daily pulse. Capsule is a calendar where every day holds what controlled the feed that day: the meme, clip or moment a normal person would have seen reposted or heard about. For now every pick is an X post; the platform dropdown is ready for TikTok, Instagram, Reddit and YouTube.
 
 ## Quick start
 
@@ -9,7 +9,7 @@ npm install
 npm run dev        # http://localhost:3000
 ```
 
-Days run midnight to midnight US Pacific time. The home page shows the latest archived month as a grid of images, one per day. Click a day for details, or go to `/day/YYYY-MM-DD`. Month pages live at `/YYYY/MM`, and `?platform=x` filters any calendar view.
+Days run midnight to midnight US Pacific time. The home page shows the latest archived month, with each day's pick laid out as a compact X post (author, a line of text, and the media uncropped). Click a day for details, or go to `/day/YYYY-MM-DD`. Month pages live at `/YYYY/MM`, and `?platform=x` filters any calendar view.
 
 ## Layout
 
@@ -44,8 +44,8 @@ Every candidate gets three 1–10 scores:
 
 1. **Gather (free).** Google News RSS searches for "went viral", memes, "the internet reacts" and similar, limited to the target day and the day after. Junk like meme-coin prices and evergreen listicles is filtered out. It also pulls the most-read Wikipedia pages and flags *breakouts*: pages that weren't in the top 1000 on the prior three days, a good "normies looked this up" signal. For recent days it adds Google's trending searches. Everything is saved to `data/signals/`. All of these sources take a date, which is what makes backfills cheap.
 2. **Pick (one cheap LLM call).** About 12k tokens of headlines go to a small model, which clusters them into stories and scores them with the rubric. It can only cite headline IDs from the snapshot, so references can't be invented.
-3. **Enrich (free).** Resolves the real article URLs, pulls the X, TikTok and Instagram posts embedded in those articles, and reads likes and replies from X's public embed endpoint. The featured post is the most-liked one from that day.
-4. **Image (free).** Each pick gets a still: the X post's photo or video poster, a TikTok or YouTube thumbnail, or the coverage's og:image (generic logos are skipped). It's resized to a 720px WebP with sharp and saved under `public/media/`, so it can't break when a platform rotates CDN URLs. `npm run images -- 2026-10-05` (or no dates for all days, `--redo` to replace) backfills existing days.
+3. **Enrich (free).** Resolves the real article URLs, pulls the X posts embedded in those articles, and reads likes and replies from X's public embed endpoint. The featured post is the most-liked one from that day, unless the editor pinned one.
+4. **Media (free).** Each pick gets a still: the X post's photo or video poster, else a YouTube thumbnail or the coverage's og:image (generic logos are skipped), resized to a 720px WebP with sharp under `public/media/`. It also stores a snapshot of the post (name, handle, verified, avatar, text) so the calendar renders without X's embed script, and nothing breaks when X rotates CDN URLs. `npm run media -- 2026-10-05` (or no dates for all days, `--redo` to replace images) backfills existing days.
 
 Cost per day is one call of roughly 12k input and 1k output tokens:
 
@@ -105,6 +105,7 @@ Add one model key as a repository secret (`GEMINI_API_KEY`, `XAI_API_KEY` or `OP
       "metrics": { "likes": "72K", "replies": "377" },
       "references": [{ "title": "Article", "url": "https://..." }],
       "image": { "src": "/media/2026-10-07/2026-10-07-x-short-slug.webp", "width": 720, "height": 900, "from": "https://pbs.twimg.com/..." },
+      "post": { "name": "Display Name", "handle": "@handle", "verified": true, "avatar": "/media/avatars/handle.webp", "text": "The post text" },
       "pulse": { "score": 8.4, "reach": 9, "dominance": 8, "memeability": 8, "category": "brands", "crossover": false },
       "collectedBy": "pulse:gemini-3.5-flash-lite",
       "collectedAt": "2026-10-08T06:17:00Z"

@@ -10,7 +10,7 @@
     "typecheck": "next typegen && tsc --noEmit",
     "collect": "tsx scripts/collect.ts",
     "curate": "tsx scripts/curate.ts",
-    "images": "tsx scripts/images.ts",
+    "media": "tsx scripts/media.ts",
     "validate-data": "tsx scripts/validate.ts"
   },
   "dependencies": {

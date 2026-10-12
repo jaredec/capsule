@@ -54,6 +54,16 @@ export const itemSchema = z.object({
   image: z
     .object({ src: z.string().startsWith("/media/"), width: z.number(), height: z.number(), from: z.url() })
     .optional(),
+  /** Snapshot of the featured post, so the calendar can render it without loading the platform's embed. */
+  post: z
+    .object({
+      name: z.string().min(1),
+      handle: z.string().min(1),
+      verified: z.boolean(),
+      avatar: z.string().startsWith("/media/").nullable(),
+      text: z.string(),
+    })
+    .optional(),
   collectedBy: z.string().min(1),
   collectedAt: z.string().min(1),
 });

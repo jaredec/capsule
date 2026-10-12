@@ -1,6 +1,6 @@
 import { itemSchema, type Item } from "../../src/lib/schema";
-import { choosePost, enrichStory, lookupXPost } from "./enrich";
-import { attachImage } from "./media";
+import { compactNumber, enrichStory, lookupXPost } from "./enrich";
+import { attachMedia } from "./media";
 import type { ScoredStory } from "./pick";
 import type { Signals } from "./signals";
 
@@ -16,7 +16,7 @@ function slugify(text: string): string {
   );
 }
 
-/** Turns picked stories into day items, attaching real article links and same-day posts. */
+/** Turns picked stories into X items, attaching real article links and the most-liked same-day post. */
 export async function buildItems(
   signals: Signals,
   stories: (ScoredStory & { sourceUrl?: string })[],
@@ -33,32 +33,32 @@ export async function buildItems(
     const pinned = pinnedId ? await lookupXPost(pinnedId) : null;
     if (story.sourceUrl && !pinned) log(`    pinned sourceUrl not found: ${story.sourceUrl}`);
     if (pinned) enrichment.xPosts.unshift(pinned);
-    const post = choosePost(pinned ? "x" : story.platform, enrichment);
+    const post = enrichment.xPosts[0] ?? null;
     log(
       `  "${story.title}" pulse=${story.pulse.score} refs=${enrichment.references.length} xPosts=${enrichment.xPosts.length}` +
-        (post.url ? ` post=${post.url}` : ""),
+        (post ? ` post=${post.url}` : ""),
     );
-    if (enrichment.references.length === 0 && !post.url) {
+    if (enrichment.references.length === 0 && !post) {
       log("    skipped: no resolvable source");
       continue;
     }
     const parsed = itemSchema.safeParse({
-      id: `${signals.date}-${post.platform}-${slugify(story.title)}`,
-      platform: post.platform,
+      id: `${signals.date}-x-${slugify(story.title)}`,
+      platform: "x",
       rank: items.length + 1,
       title: story.title.trim(),
       summary: story.summary.trim(),
       kind: story.kind,
       tags: story.tags.map(slugify).filter(Boolean).slice(0, 4),
-      author: post.author,
-      sourceUrl: post.url,
-      ...(post.metrics ? { metrics: post.metrics } : {}),
+      author: post?.handle,
+      sourceUrl: post?.url,
+      ...(post ? { metrics: { likes: compactNumber(post.likes), replies: compactNumber(post.replies) } } : {}),
       references: enrichment.references,
       pulse: story.pulse,
       collectedBy,
       collectedAt: new Date().toISOString(),
     });
-    if (parsed.success) items.push(await attachImage(signals.date, parsed.data, log));
+    if (parsed.success) items.push(await attachMedia(signals.date, parsed.data, { log }));
     else log(`    skipped: ${parsed.error.message}`);
   }
   return items;
