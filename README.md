@@ -76,7 +76,7 @@ Any OpenAI-compatible endpoint works. Set `LLM_PROVIDER=gemini|xai|openai`, or `
 
 ### Editor overrides
 
-Write `data/picks/<date>.json` with your stories (same fields the model returns, citing headline IDs from that day's signals), then run `npm run curate -- data/picks/<date>.json`. A story can also set `sourceUrl` to pin the X post to feature, `imageUrl` to use a better still than the post's media (a photo instead of a screenshot of text, say), `frameAt` (seconds) to pick the exact video frame, and `crop` (`{ "x", "y", "w", "h" }` as fractions of the image) to choose what the calendar shows. `npm run media` also applies these, replacing the image when `imageUrl` or `frameAt` changes. Curated days (`collectedBy` other than `pulse:*`) are never overwritten by the collector.
+Write `data/picks/<date>.json` with your stories (same fields the model returns, citing headline IDs from that day's signals), then run `npm run curate -- data/picks/<date>.json`. A story can also set `sourceUrl` to pin the X post to feature, `imageUrl` to use a better still than the post's media (a photo instead of a screenshot of text, say), `frameAt` (seconds) to pick the exact video frame, and `crop` (`{ "x", "y", "w", "h" }` as fractions of the image) to choose what the calendar shows. `npm run media` also applies these, replacing the image when `imageUrl` or `frameAt` changes. Curated days (those with a picks file or items whose `collectedBy` isn't `pulse:*`) are never overwritten by the collector. A picks file with no stories marks a day where nothing broke through, so the collector leaves it empty.
 
 ### GitHub Actions
 

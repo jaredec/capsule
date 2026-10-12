@@ -24,6 +24,7 @@ import { addDays, isValidIsoDate, todayPacific } from "../src/lib/dates";
 import { buildItems } from "./lib/build";
 import { resolveLlm } from "./lib/llm";
 import { pickStories } from "./lib/pick";
+import { readPicks } from "./lib/picks";
 import { gatherSignals, readSignals, writeSignals } from "./lib/signals";
 import { decideMerge, readDay, writeDay } from "./lib/store";
 
@@ -85,7 +86,9 @@ async function main() {
   let failed = 0;
   for (const date of dates) {
     const day = readDay(date);
-    const decision = gatherOnly ? "write" : decideMerge(day, { refresh, force: values.force });
+    const decision = gatherOnly
+      ? "write"
+      : decideMerge(day, { refresh, force: values.force, hasPicks: readPicks(date) !== null });
     if (decision !== "write") {
       console.log(`${date}: ${decision}`);
       continue;

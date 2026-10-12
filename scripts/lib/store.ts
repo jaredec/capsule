@@ -22,8 +22,10 @@ export function writeDay(day: DayFile) {
 
 export type MergeDecision = "write" | "skip-curated" | "skip-existing";
 
-export function decideMerge(day: DayFile, opts: { refresh: boolean; force: boolean }): MergeDecision {
-  if (day.items.length === 0 || opts.force) return "write";
-  if (day.items.some((i) => !isAutomated(i))) return "skip-curated";
+/** `hasPicks`: the editor wrote data/picks/<date>.json, which keeps the day curated even if it lists no stories. */
+export function decideMerge(day: DayFile, opts: { refresh: boolean; force: boolean; hasPicks: boolean }): MergeDecision {
+  if (opts.force) return "write";
+  if (opts.hasPicks || day.items.some((i) => !isAutomated(i))) return "skip-curated";
+  if (day.items.length === 0) return "write";
   return opts.refresh ? "write" : "skip-existing";
 }
