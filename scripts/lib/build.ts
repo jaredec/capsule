@@ -1,10 +1,10 @@
-import { itemSchema, type Crop, type Item } from "../../src/lib/schema";
+import { itemSchema, type Item } from "../../src/lib/schema";
 import { compactNumber, enrichStory, lookupXPost } from "./enrich";
-import { attachMedia } from "./media";
+import { attachMedia, type MediaOverrides } from "./media";
 import type { ScoredStory } from "./pick";
 import type { Signals } from "./signals";
 
-function slugify(text: string): string {
+export function slugify(text: string): string {
   return (
     text
       .toLowerCase()
@@ -16,10 +16,14 @@ function slugify(text: string): string {
   );
 }
 
+export function itemId(date: string, title: string): string {
+  return `${date}-x-${slugify(title)}`;
+}
+
 /** Turns picked stories into X items, attaching real article links and the most-liked same-day post. */
 export async function buildItems(
   signals: Signals,
-  stories: (ScoredStory & { sourceUrl?: string; imageUrl?: string; crop?: Crop })[],
+  stories: (ScoredStory & MediaOverrides & { sourceUrl?: string })[],
   collectedBy: string,
   log: (msg: string) => void = console.log,
 ): Promise<Item[]> {
@@ -43,7 +47,7 @@ export async function buildItems(
       continue;
     }
     const parsed = itemSchema.safeParse({
-      id: `${signals.date}-x-${slugify(story.title)}`,
+      id: itemId(signals.date, story.title),
       platform: "x",
       rank: items.length + 1,
       title: story.title.trim(),
@@ -58,7 +62,10 @@ export async function buildItems(
       collectedBy,
       collectedAt: new Date().toISOString(),
     });
-    if (parsed.success) items.push(await attachMedia(signals.date, parsed.data, { log, crop: story.crop, imageUrl: story.imageUrl }));
+    if (parsed.success) {
+      const { imageUrl, frameAt, crop } = story;
+      items.push(await attachMedia(signals.date, parsed.data, { log, imageUrl, frameAt, crop }));
+    }
     else log(`    skipped: ${parsed.error.message}`);
   }
   return items;

@@ -33,13 +33,20 @@ export function resolveLlm(): LlmConfig | null {
 
 export async function completeJson<T>(
   config: LlmConfig,
-  opts: { system: string; user: string; schemaName: string; schema: object },
+  opts: { system: string; user: string; schemaName: string; schema: object; images?: Buffer[] },
 ): Promise<{ data: T; usage: unknown }> {
+  // Images go in as JPEG data URLs, the multimodal form every OpenAI-compatible endpoint accepts.
+  const user = opts.images?.length
+    ? [
+        { type: "text", text: opts.user },
+        ...opts.images.map((img) => ({ type: "image_url", image_url: { url: `data:image/jpeg;base64,${img.toString("base64")}` } })),
+      ]
+    : opts.user;
   const body = {
     model: config.model,
     messages: [
       { role: "system", content: opts.system },
-      { role: "user", content: opts.user },
+      { role: "user", content: user },
     ],
     response_format: {
       type: "json_schema",

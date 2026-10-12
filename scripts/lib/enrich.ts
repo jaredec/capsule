@@ -14,8 +14,10 @@ export type XPost = {
   likes: number;
   replies: number;
   createdAt: string;
-  /** First photo, or the poster frame of a video. */
+  /** First photo, or the poster frame of a video (the quoted post's when the post has none). */
   mediaUrl: string | null;
+  /** The video as an MP4, for picking a still that shows the moment rather than its first frame. */
+  videoUrl: string | null;
 };
 
 export type Enrichment = {
@@ -24,6 +26,28 @@ export type Enrichment = {
 };
 
 const X_STATUS = /https?:\/\/(?:www\.|mobile\.)?(?:twitter|x)\.com\/([A-Za-z0-9_]{1,15})\/status(?:es)?\/(\d{8,20})/g;
+
+type SyndicatedMedia = {
+  mediaDetails?: { media_url_https?: string }[];
+  photos?: { url?: string }[];
+  video?: { poster?: string; variants?: { type?: string; src?: string }[] };
+};
+
+function media(t: SyndicatedMedia): Pick<XPost, "mediaUrl" | "videoUrl"> {
+  // Variant URLs carry their size (".../vid/avc1/720x1280/..."); the smallest whose short side
+  // reaches 720px is plenty for a 720px still and avoids downloading 4K files.
+  const mp4s = (t.video?.variants ?? [])
+    .filter((v) => v.type === "video/mp4" && v.src)
+    .map((v) => {
+      const [w, h] = (v.src!.match(/\/(\d+)x(\d+)\//) ?? []).slice(1).map(Number);
+      return { src: v.src!, short: Math.min(w || 0, h || 0) };
+    })
+    .sort((a, b) => a.short - b.short);
+  return {
+    mediaUrl: t.photos?.[0]?.url ?? t.video?.poster ?? t.mediaDetails?.[0]?.media_url_https ?? null,
+    videoUrl: (mp4s.find((v) => v.short >= 720) ?? mp4s.at(-1))?.src ?? null,
+  };
+}
 
 type SyndicatedTweet = {
   text?: string;
@@ -55,15 +79,13 @@ export async function lookupXPost(id: string): Promise<XPost | null> {
   );
   if (!text) return null;
   try {
-    const t = JSON.parse(text) as SyndicatedTweet & {
+    const t = JSON.parse(text) as SyndicatedTweet & SyndicatedMedia & {
       __typename?: string;
       favorite_count?: number;
       conversation_count?: number;
       created_at?: string;
       user?: { screen_name?: string; name?: string; is_blue_verified?: boolean; verified?: boolean; profile_image_url_https?: string };
-      mediaDetails?: { media_url_https?: string }[];
-      photos?: { url?: string }[];
-      video?: { poster?: string };
+      quoted_tweet?: SyndicatedMedia;
     };
     if (t.__typename === "TweetTombstone" || !t.user?.screen_name || !t.created_at) return null;
     return {
@@ -76,7 +98,7 @@ export async function lookupXPost(id: string): Promise<XPost | null> {
       likes: t.favorite_count ?? 0,
       replies: t.conversation_count ?? 0,
       createdAt: t.created_at,
-      mediaUrl: t.photos?.[0]?.url ?? t.video?.poster ?? t.mediaDetails?.[0]?.media_url_https ?? null,
+      ...(t.mediaDetails?.length || !t.quoted_tweet ? media(t) : media(t.quoted_tweet)),
     };
   } catch {
     return null;
