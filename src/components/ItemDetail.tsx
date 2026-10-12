@@ -4,16 +4,12 @@ import type { Item } from "@/lib/schema";
 import { Embed } from "./Embed";
 import { CroppedImage } from "./CroppedImage";
 
-/** Explains a featured post dated on another day than the one the moment is filed under. */
+/** Explains a featured post that went up before the day it blew up. */
 function dateNote(item: Item, date: string): string | null {
   if (!item.post?.postedAt) return null;
   const posted = archiveDateOf(item.post.postedAt);
-  if (posted === date) return null;
-  const postedOn = formatShortDate(posted, date);
-  const peakedOn = formatShortDate(date, posted);
-  return posted < date
-    ? `Originally posted ${postedOn}, peaked ${peakedOn}.`
-    : `Posted ${postedOn}; the moment peaked ${peakedOn}.`;
+  if (posted >= date) return null;
+  return `Originally posted ${formatShortDate(posted, date)}, peaked ${formatShortDate(date, posted)}.`;
 }
 
 export function ItemDetail({ item, date }: { item: Item; date: string }) {
