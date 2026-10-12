@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-01",
+  "stories": [
+    {
+      "title": "Mike Tomlin reveals the Minecraft city he built for 12 years",
+      "summary": "Former Steelers coach Mike Tomlin, now an NBC analyst, posted a nearly 20-minute YouTube tour of a Minecraft city he has worked on since 2014, complete with penthouses, stadiums and a worry about enough public bathrooms. His announcement post on X passed 20 million views and the video doubled its views overnight, while fans joked about his urban-planning cadence and rivals like the Browns trolled the Steelers with Minecraft memes.",
+      "kind": "video",
+      "tags": ["nfl", "minecraft", "gaming", "celebrity"],
+      "category": "sports",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 7,
+      "platform": "x",
+      "headlineIds": [88, 55]
+    },
+    {
+      "title": "Estes Park bull elk smashes a car window during rut season",
+      "summary": "An Instagram video from Estes Park, Colorado, shows a bull elk charging a Honda parked near a golf course and shattering its rear window with its antlers before trotting back to his herd. Outlets compared the hit to an NFL linebacker, and commenters joked about the insurance claim and blamed the driver for parking too close during the rut.",
+      "kind": "video",
+      "tags": ["elk", "wildlife", "colorado"],
+      "category": "animals",
+      "crossover": false,
+      "reach": 6,
+      "dominance": 5,
+      "memeability": 5,
+      "platform": "instagram",
+      "headlineIds": [166, 167]
+    }
+  ]
+}

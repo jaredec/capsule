@@ -2,51 +2,82 @@
   "date": "2026-10-02",
   "items": [
     {
-      "id": "2026-10-02-x-browns-minecraft-game-over",
+      "id": "2026-10-02-x-jonathan-bailey-s-breathy-dracula-audiobook-clip",
       "platform": "x",
       "rank": 1,
-      "title": "Browns troll Tomlin with a Minecraft 'game over.' screen",
-      "summary": "Hours after beating the Steelers 27-24 on Thursday Night Football, the Cleveland Browns posted 'game over.' with a Minecraft death screen that offered 'Respawn in Pittsburgh' or 'Generate new world'. It was a dig at ex-Steelers coach Mike Tomlin, who had revealed his 12-year Minecraft city a day earlier and had said 'The Browns is the Browns' earlier in the season. Fans called it a perfect troll, and ESPN listed it among the week's best.",
-      "kind": "image",
-      "tags": ["sports", "nfl", "gaming"],
-      "author": "@Browns",
-      "sourceUrl": null,
+      "title": "Jonathan Bailey's breathy Dracula audiobook clip sends fans feral",
+      "summary": "Entertainment Tonight shared a behind-the-scenes clip of Jonathan Bailey and Ella Purnell recording a feeding scene for Audible's new Bram Stoker's Dracula, with heavy breathing, a hand on his chest and Purnell biting an apple for the sound effect. The clip split viewers between thirst and second-hand embarrassment, and posts asking whether audiobooks were their new kink spread across X and TikTok.",
+      "kind": "video",
+      "tags": [
+        "celebrity",
+        "audiobook",
+        "dracula"
+      ],
+      "author": "@thoseanimegirlz",
+      "sourceUrl": "https://x.com/thoseanimegirlz/status/2105736592946008471",
+      "metrics": {
+        "likes": "152K",
+        "replies": "152"
+      },
       "references": [
         {
-          "title": "Browns troll Mike Tomlin's 12-year Minecraft build after TNF win – Larry Brown Sports",
-          "url": "https://larrybrownsports.com/football/browns-troll-mike-tomlin-12-year-minecraft-build/772741"
+          "title": "The Internet Is Losing It Over Jonathan Bailey And Ella Purnell In \"Dracula\"",
+          "url": "https://www.yahoo.com/entertainment/movies/articles/internet-losing-over-jonathan-bailey-160821975.html"
         },
         {
-          "title": "Browns Troll Mike Tomlin, Steelers with Minecraft Post After TNF Win – Bleacher Report",
-          "url": "https://bleacherreport.com/articles/25505831-browns-troll-mike-tomlin-steelers-minecraft-post-after-tnf-win"
+          "title": "Jonathan Bailey, Ella Purnell’s ‘Dracula’ audiobook clip has fans losing it online: 'So much emotion, otherworldly'",
+          "url": "https://www.wionews.com/entertainment/hollywood/jonathan-bailey-ella-purnell-s-dracula-audiobook-clip-has-fans-losing-it-online-so-much-emotion-otherworldly-1791012111199"
         },
         {
-          "title": "Cleveland Browns troll Steelers with perfect Minecraft meme after clutch win – Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/cleveland-browns-troll-steelers-perfect-103247508.html"
+          "title": "Gym crushes, gay Halloween tees & Jonathan Bailey as Dracula: 10 things we're obsessed with this week",
+          "url": "https://www.queerty.com/gym-crushes-gay-halloween-tees-jonathan-bailey-as-dracula-10-things-were-obsessed-with-this-week-20261003/"
         }
       ],
-      "collectedBy": "web-research",
-      "collectedAt": "2026-10-12T00:00:00Z"
+      "pulse": {
+        "score": 6.6,
+        "reach": 6,
+        "dominance": 7,
+        "memeability": 7,
+        "category": "celebrity",
+        "crossover": false
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:17:42.176Z"
     },
     {
-      "id": "2026-10-02-instagram-ebay-camera-childhood",
-      "platform": "instagram",
+      "id": "2026-10-02-x-eminem-fans-revolt-over-his-feature-on-kid-rock-",
+      "platform": "x",
       "rank": 2,
-      "title": "'I found your entire childhood on this camera I bought on eBay'",
-      "summary": "New York musician Ben Coleman found old home movies on a used camera he bought on eBay and posted a Reel asking an 'Abby/Abigail from Utah' to DM him for the tape. The Reel passed 3.9 million views in two days. The family found it and commented, and even eBay's official account joined in.",
-      "kind": "video",
-      "tags": ["wholesome", "nostalgia"],
-      "author": "@bentcoleman",
-      "sourceUrl": null,
-      "metrics": { "views": "3.9M" },
+      "title": "Eminem fans revolt over his feature on Kid Rock's Christian album",
+      "summary": "Kid Rock posted the tracklist for his Christian album Halfway to Jesus, revealing Eminem on a song called \"7 Sins\" and framing it as proof friends can differ politically. Fans who remembered Eminem's 2017 line-in-the-sand against Trump supporters called the collab spineless, questioned whether it was real until his camp confirmed it, and posted about deleting his songs.",
+      "kind": "moment",
+      "tags": [
+        "eminem",
+        "kid-rock",
+        "rap"
+      ],
+      "author": "@KidRock",
+      "sourceUrl": "https://x.com/KidRock/status/2105744239392891140",
+      "metrics": {
+        "likes": "6.7K",
+        "replies": "466"
+      },
       "references": [
         {
-          "title": "'I Found Your Entire Childhood': Man Buys Camera On eBay And Launches Search For Woman In The Videos – Know Your Meme",
-          "url": "https://trending.knowyourmeme.com/editorials/i-found-your-entire-childhood-man-buys-camera-on-ebay-and-launches-search-for-woman-in-the-videos"
+          "title": "Eminem Fans Drag Veteran Rapper Over New Collaboration with Kid Rock",
+          "url": "https://www.wideopencountry.com/eminem-fans-drag-veteran-rapper-over-new-collaboration-with-kid-rock/"
         }
       ],
-      "collectedBy": "web-research",
-      "collectedAt": "2026-10-12T00:00:00Z"
+      "pulse": {
+        "score": 5.9,
+        "reach": 7,
+        "dominance": 6,
+        "memeability": 4,
+        "category": "music",
+        "crossover": false
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:17:43.859Z"
     }
   ]
 }

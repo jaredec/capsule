@@ -2,31 +2,47 @@
   "date": "2026-10-04",
   "items": [
     {
-      "id": "2026-10-04-x-vivek-ramaswamy-big-guy",
+      "id": "2026-10-04-x-gillian-anderson-tells-superfans-to-stop-sitting",
       "platform": "x",
       "rank": 1,
-      "title": "Vivek Ramaswamy nearly drops a kid on stage: 'Big guy!'",
-      "summary": "At a Trump rally in Vandalia, Ohio, gubernatorial candidate Vivek Ramaswamy invited a 10-year-old onstage, promised 'I'll pick you up', and nearly dropped him before saying 'Whoa! Big guy!'. The clip spread across X overnight and into Sunday, with people on both sides of the aisle comparing it to Dukakis in the tank and the Howard Dean scream. Commenters joked it was 'what happens when a culture venerates the math olympiad over the jock.'",
+      "title": "Gillian Anderson tells superfans to stop sitting in the front row",
+      "summary": "A TikTok filmed at the stage door of her West End run of Who's Afraid of Virginia Woolf? caught Gillian Anderson telling a group of fans \"You can't come 20 times and sit in the front row, it'll drive me mad.\" The clip passed 4 million views and set off a debate over theater etiquette and whether she was rude, until she posted that the women were friends of 20 years and asked people to leave them alone.",
       "kind": "video",
-      "tags": ["politics", "cringe"],
-      "author": "@Acyn",
-      "sourceUrl": null,
+      "tags": [
+        "celebrity",
+        "theater",
+        "fans"
+      ],
+      "author": "@GillianA",
+      "sourceUrl": "https://x.com/GillianA/status/2106730676510691699",
+      "metrics": {
+        "likes": "24.4K",
+        "replies": "212"
+      },
       "references": [
         {
-          "title": "Vivek Ramaswamy Roasted for Botched Attempt at Picking Up a Child During Trump Rally: 'Worse Than Dukakis in the Tank' – Mediaite",
-          "url": "https://www.mediaite.com/media/news/vivek-ramaswamy-roasted-for-botched-attempt-at-picking-up-a-child-during-trump-rally-worse-than-dukakis-in-the-tank/"
+          "title": "Gillian Anderson Clarifies Viral Video of Her Calling Fans 'Distracting': 'I Go Back Over 20 Years' With Them",
+          "url": "https://www.thewrap.com/culture-lifestyle/culture/gillian-anderson-clarifies-fan-distracting-go-back/"
         },
         {
-          "title": "Ramaswamy Almost Drops Boy As He Picks Him Up At Rally – Newsweek",
-          "url": "https://www.newsweek.com/ramaswamy-almost-drops-boy-as-he-picks-him-up-at-rally-12521797"
+          "title": "Gillian Anderson Responds to Backlash Over Telling Superfans to Stop Sitting in Front Row",
+          "url": "https://www.hollywoodreporter.com/news/general-news/gillian-anderson-virginia-woolf-fans-front-row-video-1236722252/"
         },
         {
-          "title": "Humiliating moment GOP gubernatorial candidate Vivek Ramaswamy almost drops young boy as he struggles to pick him up during rally – Daily Mail",
-          "url": "https://www.dailymail.com/news/article-16181251/Vivek-Ramaswamy-drops-boy-rally-ohio.html"
+          "title": "Gillian Anderson responds to backlash after telling ‘distracting’ fans to stop sitting in front row",
+          "url": "https://www.theguardian.com/culture/2026/oct/05/fans-backlash-west-end-gillian-anderson"
         }
       ],
-      "collectedBy": "web-research",
-      "collectedAt": "2026-10-12T00:00:00Z"
+      "pulse": {
+        "score": 6.9,
+        "reach": 7,
+        "dominance": 8,
+        "memeability": 5,
+        "category": "celebrity",
+        "crossover": false
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:17:46.629Z"
     }
   ]
 }

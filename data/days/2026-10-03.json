@@ -2,32 +2,70 @@
   "date": "2026-10-03",
   "items": [
     {
-      "id": "2026-10-03-x-lindsay-lohan-its-october-3rd",
+      "id": "2026-10-03-x-lindsay-lohan-recreates-it-s-october-3rd-for-mea",
       "platform": "x",
       "rank": 1,
-      "title": "Lindsay Lohan says 'It's October 3rd' with Mean Girls director",
-      "summary": "On Mean Girls Day, Lindsay Lohan posted a recreation of the movie's most-quoted scene, delivering 'It's October 3rd' as Cady Heron opposite director Mark Waters before winking and cracking up. The clip was posted to X, TikTok and Instagram and drew millions of views on each. Original Aaron Samuels actor Jonathan Bennett joined the comments, and the annual 'so fetch' meme cycle went into overdrive.",
+      "title": "Lindsay Lohan recreates \"It's October 3rd\" for Mean Girls Day",
+      "summary": "On the unofficial Mean Girls Day, Lindsay Lohan posted a video of herself at a school desk delivering Cady Heron's \"It's October 3rd\" line to director Mark Waters standing in as Aaron Samuels, then cracking up. The clip passed 35 million views and 2 million likes on Instagram as fans flooded feeds with pink outfits, quotes and their own recreations of the scene.",
       "kind": "video",
-      "tags": ["movies", "celebrity", "nostalgia"],
+      "tags": [
+        "film",
+        "celebrity",
+        "nostalgia"
+      ],
       "author": "@lindsaylohan",
       "sourceUrl": "https://x.com/lindsaylohan/status/2106370548813218059",
-      "metrics": { "views": "2M+" },
+      "metrics": {
+        "likes": "208.1K",
+        "replies": "657"
+      },
       "references": [
         {
-          "title": "Lindsay Lohan Recreates 'Mean Girls' Scene For A Most Fetch October 3rd – TODAY",
-          "url": "https://www.today.com/popculture/movies/lindsay-lohan-recreates-mean-girls-scene-oct-3-rcna601301"
-        },
-        {
-          "title": "Lindsay Lohan recreates scene for Mean Girls Day on Oct. 3 – USA Today",
-          "url": "https://www.usatoday.com/story/entertainment/movies/2026/10/03/lindsay-lohan-mean-girls-day-video/92080000007/"
-        },
-        {
-          "title": "VIDEO Lindsay Lohan vuelve a ser Cady Heron – Uniradio Informa",
-          "url": "https://www.uniradioinforma.com/fama/video-lindsay-lohan-vuelve-ser-cady-heron-n906696"
+          "title": "“Happy October 3rd”: Internet reacts as Lindsay Lohan revisits iconic Mean Girls moment",
+          "url": "https://www.soapcentral.com/entertainment/happy-october-3rd-internet-reacts-lindsay-lohan-revisits-iconic-mean-girls-moment"
         }
       ],
-      "collectedBy": "web-research",
-      "collectedAt": "2026-10-12T00:00:00Z"
+      "pulse": {
+        "score": 7.6,
+        "reach": 9,
+        "dominance": 7,
+        "memeability": 6,
+        "category": "tv-film",
+        "crossover": false
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:18:04.335Z"
+    },
+    {
+      "id": "2026-10-03-x-uncle-bron-babysits-tyrese-maxey-s-baby-at-sixer",
+      "platform": "x",
+      "rank": 2,
+      "title": "\"Uncle Bron\" babysits Tyrese Maxey's baby at Sixers scrimmage",
+      "summary": "During the 76ers' open Blue x White scrimmage, newly signed LeBron James sat on the bench bouncing Tyrese Maxey's infant daughter Marvel on his knee between possessions. The fan clip was reposted by the NBA, people dubbed him \"LeBabysitter,\" and James leaned in with his own \"Uncle Bron on babysitting duty\" post.",
+      "kind": "video",
+      "tags": [
+        "nba",
+        "lebron",
+        "baby"
+      ],
+      "author": null,
+      "sourceUrl": null,
+      "references": [
+        {
+          "title": "LeBron James Reacts to His Viral Video With Tyrese Maxey’s Baby in Hilarious 76ers Scrimmage Video",
+          "url": "https://www.basketballnews.com/news/basketballnews-nba-active-news-lebron-james-goes-viral-with-tyrese-maxeys-baby-in-hilarious-philadelphia-sixers-scrimmage-video/"
+        }
+      ],
+      "pulse": {
+        "score": 5.2,
+        "reach": 7,
+        "dominance": 5,
+        "memeability": 5,
+        "category": "sports",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:18:04.721Z"
     }
   ]
 }

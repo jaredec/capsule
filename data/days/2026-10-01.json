@@ -2,60 +2,79 @@
   "date": "2026-10-01",
   "items": [
     {
-      "id": "2026-10-01-x-mike-tomlin-minecraft-city",
+      "id": "2026-10-01-x-mike-tomlin-reveals-the-minecraft-city-he-built-",
       "platform": "x",
       "rank": 1,
       "title": "Mike Tomlin reveals the Minecraft city he built for 12 years",
-      "summary": "Former Steelers coach Mike Tomlin premiered a tour of the Minecraft city he had secretly built since 2014, and his X announcement passed 20 million views. The internet couldn't get over a Super Bowl-winning coach obsessing over rooftop penthouses and 'appropriate amenities'. The jokes flowed: Le'Veon Bell posted 'we were tryna win super bowls and coach T was on minecraft building cities', his son Mayce said his PlayStation used to vanish, and meme accounts tied the build to the Steelers' playoff struggles.",
-      "kind": "moment",
-      "tags": ["sports", "gaming", "nfl"],
+      "summary": "Former Steelers coach Mike Tomlin, now an NBC analyst, posted a nearly 20-minute YouTube tour of a Minecraft city he has worked on since 2014, complete with penthouses, stadiums and a worry about enough public bathrooms. His announcement post on X passed 20 million views and the video doubled its views overnight, while fans joked about his urban-planning cadence and rivals like the Browns trolled the Steelers with Minecraft memes.",
+      "kind": "video",
+      "tags": [
+        "nfl",
+        "minecraft",
+        "gaming",
+        "celebrity"
+      ],
       "author": "@CoachTomlin",
-      "sourceUrl": null,
-      "metrics": { "views": "20M+" },
+      "sourceUrl": "https://x.com/CoachTomlin/status/2105331631913672735",
+      "metrics": {
+        "likes": "163.5K",
+        "replies": "1.5K"
+      },
       "references": [
         {
-          "title": "NBC's Mike Tomlin shows off his 'Minecraft' city with full tour – NBC10 Philadelphia",
-          "url": "https://www.nbcphiladelphia.com/news/sports/nfl/mike-tomlin-minecraft-city-full-tour/4472732/"
+          "title": "The Internet Is Losing Its Mind Over Retired NFL Coach Mike Tomlin Spending 12 Years Making A Very Intricate Minecraft City",
+          "url": "https://kotaku.com/mike-tomlin-minecraft-city-nfl-coach-steelers-mojang-youtube-2000739307"
         },
         {
-          "title": "The Funniest Reactions To Mike Tomlin's Mindblowing 12-Year-Old 'Minecraft' City Came From His Son Mayce – BroBible",
-          "url": "https://brobible.com/sports/article/mike-tomlin-son-mayce-reaction-minecraft-city/"
-        },
-        {
-          "title": "Mike Tomlin's 'Minecraft' city is going viral — and at least one former Steelers player is incredulous – DNYUZ",
-          "url": "https://dnyuz.com/2026/10/01/mike-tomlins-minecraft-city-is-going-viral-and-at-least-one-former-steelers-player-is-incredulous/"
+          "title": "Cleveland Browns troll Steelers with perfect Minecraft meme after clutch win",
+          "url": "https://sports.yahoo.com/articles/cleveland-browns-troll-steelers-perfect-103247508.html"
         }
       ],
-      "collectedBy": "web-research",
-      "collectedAt": "2026-10-12T00:00:00Z"
+      "pulse": {
+        "score": 7,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 7,
+        "category": "sports",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:17:37.891Z"
     },
     {
-      "id": "2026-10-01-youtube-tomlin-minecraft-ep1",
-      "platform": "youtube",
+      "id": "2026-10-01-instagram-estes-park-bull-elk-smashes-a-car-window-during-",
+      "platform": "instagram",
       "rank": 2,
-      "title": "Tomlin's 'EP 1: Rooftops, Penthouses, and Urban Living' blows up",
-      "summary": "The nearly 20-minute first episode of Tomlin's Minecraft series premiered at 8 p.m. ET on Sept. 30 and topped 334,000 views in four hours, then kept climbing toward a million overnight. Viewers loved his apologies for his 'lack of stick control' and the 'Trump Tower' penthouse with its disclaimer caption. The official NFL and Minecraft accounts both showed up in the comments.",
+      "title": "Estes Park bull elk smashes a car window during rut season",
+      "summary": "An Instagram video from Estes Park, Colorado, shows a bull elk charging a Honda parked near a golf course and shattering its rear window with its antlers before trotting back to his herd. Outlets compared the hit to an NFL linebacker, and commenters joked about the insurance claim and blamed the driver for parking too close during the rut.",
       "kind": "video",
-      "tags": ["gaming", "sports"],
-      "author": "@miket757",
+      "tags": [
+        "elk",
+        "wildlife",
+        "colorado"
+      ],
+      "author": null,
       "sourceUrl": null,
-      "metrics": { "views": "1.5M" },
       "references": [
         {
-          "title": "Mike Tomlin is a Super Bowl-winning coach. His real passion might have been 'Minecraft.' – NBC News",
-          "url": "https://www.nbcnews.com/sports/nfl/mike-tomlin-nfl-coach-minecraft-passion-rcna600771"
+          "title": "Viral video shows massive elk smash car window with brute force in Colorado | OutKick",
+          "url": "https://www.foxnews.com/outkick-culture/viral-video-shows-massive-elk-smash-car-window-brute-force-colorado"
         },
         {
-          "title": "Former Steelers HC Mike Tomlin reveals massive Minecraft city – ESPN",
-          "url": "https://www.espn.com/nfl/story/_/id/50073098/former-steelers-coach-mike-tomlin-minecraft-city-12-year-reveal"
-        },
-        {
-          "title": "The Internet Is Losing Its Mind Over Retired NFL Coach Mike Tomlin Spending 12 Years Making A Very Intricate Minecraft City – Best in Gaming",
-          "url": "https://bestingaming.org/the-internet-is-losing-its-mind-over-retired-nfl-coach-mike-tomlin-spending-12-years-making-a-very-intricate-minecraft-city/"
+          "title": "WATCH – Viral video shows a bull elk shattering a car window in Colorado",
+          "url": "https://kygo.com/watch-viral-video-shows-a-bull-elk-shattering-a-car-window-in-colorado/"
         }
       ],
-      "collectedBy": "web-research",
-      "collectedAt": "2026-10-12T00:00:00Z"
+      "pulse": {
+        "score": 5.4,
+        "reach": 6,
+        "dominance": 5,
+        "memeability": 5,
+        "category": "animals",
+        "crossover": false
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-12T02:17:39.128Z"
     }
   ]
 }
