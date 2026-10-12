@@ -13,13 +13,12 @@
       "memeability": 8,
       "platform": "x",
       "headlineIds": [4, 34, 28],
-      "sourceUrl": "https://x.com/MediumSizeMeech/status/2108985330485616935",
-      "imageUrl": "https://pbs.twimg.com/media/HUQGC7VXIAAI7oy.jpg?name=medium",
+      "sourceUrl": "https://x.com/Okori13Okorie/status/2109212596939235353",
       "crop": {
-        "x": 0.1,
-        "y": 0.15,
-        "w": 0.8,
-        "h": 0.6
+        "x": 0.05,
+        "y": 0.17,
+        "w": 0.9,
+        "h": 0.62
       }
     }
   ]
