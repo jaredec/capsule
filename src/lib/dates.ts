@@ -88,14 +88,12 @@ export function formatShortDate(iso: string, relativeTo?: string): string {
   return relativeTo && parseIsoDate(relativeTo).year !== year ? `${short}, ${year}` : short;
 }
 
-/** Leading nulls pad the first week so day 1 lands on its weekday column. */
-export function monthGrid(year: number, month: number): (string | null)[] {
-  const cells: (string | null)[] = Array(weekdayOf(year, month, 1)).fill(null);
-  for (let day = 1; day <= daysInMonth(year, month); day++) {
-    cells.push(toIsoDate(year, month, day));
-  }
-  while (cells.length % 7 !== 0) cells.push(null);
-  return cells;
+/** Whole weeks covering the month: the first week starts with the previous month's last days, the last week ends with the next month's first days. */
+export function monthGrid(year: number, month: number): string[] {
+  const first = toIsoDate(year, month, 1);
+  const lead = weekdayOf(year, month, 1);
+  const total = Math.ceil((lead + daysInMonth(year, month)) / 7) * 7;
+  return Array.from({ length: total }, (_, i) => addDays(first, i - lead));
 }
 
 const pacificFormatter = new Intl.DateTimeFormat("en-CA", {

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { MONTH_NAMES, WEEKDAYS_SHORT, formatLongDate, monthGrid, parseIsoDate } from "@/lib/dates";
+import { MONTH_NAMES, WEEKDAYS_SHORT, formatLongDate, monthGrid, monthKey, parseIsoDate } from "@/lib/dates";
 import { usePlatformFilter, useToday } from "@/lib/hooks";
 import { PLATFORM_META } from "@/lib/platforms";
 import { PLATFORMS, type Item, type Platform } from "@/lib/schema";
@@ -14,6 +14,8 @@ type Props = {
   year: number;
   month: number;
   itemsByDate: Record<string, Item[]>;
+  /** The archive's first day; earlier days are left blank rather than shown as missing. */
+  firstDate: string | null;
   prevHref: string | null;
   nextHref: string | null;
 };
@@ -28,12 +30,13 @@ function dayState(date: string, hasVisible: boolean, hasAny: boolean, today: str
   return date > today ? "future" : "missing";
 }
 
-export function Calendar({ year, month, itemsByDate, prevHref, nextHref }: Props) {
+export function Calendar({ year, month, itemsByDate, firstDate, prevHref, nextHref }: Props) {
   const today = useToday();
   const [platform, setPlatform] = usePlatformFilter();
   const [selected, setSelected] = useState<string | null>(null);
 
   const cells = useMemo(() => monthGrid(year, month), [year, month]);
+  const monthPrefix = `${monthKey({ year, month })}-`;
 
   const visible = useMemo(() => {
     const out: Record<string, Item[]> = {};
@@ -43,6 +46,9 @@ export function Calendar({ year, month, itemsByDate, prevHref, nextHref }: Props
     }
     return out;
   }, [itemsByDate, platform]);
+
+  const shown = (date: string) =>
+    Boolean(visible[date]) || (date.startsWith(monthPrefix) && (!firstDate || date >= firstDate));
 
   const counts = useMemo(() => {
     const c = Object.fromEntries(PLATFORMS.map((p) => [p, 0])) as Record<Platform, number>;
@@ -81,8 +87,8 @@ export function Calendar({ year, month, itemsByDate, prevHref, nextHref }: Props
           ))}
         </div>
         <div className="grid grid-cols-7 gap-2">
-          {cells.map((date, i) =>
-            date ? (
+          {cells.map((date) =>
+            shown(date) ? (
               <DayCell
                 key={date}
                 date={date}
@@ -92,7 +98,7 @@ export function Calendar({ year, month, itemsByDate, prevHref, nextHref }: Props
                 onOpen={() => setSelected(date)}
               />
             ) : (
-              <div key={`pad-${i}`} aria-hidden />
+              <div key={date} aria-hidden />
             ),
           )}
         </div>
@@ -101,7 +107,7 @@ export function Calendar({ year, month, itemsByDate, prevHref, nextHref }: Props
       {/* Mobile: agenda list */}
       <ol className="mt-6 space-y-2 md:hidden">
         {cells
-          .filter((d): d is string => d !== null)
+          .filter((d) => d.startsWith(monthPrefix) && shown(d))
           .map((date) => {
             const items = visible[date] ?? [];
             const state = dayState(date, items.length > 0, Boolean(itemsByDate[date]), today);

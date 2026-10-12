@@ -9,7 +9,7 @@ npm install
 npm run dev        # http://localhost:3000
 ```
 
-Days run midnight to midnight US Pacific time. The home page shows the latest archived month, with each day's pick shown as an image filling its cell, cropped to the part that matters; the author and title appear on hover. Every day features exactly one pick. Click a day to see its headline and X post, or go to `/day/YYYY-MM-DD`. When the post went up before the day it blew up, a footnote says so ("Originally posted Oct 8, peaked Oct 10."). Month pages live at `/YYYY/MM`, and `?platform=x` filters any calendar view.
+Days run midnight to midnight US Pacific time. The home page shows the latest archived month, with each day's pick shown as an image filling its cell, cropped to the part that matters; the author and title appear on hover. The grid's first and last weeks are filled out with the neighboring months' days when those are archived. Every day features exactly one pick. Click a day to see its headline and X post, or go to `/day/YYYY-MM-DD`. When the post went up before the day it blew up, a footnote says so ("Originally posted Oct 8, peaked Oct 10."). Month pages live at `/YYYY/MM`, and `?platform=x` filters any calendar view.
 
 ## Layout
 

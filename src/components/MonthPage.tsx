@@ -1,5 +1,5 @@
 import { addMonths, compareYearMonth, monthPath, type YearMonth } from "@/lib/dates";
-import { getArchivedMonths, getMonthItems } from "@/lib/data";
+import { getAllDates, getArchivedMonths, getMonthItems } from "@/lib/data";
 import { Calendar } from "./Calendar";
 
 export function MonthPage({ year, month }: YearMonth) {
@@ -14,6 +14,7 @@ export function MonthPage({ year, month }: YearMonth) {
       year={year}
       month={month}
       itemsByDate={getMonthItems({ year, month })}
+      firstDate={getAllDates()[0] ?? null}
       prevHref={first && compareYearMonth(prev, first) >= 0 ? monthPath(prev) : null}
       nextHref={last && compareYearMonth(next, last) <= 0 ? monthPath(next) : null}
     />
