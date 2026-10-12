@@ -50,6 +50,10 @@ export const itemSchema = z.object({
   metrics: z.record(z.string(), z.union([z.string(), z.number()]).transform(String)).optional(),
   references: z.array(referenceSchema).default([]),
   pulse: pulseSchema.optional(),
+  /** Self-hosted still under /public, so it can't expire or break when a platform rotates CDN URLs. */
+  image: z
+    .object({ src: z.string().startsWith("/media/"), width: z.number(), height: z.number(), from: z.url() })
+    .optional(),
   collectedBy: z.string().min(1),
   collectedAt: z.string().min(1),
 });

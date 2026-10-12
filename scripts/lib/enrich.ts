@@ -1,9 +1,17 @@
-import { addDays } from "../../src/lib/dates";
+import { addDays, archiveDateOf } from "../../src/lib/dates";
 import type { Platform, Reference } from "../../src/lib/schema";
 import { fetchText } from "./http";
 import { resolveGoogleNewsUrl, type Headline } from "./sources/googleNews";
 
-export type XPost = { url: string; handle: string; likes: number; replies: number; createdAt: string };
+export type XPost = {
+  url: string;
+  handle: string;
+  likes: number;
+  replies: number;
+  createdAt: string;
+  /** First photo, or the poster frame of a video. */
+  mediaUrl: string | null;
+};
 
 export type Enrichment = {
   references: Reference[];
@@ -35,6 +43,9 @@ export async function lookupXPost(id: string): Promise<XPost | null> {
       conversation_count?: number;
       created_at?: string;
       user?: { screen_name?: string };
+      mediaDetails?: { media_url_https?: string }[];
+      photos?: { url?: string }[];
+      video?: { poster?: string };
     };
     if (t.__typename === "TweetTombstone" || !t.user?.screen_name || !t.created_at) return null;
     return {
@@ -43,6 +54,7 @@ export async function lookupXPost(id: string): Promise<XPost | null> {
       likes: t.favorite_count ?? 0,
       replies: t.conversation_count ?? 0,
       createdAt: t.created_at,
+      mediaUrl: t.photos?.[0]?.url ?? t.video?.poster ?? t.mediaDetails?.[0]?.media_url_https ?? null,
     };
   } catch {
     return null;
@@ -78,7 +90,7 @@ export async function enrichStory(date: string, headlines: Headline[], maxArticl
   for (const id of [...statusIds.keys()].slice(0, 15)) {
     const post = await lookupXPost(id);
     if (!post) continue;
-    const day = post.createdAt.slice(0, 10);
+    const day = archiveDateOf(post.createdAt);
     if (day >= windowStart && day <= windowEnd) xPosts.push(post);
   }
   xPosts.sort((a, b) => b.likes - a.likes);

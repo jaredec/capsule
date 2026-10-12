@@ -1,5 +1,6 @@
 import { itemSchema, type Item } from "../../src/lib/schema";
 import { choosePost, enrichStory, lookupXPost } from "./enrich";
+import { attachImage } from "./media";
 import type { ScoredStory } from "./pick";
 import type { Signals } from "./signals";
 
@@ -57,7 +58,7 @@ export async function buildItems(
       collectedBy,
       collectedAt: new Date().toISOString(),
     });
-    if (parsed.success) items.push(parsed.data);
+    if (parsed.success) items.push(await attachImage(signals.date, parsed.data, log));
     else log(`    skipped: ${parsed.error.message}`);
   }
   return items;
