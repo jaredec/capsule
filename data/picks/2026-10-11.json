@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-11",
+  "stories": [
+    {
+      "title": "Kelly Clarkson's \"Pretty Woman\" feud with a Brooklyn toy shop",
+      "summary": "Kelly Clarkson told her 8.8 million X followers that the Brooklyn shop Art of Play treated her like Julia Roberts in Pretty Woman, saying a clerk assumed she couldn't afford something. The store replied that she had asked to buy \"Molly,\" a one-of-a-kind singing bird automaton bolted to the wall and not for sale, and Clarkson fired back, \"So you're not only rude, you're also a liar.\" The back-and-forth split the internet between the star and the small business.",
+      "kind": "moment",
+      "tags": ["celebrity", "shopping", "feud"],
+      "category": "celebrity",
+      "crossover": false,
+      "reach": 8,
+      "dominance": 7,
+      "memeability": 6,
+      "platform": "x",
+      "headlineIds": [115, 348]
+    },
+    {
+      "title": "Kim Kardashian finally gives Martin Brundle his grid-walk interview",
+      "summary": "Months after Kim Kardashian walked away from Sky Sports' Martin Brundle at the Monaco Grand Prix, she was waiting for him on the Singapore grid and opened with, \"Did I not know the rules? Did we get off on the wrong foot?\" The rematch of a widely memed snub circulated well beyond F1 fans as a Kardashian moment.",
+      "kind": "video",
+      "tags": ["kardashian", "f1", "celebrity"],
+      "category": "celebrity",
+      "crossover": false,
+      "reach": 5,
+      "dominance": 4,
+      "memeability": 3,
+      "platform": "x",
+      "headlineIds": [5]
+    }
+  ]
+}

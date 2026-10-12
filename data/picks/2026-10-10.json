@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-10",
+  "stories": [
+    {
+      "title": "Tom Welling's \"Hello, NYCC\" skyline photo shows more than the view",
+      "summary": "The Smallville star posted a New York hotel-window view to his Instagram Story ahead of Comic Con, not noticing his nude reflection in the glass; it stayed up about 10 hours and screenshots spread with millions of views. Fans made \"POV: you're a tourist and see Tom Welling at his hotel window\" Reels, and co-star Michael Rosenbaum posted a parody window selfie holding a \"PERVERTS\" sign. Welling reposted it and commented \"Came for the sights.\"",
+      "kind": "image",
+      "tags": ["celebrity", "tv", "comic-con"],
+      "category": "celebrity",
+      "crossover": false,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 8,
+      "platform": "x",
+      "headlineIds": [4, 34, 28]
+    },
+    {
+      "title": "\"Calm down, Yacob\": Khloe Kardashian reads a teacher's DMs on TV",
+      "summary": "On The Kardashians season premiere, Khloe recalled leaving a flirty \"How was your day?\" comment on a high school teacher's Instagram, then read his unanswered DMs aloud and told him, \"Calm down, Yacob... please, get a J.\" Viewers called it a mean roast, and the teacher answered with a deadpan classroom TikTok saying he gets roasted by high schoolers every day.",
+      "kind": "phrase",
+      "tags": ["kardashians", "reality-tv", "tiktok"],
+      "category": "tv-film",
+      "crossover": false,
+      "reach": 6,
+      "dominance": 5,
+      "memeability": 6,
+      "platform": "tiktok",
+      "headlineIds": [96]
+    },
+    {
+      "title": "Shopper spots \"Nazi salutes\" in a Barbie box's cheering crowd",
+      "summary": "A mom filmed a gymnastics Barbie from Mattel's \"You Can Do Anything\" line at CVS and zoomed in on the illustrated crowd, arguing that the spectators' raised arms looked like Nazi salutes; she captioned it with a \"heil-y disappointed\" pun. Commenters split between calls to boycott Mattel and people pointing out that many of the figures were cheering with both arms up, and Mattel did not respond.",
+      "kind": "video",
+      "tags": ["barbie", "mattel", "tiktok"],
+      "category": "brands",
+      "crossover": false,
+      "reach": 6,
+      "dominance": 5,
+      "memeability": 5,
+      "platform": "tiktok",
+      "headlineIds": [290, 293, 133]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-09",
+  "stories": [
+    {
+      "title": "Druski's \"That's So Zion\" skit roasts grown-up Disney child stars",
+      "summary": "Druski posted a sketch as Zion, the unhinged adult star of a fake Disney Channel sitcom called \"That's So Zion,\" captioned \"Kid Stars growup & be so Unpredictable.\" Viewers decided he had played Raven-Symone, Orlando Brown and JoJo Siwa all at once, and Raven-Symone herself weighed in. Replies quoted its lines and called it a speedrun of every child-star meltdown phase.",
+      "kind": "video",
+      "tags": ["comedy", "celebrity", "disney"],
+      "category": "pop-culture",
+      "crossover": false,
+      "reach": 6,
+      "dominance": 7,
+      "memeability": 8,
+      "platform": "instagram",
+      "headlineIds": [113]
+    },
+    {
+      "title": "\"Embarrassing\": tunnel heckler gets under Dak Prescott's skin",
+      "summary": "After the Cowboys lost at home to the previously winless Buccaneers, a car-service driver in the AT&T Stadium tunnel said \"Embarrassing\" as Dak Prescott walked past, and Prescott shot back and had him removed. Clips from several angles spread overnight, and Prescott's postgame line that the man was \"not wrong\" but shouldn't look away kept it going. Fans piled on with Dak memes, and the one-word heckle stuck as the verdict on Dallas's start.",
+      "kind": "video",
+      "tags": ["nfl", "cowboys", "heckler"],
+      "category": "sports",
+      "crossover": true,
+      "reach": 7,
+      "dominance": 7,
+      "memeability": 6,
+      "platform": "x",
+      "headlineIds": [173, 168, 52, 17]
+    },
+    {
+      "title": "Ohio blogger found guilty over a lewd Shrek meme",
+      "summary": "A jury in Willoughby, Ohio, took about 30 minutes to convict political blogger D.J. Byrnes, \"The Rooster,\" of telecommunications harassment for texting a state senator an explicit Shrek image; he was fined $200. The prosecutor projecting the naked Shrek onto the courtroom wall and the free-speech debate made the verdict an absurd headline that spread well beyond Ohio.",
+      "kind": "image",
+      "tags": ["shrek", "court", "free-speech"],
+      "category": "internet-culture",
+      "crossover": false,
+      "reach": 5,
+      "dominance": 5,
+      "memeability": 5,
+      "platform": "x",
+      "headlineIds": [51, 56, 48, 46, 50]
+    }
+  ]
+}
