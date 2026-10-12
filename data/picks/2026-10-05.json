@@ -14,11 +14,12 @@
       "platform": "x",
       "headlineIds": [78, 258, 248, 257],
       "sourceUrl": "https://x.com/PopCrave/status/2107274961832509496",
+      "frameAt": 12.5,
       "crop": {
-        "x": 0.1,
-        "y": 0.05,
-        "w": 0.8,
-        "h": 0.75
+        "x": 0.12,
+        "y": 0.22,
+        "w": 0.76,
+        "h": 0.55
       }
     }
   ]

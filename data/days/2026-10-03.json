@@ -37,11 +37,11 @@
         "src": "/media/2026-10-03/2026-10-03-x-lindsay-lohan-recreates-it-s-october-3rd-for-mea.webp",
         "width": 720,
         "height": 405,
-        "from": "https://pbs.twimg.com/amplify_video_thumb/2106370510779236352/img/DVyOIw-r-of8v-fg.jpg",
+        "from": "https://video.twimg.com/amplify_video/2106370510779236352/vid/avc1/1280x720/dfRAW_ipAkeU3nGv.mp4#t=3.3",
         "crop": {
           "x": 0.42,
           "y": 0,
-          "w": 0.45,
+          "w": 0.42,
           "h": 1
         }
       },
@@ -91,12 +91,12 @@
         "src": "/media/2026-10-03/2026-10-03-x-uncle-bron-babysits-tyrese-maxey-s-baby-at-sixer.webp",
         "width": 720,
         "height": 900,
-        "from": "https://pbs.twimg.com/amplify_video_thumb/2106755841625825280/img/Uwql4RExA3r2uvaI.jpg",
+        "from": "https://video.twimg.com/amplify_video/2106755841625825280/vid/avc1/720x900/FCmJpCVfCFzyRn9B.mp4#t=1.3",
         "crop": {
-          "x": 0.22,
-          "y": 0.3,
-          "w": 0.5,
-          "h": 0.42
+          "x": 0.2,
+          "y": 0.22,
+          "w": 0.6,
+          "h": 0.6
         }
       },
       "post": {

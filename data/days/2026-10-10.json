@@ -62,68 +62,6 @@
       },
       "collectedBy": "editor",
       "collectedAt": "2026-10-12T02:41:37.791Z"
-    },
-    {
-      "id": "2026-10-10-x-shopper-spots-nazi-salutes-in-a-barbie-box-s-che",
-      "platform": "x",
-      "rank": 2,
-      "title": "Shopper spots \"Nazi salutes\" in a Barbie box's cheering crowd",
-      "summary": "A mom filmed a gymnastics Barbie from Mattel's \"You Can Do Anything\" line at CVS and zoomed in on the illustrated crowd, arguing that the spectators' raised arms looked like Nazi salutes; she captioned it with a \"heil-y disappointed\" pun. Commenters split between calls to boycott Mattel and people pointing out that many of the figures were cheering with both arms up, and Mattel did not respond.",
-      "kind": "video",
-      "tags": [
-        "barbie",
-        "mattel",
-        "tiktok"
-      ],
-      "author": "@Tr00peRR",
-      "sourceUrl": "https://x.com/Tr00peRR/status/2108957298915971176",
-      "metrics": {
-        "likes": "50",
-        "replies": "4"
-      },
-      "references": [
-        {
-          "title": "Why Barbie box art has TikTok calling for a Mattel boycott",
-          "url": "https://rollingout.com/2026/10/10/why-barbie-box-art-tiktok-mattel-boycott/"
-        },
-        {
-          "title": "‘100% boycotting Mattel’: Shoppers outraged after spotting ‘Nazi symbolism’ in CVS Barbie package",
-          "url": "https://www.themirror.com/news/us-news/100-boycotting-mattel-shoppers-outraged-2064348.amp"
-        },
-        {
-          "title": "'She Better Win.. Coach Will Be Heil-y Disappointed': TikToker Spots 'Nazi Salutes' On Barbie Packaging At US Store",
-          "url": "https://www.thedailyjagran.com/world/news/tiktoker-spots-nazi-salutes-on-barbie-packaging-at-us-store-10332289"
-        }
-      ],
-      "pulse": {
-        "score": 5.4,
-        "reach": 6,
-        "dominance": 5,
-        "memeability": 5,
-        "category": "brands",
-        "crossover": false
-      },
-      "image": {
-        "src": "/media/2026-10-10/2026-10-10-x-shopper-spots-nazi-salutes-in-a-barbie-box-s-che.webp",
-        "width": 576,
-        "height": 1024,
-        "from": "https://pbs.twimg.com/amplify_video_thumb/2108957274949734400/img/ZG_thVF2wAfd70HA.jpg",
-        "crop": {
-          "x": 0.12,
-          "y": 0.06,
-          "w": 0.76,
-          "h": 0.55
-        }
-      },
-      "post": {
-        "name": "The Daily Sneed™",
-        "handle": "@Tr00peRR",
-        "verified": false,
-        "avatar": "/media/avatars/tr00perr.webp",
-        "text": "‘A shopper was shocked and appalled after allegedly spotting “Nazi symbolism” in a Barbie doll package at CVS.’\n\n- NY Post"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:41:40.105Z"
     }
   ]
 }

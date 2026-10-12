@@ -2,66 +2,54 @@
   "date": "2026-10-04",
   "items": [
     {
-      "id": "2026-10-04-x-gillian-anderson-tells-superfans-to-stop-sitting",
+      "id": "2026-10-04-x-softhearted-gunner-an-ai-kitten-can-t-shoot-the-",
       "platform": "x",
       "rank": 1,
-      "title": "Gillian Anderson tells superfans to stop sitting in the front row",
-      "summary": "A TikTok filmed at the stage door of her West End run of Who's Afraid of Virginia Woolf? caught Gillian Anderson telling a group of fans \"You can't come 20 times and sit in the front row, it'll drive me mad.\" The clip passed 4 million views and set off a debate over theater etiquette and whether she was rude, until she posted that the women were friends of 20 years and asked people to leave them alone.",
+      "title": "\"Softhearted Gunner\": an AI kitten can't shoot the zombie cat it loves",
+      "summary": "An AI-generated clip shows a teary orange kitten aiming a pistol at a zombified white cat, unable to pull the trigger, letting it lunge, then cutting to the two cuddling in a sunlit meadow. A Turkish X post captioned \"Ağlıyorum\" (\"I'm crying\") passed 2.4 million views within days and reached Korean and Turkish forums inside 48 hours, and remakes with other characters followed under the name \"Softhearted Gunner.\"",
       "kind": "video",
       "tags": [
-        "celebrity",
-        "theater",
-        "fans"
+        "ai",
+        "cats",
+        "zombies",
+        "reaction"
       ],
-      "author": "@GillianA",
-      "sourceUrl": "https://x.com/GillianA/status/2106730676510691699",
+      "author": "@netmutsuz",
+      "sourceUrl": "https://x.com/netmutsuz/status/2106887598140707014",
       "metrics": {
-        "likes": "24.4K",
-        "replies": "212"
+        "likes": "49.3K",
+        "replies": "463"
       },
-      "references": [
-        {
-          "title": "Gillian Anderson Clarifies Viral Video of Her Calling Fans 'Distracting': 'I Go Back Over 20 Years' With Them",
-          "url": "https://www.thewrap.com/culture-lifestyle/culture/gillian-anderson-clarifies-fan-distracting-go-back/"
-        },
-        {
-          "title": "Gillian Anderson Responds to Backlash Over Telling Superfans to Stop Sitting in Front Row",
-          "url": "https://www.hollywoodreporter.com/news/general-news/gillian-anderson-virginia-woolf-fans-front-row-video-1236722252/"
-        },
-        {
-          "title": "Gillian Anderson responds to backlash after telling ‘distracting’ fans to stop sitting in front row",
-          "url": "https://www.theguardian.com/culture/2026/oct/05/fans-backlash-west-end-gillian-anderson"
-        }
-      ],
+      "references": [],
       "pulse": {
-        "score": 6.9,
-        "reach": 7,
-        "dominance": 8,
-        "memeability": 5,
-        "category": "celebrity",
-        "crossover": false
+        "score": 6.2,
+        "reach": 6,
+        "dominance": 5,
+        "memeability": 8,
+        "category": "internet-culture",
+        "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-04/2026-10-04-x-gillian-anderson-tells-superfans-to-stop-sitting.webp",
+        "src": "/media/2026-10-04/2026-10-04-x-softhearted-gunner-an-ai-kitten-can-t-shoot-the-.webp",
         "width": 720,
-        "height": 405,
-        "from": "https://www.hollywoodreporter.com/wp-content/uploads/2026/10/GettyImages-2297419677-e1791209899364.jpg?w=1440&h=810&crop=1",
+        "height": 408,
+        "from": "https://video.twimg.com/amplify_video/2106887574501347329/vid/avc1/848x480/Z4g0TMw15cq4gkJa.mp4#t=0.6",
         "crop": {
-          "x": 0.25,
+          "x": 0.17,
           "y": 0,
           "w": 0.42,
           "h": 1
         }
       },
       "post": {
-        "name": "Gillian Anderson",
-        "handle": "@GillianA",
-        "verified": true,
-        "avatar": "/media/avatars/gilliana.webp",
-        "text": "Hi everyone, just to say -"
+        "name": "Miraç",
+        "handle": "@netmutsuz",
+        "verified": false,
+        "avatar": "/media/avatars/netmutsuz.webp",
+        "text": "Ağlıyorum"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:17:46.629Z"
+      "collectedAt": "2026-10-12T03:11:58.105Z"
     }
   ]
 }

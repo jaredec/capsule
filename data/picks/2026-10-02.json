@@ -13,29 +13,11 @@
       "memeability": 7,
       "platform": "x",
       "headlineIds": [83, 97, 104],
+      "frameAt": 35.6,
       "crop": {
-        "x": 0.33,
+        "x": 0.31,
         "y": 0,
-        "w": 0.52,
-        "h": 1
-      }
-    },
-    {
-      "title": "Eminem fans revolt over his feature on Kid Rock's Christian album",
-      "summary": "Kid Rock posted the tracklist for his Christian album Halfway to Jesus, revealing Eminem on a song called \"7 Sins\" and framing it as proof friends can differ politically. Fans who remembered Eminem's 2017 line-in-the-sand against Trump supporters called the collab spineless, questioned whether it was real until his camp confirmed it, and posted about deleting his songs.",
-      "kind": "moment",
-      "tags": ["eminem", "kid-rock", "rap"],
-      "category": "music",
-      "crossover": false,
-      "reach": 7,
-      "dominance": 6,
-      "memeability": 4,
-      "platform": "x",
-      "headlineIds": [318],
-      "crop": {
-        "x": 0,
-        "y": 0,
-        "w": 0.78,
+        "w": 0.48,
         "h": 1
       }
     }

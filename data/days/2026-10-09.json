@@ -35,14 +35,14 @@
       },
       "image": {
         "src": "/media/2026-10-09/2026-10-09-x-druski-s-that-s-so-zion-skit-roasts-grown-up-dis.webp",
-        "width": 675,
-        "height": 1200,
-        "from": "https://pbs.twimg.com/amplify_video_thumb/2108331387124109312/img/W6poSfPX_gjGN_lZ.jpg",
+        "width": 720,
+        "height": 1280,
+        "from": "https://video.twimg.com/amplify_video/2108331387124109312/vid/avc1/720x1280/sENV-_rN577_jeJt.mp4#t=67.2",
         "crop": {
-          "x": 0.3,
-          "y": 0.18,
-          "w": 0.65,
-          "h": 0.5
+          "x": 0,
+          "y": 0.12,
+          "w": 1,
+          "h": 0.58
         }
       },
       "post": {
@@ -54,68 +54,6 @@
       },
       "collectedBy": "editor",
       "collectedAt": "2026-10-12T02:41:33.892Z"
-    },
-    {
-      "id": "2026-10-09-x-embarrassing-tunnel-heckler-gets-under-dak-presc",
-      "platform": "x",
-      "rank": 2,
-      "title": "\"Embarrassing\": tunnel heckler gets under Dak Prescott's skin",
-      "summary": "After the Cowboys lost at home to the previously winless Buccaneers, a car-service driver in the AT&T Stadium tunnel said \"Embarrassing\" as Dak Prescott walked past, and Prescott shot back and had him removed. Clips from several angles spread overnight, and Prescott's postgame line that the man was \"not wrong\" but shouldn't look away kept it going. Fans piled on with Dak memes, and the one-word heckle stuck as the verdict on Dallas's start.",
-      "kind": "video",
-      "tags": [
-        "nfl",
-        "cowboys",
-        "heckler"
-      ],
-      "author": "@SamGannon87",
-      "sourceUrl": "https://x.com/SamGannon87/status/2108397722348716044",
-      "metrics": {
-        "likes": "25.1K",
-        "replies": "960"
-      },
-      "references": [
-        {
-          "title": "Cowboys' Dak Prescott Addresses Viral Video of Person Yelling 'Embarrassing' After Loss to Bucs",
-          "url": "https://bleacherreport.com/articles/25508420-cowboys-dak-prescott-addresses-viral-video-person-yelling-embarrassing-after-loss-bucs"
-        },
-        {
-          "title": "What did Dak Prescott say after Cowboys employee called loss embarrassing? Viral video explained",
-          "url": "https://en.as.com/nfl/what-did-dak-prescott-say-after-cowboys-employee-called-loss-embarrassing-viral-video-explained-f202610-n/?outputType"
-        },
-        {
-          "title": "Dallas Cowboys fans leave ruthless comments for TE's wife after terrible game, Dak memes & Jerry's mad",
-          "url": "https://www.foxnews.com/outkick-sports/dallas-cowboys-fans-leave-ruthless-comments-te-wife-terrible-game-dak-memes-jerry-mad"
-        }
-      ],
-      "pulse": {
-        "score": 6.1,
-        "reach": 7,
-        "dominance": 7,
-        "memeability": 6,
-        "category": "sports",
-        "crossover": true
-      },
-      "image": {
-        "src": "/media/2026-10-09/2026-10-09-x-embarrassing-tunnel-heckler-gets-under-dak-presc.webp",
-        "width": 675,
-        "height": 1200,
-        "from": "https://pbs.twimg.com/amplify_video_thumb/2108397545403637760/img/4sqIx8wQaqkk7cjo.jpg",
-        "crop": {
-          "x": 0,
-          "y": 0.2,
-          "w": 0.75,
-          "h": 0.58
-        }
-      },
-      "post": {
-        "name": "Sam Gannon",
-        "handle": "@SamGannon87",
-        "verified": true,
-        "avatar": "/media/avatars/samgannon87.webp",
-        "text": "An employee inside AT&T Stadium said “embarrassing,” after that Cowboys loss. \n\nDak looking back to see who it was. \n\n#dallascowboys #cowboysnation"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:41:36.198Z"
     }
   ]
 }

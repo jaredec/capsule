@@ -43,14 +43,14 @@
       },
       "image": {
         "src": "/media/2026-10-08/2026-10-08-x-susan-dell-s-frozen-oval-office-face-sets-off-ma.webp",
-        "width": 675,
-        "height": 1200,
-        "from": "https://pbs.twimg.com/amplify_video_thumb/2107922499816321024/img/W52ehZVb2WQDgU78.jpg",
+        "width": 720,
+        "height": 1280,
+        "from": "https://video.twimg.com/amplify_video/2107922499816321024/vid/avc1/720x1280/gL8AgEyGGZ1Fve0V.mp4#t=26.2",
         "crop": {
-          "x": 0.15,
-          "y": 0.08,
-          "w": 0.75,
-          "h": 0.55
+          "x": 0.1,
+          "y": 0.04,
+          "w": 0.8,
+          "h": 0.6
         }
       },
       "post": {

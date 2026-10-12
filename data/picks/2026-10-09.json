@@ -14,29 +14,11 @@
       "platform": "x",
       "headlineIds": [113],
       "sourceUrl": "https://x.com/druski/status/2108331576836981125",
-      "crop": {
-        "x": 0.3,
-        "y": 0.18,
-        "w": 0.65,
-        "h": 0.5
-      }
-    },
-    {
-      "title": "\"Embarrassing\": tunnel heckler gets under Dak Prescott's skin",
-      "summary": "After the Cowboys lost at home to the previously winless Buccaneers, a car-service driver in the AT&T Stadium tunnel said \"Embarrassing\" as Dak Prescott walked past, and Prescott shot back and had him removed. Clips from several angles spread overnight, and Prescott's postgame line that the man was \"not wrong\" but shouldn't look away kept it going. Fans piled on with Dak memes, and the one-word heckle stuck as the verdict on Dallas's start.",
-      "kind": "video",
-      "tags": ["nfl", "cowboys", "heckler"],
-      "category": "sports",
-      "crossover": true,
-      "reach": 7,
-      "dominance": 7,
-      "memeability": 6,
-      "platform": "x",
-      "headlineIds": [173, 168, 52, 17],
+      "frameAt": 67.2,
       "crop": {
         "x": 0,
-        "y": 0.2,
-        "w": 0.75,
+        "y": 0.12,
+        "w": 1,
         "h": 0.58
       }
     }

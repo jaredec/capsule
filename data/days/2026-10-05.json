@@ -44,14 +44,14 @@
       },
       "image": {
         "src": "/media/2026-10-05/2026-10-05-x-nicole-kidman-lip-syncs-nicole-kidman-at-chanel-.webp",
-        "width": 675,
-        "height": 1200,
-        "from": "https://pbs.twimg.com/amplify_video_thumb/2107274931218313216/img/yL7okAFzbp0mk4XY.jpg",
+        "width": 720,
+        "height": 1280,
+        "from": "https://video.twimg.com/amplify_video/2107274931218313216/vid/avc1/720x1280/HF-pPJwcdjfJGhum.mp4#t=12.5",
         "crop": {
-          "x": 0.1,
-          "y": 0.05,
-          "w": 0.8,
-          "h": 0.75
+          "x": 0.12,
+          "y": 0.22,
+          "w": 0.76,
+          "h": 0.55
         }
       },
       "post": {

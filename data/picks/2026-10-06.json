@@ -33,8 +33,9 @@
       "platform": "x",
       "headlineIds": [56, 66, 247],
       "sourceUrl": "https://x.com/guysocke/status/2107628261761282497",
+      "frameAt": 13.6,
       "crop": {
-        "x": 0.06,
+        "x": 0.16,
         "y": 0,
         "w": 0.43,
         "h": 1

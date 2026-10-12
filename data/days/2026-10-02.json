@@ -44,12 +44,12 @@
       "image": {
         "src": "/media/2026-10-02/2026-10-02-x-jonathan-bailey-s-breathy-dracula-audiobook-clip.webp",
         "width": 720,
-        "height": 496,
-        "from": "https://s.yimg.com/lo/mysterio/api/70a32ac2ee073221ae3a3ee5c04183bda8bd83461185d417eed5a78c2ac24176/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbuzzfeed_articles_778%2Fcb90b4872de06293df568d7057a5baf7.jpg",
+        "height": 465,
+        "from": "https://video.twimg.com/amplify_video/2105694331818450944/vid/avc1/1114x720/iNVSSeby07s_pG8I.mp4#t=35.6",
         "crop": {
-          "x": 0.33,
+          "x": 0.31,
           "y": 0,
-          "w": 0.52,
+          "w": 0.48,
           "h": 1
         }
       },
@@ -62,60 +62,6 @@
       },
       "collectedBy": "editor",
       "collectedAt": "2026-10-12T02:17:42.176Z"
-    },
-    {
-      "id": "2026-10-02-x-eminem-fans-revolt-over-his-feature-on-kid-rock-",
-      "platform": "x",
-      "rank": 2,
-      "title": "Eminem fans revolt over his feature on Kid Rock's Christian album",
-      "summary": "Kid Rock posted the tracklist for his Christian album Halfway to Jesus, revealing Eminem on a song called \"7 Sins\" and framing it as proof friends can differ politically. Fans who remembered Eminem's 2017 line-in-the-sand against Trump supporters called the collab spineless, questioned whether it was real until his camp confirmed it, and posted about deleting his songs.",
-      "kind": "moment",
-      "tags": [
-        "eminem",
-        "kid-rock",
-        "rap"
-      ],
-      "author": "@KidRock",
-      "sourceUrl": "https://x.com/KidRock/status/2105744239392891140",
-      "metrics": {
-        "likes": "6.7K",
-        "replies": "466"
-      },
-      "references": [
-        {
-          "title": "Eminem Fans Drag Veteran Rapper Over New Collaboration with Kid Rock",
-          "url": "https://www.wideopencountry.com/eminem-fans-drag-veteran-rapper-over-new-collaboration-with-kid-rock/"
-        }
-      ],
-      "pulse": {
-        "score": 5.9,
-        "reach": 7,
-        "dominance": 6,
-        "memeability": 4,
-        "category": "music",
-        "crossover": false
-      },
-      "image": {
-        "src": "/media/2026-10-02/2026-10-02-x-eminem-fans-revolt-over-his-feature-on-kid-rock-.webp",
-        "width": 720,
-        "height": 720,
-        "from": "https://pbs.twimg.com/media/HTkbD-0XQAA78ar.jpg?name=medium",
-        "crop": {
-          "x": 0,
-          "y": 0,
-          "w": 0.78,
-          "h": 1
-        }
-      },
-      "post": {
-        "name": "KidRock",
-        "handle": "@KidRock",
-        "verified": true,
-        "avatar": "/media/avatars/kidrock.webp",
-        "text": "The album cover and track list for Kid Rocks soon to be released album \"HALFWAY 2 JESUS\" is here!\n\n“JAMES 1:17\" (Jesus Is King) is available everywhere NOW! The official video premieres TONIGHT!\n\nVideo - youtu.be/JdXdQsP2_9M?si…\n\nAll info and more available @"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:17:43.859Z"
     }
   ]
 }
