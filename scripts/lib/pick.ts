@@ -87,6 +87,7 @@ Editorial rules:
 - Sports, tech/AI, business, and politics are normally NOT the pulse. Only set crossover=true when the moment became an instant meme shared by people who don't follow that world (e.g. a clip non-fans reposted for the joke, not for the game).
 - Politics almost never qualifies: political clips get boosted by partisan accounts and outlets without reaching normal people. This covers politicians, their families, and anyone who is only in the news because of a political event (an Oval Office guest, a rally moment). Only a mega-viral meme that everyone saw and remixed regardless of their politics counts, on the scale of the Marco Rubio couch meme; then set category=politics, crossover=true and reach 9 or 10. An awkward rally moment, a gaffe or a guest's odd appearance does not qualify.
 - Skip tragedies, crime, and local human-interest stories unless they became a genuine nationwide meme.
+- Skip recycled engagement bait that resurfaces every few months (then-vs-now comparisons, "remember this", nostalgia screenshots). A day's pick should be tied to that day: something that happened, was posted, or newly took off then.
 - The story must have peaked on the target date (a US Pacific-time day). Headlines from the following day often recap the target day; use peakDay to say when it actually peaked.
 - Merge headlines about the same thing into one story and list all their ids in headlineIds (most informative first). Only cite ids from the list.
 - Do not repeat stories already picked on recent days.
