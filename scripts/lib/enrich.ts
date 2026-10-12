@@ -20,6 +20,8 @@ export type XPost = {
   lang: string | null;
   /** First photo, or the poster frame of a video (the quoted post's when the post has none). */
   mediaUrl: string | null;
+  /** Every attached photo, in order. */
+  photos: string[];
   /** The video as an MP4, for picking a still that shows the moment rather than its first frame. */
   videoUrl: string | null;
   /** Whether the post attached its own photo or video (rather than only quoting one). */
@@ -41,7 +43,7 @@ type SyndicatedMedia = {
   video?: { poster?: string; variants?: { type?: string; src?: string }[] };
 };
 
-function media(t: SyndicatedMedia): Pick<XPost, "mediaUrl" | "videoUrl"> {
+function media(t: SyndicatedMedia): Pick<XPost, "mediaUrl" | "photos" | "videoUrl"> {
   // Variant URLs carry their size (".../vid/avc1/720x1280/..."); the smallest whose short side
   // reaches 720px is plenty for a 720px still and avoids downloading 4K files.
   const mp4s = (t.video?.variants ?? [])
@@ -53,6 +55,7 @@ function media(t: SyndicatedMedia): Pick<XPost, "mediaUrl" | "videoUrl"> {
     .sort((a, b) => a.short - b.short);
   return {
     mediaUrl: t.photos?.[0]?.url ?? t.video?.poster ?? t.mediaDetails?.[0]?.media_url_https ?? null,
+    photos: (t.photos ?? []).flatMap((p) => (p.url ? [p.url] : [])),
     videoUrl: (mp4s.find((v) => v.short >= 720) ?? mp4s.at(-1))?.src ?? null,
   };
 }

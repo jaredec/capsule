@@ -206,9 +206,34 @@ async function representativeFrame(videoUrl: string, item: Item, at?: number): P
 
 type Still = { from: string; bytes: Buffer | null };
 
+const PHOTO_GAP = 4;
+
+/** Two photos at the same height with a thin white gap, the way X lays out a two-photo post. */
+async function sideBySide(urls: string[]): Promise<Buffer | null> {
+  const files = await Promise.all(urls.map((u) => download(u.includes("pbs.twimg.com/media") ? `${u}?name=medium` : u)));
+  if (files.some((f) => !f)) return null;
+  try {
+    const height = Math.min(...(await Promise.all(files.map(async (f) => (await sharp(f!).metadata()).height ?? 0))));
+    if (!height) return null;
+    const photos = await Promise.all(
+      files.map((f) => sharp(f!).rotate().resize({ height }).png().toBuffer({ resolveWithObject: true })),
+    );
+    const width = photos.reduce((sum, p) => sum + p.info.width, PHOTO_GAP);
+    return await sharp({ create: { width, height, channels: 3, background: "#ffffff" } })
+      .composite([
+        { input: photos[0].data, left: 0, top: 0 },
+        { input: photos[1].data, left: photos[0].info.width + PHOTO_GAP, top: 0 },
+      ])
+      .png()
+      .toBuffer();
+  } catch {
+    return null;
+  }
+}
+
 /**
- * Stills to try, best first: the editor's image, a representative video frame, an image of the post
- * itself when it's text-only, then preview images.
+ * Stills to try, best first: the editor's image, a representative video frame, a two-photo post's
+ * photos side by side, an image of the post itself when it's text-only, then preview images.
  */
 async function* stills(
   item: Item,
@@ -221,6 +246,9 @@ async function* stills(
   if (post?.videoUrl) {
     const frame = await representativeFrame(post.videoUrl, item, frameAt);
     if (frame) yield { from: `${post.videoUrl}#t=${frame.at}`, bytes: frame.bytes };
+  }
+  if (post?.photos.length === 2) {
+    yield { from: `${post.url}#photos`, bytes: await sideBySide(post.photos) };
   }
   if (post && !post.mediaUrl && !post.videoUrl && post.text) {
     yield { from: post.url, bytes: await renderPostCard(post, avatarFile).catch(() => null) };
