@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import type { Item } from "@/lib/schema";
+import type { EmbedTarget } from "@/lib/embeds";
 
 declare global {
   interface Window {
@@ -35,70 +35,45 @@ function XPostEmbed({ url }: { url: string }) {
   }, [url]);
   return (
     <div ref={ref} className="min-h-24 [&_.twitter-tweet]:mx-auto!">
-      <blockquote className="twitter-tweet" data-theme="dark" data-dnt="true">
+      <blockquote className="twitter-tweet" data-theme="light" data-dnt="true">
         <a href={url.replace("https://x.com/", "https://twitter.com/")}>View post on X</a>
       </blockquote>
     </div>
   );
 }
 
-function youtubeId(url: string): string | null {
-  const match = url.match(/(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([\w-]{11})/);
-  return match?.[1] ?? null;
-}
-
-function tiktokId(url: string): string | null {
-  return url.match(/tiktok\.com\/@[^/]+\/video\/(\d+)/)?.[1] ?? null;
-}
-
-const X_STATUS_URL = /^https:\/\/(?:x|twitter)\.com\/\w+\/status\/\d+/;
-
-/** Renders the original post inline when we have a URL the platform lets us embed. */
-export function Embed({ item }: { item: Item }) {
-  const url = item.sourceUrl;
-  if (!url) return null;
-
-  if (item.platform === "x" && X_STATUS_URL.test(url)) {
-    return <XPostEmbed url={url} />;
+export function Embed({ target, title }: { target: EmbedTarget; title: string }) {
+  switch (target.kind) {
+    case "x":
+      return <XPostEmbed url={target.url} />;
+    case "youtube":
+      return (
+        <iframe
+          className="aspect-video w-full rounded-2xl"
+          src={`https://www.youtube-nocookie.com/embed/${target.id}`}
+          title={title}
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      );
+    case "tiktok":
+      return (
+        <iframe
+          className="mx-auto h-[740px] w-full max-w-[340px] rounded-2xl"
+          src={`https://www.tiktok.com/embed/v2/${target.id}`}
+          title={title}
+          allow="encrypted-media"
+          allowFullScreen
+        />
+      );
+    case "instagram":
+      return (
+        <iframe
+          className="mx-auto h-[640px] w-full max-w-[400px] rounded-2xl border border-zinc-200 bg-white"
+          src={`https://www.instagram.com/p/${target.id}/embed`}
+          title={title}
+          allowFullScreen
+        />
+      );
   }
-
-  const yt = item.platform === "youtube" ? youtubeId(url) : null;
-  if (yt) {
-    return (
-      <iframe
-        className="aspect-video w-full rounded-xl border border-white/10"
-        src={`https://www.youtube-nocookie.com/embed/${yt}`}
-        title={item.title}
-        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      />
-    );
-  }
-
-  const tt = item.platform === "tiktok" ? tiktokId(url) : null;
-  if (tt) {
-    return (
-      <iframe
-        className="mx-auto h-[740px] w-full max-w-[340px] rounded-xl border border-white/10"
-        src={`https://www.tiktok.com/embed/v2/${tt}`}
-        title={item.title}
-        allow="encrypted-media"
-        allowFullScreen
-      />
-    );
-  }
-
-  const ig = item.platform === "instagram" ? url.match(/instagram\.com\/(?:p|reel)\/([\w-]+)/)?.[1] : null;
-  if (ig) {
-    return (
-      <iframe
-        className="mx-auto h-[640px] w-full max-w-[400px] rounded-xl border border-white/10 bg-white"
-        src={`https://www.instagram.com/p/${ig}/embed`}
-        title={item.title}
-        allowFullScreen
-      />
-    );
-  }
-
-  return null;
 }

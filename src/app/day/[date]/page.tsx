@@ -37,28 +37,27 @@ export default async function DayRoute({ params }: PageProps<"/day/[date]">) {
 
   return (
     <div className="mx-auto max-w-2xl">
-      <Link href={monthPath({ year, month })} className="text-sm text-zinc-500 hover:text-zinc-200">
-        ← Back to calendar
+      <Link href={monthPath({ year, month })} className="text-sm text-zinc-500 hover:text-zinc-900">
+        ← Calendar
       </Link>
-      <p className="mt-8 text-xs uppercase tracking-[0.2em] text-zinc-500">What happened</p>
-      <h1 className="font-display text-4xl text-zinc-50 md:text-5xl">{formatLongDate(date)}</h1>
+      <h1 className="mt-6 font-display text-4xl text-zinc-900 md:text-5xl">{formatLongDate(date)}</h1>
 
-      <div className="mt-10 space-y-14">
+      <div className="mt-8 space-y-14">
         {day.items.map((item) => (
           <ItemDetail key={item.id} item={item} />
         ))}
       </div>
 
-      <nav className="mt-16 flex justify-between border-t border-white/10 pt-6 text-sm">
+      <nav className="mt-16 flex justify-between border-t border-zinc-200 pt-6 text-sm">
         {archived.has(prev) ? (
-          <Link href={`/day/${prev}`} className="text-zinc-400 hover:text-white">
+          <Link href={`/day/${prev}`} className="text-zinc-500 hover:text-zinc-900">
             ← {formatLongDate(prev)}
           </Link>
         ) : (
           <span />
         )}
         {archived.has(next) && (
-          <Link href={`/day/${next}`} className="text-zinc-400 hover:text-white">
+          <Link href={`/day/${next}`} className="text-zinc-500 hover:text-zinc-900">
             {formatLongDate(next)} →
           </Link>
         )}

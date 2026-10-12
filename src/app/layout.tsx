@@ -36,16 +36,15 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="flex min-h-full flex-col">
         <header className="mx-auto flex w-full max-w-7xl items-center justify-between px-5 py-6 md:px-8">
           <Link href="/" className="flex items-center gap-2.5">
-            <span className="grid size-8 place-items-center rounded-full bg-amber-300 text-sm font-bold text-zinc-900">
+            <span className="grid size-8 place-items-center rounded-full bg-zinc-900 text-sm font-bold text-amber-300">
               c
             </span>
-            <span className="text-lg font-semibold tracking-tight text-zinc-100">capsule</span>
+            <span className="text-lg font-semibold tracking-tight text-zinc-900">capsule</span>
           </Link>
-          <p className="hidden text-sm text-zinc-500 sm:block">What the internet was laughing at, every day.</p>
         </header>
-        <main className="mx-auto w-full max-w-7xl flex-1 px-5 pb-20 pt-6 md:px-8">{children}</main>
-        <footer className="mx-auto w-full max-w-7xl px-5 py-8 text-xs text-zinc-600 md:px-8">
-          Content belongs to its original creators. Capsule links to and embeds original posts.
+        <main className="mx-auto w-full max-w-7xl flex-1 px-5 pb-20 pt-2 md:px-8">{children}</main>
+        <footer className="mx-auto w-full max-w-7xl px-5 py-8 text-xs text-zinc-400 md:px-8">
+          Days run midnight to midnight Pacific. Content belongs to its original creators.
         </footer>
       </body>
     </html>

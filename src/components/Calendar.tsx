@@ -1,12 +1,13 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { MONTH_NAMES, WEEKDAYS_SHORT, formatLongDate, monthGrid, parseIsoDate } from "@/lib/dates";
 import { usePlatformFilter, useToday } from "@/lib/hooks";
 import { PLATFORM_META } from "@/lib/platforms";
 import { PLATFORMS, type Item, type Platform } from "@/lib/schema";
-import { ItemDetail, PlatformBadge } from "./ItemDetail";
+import { ItemDetail } from "./ItemDetail";
 
 type Props = {
   year: number;
@@ -25,14 +26,6 @@ function dayState(date: string, hasVisible: boolean, hasAny: boolean, today: str
   if (date === today) return "today";
   return date > today ? "future" : "missing";
 }
-
-const EMPTY_LABEL: Record<Exclude<DayState, "archived">, string> = {
-  filtered: "No pick on this platform",
-  today: "Collecting…",
-  future: "",
-  missing: "Not archived yet",
-  unknown: "",
-};
 
 export function Calendar({ year, month, itemsByDate, prevHref, nextHref }: Props) {
   const today = useToday();
@@ -58,19 +51,12 @@ export function Calendar({ year, month, itemsByDate, prevHref, nextHref }: Props
     return c;
   }, [itemsByDate]);
 
-  const archivedDays = Object.keys(visible).length;
-
   return (
     <>
-      <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-        <div>
-          <p className="text-sm uppercase tracking-[0.3em] text-zinc-500">{year}</p>
-          <h1 className="font-display text-6xl leading-none text-zinc-50 md:text-7xl">{MONTH_NAMES[month - 1]}</h1>
-          <p className="mt-3 text-sm text-zinc-500">
-            {archivedDays} {archivedDays === 1 ? "day" : "days"} archived
-            {platform ? ` on ${PLATFORM_META[platform].label}` : ""}
-          </p>
-        </div>
+      <div className="flex items-end justify-between gap-4">
+        <h1 className="font-display text-4xl leading-none whitespace-nowrap text-zinc-900 sm:text-6xl md:text-7xl">
+          {MONTH_NAMES[month - 1]} <span className="text-zinc-300">{year}</span>
+        </h1>
         <nav className="flex gap-2" aria-label="Month navigation">
           <MonthLink href={prevHref} label="Previous month">
             ←
@@ -81,9 +67,9 @@ export function Calendar({ year, month, itemsByDate, prevHref, nextHref }: Props
         </nav>
       </div>
 
-      <div className="mt-8 flex flex-wrap gap-2" role="toolbar" aria-label="Filter by platform">
+      <div className="mt-6 flex flex-wrap gap-2" role="toolbar" aria-label="Filter by platform">
         <FilterChip active={platform === null} onClick={() => setPlatform(null)}>
-          All platforms
+          All
         </FilterChip>
         {PLATFORMS.map((p) => (
           <FilterChip
@@ -94,7 +80,6 @@ export function Calendar({ year, month, itemsByDate, prevHref, nextHref }: Props
           >
             <span className={`size-2 rounded-full ${PLATFORM_META[p].dot}`} />
             {PLATFORM_META[p].label}
-            <span className="tabular-nums text-zinc-500">{counts[p]}</span>
           </FilterChip>
         ))}
       </div>
@@ -103,7 +88,7 @@ export function Calendar({ year, month, itemsByDate, prevHref, nextHref }: Props
       <div className="mt-6 hidden md:block">
         <div className="grid grid-cols-7 gap-2 pb-2">
           {WEEKDAYS_SHORT.map((d) => (
-            <div key={d} className="px-2 text-xs font-medium uppercase tracking-wider text-zinc-600">
+            <div key={d} className="px-1 text-xs font-medium uppercase tracking-wider text-zinc-400">
               {d}
             </div>
           ))}
@@ -120,7 +105,7 @@ export function Calendar({ year, month, itemsByDate, prevHref, nextHref }: Props
                 onOpen={() => setSelected(date)}
               />
             ) : (
-              <div key={`pad-${i}`} aria-hidden className="min-h-36" />
+              <div key={`pad-${i}`} aria-hidden />
             ),
           )}
         </div>
@@ -155,17 +140,16 @@ export function Calendar({ year, month, itemsByDate, prevHref, nextHref }: Props
 }
 
 function MonthLink({ href, label, children }: { href: string | null; label: string; children: React.ReactNode }) {
-  const className =
-    "grid size-11 place-items-center rounded-full border text-lg transition-colors";
+  const className = "grid size-11 place-items-center rounded-full border text-lg transition-colors";
   if (!href) {
     return (
-      <span aria-disabled className={`${className} cursor-not-allowed border-white/5 text-zinc-700`} title={label}>
+      <span aria-disabled className={`${className} cursor-not-allowed border-zinc-200 text-zinc-300`} title={label}>
         {children}
       </span>
     );
   }
   return (
-    <Link href={href} aria-label={label} className={`${className} border-white/15 text-zinc-200 hover:bg-white/10`}>
+    <Link href={href} aria-label={label} className={`${className} border-zinc-300 text-zinc-700 hover:bg-white`}>
       {children}
     </Link>
   );
@@ -189,12 +173,35 @@ function FilterChip({
       aria-pressed={active}
       className={`inline-flex items-center gap-2 rounded-full border px-3.5 py-1.5 text-sm transition-colors ${
         active
-          ? "border-zinc-100 bg-zinc-100 text-zinc-900 [&_.tabular-nums]:text-zinc-500"
-          : `border-white/10 hover:border-white/30 ${muted ? "text-zinc-600" : "text-zinc-300"}`
+          ? "border-zinc-900 bg-zinc-900 text-white"
+          : `border-zinc-200 bg-white hover:border-zinc-400 ${muted ? "text-zinc-400" : "text-zinc-700"}`
       }`}
     >
       {children}
     </button>
+  );
+}
+
+function DayNumber({ day, isToday, onImage }: { day: number; isToday: boolean; onImage?: boolean }) {
+  const tone = isToday
+    ? "bg-zinc-900 font-semibold text-white"
+    : onImage
+      ? "bg-white/90 font-medium text-zinc-900 shadow-sm"
+      : "text-zinc-400";
+  return <span className={`grid size-7 place-items-center rounded-full text-sm tabular-nums ${tone}`}>{day}</span>;
+}
+
+function PlatformDots({ items }: { items: Item[] }) {
+  return (
+    <span className="flex gap-1">
+      {[...new Set(items.map((i) => i.platform))].map((p) => (
+        <span
+          key={p}
+          title={PLATFORM_META[p].label}
+          className={`size-2 rounded-full ring-2 ring-white ${PLATFORM_META[p].dot}`}
+        />
+      ))}
+    </span>
   );
 }
 
@@ -214,59 +221,55 @@ function DayCell({
   const { day } = parseIsoDate(date);
   const top = items[0];
 
-  const dayNumber = (
-    <span
-      className={`grid size-7 place-items-center rounded-full text-sm tabular-nums ${
-        isToday ? "bg-amber-300 font-semibold text-zinc-900" : "text-zinc-400"
-      }`}
-    >
-      {day}
-    </span>
-  );
-
   if (!top) {
     return (
       <div
-        className={`flex min-h-36 flex-col rounded-2xl border p-2.5 ${
-          state === "future"
-            ? "border-white/[0.03] bg-[repeating-linear-gradient(135deg,transparent,transparent_6px,rgba(255,255,255,0.015)_6px,rgba(255,255,255,0.015)_12px)] opacity-60"
-            : "border-white/5 bg-white/[0.015]"
+        className={`flex aspect-[4/5] flex-col rounded-2xl p-2 ${
+          state === "future" ? "border border-dashed border-zinc-200" : "bg-zinc-200/40"
         }`}
       >
-        {dayNumber}
-        {state !== "archived" && EMPTY_LABEL[state] && (
-          <span className="mt-auto text-xs text-zinc-600">{EMPTY_LABEL[state]}</span>
-        )}
+        <DayNumber day={day} isToday={isToday} />
+        {state === "today" && <span className="m-auto size-2 animate-pulse rounded-full bg-amber-500" />}
       </div>
     );
   }
-
-  const platforms = [...new Set(items.map((i) => i.platform))];
 
   return (
     <button
       type="button"
       onClick={onOpen}
-      className="group flex min-h-36 flex-col rounded-2xl border border-white/10 bg-white/[0.04] p-2.5 text-left transition hover:-translate-y-0.5 hover:border-white/25 hover:bg-white/[0.07] focus-visible:outline-2 focus-visible:outline-amber-300"
+      aria-label={`${formatLongDate(date)}: ${top.title}`}
+      className="group relative flex aspect-[4/5] flex-col overflow-hidden rounded-2xl bg-amber-50 p-2 text-left ring-1 ring-black/5 transition hover:-translate-y-0.5 hover:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900"
     >
-      <div className="flex items-center justify-between">
-        {dayNumber}
-        <span className="flex gap-1">
-          {platforms.map((p) => (
-            <span key={p} title={PLATFORM_META[p].label} className={`size-2 rounded-full ${PLATFORM_META[p].dot}`} />
-          ))}
-        </span>
-      </div>
-      <p className="mt-2 line-clamp-3 text-[13px] font-medium leading-snug text-zinc-100">{top.title}</p>
-      <div className="mt-auto flex items-center gap-1.5 pt-2">
-        <PlatformBadge platform={top.platform} />
-        {top.tags.slice(0, 1).map((t) => (
-          <span key={t} className="truncate text-[11px] text-zinc-500">
-            #{t}
+      {top.image ? (
+        <>
+          <Image
+            src={top.image.src}
+            alt=""
+            fill
+            unoptimized
+            className="object-cover transition duration-300 group-hover:scale-105"
+          />
+          <span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-2.5 pt-10 text-[13px] font-medium leading-snug text-white opacity-0 transition group-hover:opacity-100 group-focus-visible:opacity-100">
+            <span className="line-clamp-3">{top.title}</span>
           </span>
-        ))}
-        {items.length > 1 && <span className="ml-auto text-[11px] text-zinc-500">+{items.length - 1}</span>}
-      </div>
+        </>
+      ) : (
+        <span className="absolute inset-x-0 bottom-0 p-2.5 font-display text-lg leading-tight text-zinc-800">
+          <span className="line-clamp-4">{top.title}</span>
+        </span>
+      )}
+      <span className="relative flex items-center justify-between">
+        <DayNumber day={day} isToday={isToday} onImage={Boolean(top.image)} />
+        <span className="flex items-center gap-1.5">
+          {items.length > 1 && (
+            <span className="rounded-full bg-white/90 px-1.5 text-[11px] font-medium text-zinc-700 shadow-sm">
+              +{items.length - 1}
+            </span>
+          )}
+          <PlatformDots items={items} />
+        </span>
+      </span>
     </button>
   );
 }
@@ -285,35 +288,30 @@ function AgendaRow({
   const { day } = parseIsoDate(date);
   const weekday = formatLongDate(date).split(",")[0].slice(0, 3);
   const top = items[0];
-  const inner = (
-    <>
-      <div className="w-10 shrink-0 text-center">
-        <div className="text-[11px] uppercase text-zinc-500">{weekday}</div>
-        <div className={`text-xl tabular-nums ${state === "today" ? "text-amber-300" : "text-zinc-200"}`}>{day}</div>
+  const dateLabel = (
+    <div className="w-9 shrink-0 text-center">
+      <div className="text-[11px] uppercase text-zinc-400">{weekday}</div>
+      <div className={`text-xl tabular-nums ${state === "today" ? "font-semibold text-amber-600" : "text-zinc-900"}`}>
+        {day}
       </div>
-      {top ? (
-        <div className="min-w-0 flex-1">
-          <p className="line-clamp-2 text-sm font-medium text-zinc-100">{top.title}</p>
-          <div className="mt-1.5 flex items-center gap-2">
-            <PlatformBadge platform={top.platform} />
-            {items.length > 1 && <span className="text-xs text-zinc-500">+{items.length - 1} more</span>}
-          </div>
-        </div>
-      ) : (
-        <p className="text-sm text-zinc-600">{state === "archived" ? "" : EMPTY_LABEL[state]}</p>
-      )}
-    </>
+    </div>
   );
+
   if (!top) {
-    return <div className="flex items-center gap-4 rounded-2xl border border-white/5 p-3">{inner}</div>;
+    return <div className="flex items-center gap-3 rounded-2xl p-2 opacity-50">{dateLabel}</div>;
   }
   return (
     <button
       type="button"
       onClick={onOpen}
-      className="flex w-full items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.04] p-3 text-left"
+      className="flex w-full items-center gap-3 rounded-2xl bg-white p-2 text-left ring-1 ring-black/5"
     >
-      {inner}
+      {dateLabel}
+      <div className="relative size-16 shrink-0 overflow-hidden rounded-xl bg-amber-50">
+        {top.image && <Image src={top.image.src} alt="" fill unoptimized className="object-cover" />}
+      </div>
+      <p className="line-clamp-2 min-w-0 flex-1 text-sm font-medium text-zinc-900">{top.title}</p>
+      {items.length > 1 && <span className="text-xs text-zinc-400">+{items.length - 1}</span>}
     </button>
   );
 }
@@ -346,32 +344,26 @@ function DayDrawer({
 
   return (
     <div className="fixed inset-0 z-50 flex justify-end" role="dialog" aria-modal="true" aria-label={formatLongDate(date)}>
-      <button type="button" aria-label="Close" onClick={onClose} className="absolute inset-0 bg-black/70 backdrop-blur-sm" />
-      <div className="relative flex h-full w-full max-w-xl flex-col overflow-y-auto border-l border-white/10 bg-zinc-950 shadow-2xl">
-        <header className="sticky top-0 z-10 flex items-center justify-between gap-4 border-b border-white/10 bg-zinc-950/90 px-6 py-4 backdrop-blur">
-          <div>
-            <p className="text-xs uppercase tracking-[0.2em] text-zinc-500">What happened</p>
-            <h2 className="font-display text-2xl text-zinc-50">{formatLongDate(date)}</h2>
-          </div>
+      <button type="button" aria-label="Close" onClick={onClose} className="absolute inset-0 bg-zinc-900/30 backdrop-blur-sm" />
+      <div className="relative flex h-full w-full max-w-xl flex-col overflow-y-auto bg-white shadow-2xl">
+        <header className="sticky top-0 z-10 flex items-center justify-between gap-4 border-b border-zinc-100 bg-white/90 px-6 py-4 backdrop-blur">
+          <Link href={`/day/${date}`} className="font-display text-2xl text-zinc-900 hover:underline">
+            {formatLongDate(date)}
+          </Link>
           <button
             type="button"
             onClick={onClose}
-            className="grid size-9 shrink-0 place-items-center rounded-full border border-white/15 text-zinc-300 hover:bg-white/10"
+            className="grid size-9 shrink-0 place-items-center rounded-full border border-zinc-200 text-zinc-500 hover:bg-zinc-50"
             aria-label="Close"
           >
             ✕
           </button>
         </header>
-        <div className="flex-1 space-y-10 px-6 py-6">
+        <div className="flex-1 space-y-12 px-6 py-6">
           {ordered.map((item) => (
             <ItemDetail key={item.id} item={item} />
           ))}
         </div>
-        <footer className="border-t border-white/10 px-6 py-4">
-          <Link href={`/day/${date}`} className="text-sm text-zinc-300 underline underline-offset-4 hover:text-white">
-            Open permalink for this day →
-          </Link>
-        </footer>
       </div>
     </div>
   );

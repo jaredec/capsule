@@ -1,3 +1,5 @@
+import Image from "next/image";
+import { embedTarget } from "@/lib/embeds";
 import { PLATFORM_META } from "@/lib/platforms";
 import type { Item } from "@/lib/schema";
 import { Embed } from "./Embed";
@@ -22,23 +24,20 @@ function hostname(url: string): string {
 function PulseMeter({ pulse }: { pulse: NonNullable<Item["pulse"]> }) {
   const parts = [
     { label: "Reach", value: pulse.reach },
-    { label: "Feed takeover", value: pulse.dominance },
-    { label: "Memeability", value: pulse.memeability },
+    { label: "Takeover", value: pulse.dominance },
+    { label: "Meme", value: pulse.memeability },
   ];
   return (
-    <div className="flex flex-wrap items-center gap-x-5 gap-y-2 rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3">
+    <div className="flex items-center gap-5 rounded-2xl bg-zinc-100 px-4 py-3">
       <div className="flex items-baseline gap-1.5">
-        <span className="font-display text-3xl leading-none text-amber-200">{pulse.score.toFixed(1)}</span>
-        <span className="text-xs uppercase tracking-wider text-zinc-500">pulse</span>
+        <span className="font-display text-3xl leading-none text-zinc-900">{pulse.score.toFixed(1)}</span>
+        <span className="text-[11px] uppercase tracking-wider text-zinc-500">pulse</span>
       </div>
       {parts.map((p) => (
-        <div key={p.label} className="min-w-24 flex-1">
-          <div className="flex justify-between text-[11px] text-zinc-500">
-            <span>{p.label}</span>
-            <span className="tabular-nums text-zinc-300">{p.value}</span>
-          </div>
-          <div className="mt-1 h-1 rounded-full bg-white/10">
-            <div className="h-1 rounded-full bg-amber-300/80" style={{ width: `${p.value * 10}%` }} />
+        <div key={p.label} className="min-w-16 flex-1">
+          <div className="text-[11px] text-zinc-500">{p.label}</div>
+          <div className="mt-1 h-1 rounded-full bg-zinc-200">
+            <div className="h-1 rounded-full bg-amber-500" style={{ width: `${p.value * 10}%` }} />
           </div>
         </div>
       ))}
@@ -46,88 +45,67 @@ function PulseMeter({ pulse }: { pulse: NonNullable<Item["pulse"]> }) {
   );
 }
 
-export function ItemDetail({ item, embed = true }: { item: Item; embed?: boolean }) {
-  const metrics = Object.entries(item.metrics ?? {});
+export function ItemDetail({ item }: { item: Item }) {
+  const target = embedTarget(item);
+  const byline = [item.author, ...Object.entries(item.metrics ?? {}).map(([k, v]) => `${v} ${k}`)].filter(Boolean);
+
   return (
     <article className="space-y-4">
-      <div className="flex flex-wrap items-center gap-2">
+      {target ? (
+        <Embed target={target} title={item.title} />
+      ) : (
+        item.image && (
+          <Image
+            src={item.image.src}
+            width={item.image.width}
+            height={item.image.height}
+            alt={item.title}
+            unoptimized
+            className="max-h-[28rem] w-full rounded-2xl bg-zinc-100 object-cover"
+          />
+        )
+      )}
+
+      <div className="flex items-center gap-2">
         <PlatformBadge platform={item.platform} />
         {item.rank === 1 && (
-          <span className="rounded-full border border-amber-300/40 bg-amber-300/10 px-2 py-0.5 text-[11px] font-semibold text-amber-200">
+          <span className="rounded-full bg-amber-100 px-2 py-0.5 text-[11px] font-semibold text-amber-900">
             Pick of the day
           </span>
         )}
-        <span className="text-xs uppercase tracking-wider text-zinc-500">{item.kind}</span>
       </div>
 
-      <h3 className="font-display text-2xl leading-tight text-zinc-50">{item.title}</h3>
-      <p className="leading-relaxed text-zinc-300">{item.summary}</p>
+      <h3 className="font-display text-3xl leading-tight text-zinc-900">{item.title}</h3>
+      <p className="leading-relaxed text-zinc-600">{item.summary}</p>
+
+      {byline.length > 0 && <p className="text-sm text-zinc-500">{byline.join(" · ")}</p>}
 
       {item.pulse && <PulseMeter pulse={item.pulse} />}
 
-      {(item.author || metrics.length > 0) && (
-        <dl className="flex flex-wrap gap-x-6 gap-y-2 text-sm">
-          {item.author && (
-            <div>
-              <dt className="text-zinc-500">Posted by</dt>
-              <dd className="text-zinc-200">{item.author}</dd>
-            </div>
-          )}
-          {metrics.map(([key, value]) => (
-            <div key={key}>
-              <dt className="capitalize text-zinc-500">{key}</dt>
-              <dd className="text-zinc-200">{value}</dd>
-            </div>
-          ))}
-        </dl>
-      )}
-
-      {embed && <Embed item={item} />}
-
-      <div className="flex flex-wrap gap-2">
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm">
         {item.sourceUrl && (
           <a
             href={item.sourceUrl}
             target="_blank"
             rel="noreferrer"
-            className="rounded-lg bg-zinc-100 px-3 py-1.5 text-sm font-medium text-zinc-900 hover:bg-white"
+            className="rounded-full bg-zinc-900 px-3.5 py-1.5 font-medium text-white hover:bg-zinc-700"
           >
-            Open original on {PLATFORM_META[item.platform].label} ↗
+            Open on {PLATFORM_META[item.platform].label} ↗
           </a>
         )}
-        {item.tags.map((tag) => (
-          <span key={tag} className="rounded-lg border border-white/10 px-2.5 py-1.5 text-xs text-zinc-400">
-            #{tag}
-          </span>
+        {item.references.map((ref) => (
+          <a
+            key={ref.url}
+            href={ref.url}
+            target="_blank"
+            rel="noreferrer"
+            title={ref.title}
+            className="text-zinc-500 underline decoration-zinc-300 underline-offset-4 hover:text-zinc-900"
+          >
+            {hostname(ref.url)}
+          </a>
         ))}
       </div>
-
-      {item.references.length > 0 && (
-        <div>
-          <h4 className="mb-2 text-xs font-semibold uppercase tracking-wider text-zinc-500">Coverage</h4>
-          <ul className="space-y-1.5">
-            {item.references.map((ref) => (
-              <li key={ref.url}>
-                <a
-                  href={ref.url}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="group flex items-baseline gap-2 text-sm text-zinc-300 hover:text-zinc-50"
-                >
-                  <span className="underline decoration-zinc-700 underline-offset-4 group-hover:decoration-zinc-300">
-                    {ref.title}
-                  </span>
-                  <span className="shrink-0 text-xs text-zinc-600">{hostname(ref.url)}</span>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      <p className="text-xs text-zinc-600">
-        Collected via {item.collectedBy} · {item.collectedAt.slice(0, 10)}
-      </p>
     </article>
   );
 }

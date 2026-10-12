@@ -9,14 +9,15 @@ npm install
 npm run dev        # http://localhost:3000
 ```
 
-The home page shows the latest archived month. Click a day for details, or go to `/day/YYYY-MM-DD`. Month pages live at `/YYYY/MM`, and `?platform=x` filters any calendar view.
+Days run midnight to midnight US Pacific time. The home page shows the latest archived month as a grid of images, one per day. Click a day for details, or go to `/day/YYYY-MM-DD`. Month pages live at `/YYYY/MM`, and `?platform=x` filters any calendar view.
 
 ## Layout
 
 ```
-data/days/<date>.json      the published picks, one file per UTC day
+data/days/<date>.json      the published picks, one file per Pacific day
 data/signals/<date>.json   raw daily signals the picks were made from
 data/picks/<date>.json     editor picks (input to `npm run curate`)
+public/media/<date>/       self-hosted WebP image for each pick
 scripts/collect.ts         automated pipeline: gather -> pick -> enrich -> write
 scripts/curate.ts          editor override: you pick, the pipeline enriches
 src/                       Next.js app; every page is prerendered from data/days
@@ -39,11 +40,12 @@ Every candidate gets three 1–10 scores:
 
 ## The automated pipeline (cheap by design)
 
-`npm run collect` doesn't pay for X API reads. Steps 1 and 3 below are free; only step 2 costs money.
+`npm run collect` doesn't pay for X API reads. Only step 2 below costs money; the rest is free.
 
 1. **Gather (free).** Google News RSS searches for "went viral", memes, "the internet reacts" and similar, limited to the target day and the day after. Junk like meme-coin prices and evergreen listicles is filtered out. It also pulls the most-read Wikipedia pages and flags *breakouts*: pages that weren't in the top 1000 on the prior three days, a good "normies looked this up" signal. For recent days it adds Google's trending searches. Everything is saved to `data/signals/`. All of these sources take a date, which is what makes backfills cheap.
 2. **Pick (one cheap LLM call).** About 12k tokens of headlines go to a small model, which clusters them into stories and scores them with the rubric. It can only cite headline IDs from the snapshot, so references can't be invented.
 3. **Enrich (free).** Resolves the real article URLs, pulls the X, TikTok and Instagram posts embedded in those articles, and reads likes and replies from X's public embed endpoint. The featured post is the most-liked one from that day.
+4. **Image (free).** Each pick gets a still: the X post's photo or video poster, a TikTok or YouTube thumbnail, or the coverage's og:image (generic logos are skipped). It's resized to a 720px WebP with sharp and saved under `public/media/`, so it can't break when a platform rotates CDN URLs. `npm run images -- 2026-10-05` (or no dates for all days, `--redo` to replace) backfills existing days.
 
 Cost per day is one call of roughly 12k input and 1k output tokens:
 
@@ -56,7 +58,7 @@ Cost per day is one call of roughly 12k input and 1k output tokens:
 cp .env.example .env.local      # add one key
 set -a; . ./.env.local; set +a
 
-npm run collect                                         # the last two complete days (UTC)
+npm run collect                                         # the last two complete days (Pacific)
 npm run collect -- --date 2026-10-05
 npm run collect -- --from 2026-01-01 --to 2026-09-30    # backfill; skips days already done
 npm run collect -- --date 2026-10-05 --gather-only      # signals only, no key needed
@@ -80,7 +82,7 @@ Write `data/picks/<date>.json` with your stories (same fields the model returns,
 
 Add one model key as a repository secret (`GEMINI_API_KEY`, `XAI_API_KEY` or `OPENAI_API_KEY`). You can optionally set `LLM_PROVIDER` and `LLM_MODEL` as repository variables.
 
-- **Collect daily pulse** runs at 06:17 and 18:17 UTC and re-settles the last two complete days, because coverage trails the moment.
+- **Collect daily pulse** runs at 09:17 and 21:17 UTC (just after Pacific midnight, and mid-afternoon PT) and re-settles the last two complete days, because coverage trails the moment.
 - **Backfill pulse** is manual and takes a `from`/`to` range.
 - **CI** validates data, then lints, typechecks and builds.
 
@@ -102,6 +104,7 @@ Add one model key as a repository secret (`GEMINI_API_KEY`, `XAI_API_KEY` or `OP
       "sourceUrl": "https://x.com/handle/status/123",   // embedded on the site
       "metrics": { "likes": "72K", "replies": "377" },
       "references": [{ "title": "Article", "url": "https://..." }],
+      "image": { "src": "/media/2026-10-07/2026-10-07-x-short-slug.webp", "width": 720, "height": 900, "from": "https://pbs.twimg.com/..." },
       "pulse": { "score": 8.4, "reach": 9, "dominance": 8, "memeability": 8, "category": "brands", "crossover": false },
       "collectedBy": "pulse:gemini-3.5-flash-lite",
       "collectedAt": "2026-10-08T06:17:00Z"
