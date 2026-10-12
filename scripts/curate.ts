@@ -7,7 +7,8 @@
  *
  * The file holds { "date": "YYYY-MM-DD", "stories": [...] }, where each story has the
  * same fields the LLM picker returns (see Story in scripts/lib/pick.ts); headlineIds refer
- * to data/signals/<date>.json, which is gathered first if missing.
+ * to data/signals/<date>.json, which is gathered first if missing. An optional "sourceUrl"
+ * pins a specific X post to feature.
  */
 import fs from "node:fs";
 import { isValidIsoDate } from "../src/lib/dates";
@@ -16,7 +17,7 @@ import { scoreStory, type Story } from "./lib/pick";
 import { gatherSignals, readSignals, writeSignals } from "./lib/signals";
 import { writeDay } from "./lib/store";
 
-type PickFile = { date: string; stories: Omit<Story, "peakDay" | "why">[] };
+type PickFile = { date: string; stories: (Omit<Story, "peakDay" | "why"> & { sourceUrl?: string })[] };
 
 async function main() {
   const files = process.argv.slice(2);

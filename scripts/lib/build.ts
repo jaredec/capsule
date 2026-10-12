@@ -1,5 +1,5 @@
 import { itemSchema, type Item } from "../../src/lib/schema";
-import { choosePost, enrichStory } from "./enrich";
+import { choosePost, enrichStory, lookupXPost } from "./enrich";
 import type { ScoredStory } from "./pick";
 import type { Signals } from "./signals";
 
@@ -18,7 +18,7 @@ function slugify(text: string): string {
 /** Turns picked stories into day items, attaching real article links and same-day posts. */
 export async function buildItems(
   signals: Signals,
-  stories: ScoredStory[],
+  stories: (ScoredStory & { sourceUrl?: string })[],
   collectedBy: string,
   log: (msg: string) => void = console.log,
 ): Promise<Item[]> {
@@ -27,7 +27,12 @@ export async function buildItems(
   for (const story of stories) {
     const headlines = story.headlineIds.map((id) => byId.get(id)).filter((h) => h !== undefined);
     const enrichment = await enrichStory(signals.date, headlines);
-    const post = choosePost(story.platform, enrichment);
+    // An editor-pinned X post wins over whatever the coverage embedded, once it's confirmed to exist.
+    const pinnedId = story.sourceUrl?.match(/(?:x|twitter)\.com\/\w+\/status\/(\d+)/)?.[1];
+    const pinned = pinnedId ? await lookupXPost(pinnedId) : null;
+    if (story.sourceUrl && !pinned) log(`    pinned sourceUrl not found: ${story.sourceUrl}`);
+    if (pinned) enrichment.xPosts.unshift(pinned);
+    const post = choosePost(pinned ? "x" : story.platform, enrichment);
     log(
       `  "${story.title}" pulse=${story.pulse.score} refs=${enrichment.references.length} xPosts=${enrichment.xPosts.length}` +
         (post.url ? ` post=${post.url}` : ""),
