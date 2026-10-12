@@ -103,13 +103,17 @@ async function main() {
       console.log(`${date}: ${signals.headlines.length} headlines, ${signals.wikipedia.length} wiki pages`);
       if (gatherOnly || !llm) continue;
 
-      const { stories, usage } = await pickStories(llm, signals, { count, recentTitles: recentTitles(date) });
+      const { stories, reserves, usage } = await pickStories(llm, signals, { count, recentTitles: recentTitles(date) });
       console.log(`  picked ${stories.length} with ${llm.label} usage=${JSON.stringify(usage)}`);
-      const items = await buildItems(signals, stories, `pulse:${llm.model}`);
-      if (items.length === 0) {
-        console.warn(`${date}: no usable items, leaving file untouched`);
-        continue;
+      const collectedBy = `pulse:${llm.model}`;
+      let items = await buildItems(signals, stories, collectedBy);
+      for (const reserve of reserves) {
+        if (items.length > 0) break;
+        console.log(`  no usable picks, trying reserve "${reserve.title}"`);
+        items = await buildItems(signals, [reserve], collectedBy);
       }
+      // Every day must show something; keep whatever the day already had and flag it.
+      if (items.length === 0) throw new Error("no candidate had a usable source");
       if (!dryRun) {
         writeDay({ date, items });
         wrote++;

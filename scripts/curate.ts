@@ -30,6 +30,7 @@ async function main() {
   for (const file of files) {
     const picks = JSON.parse(fs.readFileSync(file, "utf8")) as PickFile;
     if (!isValidIsoDate(picks.date)) throw new Error(`${file}: invalid date`);
+    if (picks.stories.length === 0) throw new Error(`${file}: every day needs at least one story`);
     let signals = readSignals(picks.date);
     if (!signals) {
       signals = await gatherSignals(picks.date);
@@ -50,6 +51,7 @@ async function main() {
       },
     }));
     const items = await buildItems(signals, stories, "editor");
+    if (items.length === 0) throw new Error(`${file}: no story had a usable source, day left as it was`);
     writeDay({ date: picks.date, items });
   }
 }

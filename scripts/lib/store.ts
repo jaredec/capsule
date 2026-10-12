@@ -14,6 +14,7 @@ export function readDay(date: string): DayFile {
 }
 
 export function writeDay(day: DayFile) {
+  if (day.items.length === 0) throw new Error(`${day.date}: refusing to write an empty day`);
   fs.mkdirSync(DAYS_DIR, { recursive: true });
   const items = day.items.map((item, i) => ({ ...item, rank: i + 1 }));
   const file = path.join(DAYS_DIR, `${day.date}.json`);
@@ -22,7 +23,7 @@ export function writeDay(day: DayFile) {
 
 export type MergeDecision = "write" | "skip-curated" | "skip-existing";
 
-/** `hasPicks`: the editor wrote data/picks/<date>.json, which keeps the day curated even if it lists no stories. */
+/** `hasPicks`: the editor wrote data/picks/<date>.json, which makes the day curated. */
 export function decideMerge(day: DayFile, opts: { refresh: boolean; force: boolean; hasPicks: boolean }): MergeDecision {
   if (opts.force) return "write";
   if (opts.hasPicks || day.items.some((i) => !isAutomated(i))) return "skip-curated";
