@@ -8,6 +8,7 @@ import type { Crop, Item } from "../../src/lib/schema";
 import { lookupXPost, type XPost } from "./enrich";
 import { completeJson, resolveLlm } from "./llm";
 import { BROWSER_UA, decodeEntities, fetchText } from "./http";
+import { renderPostCard } from "./postCard";
 
 const MEDIA_DIR = path.join(process.cwd(), "public", "media");
 const MAX_WIDTH = 720;
@@ -205,12 +206,24 @@ async function representativeFrame(videoUrl: string, item: Item, at?: number): P
 
 type Still = { from: string; bytes: Buffer | null };
 
-/** Stills to try, best first: the editor's image, a representative video frame, then preview images. */
-async function* stills(item: Item, post: XPost | null, imageUrl?: string, frameAt?: number): AsyncGenerator<Still> {
+/**
+ * Stills to try, best first: the editor's image, a representative video frame, an image of the post
+ * itself when it's text-only, then preview images.
+ */
+async function* stills(
+  item: Item,
+  post: XPost | null,
+  avatarFile: string | null,
+  imageUrl?: string,
+  frameAt?: number,
+): AsyncGenerator<Still> {
   if (imageUrl) yield { from: imageUrl, bytes: await download(imageUrl) };
   if (post?.videoUrl) {
     const frame = await representativeFrame(post.videoUrl, item, frameAt);
     if (frame) yield { from: `${post.videoUrl}#t=${frame.at}`, bytes: frame.bytes };
+  }
+  if (post && !post.mediaUrl && !post.videoUrl && post.text) {
+    yield { from: post.url, bytes: await renderPostCard(post, avatarFile).catch(() => null) };
   }
   for (const url of await imageCandidates(item, post)) yield { from: url, bytes: await download(url) };
 }
@@ -220,9 +233,9 @@ async function storeImage(
   item: Item,
   post: XPost | null,
   log: (m: string) => void,
-  { imageUrl, frameAt }: { imageUrl?: string; frameAt?: number },
+  { imageUrl, frameAt, avatarFile }: { imageUrl?: string; frameAt?: number; avatarFile: string | null },
 ): Promise<Item["image"]> {
-  for await (const { from, bytes } of stills(item, post, imageUrl, frameAt)) {
+  for await (const { from, bytes } of stills(item, post, avatarFile, imageUrl, frameAt)) {
     if (!bytes) continue;
     try {
       const image = sharp(bytes, { failOn: "none" });
@@ -319,7 +332,8 @@ export async function attachMedia(
   const from = item.image?.from ?? "";
   if (imageUrl ? from !== imageUrl : frameAt !== undefined && !from.endsWith(`#t=${frameAt}`)) redoImage = true;
   if (!item.image || redoImage) {
-    const image = await storeImage(date, item, post, log, { imageUrl, frameAt });
+    const avatarFile = out.post?.avatar ? path.join("public", out.post.avatar) : null;
+    const image = await storeImage(date, item, post, log, { imageUrl, frameAt, avatarFile });
     if (image) out.image = image;
     else delete out.image;
   }

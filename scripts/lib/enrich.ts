@@ -11,6 +11,8 @@ export type XPost = {
   avatarUrl: string | null;
   /** Post text with media links stripped and t.co links shown as their display URL. */
   text: string;
+  /** A long post: the embed endpoint only returns its first 280 characters. */
+  truncated: boolean;
   likes: number;
   replies: number;
   createdAt: string;
@@ -86,6 +88,7 @@ type Syndicated = SyndicatedTweet & SyndicatedMedia & {
   lang?: string;
   user?: { screen_name?: string; name?: string; is_blue_verified?: boolean; verified?: boolean; profile_image_url_https?: string };
   quoted_tweet?: Syndicated;
+  note_tweet?: unknown;
 };
 
 function toXPost(t: Syndicated, id: string): XPost | null {
@@ -99,6 +102,7 @@ function toXPost(t: Syndicated, id: string): XPost | null {
     verified: Boolean(t.user.is_blue_verified || t.user.verified),
     avatarUrl: t.user.profile_image_url_https?.replace("_normal.", "_bigger.") ?? null,
     text: postText(t),
+    truncated: Boolean(t.note_tweet),
     likes: t.favorite_count ?? 0,
     replies: t.conversation_count ?? 0,
     createdAt: t.created_at,
