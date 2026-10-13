@@ -2,55 +2,55 @@
   "date": "2026-09-11",
   "items": [
     {
-      "id": "2026-09-11-x-the-25th-anniversary-of-9-11",
+      "id": "2026-09-11-x-gayle-king-learns-the-clancy-holdout-juror-was-b",
       "platform": "x",
       "rank": 1,
-      "title": "The 25th anniversary of 9/11",
-      "summary": "On the 25th anniversary of the September 11 attacks, a photo of pink roses laid along Frederic K. Han's name at the 9/11 Memorial, captioned \"Went to 9/11 ceremony to see my dad today\", got 133K likes. Another user's photo of the father they lost that day got 287K.",
-      "kind": "image",
+      "title": "Gayle King learns the Clancy holdout juror was Black",
+      "summary": "On CBS Mornings, Lindsay Clancy juror Paula Devlin told Gayle King that the lone holdout who voted to find Clancy guilty of murdering her children was the jury's only person of color, a Black man. King replied, \"Woah. I have to sit with that for just a second.\" Curtis Houck's clip got 67K likes and quotes of it another 160K, and Gayle King and Oprah trended alongside 9/11's 25th anniversary.",
+      "kind": "video",
       "tags": [
-        "9-11",
-        "september-11",
-        "never-forget",
-        "anniversary"
+        "gayle-king",
+        "lindsay-clancy",
+        "juror",
+        "cbs-mornings"
       ],
-      "author": "@JetSetHan",
-      "sourceUrl": "https://x.com/JetSetHan/status/2098522944527847795",
+      "author": "@CurtisHouck",
+      "sourceUrl": "https://x.com/CurtisHouck/status/2098380024369811488",
       "metrics": {
-        "likes": "132.9K",
-        "replies": "594"
+        "likes": "66.6K",
+        "replies": "7K"
       },
       "references": [],
       "pulse": {
         "score": 7.3,
-        "reach": 10,
-        "dominance": 9,
-        "memeability": 4,
+        "reach": 9,
+        "dominance": 8,
+        "memeability": 7,
         "category": "news",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-09-11/2026-09-11-x-the-25th-anniversary-of-9-11.webp",
+        "src": "/media/2026-09-11/2026-09-11-x-gayle-king-learns-the-clancy-holdout-juror-was-b.webp",
         "width": 720,
-        "height": 540,
-        "from": "https://pbs.twimg.com/media/HR9zfgjWQA0CLwq.jpg?name=medium",
+        "height": 405,
+        "from": "https://video.twimg.com/amplify_video/2098379986990141447/vid/avc1/1280x720/Qv_Db1zviX9cgq9u.mp4?tag=16#t=4",
         "crop": {
-          "x": 0.22,
+          "x": 0.36,
           "y": 0,
-          "w": 0.5625,
+          "w": 0.421875,
           "h": 1
         }
       },
       "post": {
-        "name": "JetSetHan 🔜 NYCC",
-        "handle": "@JetSetHan",
+        "name": "Curtis Houck",
+        "handle": "@CurtisHouck",
         "verified": true,
-        "avatar": "/media/avatars/jetsethan.webp",
-        "text": "Went to 9/11 ceremony to see my dad today",
-        "postedAt": "2026-09-11T21:23:53.000Z"
+        "avatar": "/media/avatars/curtishouck.webp",
+        "text": "NEW: Lindsay Clancy juror Paula Devlin reveals on 'CBS Mornings' that the lone, male holdout juror who voted to find Clancy guilty of murdering her children was the *only* person of color -- a black man.\n\nThe 11 not-guilty jurors -- who hectored him for a week to cave -- were all",
+        "postedAt": "2026-09-11T11:55:58.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T04:28:26.784Z"
+      "collectedAt": "2026-10-13T04:42:56.405Z"
     }
   ]
 }

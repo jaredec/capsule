@@ -2,27 +2,28 @@
   "date": "2026-09-11",
   "stories": [
     {
-      "title": "The 25th anniversary of 9/11",
-      "summary": "On the 25th anniversary of the September 11 attacks, a photo of pink roses laid along Frederic K. Han's name at the 9/11 Memorial, captioned \"Went to 9/11 ceremony to see my dad today\", got 133K likes. Another user's photo of the father they lost that day got 287K.",
-      "kind": "image",
+      "title": "Gayle King learns the Clancy holdout juror was Black",
+      "summary": "On CBS Mornings, Lindsay Clancy juror Paula Devlin told Gayle King that the lone holdout who voted to find Clancy guilty of murdering her children was the jury's only person of color, a Black man. King replied, \"Woah. I have to sit with that for just a second.\" Curtis Houck's clip got 67K likes and quotes of it another 160K, and Gayle King and Oprah trended alongside 9/11's 25th anniversary.",
+      "kind": "video",
       "tags": [
-        "9-11",
-        "september-11",
-        "never-forget",
-        "anniversary"
+        "gayle-king",
+        "lindsay-clancy",
+        "juror",
+        "cbs-mornings"
       ],
       "category": "news",
       "crossover": true,
-      "reach": 10,
-      "dominance": 9,
-      "memeability": 4,
+      "reach": 9,
+      "dominance": 8,
+      "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/JetSetHan/status/2098522944527847795",
+      "sourceUrl": "https://x.com/CurtisHouck/status/2098380024369811488",
+      "frameAt": 4,
       "crop": {
-        "x": 0.22,
+        "x": 0.36,
         "y": 0,
-        "w": 0.5625,
+        "w": 0.421875,
         "h": 1
       }
     }
