@@ -2,27 +2,28 @@
   "date": "2026-09-13",
   "stories": [
     {
-      "title": "Scotland, Wales and Northern Ireland plan to break up the UK",
-      "summary": "The Telegraph reported that the leaders of Scotland, Wales and Northern Ireland would meet on Monday to sign a deal designed to kick-start the break-up of the United Kingdom. Its post got 74K likes, Pop Base's version got 188K, and \"didn't expect to check twitter today and see that the uk is disbanding\" got 86K.",
-      "kind": "image",
+      "title": "Steve Sarkisian walks out on Holly Rowe",
+      "summary": "After No. 4 Texas beat No. 1 Ohio State 24-23 with a 21-point comeback, coach Steve Sarkisian walked away from Holly Rowe's postgame interview seconds in, leaving her to walk off alone. A clip of the snub got 29K likes, and Sark, Holly Rowe and #HookEm trended the next day.",
+      "kind": "video",
       "tags": [
-        "united-kingdom",
-        "scotland",
-        "wales",
-        "northern-ireland"
+        "steve-sarkisian",
+        "holly-rowe",
+        "texas",
+        "ohio-state"
       ],
-      "category": "news",
+      "category": "sports",
       "crossover": true,
-      "reach": 9,
+      "reach": 8,
       "dominance": 8,
-      "memeability": 6,
+      "memeability": 8,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/Telegraph/status/2099023264123162643",
+      "sourceUrl": "https://x.com/KendraMiddleton/status/2098974861544534449",
+      "frameAt": 1,
       "crop": {
-        "x": 0.031,
+        "x": 0.27,
         "y": 0,
-        "w": 0.938,
+        "w": 0.421875,
         "h": 1
       }
     }

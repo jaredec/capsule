@@ -2,55 +2,55 @@
   "date": "2026-09-11",
   "items": [
     {
-      "id": "2026-09-11-x-lil-durk-found-not-guilty-and-fans-swarm-his-law",
+      "id": "2026-09-11-x-the-25th-anniversary-of-9-11",
       "platform": "x",
       "rank": 1,
-      "title": "Lil Durk found not guilty, and fans swarm his lawyer",
-      "summary": "Lil Durk was found not guilty on all counts in his murder-for-hire trial. Fans mobbed his lawyer Brian Steel, who also represented Young Thug, as he left the courthouse. The clip got 103K likes, and its top quote post, \"now the safest man in chicago\", got 272K.",
-      "kind": "video",
+      "title": "The 25th anniversary of 9/11",
+      "summary": "On the 25th anniversary of the September 11 attacks, a photo of pink roses laid along Frederic K. Han's name at the 9/11 Memorial, captioned \"Went to 9/11 ceremony to see my dad today\", got 133K likes. Another user's photo of the father they lost that day got 287K.",
+      "kind": "image",
       "tags": [
-        "lil-durk",
-        "brian-steel",
-        "verdict",
-        "rap"
+        "9-11",
+        "september-11",
+        "never-forget",
+        "anniversary"
       ],
-      "author": "@Kurrco",
-      "sourceUrl": "https://x.com/Kurrco/status/2098584600779927815",
+      "author": "@JetSetHan",
+      "sourceUrl": "https://x.com/JetSetHan/status/2098522944527847795",
       "metrics": {
-        "likes": "103.5K",
-        "replies": "903"
+        "likes": "132.9K",
+        "replies": "594"
       },
       "references": [],
       "pulse": {
-        "score": 7.4,
-        "reach": 8,
-        "dominance": 7,
-        "memeability": 7,
-        "category": "music",
+        "score": 7.3,
+        "reach": 10,
+        "dominance": 9,
+        "memeability": 4,
+        "category": "news",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:33:16.256Z",
-      "post": {
-        "name": "Kurrco",
-        "handle": "@Kurrco",
-        "verified": false,
-        "avatar": "/media/avatars/kurrco.webp",
-        "text": "Brian Steel gets swarmed by Lil Durk fans while leaving the courthouse following Durk being found NOT GUILTY on all counts in his murder-for-hire trial",
-        "postedAt": "2026-09-12T01:28:53.000Z"
-      },
       "image": {
-        "src": "/media/2026-09-11/2026-09-11-x-lil-durk-found-not-guilty-and-fans-swarm-his-law.webp",
+        "src": "/media/2026-09-11/2026-09-11-x-the-25th-anniversary-of-9-11.webp",
         "width": 720,
-        "height": 367,
-        "from": "https://video.twimg.com/amplify_video/2098584421704269824/vid/avc1/1412x720/2pBVPmwiN-yJeTY6.mp4#t=8",
+        "height": 540,
+        "from": "https://pbs.twimg.com/media/HR9zfgjWQA0CLwq.jpg?name=medium",
         "crop": {
-          "x": 0.31,
+          "x": 0.22,
           "y": 0,
-          "w": 0.38,
+          "w": 0.5625,
           "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "JetSetHan 🔜 NYCC",
+        "handle": "@JetSetHan",
+        "verified": true,
+        "avatar": "/media/avatars/jetsethan.webp",
+        "text": "Went to 9/11 ceremony to see my dad today",
+        "postedAt": "2026-09-11T21:23:53.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T04:28:26.784Z"
     }
   ]
 }

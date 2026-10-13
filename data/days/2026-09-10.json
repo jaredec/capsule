@@ -2,54 +2,54 @@
   "date": "2026-09-10",
   "items": [
     {
-      "id": "2026-09-10-x-jennifer-lawrence-s-first-instagram-post",
+      "id": "2026-09-10-x-one-year-since-charlie-kirk-s-death",
       "platform": "x",
       "rank": 1,
-      "title": "Jennifer Lawrence's first Instagram post",
-      "summary": "Jennifer Lawrence joined Instagram with a selfie video: \"If anyone says anything negative, I will quit. Immediately. If anyone thinks something mean, I'll know. And I'll quit.\" The clip got 110K likes on X.",
-      "kind": "video",
+      "title": "One year since Charlie Kirk's death",
+      "summary": "On the first anniversary of Charlie Kirk's assassination, his widow, Erika Kirk, posted a black-and-white wedding photo captioned \"...until Heaven.\" It got 176K likes as #kirkiversary trended across X.",
+      "kind": "image",
       "tags": [
-        "jennifer-lawrence",
-        "instagram",
-        "first-post"
+        "charlie-kirk",
+        "erika-kirk",
+        "anniversary"
       ],
-      "author": "@FilmUpdates",
-      "sourceUrl": "https://x.com/FilmUpdates/status/2098051926336176215",
+      "author": "@MrsErikaKirk",
+      "sourceUrl": "https://x.com/MrsErikaKirk/status/2098167265648906304",
       "metrics": {
-        "likes": "109.9K",
-        "replies": "1.8K"
+        "likes": "175.8K",
+        "replies": "9.1K"
       },
       "references": [],
       "pulse": {
-        "score": 6.7,
-        "reach": 7,
-        "dominance": 6,
-        "memeability": 7,
-        "category": "celebrity",
+        "score": 7.4,
+        "reach": 9,
+        "dominance": 9,
+        "memeability": 6,
+        "category": "news",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:33:15.624Z",
-      "post": {
-        "name": "Film Updates",
-        "handle": "@FilmUpdates",
-        "verified": true,
-        "avatar": "/media/avatars/filmupdates.webp",
-        "text": "Jennifer Lawrence shares her first Instagram post:\n\n“If anyone says anything negative, I will quit. Immediately. If anyone thinks something mean, I’ll know. And I’ll quit.”",
-        "postedAt": "2026-09-10T14:12:13.000Z"
-      },
       "image": {
-        "src": "/media/2026-09-10/2026-09-10-x-jennifer-lawrence-s-first-instagram-post.webp",
+        "src": "/media/2026-09-10/2026-09-10-x-one-year-since-charlie-kirk-s-death.webp",
         "width": 720,
-        "height": 1280,
-        "from": "https://video.twimg.com/amplify_video/2098051578225655809/vid/avc1/720x1280/15MDbQjp-WsIwBQ6.mp4#t=1",
+        "height": 900,
+        "from": "https://pbs.twimg.com/media/HR4wAesa4AEZh1f.jpg?name=medium",
         "crop": {
           "x": 0,
           "y": 0,
-          "w": 1,
-          "h": 0.75
+          "w": 0.938,
+          "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "Erika Kirk",
+        "handle": "@MrsErikaKirk",
+        "verified": true,
+        "avatar": "/media/avatars/mrserikakirk.webp",
+        "text": "",
+        "postedAt": "2026-09-10T21:50:32.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T04:28:25.819Z"
     }
   ]
 }

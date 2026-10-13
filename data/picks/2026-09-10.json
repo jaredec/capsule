@@ -2,28 +2,27 @@
   "date": "2026-09-10",
   "stories": [
     {
-      "title": "Jennifer Lawrence's first Instagram post",
-      "summary": "Jennifer Lawrence joined Instagram with a selfie video: \"If anyone says anything negative, I will quit. Immediately. If anyone thinks something mean, I'll know. And I'll quit.\" The clip got 110K likes on X.",
-      "kind": "video",
+      "title": "One year since Charlie Kirk's death",
+      "summary": "On the first anniversary of Charlie Kirk's assassination, his widow, Erika Kirk, posted a black-and-white wedding photo captioned \"...until Heaven.\" It got 176K likes as #kirkiversary trended across X.",
+      "kind": "image",
       "tags": [
-        "jennifer-lawrence",
-        "instagram",
-        "first-post"
+        "charlie-kirk",
+        "erika-kirk",
+        "anniversary"
       ],
-      "category": "celebrity",
+      "category": "news",
       "crossover": true,
-      "reach": 7,
-      "dominance": 6,
-      "memeability": 7,
+      "reach": 9,
+      "dominance": 9,
+      "memeability": 6,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/FilmUpdates/status/2098051926336176215",
-      "frameAt": 1,
+      "sourceUrl": "https://x.com/MrsErikaKirk/status/2098167265648906304",
       "crop": {
         "x": 0,
         "y": 0,
-        "w": 1,
-        "h": 0.75
+        "w": 0.938,
+        "h": 1
       }
     }
   ]

@@ -2,28 +2,27 @@
   "date": "2026-09-11",
   "stories": [
     {
-      "title": "Lil Durk found not guilty, and fans swarm his lawyer",
-      "summary": "Lil Durk was found not guilty on all counts in his murder-for-hire trial. Fans mobbed his lawyer Brian Steel, who also represented Young Thug, as he left the courthouse. The clip got 103K likes, and its top quote post, \"now the safest man in chicago\", got 272K.",
-      "kind": "video",
+      "title": "The 25th anniversary of 9/11",
+      "summary": "On the 25th anniversary of the September 11 attacks, a photo of pink roses laid along Frederic K. Han's name at the 9/11 Memorial, captioned \"Went to 9/11 ceremony to see my dad today\", got 133K likes. Another user's photo of the father they lost that day got 287K.",
+      "kind": "image",
       "tags": [
-        "lil-durk",
-        "brian-steel",
-        "verdict",
-        "rap"
+        "9-11",
+        "september-11",
+        "never-forget",
+        "anniversary"
       ],
-      "category": "music",
+      "category": "news",
       "crossover": true,
-      "reach": 8,
-      "dominance": 7,
-      "memeability": 7,
+      "reach": 10,
+      "dominance": 9,
+      "memeability": 4,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/Kurrco/status/2098584600779927815",
-      "frameAt": 8,
+      "sourceUrl": "https://x.com/JetSetHan/status/2098522944527847795",
       "crop": {
-        "x": 0.31,
+        "x": 0.22,
         "y": 0,
-        "w": 0.38,
+        "w": 0.5625,
         "h": 1
       }
     }

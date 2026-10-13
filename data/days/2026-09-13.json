@@ -2,55 +2,55 @@
   "date": "2026-09-13",
   "items": [
     {
-      "id": "2026-09-13-x-scotland-wales-and-northern-ireland-plan-to-brea",
+      "id": "2026-09-13-x-steve-sarkisian-walks-out-on-holly-rowe",
       "platform": "x",
       "rank": 1,
-      "title": "Scotland, Wales and Northern Ireland plan to break up the UK",
-      "summary": "The Telegraph reported that the leaders of Scotland, Wales and Northern Ireland would meet on Monday to sign a deal designed to kick-start the break-up of the United Kingdom. Its post got 74K likes, Pop Base's version got 188K, and \"didn't expect to check twitter today and see that the uk is disbanding\" got 86K.",
-      "kind": "image",
+      "title": "Steve Sarkisian walks out on Holly Rowe",
+      "summary": "After No. 4 Texas beat No. 1 Ohio State 24-23 with a 21-point comeback, coach Steve Sarkisian walked away from Holly Rowe's postgame interview seconds in, leaving her to walk off alone. A clip of the snub got 29K likes, and Sark, Holly Rowe and #HookEm trended the next day.",
+      "kind": "video",
       "tags": [
-        "united-kingdom",
-        "scotland",
-        "wales",
-        "northern-ireland"
+        "steve-sarkisian",
+        "holly-rowe",
+        "texas",
+        "ohio-state"
       ],
-      "author": "@Telegraph",
-      "sourceUrl": "https://x.com/Telegraph/status/2099023264123162643",
+      "author": "@KendraMiddleton",
+      "sourceUrl": "https://x.com/KendraMiddleton/status/2098974861544534449",
       "metrics": {
-        "likes": "73.6K",
-        "replies": "2.6K"
+        "likes": "28.8K",
+        "replies": "2.8K"
       },
       "references": [],
       "pulse": {
-        "score": 7.1,
-        "reach": 9,
+        "score": 7.2,
+        "reach": 8,
         "dominance": 8,
-        "memeability": 6,
-        "category": "news",
+        "memeability": 8,
+        "category": "sports",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-09-13/2026-09-13-x-scotland-wales-and-northern-ireland-plan-to-brea.webp",
+        "src": "/media/2026-09-13/2026-09-13-x-steve-sarkisian-walks-out-on-holly-rowe.webp",
         "width": 720,
-        "height": 900,
-        "from": "https://pbs.twimg.com/media/HSE6iL7WYA0tqAE.jpg?name=medium",
+        "height": 405,
+        "from": "https://video.twimg.com/amplify_video/2098973946859425792/vid/avc1/1280x720/xJroTZ_m51mnAot4.mp4#t=1",
         "crop": {
-          "x": 0.031,
+          "x": 0.27,
           "y": 0,
-          "w": 0.938,
+          "w": 0.421875,
           "h": 1
         }
       },
       "post": {
-        "name": "The Telegraph",
-        "handle": "@Telegraph",
+        "name": "Kendra Middleton",
+        "handle": "@KendraMiddleton",
         "verified": true,
-        "avatar": "/media/avatars/telegraph.webp",
-        "text": "The leaders of Scotland, Wales and Northern Ireland will gather on Monday to sign a deal designed to kick-start the break-up of the United Kingdom, The Telegraph can disclose.\n\n🔗: telegraph.co.uk/politics/2026/…",
-        "postedAt": "2026-09-13T06:31:58.000Z"
+        "avatar": "/media/avatars/kendramiddleton.webp",
+        "text": "Such a dick move",
+        "postedAt": "2026-09-13T03:19:38.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T04:22:34.125Z"
+      "collectedAt": "2026-10-13T04:28:40.339Z"
     }
   ]
 }
