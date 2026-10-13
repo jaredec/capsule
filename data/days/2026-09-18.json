@@ -6,18 +6,18 @@
       "platform": "x",
       "rank": 1,
       "title": "Trump announces a Greenland deal with Denmark",
-      "summary": "Donald Trump announced an agreement with Denmark and Greenland that he said gives the United States \"permanent control over security, and all other needs, in Greenland.\" His post got 495K likes and 36.8K replies, the White House's \"Historic Deal With Greenland\" graphic got 56K, and Pete Hegseth said the military would begin building a large presence there.",
-      "kind": "image",
+      "summary": "Donald Trump announced an agreement with Denmark and Greenland that he said gives the United States \"permanent control over security, and all other needs, in Greenland.\" His post got 495K likes and 36.8K replies, and Pete Hegseth said the military would begin building a large presence there.",
+      "kind": "moment",
       "tags": [
         "greenland",
         "trump",
         "denmark"
       ],
-      "author": "@WhiteHouse",
-      "sourceUrl": "https://x.com/WhiteHouse/status/2101062116765499575",
+      "author": "@realDonaldTrump",
+      "sourceUrl": "https://x.com/realDonaldTrump/status/2101101979808493780",
       "metrics": {
-        "likes": "56.3K",
-        "replies": "5.8K"
+        "likes": "495.3K",
+        "replies": "36.8K"
       },
       "references": [],
       "pulse": {
@@ -31,25 +31,25 @@
       "image": {
         "src": "/media/2026-09-18/2026-09-18-x-trump-announces-a-greenland-deal-with-denmark.webp",
         "width": 720,
-        "height": 900,
-        "from": "https://pbs.twimg.com/media/HSh4tmMasAEpwp8.jpg?name=medium",
+        "height": 960,
+        "from": "https://x.com/realDonaldTrump/status/2101101979808493780",
         "crop": {
-          "x": 0.031,
+          "x": 0,
           "y": 0,
-          "w": 0.938,
+          "w": 1,
           "h": 1
         }
       },
       "post": {
-        "name": "The White House",
-        "handle": "@WhiteHouse",
+        "name": "Donald J. Trump",
+        "handle": "@realDonaldTrump",
         "verified": true,
-        "avatar": "/media/avatars/whitehouse.webp",
-        "text": "BREAKING: President Donald J. Trump announces complete and permanent American security control over Greenland, and excludes any adversary from Greenland and the surrounding region.",
-        "postedAt": "2026-09-18T21:33:39.000Z"
+        "avatar": "/media/avatars/realdonaldtrump.webp",
+        "text": "BREAKING NEWS: I am pleased to announce that the United States of America has entered into an Agreement with The Kingdom of Denmark, and Greenland, that gives the United States permanent control over security, and all other needs, in Greenland, completely addressing ALL of our",
+        "postedAt": "2026-09-19T00:12:03.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T04:39:22.945Z"
+      "collectedAt": "2026-10-13T04:45:39.420Z"
     }
   ]
 }
