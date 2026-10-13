@@ -2,54 +2,54 @@
   "date": "2026-09-23",
   "items": [
     {
-      "id": "2026-09-23-x-taylor-lautner-and-taylor-lautner-name-their-bab",
+      "id": "2026-09-23-x-dua-lipa-s-lucky-double-yolk",
       "platform": "x",
       "rank": 1,
-      "title": "Taylor Lautner and Taylor Lautner name their baby Lennon Taylor Lautner",
-      "summary": "Taylor Lautner and his wife, also named Taylor Lautner, welcomed their first child, Lennon Taylor Lautner. Pop Base's post got 200K likes, and the top quote post, \"Love that they found a solution where they could keep the joke while also giving the baby a proper name\", got 242K.",
+      "title": "Dua Lipa's \"lucky double yolk\"",
+      "summary": "Dua Lipa posted an Instagram story of a boiled egg with two yolks, captioned \"lucky double yolk????\". A screenshot of it, captioned \"why does she always get to have everything\", got 505K likes, the most-liked post on X that day.",
       "kind": "image",
       "tags": [
-        "taylor-lautner",
-        "baby",
-        "names"
+        "dua-lipa",
+        "double-yolk",
+        "instagram-story"
       ],
-      "author": "@PopBase",
-      "sourceUrl": "https://x.com/PopBase/status/2102841023575760904",
+      "author": "@aboredbitchx",
+      "sourceUrl": "https://x.com/aboredbitchx/status/2102841830316396908",
       "metrics": {
-        "likes": "199.5K",
-        "replies": "556"
+        "likes": "504.9K",
+        "replies": "497"
       },
       "references": [],
       "pulse": {
-        "score": 7.7,
-        "reach": 8,
-        "dominance": 7,
-        "memeability": 8,
+        "score": 8.7,
+        "reach": 9,
+        "dominance": 8,
+        "memeability": 9,
         "category": "celebrity",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:33:21.573Z",
-      "post": {
-        "name": "Pop Base",
-        "handle": "@PopBase",
-        "verified": true,
-        "avatar": "/media/avatars/popbase.webp",
-        "text": "Taylor Lautner & Taylor Lautner have welcomed their first child, Lennon Taylor Lautner.",
-        "postedAt": "2026-09-23T19:22:23.000Z"
-      },
       "image": {
-        "src": "/media/2026-09-23/2026-09-23-x-taylor-lautner-and-taylor-lautner-name-their-bab.webp",
+        "src": "/media/2026-09-23/2026-09-23-x-dua-lipa-s-lucky-double-yolk.webp",
         "width": 720,
-        "height": 1109,
-        "from": "https://pbs.twimg.com/media/HS7KUPgWkAE806Y.jpg",
+        "height": 715,
+        "from": "https://pbs.twimg.com/media/HS7Lf26WMAAYR5c.jpg?name=medium",
         "crop": {
           "x": 0,
-          "y": 0.06,
-          "w": 1,
-          "h": 0.866
+          "y": 0,
+          "w": 0.745,
+          "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "օ ʟօʀ",
+        "handle": "@aboredbitchx",
+        "verified": false,
+        "avatar": "/media/avatars/aboredbitchx.webp",
+        "text": "why does she always get to have everything",
+        "postedAt": "2026-09-23T19:25:35.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T04:09:06.117Z"
     }
   ]
 }

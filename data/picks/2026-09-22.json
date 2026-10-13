@@ -2,28 +2,29 @@
   "date": "2026-09-22",
   "stories": [
     {
-      "title": "Despicable Me: Minion Rush is shutting down",
-      "summary": "ToonHive reported that \"Despicable Me: Minion Rush\" is shutting down after 13 years, and the post got 182K likes. X mourned a game few still played: \"THIS IS THE WORST DAY OF MY LIFE (i haven't played this game in years)\" got 84K likes and \"MINION RUSH SCHOOL WALKOUT\" got 92K.",
+      "title": "Alexandr Wang asks if Meta's Muse mascot \"does anything\" for you",
+      "summary": "Two weeks after Meta launched Muse, its personal AI agent, Meta's Alexandr Wang quoted a user's \"I'd smash ngl\" with a render of Muse's chubby yeti mascot and \"does this do anything for any of you / be honest no judgment zone\". It got 3.8K likes and 516 replies, and the \"thicc Muse mascot\" jokes kept going after Meta unveiled the Muse Charm at Meta Connect the next day.",
       "kind": "image",
       "tags": [
-        "minion-rush",
-        "despicable-me",
-        "mobile-games"
+        "muse",
+        "meta",
+        "alexandr-wang",
+        "mascot",
+        "ai"
       ],
-      "category": "pop-culture",
+      "category": "tech",
       "crossover": true,
-      "reach": 8,
-      "dominance": 7,
+      "reach": 6,
+      "dominance": 5,
       "memeability": 8,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/ToonHive/status/2102509996097630526",
-      "imageUrl": "https://pbs.twimg.com/media/HS2dsh0W4AAGoDu.jpg",
+      "sourceUrl": "https://x.com/alexandr_wang/status/2102424404584214870",
       "crop": {
-        "x": 0,
-        "y": 0,
-        "w": 1,
-        "h": 1
+        "x": 0.2,
+        "y": 0.08,
+        "w": 0.672,
+        "h": 0.8
       }
     }
   ]

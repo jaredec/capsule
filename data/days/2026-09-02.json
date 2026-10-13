@@ -35,10 +35,10 @@
         "height": 900,
         "from": "https://pbs.twimg.com/media/HRPO5CMWkAczGat.jpg",
         "crop": {
-          "x": 0.45,
+          "x": 0.031,
           "y": 0,
-          "w": 0.55,
-          "h": 0.59
+          "w": 0.938,
+          "h": 1
         }
       },
       "post": {

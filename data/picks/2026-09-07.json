@@ -2,29 +2,30 @@
   "date": "2026-09-07",
   "stories": [
     {
-      "title": "First teaser for Glenn Close as Drusilla Sickle in Sunrise on the Reaping",
-      "summary": "The first teaser for Glenn Close as Drusilla Sickle in \"The Hunger Games: Sunrise on the Reaping\" showed her in full Capitol makeup and red gloves, posing to captions like \"That smile\" and \"Elegance\". DiscussingFilm's post got 123K likes.",
+      "title": "Macklemore says \"Free Palestine\" at an Ed Sheeran stadium show",
+      "summary": "Opening for Ed Sheeran's Loop tour, Macklemore told a packed stadium \"Free Palestine\", then repeated \"I said Free Palestine.\" After P!nk reshared a pro-Israel group's post demanding he apologize, he posted the clip with \"Wanting all humans to be treated equal should never be controversial.\" It got 285K likes and 17K replies.",
       "kind": "video",
       "tags": [
-        "glenn-close",
-        "hunger-games",
-        "sunrise-on-the-reaping",
-        "teaser"
+        "macklemore",
+        "ed-sheeran",
+        "loop-tour",
+        "palestine",
+        "pink"
       ],
-      "category": "tv-film",
+      "category": "music",
       "crossover": true,
-      "reach": 7,
-      "dominance": 6,
-      "memeability": 6,
+      "reach": 9,
+      "dominance": 8,
+      "memeability": 5,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/DiscussingFilm/status/2097002269749178550",
-      "frameAt": 22,
+      "sourceUrl": "https://x.com/macklemore/status/2097033800811507990",
+      "frameAt": 30,
       "crop": {
-        "x": 0.33,
-        "y": 0,
-        "w": 0.552,
-        "h": 1
+        "x": 0,
+        "y": 0.25,
+        "w": 1,
+        "h": 0.75
       }
     }
   ]

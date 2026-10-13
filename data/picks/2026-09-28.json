@@ -2,28 +2,28 @@
   "date": "2026-09-28",
   "stories": [
     {
-      "title": "\"You won't tell your therapist. But you'll tell AI?\"",
-      "summary": "A photo of an anti-AI ad on a subway train reading \"You won't tell your therapist. But you'll tell AI? Stop the AI drift.\" got 345K likes.",
-      "kind": "image",
+      "title": "Starship reaches orbit for the first time",
+      "summary": "On Flight 14, SpaceX's Starship performed its orbital insertion burn and entered Earth orbit for the first time, then deployed 26 Starlink V3 satellites, all of which SpaceX made contact with. SpaceX's clip of the burn got 31K likes, and Elon Musk's \"First orbital flight of Starship successful!\" got 79K.",
+      "kind": "video",
       "tags": [
-        "ai",
-        "ads",
-        "subway",
-        "therapy"
+        "spacex",
+        "starship",
+        "starlink",
+        "elon-musk"
       ],
       "category": "tech",
       "crossover": true,
-      "reach": 7,
+      "reach": 8,
       "dominance": 7,
-      "memeability": 7,
+      "memeability": 5,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/allthistimer/status/2104673454234497349",
-      "imageUrl": "https://pbs.twimg.com/media/HTVNWS9WYAATPJ_.jpg",
+      "sourceUrl": "https://x.com/SpaceX/status/2104560708969259344",
+      "frameAt": 19,
       "crop": {
-        "x": 0,
+        "x": 0.2,
         "y": 0,
-        "w": 1,
+        "w": 0.42,
         "h": 1
       }
     }

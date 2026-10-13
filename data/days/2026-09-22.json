@@ -2,54 +2,55 @@
   "date": "2026-09-22",
   "items": [
     {
-      "id": "2026-09-22-x-despicable-me-minion-rush-is-shutting-down",
+      "id": "2026-09-22-x-alexandr-wang-asks-if-meta-s-muse-mascot-does-an",
       "platform": "x",
       "rank": 1,
-      "title": "Despicable Me: Minion Rush is shutting down",
-      "summary": "ToonHive reported that \"Despicable Me: Minion Rush\" is shutting down after 13 years, and the post got 182K likes. X mourned a game few still played: \"THIS IS THE WORST DAY OF MY LIFE (i haven't played this game in years)\" got 84K likes and \"MINION RUSH SCHOOL WALKOUT\" got 92K.",
+      "title": "Alexandr Wang asks if Meta's Muse mascot \"does anything\" for you",
+      "summary": "Two weeks after Meta launched Muse, its personal AI agent, Meta's Alexandr Wang quoted a user's \"I'd smash ngl\" with a render of Muse's chubby yeti mascot and \"does this do anything for any of you / be honest no judgment zone\". It got 3.8K likes and 516 replies, and the \"thicc Muse mascot\" jokes kept going after Meta unveiled the Muse Charm at Meta Connect the next day.",
       "kind": "image",
       "tags": [
-        "minion-rush",
-        "despicable-me",
-        "mobile-games"
+        "muse",
+        "meta",
+        "alexandr-wang",
+        "mascot"
       ],
-      "author": "@ToonHive",
-      "sourceUrl": "https://x.com/ToonHive/status/2102509996097630526",
+      "author": "@alexandr_wang",
+      "sourceUrl": "https://x.com/alexandr_wang/status/2102424404584214870",
       "metrics": {
-        "likes": "182K",
-        "replies": "3.5K"
+        "likes": "3.8K",
+        "replies": "516"
       },
       "references": [],
       "pulse": {
-        "score": 7.7,
-        "reach": 8,
-        "dominance": 7,
+        "score": 5.5,
+        "reach": 6,
+        "dominance": 5,
         "memeability": 8,
-        "category": "pop-culture",
+        "category": "tech",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-09-22/2026-09-22-x-despicable-me-minion-rush-is-shutting-down.webp",
-        "width": 540,
-        "height": 719,
-        "from": "https://pbs.twimg.com/media/HS2dsh0W4AAGoDu.jpg",
+        "src": "/media/2026-09-22/2026-09-22-x-alexandr-wang-asks-if-meta-s-muse-mascot-does-an.webp",
+        "width": 720,
+        "height": 807,
+        "from": "https://pbs.twimg.com/media/HS1P2r2boAAdRPv.jpg?name=medium",
         "crop": {
-          "x": 0,
-          "y": 0,
-          "w": 1,
-          "h": 1
+          "x": 0.2,
+          "y": 0.08,
+          "w": 0.672,
+          "h": 0.8
         }
       },
       "post": {
-        "name": "ToonHive",
-        "handle": "@ToonHive",
+        "name": "Alexandr Wang",
+        "handle": "@alexandr_wang",
         "verified": true,
-        "avatar": "/media/avatars/toonhive.webp",
-        "text": "‘Despicable Me: Minion Rush’ is shutting down after 13 years.",
-        "postedAt": "2026-09-22T21:27:00.000Z"
+        "avatar": "/media/avatars/alexandr_wang.webp",
+        "text": "does this do anything for any of you\n\nbe honest no judgment zone",
+        "postedAt": "2026-09-22T15:46:53.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:52:51.287Z"
+      "collectedAt": "2026-10-13T04:09:05.553Z"
     }
   ]
 }
