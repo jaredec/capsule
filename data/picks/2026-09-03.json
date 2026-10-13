@@ -19,9 +19,9 @@
       "platform": "x",
       "headlineIds": [],
       "sourceUrl": "https://x.com/OpenAI/status/2095595741528125780",
-      "frameAt": 12,
+      "frameAt": 1.2,
       "crop": {
-        "x": 0.29,
+        "x": 0.3,
         "y": 0,
         "w": 0.42,
         "h": 1

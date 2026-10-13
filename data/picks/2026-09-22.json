@@ -2,27 +2,27 @@
   "date": "2026-09-22",
   "stories": [
     {
-      "title": "Taylor Swift announces \"Patient Zero\"",
-      "summary": "Taylor Swift announced a new single, \"Patient Zero\", out Sep 25, with pre-orders open for 24 hours. The post got 320K likes.",
+      "title": "Despicable Me: Minion Rush is shutting down",
+      "summary": "ToonHive reported that \"Despicable Me: Minion Rush\" is shutting down after 13 years, and the post got 182K likes. X mourned a game few still played: \"THIS IS THE WORST DAY OF MY LIFE (i haven't played this game in years)\" got 84K likes and \"MINION RUSH SCHOOL WALKOUT\" got 92K.",
       "kind": "image",
       "tags": [
-        "taylor-swift",
-        "patient-zero",
-        "new-music"
+        "minion-rush",
+        "despicable-me",
+        "mobile-games"
       ],
-      "category": "music",
+      "category": "pop-culture",
       "crossover": true,
       "reach": 8,
-      "dominance": 8,
-      "memeability": 4,
+      "dominance": 7,
+      "memeability": 8,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/taylorswift13/status/2102458574563840035",
-      "imageUrl": "https://pbs.twimg.com/media/HS1u7cHWkAIbc5W.jpg",
+      "sourceUrl": "https://x.com/ToonHive/status/2102509996097630526",
+      "imageUrl": "https://pbs.twimg.com/media/HS2dsh0W4AAGoDu.jpg",
       "crop": {
-        "x": 0.08,
+        "x": 0,
         "y": 0,
-        "w": 0.75,
+        "w": 1,
         "h": 1
       }
     }

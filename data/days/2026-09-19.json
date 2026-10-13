@@ -28,8 +28,18 @@
         "category": "music",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:33:19.626Z",
+      "image": {
+        "src": "/media/2026-09-19/2026-09-19-x-zara-larsson-cancels-her-abu-dhabi-show-over-sud.webp",
+        "width": 602,
+        "height": 793,
+        "from": "https://pbs.twimg.com/media/HSkk9jwX0AAMk8l.jpg",
+        "crop": {
+          "x": 0.006,
+          "y": 0,
+          "w": 0.988,
+          "h": 1
+        }
+      },
       "post": {
         "name": "Pop Base",
         "handle": "@PopBase",
@@ -38,18 +48,8 @@
         "text": "Zara Larsson says she has cancelled her Abu Dhabi show in solidarity with Sudan.",
         "postedAt": "2026-09-19T10:05:36.000Z"
       },
-      "image": {
-        "src": "/media/2026-09-19/2026-09-19-x-zara-larsson-cancels-her-abu-dhabi-show-over-sud.webp",
-        "width": 720,
-        "height": 921,
-        "from": "https://pbs.twimg.com/media/HSkk9j5WwAE9f_x.jpg",
-        "crop": {
-          "x": 0.02,
-          "y": 0,
-          "w": 0.96,
-          "h": 1
-        }
-      }
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:33:19.626Z"
     }
   ]
 }

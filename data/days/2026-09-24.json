@@ -2,23 +2,23 @@
   "date": "2026-09-24",
   "items": [
     {
-      "id": "2026-09-24-x-hannah-einbinder-and-susan-sarandon-detained-at-",
+      "id": "2026-09-24-x-susan-sarandon-and-hannah-einbinder-detained-at-",
       "platform": "x",
       "rank": 1,
-      "title": "Hannah Einbinder and Susan Sarandon detained at a Netanyahu protest",
-      "summary": "Hannah Einbinder and Susan Sarandon were detained by police in New York while protesting Benjamin Netanyahu's speech at the UN General Assembly. Pop Base's post got 157K likes on a day when Netanyahu's speech dominated X.",
+      "title": "Susan Sarandon and Hannah Einbinder detained at a Netanyahu protest",
+      "summary": "Susan Sarandon and Hannah Einbinder were detained by police in New York while protesting Benjamin Netanyahu's speech at the UN General Assembly. A photo of Sarandon surrounded by NYPD officers got 73K likes, and Pop Base's report of the detentions got 157K.",
       "kind": "image",
       "tags": [
-        "hannah-einbinder",
         "susan-sarandon",
+        "hannah-einbinder",
         "netanyahu",
         "un"
       ],
-      "author": "@PopBase",
-      "sourceUrl": "https://x.com/PopBase/status/2103211542116524153",
+      "author": "@WearThePeaceCo",
+      "sourceUrl": "https://x.com/WearThePeaceCo/status/2103302687387459963",
       "metrics": {
-        "likes": "156.7K",
-        "replies": "502"
+        "likes": "72.9K",
+        "replies": "1.5K"
       },
       "references": [],
       "pulse": {
@@ -29,28 +29,28 @@
         "category": "celebrity",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:33:21.936Z",
-      "post": {
-        "name": "Pop Base",
-        "handle": "@PopBase",
-        "verified": true,
-        "avatar": "/media/avatars/popbase.webp",
-        "text": "Hannah Einbinder and Susan Sarandon were detained by police this afternoon in New York City while protesting Benjamin Netanyahu’s speech at the U.N. assembly.",
-        "postedAt": "2026-09-24T19:54:42.000Z"
-      },
       "image": {
-        "src": "/media/2026-09-24/2026-09-24-x-hannah-einbinder-and-susan-sarandon-detained-at-.webp",
-        "width": 615,
-        "height": 700,
-        "from": "https://pbs.twimg.com/media/HTAbv8uaIAAuK4k.jpg",
+        "src": "/media/2026-09-24/2026-09-24-x-susan-sarandon-and-hannah-einbinder-detained-at-.webp",
+        "width": 720,
+        "height": 900,
+        "from": "https://pbs.twimg.com/media/HTBudAIWsAAOzTE.jpg",
         "crop": {
-          "x": 0.07,
+          "x": 0.06,
           "y": 0,
-          "w": 0.855,
+          "w": 0.938,
           "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "WearThePeace",
+        "handle": "@WearThePeaceCo",
+        "verified": true,
+        "avatar": "/media/avatars/wearthepeaceco.webp",
+        "text": "Actress Susan Sarandon being arrested earlier today for protesting Benjamin Netanyahu’s speech at the United Nations. One is speaking out against genocide, one is committing it. One was arrested, one was not.",
+        "postedAt": "2026-09-25T01:56:52.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:52:51.528Z"
     }
   ]
 }

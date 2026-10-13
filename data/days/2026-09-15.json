@@ -29,8 +29,18 @@
         "category": "music",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:33:18.460Z",
+      "image": {
+        "src": "/media/2026-09-15/2026-09-15-x-ed-sheeran-s-openers-and-band-quit-his-tour.webp",
+        "width": 720,
+        "height": 1008,
+        "from": "https://pbs.twimg.com/media/HSSOf0nXMAArAXS.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0.024,
+          "w": 1,
+          "h": 0.952
+        }
+      },
       "post": {
         "name": "Pop Base",
         "handle": "@PopBase",
@@ -39,18 +49,8 @@
         "text": "All three remaining opening acts and Ed Sheeran’s touring band have announced that they are dropping out of the remaining dates of his ‘Loop’ tour in solidarity with Palestine and Macklemore.",
         "postedAt": "2026-09-15T20:34:17.000Z"
       },
-      "image": {
-        "src": "/media/2026-09-15/2026-09-15-x-ed-sheeran-s-openers-and-band-quit-his-tour.webp",
-        "width": 720,
-        "height": 1008,
-        "from": "https://pbs.twimg.com/media/HSSOf0fWUAA1nbL.jpg",
-        "crop": {
-          "x": 0,
-          "y": 0,
-          "w": 1,
-          "h": 0.95
-        }
-      }
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:33:18.460Z"
     }
   ]
 }

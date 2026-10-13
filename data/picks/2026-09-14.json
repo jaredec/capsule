@@ -2,28 +2,28 @@
   "date": "2026-09-14",
   "stories": [
     {
-      "title": "Macaulay Culkin's Emmys tribute to Catherine O'Hara",
-      "summary": "At the Emmys, Macaulay Culkin honored his late Home Alone mom: \"She may have forgotten me twice… but we will always remember her.\" The line got 158K likes.",
+      "title": "Macklemore says Ed Sheeran dropped him from his tour over Palestine",
+      "summary": "Macklemore said Ed Sheeran and his team removed him from the Loop tour over his comments in support of Palestine, after the Kraft Group rallied stadium owners and gave Sheeran an ultimatum. Pop Base's post got 357K likes.",
       "kind": "image",
       "tags": [
-        "emmys",
-        "macaulay-culkin",
-        "catherine-ohara",
-        "home-alone"
+        "macklemore",
+        "ed-sheeran",
+        "loop-tour",
+        "palestine"
       ],
-      "category": "tv-film",
+      "category": "music",
       "crossover": true,
-      "reach": 8,
-      "dominance": 7,
+      "reach": 9,
+      "dominance": 9,
       "memeability": 6,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/FilmUpdates/status/2099690220333760660",
-      "imageUrl": "https://pbs.twimg.com/media/HSOZIHNbwAAK023.jpg",
+      "sourceUrl": "https://x.com/PopBase/status/2099535234727563523",
+      "imageUrl": "https://pbs.twimg.com/media/HSMMKc2aIAAXud_.jpg",
       "crop": {
-        "x": 0.1,
+        "x": 0.062,
         "y": 0,
-        "w": 0.75,
+        "w": 0.876,
         "h": 1
       }
     }

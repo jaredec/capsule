@@ -2,54 +2,59 @@
   "date": "2026-09-29",
   "items": [
     {
-      "id": "2026-09-29-x-tom-cruise-takes-on-the-jennifer-hudson-show-spi",
+      "id": "2026-09-29-x-malfoid-x-falls-for-a-female-draco-malfoy",
       "platform": "x",
       "rank": 1,
-      "title": "Tom Cruise takes on the Jennifer Hudson Show Spirit Tunnel",
-      "summary": "Tom Cruise danced his way through the Spirit Tunnel, the hallway of cheering audience members that guests walk on The Jennifer Hudson Show. The clip got 63K likes, and one reply called it \"a masterclass on how to overcome the humiliation ritual\".",
-      "kind": "video",
+      "title": "\"Malfoid\": X falls for a female Draco Malfoy",
+      "summary": "\"Malfoid\", fan art imagining Draco Malfoy as a blonde Slytherin girl, took over X: artists posted their own versions by the dozen, Korean and Japanese fans traded jokes about a 110-chapter Harry x Malfoid fanfic, and posts like \"This Week’s Trending: The Bread / The Circus\" framed it as the meme of the week. Explainers followed the next day.",
+      "kind": "image",
       "tags": [
-        "tom-cruise",
-        "jennifer-hudson",
-        "spirit-tunnel"
+        "malfoid",
+        "harry-potter",
+        "fan-art"
       ],
-      "author": "@DiscussingFilm",
-      "sourceUrl": "https://x.com/DiscussingFilm/status/2105122544231891413",
+      "author": "@ObviousRises",
+      "sourceUrl": "https://x.com/ObviousRises/status/2104904024717742204",
       "metrics": {
-        "likes": "62.6K",
-        "replies": "1.2K"
+        "likes": "50.8K",
+        "replies": "46"
       },
-      "references": [],
+      "references": [
+        {
+          "title": "What Is The 'Malfoid' Meme? The Viral 'Female Draco Malfoy' Fan Art Trend Explained",
+          "url": "https://sg.news.yahoo.com/malfoid-meme-viral-female-draco-193000273.html"
+        }
+      ],
       "pulse": {
-        "score": 6.7,
-        "reach": 7,
-        "dominance": 6,
-        "memeability": 7,
-        "category": "celebrity",
-        "crossover": true
+        "score": 7.2,
+        "reach": 6,
+        "dominance": 8,
+        "memeability": 8,
+        "category": "internet-culture",
+        "crossover": false
       },
       "image": {
-        "src": "/media/2026-09-29/2026-09-29-x-tom-cruise-takes-on-the-jennifer-hudson-show-spi.webp",
-        "width": 720,
-        "height": 1280,
-        "from": "https://video.twimg.com/amplify_video/2105122466464952320/vid/avc1/720x1280/_7dh9QiuQKCT2gK-.mp4#t=6",
+        "src": "/media/2026-09-29/2026-09-29-x-malfoid-x-falls-for-a-female-draco-malfoy.webp",
+        "width": 632,
+        "height": 572,
+        "from": "https://pbs.twimg.com/media/HTXJqURbcAAHxOt.jpg?name=medium",
         "crop": {
-          "x": 0.2,
-          "y": 0.1,
-          "w": 0.75,
-          "h": 0.5625
+          "x": 0,
+          "y": 0.27,
+          "w": 0.496,
+          "h": 0.73
         }
       },
       "post": {
-        "name": "DiscussingFilm",
-        "handle": "@DiscussingFilm",
+        "name": "MR. OBVIOUS",
+        "handle": "@ObviousRises",
         "verified": true,
-        "avatar": "/media/avatars/discussingfilm.webp",
-        "text": "Tom Cruise doing the Spirit Tunnel at The Jennifer Hudson Show.",
-        "postedAt": "2026-09-30T02:28:20.000Z"
+        "avatar": "/media/avatars/obviousrises.webp",
+        "text": "I'm very much enjoying this female Draco Malfoid meme.",
+        "postedAt": "2026-09-29T12:00:01.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:33:22.905Z"
+      "collectedAt": "2026-10-13T03:52:52.270Z"
     }
   ]
 }

@@ -2,54 +2,54 @@
   "date": "2026-09-22",
   "items": [
     {
-      "id": "2026-09-22-x-taylor-swift-announces-patient-zero",
+      "id": "2026-09-22-x-despicable-me-minion-rush-is-shutting-down",
       "platform": "x",
       "rank": 1,
-      "title": "Taylor Swift announces \"Patient Zero\"",
-      "summary": "Taylor Swift announced a new single, \"Patient Zero\", out Sep 25, with pre-orders open for 24 hours. The post got 320K likes.",
+      "title": "Despicable Me: Minion Rush is shutting down",
+      "summary": "ToonHive reported that \"Despicable Me: Minion Rush\" is shutting down after 13 years, and the post got 182K likes. X mourned a game few still played: \"THIS IS THE WORST DAY OF MY LIFE (i haven't played this game in years)\" got 84K likes and \"MINION RUSH SCHOOL WALKOUT\" got 92K.",
       "kind": "image",
       "tags": [
-        "taylor-swift",
-        "patient-zero",
-        "new-music"
+        "minion-rush",
+        "despicable-me",
+        "mobile-games"
       ],
-      "author": "@taylorswift13",
-      "sourceUrl": "https://x.com/taylorswift13/status/2102458574563840035",
+      "author": "@ToonHive",
+      "sourceUrl": "https://x.com/ToonHive/status/2102509996097630526",
       "metrics": {
-        "likes": "319.8K",
-        "replies": "11.2K"
+        "likes": "182K",
+        "replies": "3.5K"
       },
       "references": [],
       "pulse": {
-        "score": 7,
+        "score": 7.7,
         "reach": 8,
-        "dominance": 8,
-        "memeability": 4,
-        "category": "music",
+        "dominance": 7,
+        "memeability": 8,
+        "category": "pop-culture",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:33:21.163Z",
-      "post": {
-        "name": "Taylor Swift",
-        "handle": "@taylorswift13",
-        "verified": true,
-        "avatar": "/media/avatars/taylorswift13.webp",
-        "text": "I’ve been impatiently waiting to tell you that my brand new single “Patient Zero” will be out on September 25 (!!!!!!!!!!!!) and it’s available to pre-order now at store.taylorswift.com for 24 hours. 0️⃣0️⃣0️⃣0️⃣",
-        "postedAt": "2026-09-22T18:02:40.000Z"
-      },
       "image": {
-        "src": "/media/2026-09-22/2026-09-22-x-taylor-swift-announces-patient-zero.webp",
-        "width": 720,
-        "height": 720,
-        "from": "https://pbs.twimg.com/media/HS1u7cHWkAIbc5W.jpg",
+        "src": "/media/2026-09-22/2026-09-22-x-despicable-me-minion-rush-is-shutting-down.webp",
+        "width": 540,
+        "height": 719,
+        "from": "https://pbs.twimg.com/media/HS2dsh0W4AAGoDu.jpg",
         "crop": {
-          "x": 0.08,
+          "x": 0,
           "y": 0,
-          "w": 0.75,
+          "w": 1,
           "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "ToonHive",
+        "handle": "@ToonHive",
+        "verified": true,
+        "avatar": "/media/avatars/toonhive.webp",
+        "text": "‘Despicable Me: Minion Rush’ is shutting down after 13 years.",
+        "postedAt": "2026-09-22T21:27:00.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:52:51.287Z"
     }
   ]
 }

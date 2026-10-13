@@ -2,54 +2,54 @@
   "date": "2026-09-16",
   "items": [
     {
-      "id": "2026-09-16-x-spider-man-brand-new-day-becomes-the-top-domesti",
+      "id": "2026-09-16-x-barack-obama-says-goodbye-to-his-dog-sunny",
       "platform": "x",
       "rank": 1,
-      "title": "Spider-Man: Brand New Day becomes the top domestic grosser ever",
-      "summary": "Spider-Man: Brand New Day passed Star Wars: The Force Awakens to become the highest-grossing film of all time at the domestic box office. DiscussingFilm's post got 174K likes.",
+      "title": "Barack Obama says goodbye to his dog Sunny",
+      "summary": "Barack Obama announced that Sunny, the dog the family got at the start of his second term, had died: \"Yesterday, we lost a cherished member of our family.\" The post got 329K likes.",
       "kind": "image",
       "tags": [
-        "spider-man",
-        "box-office",
-        "marvel"
+        "barack-obama",
+        "sunny",
+        "obama-family"
       ],
-      "author": "@DiscussingFilm",
-      "sourceUrl": "https://x.com/DiscussingFilm/status/2100235214312116687",
+      "author": "@BarackObama",
+      "sourceUrl": "https://x.com/BarackObama/status/2100193157522620711",
       "metrics": {
-        "likes": "174.4K",
-        "replies": "718"
+        "likes": "329.4K",
+        "replies": "12.4K"
       },
       "references": [],
       "pulse": {
-        "score": 6.9,
+        "score": 6.4,
         "reach": 8,
         "dominance": 7,
-        "memeability": 5,
-        "category": "tv-film",
+        "memeability": 3,
+        "category": "celebrity",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:33:18.850Z",
-      "post": {
-        "name": "DiscussingFilm",
-        "handle": "@DiscussingFilm",
-        "verified": true,
-        "avatar": "/media/avatars/discussingfilm.webp",
-        "text": "‘SPIDER-MAN: BRAND NEW DAY’ is officially the highest grossing film of ALL TIME domestically.\n\nSurpassing ‘The Force Awakens’.",
-        "postedAt": "2026-09-16T14:47:50.000Z"
-      },
       "image": {
-        "src": "/media/2026-09-16/2026-09-16-x-spider-man-brand-new-day-becomes-the-top-domesti.webp",
+        "src": "/media/2026-09-16/2026-09-16-x-barack-obama-says-goodbye-to-his-dog-sunny.webp",
         "width": 720,
-        "height": 1088,
-        "from": "https://pbs.twimg.com/media/HSWIy2kWcAAh6pE.jpg",
+        "height": 973,
+        "from": "https://pbs.twimg.com/media/HSVgTGdX0AAsu5K.jpg",
         "crop": {
           "x": 0,
-          "y": 0.06,
+          "y": 0.006,
           "w": 1,
-          "h": 0.88
+          "h": 0.987
         }
-      }
+      },
+      "post": {
+        "name": "Barack Obama",
+        "handle": "@BarackObama",
+        "verified": true,
+        "avatar": "/media/avatars/barackobama.webp",
+        "text": "Yesterday, we lost a cherished member of our family.\n\nWe got Sunny at the start of our second term in the White House, and all of us – including our first dog, Bo – immediately fell in love. We also had trouble keeping up with her, for Sunny was a force of nature. Athletic and",
+        "postedAt": "2026-09-16T12:00:43.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:52:50.931Z"
     }
   ]
 }

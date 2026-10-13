@@ -2,28 +2,28 @@
   "date": "2026-09-07",
   "stories": [
     {
-      "title": "The White House's Labor Day wall of Marco Rubios",
-      "summary": "For Labor Day, the White House posted \"For all the jobs, @SecRubio\" with a SpongeBob \"Employee of the Month\" wall filled entirely with photos of Marco Rubio, a nod to the many government roles he holds at once.",
-      "kind": "image",
+      "title": "First teaser for Glenn Close as Drusilla Sickle in Sunrise on the Reaping",
+      "summary": "The first teaser for Glenn Close as Drusilla Sickle in \"The Hunger Games: Sunrise on the Reaping\" showed her in full Capitol makeup and red gloves, posing to captions like \"That smile\" and \"Elegance\". DiscussingFilm's post got 123K likes.",
+      "kind": "video",
       "tags": [
-        "labor-day",
-        "marco-rubio",
-        "white-house",
-        "spongebob"
+        "glenn-close",
+        "hunger-games",
+        "sunrise-on-the-reaping",
+        "teaser"
       ],
-      "category": "politics",
+      "category": "tv-film",
       "crossover": true,
       "reach": 7,
       "dominance": 6,
-      "memeability": 8,
+      "memeability": 6,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/WhiteHouse/status/2097122561792307663",
-      "imageUrl": "https://pbs.twimg.com/media/HRp52nNbgAARAnp.jpg",
+      "sourceUrl": "https://x.com/DiscussingFilm/status/2097002269749178550",
+      "frameAt": 22,
       "crop": {
-        "x": 0.11,
+        "x": 0.33,
         "y": 0,
-        "w": 0.57,
+        "w": 0.552,
         "h": 1
       }
     }

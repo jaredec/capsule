@@ -2,55 +2,55 @@
   "date": "2026-09-07",
   "items": [
     {
-      "id": "2026-09-07-x-the-white-house-s-labor-day-wall-of-marco-rubios",
+      "id": "2026-09-07-x-first-teaser-for-glenn-close-as-drusilla-sickle-",
       "platform": "x",
       "rank": 1,
-      "title": "The White House's Labor Day wall of Marco Rubios",
-      "summary": "For Labor Day, the White House posted \"For all the jobs, @SecRubio\" with a SpongeBob \"Employee of the Month\" wall filled entirely with photos of Marco Rubio, a nod to the many government roles he holds at once.",
-      "kind": "image",
+      "title": "First teaser for Glenn Close as Drusilla Sickle in Sunrise on the Reaping",
+      "summary": "The first teaser for Glenn Close as Drusilla Sickle in \"The Hunger Games: Sunrise on the Reaping\" showed her in full Capitol makeup and red gloves, posing to captions like \"That smile\" and \"Elegance\". DiscussingFilm's post got 123K likes.",
+      "kind": "video",
       "tags": [
-        "labor-day",
-        "marco-rubio",
-        "white-house",
-        "spongebob"
+        "glenn-close",
+        "hunger-games",
+        "sunrise-on-the-reaping",
+        "teaser"
       ],
-      "author": "@WhiteHouse",
-      "sourceUrl": "https://x.com/WhiteHouse/status/2097122561792307663",
+      "author": "@DiscussingFilm",
+      "sourceUrl": "https://x.com/DiscussingFilm/status/2097002269749178550",
       "metrics": {
-        "likes": "48.7K",
-        "replies": "1.2K"
+        "likes": "122.7K",
+        "replies": "695"
       },
       "references": [],
       "pulse": {
-        "score": 2.8,
+        "score": 6.4,
         "reach": 7,
         "dominance": 6,
-        "memeability": 8,
-        "category": "politics",
+        "memeability": 6,
+        "category": "tv-film",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:33:14.537Z",
-      "post": {
-        "name": "The White House",
-        "handle": "@WhiteHouse",
-        "verified": true,
-        "avatar": "/media/avatars/whitehouse.webp",
-        "text": "For all the jobs, @SecRubio. \n\nHappy Labor Day!",
-        "postedAt": "2026-09-08T00:39:16.000Z"
-      },
       "image": {
-        "src": "/media/2026-09-07/2026-09-07-x-the-white-house-s-labor-day-wall-of-marco-rubios.webp",
+        "src": "/media/2026-09-07/2026-09-07-x-first-teaser-for-glenn-close-as-drusilla-sickle-.webp",
         "width": 720,
-        "height": 546,
-        "from": "https://pbs.twimg.com/media/HRp52nNbgAARAnp.jpg",
+        "height": 531,
+        "from": "https://video.twimg.com/amplify_video/2097002181060636672/vid/avc1/976x720/7KySnS1gRqQxW4hM.mp4#t=22",
         "crop": {
-          "x": 0.11,
+          "x": 0.33,
           "y": 0,
-          "w": 0.57,
+          "w": 0.552,
           "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "DiscussingFilm",
+        "handle": "@DiscussingFilm",
+        "verified": true,
+        "avatar": "/media/avatars/discussingfilm.webp",
+        "text": "First teaser for Glenn Close as Drusilla Sickle in ‘THE HUNGER GAMES: SUNRISE ON THE REAPING’.",
+        "postedAt": "2026-09-07T16:41:16.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:52:49.544Z"
     }
   ]
 }

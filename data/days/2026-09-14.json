@@ -2,55 +2,55 @@
   "date": "2026-09-14",
   "items": [
     {
-      "id": "2026-09-14-x-macaulay-culkin-s-emmys-tribute-to-catherine-o-h",
+      "id": "2026-09-14-x-macklemore-says-ed-sheeran-dropped-him-from-his-",
       "platform": "x",
       "rank": 1,
-      "title": "Macaulay Culkin's Emmys tribute to Catherine O'Hara",
-      "summary": "At the Emmys, Macaulay Culkin honored his late Home Alone mom: \"She may have forgotten me twice… but we will always remember her.\" The line got 158K likes.",
+      "title": "Macklemore says Ed Sheeran dropped him from his tour over Palestine",
+      "summary": "Macklemore said Ed Sheeran and his team removed him from the Loop tour over his comments in support of Palestine, after the Kraft Group rallied stadium owners and gave Sheeran an ultimatum. Pop Base's post got 357K likes.",
       "kind": "image",
       "tags": [
-        "emmys",
-        "macaulay-culkin",
-        "catherine-ohara",
-        "home-alone"
+        "macklemore",
+        "ed-sheeran",
+        "loop-tour",
+        "palestine"
       ],
-      "author": "@FilmUpdates",
-      "sourceUrl": "https://x.com/FilmUpdates/status/2099690220333760660",
+      "author": "@PopBase",
+      "sourceUrl": "https://x.com/PopBase/status/2099535234727563523",
       "metrics": {
-        "likes": "157.6K",
-        "replies": "84"
+        "likes": "356.5K",
+        "replies": "3.3K"
       },
       "references": [],
       "pulse": {
-        "score": 7.2,
-        "reach": 8,
-        "dominance": 7,
+        "score": 8.3,
+        "reach": 9,
+        "dominance": 9,
         "memeability": 6,
-        "category": "tv-film",
+        "category": "music",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:33:18.087Z",
-      "post": {
-        "name": "Film Updates",
-        "handle": "@FilmUpdates",
-        "verified": true,
-        "avatar": "/media/avatars/filmupdates.webp",
-        "text": "Macaulay Culkin honors the late Catherine O’Hara at the Emmy Awards:\n\n“She may have forgotten me twice… but we will always remember her.”",
-        "postedAt": "2026-09-15T02:42:13.000Z"
-      },
       "image": {
-        "src": "/media/2026-09-14/2026-09-14-x-macaulay-culkin-s-emmys-tribute-to-catherine-o-h.webp",
+        "src": "/media/2026-09-14/2026-09-14-x-macklemore-says-ed-sheeran-dropped-him-from-his-.webp",
         "width": 720,
-        "height": 720,
-        "from": "https://pbs.twimg.com/media/HSOZIHNbwAAK023.jpg",
+        "height": 840,
+        "from": "https://pbs.twimg.com/media/HSMMKc2aIAAXud_.jpg",
         "crop": {
-          "x": 0.1,
+          "x": 0.062,
           "y": 0,
-          "w": 0.75,
+          "w": 0.876,
           "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "Pop Base",
+        "handle": "@PopBase",
+        "verified": true,
+        "avatar": "/media/avatars/popbase.webp",
+        "text": "Macklemore says Ed Sheeran and his team decided to remove him from tour due to his comments in support of Palestine, after Kraft Group rallied stadium owners and gave Ed an ultimatum: \n\n“[Ed] told me that the words ‘Free Palestine’ and the image of the Palestinian flag were",
+        "postedAt": "2026-09-14T16:26:22.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:52:50.642Z"
     }
   ]
 }

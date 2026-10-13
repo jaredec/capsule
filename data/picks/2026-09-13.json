@@ -2,20 +2,30 @@
   "date": "2026-09-13",
   "stories": [
     {
-      "title": "US Open cuts from a 0:07 clock to Pierce Brosnan",
-      "summary": "During Zverev vs. Shelton, the US Open broadcast dissolved from a clock reading 0:07 to former James Bond Pierce Brosnan in the stands. The US Open posted it with \"Absolute cinema.\" and it got 164K likes.",
-      "kind": "video",
-      "tags": ["us-open", "tennis", "pierce-brosnan", "james-bond"],
-      "category": "sports",
+      "title": "Scotland, Wales and Northern Ireland move to break up the UK",
+      "summary": "Pop Base reported that the leaders of Scotland, Wales and Northern Ireland would meet the next day to sign a deal designed to begin the break-up of the United Kingdom. The post got 188K likes, and \"didn't expect to check twitter today and see that the uk is disbanding\" got 86K.",
+      "kind": "image",
+      "tags": [
+        "uk",
+        "scotland",
+        "wales",
+        "northern-ireland",
+        "independence"
+      ],
+      "category": "news",
       "crossover": true,
-      "reach": 7,
-      "dominance": 7,
-      "memeability": 7,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 5,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/usopen/status/2099205012006031789",
-      "frameAt": 2,
-      "crop": { "x": 0.5, "y": 0, "w": 0.45, "h": 1 }
+      "sourceUrl": "https://x.com/PopBase/status/2099129440429093189",
+      "crop": {
+        "x": 0.03,
+        "y": 0,
+        "w": 0.42,
+        "h": 1
+      }
     }
   ]
 }
