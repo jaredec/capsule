@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-07",
+  "stories": [
+    {
+      "title": "\"I always get upset when the borzoi rests\"",
+      "summary": "A dog owner posted photos of a borzoi lying flat on the grass next to a golden retriever, writing that it looks \"like the asphalt layer was run over by a truck\". It got 529K likes.",
+      "kind": "image",
+      "tags": ["dogs", "borzoi", "golden-retriever"],
+      "category": "animals",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 7,
+      "memeability": 7,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/mrrasmulan/status/2097208543333978264",
+      "imageUrl": "https://pbs.twimg.com/media/HRrIDCZXMAAT4A_.jpg",
+      "crop": { "x": 0, "y": 0.25, "w": 1, "h": 0.75 }
+    }
+  ]
+}

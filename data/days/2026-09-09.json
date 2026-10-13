@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-09",
+  "items": [
+    {
+      "id": "2026-09-09-x-wife-told-me-these-wouldn-t-fit",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"Wife told me these wouldn't fit\"",
+      "summary": "A man posted that his wife told him the frozen cubes wouldn't fit in the bag, \"little did she know I had trained for this moment for years\". He fit all 17 by using the famously lopsided best-known packing of 17 squares. It got 363K likes.",
+      "kind": "image",
+      "tags": [
+        "math",
+        "packing",
+        "marriage"
+      ],
+      "author": "@meawoppl",
+      "sourceUrl": "https://x.com/meawoppl/status/2097861010388554039",
+      "metrics": {
+        "likes": "362.7K",
+        "replies": "549"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.7,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 8,
+        "category": "everyday-life",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-09/2026-09-09-x-wife-told-me-these-wouldn-t-fit.webp",
+        "width": 720,
+        "height": 960,
+        "from": "https://pbs.twimg.com/media/HR0ZeJFbQAA1O9F.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "MattyG",
+        "handle": "@meawoppl",
+        "verified": false,
+        "avatar": "/media/avatars/meawoppl.webp",
+        "text": "Wife told me these wouldn’t fit.\n\nLittle did she know I had trained for this moment for years.",
+        "postedAt": "2026-09-10T01:33:35.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T02:42:52.761Z"
+    }
+  ]
+}

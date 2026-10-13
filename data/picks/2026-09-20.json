@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-20",
+  "stories": [
+    {
+      "title": "\"Who the hell is this guy hanging out with\"",
+      "summary": "A user posted a bookstore shelf of Thomas Erikson's books: Surrounded by Liars, Surrounded by Narcissists and Surrounded by Idiots. The caption, \"who the hell is this guy hanging out with\", got 366K likes.",
+      "kind": "image",
+      "tags": ["books", "self-help", "bookstore"],
+      "category": "internet-culture",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 7,
+      "memeability": 8,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/DJUNGELSK0GS/status/2101874520240103714",
+      "imageUrl": "https://pbs.twimg.com/media/HStbui-aAAAZRk1.jpg",
+      "crop": { "x": 0, "y": 0, "w": 1, "h": 1 }
+    }
+  ]
+}

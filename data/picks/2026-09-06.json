@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-06",
+  "stories": [
+    {
+      "title": "A24's teaser for Nathan Fielder's Elizabeth Holmes documentary",
+      "summary": "A24 posted the first teaser for You Can See Everything, a documentary by Nathan Fielder and Lance Oppenheim that follows Theranos founder Elizabeth Holmes in the 34 days before she reported to prison. People fixated on the close-ups of the two sizing each other up, with one quote calling it \"the look of a fake lunatic realizing he's met a real one\".",
+      "kind": "video",
+      "tags": ["nathan-fielder", "elizabeth-holmes", "a24", "trailer"],
+      "category": "tv-film",
+      "crossover": true,
+      "reach": 7,
+      "dominance": 7,
+      "memeability": 7,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/A24/status/2096757842435084301",
+      "frameAt": 20,
+      "crop": { "x": 0.47, "y": 0, "w": 0.45, "h": 1 }
+    }
+  ]
+}

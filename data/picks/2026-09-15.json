@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-15",
+  "stories": [
+    {
+      "title": "\"one day!\" to \"day one!\" at Google",
+      "summary": "In April 2020, @gedearyarp posted \"one day!\" with a photo of a Google sign. He quoted that post with \"day one!\" and a photo of himself outside a Google office wearing a badge, and it got 386K likes.",
+      "kind": "image",
+      "tags": ["google", "jobs", "glow-up", "manifesting"],
+      "category": "everyday-life",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 7,
+      "memeability": 6,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/gedearyarp/status/2099893745894175169",
+      "imageUrl": "https://pbs.twimg.com/media/HSRSOrYXQAAr9sb.jpg"
+    }
+  ]
+}

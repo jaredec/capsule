@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-03",
+  "items": [
+    {
+      "id": "2026-09-03-x-hi-joy-it-s-hope-calling",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"Hi Joy, it's Hope calling\"",
+      "summary": "A user named Hope posted that she had to call a patient named Joy, so her voicemail opened with \"hi joy, its hope calling\", paired with a GIF of a grinning Emma Stone. It got 334K likes, and quote posts compared it to the emotions in Inside Out.",
+      "kind": "video",
+      "tags": [
+        "names",
+        "work",
+        "voicemail",
+        "inside-out"
+      ],
+      "author": "@caitvisthird",
+      "sourceUrl": "https://x.com/caitvisthird/status/2095450893416108284",
+      "metrics": {
+        "likes": "333.7K",
+        "replies": "217"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7,
+        "reach": 7,
+        "dominance": 7,
+        "memeability": 7,
+        "category": "everyday-life",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T02:42:49.520Z",
+      "post": {
+        "name": "hop goes to japan in 7 days!",
+        "handle": "@caitvisthird",
+        "verified": false,
+        "avatar": "/media/avatars/caitvisthird.webp",
+        "text": "needed to call a patient named joy today so in my voicemail i had to say 'hi joy, its hope calling'",
+        "postedAt": "2026-09-03T09:56:39.000Z"
+      },
+      "image": {
+        "src": "/media/2026-09-03/2026-09-03-x-hi-joy-it-s-hope-calling.webp",
+        "width": 498,
+        "height": 332,
+        "from": "https://video.twimg.com/tweet_video/HRSJd-iXQAER-M5.mp4#t=1.5",
+        "crop": {
+          "x": 0.2,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

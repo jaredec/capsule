@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-16",
+  "items": [
+    {
+      "id": "2026-09-16-x-how-reading-your-own-writing-feels-like",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"How reading your own writing feels like\"",
+      "summary": "A user posted a hand-drawn gold star that says \"at least its not ai\" as how it feels to reread your own writing. It got 379K likes.",
+      "kind": "image",
+      "tags": [
+        "ai",
+        "writing",
+        "reaction-image"
+      ],
+      "author": "@deerhitch",
+      "sourceUrl": "https://x.com/deerhitch/status/2100229688773800041",
+      "metrics": {
+        "likes": "379.2K",
+        "replies": "177"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.7,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 8,
+        "category": "internet-culture",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-16/2026-09-16-x-how-reading-your-own-writing-feels-like.webp",
+        "width": 720,
+        "height": 609,
+        "from": "https://pbs.twimg.com/media/HSWDw9_WUAAxgPA.jpg",
+        "crop": {
+          "x": 0.02,
+          "y": 0,
+          "w": 0.63,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "yuri princess alexa ⚢",
+        "handle": "@deerhitch",
+        "verified": false,
+        "avatar": "/media/avatars/deerhitch.webp",
+        "text": "how reading your own writing feels like",
+        "postedAt": "2026-09-16T14:25:52.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T02:47:16.432Z"
+    }
+  ]
+}

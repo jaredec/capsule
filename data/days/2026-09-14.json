@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-14",
+  "items": [
+    {
+      "id": "2026-09-14-x-the-crows-left-her-bread",
+      "platform": "x",
+      "rank": 1,
+      "title": "The crows left her bread",
+      "summary": "A woman who regularly feeds the crows on her balcony posted that she had skipped a day because she was low on biscuits, and the next morning the crows had left pieces of bread on the balcony for her. It got 352K likes.",
+      "kind": "image",
+      "tags": [
+        "crows",
+        "birds",
+        "kindness"
+      ],
+      "author": "@TejaswineeRC",
+      "sourceUrl": "https://x.com/TejaswineeRC/status/2099712157621330098",
+      "metrics": {
+        "likes": "351.9K",
+        "replies": "627"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.2,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 6,
+        "category": "animals",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-14/2026-09-14-x-the-crows-left-her-bread.webp",
+        "width": 720,
+        "height": 563,
+        "from": "https://pbs.twimg.com/media/HSOtB78bkAAka_3.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 0.58,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "Tejaswinee Roychowdhury",
+        "handle": "@TejaswineeRC",
+        "verified": false,
+        "avatar": "/media/avatars/tejaswineerc.webp",
+        "text": "Didn't feed the crows since yesterday morning as I'm low on biscuits. So, this morning, they left bread on the balcony thinking I ran out of food. 😭🖤",
+        "postedAt": "2026-09-15T04:09:23.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T02:47:15.850Z"
+    }
+  ]
+}

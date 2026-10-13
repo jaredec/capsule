@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-08",
+  "items": [
+    {
+      "id": "2026-09-08-x-a-girl-her-drawing-and-the-office-job",
+      "platform": "x",
+      "rank": 1,
+      "title": "A girl, her drawing, and the office job",
+      "summary": "Artist @ikuta41 posted a wordless four-panel comic: a girl's drawn character grows up beside her from kindergarten to art school, then is gone in the last panel, where she sits at an office desk with her head in her hand. With 941K likes, it was the biggest post of the day.",
+      "kind": "image",
+      "tags": [
+        "comic",
+        "art",
+        "growing-up",
+        "work"
+      ],
+      "author": "@ikuta41",
+      "sourceUrl": "https://x.com/ikuta41/status/2097259704724721944",
+      "metrics": {
+        "likes": "940.7K",
+        "replies": "1.2K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 8.2,
+        "reach": 9,
+        "dominance": 8,
+        "memeability": 7,
+        "category": "internet-culture",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T02:42:52.390Z",
+      "post": {
+        "name": "幾田",
+        "handle": "@ikuta41",
+        "verified": true,
+        "avatar": "/media/avatars/ikuta41.webp",
+        "text": "",
+        "postedAt": "2026-09-08T09:44:13.000Z"
+      },
+      "image": {
+        "src": "/media/2026-09-08/2026-09-08-x-a-girl-her-drawing-and-the-office-job.webp",
+        "width": 720,
+        "height": 1098,
+        "from": "https://pbs.twimg.com/media/HRr2k8qbkAAmuFt.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0.126,
+          "w": 1,
+          "h": 0.874
+        }
+      }
+    }
+  ]
+}

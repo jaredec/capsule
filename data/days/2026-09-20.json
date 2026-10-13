@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-20",
+  "items": [
+    {
+      "id": "2026-09-20-x-who-the-hell-is-this-guy-hanging-out-with",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"Who the hell is this guy hanging out with\"",
+      "summary": "A user posted a bookstore shelf of Thomas Erikson's books: Surrounded by Liars, Surrounded by Narcissists and Surrounded by Idiots. The caption, \"who the hell is this guy hanging out with\", got 366K likes.",
+      "kind": "image",
+      "tags": [
+        "books",
+        "self-help",
+        "bookstore"
+      ],
+      "author": "@DJUNGELSK0GS",
+      "sourceUrl": "https://x.com/DJUNGELSK0GS/status/2101874520240103714",
+      "metrics": {
+        "likes": "366.3K",
+        "replies": "1.9K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.7,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 8,
+        "category": "internet-culture",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T02:59:50.493Z",
+      "post": {
+        "name": "solaris",
+        "handle": "@DJUNGELSK0GS",
+        "verified": false,
+        "avatar": "/media/avatars/djungelsk0gs.webp",
+        "text": "who the hell is this guy hanging out with",
+        "postedAt": "2026-09-21T03:21:51.000Z"
+      },
+      "image": {
+        "src": "/media/2026-09-20/2026-09-20-x-who-the-hell-is-this-guy-hanging-out-with.webp",
+        "width": 720,
+        "height": 960,
+        "from": "https://pbs.twimg.com/media/HStbui-aAAAZRk1.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

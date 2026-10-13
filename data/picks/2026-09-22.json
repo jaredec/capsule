@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-22",
+  "stories": [
+    {
+      "title": "\"My retired dad thinks jobs work like they did in the 80s\"",
+      "summary": "A woman posted her texts with her dad: she told him someone quit at her job, and he congratulated her on finally getting the promotion she always wanted. When she said she now had to do two people's work, he asked if she'd get paid more, and she replied \"I need you to stop applying logic to this\". It got 284K likes.",
+      "kind": "image",
+      "tags": ["work", "parents", "texts", "jobs"],
+      "category": "everyday-life",
+      "crossover": true,
+      "reach": 7,
+      "dominance": 7,
+      "memeability": 7,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/ceraliza/status/2102471216065904915",
+      "imageUrl": "https://pbs.twimg.com/media/HS16aarWoAAflyu.jpg",
+      "crop": { "x": 0.09, "y": 0, "w": 0.82, "h": 1 }
+    }
+  ]
+}

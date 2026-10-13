@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-19",
+  "stories": [
+    {
+      "title": "\"To show me how bad my posture is\"",
+      "summary": "A student posted the photo her roommate took of her drawing on her laptop, perched at the front of her chair and folded nearly in half over the desk. It got 215K likes and more than 1,300 replies.",
+      "kind": "image",
+      "tags": ["posture", "college", "drawing", "roommates"],
+      "category": "everyday-life",
+      "crossover": true,
+      "reach": 7,
+      "dominance": 7,
+      "memeability": 7,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/ieatcrabmeat/status/2101336844646400151",
+      "imageUrl": "https://pbs.twimg.com/media/HSlyuScWIAARnfm.jpg",
+      "crop": { "x": 0, "y": 0, "w": 1, "h": 1 }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-08",
+  "stories": [
+    {
+      "title": "A girl, her drawing, and the office job",
+      "summary": "Artist @ikuta41 posted a wordless four-panel comic: a girl's drawn character grows up beside her from kindergarten to art school, then is gone in the last panel, where she sits at an office desk with her head in her hand. With 941K likes, it was the biggest post of the day.",
+      "kind": "image",
+      "tags": ["comic", "art", "growing-up", "work"],
+      "category": "internet-culture",
+      "crossover": true,
+      "reach": 9,
+      "dominance": 8,
+      "memeability": 7,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/ikuta41/status/2097259704724721944",
+      "imageUrl": "https://pbs.twimg.com/media/HRr2k8qbkAAmuFt.jpg"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-03",
+  "stories": [
+    {
+      "title": "\"Hi Joy, it's Hope calling\"",
+      "summary": "A user named Hope posted that she had to call a patient named Joy, so her voicemail opened with \"hi joy, its hope calling\", paired with a GIF of a grinning Emma Stone. It got 334K likes, and quote posts compared it to the emotions in Inside Out.",
+      "kind": "video",
+      "tags": ["names", "work", "voicemail", "inside-out"],
+      "category": "everyday-life",
+      "crossover": true,
+      "reach": 7,
+      "dominance": 7,
+      "memeability": 7,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/caitvisthird/status/2095450893416108284",
+      "frameAt": 1.5,
+      "crop": { "x": 0.2, "y": 0, "w": 0.6, "h": 1 }
+    }
+  ]
+}

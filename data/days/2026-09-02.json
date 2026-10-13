@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-02",
+  "items": [
+    {
+      "id": "2026-09-02-x-my-barber-is-tweaking-dawg",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"My barber is tweaking dawg\"",
+      "summary": "A man posted his barbershop's haircut chart: 12 numbered styles, all on the same model, and many of them hard to tell apart. It got 190K likes.",
+      "kind": "image",
+      "tags": [
+        "barber",
+        "haircuts",
+        "chart"
+      ],
+      "author": "@Dashytwo",
+      "sourceUrl": "https://x.com/Dashytwo/status/2095215390640972128",
+      "metrics": {
+        "likes": "190K",
+        "replies": "376"
+      },
+      "references": [],
+      "pulse": {
+        "score": 6.9,
+        "reach": 7,
+        "dominance": 6,
+        "memeability": 8,
+        "category": "everyday-life",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:13:30.412Z",
+      "post": {
+        "name": "Dashy™️🦥",
+        "handle": "@Dashytwo",
+        "verified": true,
+        "avatar": "/media/avatars/dashytwo.webp",
+        "text": "My barber is tweaking dawg",
+        "postedAt": "2026-09-02T18:20:51.000Z"
+      },
+      "image": {
+        "src": "/media/2026-09-02/2026-09-02-x-my-barber-is-tweaking-dawg.webp",
+        "width": 720,
+        "height": 668,
+        "from": "https://pbs.twimg.com/media/HROzSlwaQAARC_o.jpg",
+        "crop": {
+          "x": 0.16,
+          "y": 0,
+          "w": 0.7,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-21",
+  "items": [
+    {
+      "id": "2026-09-21-x-playing-the-harmonica-with-my-feet",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"Playing the harmonica with my feet\"",
+      "summary": "A man posted a dating profile whose \"most random skill\" was \"Playing the harmonica with my feet\", and his message asking how she figured that out. Her reply: \"i didn't you're weird lmao\". He captioned it \"Am I going insane\", and it got 537K likes.",
+      "kind": "image",
+      "tags": [
+        "dating-apps",
+        "harmonica",
+        "texts"
+      ],
+      "author": "@Iamsharknado",
+      "sourceUrl": "https://x.com/Iamsharknado/status/2102234444941926644",
+      "metrics": {
+        "likes": "537.2K",
+        "replies": "923"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.8,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 7,
+        "category": "everyday-life",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-21/2026-09-21-x-playing-the-harmonica-with-my-feet.webp",
+        "width": 720,
+        "height": 1103,
+        "from": "https://pbs.twimg.com/media/HSyjFZJXgAAR1HR.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.86
+        }
+      },
+      "post": {
+        "name": "Revan",
+        "handle": "@Iamsharknado",
+        "verified": false,
+        "avatar": "/media/avatars/iamsharknado.webp",
+        "text": "Am I going insane",
+        "postedAt": "2026-09-22T03:12:03.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:04:11.816Z"
+    }
+  ]
+}

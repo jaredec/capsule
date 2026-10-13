@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-07",
+  "items": [
+    {
+      "id": "2026-09-07-x-i-always-get-upset-when-the-borzoi-rests",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"I always get upset when the borzoi rests\"",
+      "summary": "A dog owner posted photos of a borzoi lying flat on the grass next to a golden retriever, writing that it looks \"like the asphalt layer was run over by a truck\". It got 529K likes.",
+      "kind": "image",
+      "tags": [
+        "dogs",
+        "borzoi",
+        "golden-retriever"
+      ],
+      "author": "@mrrasmulan",
+      "sourceUrl": "https://x.com/mrrasmulan/status/2097208543333978264",
+      "metrics": {
+        "likes": "529.3K",
+        "replies": "1.3K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.4,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 7,
+        "category": "animals",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-07/2026-09-07-x-i-always-get-upset-when-the-borzoi-rests.webp",
+        "width": 720,
+        "height": 938,
+        "from": "https://pbs.twimg.com/media/HRrIDCZXMAAT4A_.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0.25,
+          "w": 1,
+          "h": 0.75
+        }
+      },
+      "post": {
+        "name": "Rasmulan",
+        "handle": "@mrrasmulan",
+        "verified": true,
+        "avatar": "/media/avatars/mrrasmulan.webp",
+        "text": "I always get upset when the borzoi rests 😭 \n\nIt's like the asphalt layer was run over by a truck... \n\nIt's very funny.",
+        "postedAt": "2026-09-08T06:20:55.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T02:42:51.729Z"
+    }
+  ]
+}

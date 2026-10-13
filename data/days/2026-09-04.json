@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-04",
+  "items": [
+    {
+      "id": "2026-09-04-x-willem-dafoe-s-new-set-of-poses",
+      "platform": "x",
+      "rank": 1,
+      "title": "Willem Dafoe's new set of poses",
+      "summary": "Complex shared four photos of Willem Dafoe by photographer Daniel Sannwald, including one of him folded in half with his head hanging by his shins. It got 252K likes, and the top quote post, \"unc still got it\", got 320K.",
+      "kind": "image",
+      "tags": [
+        "willem-dafoe",
+        "photoshoot",
+        "poses"
+      ],
+      "author": "@Complex",
+      "sourceUrl": "https://x.com/Complex/status/2096040046784819439",
+      "metrics": {
+        "likes": "252.4K",
+        "replies": "908"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.3,
+        "reach": 7,
+        "dominance": 7,
+        "memeability": 8,
+        "category": "celebrity",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T02:42:49.921Z",
+      "post": {
+        "name": "Complex",
+        "handle": "@Complex",
+        "verified": true,
+        "avatar": "/media/avatars/complex.webp",
+        "text": "Willem Dafoe just blessed the timeline with a new set of poses. \n\n[📸: via/ IG danielsannwald]",
+        "postedAt": "2026-09-05T00:57:44.000Z"
+      },
+      "image": {
+        "src": "/media/2026-09-04/2026-09-04-x-willem-dafoe-s-new-set-of-poses.webp",
+        "width": 720,
+        "height": 900,
+        "from": "https://pbs.twimg.com/media/HRahT06bIAAFJqQ.jpg",
+        "crop": {
+          "x": 0.05,
+          "y": 0,
+          "w": 0.9,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

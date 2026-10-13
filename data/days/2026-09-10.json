@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-10",
+  "items": [
+    {
+      "id": "2026-09-10-x-little-comic-i-did-for-class",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"Little comic i did for class\"",
+      "summary": "An art student posted a wordless two-panel comic: a couple in bed, the man holding a rubber alien mask, while a real alien stares in through the window, horrified. It got 245K likes.",
+      "kind": "image",
+      "tags": [
+        "comic",
+        "aliens",
+        "art"
+      ],
+      "author": "@minim86",
+      "sourceUrl": "https://x.com/minim86/status/2098260488115335556",
+      "metrics": {
+        "likes": "244.5K",
+        "replies": "131"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7,
+        "reach": 7,
+        "dominance": 7,
+        "memeability": 7,
+        "category": "internet-culture",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-10/2026-09-10-x-little-comic-i-did-for-class.webp",
+        "width": 720,
+        "height": 1153,
+        "from": "https://pbs.twimg.com/media/HR6Eo-NbUAAy8Gd.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.85
+        }
+      },
+      "post": {
+        "name": "fka togatapunch🍉",
+        "handle": "@minim86",
+        "verified": false,
+        "avatar": "/media/avatars/minim86.webp",
+        "text": "little comic i did for class",
+        "postedAt": "2026-09-11T04:00:58.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T02:42:53.059Z"
+    }
+  ]
+}

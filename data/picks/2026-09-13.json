@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-13",
+  "stories": [
+    {
+      "title": "US Open cuts from a 0:07 clock to Pierce Brosnan",
+      "summary": "During Zverev vs. Shelton, the US Open broadcast dissolved from a clock reading 0:07 to former James Bond Pierce Brosnan in the stands. The US Open posted it with \"Absolute cinema.\" and it got 164K likes.",
+      "kind": "video",
+      "tags": ["us-open", "tennis", "pierce-brosnan", "james-bond"],
+      "category": "sports",
+      "crossover": true,
+      "reach": 7,
+      "dominance": 7,
+      "memeability": 7,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/usopen/status/2099205012006031789",
+      "frameAt": 2,
+      "crop": { "x": 0.5, "y": 0, "w": 0.45, "h": 1 }
+    }
+  ]
+}

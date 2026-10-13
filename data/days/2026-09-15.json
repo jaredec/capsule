@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-15",
+  "items": [
+    {
+      "id": "2026-09-15-x-one-day-to-day-one-at-google",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"one day!\" to \"day one!\" at Google",
+      "summary": "In April 2020, @gedearyarp posted \"one day!\" with a photo of a Google sign. He quoted that post with \"day one!\" and a photo of himself outside a Google office wearing a badge, and it got 386K likes.",
+      "kind": "image",
+      "tags": [
+        "google",
+        "jobs",
+        "glow-up",
+        "manifesting"
+      ],
+      "author": "@gedearyarp",
+      "sourceUrl": "https://x.com/gedearyarp/status/2099893745894175169",
+      "metrics": {
+        "likes": "385.9K",
+        "replies": "2.4K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.2,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 6,
+        "category": "everyday-life",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T02:47:16.208Z",
+      "post": {
+        "name": "gede arya | 🇬🇧 tehc bro",
+        "handle": "@gedearyarp",
+        "verified": false,
+        "avatar": "/media/avatars/gedearyarp.webp",
+        "text": "day one!",
+        "postedAt": "2026-09-15T16:10:57.000Z"
+      },
+      "image": {
+        "src": "/media/2026-09-15/2026-09-15-x-one-day-to-day-one-at-google.webp",
+        "width": 720,
+        "height": 960,
+        "from": "https://pbs.twimg.com/media/HSRSOrYXQAAr9sb.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

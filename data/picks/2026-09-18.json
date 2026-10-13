@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-18",
+  "stories": [
+    {
+      "title": "The cat in socks and a g-string",
+      "summary": "A cat owner posted her black cat stretched out on a cushion: \"I respect those high class cats in tuxedos but I love that my guy just keeps it casual with socks and a g-string\". His only white markings are on his paws and a thin stripe around his hips. It got 350K likes.",
+      "kind": "image",
+      "tags": ["cats", "pets", "markings"],
+      "category": "animals",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 7,
+      "memeability": 7,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/_emKamm/status/2101050418876809685",
+      "imageUrl": "https://pbs.twimg.com/media/HSht2aFWEAA3RMP.jpg",
+      "crop": { "x": 0, "y": 0.1, "w": 0.56, "h": 0.9 }
+    }
+  ]
+}

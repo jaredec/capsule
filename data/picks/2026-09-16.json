@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-16",
+  "stories": [
+    {
+      "title": "\"How reading your own writing feels like\"",
+      "summary": "A user posted a hand-drawn gold star that says \"at least its not ai\" as how it feels to reread your own writing. It got 379K likes.",
+      "kind": "image",
+      "tags": ["ai", "writing", "reaction-image"],
+      "category": "internet-culture",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 7,
+      "memeability": 8,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/deerhitch/status/2100229688773800041",
+      "imageUrl": "https://pbs.twimg.com/media/HSWDw9_WUAAxgPA.jpg",
+      "crop": { "x": 0.02, "y": 0, "w": 0.63, "h": 1 }
+    }
+  ]
+}

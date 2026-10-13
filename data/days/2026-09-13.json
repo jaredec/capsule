@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-13",
+  "items": [
+    {
+      "id": "2026-09-13-x-us-open-cuts-from-a-0-07-clock-to-pierce-brosnan",
+      "platform": "x",
+      "rank": 1,
+      "title": "US Open cuts from a 0:07 clock to Pierce Brosnan",
+      "summary": "During Zverev vs. Shelton, the US Open broadcast dissolved from a clock reading 0:07 to former James Bond Pierce Brosnan in the stands. The US Open posted it with \"Absolute cinema.\" and it got 164K likes.",
+      "kind": "video",
+      "tags": [
+        "us-open",
+        "tennis",
+        "pierce-brosnan",
+        "james-bond"
+      ],
+      "author": "@usopen",
+      "sourceUrl": "https://x.com/usopen/status/2099205012006031789",
+      "metrics": {
+        "likes": "164.4K",
+        "replies": "1.4K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 6.3,
+        "reach": 7,
+        "dominance": 7,
+        "memeability": 7,
+        "category": "sports",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T02:42:54.428Z",
+      "post": {
+        "name": "US Open Tennis",
+        "handle": "@usopen",
+        "verified": true,
+        "avatar": "/media/avatars/usopen.webp",
+        "text": "The camera panning from the clock at 0:07 to Pierce Brosnan.\n\nAbsolute cinema.",
+        "postedAt": "2026-09-13T18:34:10.000Z"
+      },
+      "image": {
+        "src": "/media/2026-09-13/2026-09-13-x-us-open-cuts-from-a-0-07-clock-to-pierce-brosnan.webp",
+        "width": 720,
+        "height": 405,
+        "from": "https://video.twimg.com/amplify_video/2099204989432307720/vid/avc1/1280x720/m0ohQGoczQu-53vS.mp4?tag=16#t=2",
+        "crop": {
+          "x": 0.5,
+          "y": 0,
+          "w": 0.45,
+          "h": 1
+        }
+      }
+    }
+  ]
+}
