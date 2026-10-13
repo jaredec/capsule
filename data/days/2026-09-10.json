@@ -2,54 +2,54 @@
   "date": "2026-09-10",
   "items": [
     {
-      "id": "2026-09-10-x-little-comic-i-did-for-class",
+      "id": "2026-09-10-x-jennifer-lawrence-s-first-instagram-post",
       "platform": "x",
       "rank": 1,
-      "title": "\"Little comic i did for class\"",
-      "summary": "An art student posted a wordless two-panel comic: a couple in bed, the man holding a rubber alien mask, while a real alien stares in through the window, horrified. It got 245K likes.",
-      "kind": "image",
+      "title": "Jennifer Lawrence's first Instagram post",
+      "summary": "Jennifer Lawrence joined Instagram with a selfie video: \"If anyone says anything negative, I will quit. Immediately. If anyone thinks something mean, I'll know. And I'll quit.\" The clip got 110K likes on X.",
+      "kind": "video",
       "tags": [
-        "comic",
-        "aliens",
-        "art"
+        "jennifer-lawrence",
+        "instagram",
+        "first-post"
       ],
-      "author": "@minim86",
-      "sourceUrl": "https://x.com/minim86/status/2098260488115335556",
+      "author": "@FilmUpdates",
+      "sourceUrl": "https://x.com/FilmUpdates/status/2098051926336176215",
       "metrics": {
-        "likes": "244.5K",
-        "replies": "131"
+        "likes": "109.9K",
+        "replies": "1.8K"
       },
       "references": [],
       "pulse": {
-        "score": 7,
+        "score": 6.7,
         "reach": 7,
-        "dominance": 7,
+        "dominance": 6,
         "memeability": 7,
-        "category": "internet-culture",
+        "category": "celebrity",
         "crossover": true
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:33:15.624Z",
+      "post": {
+        "name": "Film Updates",
+        "handle": "@FilmUpdates",
+        "verified": true,
+        "avatar": "/media/avatars/filmupdates.webp",
+        "text": "Jennifer Lawrence shares her first Instagram post:\n\n“If anyone says anything negative, I will quit. Immediately. If anyone thinks something mean, I’ll know. And I’ll quit.”",
+        "postedAt": "2026-09-10T14:12:13.000Z"
+      },
       "image": {
-        "src": "/media/2026-09-10/2026-09-10-x-little-comic-i-did-for-class.webp",
+        "src": "/media/2026-09-10/2026-09-10-x-jennifer-lawrence-s-first-instagram-post.webp",
         "width": 720,
-        "height": 1153,
-        "from": "https://pbs.twimg.com/media/HR6Eo-NbUAAy8Gd.jpg",
+        "height": 1280,
+        "from": "https://video.twimg.com/amplify_video/2098051578225655809/vid/avc1/720x1280/15MDbQjp-WsIwBQ6.mp4#t=1",
         "crop": {
           "x": 0,
           "y": 0,
           "w": 1,
-          "h": 0.85
+          "h": 0.75
         }
-      },
-      "post": {
-        "name": "fka togatapunch🍉",
-        "handle": "@minim86",
-        "verified": false,
-        "avatar": "/media/avatars/minim86.webp",
-        "text": "little comic i did for class",
-        "postedAt": "2026-09-11T04:00:58.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T02:42:53.059Z"
+      }
     }
   ]
 }

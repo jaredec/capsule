@@ -2,19 +2,30 @@
   "date": "2026-09-15",
   "stories": [
     {
-      "title": "\"one day!\" to \"day one!\" at Google",
-      "summary": "In April 2020, @gedearyarp posted \"one day!\" with a photo of a Google sign. He quoted that post with \"day one!\" and a photo of himself outside a Google office wearing a badge, and it got 386K likes.",
+      "title": "Ed Sheeran's openers and band quit his tour",
+      "summary": "A day after Macklemore said Ed Sheeran's team pulled him from the Loop tour over his support for Palestine, all three remaining opening acts and Sheeran's touring band said they were leaving the tour in solidarity. FINNEAS withdrew too. Pop Base's post got 439K likes, and posts about Sheeran topped 5 million likes combined that day.",
       "kind": "image",
-      "tags": ["google", "jobs", "glow-up", "manifesting"],
-      "category": "everyday-life",
+      "tags": [
+        "ed-sheeran",
+        "macklemore",
+        "loop-tour",
+        "finneas"
+      ],
+      "category": "music",
       "crossover": true,
-      "reach": 8,
-      "dominance": 7,
+      "reach": 9,
+      "dominance": 9,
       "memeability": 6,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/gedearyarp/status/2099893745894175169",
-      "imageUrl": "https://pbs.twimg.com/media/HSRSOrYXQAAr9sb.jpg"
+      "sourceUrl": "https://x.com/PopBase/status/2099960014576218350",
+      "imageUrl": "https://pbs.twimg.com/media/HSSOf0fWUAA1nbL.jpg",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.95
+      }
     }
   ]
 }

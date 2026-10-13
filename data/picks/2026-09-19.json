@@ -2,20 +2,29 @@
   "date": "2026-09-19",
   "stories": [
     {
-      "title": "\"To show me how bad my posture is\"",
-      "summary": "A student posted the photo her roommate took of her drawing on her laptop, perched at the front of her chair and folded nearly in half over the desk. It got 215K likes and more than 1,300 replies.",
+      "title": "Zara Larsson cancels her Abu Dhabi show over Sudan",
+      "summary": "Zara Larsson cancelled her Abu Dhabi concert in solidarity with Sudan. Pop Base's post got 243K likes, and a quote post defending her, \"ditching a million dollar performance is not performative\", got 143K.",
       "kind": "image",
-      "tags": ["posture", "college", "drawing", "roommates"],
-      "category": "everyday-life",
+      "tags": [
+        "zara-larsson",
+        "abu-dhabi",
+        "sudan"
+      ],
+      "category": "music",
       "crossover": true,
       "reach": 7,
       "dominance": 7,
-      "memeability": 7,
+      "memeability": 5,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/ieatcrabmeat/status/2101336844646400151",
-      "imageUrl": "https://pbs.twimg.com/media/HSlyuScWIAARnfm.jpg",
-      "crop": { "x": 0, "y": 0, "w": 1, "h": 1 }
+      "sourceUrl": "https://x.com/PopBase/status/2101251354618470492",
+      "imageUrl": "https://pbs.twimg.com/media/HSkk9j5WwAE9f_x.jpg",
+      "crop": {
+        "x": 0.02,
+        "y": 0,
+        "w": 0.96,
+        "h": 1
+      }
     }
   ]
 }

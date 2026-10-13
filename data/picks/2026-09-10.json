@@ -2,20 +2,29 @@
   "date": "2026-09-10",
   "stories": [
     {
-      "title": "\"Little comic i did for class\"",
-      "summary": "An art student posted a wordless two-panel comic: a couple in bed, the man holding a rubber alien mask, while a real alien stares in through the window, horrified. It got 245K likes.",
-      "kind": "image",
-      "tags": ["comic", "aliens", "art"],
-      "category": "internet-culture",
+      "title": "Jennifer Lawrence's first Instagram post",
+      "summary": "Jennifer Lawrence joined Instagram with a selfie video: \"If anyone says anything negative, I will quit. Immediately. If anyone thinks something mean, I'll know. And I'll quit.\" The clip got 110K likes on X.",
+      "kind": "video",
+      "tags": [
+        "jennifer-lawrence",
+        "instagram",
+        "first-post"
+      ],
+      "category": "celebrity",
       "crossover": true,
       "reach": 7,
-      "dominance": 7,
+      "dominance": 6,
       "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/minim86/status/2098260488115335556",
-      "imageUrl": "https://pbs.twimg.com/media/HR6Eo-NbUAAy8Gd.jpg",
-      "crop": { "x": 0, "y": 0, "w": 1, "h": 0.85 }
+      "sourceUrl": "https://x.com/FilmUpdates/status/2098051926336176215",
+      "frameAt": 1,
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.75
+      }
     }
   ]
 }

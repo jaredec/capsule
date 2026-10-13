@@ -2,20 +2,30 @@
   "date": "2026-09-14",
   "stories": [
     {
-      "title": "The crows left her bread",
-      "summary": "A woman who regularly feeds the crows on her balcony posted that she had skipped a day because she was low on biscuits, and the next morning the crows had left pieces of bread on the balcony for her. It got 352K likes.",
+      "title": "Macaulay Culkin's Emmys tribute to Catherine O'Hara",
+      "summary": "At the Emmys, Macaulay Culkin honored his late Home Alone mom: \"She may have forgotten me twice… but we will always remember her.\" The line got 158K likes.",
       "kind": "image",
-      "tags": ["crows", "birds", "kindness"],
-      "category": "animals",
+      "tags": [
+        "emmys",
+        "macaulay-culkin",
+        "catherine-ohara",
+        "home-alone"
+      ],
+      "category": "tv-film",
       "crossover": true,
       "reach": 8,
       "dominance": 7,
       "memeability": 6,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/TejaswineeRC/status/2099712157621330098",
-      "imageUrl": "https://pbs.twimg.com/media/HSOtB78bkAAka_3.jpg",
-      "crop": { "x": 0, "y": 0, "w": 0.58, "h": 1 }
+      "sourceUrl": "https://x.com/FilmUpdates/status/2099690220333760660",
+      "imageUrl": "https://pbs.twimg.com/media/HSOZIHNbwAAK023.jpg",
+      "crop": {
+        "x": 0.1,
+        "y": 0,
+        "w": 0.75,
+        "h": 1
+      }
     }
   ]
 }

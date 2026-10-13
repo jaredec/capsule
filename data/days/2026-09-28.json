@@ -2,54 +2,55 @@
   "date": "2026-09-28",
   "items": [
     {
-      "id": "2026-09-28-x-the-cuck-commentary-desk-a-hotel-room-whose-desk",
+      "id": "2026-09-28-x-you-won-t-tell-your-therapist-but-you-ll-tell-ai",
       "platform": "x",
       "rank": 1,
-      "title": "The \"cuck commentary desk\": a hotel room whose desk faces the bed",
-      "summary": "A photo of a cramped hotel room, with a long desk and two chairs lined up facing the bed, went up late Sunday captioned \"Behold, the cuck commentary desk\". By Monday it was everywhere: the top quote post, a clip of sports commentators losing their minds at the call, got 550K likes, and people kept adding their own play-by-play.",
+      "title": "\"You won't tell your therapist. But you'll tell AI?\"",
+      "summary": "A photo of an anti-AI ad on a subway train reading \"You won't tell your therapist. But you'll tell AI? Stop the AI drift.\" got 345K likes.",
       "kind": "image",
       "tags": [
-        "hotel",
-        "commentary-desk",
-        "shitpost"
+        "ai",
+        "ads",
+        "subway",
+        "therapy"
       ],
-      "author": "@Nilmen",
-      "sourceUrl": "https://x.com/Nilmen/status/2104454951548404119",
+      "author": "@allthistimer",
+      "sourceUrl": "https://x.com/allthistimer/status/2104673454234497349",
       "metrics": {
-        "likes": "303.9K",
-        "replies": "1.2K"
+        "likes": "344.7K",
+        "replies": "335"
       },
       "references": [],
       "pulse": {
-        "score": 7.9,
+        "score": 6.3,
         "reach": 7,
-        "dominance": 8,
-        "memeability": 9,
-        "category": "internet-culture",
+        "dominance": 7,
+        "memeability": 7,
+        "category": "tech",
         "crossover": true
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:33:22.542Z",
+      "post": {
+        "name": "mads ໑̣",
+        "handle": "@allthistimer",
+        "verified": false,
+        "avatar": "/media/avatars/allthistimer.webp",
+        "text": "anti ai ads in the subway #healings",
+        "postedAt": "2026-09-28T20:43:49.000Z"
+      },
       "image": {
-        "src": "/media/2026-09-28/2026-09-28-x-the-cuck-commentary-desk-a-hotel-room-whose-desk.webp",
+        "src": "/media/2026-09-28/2026-09-28-x-you-won-t-tell-your-therapist-but-you-ll-tell-ai.webp",
         "width": 720,
-        "height": 720,
-        "from": "https://pbs.twimg.com/media/HTSGl-XWsAAIxX2.jpg?name=medium",
+        "height": 960,
+        "from": "https://pbs.twimg.com/media/HTVNWS9WYAATPJ_.jpg",
         "crop": {
-          "x": 0.2,
+          "x": 0,
           "y": 0,
-          "w": 0.75,
+          "w": 1,
           "h": 1
         }
-      },
-      "post": {
-        "name": "Nemlin",
-        "handle": "@Nilmen",
-        "verified": false,
-        "avatar": "/media/avatars/nilmen.webp",
-        "text": "Behold, the cuck commentary desk",
-        "postedAt": "2026-09-28T06:15:33.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T07:03:03.509Z"
+      }
     }
   ]
 }

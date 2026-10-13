@@ -2,20 +2,29 @@
   "date": "2026-09-21",
   "stories": [
     {
-      "title": "\"Playing the harmonica with my feet\"",
-      "summary": "A man posted a dating profile whose \"most random skill\" was \"Playing the harmonica with my feet\", and his message asking how she figured that out. Her reply: \"i didn't you're weird lmao\". He captioned it \"Am I going insane\", and it got 537K likes.",
+      "title": "First look at Callina Liang as Chun-Li",
+      "summary": "A set photo of Callina Liang in costume as Chun-Li for the Street Fighter movie got 236K likes.",
       "kind": "image",
-      "tags": ["dating-apps", "harmonica", "texts"],
-      "category": "everyday-life",
+      "tags": [
+        "street-fighter",
+        "chun-li",
+        "callina-liang"
+      ],
+      "category": "tv-film",
       "crossover": true,
-      "reach": 8,
-      "dominance": 8,
-      "memeability": 7,
+      "reach": 7,
+      "dominance": 7,
+      "memeability": 5,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/Iamsharknado/status/2102234444941926644",
-      "imageUrl": "https://pbs.twimg.com/media/HSyjFZJXgAAR1HR.jpg",
-      "crop": { "x": 0, "y": 0, "w": 1, "h": 0.86 }
+      "sourceUrl": "https://x.com/DiscussingFilm/status/2102061150430970329",
+      "imageUrl": "https://pbs.twimg.com/media/HSwFeZgWEAAxfIH.jpg",
+      "crop": {
+        "x": 0.1,
+        "y": 0,
+        "w": 0.75,
+        "h": 1
+      }
     }
   ]
 }

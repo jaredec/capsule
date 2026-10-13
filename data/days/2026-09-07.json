@@ -2,54 +2,55 @@
   "date": "2026-09-07",
   "items": [
     {
-      "id": "2026-09-07-x-i-always-get-upset-when-the-borzoi-rests",
+      "id": "2026-09-07-x-the-white-house-s-labor-day-wall-of-marco-rubios",
       "platform": "x",
       "rank": 1,
-      "title": "\"I always get upset when the borzoi rests\"",
-      "summary": "A dog owner posted photos of a borzoi lying flat on the grass next to a golden retriever, writing that it looks \"like the asphalt layer was run over by a truck\". It got 529K likes.",
+      "title": "The White House's Labor Day wall of Marco Rubios",
+      "summary": "For Labor Day, the White House posted \"For all the jobs, @SecRubio\" with a SpongeBob \"Employee of the Month\" wall filled entirely with photos of Marco Rubio, a nod to the many government roles he holds at once.",
       "kind": "image",
       "tags": [
-        "dogs",
-        "borzoi",
-        "golden-retriever"
+        "labor-day",
+        "marco-rubio",
+        "white-house",
+        "spongebob"
       ],
-      "author": "@mrrasmulan",
-      "sourceUrl": "https://x.com/mrrasmulan/status/2097208543333978264",
+      "author": "@WhiteHouse",
+      "sourceUrl": "https://x.com/WhiteHouse/status/2097122561792307663",
       "metrics": {
-        "likes": "529.3K",
-        "replies": "1.3K"
+        "likes": "48.7K",
+        "replies": "1.2K"
       },
       "references": [],
       "pulse": {
-        "score": 7.4,
-        "reach": 8,
-        "dominance": 7,
-        "memeability": 7,
-        "category": "animals",
+        "score": 2.8,
+        "reach": 7,
+        "dominance": 6,
+        "memeability": 8,
+        "category": "politics",
         "crossover": true
       },
-      "image": {
-        "src": "/media/2026-09-07/2026-09-07-x-i-always-get-upset-when-the-borzoi-rests.webp",
-        "width": 720,
-        "height": 938,
-        "from": "https://pbs.twimg.com/media/HRrIDCZXMAAT4A_.jpg",
-        "crop": {
-          "x": 0,
-          "y": 0.25,
-          "w": 1,
-          "h": 0.75
-        }
-      },
-      "post": {
-        "name": "Rasmulan",
-        "handle": "@mrrasmulan",
-        "verified": true,
-        "avatar": "/media/avatars/mrrasmulan.webp",
-        "text": "I always get upset when the borzoi rests 😭 \n\nIt's like the asphalt layer was run over by a truck... \n\nIt's very funny.",
-        "postedAt": "2026-09-08T06:20:55.000Z"
-      },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T02:42:51.729Z"
+      "collectedAt": "2026-10-13T03:33:14.537Z",
+      "post": {
+        "name": "The White House",
+        "handle": "@WhiteHouse",
+        "verified": true,
+        "avatar": "/media/avatars/whitehouse.webp",
+        "text": "For all the jobs, @SecRubio. \n\nHappy Labor Day!",
+        "postedAt": "2026-09-08T00:39:16.000Z"
+      },
+      "image": {
+        "src": "/media/2026-09-07/2026-09-07-x-the-white-house-s-labor-day-wall-of-marco-rubios.webp",
+        "width": 720,
+        "height": 546,
+        "from": "https://pbs.twimg.com/media/HRp52nNbgAARAnp.jpg",
+        "crop": {
+          "x": 0.11,
+          "y": 0,
+          "w": 0.57,
+          "h": 1
+        }
+      }
     }
   ]
 }

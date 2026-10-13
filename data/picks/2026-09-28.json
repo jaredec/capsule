@@ -2,22 +2,28 @@
   "date": "2026-09-28",
   "stories": [
     {
-      "title": "The \"cuck commentary desk\": a hotel room whose desk faces the bed",
-      "summary": "A photo of a cramped hotel room, with a long desk and two chairs lined up facing the bed, went up late Sunday captioned \"Behold, the cuck commentary desk\". By Monday it was everywhere: the top quote post, a clip of sports commentators losing their minds at the call, got 550K likes, and people kept adding their own play-by-play.",
+      "title": "\"You won't tell your therapist. But you'll tell AI?\"",
+      "summary": "A photo of an anti-AI ad on a subway train reading \"You won't tell your therapist. But you'll tell AI? Stop the AI drift.\" got 345K likes.",
       "kind": "image",
-      "tags": ["hotel", "commentary-desk", "shitpost"],
-      "category": "internet-culture",
+      "tags": [
+        "ai",
+        "ads",
+        "subway",
+        "therapy"
+      ],
+      "category": "tech",
       "crossover": true,
       "reach": 7,
-      "dominance": 8,
-      "memeability": 9,
+      "dominance": 7,
+      "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/Nilmen/status/2104454951548404119",
+      "sourceUrl": "https://x.com/allthistimer/status/2104673454234497349",
+      "imageUrl": "https://pbs.twimg.com/media/HTVNWS9WYAATPJ_.jpg",
       "crop": {
-        "x": 0.2,
+        "x": 0,
         "y": 0,
-        "w": 0.75,
+        "w": 1,
         "h": 1
       }
     }

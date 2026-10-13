@@ -2,20 +2,30 @@
   "date": "2026-09-07",
   "stories": [
     {
-      "title": "\"I always get upset when the borzoi rests\"",
-      "summary": "A dog owner posted photos of a borzoi lying flat on the grass next to a golden retriever, writing that it looks \"like the asphalt layer was run over by a truck\". It got 529K likes.",
+      "title": "The White House's Labor Day wall of Marco Rubios",
+      "summary": "For Labor Day, the White House posted \"For all the jobs, @SecRubio\" with a SpongeBob \"Employee of the Month\" wall filled entirely with photos of Marco Rubio, a nod to the many government roles he holds at once.",
       "kind": "image",
-      "tags": ["dogs", "borzoi", "golden-retriever"],
-      "category": "animals",
+      "tags": [
+        "labor-day",
+        "marco-rubio",
+        "white-house",
+        "spongebob"
+      ],
+      "category": "politics",
       "crossover": true,
-      "reach": 8,
-      "dominance": 7,
-      "memeability": 7,
+      "reach": 7,
+      "dominance": 6,
+      "memeability": 8,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/mrrasmulan/status/2097208543333978264",
-      "imageUrl": "https://pbs.twimg.com/media/HRrIDCZXMAAT4A_.jpg",
-      "crop": { "x": 0, "y": 0.25, "w": 1, "h": 0.75 }
+      "sourceUrl": "https://x.com/WhiteHouse/status/2097122561792307663",
+      "imageUrl": "https://pbs.twimg.com/media/HRp52nNbgAARAnp.jpg",
+      "crop": {
+        "x": 0.11,
+        "y": 0,
+        "w": 0.57,
+        "h": 1
+      }
     }
   ]
 }

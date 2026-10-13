@@ -2,20 +2,29 @@
   "date": "2026-09-16",
   "stories": [
     {
-      "title": "\"How reading your own writing feels like\"",
-      "summary": "A user posted a hand-drawn gold star that says \"at least its not ai\" as how it feels to reread your own writing. It got 379K likes.",
+      "title": "Spider-Man: Brand New Day becomes the top domestic grosser ever",
+      "summary": "Spider-Man: Brand New Day passed Star Wars: The Force Awakens to become the highest-grossing film of all time at the domestic box office. DiscussingFilm's post got 174K likes.",
       "kind": "image",
-      "tags": ["ai", "writing", "reaction-image"],
-      "category": "internet-culture",
+      "tags": [
+        "spider-man",
+        "box-office",
+        "marvel"
+      ],
+      "category": "tv-film",
       "crossover": true,
       "reach": 8,
       "dominance": 7,
-      "memeability": 8,
+      "memeability": 5,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/deerhitch/status/2100229688773800041",
-      "imageUrl": "https://pbs.twimg.com/media/HSWDw9_WUAAxgPA.jpg",
-      "crop": { "x": 0.02, "y": 0, "w": 0.63, "h": 1 }
+      "sourceUrl": "https://x.com/DiscussingFilm/status/2100235214312116687",
+      "imageUrl": "https://pbs.twimg.com/media/HSWIy2kWcAAh6pE.jpg",
+      "crop": {
+        "x": 0,
+        "y": 0.06,
+        "w": 1,
+        "h": 0.88
+      }
     }
   ]
 }

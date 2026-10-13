@@ -2,53 +2,53 @@
   "date": "2026-09-15",
   "items": [
     {
-      "id": "2026-09-15-x-one-day-to-day-one-at-google",
+      "id": "2026-09-15-x-ed-sheeran-s-openers-and-band-quit-his-tour",
       "platform": "x",
       "rank": 1,
-      "title": "\"one day!\" to \"day one!\" at Google",
-      "summary": "In April 2020, @gedearyarp posted \"one day!\" with a photo of a Google sign. He quoted that post with \"day one!\" and a photo of himself outside a Google office wearing a badge, and it got 386K likes.",
+      "title": "Ed Sheeran's openers and band quit his tour",
+      "summary": "A day after Macklemore said Ed Sheeran's team pulled him from the Loop tour over his support for Palestine, all three remaining opening acts and Sheeran's touring band said they were leaving the tour in solidarity. FINNEAS withdrew too. Pop Base's post got 439K likes, and posts about Sheeran topped 5 million likes combined that day.",
       "kind": "image",
       "tags": [
-        "google",
-        "jobs",
-        "glow-up",
-        "manifesting"
+        "ed-sheeran",
+        "macklemore",
+        "loop-tour",
+        "finneas"
       ],
-      "author": "@gedearyarp",
-      "sourceUrl": "https://x.com/gedearyarp/status/2099893745894175169",
+      "author": "@PopBase",
+      "sourceUrl": "https://x.com/PopBase/status/2099960014576218350",
       "metrics": {
-        "likes": "385.9K",
-        "replies": "2.4K"
+        "likes": "438.7K",
+        "replies": "2.8K"
       },
       "references": [],
       "pulse": {
-        "score": 7.2,
-        "reach": 8,
-        "dominance": 7,
+        "score": 8.3,
+        "reach": 9,
+        "dominance": 9,
         "memeability": 6,
-        "category": "everyday-life",
+        "category": "music",
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T02:47:16.208Z",
+      "collectedAt": "2026-10-13T03:33:18.460Z",
       "post": {
-        "name": "gede arya | 🇬🇧 tehc bro",
-        "handle": "@gedearyarp",
-        "verified": false,
-        "avatar": "/media/avatars/gedearyarp.webp",
-        "text": "day one!",
-        "postedAt": "2026-09-15T16:10:57.000Z"
+        "name": "Pop Base",
+        "handle": "@PopBase",
+        "verified": true,
+        "avatar": "/media/avatars/popbase.webp",
+        "text": "All three remaining opening acts and Ed Sheeran’s touring band have announced that they are dropping out of the remaining dates of his ‘Loop’ tour in solidarity with Palestine and Macklemore.",
+        "postedAt": "2026-09-15T20:34:17.000Z"
       },
       "image": {
-        "src": "/media/2026-09-15/2026-09-15-x-one-day-to-day-one-at-google.webp",
+        "src": "/media/2026-09-15/2026-09-15-x-ed-sheeran-s-openers-and-band-quit-his-tour.webp",
         "width": 720,
-        "height": 960,
-        "from": "https://pbs.twimg.com/media/HSRSOrYXQAAr9sb.jpg",
+        "height": 1008,
+        "from": "https://pbs.twimg.com/media/HSSOf0fWUAA1nbL.jpg",
         "crop": {
           "x": 0,
           "y": 0,
           "w": 1,
-          "h": 1
+          "h": 0.95
         }
       }
     }

@@ -2,54 +2,55 @@
   "date": "2026-09-02",
   "items": [
     {
-      "id": "2026-09-02-x-my-barber-is-tweaking-dawg",
+      "id": "2026-09-02-x-the-nba-strips-the-clippers-of-five-first-round-",
       "platform": "x",
       "rank": 1,
-      "title": "\"My barber is tweaking dawg\"",
-      "summary": "A man posted his barbershop's haircut chart: 12 numbered styles, all on the same model, and many of them hard to tell apart. It got 190K likes.",
+      "title": "The NBA strips the Clippers of five first-round picks",
+      "summary": "After a yearlong probe into salary cap circumvention involving Kawhi Leonard, the NBA took five first-round picks from the Los Angeles Clippers, fined owner Steve Ballmer $30 million and handed out suspensions, including to Ballmer. Shams Charania's report got 124K likes, and fans tallied what Leonard had cost the franchise, from Shai Gilgeous-Alexander to 10 first-round picks.",
       "kind": "image",
       "tags": [
-        "barber",
-        "haircuts",
-        "chart"
+        "nba",
+        "clippers",
+        "kawhi-leonard",
+        "steve-ballmer"
       ],
-      "author": "@Dashytwo",
-      "sourceUrl": "https://x.com/Dashytwo/status/2095215390640972128",
+      "author": "@ShamsCharania",
+      "sourceUrl": "https://x.com/ShamsCharania/status/2095245737571308020",
       "metrics": {
-        "likes": "190K",
-        "replies": "376"
+        "likes": "124.5K",
+        "replies": "7.5K"
       },
       "references": [],
       "pulse": {
-        "score": 6.9,
-        "reach": 7,
-        "dominance": 6,
-        "memeability": 8,
-        "category": "everyday-life",
+        "score": 6.4,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 6,
+        "category": "sports",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:13:30.412Z",
-      "post": {
-        "name": "Dashy™️🦥",
-        "handle": "@Dashytwo",
-        "verified": true,
-        "avatar": "/media/avatars/dashytwo.webp",
-        "text": "My barber is tweaking dawg",
-        "postedAt": "2026-09-02T18:20:51.000Z"
-      },
       "image": {
-        "src": "/media/2026-09-02/2026-09-02-x-my-barber-is-tweaking-dawg.webp",
+        "src": "/media/2026-09-02/2026-09-02-x-the-nba-strips-the-clippers-of-five-first-round-.webp",
         "width": 720,
-        "height": 668,
-        "from": "https://pbs.twimg.com/media/HROzSlwaQAARC_o.jpg",
+        "height": 900,
+        "from": "https://pbs.twimg.com/media/HRPO5CMWkAczGat.jpg",
         "crop": {
-          "x": 0.16,
+          "x": 0.45,
           "y": 0,
-          "w": 0.7,
-          "h": 1
+          "w": 0.55,
+          "h": 0.59
         }
-      }
+      },
+      "post": {
+        "name": "Shams Charania",
+        "handle": "@ShamsCharania",
+        "verified": true,
+        "avatar": "/media/avatars/shamscharania.webp",
+        "text": "BREAKING: The NBA has ruled on the Los Angeles Clippers in for salary cap circumvention investigations on Kawhi Leonard after yearlong probe -- stripping the franchise of 5 first-round picks, issuing a $30 million fine to owner Steve Ballmer and suspensions for Ballmer, Lawrence",
+        "postedAt": "2026-09-02T20:21:26.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:33:13.469Z"
     }
   ]
 }

@@ -2,52 +2,51 @@
   "date": "2026-09-19",
   "items": [
     {
-      "id": "2026-09-19-x-to-show-me-how-bad-my-posture-is",
+      "id": "2026-09-19-x-zara-larsson-cancels-her-abu-dhabi-show-over-sud",
       "platform": "x",
       "rank": 1,
-      "title": "\"To show me how bad my posture is\"",
-      "summary": "A student posted the photo her roommate took of her drawing on her laptop, perched at the front of her chair and folded nearly in half over the desk. It got 215K likes and more than 1,300 replies.",
+      "title": "Zara Larsson cancels her Abu Dhabi show over Sudan",
+      "summary": "Zara Larsson cancelled her Abu Dhabi concert in solidarity with Sudan. Pop Base's post got 243K likes, and a quote post defending her, \"ditching a million dollar performance is not performative\", got 143K.",
       "kind": "image",
       "tags": [
-        "posture",
-        "college",
-        "drawing",
-        "roommates"
+        "zara-larsson",
+        "abu-dhabi",
+        "sudan"
       ],
-      "author": "@ieatcrabmeat",
-      "sourceUrl": "https://x.com/ieatcrabmeat/status/2101336844646400151",
+      "author": "@PopBase",
+      "sourceUrl": "https://x.com/PopBase/status/2101251354618470492",
       "metrics": {
-        "likes": "215.2K",
-        "replies": "1.3K"
+        "likes": "242.7K",
+        "replies": "950"
       },
       "references": [],
       "pulse": {
-        "score": 7,
+        "score": 6.5,
         "reach": 7,
         "dominance": 7,
-        "memeability": 7,
-        "category": "everyday-life",
+        "memeability": 5,
+        "category": "music",
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T02:56:38.299Z",
+      "collectedAt": "2026-10-13T03:33:19.626Z",
       "post": {
-        "name": "rex ˚ ༘ ೀ🏈",
-        "handle": "@ieatcrabmeat",
-        "verified": false,
-        "avatar": "/media/avatars/ieatcrabmeat.webp",
-        "text": "My roommate took a photo of me while drawing to show me how bad my posture is and holy shit",
-        "postedAt": "2026-09-19T15:45:19.000Z"
+        "name": "Pop Base",
+        "handle": "@PopBase",
+        "verified": true,
+        "avatar": "/media/avatars/popbase.webp",
+        "text": "Zara Larsson says she has cancelled her Abu Dhabi show in solidarity with Sudan.",
+        "postedAt": "2026-09-19T10:05:36.000Z"
       },
       "image": {
-        "src": "/media/2026-09-19/2026-09-19-x-to-show-me-how-bad-my-posture-is.webp",
+        "src": "/media/2026-09-19/2026-09-19-x-zara-larsson-cancels-her-abu-dhabi-show-over-sud.webp",
         "width": 720,
-        "height": 960,
-        "from": "https://pbs.twimg.com/media/HSlyuScWIAARnfm.jpg",
+        "height": 921,
+        "from": "https://pbs.twimg.com/media/HSkk9j5WwAE9f_x.jpg",
         "crop": {
-          "x": 0,
+          "x": 0.02,
           "y": 0,
-          "w": 1,
+          "w": 0.96,
           "h": 1
         }
       }

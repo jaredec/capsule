@@ -2,55 +2,55 @@
   "date": "2026-09-03",
   "items": [
     {
-      "id": "2026-09-03-x-hi-joy-it-s-hope-calling",
+      "id": "2026-09-03-x-openai-launches-gpt-6-astra",
       "platform": "x",
       "rank": 1,
-      "title": "\"Hi Joy, it's Hope calling\"",
-      "summary": "A user named Hope posted that she had to call a patient named Joy, so her voicemail opened with \"hi joy, its hope calling\", paired with a GIF of a grinning Emma Stone. It got 334K likes, and quote posts compared it to the emotions in Inside Out.",
+      "title": "OpenAI launches GPT-6 Astra",
+      "summary": "OpenAI introduced GPT-6 Astra with \"Anything you can do on a computer, Astra can do for you. Fast.\" The launch video got 340K likes, and Sam Altman called it the start of \"a new generation of entrepreneurship, scientific discovery, and building\". It went live in ChatGPT for Pro, Enterprise and Business Premium users and in the API.",
       "kind": "video",
       "tags": [
-        "names",
-        "work",
-        "voicemail",
-        "inside-out"
+        "openai",
+        "gpt-6",
+        "astra",
+        "ai"
       ],
-      "author": "@caitvisthird",
-      "sourceUrl": "https://x.com/caitvisthird/status/2095450893416108284",
+      "author": "@OpenAI",
+      "sourceUrl": "https://x.com/OpenAI/status/2095595741528125780",
       "metrics": {
-        "likes": "333.7K",
-        "replies": "217"
+        "likes": "339.5K",
+        "replies": "9.2K"
       },
       "references": [],
       "pulse": {
-        "score": 7,
-        "reach": 7,
-        "dominance": 7,
-        "memeability": 7,
-        "category": "everyday-life",
+        "score": 6.5,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 5,
+        "category": "tech",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T02:42:49.520Z",
-      "post": {
-        "name": "hop goes to japan in 7 days!",
-        "handle": "@caitvisthird",
-        "verified": false,
-        "avatar": "/media/avatars/caitvisthird.webp",
-        "text": "needed to call a patient named joy today so in my voicemail i had to say 'hi joy, its hope calling'",
-        "postedAt": "2026-09-03T09:56:39.000Z"
-      },
       "image": {
-        "src": "/media/2026-09-03/2026-09-03-x-hi-joy-it-s-hope-calling.webp",
-        "width": 498,
-        "height": 332,
-        "from": "https://video.twimg.com/tweet_video/HRSJd-iXQAER-M5.mp4#t=1.5",
+        "src": "/media/2026-09-03/2026-09-03-x-openai-launches-gpt-6-astra.webp",
+        "width": 720,
+        "height": 405,
+        "from": "https://video.twimg.com/amplify_video/2095595661559574528/vid/avc1/1280x720/Cv4dXuFNWqERUUJd.mp4#t=12",
         "crop": {
-          "x": 0.2,
+          "x": 0.29,
           "y": 0,
-          "w": 0.6,
+          "w": 0.42,
           "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "OpenAI",
+        "handle": "@OpenAI",
+        "verified": true,
+        "avatar": "/media/avatars/openai.webp",
+        "text": "This is GPT-6 Astra.\n\nAnything you can do on a computer, Astra can do for you. Fast.",
+        "postedAt": "2026-09-03T19:32:13.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:33:13.795Z"
     }
   ]
 }

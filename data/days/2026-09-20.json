@@ -2,51 +2,51 @@
   "date": "2026-09-20",
   "items": [
     {
-      "id": "2026-09-20-x-who-the-hell-is-this-guy-hanging-out-with",
+      "id": "2026-09-20-x-the-pentagon-hosts-logan-and-jake-paul",
       "platform": "x",
       "rank": 1,
-      "title": "\"Who the hell is this guy hanging out with\"",
-      "summary": "A user posted a bookstore shelf of Thomas Erikson's books: Surrounded by Liars, Surrounded by Narcissists and Surrounded by Idiots. The caption, \"who the hell is this guy hanging out with\", got 366K likes.",
-      "kind": "image",
+      "title": "The Pentagon hosts Logan and Jake Paul",
+      "summary": "The Department of War posted a video of Logan and Jake Paul's visit to the Pentagon \"to meet with our warriors.\" It got 35K likes and 19K replies, while quote posts like \"holy shit we are all going to die\" (345K) and a reminder of Logan's 2018 suicide forest video (321K) went far bigger.",
+      "kind": "video",
       "tags": [
-        "books",
-        "self-help",
-        "bookstore"
+        "logan-paul",
+        "jake-paul",
+        "pentagon"
       ],
-      "author": "@DJUNGELSK0GS",
-      "sourceUrl": "https://x.com/DJUNGELSK0GS/status/2101874520240103714",
+      "author": "@DeptofWar",
+      "sourceUrl": "https://x.com/DeptofWar/status/2101704848009744783",
       "metrics": {
-        "likes": "366.3K",
-        "replies": "1.9K"
+        "likes": "35.4K",
+        "replies": "19.2K"
       },
       "references": [],
       "pulse": {
-        "score": 7.7,
+        "score": 3.2,
         "reach": 8,
-        "dominance": 7,
+        "dominance": 8,
         "memeability": 8,
-        "category": "internet-culture",
+        "category": "politics",
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T02:59:50.493Z",
+      "collectedAt": "2026-10-13T03:33:19.927Z",
       "post": {
-        "name": "solaris",
-        "handle": "@DJUNGELSK0GS",
-        "verified": false,
-        "avatar": "/media/avatars/djungelsk0gs.webp",
-        "text": "who the hell is this guy hanging out with",
-        "postedAt": "2026-09-21T03:21:51.000Z"
+        "name": "Department of War 🇺🇸",
+        "handle": "@DeptofWar",
+        "verified": true,
+        "avatar": "/media/avatars/deptofwar.webp",
+        "text": "Last Thursday, we welcomed Logan and Jake Paul to the Pentagon to meet with our warriors.",
+        "postedAt": "2026-09-20T16:07:38.000Z"
       },
       "image": {
-        "src": "/media/2026-09-20/2026-09-20-x-who-the-hell-is-this-guy-hanging-out-with.webp",
+        "src": "/media/2026-09-20/2026-09-20-x-the-pentagon-hosts-logan-and-jake-paul.webp",
         "width": 720,
-        "height": 960,
-        "from": "https://pbs.twimg.com/media/HStbui-aAAAZRk1.jpg",
+        "height": 405,
+        "from": "https://video.twimg.com/amplify_video/2101704694707986432/vid/avc1/1280x720/0IsrRJeKX3JfXaiP.mp4#t=15",
         "crop": {
-          "x": 0,
+          "x": 0.38,
           "y": 0,
-          "w": 1,
+          "w": 0.42,
           "h": 1
         }
       }

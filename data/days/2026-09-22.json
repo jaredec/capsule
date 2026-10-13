@@ -2,52 +2,51 @@
   "date": "2026-09-22",
   "items": [
     {
-      "id": "2026-09-22-x-my-retired-dad-thinks-jobs-work-like-they-did-in",
+      "id": "2026-09-22-x-taylor-swift-announces-patient-zero",
       "platform": "x",
       "rank": 1,
-      "title": "\"My retired dad thinks jobs work like they did in the 80s\"",
-      "summary": "A woman posted her texts with her dad: she told him someone quit at her job, and he congratulated her on finally getting the promotion she always wanted. When she said she now had to do two people's work, he asked if she'd get paid more, and she replied \"I need you to stop applying logic to this\". It got 284K likes.",
+      "title": "Taylor Swift announces \"Patient Zero\"",
+      "summary": "Taylor Swift announced a new single, \"Patient Zero\", out Sep 25, with pre-orders open for 24 hours. The post got 320K likes.",
       "kind": "image",
       "tags": [
-        "work",
-        "parents",
-        "texts",
-        "jobs"
+        "taylor-swift",
+        "patient-zero",
+        "new-music"
       ],
-      "author": "@ceraliza",
-      "sourceUrl": "https://x.com/ceraliza/status/2102471216065904915",
+      "author": "@taylorswift13",
+      "sourceUrl": "https://x.com/taylorswift13/status/2102458574563840035",
       "metrics": {
-        "likes": "283.8K",
-        "replies": "322"
+        "likes": "319.8K",
+        "replies": "11.2K"
       },
       "references": [],
       "pulse": {
         "score": 7,
-        "reach": 7,
-        "dominance": 7,
-        "memeability": 7,
-        "category": "everyday-life",
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 4,
+        "category": "music",
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:04:12.186Z",
+      "collectedAt": "2026-10-13T03:33:21.163Z",
       "post": {
-        "name": "sugamummy 🏋🏾‍♀️🎀🧚🏾‍♀️",
-        "handle": "@ceraliza",
+        "name": "Taylor Swift",
+        "handle": "@taylorswift13",
         "verified": true,
-        "avatar": "/media/avatars/ceraliza.webp",
-        "text": "My retired dad thinks jobs work like they did in the 80s",
-        "postedAt": "2026-09-22T18:52:54.000Z"
+        "avatar": "/media/avatars/taylorswift13.webp",
+        "text": "I’ve been impatiently waiting to tell you that my brand new single “Patient Zero” will be out on September 25 (!!!!!!!!!!!!) and it’s available to pre-order now at store.taylorswift.com for 24 hours. 0️⃣0️⃣0️⃣0️⃣",
+        "postedAt": "2026-09-22T18:02:40.000Z"
       },
       "image": {
-        "src": "/media/2026-09-22/2026-09-22-x-my-retired-dad-thinks-jobs-work-like-they-did-in.webp",
+        "src": "/media/2026-09-22/2026-09-22-x-taylor-swift-announces-patient-zero.webp",
         "width": 720,
-        "height": 788,
-        "from": "https://pbs.twimg.com/media/HS16aarWoAAflyu.jpg",
+        "height": 720,
+        "from": "https://pbs.twimg.com/media/HS1u7cHWkAIbc5W.jpg",
         "crop": {
-          "x": 0.09,
+          "x": 0.08,
           "y": 0,
-          "w": 0.82,
+          "w": 0.75,
           "h": 1
         }
       }

@@ -2,20 +2,22 @@
   "date": "2026-09-18",
   "stories": [
     {
-      "title": "The cat in socks and a g-string",
-      "summary": "A cat owner posted her black cat stretched out on a cushion: \"I respect those high class cats in tuxedos but I love that my guy just keeps it casual with socks and a g-string\". His only white markings are on his paws and a thin stripe around his hips. It got 350K likes.",
-      "kind": "image",
-      "tags": ["cats", "pets", "markings"],
-      "category": "animals",
+      "title": "Trump announces a Greenland deal with Denmark",
+      "summary": "Donald Trump announced an agreement with Denmark and Greenland that he said gives the United States \"permanent control over security, and all other needs, in Greenland.\" His post got 495K likes and 36.8K replies, and Pete Hegseth said the military would begin building a large presence there.",
+      "kind": "moment",
+      "tags": [
+        "greenland",
+        "trump",
+        "denmark"
+      ],
+      "category": "politics",
       "crossover": true,
-      "reach": 8,
-      "dominance": 7,
-      "memeability": 7,
+      "reach": 9,
+      "dominance": 9,
+      "memeability": 6,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/_emKamm/status/2101050418876809685",
-      "imageUrl": "https://pbs.twimg.com/media/HSht2aFWEAA3RMP.jpg",
-      "crop": { "x": 0, "y": 0.1, "w": 0.56, "h": 0.9 }
+      "sourceUrl": "https://x.com/realDonaldTrump/status/2101101979808493780"
     }
   ]
 }

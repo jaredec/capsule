@@ -2,20 +2,29 @@
   "date": "2026-09-22",
   "stories": [
     {
-      "title": "\"My retired dad thinks jobs work like they did in the 80s\"",
-      "summary": "A woman posted her texts with her dad: she told him someone quit at her job, and he congratulated her on finally getting the promotion she always wanted. When she said she now had to do two people's work, he asked if she'd get paid more, and she replied \"I need you to stop applying logic to this\". It got 284K likes.",
+      "title": "Taylor Swift announces \"Patient Zero\"",
+      "summary": "Taylor Swift announced a new single, \"Patient Zero\", out Sep 25, with pre-orders open for 24 hours. The post got 320K likes.",
       "kind": "image",
-      "tags": ["work", "parents", "texts", "jobs"],
-      "category": "everyday-life",
+      "tags": [
+        "taylor-swift",
+        "patient-zero",
+        "new-music"
+      ],
+      "category": "music",
       "crossover": true,
-      "reach": 7,
-      "dominance": 7,
-      "memeability": 7,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 4,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/ceraliza/status/2102471216065904915",
-      "imageUrl": "https://pbs.twimg.com/media/HS16aarWoAAflyu.jpg",
-      "crop": { "x": 0.09, "y": 0, "w": 0.82, "h": 1 }
+      "sourceUrl": "https://x.com/taylorswift13/status/2102458574563840035",
+      "imageUrl": "https://pbs.twimg.com/media/HS1u7cHWkAIbc5W.jpg",
+      "crop": {
+        "x": 0.08,
+        "y": 0,
+        "w": 0.75,
+        "h": 1
+      }
     }
   ]
 }

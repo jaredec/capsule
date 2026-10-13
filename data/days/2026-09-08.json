@@ -2,53 +2,53 @@
   "date": "2026-09-08",
   "items": [
     {
-      "id": "2026-09-08-x-a-girl-her-drawing-and-the-office-job",
+      "id": "2026-09-08-x-nintendo-announces-an-ocarina-of-time-remake",
       "platform": "x",
       "rank": 1,
-      "title": "A girl, her drawing, and the office job",
-      "summary": "Artist @ikuta41 posted a wordless four-panel comic: a girl's drawn character grows up beside her from kindergarten to art school, then is gone in the last panel, where she sits at an office desk with her head in her hand. With 941K likes, it was the biggest post of the day.",
-      "kind": "image",
+      "title": "Nintendo announces an Ocarina of Time remake",
+      "summary": "At a Nintendo Direct, Nintendo revealed a remake of The Legend of Zelda: Ocarina of Time for Nintendo Switch 2, out Nov 5. Nintendo of America's trailer got 136K likes, and DiscussingFilm's first look at the gameplay got another 104K.",
+      "kind": "video",
       "tags": [
-        "comic",
-        "art",
-        "growing-up",
-        "work"
+        "nintendo",
+        "zelda",
+        "ocarina-of-time",
+        "switch-2"
       ],
-      "author": "@ikuta41",
-      "sourceUrl": "https://x.com/ikuta41/status/2097259704724721944",
+      "author": "@NintendoAmerica",
+      "sourceUrl": "https://x.com/NintendoAmerica/status/2097333400054927619",
       "metrics": {
-        "likes": "940.7K",
-        "replies": "1.2K"
+        "likes": "135.6K",
+        "replies": "2.7K"
       },
       "references": [],
       "pulse": {
-        "score": 8.2,
-        "reach": 9,
+        "score": 6.5,
+        "reach": 8,
         "dominance": 8,
-        "memeability": 7,
-        "category": "internet-culture",
+        "memeability": 5,
+        "category": "tech",
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T02:42:52.390Z",
+      "collectedAt": "2026-10-13T03:33:14.881Z",
       "post": {
-        "name": "幾田",
-        "handle": "@ikuta41",
+        "name": "Nintendo of America",
+        "handle": "@NintendoAmerica",
         "verified": true,
-        "avatar": "/media/avatars/ikuta41.webp",
-        "text": "",
-        "postedAt": "2026-09-08T09:44:13.000Z"
+        "avatar": "/media/avatars/nintendoamerica.webp",
+        "text": "Adventure through Hyrule and become the Hero of Time when The Legend of #Zelda: Ocarina of Time releases Nov 5 on Nintendo Switch 2. #NintendoDirect",
+        "postedAt": "2026-09-08T14:37:03.000Z"
       },
       "image": {
-        "src": "/media/2026-09-08/2026-09-08-x-a-girl-her-drawing-and-the-office-job.webp",
+        "src": "/media/2026-09-08/2026-09-08-x-nintendo-announces-an-ocarina-of-time-remake.webp",
         "width": 720,
-        "height": 1098,
-        "from": "https://pbs.twimg.com/media/HRr2k8qbkAAmuFt.jpg",
+        "height": 405,
+        "from": "https://pbs.twimg.com/media/HRs5nNrXEAAc9cP.jpg",
         "crop": {
-          "x": 0,
-          "y": 0.126,
-          "w": 1,
-          "h": 0.874
+          "x": 0.06,
+          "y": 0,
+          "w": 0.42,
+          "h": 1
         }
       }
     }

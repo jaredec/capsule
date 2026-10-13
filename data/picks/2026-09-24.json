@@ -2,22 +2,28 @@
   "date": "2026-09-24",
   "stories": [
     {
-      "title": "\"Let’s Watch Influencer Breakup Videos and Pick Sides\"",
-      "summary": "A photo of a YouTube recommendation, The Lucas Lounge beaming with his arms spread between two \"We Broke Up\" thumbnails on a video called \"Let’s Watch Influencer Breakup Videos and Pick Sides\", captioned only \"LMFAO???\". It was the day's most-liked post at 660K, and the top quote post, \"glad to see some people are still innovating in the content creation space\", got another 330K.",
+      "title": "Hannah Einbinder and Susan Sarandon detained at a Netanyahu protest",
+      "summary": "Hannah Einbinder and Susan Sarandon were detained by police in New York while protesting Benjamin Netanyahu's speech at the UN General Assembly. Pop Base's post got 157K likes on a day when Netanyahu's speech dominated X.",
       "kind": "image",
-      "tags": ["lucas-lounge", "youtube", "breakup-videos", "influencers"],
-      "category": "internet-culture",
+      "tags": [
+        "hannah-einbinder",
+        "susan-sarandon",
+        "netanyahu",
+        "un"
+      ],
+      "category": "celebrity",
       "crossover": true,
       "reach": 8,
       "dominance": 7,
-      "memeability": 8,
+      "memeability": 4,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/technicoluor/status/2103176478322205037",
+      "sourceUrl": "https://x.com/PopBase/status/2103211542116524153",
+      "imageUrl": "https://pbs.twimg.com/media/HTAbv8uaIAAuK4k.jpg",
       "crop": {
-        "x": 0.25,
+        "x": 0.07,
         "y": 0,
-        "w": 0.61,
+        "w": 0.855,
         "h": 1
       }
     }

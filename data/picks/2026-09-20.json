@@ -2,20 +2,29 @@
   "date": "2026-09-20",
   "stories": [
     {
-      "title": "\"Who the hell is this guy hanging out with\"",
-      "summary": "A user posted a bookstore shelf of Thomas Erikson's books: Surrounded by Liars, Surrounded by Narcissists and Surrounded by Idiots. The caption, \"who the hell is this guy hanging out with\", got 366K likes.",
-      "kind": "image",
-      "tags": ["books", "self-help", "bookstore"],
-      "category": "internet-culture",
+      "title": "The Pentagon hosts Logan and Jake Paul",
+      "summary": "The Department of War posted a video of Logan and Jake Paul's visit to the Pentagon \"to meet with our warriors.\" It got 35K likes and 19K replies, while quote posts like \"holy shit we are all going to die\" (345K) and a reminder of Logan's 2018 suicide forest video (321K) went far bigger.",
+      "kind": "video",
+      "tags": [
+        "logan-paul",
+        "jake-paul",
+        "pentagon"
+      ],
+      "category": "politics",
       "crossover": true,
       "reach": 8,
-      "dominance": 7,
+      "dominance": 8,
       "memeability": 8,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/DJUNGELSK0GS/status/2101874520240103714",
-      "imageUrl": "https://pbs.twimg.com/media/HStbui-aAAAZRk1.jpg",
-      "crop": { "x": 0, "y": 0, "w": 1, "h": 1 }
+      "sourceUrl": "https://x.com/DeptofWar/status/2101704848009744783",
+      "frameAt": 15,
+      "crop": {
+        "x": 0.38,
+        "y": 0,
+        "w": 0.42,
+        "h": 1
+      }
     }
   ]
 }

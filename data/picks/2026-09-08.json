@@ -2,19 +2,30 @@
   "date": "2026-09-08",
   "stories": [
     {
-      "title": "A girl, her drawing, and the office job",
-      "summary": "Artist @ikuta41 posted a wordless four-panel comic: a girl's drawn character grows up beside her from kindergarten to art school, then is gone in the last panel, where she sits at an office desk with her head in her hand. With 941K likes, it was the biggest post of the day.",
-      "kind": "image",
-      "tags": ["comic", "art", "growing-up", "work"],
-      "category": "internet-culture",
+      "title": "Nintendo announces an Ocarina of Time remake",
+      "summary": "At a Nintendo Direct, Nintendo revealed a remake of The Legend of Zelda: Ocarina of Time for Nintendo Switch 2, out Nov 5. Nintendo of America's trailer got 136K likes, and DiscussingFilm's first look at the gameplay got another 104K.",
+      "kind": "video",
+      "tags": [
+        "nintendo",
+        "zelda",
+        "ocarina-of-time",
+        "switch-2"
+      ],
+      "category": "tech",
       "crossover": true,
-      "reach": 9,
+      "reach": 8,
       "dominance": 8,
-      "memeability": 7,
+      "memeability": 5,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/ikuta41/status/2097259704724721944",
-      "imageUrl": "https://pbs.twimg.com/media/HRr2k8qbkAAmuFt.jpg"
+      "sourceUrl": "https://x.com/NintendoAmerica/status/2097333400054927619",
+      "imageUrl": "https://pbs.twimg.com/media/HRs5nNrXEAAc9cP.jpg",
+      "crop": {
+        "x": 0.06,
+        "y": 0,
+        "w": 0.42,
+        "h": 1
+      }
     }
   ]
 }
