@@ -2,20 +2,29 @@
   "date": "2026-09-04",
   "stories": [
     {
-      "title": "Willem Dafoe's new set of poses",
-      "summary": "Complex shared four photos of Willem Dafoe by photographer Daniel Sannwald, including one of him crawling across a desk and one folded in half with his head hanging by his shins. It got 252K likes, and the top quote post, \"unc still got it\", got 320K.",
+      "title": "Mistrial in the Lindsay Clancy murder case",
+      "summary": "A judge declared a mistrial in the case of Lindsay Clancy, charged with murdering her three children, after the jury deadlocked 11-1. The lone holdout, the only juror voting to convict, became the story of the day. TMZ's breaking post got 32K likes and quotes of it another 126K, and a clip of the holdout leaving court got 144K.",
       "kind": "image",
-      "tags": ["willem-dafoe", "photoshoot", "poses"],
-      "category": "celebrity",
+      "tags": [
+        "lindsay-clancy",
+        "mistrial",
+        "jury",
+        "trial"
+      ],
+      "category": "news",
       "crossover": true,
-      "reach": 7,
-      "dominance": 7,
-      "memeability": 8,
+      "reach": 9,
+      "dominance": 9,
+      "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/Complex/status/2096040046784819439",
-      "imageUrl": "https://pbs.twimg.com/media/HRahT04boAAfOt3.jpg",
-      "crop": { "x": 0.34, "y": 0, "w": 0.459, "h": 0.49 }
+      "sourceUrl": "https://x.com/TMZ/status/2095897682266984590",
+      "crop": {
+        "x": 0.23,
+        "y": 0,
+        "w": 0.421875,
+        "h": 1
+      }
     }
   ]
 }

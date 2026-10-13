@@ -2,54 +2,55 @@
   "date": "2026-09-04",
   "items": [
     {
-      "id": "2026-09-04-x-willem-dafoe-s-new-set-of-poses",
+      "id": "2026-09-04-x-mistrial-in-the-lindsay-clancy-murder-case",
       "platform": "x",
       "rank": 1,
-      "title": "Willem Dafoe's new set of poses",
-      "summary": "Complex shared four photos of Willem Dafoe by photographer Daniel Sannwald, including one of him crawling across a desk and one folded in half with his head hanging by his shins. It got 252K likes, and the top quote post, \"unc still got it\", got 320K.",
+      "title": "Mistrial in the Lindsay Clancy murder case",
+      "summary": "A judge declared a mistrial in the case of Lindsay Clancy, charged with murdering her three children, after the jury deadlocked 11-1. The lone holdout, the only juror voting to convict, became the story of the day. TMZ's breaking post got 32K likes and quotes of it another 126K, and a clip of the holdout leaving court got 144K.",
       "kind": "image",
       "tags": [
-        "willem-dafoe",
-        "photoshoot",
-        "poses"
+        "lindsay-clancy",
+        "mistrial",
+        "jury",
+        "trial"
       ],
-      "author": "@Complex",
-      "sourceUrl": "https://x.com/Complex/status/2096040046784819439",
+      "author": "@TMZ",
+      "sourceUrl": "https://x.com/TMZ/status/2095897682266984590",
       "metrics": {
-        "likes": "252.4K",
-        "replies": "908"
+        "likes": "31.9K",
+        "replies": "2K"
       },
       "references": [],
       "pulse": {
-        "score": 7.3,
-        "reach": 7,
-        "dominance": 7,
-        "memeability": 8,
-        "category": "celebrity",
+        "score": 7.7,
+        "reach": 9,
+        "dominance": 9,
+        "memeability": 7,
+        "category": "news",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-09-04/2026-09-04-x-willem-dafoe-s-new-set-of-poses.webp",
+        "src": "/media/2026-09-04/2026-09-04-x-mistrial-in-the-lindsay-clancy-murder-case.webp",
         "width": 720,
-        "height": 900,
-        "from": "https://pbs.twimg.com/media/HRahT04boAAfOt3.jpg",
+        "height": 405,
+        "from": "https://pbs.twimg.com/media/HRYf0YbWAAAb6Zq.jpg?name=medium",
         "crop": {
-          "x": 0.34,
+          "x": 0.23,
           "y": 0,
-          "w": 0.459,
-          "h": 0.49
+          "w": 0.421875,
+          "h": 1
         }
       },
       "post": {
-        "name": "Complex",
-        "handle": "@Complex",
+        "name": "TMZ",
+        "handle": "@TMZ",
         "verified": true,
-        "avatar": "/media/avatars/complex.webp",
-        "text": "Willem Dafoe just blessed the timeline with a new set of poses. \n\n[📸: via/ IG danielsannwald]",
-        "postedAt": "2026-09-05T00:57:44.000Z"
+        "avatar": "/media/avatars/tmz.webp",
+        "text": "🚨 BREAKING: Mistrial declared in Lindsay Clancy case. tmz.me/4xF54xi",
+        "postedAt": "2026-09-04T15:32:02.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T04:39:22.189Z"
+      "collectedAt": "2026-10-13T04:49:25.052Z"
     }
   ]
 }
