@@ -2,28 +2,27 @@
   "date": "2026-09-08",
   "stories": [
     {
-      "title": "Nintendo announces an Ocarina of Time remake",
-      "summary": "At a Nintendo Direct, Nintendo revealed a remake of The Legend of Zelda: Ocarina of Time for Nintendo Switch 2, out Nov 5. Nintendo of America's trailer got 136K likes, and DiscussingFilm's first look at the gameplay got another 104K.",
-      "kind": "video",
+      "title": "OpenAI claims a solution to Navier-Stokes",
+      "summary": "OpenAI said a group of AI agents, running a next-generation model more capable than GPT-6 Astra, had produced a solution to the Navier-Stokes Millennium Prize Problem in 88 hours. The announcement got 120K likes, and the pushback was nearly as big: a post accusing OpenAI of overclaiming got 68K.",
+      "kind": "image",
       "tags": [
-        "nintendo",
-        "zelda",
-        "ocarina-of-time",
-        "switch-2"
+        "openai",
+        "navier-stokes",
+        "millennium-prize",
+        "math"
       ],
       "category": "tech",
       "crossover": true,
       "reach": 8,
       "dominance": 8,
-      "memeability": 5,
+      "memeability": 6,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/NintendoAmerica/status/2097333400054927619",
-      "imageUrl": "https://pbs.twimg.com/media/HRs5nNrXEAAc9cP.jpg",
+      "sourceUrl": "https://x.com/OpenAI/status/2097374640582668336",
       "crop": {
-        "x": 0.06,
+        "x": 0.07,
         "y": 0,
-        "w": 0.42,
+        "w": 0.75,
         "h": 1
       }
     }

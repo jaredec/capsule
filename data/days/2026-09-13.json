@@ -6,19 +6,19 @@
       "platform": "x",
       "rank": 1,
       "title": "Steve Sarkisian walks out on Holly Rowe",
-      "summary": "After No. 4 Texas beat No. 1 Ohio State 24-23 with a 21-point comeback, coach Steve Sarkisian walked away from Holly Rowe's postgame interview seconds in, leaving her to walk off alone. A clip of the snub got 29K likes, and Sark, Holly Rowe and #HookEm trended the next day.",
-      "kind": "video",
+      "summary": "After No. 4 Texas beat No. 1 Ohio State 24-23 with a 21-point comeback, coach Steve Sarkisian walked away from Holly Rowe's postgame interview seconds in, throwing up the horns to the camera as he left. Chad Fisher's meme of Sark with Laura Rutledge vs. Holly Rowe got 26K likes, and Sark, Holly Rowe and #HookEm all trended.",
+      "kind": "image",
       "tags": [
         "steve-sarkisian",
         "holly-rowe",
         "texas",
         "ohio-state"
       ],
-      "author": "@KendraMiddleton",
-      "sourceUrl": "https://x.com/KendraMiddleton/status/2098974861544534449",
+      "author": "@ChadFisher",
+      "sourceUrl": "https://x.com/ChadFisher/status/2099235888295256289",
       "metrics": {
-        "likes": "28.8K",
-        "replies": "2.8K"
+        "likes": "26K",
+        "replies": "763"
       },
       "references": [],
       "pulse": {
@@ -33,24 +33,24 @@
         "src": "/media/2026-09-13/2026-09-13-x-steve-sarkisian-walks-out-on-holly-rowe.webp",
         "width": 720,
         "height": 405,
-        "from": "https://video.twimg.com/amplify_video/2098973946859425792/vid/avc1/1280x720/xJroTZ_m51mnAot4.mp4#t=1",
+        "from": "https://pbs.twimg.com/media/HSH7bfcWsAAgaRp.jpg?name=medium",
         "crop": {
-          "x": 0.27,
+          "x": 0.578,
           "y": 0,
-          "w": 0.421875,
+          "w": 0.4219,
           "h": 1
         }
       },
       "post": {
-        "name": "Kendra Middleton",
-        "handle": "@KendraMiddleton",
+        "name": "Chad Fisher DNP",
+        "handle": "@ChadFisher",
         "verified": true,
-        "avatar": "/media/avatars/kendramiddleton.webp",
-        "text": "Such a dick move",
-        "postedAt": "2026-09-13T03:19:38.000Z"
+        "avatar": "/media/avatars/chadfisher.webp",
+        "text": "Steve Sarkisian when Laura Rutledge wants to interview him vs. when Holly Rowe wants to interview him.",
+        "postedAt": "2026-09-13T20:36:52.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T04:28:40.339Z"
+      "collectedAt": "2026-10-13T04:33:25.220Z"
     }
   ]
 }
