@@ -3,7 +3,7 @@
   "stories": [
     {
       "title": "Willem Dafoe's new set of poses",
-      "summary": "Complex shared four photos of Willem Dafoe by photographer Daniel Sannwald, including one of him folded in half with his head hanging by his shins. It got 252K likes, and the top quote post, \"unc still got it\", got 320K.",
+      "summary": "Complex shared four photos of Willem Dafoe by photographer Daniel Sannwald, including one of him crawling across a desk and one folded in half with his head hanging by his shins. It got 252K likes, and the top quote post, \"unc still got it\", got 320K.",
       "kind": "image",
       "tags": ["willem-dafoe", "photoshoot", "poses"],
       "category": "celebrity",
@@ -14,8 +14,8 @@
       "platform": "x",
       "headlineIds": [],
       "sourceUrl": "https://x.com/Complex/status/2096040046784819439",
-      "imageUrl": "https://pbs.twimg.com/media/HRahT06bIAAFJqQ.jpg",
-      "crop": { "x": 0.05, "y": 0, "w": 0.9, "h": 1 }
+      "imageUrl": "https://pbs.twimg.com/media/HRahT04boAAfOt3.jpg",
+      "crop": { "x": 0.34, "y": 0, "w": 0.459, "h": 0.49 }
     }
   ]
 }

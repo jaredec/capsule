@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "The Sift, Minecraft's first new dimension in 15 years",
-      "summary": "At Minecraft Live, Mojang showed The Sift, a pink and teal world with a bunny mob, and the first new dimension coming to the main game in almost 15 years. The first-look screenshot got 236K likes. It appears first in Minecraft Dungeons II and comes to Java and Bedrock in 2027. Players named the bunny the \"blub\".",
+      "summary": "At Minecraft Live, Mojang showed The Sift, a pink and teal world with a bunny mob, and the first new dimension coming to the main game in almost 15 years. DiscussingFilm's first look got 236K likes and Pop Base's announcement got 125K. It appears first in Minecraft Dungeons II and comes to Java and Bedrock in 2027. Players named the bunny the \"blub\".",
       "kind": "image",
       "tags": [
         "minecraft",
@@ -14,11 +14,11 @@
         "gaming",
         "minecraft-live"
       ],
-      "author": "@DiscussingFilm",
-      "sourceUrl": "https://x.com/DiscussingFilm/status/2103898896627818837",
+      "author": "@PopBase",
+      "sourceUrl": "https://x.com/PopBase/status/2103906767482630342",
       "metrics": {
-        "likes": "236K",
-        "replies": "1.2K"
+        "likes": "125.5K",
+        "replies": "448"
       },
       "references": [],
       "pulse": {
@@ -29,28 +29,28 @@
         "category": "tech",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:13:31.039Z",
-      "post": {
-        "name": "DiscussingFilm",
-        "handle": "@DiscussingFilm",
-        "verified": true,
-        "avatar": "/media/avatars/discussingfilm.webp",
-        "text": "First look at The Sift in Minecraft.\n\nThe game's first new dimension in over 14 years.",
-        "postedAt": "2026-09-26T17:26:00.000Z"
-      },
       "image": {
         "src": "/media/2026-09-26/2026-09-26-x-the-sift-minecraft-s-first-new-dimension-in-15-y.webp",
         "width": 720,
-        "height": 412,
-        "from": "https://pbs.twimg.com/media/HTKM5VmWwAATnWq.jpg",
+        "height": 405,
+        "from": "https://pbs.twimg.com/media/HTKUDZ8XoAEg2K8.jpg?name=medium",
         "crop": {
-          "x": 0.26,
+          "x": 0.24,
           "y": 0,
-          "w": 0.43,
+          "w": 0.4219,
           "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "Pop Base",
+        "handle": "@PopBase",
+        "verified": true,
+        "avatar": "/media/avatars/popbase.webp",
+        "text": "Minecraft announces a new dimension is coming to the game for the first time in almost 15 years.\n\nThe Sift will be available on Java & Bedrock in 2027.",
+        "postedAt": "2026-09-26T17:57:16.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T04:39:53.059Z"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "stories": [
     {
       "title": "The Sift, Minecraft's first new dimension in 15 years",
-      "summary": "At Minecraft Live, Mojang showed The Sift, a pink and teal world with a bunny mob, and the first new dimension coming to the main game in almost 15 years. The first-look screenshot got 236K likes. It appears first in Minecraft Dungeons II and comes to Java and Bedrock in 2027. Players named the bunny the \"blub\".",
+      "summary": "At Minecraft Live, Mojang showed The Sift, a pink and teal world with a bunny mob, and the first new dimension coming to the main game in almost 15 years. DiscussingFilm's first look got 236K likes and Pop Base's announcement got 125K. It appears first in Minecraft Dungeons II and comes to Java and Bedrock in 2027. Players named the bunny the \"blub\".",
       "kind": "image",
       "tags": ["minecraft", "the-sift", "gaming", "minecraft-live"],
       "category": "tech",
@@ -13,9 +13,8 @@
       "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/DiscussingFilm/status/2103898896627818837",
-      "imageUrl": "https://pbs.twimg.com/media/HTKM5VmWwAATnWq.jpg",
-      "crop": { "x": 0.26, "y": 0, "w": 0.43, "h": 1 }
+      "sourceUrl": "https://x.com/PopBase/status/2103906767482630342",
+      "crop": { "x": 0.24, "y": 0, "w": 0.4219, "h": 1 }
     }
   ]
 }

@@ -2,24 +2,25 @@
   "date": "2026-09-10",
   "stories": [
     {
-      "title": "One year since Charlie Kirk's death",
-      "summary": "On the first anniversary of Charlie Kirk's assassination, his widow, Erika Kirk, posted a black-and-white wedding photo captioned \"...until Heaven.\" It got 176K likes as #kirkiversary trended across X.",
+      "title": "#kirkiversary: one year since Charlie Kirk's death",
+      "summary": "On the first anniversary of Charlie Kirk's death, #kirkiversary trended as X filled with Kirk memes. \"It's officially 1 AK (after Kirk)\" got 127K likes, a \"9/9-9/10-9/11\" meme pairing Kirk with Queen Elizabeth II and a plane got 470K, and Netflix UK joined in with \"Nearly did himself a neck injury\" (150K). Erika Kirk's own post, a wedding photo captioned \"...until Heaven.\", got 176K.",
       "kind": "image",
       "tags": [
         "charlie-kirk",
-        "erika-kirk",
-        "anniversary"
+        "kirkiversary",
+        "anniversary",
+        "memes"
       ],
-      "category": "news",
+      "category": "internet-culture",
       "crossover": true,
       "reach": 9,
       "dominance": 9,
-      "memeability": 6,
+      "memeability": 10,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/MrsErikaKirk/status/2098167265648906304",
+      "sourceUrl": "https://x.com/EverythingOOC/status/2098000526491222133",
       "crop": {
-        "x": 0,
+        "x": 0.031,
         "y": 0,
         "w": 0.938,
         "h": 1

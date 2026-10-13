@@ -3,8 +3,8 @@
   "stories": [
     {
       "title": "Trump announces a Greenland deal with Denmark",
-      "summary": "Donald Trump announced an agreement with Denmark and Greenland that he said gives the United States \"permanent control over security, and all other needs, in Greenland.\" His post got 495K likes and 36.8K replies, and Pete Hegseth said the military would begin building a large presence there.",
-      "kind": "moment",
+      "summary": "Donald Trump announced an agreement with Denmark and Greenland that he said gives the United States \"permanent control over security, and all other needs, in Greenland.\" His post got 495K likes and 36.8K replies, the White House's \"Historic Deal With Greenland\" graphic got 56K, and Pete Hegseth said the military would begin building a large presence there.",
+      "kind": "image",
       "tags": [
         "greenland",
         "trump",
@@ -17,7 +17,13 @@
       "memeability": 6,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/realDonaldTrump/status/2101101979808493780"
+      "sourceUrl": "https://x.com/WhiteHouse/status/2101062116765499575",
+      "crop": {
+        "x": 0.031,
+        "y": 0,
+        "w": 0.938,
+        "h": 1
+      }
     }
   ]
 }
