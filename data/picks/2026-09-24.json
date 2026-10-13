@@ -2,28 +2,28 @@
   "date": "2026-09-24",
   "stories": [
     {
-      "title": "Susan Sarandon and Hannah Einbinder detained at a Netanyahu protest",
-      "summary": "Susan Sarandon and Hannah Einbinder were detained by police in New York while protesting Benjamin Netanyahu's speech at the UN General Assembly. A photo of Sarandon surrounded by NYPD officers got 73K likes, and Pop Base's report of the detentions got 157K.",
-      "kind": "image",
+      "title": "Delegates walk out as Netanyahu speaks at the UN",
+      "summary": "Delegates streamed out of the UN General Assembly hall as Benjamin Netanyahu began his speech. Acyn's clip of the room emptying got 99K likes and a 179K-like quote. Elsewhere in the city, Susan Sarandon and Hannah Einbinder were detained by police while protesting the speech.",
+      "kind": "video",
       "tags": [
-        "susan-sarandon",
-        "hannah-einbinder",
         "netanyahu",
-        "un"
+        "un",
+        "walkout",
+        "israel"
       ],
-      "category": "celebrity",
+      "category": "news",
       "crossover": true,
-      "reach": 8,
-      "dominance": 7,
-      "memeability": 4,
+      "reach": 9,
+      "dominance": 8,
+      "memeability": 5,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/WearThePeaceCo/status/2103302687387459963",
-      "imageUrl": "https://pbs.twimg.com/media/HTBudAIWsAAOzTE.jpg",
+      "sourceUrl": "https://x.com/Acyn/status/2103184330453549371",
+      "frameAt": 8,
       "crop": {
-        "x": 0.06,
+        "x": 0.22,
         "y": 0,
-        "w": 0.938,
+        "w": 0.421875,
         "h": 1
       }
     }

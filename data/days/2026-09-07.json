@@ -2,55 +2,55 @@
   "date": "2026-09-07",
   "items": [
     {
-      "id": "2026-09-07-x-macklemore-says-free-palestine-at-an-ed-sheeran-",
+      "id": "2026-09-07-x-the-far-right-afd-wins-in-eastern-germany",
       "platform": "x",
       "rank": 1,
-      "title": "Macklemore says \"Free Palestine\" at an Ed Sheeran stadium show",
-      "summary": "Opening for Ed Sheeran's Loop tour, Macklemore told a packed stadium \"Free Palestine\", then repeated \"I said Free Palestine.\" After P!nk reshared a pro-Israel group's post demanding he apologize, he posted the clip with \"Wanting all humans to be treated equal should never be controversial.\" It got 285K likes and 17K replies.",
-      "kind": "video",
+      "title": "The far-right AfD wins in eastern Germany",
+      "summary": "A day after Germany's far-right AfD won a landslide in Saxony-Anhalt's state election, a post listing what it called party leader Alice Weidel's contradictions (an immigrant wife, two adopted children and a home in Switzerland, despite the party's stances on immigration, LGBTQ adoption and nationalism) got 354K likes, more than any other news post on X that day.",
+      "kind": "image",
       "tags": [
-        "macklemore",
-        "ed-sheeran",
-        "loop-tour",
-        "palestine"
+        "afd",
+        "alice-weidel",
+        "germany",
+        "election"
       ],
-      "author": "@macklemore",
-      "sourceUrl": "https://x.com/macklemore/status/2097033800811507990",
+      "author": "@GlobalUpdates24",
+      "sourceUrl": "https://x.com/GlobalUpdates24/status/2097024664757584258",
       "metrics": {
-        "likes": "284.6K",
-        "replies": "17.2K"
+        "likes": "353.6K",
+        "replies": "4.6K"
       },
       "references": [],
       "pulse": {
-        "score": 7.7,
-        "reach": 9,
-        "dominance": 8,
+        "score": 6.2,
+        "reach": 8,
+        "dominance": 7,
         "memeability": 5,
-        "category": "music",
+        "category": "news",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-09-07/2026-09-07-x-macklemore-says-free-palestine-at-an-ed-sheeran-.webp",
+        "src": "/media/2026-09-07/2026-09-07-x-the-far-right-afd-wins-in-eastern-germany.webp",
         "width": 720,
-        "height": 1280,
-        "from": "https://video.twimg.com/amplify_video/2097032986818707456/vid/avc1/720x1280/hWM3GiwoMV6Yrukf.mp4#t=30",
+        "height": 840,
+        "from": "https://pbs.twimg.com/media/HRogw2la0AA2iAT.jpg",
         "crop": {
-          "x": 0,
-          "y": 0.25,
-          "w": 1,
-          "h": 0.75
+          "x": 0.063,
+          "y": 0,
+          "w": 0.874,
+          "h": 1
         }
       },
       "post": {
-        "name": "Macklemore",
-        "handle": "@macklemore",
+        "name": "Global UPDATES",
+        "handle": "@GlobalUpdates24",
         "verified": true,
-        "avatar": "/media/avatars/macklemore.webp",
-        "text": "Wanting all humans to be treated equal should never be controversial.",
-        "postedAt": "2026-09-07T18:46:33.000Z"
+        "avatar": "/media/avatars/globalupdates24.webp",
+        "text": "Alice Weidel becomes the first leader in the world who is anti-immigration but has an immigrant wife, is anti-LGBTQ+ but is a lesbian herself, opposes LGBT adoption but has adopted two children, and is a hardcore German nationalist but lives in Switzerland",
+        "postedAt": "2026-09-07T18:10:15.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T04:09:04.176Z"
+      "collectedAt": "2026-10-13T04:22:56.004Z"
     }
   ]
 }

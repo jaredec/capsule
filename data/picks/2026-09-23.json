@@ -2,26 +2,28 @@
   "date": "2026-09-23",
   "stories": [
     {
-      "title": "Dua Lipa's \"lucky double yolk\"",
-      "summary": "Dua Lipa posted an Instagram story of a boiled egg with two yolks, captioned \"lucky double yolk????\". A screenshot of it, captioned \"why does she always get to have everything\", got 505K likes, the most-liked post on X that day.",
-      "kind": "image",
+      "title": "Xi Jinping lands in the US for a state visit",
+      "summary": "Chinese President Xi Jinping and his wife, Peng Liyuan, landed at Joint Base Andrews and were greeted by Donald and Melania Trump ahead of a state visit to the White House. The White House's arrival video got 20K likes, and a clip of Trump wincing at the military flyover while Xi stood still drew a 160K-like quote: \"Absolutely mogged\".",
+      "kind": "video",
       "tags": [
-        "dua-lipa",
-        "double-yolk",
-        "instagram-story"
+        "xi-jinping",
+        "china",
+        "donald-trump",
+        "state-visit"
       ],
-      "category": "celebrity",
+      "category": "news",
       "crossover": true,
-      "reach": 9,
-      "dominance": 8,
-      "memeability": 9,
+      "reach": 8,
+      "dominance": 7,
+      "memeability": 5,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/aboredbitchx/status/2102841830316396908",
+      "sourceUrl": "https://x.com/WhiteHouse/status/2102926157955936657",
+      "frameAt": 15,
       "crop": {
-        "x": 0,
+        "x": 0.32,
         "y": 0,
-        "w": 0.745,
+        "w": 0.3955,
         "h": 1
       }
     }

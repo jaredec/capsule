@@ -2,55 +2,55 @@
   "date": "2026-09-13",
   "items": [
     {
-      "id": "2026-09-13-x-erling-haaland-s-nice-selfie-at-an-empty-old-tra",
+      "id": "2026-09-13-x-scotland-wales-and-northern-ireland-plan-to-brea",
       "platform": "x",
       "rank": 1,
-      "title": "Erling Haaland's \"Nice\" selfie at an empty Old Trafford",
-      "summary": "Erling Haaland scored the winner as 10-man Manchester City beat Manchester United at Old Trafford, then posted a selfie in the emptied stadium captioned \"Nice\". It got 432K likes, the most-liked post on X that day. Hours later, the referees' body Pro Ref acknowledged \"an error of judgement\" in allowing his goal.",
+      "title": "Scotland, Wales and Northern Ireland plan to break up the UK",
+      "summary": "The Telegraph reported that the leaders of Scotland, Wales and Northern Ireland would meet on Monday to sign a deal designed to kick-start the break-up of the United Kingdom. Its post got 74K likes, Pop Base's version got 188K, and \"didn't expect to check twitter today and see that the uk is disbanding\" got 86K.",
       "kind": "image",
       "tags": [
-        "erling-haaland",
-        "manchester-city",
-        "manchester-united",
-        "derby"
+        "united-kingdom",
+        "scotland",
+        "wales",
+        "northern-ireland"
       ],
-      "author": "@Erling",
-      "sourceUrl": "https://x.com/Erling/status/2099210786526700008",
+      "author": "@Telegraph",
+      "sourceUrl": "https://x.com/Telegraph/status/2099023264123162643",
       "metrics": {
-        "likes": "432.4K",
-        "replies": "3.5K"
+        "likes": "73.6K",
+        "replies": "2.6K"
       },
       "references": [],
       "pulse": {
-        "score": 7.9,
+        "score": 7.1,
         "reach": 9,
-        "dominance": 9,
-        "memeability": 8,
-        "category": "sports",
+        "dominance": 8,
+        "memeability": 6,
+        "category": "news",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-09-13/2026-09-13-x-erling-haaland-s-nice-selfie-at-an-empty-old-tra.webp",
+        "src": "/media/2026-09-13/2026-09-13-x-scotland-wales-and-northern-ireland-plan-to-brea.webp",
         "width": 720,
-        "height": 540,
-        "from": "https://pbs.twimg.com/media/HSHkhbvaYAAU3jt.jpg?name=medium",
+        "height": 900,
+        "from": "https://pbs.twimg.com/media/HSE6iL7WYA0tqAE.jpg?name=medium",
         "crop": {
-          "x": 0.13,
+          "x": 0.031,
           "y": 0,
-          "w": 0.5625,
+          "w": 0.938,
           "h": 1
         }
       },
       "post": {
-        "name": "Erling Haaland",
-        "handle": "@Erling",
+        "name": "The Telegraph",
+        "handle": "@Telegraph",
         "verified": true,
-        "avatar": "/media/avatars/erling.webp",
-        "text": "Nice",
-        "postedAt": "2026-09-13T18:57:07.000Z"
+        "avatar": "/media/avatars/telegraph.webp",
+        "text": "The leaders of Scotland, Wales and Northern Ireland will gather on Monday to sign a deal designed to kick-start the break-up of the United Kingdom, The Telegraph can disclose.\n\n🔗: telegraph.co.uk/politics/2026/…",
+        "postedAt": "2026-09-13T06:31:58.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T04:09:04.995Z"
+      "collectedAt": "2026-10-13T04:22:34.125Z"
     }
   ]
 }

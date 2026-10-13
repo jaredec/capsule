@@ -2,54 +2,55 @@
   "date": "2026-09-23",
   "items": [
     {
-      "id": "2026-09-23-x-dua-lipa-s-lucky-double-yolk",
+      "id": "2026-09-23-x-xi-jinping-lands-in-the-us-for-a-state-visit",
       "platform": "x",
       "rank": 1,
-      "title": "Dua Lipa's \"lucky double yolk\"",
-      "summary": "Dua Lipa posted an Instagram story of a boiled egg with two yolks, captioned \"lucky double yolk????\". A screenshot of it, captioned \"why does she always get to have everything\", got 505K likes, the most-liked post on X that day.",
-      "kind": "image",
+      "title": "Xi Jinping lands in the US for a state visit",
+      "summary": "Chinese President Xi Jinping and his wife, Peng Liyuan, landed at Joint Base Andrews and were greeted by Donald and Melania Trump ahead of a state visit to the White House. The White House's arrival video got 20K likes, and a clip of Trump wincing at the military flyover while Xi stood still drew a 160K-like quote: \"Absolutely mogged\".",
+      "kind": "video",
       "tags": [
-        "dua-lipa",
-        "double-yolk",
-        "instagram-story"
+        "xi-jinping",
+        "china",
+        "donald-trump",
+        "state-visit"
       ],
-      "author": "@aboredbitchx",
-      "sourceUrl": "https://x.com/aboredbitchx/status/2102841830316396908",
+      "author": "@WhiteHouse",
+      "sourceUrl": "https://x.com/WhiteHouse/status/2102926157955936657",
       "metrics": {
-        "likes": "504.9K",
-        "replies": "497"
+        "likes": "19.7K",
+        "replies": "971"
       },
       "references": [],
       "pulse": {
-        "score": 8.7,
-        "reach": 9,
-        "dominance": 8,
-        "memeability": 9,
-        "category": "celebrity",
+        "score": 6.2,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 5,
+        "category": "news",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-09-23/2026-09-23-x-dua-lipa-s-lucky-double-yolk.webp",
+        "src": "/media/2026-09-23/2026-09-23-x-xi-jinping-lands-in-the-us-for-a-state-visit.webp",
         "width": 720,
-        "height": 715,
-        "from": "https://pbs.twimg.com/media/HS7Lf26WMAAYR5c.jpg?name=medium",
+        "height": 380,
+        "from": "https://video.twimg.com/amplify_video/2102924877242023936/vid/avc1/1364x720/2fjJ0_2nNtVcDSX9.mp4#t=15",
         "crop": {
-          "x": 0,
+          "x": 0.32,
           "y": 0,
-          "w": 0.745,
+          "w": 0.3955,
           "h": 1
         }
       },
       "post": {
-        "name": "օ ʟօʀ",
-        "handle": "@aboredbitchx",
-        "verified": false,
-        "avatar": "/media/avatars/aboredbitchx.webp",
-        "text": "why does she always get to have everything",
-        "postedAt": "2026-09-23T19:25:35.000Z"
+        "name": "The White House",
+        "handle": "@WhiteHouse",
+        "verified": true,
+        "avatar": "/media/avatars/whitehouse.webp",
+        "text": "President Donald J. Trump and First Lady Melania Trump greet President Xi Jinping of China and Madame Peng Liyuan upon their arrival in Washington, D.C., ahead of the state visit at the White House.",
+        "postedAt": "2026-09-24T01:00:41.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T04:09:06.117Z"
+      "collectedAt": "2026-10-13T04:22:34.945Z"
     }
   ]
 }
