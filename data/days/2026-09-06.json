@@ -35,9 +35,9 @@
         "height": 540,
         "from": "https://video.twimg.com/amplify_video/2096599674694049794/vid/avc1/960x720/KohjpSn4nR4aH-H7.mp4#t=20",
         "crop": {
-          "x": 0.47,
+          "x": 0.29,
           "y": 0,
-          "w": 0.45,
+          "w": 0.5625,
           "h": 1
         }
       },
