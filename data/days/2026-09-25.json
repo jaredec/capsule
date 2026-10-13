@@ -2,55 +2,55 @@
   "date": "2026-09-25",
   "items": [
     {
-      "id": "2026-09-25-x-discord-s-wumpus-gets-tortured-in-fan-art-over-t",
+      "id": "2026-09-25-x-man-city-found-guilty-and-de-gea-asks-how-many-t",
       "platform": "x",
       "rank": 1,
-      "title": "Discord's Wumpus gets tortured in fan art over the age-check update",
-      "summary": "Discord tried to joke its way through a buggy age assurance update, which users said was misjudging adults as minors, by posting its mascot Wumpus crying and giving a thumbs-up. People answered with quote posts of ever more elaborate art of Wumpus being tortured. By Sep 25 the biggest had 313K and 273K likes, one user counted 20 \"museum-quality\" pieces in 48 hours, and Duolingo later joined in.",
-      "kind": "image",
+      "title": "Man City found guilty, and De Gea asks how many titles he's won",
+      "summary": "The Athletic's David Ornstein reported that an independent commission found Manchester City guilty on virtually all of the Premier League's financial charges, with sanctions still undecided and City expected to appeal. His post got 363K likes. Former Manchester United goalkeeper David de Gea then posted \"So…… Let's talk. How many Premier League titles have I won then?\", which got 378K. Zohran Mamdani posted just \"114\", a nod to the 115 charges, and got 270K.",
+      "kind": "moment",
       "tags": [
-        "discord",
-        "wumpus",
-        "age-verification",
-        "fan-art"
+        "manchester-city",
+        "premier-league",
+        "115-charges",
+        "de-gea"
       ],
-      "author": "@discord",
-      "sourceUrl": "https://x.com/discord/status/2102947640124244226",
+      "author": "@D_DeGea",
+      "sourceUrl": "https://x.com/D_DeGea/status/2103559973540340178",
       "metrics": {
-        "likes": "56.6K",
-        "replies": "13.3K"
+        "likes": "377.8K",
+        "replies": "5.4K"
       },
       "references": [],
       "pulse": {
-        "score": 8.3,
+        "score": 7.5,
         "reach": 8,
-        "dominance": 8,
-        "memeability": 9,
-        "category": "internet-culture",
+        "dominance": 9,
+        "memeability": 8,
+        "category": "sports",
         "crossover": true
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:13:30.730Z",
+      "post": {
+        "name": "David de Gea",
+        "handle": "@D_DeGea",
+        "verified": true,
+        "avatar": "/media/avatars/d_degea.webp",
+        "text": "So…… \n\nLet’s talk.\n\nHow many Premier League titles have I won then? 🤔",
+        "postedAt": "2026-09-25T18:59:14.000Z"
+      },
       "image": {
-        "src": "/media/2026-09-25/2026-09-25-x-discord-s-wumpus-gets-tortured-in-fan-art-over-t.webp",
+        "src": "/media/2026-09-25/2026-09-25-x-man-city-found-guilty-and-de-gea-asks-how-many-t.webp",
         "width": 720,
-        "height": 753,
-        "from": "https://pbs.twimg.com/media/HS8rdDdbgAAguxc.jpg?name=medium",
+        "height": 960,
+        "from": "https://x.com/D_DeGea/status/2103559973540340178",
         "crop": {
-          "x": 0.1,
+          "x": 0,
           "y": 0,
-          "w": 0.78,
+          "w": 1,
           "h": 1
         }
-      },
-      "post": {
-        "name": "Discord",
-        "handle": "@discord",
-        "verified": true,
-        "avatar": "/media/avatars/discord.webp",
-        "text": "when you launch an extremely popular age assurance update that everyone on Discord was really looking forward to and it has bugs",
-        "postedAt": "2026-09-24T02:26:02.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T07:52:43.120Z"
+      }
     }
   ]
 }

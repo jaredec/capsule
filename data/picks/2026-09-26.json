@@ -2,30 +2,20 @@
   "date": "2026-09-26",
   "stories": [
     {
-      "title": "\"German Husband\", the creator's husband the internet never sees",
-      "summary": "A post pointed out that Uyen Ninh, a Vietnamese creator whose videos are about life with her \"German Husband\", has kept his face off the internet even though he's in almost every video. It got 245K likes, and the top quote post showed she hides him in her comics too, with a leaf over his face.",
+      "title": "The Sift, Minecraft's first new dimension in 15 years",
+      "summary": "At Minecraft Live, Mojang showed The Sift, a pink and teal world with a bunny mob, and the first new dimension coming to the main game in almost 15 years. The first-look screenshot got 236K likes. It appears first in Minecraft Dungeons II and comes to Java and Bedrock in 2027. Players named the bunny the \"blub\".",
       "kind": "image",
-      "tags": [
-        "german-husband",
-        "uyen-ninh",
-        "influencers",
-        "privacy"
-      ],
-      "category": "internet-culture",
+      "tags": ["minecraft", "the-sift", "gaming", "minecraft-live"],
+      "category": "tech",
       "crossover": true,
-      "reach": 7,
-      "dominance": 7,
-      "memeability": 8,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/MiMimUta/status/2103891992388190531",
-      "imageUrl": "https://pbs.twimg.com/media/HTLc9VSWkAAyVG0.jpg",
-      "crop": {
-        "x": 0.12,
-        "y": 0,
-        "w": 0.75,
-        "h": 1
-      }
+      "sourceUrl": "https://x.com/DiscussingFilm/status/2103898896627818837",
+      "imageUrl": "https://pbs.twimg.com/media/HTKM5VmWwAATnWq.jpg",
+      "crop": { "x": 0.26, "y": 0, "w": 0.43, "h": 1 }
     }
   ]
 }

@@ -2,29 +2,18 @@
   "date": "2026-09-25",
   "stories": [
     {
-      "title": "Discord's Wumpus gets tortured in fan art over the age-check update",
-      "summary": "Discord tried to joke its way through a buggy age assurance update, which users said was misjudging adults as minors, by posting its mascot Wumpus crying and giving a thumbs-up. People answered with quote posts of ever more elaborate art of Wumpus being tortured. By Sep 25 the biggest had 313K and 273K likes, one user counted 20 \"museum-quality\" pieces in 48 hours, and Duolingo later joined in.",
-      "kind": "image",
-      "tags": [
-        "discord",
-        "wumpus",
-        "age-verification",
-        "fan-art"
-      ],
-      "category": "internet-culture",
+      "title": "Man City found guilty, and De Gea asks how many titles he's won",
+      "summary": "The Athletic's David Ornstein reported that an independent commission found Manchester City guilty on virtually all of the Premier League's financial charges, with sanctions still undecided and City expected to appeal. His post got 363K likes. Former Manchester United goalkeeper David de Gea then posted \"So…… Let's talk. How many Premier League titles have I won then?\", which got 378K. Zohran Mamdani posted just \"114\", a nod to the 115 charges, and got 270K.",
+      "kind": "moment",
+      "tags": ["manchester-city", "premier-league", "115-charges", "de-gea"],
+      "category": "sports",
       "crossover": true,
       "reach": 8,
-      "dominance": 8,
-      "memeability": 9,
+      "dominance": 9,
+      "memeability": 8,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/discord/status/2102947640124244226",
-      "crop": {
-        "x": 0.1,
-        "y": 0,
-        "w": 0.78,
-        "h": 1
-      }
+      "sourceUrl": "https://x.com/D_DeGea/status/2103559973540340178"
     }
   ]
 }
