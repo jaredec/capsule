@@ -2,55 +2,55 @@
   "date": "2026-09-14",
   "items": [
     {
-      "id": "2026-09-14-x-macaulay-culkin-s-emmys-tribute-to-catherine-o-h",
+      "id": "2026-09-14-x-i-would-like-to-invite-you-and-spider-man-to-hav",
       "platform": "x",
       "rank": 1,
-      "title": "Macaulay Culkin's Emmys tribute to Catherine O'Hara",
-      "summary": "At the Emmys, Catherine O'Hara's on-screen children Macaulay Culkin, Annie Murphy and Dan Levy paid tribute to her. Culkin's line \"She may have forgotten me twice… but we will always remember her\" was the most-liked moment of the night, with 157K likes on Film Updates' post. A clip of Martin Short and Steve Martin crying in the audience also spread.",
+      "title": "\"I would like to invite you and Spider-Man to have dinner at my house\"",
+      "summary": "Presenting at the Emmys, SNL's Marcello Hernández invited Zendaya \"and Spider-Man\" to dinner at his house, while Tom Holland sat next to her in the audience laughing. The clip got 405K likes, and photos of Holland cracking up, captioned \"jolly little fucker isn't he\", got 91K, with a quote of them adding 455K.",
       "kind": "video",
       "tags": [
         "emmys",
-        "macaulay-culkin",
-        "catherine-ohara",
-        "home-alone"
+        "zendaya",
+        "tom-holland",
+        "marcello-hernandez"
       ],
-      "author": "@FilmUpdates",
-      "sourceUrl": "https://x.com/FilmUpdates/status/2099690220333760660",
+      "author": "@chrislarbsyou",
+      "sourceUrl": "https://x.com/chrislarbsyou/status/2099677010687865278",
       "metrics": {
-        "likes": "157.6K",
-        "replies": "84"
+        "likes": "404.8K",
+        "replies": "2"
       },
       "references": [],
       "pulse": {
-        "score": 7.2,
-        "reach": 8,
-        "dominance": 7,
-        "memeability": 6,
+        "score": 8.7,
+        "reach": 9,
+        "dominance": 8,
+        "memeability": 9,
         "category": "tv-film",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-09-14/2026-09-14-x-macaulay-culkin-s-emmys-tribute-to-catherine-o-h.webp",
+        "src": "/media/2026-09-14/2026-09-14-x-i-would-like-to-invite-you-and-spider-man-to-hav.webp",
         "width": 720,
-        "height": 405,
-        "from": "https://video.twimg.com/amplify_video/2099687350335160321/vid/avc1/1280x720/tNvBmvdRfk0e6cf-.mp4#t=10",
+        "height": 850,
+        "from": "https://pbs.twimg.com/media/HSOVOTQXwAAMkCS.jpg",
         "crop": {
-          "x": 0.02,
+          "x": 0.03,
           "y": 0,
-          "w": 0.421875,
+          "w": 0.885669,
           "h": 1
         }
       },
       "post": {
-        "name": "Film Updates",
-        "handle": "@FilmUpdates",
-        "verified": true,
-        "avatar": "/media/avatars/filmupdates.webp",
-        "text": "Macaulay Culkin honors the late Catherine O’Hara at the Emmy Awards:\n\n“She may have forgotten me twice… but we will always remember her.”",
-        "postedAt": "2026-09-15T02:42:13.000Z"
+        "name": "chris ༯",
+        "handle": "@chrislarbsyou",
+        "verified": false,
+        "avatar": "/media/avatars/chrislarbsyou.webp",
+        "text": "“i would like to invite you and spider-man to have dinner at my house” 😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭",
+        "postedAt": "2026-09-15T01:49:44.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T04:51:41.210Z"
+      "collectedAt": "2026-10-14T06:07:07.950Z"
     }
   ]
 }
