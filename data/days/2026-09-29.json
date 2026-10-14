@@ -2,59 +2,55 @@
   "date": "2026-09-29",
   "items": [
     {
-      "id": "2026-09-29-x-malfoid-x-falls-for-a-female-draco-malfoy",
+      "id": "2026-09-29-x-eric-schmitt-s-jack-smith-perjury-gotcha-has-the",
       "platform": "x",
       "rank": 1,
-      "title": "\"Malfoid\": X falls for a female Draco Malfoy",
-      "summary": "\"Malfoid\", fan art imagining Draco Malfoy as a blonde Slytherin girl, took over X: artists posted their own versions by the dozen, Korean and Japanese fans traded jokes about a 110-chapter Harry x Malfoid fanfic, and posts like \"This Week’s Trending: The Bread / The Circus\" framed it as the meme of the week. Explainers followed the next day.",
+      "title": "Eric Schmitt's Jack Smith \"perjury\" gotcha has the wrong team",
+      "summary": "At Jack Smith's Senate hearing, Sen. Eric Schmitt held up a poster board claiming Smith had gone to an Atlanta Hawks game to collude with Fani Willis and declared he had caught him committing perjury. Smith said he had been at an Iowa Hawkeyes game in Maryland: \"You have the teams wrong sir.\" Jack Smith, Schmitt and the Atlanta Hawks all trended, a photo of Smith smirking (\"The moment Jack Smith realized Eric Schmitt was talking about the wrong game\") got 39K likes, and influencers who had pre-written \"perjury\" posts deleted them.",
       "kind": "image",
       "tags": [
-        "malfoid",
-        "harry-potter",
-        "fan-art"
+        "jack-smith",
+        "eric-schmitt",
+        "senate",
+        "hawks"
       ],
-      "author": "@ObviousRises",
-      "sourceUrl": "https://x.com/ObviousRises/status/2104904024717742204",
+      "author": "@sahilkapur",
+      "sourceUrl": "https://x.com/sahilkapur/status/2104958793859616896",
       "metrics": {
-        "likes": "50.8K",
-        "replies": "46"
+        "likes": "32.6K",
+        "replies": "1.7K"
       },
-      "references": [
-        {
-          "title": "What Is The 'Malfoid' Meme? The Viral 'Female Draco Malfoy' Fan Art Trend Explained",
-          "url": "https://sg.news.yahoo.com/malfoid-meme-viral-female-draco-193000273.html"
-        }
-      ],
+      "references": [],
       "pulse": {
-        "score": 7.2,
-        "reach": 6,
+        "score": 3.2,
+        "reach": 8,
         "dominance": 8,
         "memeability": 8,
-        "category": "internet-culture",
-        "crossover": false
+        "category": "politics",
+        "crossover": true
       },
       "image": {
-        "src": "/media/2026-09-29/2026-09-29-x-malfoid-x-falls-for-a-female-draco-malfoy.webp",
-        "width": 632,
-        "height": 572,
-        "from": "https://pbs.twimg.com/media/HTXJqURbcAAHxOt.jpg?name=medium",
+        "src": "/media/2026-09-29/2026-09-29-x-eric-schmitt-s-jack-smith-perjury-gotcha-has-the.webp",
+        "width": 720,
+        "height": 478,
+        "from": "https://pbs.twimg.com/media/HTZoz6IXoAAYzaH.jpg",
         "crop": {
-          "x": 0,
-          "y": 0.27,
-          "w": 0.496,
-          "h": 0.73
+          "x": 0.25,
+          "y": 0,
+          "w": 0.497,
+          "h": 1
         }
       },
       "post": {
-        "name": "MR. OBVIOUS",
-        "handle": "@ObviousRises",
+        "name": "Sahil Kapur",
+        "handle": "@sahilkapur",
         "verified": true,
-        "avatar": "/media/avatars/obviousrises.webp",
-        "text": "I'm very much enjoying this female Draco Malfoid meme.",
-        "postedAt": "2026-09-29T12:00:01.000Z"
+        "avatar": "/media/avatars/sahilkapur.webp",
+        "text": "A phenomenal moment in the Senate.\n\nEric Schmitt, R-Mo., claims he has evidence Jack Smith went to a HAWKS game in Atlanta.\n\nSmith denies it.\n\nSchmitt declares he has busted Jack Smith for perjury.\n\nSmith, vexed, says he went to HAWKEYES game in Maryland.\n\nWatch the whole thing:",
+        "postedAt": "2026-09-29T15:37:39.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:52:52.270Z"
+      "collectedAt": "2026-10-14T04:51:48.911Z"
     }
   ]
 }

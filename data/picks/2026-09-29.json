@@ -2,23 +2,29 @@
   "date": "2026-09-29",
   "stories": [
     {
-      "title": "\"Malfoid\": X falls for a female Draco Malfoy",
-      "summary": "\"Malfoid\", fan art imagining Draco Malfoy as a blonde Slytherin girl, took over X: artists posted their own versions by the dozen, Korean and Japanese fans traded jokes about a 110-chapter Harry x Malfoid fanfic, and posts like \"This Week’s Trending: The Bread / The Circus\" framed it as the meme of the week. Explainers followed the next day.",
+      "title": "Eric Schmitt's Jack Smith \"perjury\" gotcha has the wrong team",
+      "summary": "At Jack Smith's Senate hearing, Sen. Eric Schmitt held up a poster board claiming Smith had gone to an Atlanta Hawks game to collude with Fani Willis and declared he had caught him committing perjury. Smith said he had been at an Iowa Hawkeyes game in Maryland: \"You have the teams wrong sir.\" Jack Smith, Schmitt and the Atlanta Hawks all trended, a photo of Smith smirking (\"The moment Jack Smith realized Eric Schmitt was talking about the wrong game\") got 39K likes, and influencers who had pre-written \"perjury\" posts deleted them.",
       "kind": "image",
-      "tags": ["malfoid", "harry-potter", "fan-art"],
-      "category": "internet-culture",
-      "crossover": false,
-      "reach": 6,
+      "tags": [
+        "jack-smith",
+        "eric-schmitt",
+        "senate",
+        "hawks"
+      ],
+      "category": "politics",
+      "crossover": true,
+      "reach": 8,
       "dominance": 8,
       "memeability": 8,
       "platform": "x",
-      "headlineIds": [50],
-      "sourceUrl": "https://x.com/ObviousRises/status/2104904024717742204",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/sahilkapur/status/2104958793859616896",
+      "imageUrl": "https://pbs.twimg.com/media/HTZoz6IXoAAYzaH.jpg",
       "crop": {
-        "x": 0,
-        "y": 0.27,
-        "w": 0.496,
-        "h": 0.73
+        "x": 0.25,
+        "y": 0,
+        "w": 0.497,
+        "h": 1
       }
     }
   ]
