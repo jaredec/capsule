@@ -2,28 +2,24 @@
   "date": "2026-10-09",
   "stories": [
     {
-      "title": "Mike Ditka dies at 86",
-      "summary": "Mike Ditka, the Hall of Fame tight end who coached the 1985 Bears to a Super Bowl win, died at 86. Adam Schefter's post got 82K likes, the NFL's 48K and Barack Obama's tribute 46K, and old clips of his sideline rants and the \"Da Bears\" sketches resurfaced. The same day, the Nobel Peace Prize went to Navi Pillay and Hurricane Isaias hit the Florida Panhandle as a Category 3.",
+      "title": "A man named Hitler Mussolini is elected mayor in Peru",
+      "summary": "Official results showed Hitler Mussolini Simeón Flores winning the mayor's race in Queropalca, a district in Peru's Andes, with 34.5% of the vote. The ONPE results screen with his name at the top went around the world in English, Spanish and Portuguese posts, and BBC World's headline \"Man named Hitler Mussolini elected mayor in Peru\" got 42K likes. Replies joked about what his parents were thinking and how the name got past a registry clerk.",
       "kind": "image",
-      "tags": [
-        "mike-ditka",
-        "bears",
-        "nfl",
-        "obituary"
-      ],
-      "category": "sports",
+      "tags": ["peru", "election", "names"],
+      "category": "internet-culture",
       "crossover": true,
       "reach": 8,
-      "dominance": 8,
-      "memeability": 4,
+      "dominance": 7,
+      "memeability": 8,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/AdamSchefter/status/2108575881996210210",
+      "sourceUrl": "https://x.com/GlobeEyeNews/status/2108457469647503517",
+      "imageUrl": "https://pbs.twimg.com/media/HUJvfcNXEAAq9pN.png",
       "crop": {
-        "x": 0.031,
+        "x": 0,
         "y": 0,
-        "w": 0.9375,
-        "h": 1
+        "w": 1,
+        "h": 0.93
       }
     }
   ]

@@ -2,27 +2,22 @@
   "date": "2026-10-08",
   "stories": [
     {
-      "title": "ICE agents shoot a New Yorker with his five-year-old in the car",
-      "summary": "ICE agents surrounded a car in Marble Hill, in upper Manhattan, and shot the driver while his five-year-old child was in the vehicle. Mayor Zohran Mamdani's video statement (\"I am angry tonight... ICE makes this city less safe. We want them out.\") got 395K likes, the most of any post that day, and \"New Yorker\" was X's top trend. NYPD Commissioner Jessica Tisch said the man, a Dominican national, was the target of the operation and had two prior arrests.",
+      "title": "Druski's \"That's So Zion\" skit roasts grown-up Disney child stars",
+      "summary": "Druski posted a sketch as Zion, the unhinged adult star of a fake Disney Channel sitcom called \"That's So Zion,\" captioned \"Kid Stars growup & be so Unpredictable.\" Viewers decided he had played Raven-Symone, Orlando Brown and JoJo Siwa all at once, and Raven-Symone herself weighed in. Replies quoted its lines and called it a speedrun of every child-star meltdown phase.",
       "kind": "video",
-      "tags": [
-        "ice",
-        "new-york",
-        "mamdani",
-        "immigration"
-      ],
-      "category": "news",
-      "crossover": true,
-      "reach": 9,
-      "dominance": 9,
-      "memeability": 3,
+      "tags": ["comedy", "celebrity", "disney"],
+      "category": "pop-culture",
+      "crossover": false,
+      "reach": 6,
+      "dominance": 7,
+      "memeability": 8,
       "platform": "x",
-      "headlineIds": [],
-      "sourceUrl": "https://x.com/NYCMayor/status/2108406203755761879",
-      "frameAt": 3,
+      "headlineIds": [117],
+      "sourceUrl": "https://x.com/druski/status/2108331576836981125",
+      "frameAt": 59.6,
       "crop": {
         "x": 0,
-        "y": 0.1,
+        "y": 0.13,
         "w": 1,
         "h": 0.75
       }
