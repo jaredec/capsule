@@ -2,54 +2,54 @@
   "date": "2026-10-04",
   "items": [
     {
-      "id": "2026-10-04-x-a-woman-bodyslams-the-guy-who-threw-a-drink-on-h",
+      "id": "2026-10-04-x-kash-patel-s-fiancee-went-and-got-the-law-involv",
       "platform": "x",
       "rank": 1,
-      "title": "A woman bodyslams the guy who threw a drink on her",
-      "summary": "A livestream clip showed a man throwing a drink on a woman, then her taking him to the floor while a crowd filmed. The clip got 65K likes, and a quote post saying the men around them only stepped in \"when she started beating his ass good\" got 250K. The replies turned into a fight over whether the bystanders should have stepped in sooner and who they were really protecting.",
-      "kind": "video",
+      "title": "Kash Patel's fiancée: \"Went and got the law involved\"",
+      "summary": "FBI Director Kash Patel got engaged to country singer Alexis Wilkins, and she announced it with a photo of the ring captioned \"Went and got the law involved 💍❤️\" (45K likes, 6.5K replies). The replies split between congratulations and jokes about the couple, and Sean McCarthy's mocking quote post (36K) nearly matched the announcement itself.",
+      "kind": "image",
       "tags": [
-        "fight",
-        "livestream",
-        "gender-war"
+        "kash-patel",
+        "alexis-wilkins",
+        "engagement"
       ],
-      "author": "@jaydotverse",
-      "sourceUrl": "https://x.com/jaydotverse/status/2106747273107628404",
+      "author": "@AlexisWilkins",
+      "sourceUrl": "https://x.com/AlexisWilkins/status/2106867487660818883",
       "metrics": {
-        "likes": "65.4K",
-        "replies": "1K"
+        "likes": "45K",
+        "replies": "6.5K"
       },
       "references": [],
       "pulse": {
-        "score": 7.5,
-        "reach": 8,
-        "dominance": 8,
-        "memeability": 6,
-        "category": "internet-culture",
-        "crossover": false
+        "score": 7,
+        "reach": 7,
+        "dominance": 7,
+        "memeability": 7,
+        "category": "celebrity",
+        "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-04/2026-10-04-x-a-woman-bodyslams-the-guy-who-threw-a-drink-on-h.webp",
-        "width": 720,
-        "height": 405,
-        "from": "https://video.twimg.com/amplify_video/2106747175803760642/vid/avc1/1280x720/P5FuseUAQsqzF2Bp.mp4#t=12",
+        "src": "/media/2026-10-04/2026-10-04-x-kash-patel-s-fiancee-went-and-got-the-law-involv.webp",
+        "width": 690,
+        "height": 1200,
+        "from": "https://pbs.twimg.com/media/HT0Yz5xW8AA1K16.jpg?name=medium",
         "crop": {
-          "x": 0.24,
-          "y": 0,
-          "w": 0.421875,
-          "h": 1
+          "x": 0,
+          "y": 0.05,
+          "w": 1,
+          "h": 0.767
         }
       },
       "post": {
-        "name": "jay",
-        "handle": "@jaydotverse",
+        "name": "Alexis Wilkins",
+        "handle": "@AlexisWilkins",
         "verified": true,
-        "avatar": "/media/avatars/jaydotverse.webp",
-        "text": "After throwing a drink on a woman, a 120 pound crypto rugged incel Lexapro was bodyslammed by her.",
-        "postedAt": "2026-10-04T14:04:26.000Z"
+        "avatar": "/media/avatars/alexiswilkins.webp",
+        "text": "Went and got the law involved 💍❤️ @Kash_Patel",
+        "postedAt": "2026-10-04T22:02:07.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T03:17:26.692Z"
+      "collectedAt": "2026-10-14T03:56:33.064Z"
     }
   ]
 }

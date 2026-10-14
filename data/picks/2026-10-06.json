@@ -2,23 +2,23 @@
   "date": "2026-10-06",
   "stories": [
     {
-      "title": "A killer gets resentenced over an AI video of his victim forgiving him",
-      "summary": "An Arizona man convicted of killing a man in a road-rage incident will be resentenced because the court was shown an AI-generated video of the victim forgiving him. The victim's sister wrote the script, in which he says they \"probably could have been friends.\" Dexerto's post got 51K likes, a quote post reading \"blow the world up\" got 79K, and replies called it \"actual Black Mirror behavior.\"",
-      "kind": "image",
-      "tags": ["ai", "courts", "black-mirror"],
-      "category": "news",
+      "title": "The Warner Bros. water tower becomes \"A Skydance Corporation\"",
+      "summary": "Paramount's merger with Warner Bros. closed, putting DC Studios, HBO, CNN, CBS, Nickelodeon, Cartoon Network and Paramount+ under one company (DiscussingFilm's post got 79K likes). Within hours the Warner Bros. water tower had been repainted with \"A Skydance Corporation\" under the WB shield, and the jokes followed: \"IF YOU SEE DA POLICE PARAMOUNT, A SKYDANCE COMPANY\" (47K), and Ryan Gosling's old quote about getting to climb the tower, \"I don't know if I'll be able to climb it tomorrow\" (31K).",
+      "kind": "video",
+      "tags": ["warner-bros", "paramount", "skydance", "merger"],
+      "category": "brands",
       "crossover": true,
       "reach": 8,
-      "dominance": 7,
-      "memeability": 6,
+      "dominance": 8,
+      "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/Dexerto/status/2107419368258724200",
-      "imageUrl": "https://pbs.twimg.com/media/HT8OvquWQAAc5Oz.jpg",
+      "sourceUrl": "https://x.com/DiscussingFilm/status/2107570913411768737",
+      "frameAt": 3,
       "crop": {
-        "x": 0,
+        "x": 0.03,
         "y": 0,
-        "w": 0.75,
+        "w": 0.9375,
         "h": 1
       }
     }

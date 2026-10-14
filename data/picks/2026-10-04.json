@@ -2,24 +2,23 @@
   "date": "2026-10-04",
   "stories": [
     {
-      "title": "A woman bodyslams the guy who threw a drink on her",
-      "summary": "A livestream clip showed a man throwing a drink on a woman, then her taking him to the floor while a crowd filmed. The clip got 65K likes, and a quote post saying the men around them only stepped in \"when she started beating his ass good\" got 250K. The replies turned into a fight over whether the bystanders should have stepped in sooner and who they were really protecting.",
-      "kind": "video",
-      "tags": ["fight", "livestream", "gender-war"],
-      "category": "internet-culture",
-      "crossover": false,
-      "reach": 8,
-      "dominance": 8,
-      "memeability": 6,
+      "title": "Kash Patel's fiancée: \"Went and got the law involved\"",
+      "summary": "FBI Director Kash Patel got engaged to country singer Alexis Wilkins, and she announced it with a photo of the ring captioned \"Went and got the law involved 💍❤️\" (45K likes, 6.5K replies). The replies split between congratulations and jokes about the couple, and Sean McCarthy's mocking quote post (36K) nearly matched the announcement itself.",
+      "kind": "image",
+      "tags": ["kash-patel", "alexis-wilkins", "engagement"],
+      "category": "celebrity",
+      "crossover": true,
+      "reach": 7,
+      "dominance": 7,
+      "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/jaydotverse/status/2106747273107628404",
-      "frameAt": 12,
+      "sourceUrl": "https://x.com/AlexisWilkins/status/2106867487660818883",
       "crop": {
-        "x": 0.24,
-        "y": 0,
-        "w": 0.421875,
-        "h": 1
+        "x": 0,
+        "y": 0.05,
+        "w": 1,
+        "h": 0.767
       }
     }
   ]
