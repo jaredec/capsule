@@ -2,27 +2,28 @@
   "date": "2026-09-19",
   "stories": [
     {
-      "title": "Zara Larsson cancels her Abu Dhabi show over Sudan",
-      "summary": "Zara Larsson cancelled her Abu Dhabi concert in solidarity with Sudan, replying \"I will not be going to Abu Dhabi\" to a fan who asked her to. Pop Base's post got 243K likes, and a quote post defending her, \"ditching a million dollar performance is not performative\", got 143K.",
-      "kind": "image",
+      "title": "CNN, MS NOW and Politico are turned away from the White House",
+      "summary": "A day after Trump said he was banning CNN, MS NOW and Politico from the White House, their journalists were stopped at the gate and reported from the sidewalk outside. \"White House\" trended all day. Benny Johnson's \"When Trump was banned from every major social media platform... CNN and MSNBC celebrated\" got 65K likes, a post praising Kaitlan Collins as the reason for the ban got 64K, and Bernie Sanders warned that the New York Times and Washington Post could be next (37K).",
+      "kind": "video",
       "tags": [
-        "zara-larsson",
-        "abu-dhabi",
-        "sudan"
+        "white-house",
+        "cnn",
+        "press-freedom",
+        "donald-trump"
       ],
-      "category": "music",
+      "category": "politics",
       "crossover": true,
-      "reach": 7,
+      "reach": 8,
       "dominance": 7,
-      "memeability": 5,
+      "memeability": 4,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/PopBase/status/2101251354618470492",
-      "imageUrl": "https://pbs.twimg.com/media/HSkk9jwX0AAMk8l.jpg",
+      "sourceUrl": "https://x.com/BernieSanders/status/2101378046531977512",
+      "imageUrl": "https://video.twimg.com/amplify_video/2101378428964409344/vid/avc1/1920x1080/U2hpoHILc7E-IML0.mp4#t=18",
       "crop": {
-        "x": 0.006,
+        "x": 0.41,
         "y": 0,
-        "w": 0.988,
+        "w": 0.421875,
         "h": 1
       }
     }
