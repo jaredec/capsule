@@ -35,10 +35,10 @@
         "height": 405,
         "from": "https://video.twimg.com/ext_tw_video/2107261558954819584/pu/vid/avc1/1280x720/B_bkRWKLYaPdmG3W.mp4?tag=12#t=5",
         "crop": {
-          "x": 0.41,
+          "x": 0.3,
           "y": 0,
-          "w": 0.421875,
-          "h": 1
+          "w": 0.3375,
+          "h": 0.8
         }
       },
       "post": {
@@ -50,7 +50,7 @@
         "postedAt": "2026-10-06T00:08:22.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T02:47:19.388Z"
+      "collectedAt": "2026-10-14T04:13:26.106Z"
     }
   ]
 }
