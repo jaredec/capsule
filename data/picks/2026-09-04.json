@@ -3,8 +3,8 @@
   "stories": [
     {
       "title": "Mistrial in the Lindsay Clancy murder case",
-      "summary": "A judge declared a mistrial in the case of Lindsay Clancy, charged with murdering her three children, after the jury deadlocked 11-1. The lone holdout, the only juror voting to convict, became the story of the day. TMZ's breaking post got 32K likes and quotes of it another 126K, and a clip of the holdout leaving court got 144K.",
-      "kind": "image",
+      "summary": "A judge declared a mistrial in the case of Lindsay Clancy, charged with murdering her three children, after the jury deadlocked 11-1. The lone holdout, the only juror voting to convict, became the story of the day, and so did defense attorney Kevin Reddington, who complained to reporters about him outside court. Nick Sortor's post of the courtroom as the mistrial was declared got 107K likes, and \"The juror who held out in the Clancy trial. The world salutes you\" got 122K.",
+      "kind": "video",
       "tags": [
         "lindsay-clancy",
         "mistrial",
@@ -18,13 +18,14 @@
       "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/TMZ/status/2095897682266984590",
+      "sourceUrl": "https://x.com/nicksortor/status/2095941743870894581",
       "crop": {
-        "x": 0.23,
+        "x": 0.32,
         "y": 0,
         "w": 0.421875,
         "h": 1
-      }
+      },
+      "frameAt": 116
     }
   ]
 }
