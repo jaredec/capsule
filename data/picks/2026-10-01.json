@@ -4,8 +4,12 @@
     {
       "title": "Christa Pike survives two lethal injections",
       "summary": "Tennessee tried to execute Christa Pike, on death row for 30 years for the 1995 murder of Colleen Slemmer, on the night of Sep 30. She was still alive after two lethal injections; her lawyers said she was still breathing and \"snoring,\" and she was taken to a hospital. The Spectator Index's \"BREAKING\" post got 39K likes, and by Oct 1 her Wikipedia page had 4.3M views, almost nine times any other article that day. The timeline split between people calling it torture, people saying she deserved worse, and Matt Walsh's \"Call me a conspiracy theorist\" post (49K) questioning whether the failure was an accident.",
-      "kind": "moment",
-      "tags": ["christa-pike", "death-penalty", "tennessee"],
+      "kind": "video",
+      "tags": [
+        "christa-pike",
+        "death-penalty",
+        "tennessee"
+      ],
       "category": "news",
       "crossover": true,
       "reach": 9,
@@ -13,7 +17,14 @@
       "memeability": 4,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/spectatorindex/status/2105505770582446422"
+      "sourceUrl": "https://x.com/BBCWorld/status/2105517400498086363",
+      "frameAt": 3,
+      "crop": {
+        "x": 0,
+        "y": 0.04,
+        "w": 1,
+        "h": 0.75
+      }
     }
   ]
 }

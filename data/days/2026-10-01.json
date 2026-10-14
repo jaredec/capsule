@@ -7,17 +7,17 @@
       "rank": 1,
       "title": "Christa Pike survives two lethal injections",
       "summary": "Tennessee tried to execute Christa Pike, on death row for 30 years for the 1995 murder of Colleen Slemmer, on the night of Sep 30. She was still alive after two lethal injections; her lawyers said she was still breathing and \"snoring,\" and she was taken to a hospital. The Spectator Index's \"BREAKING\" post got 39K likes, and by Oct 1 her Wikipedia page had 4.3M views, almost nine times any other article that day. The timeline split between people calling it torture, people saying she deserved worse, and Matt Walsh's \"Call me a conspiracy theorist\" post (49K) questioning whether the failure was an accident.",
-      "kind": "moment",
+      "kind": "video",
       "tags": [
         "christa-pike",
         "death-penalty",
         "tennessee"
       ],
-      "author": "@spectatorindex",
-      "sourceUrl": "https://x.com/spectatorindex/status/2105505770582446422",
+      "author": "@BBCWorld",
+      "sourceUrl": "https://x.com/BBCWorld/status/2105517400498086363",
       "metrics": {
-        "likes": "38.9K",
-        "replies": "1.7K"
+        "likes": "6.6K",
+        "replies": "1.8K"
       },
       "references": [],
       "pulse": {
@@ -31,25 +31,25 @@
       "image": {
         "src": "/media/2026-10-01/2026-10-01-x-christa-pike-survives-two-lethal-injections.webp",
         "width": 720,
-        "height": 960,
-        "from": "https://x.com/spectatorindex/status/2105505770582446422",
+        "height": 1280,
+        "from": "https://video.twimg.com/ext_tw_video/2105517370710044672/pu/vid/avc1/720x1280/IkzhRN3q0GWApReZ.mp4?tag=12#t=3",
         "crop": {
           "x": 0,
-          "y": 0,
+          "y": 0.04,
           "w": 1,
-          "h": 1
+          "h": 0.75
         }
       },
       "post": {
-        "name": "The Spectator Index",
-        "handle": "@spectatorindex",
+        "name": "BBC News (World)",
+        "handle": "@BBCWorld",
         "verified": true,
-        "avatar": "/media/avatars/spectatorindex.webp",
-        "text": "BREAKING: Tennessee death row inmate Christa Pike is alive and being treated in hospital after two lethal injections were administered and her execution failed.",
-        "postedAt": "2026-10-01T03:51:08.000Z"
+        "avatar": "/media/avatars/bbcworld.webp",
+        "text": "Tennessee death row inmate Christa Pike has been taken to hospital after her heart was still beating following two lethal injections during her execution, her lawyer says. Full story: bbc.in/46Tn0ss",
+        "postedAt": "2026-10-01T04:37:21.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T03:56:32.338Z"
+      "collectedAt": "2026-10-14T04:26:45.474Z"
     }
   ]
 }
