@@ -2,29 +2,18 @@
   "date": "2026-10-02",
   "stories": [
     {
-      "title": "Zach Bryan wears a \"Free Palestine\" shirt at Gillette Stadium",
-      "summary": "Country star Zach Bryan played his show at Gillette Stadium, home of the Patriots and owner Robert Kraft, in a \"Free Palestine\" T-shirt that filled the big screens. Pop Crave's photo got 165K likes and \"Zach Bryan\" was the top trend on X that night. Reactions split between praise and criticism, with plenty of jokes about Kraft, a prominent supporter of Israel, watching from his suite.",
-      "kind": "image",
-      "tags": [
-        "zach-bryan",
-        "country-music",
-        "palestine",
-        "concert"
-      ],
-      "category": "music",
+      "title": "The Pope on AI art: \"an ontological difference\"",
+      "summary": "Pope Leo XIV posted that \"in this era of artificial intelligence, it is becoming urgent to distinguish human art from what machines produce,\" saying there is \"an ontological difference, even before an aesthetic one\" between art and what a machine generates from millions of other people's images. It got 460K likes, the most of any post that day, and turned into a day-long argument about AI art. The Latin version on his @Pontifex_ln account inspired \"The pope is calling your AI art shit in Latin\" (50K).",
+      "kind": "moment",
+      "tags": ["pope-leo", "ai-art", "vatican"],
+      "category": "tech",
       "crossover": true,
-      "reach": 8,
+      "reach": 9,
       "dominance": 8,
-      "memeability": 5,
+      "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/PopCrave/status/2106204674118606889",
-      "crop": {
-        "x": 0.0,
-        "y": 0.2,
-        "w": 0.39,
-        "h": 0.65
-      }
+      "sourceUrl": "https://x.com/Pontifex/status/2105983638147891490"
     }
   ]
 }

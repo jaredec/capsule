@@ -2,55 +2,54 @@
   "date": "2026-10-06",
   "items": [
     {
-      "id": "2026-10-06-x-messi-says-goodbye-to-argentina",
+      "id": "2026-10-06-x-a-killer-gets-resentenced-over-an-ai-video-of-hi",
       "platform": "x",
       "rank": 1,
-      "title": "Messi says goodbye to Argentina",
-      "summary": "Lionel Messi played his last game for Argentina. \"The moment has arrived. I leave in peace, I gave it my all,\" he wrote. In the farewell match he set up Nico Paz, who inherits the No. 10 shirt, then gave a final speech as teammates and fans cried. Fabrizio Romano's post of his message got 131K likes, and Messi was among X's top trends.",
+      "title": "A killer gets resentenced over an AI video of his victim forgiving him",
+      "summary": "An Arizona man convicted of killing a man in a road-rage incident will be resentenced because the court was shown an AI-generated video of the victim forgiving him. The victim's sister wrote the script, in which he says they \"probably could have been friends.\" Dexerto's post got 51K likes, a quote post reading \"blow the world up\" got 79K, and replies called it \"actual Black Mirror behavior.\"",
       "kind": "image",
       "tags": [
-        "messi",
-        "argentina",
-        "soccer",
-        "retirement"
+        "ai",
+        "courts",
+        "black-mirror"
       ],
-      "author": "@FabrizioRomano",
-      "sourceUrl": "https://x.com/FabrizioRomano/status/2107483463603339449",
+      "author": "@Dexerto",
+      "sourceUrl": "https://x.com/Dexerto/status/2107419368258724200",
       "metrics": {
-        "likes": "130.7K",
-        "replies": "2.1K"
+        "likes": "50.7K",
+        "replies": "1.2K"
       },
       "references": [],
       "pulse": {
-        "score": 6.7,
-        "reach": 9,
-        "dominance": 8,
-        "memeability": 4,
-        "category": "sports",
+        "score": 6.4,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 6,
+        "category": "news",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-06/2026-10-06-x-messi-says-goodbye-to-argentina.webp",
+        "src": "/media/2026-10-06/2026-10-06-x-a-killer-gets-resentenced-over-an-ai-video-of-hi.webp",
         "width": 720,
-        "height": 1022,
-        "from": "https://pbs.twimg.com/media/HT9JB1DWAAAlXsU.jpg?name=medium",
+        "height": 720,
+        "from": "https://pbs.twimg.com/media/HT8OvquWQAAc5Oz.jpg",
         "crop": {
           "x": 0,
           "y": 0,
-          "w": 1,
-          "h": 0.938
+          "w": 0.75,
+          "h": 1
         }
       },
       "post": {
-        "name": "Fabrizio Romano",
-        "handle": "@FabrizioRomano",
-        "verified": true,
-        "avatar": "/media/avatars/fabrizioromano.webp",
-        "text": "🩵🤍 Lionel Messi’s message: “The moment has arrived. I leave in peace, I gave it my all”.\n\n“This shirt was my dream, my pride, and my life for years”.\n\n“Thank you for loving me so much, thank you for support”.\n\n“I will always carry you with me”.",
-        "postedAt": "2026-10-06T14:49:47.000Z"
+        "name": "Dexerto",
+        "handle": "@Dexerto",
+        "verified": false,
+        "avatar": "/media/avatars/dexerto.webp",
+        "text": "A killer is being resentenced after an AI video of his dead victim forgiving him was played in court\n\nThe victim’s sister wrote the script, and said they “probably could have been friends”",
+        "postedAt": "2026-10-06T10:35:06.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T02:47:20.386Z"
+      "collectedAt": "2026-10-14T03:17:01.849Z"
     }
   ]
 }

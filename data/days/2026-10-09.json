@@ -2,22 +2,22 @@
   "date": "2026-10-09",
   "items": [
     {
-      "id": "2026-10-09-x-a-man-named-hitler-mussolini-is-elected-mayor-in",
+      "id": "2026-10-09-x-tom-cruise-keeps-posting-through-digger-s-flop",
       "platform": "x",
       "rank": 1,
-      "title": "A man named Hitler Mussolini is elected mayor in Peru",
-      "summary": "Official results showed Hitler Mussolini Simeón Flores winning the mayor's race in Queropalca, a district in Peru's Andes, with 34.5% of the vote. The ONPE results screen with his name at the top went around the world in English, Spanish and Portuguese posts, and BBC World's headline \"Man named Hitler Mussolini elected mayor in Peru\" got 42K likes. Replies joked about what his parents were thinking and how the name got past a registry clerk.",
-      "kind": "image",
+      "title": "Tom Cruise keeps posting through Digger's flop",
+      "summary": "Alejandro G. Iñárritu's Digger, with Tom Cruise in a fat suit, opened to about $8M against a $160-180M budget and was projected to lose $250M, one of the biggest bombs ever. Cruise said he doesn't make movies for \"opening weekend\" and kept posting: on Oct 9 he shared a speech scene from the film (162K likes) and stills captioned \"Level 4.\" (61K). \"Digger is flopping at the box office, going triple platinum on letterboxd, and Tom Cruise is tweeting through it\" summed up the week, alongside jokes that the marketing only ever said \"Tom Cruise is Digger.\"",
+      "kind": "video",
       "tags": [
-        "peru",
-        "election",
-        "names"
+        "tom-cruise",
+        "digger",
+        "box-office-bomb"
       ],
-      "author": "@GlobeEyeNews",
-      "sourceUrl": "https://x.com/GlobeEyeNews/status/2108457469647503517",
+      "author": "@TomCruise",
+      "sourceUrl": "https://x.com/TomCruise/status/2108573398033170618",
       "metrics": {
-        "likes": "45K",
-        "replies": "406"
+        "likes": "161.8K",
+        "replies": "2.2K"
       },
       "references": [],
       "pulse": {
@@ -25,31 +25,31 @@
         "reach": 8,
         "dominance": 7,
         "memeability": 8,
-        "category": "internet-culture",
+        "category": "tv-film",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-09/2026-10-09-x-a-man-named-hitler-mussolini-is-elected-mayor-in.webp",
-        "width": 628,
-        "height": 900,
-        "from": "https://pbs.twimg.com/media/HUJvfcNXEAAq9pN.png",
+        "src": "/media/2026-10-09/2026-10-09-x-tom-cruise-keeps-posting-through-digger-s-flop.webp",
+        "width": 720,
+        "height": 480,
+        "from": "https://video.twimg.com/amplify_video/2108559263966576640/vid/avc1/1080x720/76yejZDJfhbHQqct.mp4#t=10",
         "crop": {
-          "x": 0,
+          "x": 0.3,
           "y": 0,
-          "w": 1,
-          "h": 0.93
+          "w": 0.5,
+          "h": 1
         }
       },
       "post": {
-        "name": "Globe Eye News",
-        "handle": "@GlobeEyeNews",
+        "name": "Tom Cruise",
+        "handle": "@TomCruise",
         "verified": true,
-        "avatar": "/media/avatars/globeeyenews.webp",
-        "text": "Hitler Mussolini Simeón Flores wins the mayoral election in Queropalca, Peru, with 34.54% of the vote.",
-        "postedAt": "2026-10-09T07:20:08.000Z"
+        "avatar": "/media/avatars/tomcruise.webp",
+        "text": "",
+        "postedAt": "2026-10-09T15:00:48.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T03:00:46.224Z"
+      "collectedAt": "2026-10-14T03:17:02.588Z"
     }
   ]
 }

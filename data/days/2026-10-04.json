@@ -2,54 +2,54 @@
   "date": "2026-10-04",
   "items": [
     {
-      "id": "2026-10-04-x-taylor-swift-crashes-dakota-johnson-s-snl-monolo",
+      "id": "2026-10-04-x-a-woman-bodyslams-the-guy-who-threw-a-drink-on-h",
       "platform": "x",
       "rank": 1,
-      "title": "Taylor Swift crashes Dakota Johnson's SNL monologue",
-      "summary": "Taylor Swift walked on unannounced during Dakota Johnson's opening monologue on Saturday Night Live, playing the friend Johnson jokingly calls her therapist, and brought her a cake for her birthday the next day. Pop Base's photo of the two got 60K likes, \"SNL Taylor Swift\" was one of the weekend's top Google searches, and fan clips of the studio audience screaming kept circulating through Sunday.",
-      "kind": "image",
+      "title": "A woman bodyslams the guy who threw a drink on her",
+      "summary": "A livestream clip showed a man throwing a drink on a woman, then her taking him to the floor while a crowd filmed. The clip got 65K likes, and a quote post saying the men around them only stepped in \"when she started beating his ass good\" got 250K. The replies turned into a fight over whether the bystanders should have stepped in sooner and who they were really protecting.",
+      "kind": "video",
       "tags": [
-        "taylor-swift",
-        "dakota-johnson",
-        "snl"
+        "fight",
+        "livestream",
+        "gender-war"
       ],
-      "author": "@PopBase",
-      "sourceUrl": "https://x.com/PopBase/status/2106592324902113373",
+      "author": "@jaydotverse",
+      "sourceUrl": "https://x.com/jaydotverse/status/2106747273107628404",
       "metrics": {
-        "likes": "59.5K",
-        "replies": "396"
+        "likes": "65.4K",
+        "replies": "1K"
       },
       "references": [],
       "pulse": {
-        "score": 6.9,
+        "score": 7.5,
         "reach": 8,
-        "dominance": 7,
-        "memeability": 5,
-        "category": "tv-film",
-        "crossover": true
+        "dominance": 8,
+        "memeability": 6,
+        "category": "internet-culture",
+        "crossover": false
       },
       "image": {
-        "src": "/media/2026-10-04/2026-10-04-x-taylor-swift-crashes-dakota-johnson-s-snl-monolo.webp",
+        "src": "/media/2026-10-04/2026-10-04-x-a-woman-bodyslams-the-guy-who-threw-a-drink-on-h.webp",
         "width": 720,
-        "height": 400,
-        "from": "https://pbs.twimg.com/media/HTwejZcXQAIAY6Y.jpg?name=medium",
+        "height": 405,
+        "from": "https://video.twimg.com/amplify_video/2106747175803760642/vid/avc1/1280x720/P5FuseUAQsqzF2Bp.mp4#t=12",
         "crop": {
-          "x": 0.43,
+          "x": 0.24,
           "y": 0,
-          "w": 0.417,
+          "w": 0.421875,
           "h": 1
         }
       },
       "post": {
-        "name": "Pop Base",
-        "handle": "@PopBase",
+        "name": "jay",
+        "handle": "@jaydotverse",
         "verified": true,
-        "avatar": "/media/avatars/popbase.webp",
-        "text": "Taylor Swift makes surprise appearance during Dakota Johnson’s monologue on SNL.",
-        "postedAt": "2026-10-04T03:48:43.000Z"
+        "avatar": "/media/avatars/jaydotverse.webp",
+        "text": "After throwing a drink on a woman, a 120 pound crypto rugged incel Lexapro was bodyslammed by her.",
+        "postedAt": "2026-10-04T14:04:26.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T02:47:18.400Z"
+      "collectedAt": "2026-10-14T03:17:26.692Z"
     }
   ]
 }

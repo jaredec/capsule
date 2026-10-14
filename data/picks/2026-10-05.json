@@ -2,29 +2,22 @@
   "date": "2026-10-05",
   "stories": [
     {
-      "title": "Trump: \"Let them take out Los Angeles. Let them take out San Diego\"",
-      "summary": "At a campaign rally in Nebraska, talking about the war with Iran and high prices, Trump said: \"It's a small price to pay. They can take out a city. Let them take out Los Angeles. Let them take out San Diego.\" Clips of the line pushed \"San Diego,\" \"LA or SD\" and \"25th Amendment\" to the top of X's trends, and Gavin Newsom's response got 53K likes. The White House's rapid-response account said he meant the war was being fought to stop Iran from ever being able to hit those cities.",
-      "kind": "video",
-      "tags": [
-        "trump",
-        "iran",
-        "los-angeles",
-        "san-diego",
-        "rally"
-      ],
-      "category": "politics",
-      "crossover": true,
-      "reach": 9,
-      "dominance": 9,
-      "memeability": 6,
+      "title": "Sakurai's \"Avengers of game directors\" dinner",
+      "summary": "Smash Bros. creator Masahiro Sakurai posted a photo from a dinner he called an \"Avengers-like gathering of game directors\": Yoko Taro, Toby Fox, Shinji Mikami, Hideki Kamiya, Suda51, Fumito Ueda, Kazutaka Kodaka, Keiichiro Toyama and Jiro Ishii around one table. It got 461K likes, the most of any post that day. Toby Fox's face was covered with cartoon icons, which made him \"the only person I've known to do a reverse face reveal\" (31K), and Sakurai later said it was the Game Designers Award group's last meeting.",
+      "kind": "image",
+      "tags": ["video-games", "sakurai", "toby-fox"],
+      "category": "internet-culture",
+      "crossover": false,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/HQNewsNow/status/2107261648339702108",
-      "frameAt": 5,
+      "sourceUrl": "https://x.com/Sora_Sakurai/status/2107114739822366829",
       "crop": {
-        "x": 0.41,
+        "x": 0.22,
         "y": 0,
-        "w": 0.421875,
+        "w": 0.5165,
         "h": 1
       }
     }

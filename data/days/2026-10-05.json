@@ -2,55 +2,54 @@
   "date": "2026-10-05",
   "items": [
     {
-      "id": "2026-10-05-x-trump-let-them-take-out-los-angeles-let-them-tak",
+      "id": "2026-10-05-x-sakurai-s-avengers-of-game-directors-dinner",
       "platform": "x",
       "rank": 1,
-      "title": "Trump: \"Let them take out Los Angeles. Let them take out San Diego\"",
-      "summary": "At a campaign rally in Nebraska, talking about the war with Iran and high prices, Trump said: \"It's a small price to pay. They can take out a city. Let them take out Los Angeles. Let them take out San Diego.\" Clips of the line pushed \"San Diego,\" \"LA or SD\" and \"25th Amendment\" to the top of X's trends, and Gavin Newsom's response got 53K likes. The White House's rapid-response account said he meant the war was being fought to stop Iran from ever being able to hit those cities.",
-      "kind": "video",
+      "title": "Sakurai's \"Avengers of game directors\" dinner",
+      "summary": "Smash Bros. creator Masahiro Sakurai posted a photo from a dinner he called an \"Avengers-like gathering of game directors\": Yoko Taro, Toby Fox, Shinji Mikami, Hideki Kamiya, Suda51, Fumito Ueda, Kazutaka Kodaka, Keiichiro Toyama and Jiro Ishii around one table. It got 461K likes, the most of any post that day. Toby Fox's face was covered with cartoon icons, which made him \"the only person I've known to do a reverse face reveal\" (31K), and Sakurai later said it was the Game Designers Award group's last meeting.",
+      "kind": "image",
       "tags": [
-        "trump",
-        "iran",
-        "los-angeles",
-        "san-diego"
+        "video-games",
+        "sakurai",
+        "toby-fox"
       ],
-      "author": "@HQNewsNow",
-      "sourceUrl": "https://x.com/HQNewsNow/status/2107261648339702108",
+      "author": "@Sora_Sakurai",
+      "sourceUrl": "https://x.com/Sora_Sakurai/status/2107114739822366829",
       "metrics": {
-        "likes": "22.9K",
-        "replies": "6.7K"
+        "likes": "461.5K",
+        "replies": "1.2K"
       },
       "references": [],
       "pulse": {
-        "score": 7.4,
-        "reach": 9,
-        "dominance": 9,
-        "memeability": 6,
-        "category": "politics",
-        "crossover": true
+        "score": 7.8,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 7,
+        "category": "internet-culture",
+        "crossover": false
       },
       "image": {
-        "src": "/media/2026-10-05/2026-10-05-x-trump-let-them-take-out-los-angeles-let-them-tak.webp",
+        "src": "/media/2026-10-05/2026-10-05-x-sakurai-s-avengers-of-game-directors-dinner.webp",
         "width": 720,
-        "height": 405,
-        "from": "https://video.twimg.com/ext_tw_video/2107261558954819584/pu/vid/avc1/1280x720/B_bkRWKLYaPdmG3W.mp4?tag=12#t=5",
+        "height": 496,
+        "from": "https://pbs.twimg.com/media/HT35jzLaoAAHDZD.jpg?name=medium",
         "crop": {
-          "x": 0.41,
+          "x": 0.22,
           "y": 0,
-          "w": 0.421875,
+          "w": 0.5165,
           "h": 1
         }
       },
       "post": {
-        "name": "Headquarters",
-        "handle": "@HQNewsNow",
+        "name": "桜井 政博 / Masahiro Sakurai",
+        "handle": "@Sora_Sakurai",
         "verified": true,
-        "avatar": "/media/avatars/hqnewsnow.webp",
-        "text": "Trump on Iran: Let 'em take out Los Angeles and San Diego, it's a small price to pay",
-        "postedAt": "2026-10-06T00:08:22.000Z"
+        "avatar": "/media/avatars/sora_sakurai.webp",
+        "text": "こんにちは｡\nゲームディレクターのアベンジャーズ的な集いです",
+        "postedAt": "2026-10-05T14:24:36.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T02:47:19.388Z"
+      "collectedAt": "2026-10-14T03:17:01.042Z"
     }
   ]
 }

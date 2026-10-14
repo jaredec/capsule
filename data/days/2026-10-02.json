@@ -2,55 +2,54 @@
   "date": "2026-10-02",
   "items": [
     {
-      "id": "2026-10-02-x-zach-bryan-wears-a-free-palestine-shirt-at-gille",
+      "id": "2026-10-02-x-the-pope-on-ai-art-an-ontological-difference",
       "platform": "x",
       "rank": 1,
-      "title": "Zach Bryan wears a \"Free Palestine\" shirt at Gillette Stadium",
-      "summary": "Country star Zach Bryan played his show at Gillette Stadium, home of the Patriots and owner Robert Kraft, in a \"Free Palestine\" T-shirt that filled the big screens. Pop Crave's photo got 165K likes and \"Zach Bryan\" was the top trend on X that night. Reactions split between praise and criticism, with plenty of jokes about Kraft, a prominent supporter of Israel, watching from his suite.",
-      "kind": "image",
+      "title": "The Pope on AI art: \"an ontological difference\"",
+      "summary": "Pope Leo XIV posted that \"in this era of artificial intelligence, it is becoming urgent to distinguish human art from what machines produce,\" saying there is \"an ontological difference, even before an aesthetic one\" between art and what a machine generates from millions of other people's images. It got 460K likes, the most of any post that day, and turned into a day-long argument about AI art. The Latin version on his @Pontifex_ln account inspired \"The pope is calling your AI art shit in Latin\" (50K).",
+      "kind": "moment",
       "tags": [
-        "zach-bryan",
-        "country-music",
-        "palestine",
-        "concert"
+        "pope-leo",
+        "ai-art",
+        "vatican"
       ],
-      "author": "@PopCrave",
-      "sourceUrl": "https://x.com/PopCrave/status/2106204674118606889",
+      "author": "@Pontifex",
+      "sourceUrl": "https://x.com/Pontifex/status/2105983638147891490",
       "metrics": {
-        "likes": "165.2K",
-        "replies": "1.3K"
+        "likes": "460.6K",
+        "replies": "4.8K"
       },
       "references": [],
       "pulse": {
         "score": 7.3,
-        "reach": 8,
+        "reach": 9,
         "dominance": 8,
-        "memeability": 5,
-        "category": "music",
+        "memeability": 7,
+        "category": "tech",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-02/2026-10-02-x-zach-bryan-wears-a-free-palestine-shirt-at-gille.webp",
+        "src": "/media/2026-10-02/2026-10-02-x-the-pope-on-ai-art-an-ontological-difference.webp",
         "width": 720,
-        "height": 576,
-        "from": "https://pbs.twimg.com/media/HTq9_OFXwAA-dq5.jpg?name=medium",
+        "height": 960,
+        "from": "https://x.com/Pontifex/status/2105983638147891490",
         "crop": {
           "x": 0,
-          "y": 0.2,
-          "w": 0.39,
-          "h": 0.65
+          "y": 0,
+          "w": 1,
+          "h": 1
         }
       },
       "post": {
-        "name": "Pop Crave",
-        "handle": "@PopCrave",
+        "name": "Pope Leo XIV",
+        "handle": "@Pontifex",
         "verified": true,
-        "avatar": "/media/avatars/popcrave.webp",
-        "text": "Country singer Zach Bryan wore a “Free Palestine” shirt at his Gillette Stadium show in Massachusetts.",
-        "postedAt": "2026-10-03T02:08:20.000Z"
+        "avatar": "/media/avatars/pontifex.webp",
+        "text": "In this era of artificial intelligence, it is becoming urgent to distinguish human art from what machines produce. There is an ontological difference, even before an aesthetic one, between art and what a machine can generate through statistical calculation based on millions of",
+        "postedAt": "2026-10-02T11:30:01.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T02:48:02.885Z"
+      "collectedAt": "2026-10-14T03:16:59.273Z"
     }
   ]
 }

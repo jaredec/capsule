@@ -2,24 +2,24 @@
   "date": "2026-10-09",
   "stories": [
     {
-      "title": "A man named Hitler Mussolini is elected mayor in Peru",
-      "summary": "Official results showed Hitler Mussolini Simeón Flores winning the mayor's race in Queropalca, a district in Peru's Andes, with 34.5% of the vote. The ONPE results screen with his name at the top went around the world in English, Spanish and Portuguese posts, and BBC World's headline \"Man named Hitler Mussolini elected mayor in Peru\" got 42K likes. Replies joked about what his parents were thinking and how the name got past a registry clerk.",
-      "kind": "image",
-      "tags": ["peru", "election", "names"],
-      "category": "internet-culture",
+      "title": "Tom Cruise keeps posting through Digger's flop",
+      "summary": "Alejandro G. Iñárritu's Digger, with Tom Cruise in a fat suit, opened to about $8M against a $160-180M budget and was projected to lose $250M, one of the biggest bombs ever. Cruise said he doesn't make movies for \"opening weekend\" and kept posting: on Oct 9 he shared a speech scene from the film (162K likes) and stills captioned \"Level 4.\" (61K). \"Digger is flopping at the box office, going triple platinum on letterboxd, and Tom Cruise is tweeting through it\" summed up the week, alongside jokes that the marketing only ever said \"Tom Cruise is Digger.\"",
+      "kind": "video",
+      "tags": ["tom-cruise", "digger", "box-office-bomb"],
+      "category": "tv-film",
       "crossover": true,
       "reach": 8,
       "dominance": 7,
       "memeability": 8,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/GlobeEyeNews/status/2108457469647503517",
-      "imageUrl": "https://pbs.twimg.com/media/HUJvfcNXEAAq9pN.png",
+      "sourceUrl": "https://x.com/TomCruise/status/2108573398033170618",
+      "frameAt": 10,
       "crop": {
-        "x": 0,
+        "x": 0.3,
         "y": 0,
-        "w": 1,
-        "h": 0.93
+        "w": 0.5,
+        "h": 1
       }
     }
   ]
