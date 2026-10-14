@@ -2,55 +2,55 @@
   "date": "2026-09-26",
   "items": [
     {
-      "id": "2026-09-26-x-the-sift-minecraft-s-first-new-dimension-in-15-y",
+      "id": "2026-09-26-x-air-force-one-buzzes-neyland-stadium",
       "platform": "x",
       "rank": 1,
-      "title": "The Sift, Minecraft's first new dimension in 15 years",
-      "summary": "At Minecraft Live, Mojang showed The Sift, a pink and teal world with a bunny mob, and the first new dimension coming to the main game in almost 15 years. DiscussingFilm's first look got 236K likes and Pop Base's announcement got 125K. It appears first in Minecraft Dungeons II and comes to Java and Bedrock in 2027. Players named the bunny the \"blub\".",
-      "kind": "image",
+      "title": "Air Force One buzzes Neyland Stadium",
+      "summary": "Before Texas played Tennessee, Air Force One made a low pass over 100,000 fans at Neyland Stadium on Trump's way into Knoxville, and \"Air Force One\" was the top trend in the US. ESPN's broadcast said it came \"REALLY close to the top of the stadium\". The White House's flyover clip got 39K likes and CNN, barred from the plane that day, was replaced in the press pool by Real America's Voice. Texas won 20-17.",
+      "kind": "video",
       "tags": [
-        "minecraft",
-        "the-sift",
-        "gaming",
-        "minecraft-live"
+        "air-force-one",
+        "tennessee",
+        "college-football",
+        "donald-trump"
       ],
-      "author": "@PopBase",
-      "sourceUrl": "https://x.com/PopBase/status/2103906767482630342",
+      "author": "@CollegeGameDay",
+      "sourceUrl": "https://x.com/CollegeGameDay/status/2103869100522889655",
       "metrics": {
-        "likes": "125.5K",
-        "replies": "448"
+        "likes": "12.5K",
+        "replies": "186"
       },
       "references": [],
       "pulse": {
-        "score": 7,
+        "score": 6.8,
         "reach": 8,
         "dominance": 8,
-        "memeability": 7,
-        "category": "tech",
+        "memeability": 6,
+        "category": "sports",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-09-26/2026-09-26-x-the-sift-minecraft-s-first-new-dimension-in-15-y.webp",
+        "src": "/media/2026-09-26/2026-09-26-x-air-force-one-buzzes-neyland-stadium.webp",
         "width": 720,
         "height": 405,
-        "from": "https://pbs.twimg.com/media/HTKUDZ8XoAEg2K8.jpg?name=medium",
+        "from": "https://video.twimg.com/amplify_video/2103869077336829952/vid/avc1/1280x720/ACrwe_RrB1WK1D9d.mp4?tag=16#t=5.5",
         "crop": {
-          "x": 0.24,
+          "x": 0.32,
           "y": 0,
-          "w": 0.4219,
+          "w": 0.421875,
           "h": 1
         }
       },
       "post": {
-        "name": "Pop Base",
-        "handle": "@PopBase",
+        "name": "College GameDay",
+        "handle": "@CollegeGameDay",
         "verified": true,
-        "avatar": "/media/avatars/popbase.webp",
-        "text": "Minecraft announces a new dimension is coming to the game for the first time in almost 15 years.\n\nThe Sift will be available on Java & Bedrock in 2027.",
-        "postedAt": "2026-09-26T17:57:16.000Z"
+        "avatar": "/media/avatars/collegegameday.webp",
+        "text": "QUITE THE FLYOVER AT NEYLAND STADIUM 🇺🇸",
+        "postedAt": "2026-09-26T15:27:36.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T04:39:53.059Z"
+      "collectedAt": "2026-10-14T04:53:48.713Z"
     }
   ]
 }

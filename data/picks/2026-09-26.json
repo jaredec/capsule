@@ -2,19 +2,30 @@
   "date": "2026-09-26",
   "stories": [
     {
-      "title": "The Sift, Minecraft's first new dimension in 15 years",
-      "summary": "At Minecraft Live, Mojang showed The Sift, a pink and teal world with a bunny mob, and the first new dimension coming to the main game in almost 15 years. DiscussingFilm's first look got 236K likes and Pop Base's announcement got 125K. It appears first in Minecraft Dungeons II and comes to Java and Bedrock in 2027. Players named the bunny the \"blub\".",
-      "kind": "image",
-      "tags": ["minecraft", "the-sift", "gaming", "minecraft-live"],
-      "category": "tech",
+      "title": "Air Force One buzzes Neyland Stadium",
+      "summary": "Before Texas played Tennessee, Air Force One made a low pass over 100,000 fans at Neyland Stadium on Trump's way into Knoxville, and \"Air Force One\" was the top trend in the US. ESPN's broadcast said it came \"REALLY close to the top of the stadium\". The White House's flyover clip got 39K likes and CNN, barred from the plane that day, was replaced in the press pool by Real America's Voice. Texas won 20-17.",
+      "kind": "video",
+      "tags": [
+        "air-force-one",
+        "tennessee",
+        "college-football",
+        "donald-trump"
+      ],
+      "category": "sports",
       "crossover": true,
       "reach": 8,
       "dominance": 8,
-      "memeability": 7,
+      "memeability": 6,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/PopBase/status/2103906767482630342",
-      "crop": { "x": 0.24, "y": 0, "w": 0.4219, "h": 1 }
+      "sourceUrl": "https://x.com/CollegeGameDay/status/2103869100522889655",
+      "frameAt": 5.5,
+      "crop": {
+        "x": 0.32,
+        "y": 0,
+        "w": 0.421875,
+        "h": 1
+      }
     }
   ]
 }
