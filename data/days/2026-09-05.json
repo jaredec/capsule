@@ -29,8 +29,18 @@
         "category": "sports",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T02:42:50.194Z",
+      "image": {
+        "src": "/media/2026-09-05/2026-09-05-x-they-got-the-hot-dog-in-the-bun.webp",
+        "width": 720,
+        "height": 405,
+        "from": "https://video.twimg.com/amplify_video/2096395913510166528/vid/avc1/1280x720/VCAyV6KDh3vEd2aq.mp4#t=17",
+        "crop": {
+          "x": 0.235,
+          "y": 0,
+          "w": 0.421875,
+          "h": 1
+        }
+      },
       "post": {
         "name": "Sportsnet",
         "handle": "@Sportsnet",
@@ -39,18 +49,8 @@
         "text": "THEY GOT THE HOT DOG IN THE BUN 🌭",
         "postedAt": "2026-09-06T00:32:05.000Z"
       },
-      "image": {
-        "src": "/media/2026-09-05/2026-09-05-x-they-got-the-hot-dog-in-the-bun.webp",
-        "width": 720,
-        "height": 405,
-        "from": "https://video.twimg.com/amplify_video/2096395913510166528/vid/avc1/1280x720/VCAyV6KDh3vEd2aq.mp4#t=22",
-        "crop": {
-          "x": 0.2,
-          "y": 0,
-          "w": 0.5,
-          "h": 1
-        }
-      }
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-14T06:07:05.495Z"
     }
   ]
 }
