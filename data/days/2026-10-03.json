@@ -2,54 +2,59 @@
   "date": "2026-10-03",
   "items": [
     {
-      "id": "2026-10-03-x-lucki-is-hurt-in-a-fight-with-playboi-carti-s-en",
+      "id": "2026-10-03-x-lindsay-lohan-recreates-it-s-october-3rd-for-mea",
       "platform": "x",
       "rank": 1,
-      "title": "LUCKI is hurt in a fight with Playboi Carti's entourage at ComplexCon",
-      "summary": "An altercation between LUCKI's and Playboi Carti's entourages at ComplexCon left LUCKI with a laceration, and video of him being hustled into his car spread within minutes. \"LUCKI\" was the No. 2 trend in the US that night, with \"Carti\" close behind. \"Clear footage of Playboi Carti sprinting to his car for safety\" (18K) became the meme, and LAPD was reported to be investigating it as an attempted murder with four victims.",
+      "title": "Lindsay Lohan recreates \"It’s October 3rd\" for Mean Girls Day",
+      "summary": "On the unofficial Mean Girls Day, Lindsay Lohan posted a video of herself at a school desk delivering Cady Heron’s \"It’s October 3rd\" line to director Mark Waters standing in as Aaron Samuels, then cracking up. The clip passed 35 million views and 2 million likes on Instagram as fans flooded feeds with pink outfits, quotes and their own recreations of the scene.",
       "kind": "video",
       "tags": [
-        "lucki",
-        "playboi-carti",
-        "complexcon"
+        "film",
+        "nostalgia",
+        "mean-girls"
       ],
-      "author": "@DailyLoud",
-      "sourceUrl": "https://x.com/DailyLoud/status/2106575306094219707",
+      "author": "@lindsaylohan",
+      "sourceUrl": "https://x.com/lindsaylohan/status/2106370548813218059",
       "metrics": {
-        "likes": "25.1K",
-        "replies": "404"
+        "likes": "208.1K",
+        "replies": "657"
       },
-      "references": [],
+      "references": [
+        {
+          "title": "“Happy October 3rd”: Internet reacts as Lindsay Lohan revisits iconic Mean Girls moment",
+          "url": "https://www.soapcentral.com/entertainment/happy-october-3rd-internet-reacts-lindsay-lohan-revisits-iconic-mean-girls-moment"
+        }
+      ],
       "pulse": {
-        "score": 7.1,
-        "reach": 7,
-        "dominance": 8,
+        "score": 7.6,
+        "reach": 9,
+        "dominance": 7,
         "memeability": 6,
-        "category": "music",
+        "category": "tv-film",
         "crossover": false
       },
       "image": {
-        "src": "/media/2026-10-03/2026-10-03-x-lucki-is-hurt-in-a-fight-with-playboi-carti-s-en.webp",
+        "src": "/media/2026-10-03/2026-10-03-x-lindsay-lohan-recreates-it-s-october-3rd-for-mea.webp",
         "width": 720,
-        "height": 1280,
-        "from": "https://video.twimg.com/amplify_video/2106545071898161152/vid/avc1/720x1280/vV3QRna6Kfr6rnIt.mp4#t=1.5",
+        "height": 405,
+        "from": "https://video.twimg.com/amplify_video/2106370510779236352/vid/avc1/1280x720/dfRAW_ipAkeU3nGv.mp4#t=3",
         "crop": {
-          "x": 0.2,
-          "y": 0.1,
-          "w": 0.7,
-          "h": 0.525
+          "x": 0.29,
+          "y": 0,
+          "w": 0.42,
+          "h": 1
         }
       },
       "post": {
-        "name": "Daily Loud",
-        "handle": "@DailyLoud",
+        "name": "Lindsay Lohan",
+        "handle": "@lindsaylohan",
         "verified": true,
-        "avatar": "/media/avatars/dailyloud.webp",
-        "text": "Rapper LUCKI was stabbed while at ComplexCon 🤯",
-        "postedAt": "2026-10-04T02:41:05.000Z"
+        "avatar": "/media/avatars/lindsaylohan.webp",
+        "text": "It’s October 3rd 💝",
+        "postedAt": "2026-10-03T13:07:27.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T03:44:30.649Z"
+      "collectedAt": "2026-10-12T04:50:14.485Z"
     }
   ]
 }
