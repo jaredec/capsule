@@ -2,54 +2,55 @@
   "date": "2026-09-21",
   "items": [
     {
-      "id": "2026-09-21-x-first-look-at-callina-liang-as-chun-li",
+      "id": "2026-09-21-x-trump-visits-mamdani-at-gracie-mansion",
       "platform": "x",
       "rank": 1,
-      "title": "First look at Callina Liang as Chun-Li",
-      "summary": "A set photo of Callina Liang in costume as Chun-Li for the Street Fighter movie got 236K likes.",
+      "title": "Trump visits Mamdani at Gracie Mansion",
+      "summary": "Trump met New York Mayor Zohran Mamdani at Gracie Mansion and told reporters afterward that Mamdani was \"off to a start\" on the way to becoming a \"great mayor\", while Mamdani stood beside him stone-faced. \"Mayor Smiles refusing to smile while standing within 20 feet of trump will never not be funny\" got 360K likes. Mamdani posted only \"Had a productive meeting with the President today\".",
       "kind": "image",
       "tags": [
-        "street-fighter",
-        "chun-li",
-        "callina-liang"
+        "donald-trump",
+        "zohran-mamdani",
+        "new-york",
+        "gracie-mansion"
       ],
-      "author": "@DiscussingFilm",
-      "sourceUrl": "https://x.com/DiscussingFilm/status/2102061150430970329",
+      "author": "@wildIyenchanted",
+      "sourceUrl": "https://x.com/wildIyenchanted/status/2102163220198748630",
       "metrics": {
-        "likes": "236.2K",
-        "replies": "1.1K"
+        "likes": "359.8K",
+        "replies": "309"
       },
       "references": [],
       "pulse": {
-        "score": 6.5,
-        "reach": 7,
+        "score": 7.2,
+        "reach": 9,
         "dominance": 7,
-        "memeability": 5,
-        "category": "tv-film",
+        "memeability": 8,
+        "category": "politics",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:33:20.894Z",
-      "post": {
-        "name": "DiscussingFilm",
-        "handle": "@DiscussingFilm",
-        "verified": true,
-        "avatar": "/media/avatars/discussingfilm.webp",
-        "text": "Callina Liang as Chun-Li on set of the ‘STREET FIGHTER’ movie.",
-        "postedAt": "2026-09-21T15:43:27.000Z"
-      },
       "image": {
-        "src": "/media/2026-09-21/2026-09-21-x-first-look-at-callina-liang-as-chun-li.webp",
+        "src": "/media/2026-09-21/2026-09-21-x-trump-visits-mamdani-at-gracie-mansion.webp",
         "width": 720,
-        "height": 719,
-        "from": "https://pbs.twimg.com/media/HSwFeZgWEAAxfIH.jpg",
+        "height": 480,
+        "from": "https://pbs.twimg.com/media/HSxgVFSW8AAh-K3.jpg",
         "crop": {
-          "x": 0.1,
+          "x": 0.27,
           "y": 0,
-          "w": 0.75,
+          "w": 0.5,
           "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "shan",
+        "handle": "@wildIyenchanted",
+        "verified": false,
+        "avatar": "/media/avatars/wildiyenchanted.webp",
+        "text": "Mayor Smiles refusing to smile while standing within 20 feet of trump will never not be funny",
+        "postedAt": "2026-09-21T22:29:02.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-14T04:51:47.186Z"
     }
   ]
 }
