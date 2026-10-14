@@ -2,28 +2,28 @@
   "date": "2026-09-14",
   "stories": [
     {
-      "title": "Macklemore says Ed Sheeran dropped him from his tour over Palestine",
-      "summary": "Macklemore said Ed Sheeran and his team removed him from the Loop tour over his comments in support of Palestine, after the Kraft Group rallied stadium owners and gave Sheeran an ultimatum. Pop Base's post got 357K likes.",
-      "kind": "image",
+      "title": "Macaulay Culkin's Emmys tribute to Catherine O'Hara",
+      "summary": "At the Emmys, Catherine O'Hara's on-screen children Macaulay Culkin, Annie Murphy and Dan Levy paid tribute to her. Culkin's line \"She may have forgotten me twice… but we will always remember her\" was the most-liked moment of the night, with 157K likes on Film Updates' post. A clip of Martin Short and Steve Martin crying in the audience also spread.",
+      "kind": "video",
       "tags": [
-        "macklemore",
-        "ed-sheeran",
-        "loop-tour",
-        "palestine"
+        "emmys",
+        "macaulay-culkin",
+        "catherine-ohara",
+        "home-alone"
       ],
-      "category": "music",
+      "category": "tv-film",
       "crossover": true,
-      "reach": 9,
-      "dominance": 9,
+      "reach": 8,
+      "dominance": 7,
       "memeability": 6,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/PopBase/status/2099535234727563523",
-      "imageUrl": "https://pbs.twimg.com/media/HSMMKc2aIAAXud_.jpg",
+      "sourceUrl": "https://x.com/FilmUpdates/status/2099690220333760660",
+      "imageUrl": "https://video.twimg.com/amplify_video/2099687350335160321/vid/avc1/1280x720/tNvBmvdRfk0e6cf-.mp4#t=10",
       "crop": {
-        "x": 0.062,
+        "x": 0.02,
         "y": 0,
-        "w": 0.876,
+        "w": 0.421875,
         "h": 1
       }
     }
