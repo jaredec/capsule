@@ -2,30 +2,23 @@
   "date": "2026-09-26",
   "stories": [
     {
-      "title": "Air Force One buzzes Neyland Stadium",
-      "summary": "Before Texas played Tennessee, Air Force One made a low pass over 100,000 fans at Neyland Stadium on Trump's way into Knoxville, and \"Air Force One\" was the top trend in the US. ESPN's broadcast said it came \"REALLY close to the top of the stadium\". The White House's flyover clip got 39K likes and CNN, barred from the plane that day, was replaced in the press pool by Real America's Voice. Texas won 20-17.",
-      "kind": "video",
+      "title": "The Cornell Seven",
+      "summary": "The Cornell Daily Sun's reporting on seven Chi Phi fraternity members accused in a civil suit of drugging a student with ketamine and gang-raping her for seven hours in October 2024 took over the timeline, and so did the fact that the university's punishment was essays and that none were criminally charged. \"Why is 'punishment' for the Cornell r@pısts being handled by the university and not law enforcement?\" got 255K likes, and a post pointing out that the men in the group chat where it was advertised never reported it got 226K. The next day prosecutors reopened the investigation.",
+      "kind": "moment",
       "tags": [
-        "air-force-one",
-        "tennessee",
-        "college-football",
-        "donald-trump"
+        "cornell",
+        "chi-phi",
+        "sexual-assault",
+        "college"
       ],
-      "category": "sports",
+      "category": "news",
       "crossover": true,
-      "reach": 8,
-      "dominance": 8,
-      "memeability": 6,
+      "reach": 9,
+      "dominance": 9,
+      "memeability": 4,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/CollegeGameDay/status/2103869100522889655",
-      "frameAt": 5.5,
-      "crop": {
-        "x": 0.32,
-        "y": 0,
-        "w": 0.421875,
-        "h": 1
-      }
+      "sourceUrl": "https://x.com/omgsidewalks/status/2103853405366018479"
     }
   ]
 }
