@@ -2,23 +2,27 @@
   "date": "2026-10-09",
   "stories": [
     {
-      "title": "Tom Cruise keeps posting through Digger's flop",
-      "summary": "Alejandro G. Iñárritu's Digger, with Tom Cruise in a fat suit, opened to about $8M against a $160-180M budget and was projected to lose $250M, one of the biggest bombs ever. Cruise said he doesn't make movies for \"opening weekend\" and kept posting: on Oct 9 he shared a speech scene from the film (162K likes) and stills captioned \"Level 4.\" (61K). \"Digger is flopping at the box office, going triple platinum on letterboxd, and Tom Cruise is tweeting through it\" summed up the week, alongside jokes that the marketing only ever said \"Tom Cruise is Digger.\"",
-      "kind": "video",
-      "tags": ["tom-cruise", "digger", "box-office-bomb"],
-      "category": "tv-film",
+      "title": "Mike Ditka dies at 86",
+      "summary": "Mike Ditka, the Hall of Fame tight end who coached the 1985 Bears to a Super Bowl win, died at 86. Adam Schefter's post got 82K likes, the NFL's 48K and Barack Obama's tribute 46K, and old clips of his sideline rants and the \"Da Bears\" sketches resurfaced. The same day, the Nobel Peace Prize went to Navi Pillay and Hurricane Isaias hit the Florida Panhandle as a Category 3.",
+      "kind": "image",
+      "tags": [
+        "mike-ditka",
+        "bears",
+        "nfl",
+        "obituary"
+      ],
+      "category": "sports",
       "crossover": true,
       "reach": 8,
-      "dominance": 7,
-      "memeability": 8,
+      "dominance": 8,
+      "memeability": 4,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/TomCruise/status/2108573398033170618",
-      "frameAt": 10,
+      "sourceUrl": "https://x.com/AdamSchefter/status/2108575881996210210",
       "crop": {
-        "x": 0.3,
+        "x": 0.031,
         "y": 0,
-        "w": 0.5,
+        "w": 0.9375,
         "h": 1
       }
     }

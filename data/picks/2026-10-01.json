@@ -2,21 +2,22 @@
   "date": "2026-10-01",
   "stories": [
     {
-      "title": "Mike Tomlin reveals the Minecraft city he built for 12 years",
-      "summary": "Former Steelers coach Mike Tomlin, now an NBC analyst, posted a nearly 20-minute YouTube tour of a Minecraft city he has worked on since 2014, complete with penthouses, stadiums and a worry about enough public bathrooms. His announcement post on X passed 20 million views and the video doubled its views overnight, while fans joked about his urban-planning cadence and rivals like the Browns trolled the Steelers with Minecraft memes.",
-      "kind": "video",
-      "tags": ["nfl", "minecraft", "gaming", "celebrity"],
-      "category": "sports",
+      "title": "Christa Pike survives two lethal injections",
+      "summary": "Tennessee tried to execute Christa Pike, on death row for 30 years for the 1995 murder of Colleen Slemmer, on the night of Sep 30. She was still alive after two lethal injections; her lawyers said she was still breathing and \"snoring,\" and she was taken to a hospital. By Oct 1 her Wikipedia page had 4.3M views, almost nine times any other article that day, and the timeline split between people calling it torture, people saying she deserved worse, and Matt Walsh's \"Call me a conspiracy theorist\" post (49K) questioning whether the failure was an accident.",
+      "kind": "image",
+      "tags": ["christa-pike", "death-penalty", "tennessee"],
+      "category": "news",
       "crossover": true,
-      "reach": 8,
-      "dominance": 8,
-      "memeability": 7,
+      "reach": 9,
+      "dominance": 9,
+      "memeability": 4,
       "platform": "x",
-      "headlineIds": [88, 55],
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/PopBase/status/2105499558029803744",
       "crop": {
-        "x": 0.56,
+        "x": 0.27,
         "y": 0,
-        "w": 0.44,
+        "w": 0.4614,
         "h": 1
       }
     }

@@ -2,59 +2,54 @@
   "date": "2026-10-07",
   "items": [
     {
-      "id": "2026-10-07-x-marlins-man-chats-up-dua-lipa-at-her-first-baseb",
+      "id": "2026-10-07-x-susan-dell-s-trump-accounts-video",
       "platform": "x",
       "rank": 1,
-      "title": "Marlins Man chats up Dua Lipa at her first baseball game",
-      "summary": "At Game 3 of the Yankees-Rays ALDS, broadcast cameras caught Marlins Man, the famous fan in the orange jersey, chatting all night with Dua Lipa and her husband Callum Turner behind home plate. X users joked he was shooting his shot, not realizing her husband was right there. He later posted that he had no idea who they were, and that it was her first game and her first hot dog.",
+      "title": "Susan Dell's Trump Accounts video",
+      "summary": "A clip of Susan Dell, Michael Dell's wife, urging families to register for Trump Accounts (the Dells are putting $250 into each of 25 million kids' accounts) went viral for her look and delivery. \"What the FUCK is that\" got 38K likes, \"the horrors of Susan Dell\" (41K) became shorthand, and the jokes and cosplays ran into the next week. Michael Dell answered with \"Promise made. Promise kept.\" (60K), and Eric Trump called the reaction awful.",
       "kind": "video",
       "tags": [
-        "celebrity",
-        "baseball",
-        "music"
+        "susan-dell",
+        "trump-accounts",
+        "michael-dell"
       ],
-      "author": "@marlins_man",
-      "sourceUrl": "https://x.com/marlins_man/status/2108058126263914691",
+      "author": "@SaycheeseDGTL",
+      "sourceUrl": "https://x.com/SaycheeseDGTL/status/2107955151814484436",
       "metrics": {
-        "likes": "138.3K",
-        "replies": "384"
+        "likes": "5.3K",
+        "replies": "1.7K"
       },
-      "references": [
-        {
-          "title": "Marlins Man Caught Rizzing Up Dua Lipa During Yankees ALDS Game & The Internet Is Losing It [VIDEO]",
-          "url": "https://www.totalprosports.com/mlb/new-york-yankees/marlins-man-dua-lipa-yankees-game/"
-        }
-      ],
+      "references": [],
       "pulse": {
-        "score": 5,
-        "reach": 5,
-        "dominance": 5,
-        "memeability": 5,
-        "category": "celebrity",
+        "score": 7.5,
+        "reach": 7,
+        "dominance": 7,
+        "memeability": 9,
+        "category": "internet-culture",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-07/2026-10-07-x-marlins-man-chats-up-dua-lipa-at-her-first-baseb.webp",
+        "src": "/media/2026-10-07/2026-10-07-x-susan-dell-s-trump-accounts-video.webp",
         "width": 720,
-        "height": 405,
-        "from": "https://pbs.twimg.com/media/HUFTihRW0AANtqs.jpg?name=medium",
+        "height": 720,
+        "from": "https://video.twimg.com/amplify_video/2107955117869715457/vid/avc1/720x720/7tl7xlFHtV0Umz1G.mp4#t=5",
         "crop": {
-          "x": 0.08,
-          "y": 0.1,
-          "w": 0.52,
-          "h": 0.9
+          "x": 0.5,
+          "y": 0.03,
+          "w": 0.5,
+          "h": 0.667
         }
       },
       "post": {
-        "name": "Marlins_Man",
-        "handle": "@marlins_man",
+        "name": "SAY CHEESE! 👄🧀",
+        "handle": "@SaycheeseDGTL",
         "verified": true,
-        "avatar": "/media/avatars/marlins_man.webp",
-        "text": "So i had no idea who this couple were and they were so nice and friendly to everyone.  I told them i know sports, not music nor movies.  They recently got married in june in italy i think.  I wish them 50 years or more of happiness.",
-        "postedAt": "2026-10-08T04:53:17.000Z"
+        "avatar": "/media/avatars/saycheesedgtl.webp",
+        "text": "Susan Dell, wife of Dell Technologies CEO Michael Dell, encouraged families to register for Trump Accounts..",
+        "postedAt": "2026-10-07T22:04:06.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T04:24:59.919Z"
+      "collectedAt": "2026-10-14T03:44:04.161Z"
     }
   ]
 }

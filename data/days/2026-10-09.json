@@ -2,54 +2,55 @@
   "date": "2026-10-09",
   "items": [
     {
-      "id": "2026-10-09-x-tom-cruise-keeps-posting-through-digger-s-flop",
+      "id": "2026-10-09-x-mike-ditka-dies-at-86",
       "platform": "x",
       "rank": 1,
-      "title": "Tom Cruise keeps posting through Digger's flop",
-      "summary": "Alejandro G. Iñárritu's Digger, with Tom Cruise in a fat suit, opened to about $8M against a $160-180M budget and was projected to lose $250M, one of the biggest bombs ever. Cruise said he doesn't make movies for \"opening weekend\" and kept posting: on Oct 9 he shared a speech scene from the film (162K likes) and stills captioned \"Level 4.\" (61K). \"Digger is flopping at the box office, going triple platinum on letterboxd, and Tom Cruise is tweeting through it\" summed up the week, alongside jokes that the marketing only ever said \"Tom Cruise is Digger.\"",
-      "kind": "video",
+      "title": "Mike Ditka dies at 86",
+      "summary": "Mike Ditka, the Hall of Fame tight end who coached the 1985 Bears to a Super Bowl win, died at 86. Adam Schefter's post got 82K likes, the NFL's 48K and Barack Obama's tribute 46K, and old clips of his sideline rants and the \"Da Bears\" sketches resurfaced. The same day, the Nobel Peace Prize went to Navi Pillay and Hurricane Isaias hit the Florida Panhandle as a Category 3.",
+      "kind": "image",
       "tags": [
-        "tom-cruise",
-        "digger",
-        "box-office-bomb"
+        "mike-ditka",
+        "bears",
+        "nfl",
+        "obituary"
       ],
-      "author": "@TomCruise",
-      "sourceUrl": "https://x.com/TomCruise/status/2108573398033170618",
+      "author": "@AdamSchefter",
+      "sourceUrl": "https://x.com/AdamSchefter/status/2108575881996210210",
       "metrics": {
-        "likes": "161.8K",
-        "replies": "2.2K"
+        "likes": "81.8K",
+        "replies": "2K"
       },
       "references": [],
       "pulse": {
-        "score": 7.7,
+        "score": 6.3,
         "reach": 8,
-        "dominance": 7,
-        "memeability": 8,
-        "category": "tv-film",
+        "dominance": 8,
+        "memeability": 4,
+        "category": "sports",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-09/2026-10-09-x-tom-cruise-keeps-posting-through-digger-s-flop.webp",
+        "src": "/media/2026-10-09/2026-10-09-x-mike-ditka-dies-at-86.webp",
         "width": 720,
-        "height": 480,
-        "from": "https://video.twimg.com/amplify_video/2108559263966576640/vid/avc1/1080x720/76yejZDJfhbHQqct.mp4#t=10",
+        "height": 900,
+        "from": "https://pbs.twimg.com/media/HUMqlx-XYAAwjH2.jpg?name=medium",
         "crop": {
-          "x": 0.3,
+          "x": 0.031,
           "y": 0,
-          "w": 0.5,
+          "w": 0.9375,
           "h": 1
         }
       },
       "post": {
-        "name": "Tom Cruise",
-        "handle": "@TomCruise",
+        "name": "Adam Schefter",
+        "handle": "@AdamSchefter",
         "verified": true,
-        "avatar": "/media/avatars/tomcruise.webp",
-        "text": "",
-        "postedAt": "2026-10-09T15:00:48.000Z"
+        "avatar": "/media/avatars/adamschefter.webp",
+        "text": "NFL legend Mike Ditka, who revolutionized the tight end position before becoming the head coach of the world champion 1985 Bears and a towering figure in the city of Chicago, has passed away, his family announced. He was 86.",
+        "postedAt": "2026-10-09T15:10:40.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T03:17:02.588Z"
+      "collectedAt": "2026-10-14T02:47:22.876Z"
     }
   ]
 }

@@ -2,64 +2,54 @@
   "date": "2026-10-01",
   "items": [
     {
-      "id": "2026-10-01-x-mike-tomlin-reveals-the-minecraft-city-he-built-",
+      "id": "2026-10-01-x-christa-pike-survives-two-lethal-injections",
       "platform": "x",
       "rank": 1,
-      "title": "Mike Tomlin reveals the Minecraft city he built for 12 years",
-      "summary": "Former Steelers coach Mike Tomlin, now an NBC analyst, posted a nearly 20-minute YouTube tour of a Minecraft city he has worked on since 2014, complete with penthouses, stadiums and a worry about enough public bathrooms. His announcement post on X passed 20 million views and the video doubled its views overnight, while fans joked about his urban-planning cadence and rivals like the Browns trolled the Steelers with Minecraft memes.",
-      "kind": "video",
+      "title": "Christa Pike survives two lethal injections",
+      "summary": "Tennessee tried to execute Christa Pike, on death row for 30 years for the 1995 murder of Colleen Slemmer, on the night of Sep 30. She was still alive after two lethal injections; her lawyers said she was still breathing and \"snoring,\" and she was taken to a hospital. By Oct 1 her Wikipedia page had 4.3M views, almost nine times any other article that day, and the timeline split between people calling it torture, people saying she deserved worse, and Matt Walsh's \"Call me a conspiracy theorist\" post (49K) questioning whether the failure was an accident.",
+      "kind": "image",
       "tags": [
-        "nfl",
-        "minecraft",
-        "gaming",
-        "celebrity"
+        "christa-pike",
+        "death-penalty",
+        "tennessee"
       ],
-      "author": "@CoachTomlin",
-      "sourceUrl": "https://x.com/CoachTomlin/status/2105331631913672735",
+      "author": "@PopBase",
+      "sourceUrl": "https://x.com/PopBase/status/2105499558029803744",
       "metrics": {
-        "likes": "163.5K",
-        "replies": "1.5K"
+        "likes": "59.3K",
+        "replies": "805"
       },
-      "references": [
-        {
-          "title": "The Internet Is Losing Its Mind Over Retired NFL Coach Mike Tomlin Spending 12 Years Making A Very Intricate Minecraft City",
-          "url": "https://kotaku.com/mike-tomlin-minecraft-city-nfl-coach-steelers-mojang-youtube-2000739307"
-        },
-        {
-          "title": "Cleveland Browns troll Steelers with perfect Minecraft meme after clutch win",
-          "url": "https://sports.yahoo.com/articles/cleveland-browns-troll-steelers-perfect-103247508.html"
-        }
-      ],
+      "references": [],
       "pulse": {
         "score": 7,
-        "reach": 8,
-        "dominance": 8,
-        "memeability": 7,
-        "category": "sports",
+        "reach": 9,
+        "dominance": 9,
+        "memeability": 4,
+        "category": "news",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-01/2026-10-01-x-mike-tomlin-reveals-the-minecraft-city-he-built-.webp",
+        "src": "/media/2026-10-01/2026-10-01-x-christa-pike-survives-two-lethal-injections.webp",
         "width": 720,
-        "height": 405,
-        "from": "https://pbs.twimg.com/media/HTej9dYWUAAPM1n.jpg?name=medium",
+        "height": 443,
+        "from": "https://pbs.twimg.com/media/HTg8r1bWMAAVM3g.jpg?name=medium",
         "crop": {
-          "x": 0.56,
+          "x": 0.27,
           "y": 0,
-          "w": 0.44,
+          "w": 0.4614,
           "h": 1
         }
       },
       "post": {
-        "name": "Mike Tomlin",
-        "handle": "@CoachTomlin",
+        "name": "Pop Base",
+        "handle": "@PopBase",
         "verified": true,
-        "avatar": "/media/avatars/coachtomlin.webp",
-        "text": "Tonight. \n\n8 p.m.\n\nMy Minecraft City. \n\nSubscribe now: \nyoutube.com/@miket757",
-        "postedAt": "2026-09-30T16:19:10.000Z"
+        "avatar": "/media/avatars/popbase.webp",
+        "text": "Christa Gail Pike is still alive after two lethal injections.\n\nHer lawyers said she is still breathing and “snoring” in a motion filed to once again halt the execution.",
+        "postedAt": "2026-10-01T03:26:27.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:41:17.410Z"
+      "collectedAt": "2026-10-14T03:44:02.353Z"
     }
   ]
 }
