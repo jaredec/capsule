@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-12",
+  "stories": [
+    {
+      "title": "Kacey Musgraves to Kristi Noem: \"If you did you would have shot it\"",
+      "summary": "Kristi Noem posted \"I'll take @ellalangleymsic over Kacey Musgraves any day\" after Texas Senate candidate James Talarico joined Musgraves onstage in Dallas. Musgraves quoted her with \"I don't think you have a dog in this fight but if you did you would have shot it,\" a reference to Noem writing that she shot her dog Cricket. The reply got 474K likes, about 43 times Noem's post, and was the most-liked post of the day. News of Breaking Bad star RJ Mitte's death at 34 broke the same day.",
+      "kind": "moment",
+      "tags": ["kacey-musgraves", "kristi-noem", "clapback"],
+      "category": "music",
+      "crossover": true,
+      "reach": 9,
+      "dominance": 9,
+      "memeability": 8,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/KaceyMusgraves/status/2109750560228618245",
+      "imageUrl": "https://pbs.twimg.com/media/HUeNBmEaAAAmTL2.jpg",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 1
+      }
+    }
+  ]
+}

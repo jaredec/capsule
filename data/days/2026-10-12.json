@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-12",
+  "items": [
+    {
+      "id": "2026-10-12-x-kacey-musgraves-to-kristi-noem-if-you-did-you-wo",
+      "platform": "x",
+      "rank": 1,
+      "title": "Kacey Musgraves to Kristi Noem: \"If you did you would have shot it\"",
+      "summary": "Kristi Noem posted \"I'll take @ellalangleymsic over Kacey Musgraves any day\" after Texas Senate candidate James Talarico joined Musgraves onstage in Dallas. Musgraves quoted her with \"I don't think you have a dog in this fight but if you did you would have shot it,\" a reference to Noem writing that she shot her dog Cricket. The reply got 474K likes, about 43 times Noem's post, and was the most-liked post of the day. News of Breaking Bad star RJ Mitte's death at 34 broke the same day.",
+      "kind": "moment",
+      "tags": [
+        "kacey-musgraves",
+        "kristi-noem",
+        "clapback"
+      ],
+      "author": "@KaceyMusgraves",
+      "sourceUrl": "https://x.com/KaceyMusgraves/status/2109750560228618245",
+      "metrics": {
+        "likes": "474.5K",
+        "replies": "7K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 8.8,
+        "reach": 9,
+        "dominance": 9,
+        "memeability": 8,
+        "category": "music",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-10-12/2026-10-12-x-kacey-musgraves-to-kristi-noem-if-you-did-you-wo.webp",
+        "width": 720,
+        "height": 960,
+        "from": "https://pbs.twimg.com/media/HUeNBmEaAAAmTL2.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "K A C E Y",
+        "handle": "@KaceyMusgraves",
+        "verified": true,
+        "avatar": "/media/avatars/kaceymusgraves.webp",
+        "text": "I don’t think you have a dog in this fight but if you did you would have shot it.",
+        "postedAt": "2026-10-12T20:58:25.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-14T03:00:54.271Z"
+    }
+  ]
+}

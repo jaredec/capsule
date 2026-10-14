@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-13",
+  "items": [
+    {
+      "id": "2026-10-13-x-the-yorkshire-wildlife-park-tiger",
+      "platform": "x",
+      "rank": 1,
+      "title": "The Yorkshire Wildlife Park tiger",
+      "summary": "A man died after climbing into the tiger enclosure at Yorkshire Wildlife Park in Doncaster on Oct 10, and footage of Altai, a five-year-old Amur tiger, standing over him spread everywhere. The park's statement that Altai would not be put down got 199K likes on Pop Base's post, and X split over whether rangers should have shot him. On Oct 13 the man was named as William Chapman, 23, who had posted a video from inside the enclosure moments before; his family said he had a significant mental illness. The same day Trump posted the attack video on Truth Social with \"Don't ever mess with nature!\"",
+      "kind": "image",
+      "tags": [
+        "tiger",
+        "yorkshire-wildlife-park",
+        "uk"
+      ],
+      "author": "@PolitlcsUK",
+      "sourceUrl": "https://x.com/PolitlcsUK/status/2109981393006559352",
+      "metrics": {
+        "likes": "19.2K",
+        "replies": "1.3K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.7,
+        "reach": 9,
+        "dominance": 8,
+        "memeability": 5,
+        "category": "animals",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-10-13/2026-10-13-x-the-yorkshire-wildlife-park-tiger.webp",
+        "width": 401,
+        "height": 501,
+        "from": "https://pbs.twimg.com/media/HUXF272WMAAd05J.jpg",
+        "crop": {
+          "x": 0.063,
+          "y": 0,
+          "w": 0.937,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "Politics UK",
+        "handle": "@PolitlcsUK",
+        "verified": true,
+        "avatar": "/media/avatars/politlcsuk.webp",
+        "text": "🚨 NEW: The man mauled by a tiger after entering its enclosure at Yorkshire Wildlife Park has been named as William Chapman\n\nHe posted a video of himself inside the enclosure just moments before the attack",
+        "postedAt": "2026-10-13T12:15:40.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-14T03:01:23.877Z"
+    }
+  ]
+}
