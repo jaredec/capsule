@@ -3,9 +3,13 @@
   "stories": [
     {
       "title": "Plague escapes a Russian lab",
-      "summary": "Five hospitals in Siberia were quarantined after Darya Shipilova, a 28-year-old lab technician at the Irkutsk Anti-Plague Institute, died after breaking a test tube of live Yersinia pestis. \"Russia pneumonic plague\" became one of the top US searches. Raw Alerts' \"Infectious 'plague' escapes Siberian lab\" got 66K likes, and \"The Pneumonic Plague that just escaped a lab in Russia is about 100x deadlier than COVID\" got 59K. Most of the timeline went for the joke: \">anti plague institute >starts a plague\" (18K), toilet-paper CEO memes, and Taylor Swift conspiracy posts pointing out her song \"Patient Zero\" came out the same day as the lab accident.",
-      "kind": "moment",
-      "tags": ["plague", "russia", "lab-leak"],
+      "summary": "Five hospitals in Siberia were quarantined after Darya Shipilova, a 28-year-old lab technician at the Irkutsk Anti-Plague Institute, died after breaking a test tube of live Yersinia pestis. \"Russia pneumonic plague\" became one of the top US searches. Raw Alerts' \"Infectious 'plague' escapes Siberian lab\" got 66K likes, and \"The Pneumonic Plague that just escaped a lab in Russia is about 100x deadlier than COVID\" got 59K. Most of the timeline went for the joke: \">anti plague institute >starts a plague\" (18K), a spilled biohazard vial captioned \"First day at the plague factory\" that hit 159K the next morning, toilet-paper CEO memes, and Taylor Swift conspiracy posts pointing out her song \"Patient Zero\" came out the same day as the lab accident.",
+      "kind": "image",
+      "tags": [
+        "plague",
+        "russia",
+        "lab-leak"
+      ],
       "category": "news",
       "crossover": true,
       "reach": 8,
@@ -13,7 +17,14 @@
       "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/rawsalerts/status/2106895231471788184"
+      "sourceUrl": "https://x.com/rawsalerts/status/2106895231471788184",
+      "imageUrl": "https://pbs.twimg.com/media/HT4Y2MPboAASYvC.jpg",
+      "crop": {
+        "x": 0.014,
+        "y": 0,
+        "w": 0.972,
+        "h": 1
+      }
     }
   ]
 }
