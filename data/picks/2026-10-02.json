@@ -2,23 +2,28 @@
   "date": "2026-10-02",
   "stories": [
     {
-      "title": "Jonathan Bailey's breathy Dracula audiobook clip sends fans feral",
-      "summary": "Entertainment Tonight shared a behind-the-scenes clip of Jonathan Bailey and Ella Purnell recording a feeding scene for Audible's new Bram Stoker's Dracula, with heavy breathing, a hand on his chest and Purnell biting an apple for the sound effect. The clip split viewers between thirst and second-hand embarrassment, and posts asking whether audiobooks were their new kink spread across X and TikTok.",
-      "kind": "video",
-      "tags": ["celebrity", "audiobook", "dracula"],
-      "category": "celebrity",
-      "crossover": false,
-      "reach": 6,
-      "dominance": 7,
-      "memeability": 7,
+      "title": "Zach Bryan wears a \"Free Palestine\" shirt at Gillette Stadium",
+      "summary": "Country star Zach Bryan played his show at Gillette Stadium, home of the Patriots and owner Robert Kraft, in a \"Free Palestine\" T-shirt that filled the big screens. Pop Crave's photo got 165K likes and \"Zach Bryan\" was the top trend on X that night. Reactions split between praise and criticism, with plenty of jokes about Kraft, a prominent supporter of Israel, watching from his suite.",
+      "kind": "image",
+      "tags": [
+        "zach-bryan",
+        "country-music",
+        "palestine",
+        "concert"
+      ],
+      "category": "music",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 5,
       "platform": "x",
-      "headlineIds": [83, 97, 104],
-      "frameAt": 35.6,
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/PopCrave/status/2106204674118606889",
       "crop": {
-        "x": 0.31,
-        "y": 0,
-        "w": 0.48,
-        "h": 1
+        "x": 0.0,
+        "y": 0.2,
+        "w": 0.39,
+        "h": 0.65
       }
     }
   ]

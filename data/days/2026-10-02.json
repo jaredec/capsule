@@ -2,67 +2,55 @@
   "date": "2026-10-02",
   "items": [
     {
-      "id": "2026-10-02-x-jonathan-bailey-s-breathy-dracula-audiobook-clip",
+      "id": "2026-10-02-x-zach-bryan-wears-a-free-palestine-shirt-at-gille",
       "platform": "x",
       "rank": 1,
-      "title": "Jonathan Bailey's breathy Dracula audiobook clip sends fans feral",
-      "summary": "Entertainment Tonight shared a behind-the-scenes clip of Jonathan Bailey and Ella Purnell recording a feeding scene for Audible's new Bram Stoker's Dracula, with heavy breathing, a hand on his chest and Purnell biting an apple for the sound effect. The clip split viewers between thirst and second-hand embarrassment, and posts asking whether audiobooks were their new kink spread across X and TikTok.",
-      "kind": "video",
+      "title": "Zach Bryan wears a \"Free Palestine\" shirt at Gillette Stadium",
+      "summary": "Country star Zach Bryan played his show at Gillette Stadium, home of the Patriots and owner Robert Kraft, in a \"Free Palestine\" T-shirt that filled the big screens. Pop Crave's photo got 165K likes and \"Zach Bryan\" was the top trend on X that night. Reactions split between praise and criticism, with plenty of jokes about Kraft, a prominent supporter of Israel, watching from his suite.",
+      "kind": "image",
       "tags": [
-        "celebrity",
-        "audiobook",
-        "dracula"
+        "zach-bryan",
+        "country-music",
+        "palestine",
+        "concert"
       ],
-      "author": "@DiscussingFilm",
-      "sourceUrl": "https://x.com/DiscussingFilm/status/2105694425376510072",
+      "author": "@PopCrave",
+      "sourceUrl": "https://x.com/PopCrave/status/2106204674118606889",
       "metrics": {
-        "likes": "78.2K",
-        "replies": "764"
+        "likes": "165.2K",
+        "replies": "1.3K"
       },
-      "references": [
-        {
-          "title": "The Internet Is Losing It Over Jonathan Bailey And Ella Purnell In \"Dracula\"",
-          "url": "https://www.yahoo.com/entertainment/movies/articles/internet-losing-over-jonathan-bailey-160821975.html"
-        },
-        {
-          "title": "Jonathan Bailey, Ella Purnell’s ‘Dracula’ audiobook clip has fans losing it online: 'So much emotion, otherworldly'",
-          "url": "https://www.wionews.com/entertainment/hollywood/jonathan-bailey-ella-purnell-s-dracula-audiobook-clip-has-fans-losing-it-online-so-much-emotion-otherworldly-1791012111199"
-        },
-        {
-          "title": "Gym crushes, gay Halloween tees & Jonathan Bailey as Dracula: 10 things we're obsessed with this week",
-          "url": "https://www.queerty.com/gym-crushes-gay-halloween-tees-jonathan-bailey-as-dracula-10-things-were-obsessed-with-this-week-20261003/"
-        }
-      ],
+      "references": [],
       "pulse": {
-        "score": 6.6,
-        "reach": 6,
-        "dominance": 7,
-        "memeability": 7,
-        "category": "celebrity",
-        "crossover": false
+        "score": 7.3,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 5,
+        "category": "music",
+        "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-02/2026-10-02-x-jonathan-bailey-s-breathy-dracula-audiobook-clip.webp",
+        "src": "/media/2026-10-02/2026-10-02-x-zach-bryan-wears-a-free-palestine-shirt-at-gille.webp",
         "width": 720,
-        "height": 465,
-        "from": "https://video.twimg.com/amplify_video/2105694331818450944/vid/avc1/1114x720/iNVSSeby07s_pG8I.mp4#t=35.6",
+        "height": 576,
+        "from": "https://pbs.twimg.com/media/HTq9_OFXwAA-dq5.jpg?name=medium",
         "crop": {
-          "x": 0.31,
-          "y": 0,
-          "w": 0.48,
-          "h": 1
+          "x": 0,
+          "y": 0.2,
+          "w": 0.39,
+          "h": 0.65
         }
       },
       "post": {
-        "name": "DiscussingFilm",
-        "handle": "@DiscussingFilm",
+        "name": "Pop Crave",
+        "handle": "@PopCrave",
         "verified": true,
-        "avatar": "/media/avatars/discussingfilm.webp",
-        "text": "First clip of Jonathan Bailey and Ella Purnell recording lines for Audible's audiobook adaptation of ‘DRACULA’.",
-        "postedAt": "2026-10-01T16:20:47.000Z"
+        "avatar": "/media/avatars/popcrave.webp",
+        "text": "Country singer Zach Bryan wore a “Free Palestine” shirt at his Gillette Stadium show in Massachusetts.",
+        "postedAt": "2026-10-03T02:08:20.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T03:39:32.616Z"
+      "collectedAt": "2026-10-14T02:48:02.885Z"
     }
   ]
 }

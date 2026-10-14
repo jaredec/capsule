@@ -2,55 +2,54 @@
   "date": "2026-10-04",
   "items": [
     {
-      "id": "2026-10-04-x-softhearted-gunner-an-ai-kitten-can-t-shoot-the-",
+      "id": "2026-10-04-x-taylor-swift-crashes-dakota-johnson-s-snl-monolo",
       "platform": "x",
       "rank": 1,
-      "title": "\"Softhearted Gunner\": an AI kitten can't shoot the zombie cat it loves",
-      "summary": "An AI-generated clip shows a teary orange kitten aiming a pistol at a zombified white cat, unable to pull the trigger, letting it lunge, then cutting to the two cuddling in a sunlit meadow. A Turkish X post captioned \"Ağlıyorum\" (\"I'm crying\") passed 2.4 million views within days and reached Korean and Turkish forums inside 48 hours, and remakes with other characters followed under the name \"Softhearted Gunner.\"",
-      "kind": "video",
+      "title": "Taylor Swift crashes Dakota Johnson's SNL monologue",
+      "summary": "Taylor Swift walked on unannounced during Dakota Johnson's opening monologue on Saturday Night Live, playing the friend Johnson jokingly calls her therapist, and brought her a cake for her birthday the next day. Pop Base's photo of the two got 60K likes, \"SNL Taylor Swift\" was one of the weekend's top Google searches, and fan clips of the studio audience screaming kept circulating through Sunday.",
+      "kind": "image",
       "tags": [
-        "ai",
-        "cats",
-        "zombies",
-        "reaction"
+        "taylor-swift",
+        "dakota-johnson",
+        "snl"
       ],
-      "author": "@netmutsuz",
-      "sourceUrl": "https://x.com/netmutsuz/status/2106887598140707014",
+      "author": "@PopBase",
+      "sourceUrl": "https://x.com/PopBase/status/2106592324902113373",
       "metrics": {
-        "likes": "49.3K",
-        "replies": "463"
+        "likes": "59.5K",
+        "replies": "396"
       },
       "references": [],
       "pulse": {
-        "score": 6.2,
-        "reach": 6,
-        "dominance": 5,
-        "memeability": 8,
-        "category": "internet-culture",
+        "score": 6.9,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 5,
+        "category": "tv-film",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-04/2026-10-04-x-softhearted-gunner-an-ai-kitten-can-t-shoot-the-.webp",
+        "src": "/media/2026-10-04/2026-10-04-x-taylor-swift-crashes-dakota-johnson-s-snl-monolo.webp",
         "width": 720,
-        "height": 408,
-        "from": "https://video.twimg.com/amplify_video/2106887574501347329/vid/avc1/848x480/Z4g0TMw15cq4gkJa.mp4#t=0.6",
+        "height": 400,
+        "from": "https://pbs.twimg.com/media/HTwejZcXQAIAY6Y.jpg?name=medium",
         "crop": {
-          "x": 0.17,
+          "x": 0.43,
           "y": 0,
-          "w": 0.42,
+          "w": 0.417,
           "h": 1
         }
       },
       "post": {
-        "name": "Miraç",
-        "handle": "@netmutsuz",
-        "verified": false,
-        "avatar": "/media/avatars/netmutsuz.webp",
-        "text": "Ağlıyorum",
-        "postedAt": "2026-10-04T23:22:02.000Z"
+        "name": "Pop Base",
+        "handle": "@PopBase",
+        "verified": true,
+        "avatar": "/media/avatars/popbase.webp",
+        "text": "Taylor Swift makes surprise appearance during Dakota Johnson’s monologue on SNL.",
+        "postedAt": "2026-10-04T03:48:43.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T03:11:58.105Z"
+      "collectedAt": "2026-10-14T02:47:18.400Z"
     }
   ]
 }

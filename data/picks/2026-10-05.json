@@ -2,23 +2,29 @@
   "date": "2026-10-05",
   "stories": [
     {
-      "title": "AI Rumpelstiltskin goes 'Tip Toein' In My Jordans'",
-      "summary": "An AI-generated clip styled like a 1980s fantasy film, an imp tiptoeing around a crying woman in a barn before turning the straw into gold, was set to Riff Raff's 'Tip Toe Wing In My Jawwdinz' and took over feeds; one Oct 5 post asking what it was ('I am literally seeing it EVERYWHERE') drew 11,000 likes. Viewers hunted for the 'old movie' it came from before explainers confirmed it was AI, and users swapped in everyone from Supernatural's Sam and Dean to Asmongold.",
+      "title": "Trump: \"Let them take out Los Angeles. Let them take out San Diego\"",
+      "summary": "At a campaign rally in Nebraska, talking about the war with Iran and high prices, Trump said: \"It's a small price to pay. They can take out a city. Let them take out Los Angeles. Let them take out San Diego.\" Clips of the line pushed \"San Diego,\" \"LA or SD\" and \"25th Amendment\" to the top of X's trends, and Gavin Newsom's response got 53K likes. The White House's rapid-response account said he meant the war was being fought to stop Iran from ever being able to hit those cities.",
       "kind": "video",
-      "tags": ["ai", "meme-template", "music"],
-      "category": "internet-culture",
-      "crossover": false,
-      "reach": 7,
-      "dominance": 7,
-      "memeability": 9,
+      "tags": [
+        "trump",
+        "iran",
+        "los-angeles",
+        "san-diego",
+        "rally"
+      ],
+      "category": "politics",
+      "crossover": true,
+      "reach": 9,
+      "dominance": 9,
+      "memeability": 6,
       "platform": "x",
-      "headlineIds": [56],
-      "sourceUrl": "https://x.com/SharrellAnne2/status/2107181948984524832",
-      "frameAt": 5.5,
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/HQNewsNow/status/2107261648339702108",
+      "frameAt": 5,
       "crop": {
-        "x": 0.15,
+        "x": 0.41,
         "y": 0,
-        "w": 0.46,
+        "w": 0.421875,
         "h": 1
       }
     }

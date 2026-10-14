@@ -2,23 +2,26 @@
   "date": "2026-10-04",
   "stories": [
     {
-      "title": "\"Softhearted Gunner\": an AI kitten can't shoot the zombie cat it loves",
-      "summary": "An AI-generated clip shows a teary orange kitten aiming a pistol at a zombified white cat, unable to pull the trigger, letting it lunge, then cutting to the two cuddling in a sunlit meadow. A Turkish X post captioned \"Ağlıyorum\" (\"I'm crying\") passed 2.4 million views within days and reached Korean and Turkish forums inside 48 hours, and remakes with other characters followed under the name \"Softhearted Gunner.\"",
-      "kind": "video",
-      "tags": ["ai", "cats", "zombies", "reaction"],
-      "category": "internet-culture",
+      "title": "Taylor Swift crashes Dakota Johnson's SNL monologue",
+      "summary": "Taylor Swift walked on unannounced during Dakota Johnson's opening monologue on Saturday Night Live, playing the friend Johnson jokingly calls her therapist, and brought her a cake for her birthday the next day. Pop Base's photo of the two got 60K likes, \"SNL Taylor Swift\" was one of the weekend's top Google searches, and fan clips of the studio audience screaming kept circulating through Sunday.",
+      "kind": "image",
+      "tags": [
+        "taylor-swift",
+        "dakota-johnson",
+        "snl"
+      ],
+      "category": "tv-film",
       "crossover": true,
-      "reach": 6,
-      "dominance": 5,
-      "memeability": 8,
+      "reach": 8,
+      "dominance": 7,
+      "memeability": 5,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/netmutsuz/status/2106887598140707014",
-      "frameAt": 0.6,
+      "sourceUrl": "https://x.com/PopBase/status/2106592324902113373",
       "crop": {
-        "x": 0.17,
+        "x": 0.43,
         "y": 0,
-        "w": 0.42,
+        "w": 0.417,
         "h": 1
       }
     }

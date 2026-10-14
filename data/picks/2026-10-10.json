@@ -2,23 +2,27 @@
   "date": "2026-10-10",
   "stories": [
     {
-      "title": "\"C’est le docteur Guérit-tout\": Serge Veilleux’s 1981 TV performance",
-      "summary": "An archival clip from the Quebec folklore show Soirée canadienne shows Serge Veilleux, a pint-sized 16-year-old who had received a kidney transplant four years earlier, belting the traditional folk song \"Le docteur Guérit-tout\" (\"C’est le docteur Guérit-tout, qui a un remède à tout\"), a comic call-and-response tune about a doctor who cures every ailment by cutting off another body part. An English post captioned \"POV: You told a rude Québécois kid… that fries are better with ketchup than as poutine\" carried it far beyond Quebec, replies dug up who he was (he died in 2007), and even Pierre Poilievre quoted it.",
+      "title": "Shane Gillis's SNL monologue",
+      "summary": "Shane Gillis hosted Saturday Night Live, and his monologue, including a bit mocking women who wear revealing outfits at the gym, set off days of argument. Dan Levy said he was \"speechless that something like that can exist on live national television,\" fans called it his best yet, and women answered by tagging him in their gym selfies. Later in the show he dropped a live F-bomb in a sketch. NBC's monologue clip got 42K likes and Pop Crave's F-bomb clip 49K.",
       "kind": "video",
-      "tags": ["quebec", "tv", "music", "throwback"],
-      "category": "internet-culture",
-      "crossover": false,
-      "reach": 7,
-      "dominance": 6,
+      "tags": [
+        "shane-gillis",
+        "snl",
+        "comedy"
+      ],
+      "category": "tv-film",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 8,
       "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/UCCavalier/status/2108182875120243177",
-      "frameAt": 12,
+      "sourceUrl": "https://x.com/nbcsnl/status/2109130481195434198",
+      "frameAt": 60,
       "crop": {
-        "x": 0.21,
+        "x": 0.41,
         "y": 0,
-        "w": 0.57,
+        "w": 0.421875,
         "h": 1
       }
     }
