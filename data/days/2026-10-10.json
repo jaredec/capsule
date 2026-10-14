@@ -2,54 +2,54 @@
   "date": "2026-10-10",
   "items": [
     {
-      "id": "2026-10-10-x-shane-gillis-on-snl-women-at-the-gym-just-dress-",
+      "id": "2026-10-10-x-the-yorkshire-wildlife-park-tiger",
       "platform": "x",
       "rank": 1,
-      "title": "Shane Gillis on SNL: women at the gym \"just dress like whores now\"",
-      "summary": "In his SNL monologue, Shane Gillis said, \"I haven’t been to the gym in so long I didn’t know women just dress like whores now? Look, I’m sorry, there’s no other way to describe it,\" then went after the shorts. Dan Levy said he was \"speechless that something like that can exist on live national television\" (Variety’s post got 42K), Ego Nwodim answered with a photo of herself working out, and thousands of women posted themselves in compression shorts and sports bras talking about him. His defenders fired back with \"'Shane Gillis isn't funny' - All the women who dress like whores at the gym\" (24K). NBC’s monologue clip got 42K likes, and later in the show he dropped a live F-bomb.",
-      "kind": "video",
+      "title": "The Yorkshire Wildlife Park tiger",
+      "summary": "A man climbed into the tiger enclosure at Yorkshire Wildlife Park in Doncaster and was killed by Altai, a five-year-old Amur tiger, and footage of him sitting in the grass in front of the tiger spread everywhere. X split between \"the tiger should have been shot immediately\" and people defending the park and the tiger, and a post of the next day's news that Altai would not be put down got 199K likes. The man was later named as William Chapman, 23, whose family said he had a significant mental illness.",
+      "kind": "image",
       "tags": [
-        "shane-gillis",
-        "snl",
-        "gym-clothes"
+        "tiger",
+        "yorkshire-wildlife-park",
+        "uk"
       ],
-      "author": "@nbcsnl",
-      "sourceUrl": "https://x.com/nbcsnl/status/2109130481195434198",
+      "author": "@PolitlcsUK",
+      "sourceUrl": "https://x.com/PolitlcsUK/status/2108968933327794349",
       "metrics": {
-        "likes": "42.3K",
-        "replies": "2.4K"
+        "likes": "14.3K",
+        "replies": "1.7K"
       },
       "references": [],
       "pulse": {
-        "score": 7.8,
-        "reach": 8,
+        "score": 7.7,
+        "reach": 9,
         "dominance": 8,
-        "memeability": 7,
-        "category": "tv-film",
+        "memeability": 5,
+        "category": "animals",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-10/2026-10-10-x-shane-gillis-on-snl-women-at-the-gym-just-dress-.webp",
-        "width": 720,
-        "height": 405,
-        "from": "https://video.twimg.com/amplify_video/2109129384305086464/vid/avc1/1280x720/nQYu9LAq-pi6incy.mp4#t=144",
+        "src": "/media/2026-10-10/2026-10-10-x-the-yorkshire-wildlife-park-tiger.webp",
+        "width": 401,
+        "height": 501,
+        "from": "https://pbs.twimg.com/media/HUXF272WMAAd05J.jpg",
         "crop": {
-          "x": 0.365,
-          "y": 0.04,
-          "w": 0.27,
-          "h": 0.64
+          "x": 0.063,
+          "y": 0,
+          "w": 0.937,
+          "h": 1
         }
       },
       "post": {
-        "name": "Saturday Night Live",
-        "handle": "@nbcsnl",
+        "name": "Politics UK",
+        "handle": "@PolitlcsUK",
         "verified": true,
-        "avatar": "/media/avatars/nbcsnl.webp",
-        "text": "Shane Gillis’ monologue!",
-        "postedAt": "2026-10-11T03:54:27.000Z"
+        "avatar": "/media/avatars/politlcsuk.webp",
+        "text": "🚨 BREAKING: A man has died after being attacked by a tiger at Yorkshire Wildfire Park",
+        "postedAt": "2026-10-10T17:12:31.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T04:00:06.593Z"
+      "collectedAt": "2026-10-14T04:13:27.029Z"
     }
   ]
 }

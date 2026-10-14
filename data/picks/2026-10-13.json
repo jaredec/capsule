@@ -2,24 +2,24 @@
   "date": "2026-10-13",
   "stories": [
     {
-      "title": "The Yorkshire Wildlife Park tiger",
-      "summary": "A man died after climbing into the tiger enclosure at Yorkshire Wildlife Park in Doncaster on Oct 10, and footage of Altai, a five-year-old Amur tiger, standing over him spread everywhere. The park's statement that Altai would not be put down got 199K likes on Pop Base's post, and X split over whether rangers should have shot him. On Oct 13 the man was named as William Chapman, 23, who had posted a video from inside the enclosure moments before; his family said he had a significant mental illness. The same day Trump posted the attack video on Truth Social with \"Don't ever mess with nature!\"",
-      "kind": "image",
-      "tags": ["tiger", "yorkshire-wildlife-park", "uk"],
-      "category": "animals",
+      "title": "Shane Gillis on SNL: women at the gym \"just dress like whores now\"",
+      "summary": "Three days after his SNL monologue, the fight over one line was still going: \"I haven't been to the gym in so long I didn't know women just dress like whores now? Look, I'm sorry, there's no other way to describe it.\" Dan Levy said he was \"speechless that something like that can exist on live national television\" (Variety's post got 42K), Ego Nwodim answered with a photo of herself working out, and thousands of women posted themselves in compression shorts and sports bras tagging him. The other side had the jokes: \"Shane Gillis goading thousands of women into tagging him in their half-naked selfies is elite tier\" (68K), \"Shane Gillis told a joke about women dressing up as whores at the gym and, boy, did those whores prove him wrong\" (20K), and \"Walking into the gym today to see what all the ladies are wearing to 'own Shane Gillis'\" (19K). His Wikipedia page drew over 100K views a day from Oct 11 to 13.",
+      "kind": "video",
+      "tags": ["shane-gillis", "snl", "gym-clothes"],
+      "category": "tv-film",
       "crossover": true,
-      "reach": 9,
+      "reach": 8,
       "dominance": 8,
-      "memeability": 5,
+      "memeability": 8,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/PolitlcsUK/status/2109981393006559352",
-      "imageUrl": "https://pbs.twimg.com/media/HUXF272WMAAd05J.jpg",
+      "sourceUrl": "https://x.com/nbcsnl/status/2109130481195434198",
+      "frameAt": 144,
       "crop": {
-        "x": 0.063,
-        "y": 0,
-        "w": 0.937,
-        "h": 1
+        "x": 0.365,
+        "y": 0.04,
+        "w": 0.27,
+        "h": 0.64
       }
     }
   ]

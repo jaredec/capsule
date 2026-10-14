@@ -2,28 +2,24 @@
   "date": "2026-10-10",
   "stories": [
     {
-      "title": "Shane Gillis on SNL: women at the gym \"just dress like whores now\"",
-      "summary": "In his SNL monologue, Shane Gillis said, \"I haven’t been to the gym in so long I didn’t know women just dress like whores now? Look, I’m sorry, there’s no other way to describe it,\" then went after the shorts. Dan Levy said he was \"speechless that something like that can exist on live national television\" (Variety’s post got 42K), Ego Nwodim answered with a photo of herself working out, and thousands of women posted themselves in compression shorts and sports bras talking about him. His defenders fired back with \"'Shane Gillis isn't funny' - All the women who dress like whores at the gym\" (24K). NBC’s monologue clip got 42K likes, and later in the show he dropped a live F-bomb.",
-      "kind": "video",
-      "tags": [
-        "shane-gillis",
-        "snl",
-        "gym-clothes"
-      ],
-      "category": "tv-film",
+      "title": "The Yorkshire Wildlife Park tiger",
+      "summary": "A man climbed into the tiger enclosure at Yorkshire Wildlife Park in Doncaster and was killed by Altai, a five-year-old Amur tiger, and footage of him sitting in the grass in front of the tiger spread everywhere. X split between \"the tiger should have been shot immediately\" and people defending the park and the tiger, and a post of the next day's news that Altai would not be put down got 199K likes. The man was later named as William Chapman, 23, whose family said he had a significant mental illness.",
+      "kind": "image",
+      "tags": ["tiger", "yorkshire-wildlife-park", "uk"],
+      "category": "animals",
       "crossover": true,
-      "reach": 8,
+      "reach": 9,
       "dominance": 8,
-      "memeability": 7,
+      "memeability": 5,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/nbcsnl/status/2109130481195434198",
-      "frameAt": 144,
+      "sourceUrl": "https://x.com/PolitlcsUK/status/2108968933327794349",
+      "imageUrl": "https://pbs.twimg.com/media/HUXF272WMAAd05J.jpg",
       "crop": {
-        "x": 0.365,
-        "y": 0.04,
-        "w": 0.27,
-        "h": 0.64
+        "x": 0.063,
+        "y": 0,
+        "w": 0.937,
+        "h": 1
       }
     }
   ]
