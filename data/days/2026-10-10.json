@@ -2,21 +2,21 @@
   "date": "2026-10-10",
   "items": [
     {
-      "id": "2026-10-10-x-shane-gillis-s-snl-monologue",
+      "id": "2026-10-10-x-shane-gillis-on-snl-women-at-the-gym-just-dress-",
       "platform": "x",
       "rank": 1,
-      "title": "Shane Gillis's SNL monologue",
-      "summary": "Shane Gillis hosted Saturday Night Live, and his monologue, including a bit mocking women who wear revealing outfits at the gym, set off days of argument. Dan Levy said he was \"speechless that something like that can exist on live national television,\" fans called it his best yet, and women answered by tagging him in their gym selfies. Later in the show he dropped a live F-bomb in a sketch. NBC's monologue clip got 42K likes and Pop Crave's F-bomb clip 49K.",
+      "title": "Shane Gillis on SNL: women at the gym \"just dress like whores now\"",
+      "summary": "In his SNL monologue, Shane Gillis said, \"I haven’t been to the gym in so long I didn’t know women just dress like whores now? Look, I’m sorry, there’s no other way to describe it,\" then went after the shorts. Dan Levy said he was \"speechless that something like that can exist on live national television\" (Variety’s post got 42K), Ego Nwodim answered with a photo of herself working out, and thousands of women posted themselves in compression shorts and sports bras talking about him. His defenders fired back with \"'Shane Gillis isn't funny' - All the women who dress like whores at the gym\" (24K). NBC’s monologue clip got 42K likes, and later in the show he dropped a live F-bomb.",
       "kind": "video",
       "tags": [
         "shane-gillis",
         "snl",
-        "comedy"
+        "gym-clothes"
       ],
       "author": "@nbcsnl",
       "sourceUrl": "https://x.com/nbcsnl/status/2109130481195434198",
       "metrics": {
-        "likes": "42K",
+        "likes": "42.3K",
         "replies": "2.4K"
       },
       "references": [],
@@ -29,15 +29,15 @@
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-10/2026-10-10-x-shane-gillis-s-snl-monologue.webp",
+        "src": "/media/2026-10-10/2026-10-10-x-shane-gillis-on-snl-women-at-the-gym-just-dress-.webp",
         "width": 720,
         "height": 405,
-        "from": "https://video.twimg.com/amplify_video/2109129384305086464/vid/avc1/1280x720/nQYu9LAq-pi6incy.mp4#t=60",
+        "from": "https://video.twimg.com/amplify_video/2109129384305086464/vid/avc1/1280x720/nQYu9LAq-pi6incy.mp4#t=144",
         "crop": {
-          "x": 0.41,
-          "y": 0,
-          "w": 0.421875,
-          "h": 1
+          "x": 0.365,
+          "y": 0.04,
+          "w": 0.27,
+          "h": 0.64
         }
       },
       "post": {
@@ -49,7 +49,7 @@
         "postedAt": "2026-10-11T03:54:27.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T02:47:23.988Z"
+      "collectedAt": "2026-10-14T04:00:06.593Z"
     }
   ]
 }
