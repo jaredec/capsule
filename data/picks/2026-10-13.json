@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-13",
+  "stories": [
+    {
+      "title": "Shane Gillis on SNL: women at the gym \"just dress like whores now\"",
+      "summary": "Three days after his SNL monologue, the fight over one line was still going: \"I haven't been to the gym in so long I didn't know women just dress like whores now? Look, I'm sorry, there's no other way to describe it.\" Dan Levy said he was \"speechless that something like that can exist on live national television\" (Variety's post got 42K), Ego Nwodim answered with a photo of herself working out, and thousands of women posted themselves in compression shorts and sports bras tagging him. The other side had the jokes: \"Shane Gillis goading thousands of women into tagging him in their half-naked selfies is elite tier\" (68K), \"Shane Gillis told a joke about women dressing up as whores at the gym and, boy, did those whores prove him wrong\" (20K), and \"Walking into the gym today to see what all the ladies are wearing to 'own Shane Gillis'\" (19K). His Wikipedia page drew over 100K views a day from Oct 11 to 13.",
+      "kind": "video",
+      "tags": ["shane-gillis", "snl", "gym-clothes"],
+      "category": "tv-film",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 8,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/nbcsnl/status/2109130481195434198",
+      "frameAt": 144,
+      "crop": {
+        "x": 0.365,
+        "y": 0.04,
+        "w": 0.27,
+        "h": 0.64
+      }
+    }
+  ]
+}

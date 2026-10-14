@@ -2,59 +2,54 @@
   "date": "2026-09-29",
   "items": [
     {
-      "id": "2026-09-29-x-malfoid-x-falls-for-a-female-draco-malfoy",
+      "id": "2026-09-29-x-suddenly-candace-owens-is-a-lesbian",
       "platform": "x",
       "rank": 1,
-      "title": "\"Malfoid\": X falls for a female Draco Malfoy",
-      "summary": "\"Malfoid\", fan art imagining Draco Malfoy as a blonde Slytherin girl, took over X: artists posted their own versions by the dozen, Korean and Japanese fans traded jokes about a 110-chapter Harry x Malfoid fanfic, and posts like \"This Week’s Trending: The Bread / The Circus\" framed it as the meme of the week. Explainers followed the next day.",
-      "kind": "image",
+      "title": "\"Suddenly Candace Owens is a lesbian\"",
+      "summary": "A researcher posting as EsoShaggy claimed that leaked data from 2007-08 dating sites tied Candace Owens's old email addresses to four lesbian dating profiles. The claim was unverified and Owens called it \"the most Israel-coded accusations of all time\", but the timeline ran with it: \"Ur off this app for one day and suddenly Candace Owens is a lesbian\" got 107K likes, \"i don't have time for candace owens being a lesbian right now\" got 127K, and \"Candace Owens getting more pussy than me\" got 96K.",
+      "kind": "moment",
       "tags": [
-        "malfoid",
-        "harry-potter",
-        "fan-art"
+        "candace-owens",
+        "meme",
+        "dating-profiles"
       ],
-      "author": "@ObviousRises",
-      "sourceUrl": "https://x.com/ObviousRises/status/2104904024717742204",
+      "author": "@lesbianstatt",
+      "sourceUrl": "https://x.com/lesbianstatt/status/2104894507070247323",
       "metrics": {
-        "likes": "50.8K",
-        "replies": "46"
+        "likes": "107.3K",
+        "replies": "42"
       },
-      "references": [
-        {
-          "title": "What Is The 'Malfoid' Meme? The Viral 'Female Draco Malfoy' Fan Art Trend Explained",
-          "url": "https://sg.news.yahoo.com/malfoid-meme-viral-female-draco-193000273.html"
-        }
-      ],
+      "references": [],
       "pulse": {
-        "score": 7.2,
-        "reach": 6,
+        "score": 8.3,
+        "reach": 8,
         "dominance": 8,
-        "memeability": 8,
+        "memeability": 9,
         "category": "internet-culture",
-        "crossover": false
+        "crossover": true
       },
       "image": {
-        "src": "/media/2026-09-29/2026-09-29-x-malfoid-x-falls-for-a-female-draco-malfoy.webp",
-        "width": 632,
-        "height": 572,
-        "from": "https://pbs.twimg.com/media/HTXJqURbcAAHxOt.jpg?name=medium",
+        "src": "/media/2026-09-29/2026-09-29-x-suddenly-candace-owens-is-a-lesbian.webp",
+        "width": 720,
+        "height": 960,
+        "from": "https://x.com/lesbianstatt/status/2104894507070247323",
         "crop": {
           "x": 0,
-          "y": 0.27,
-          "w": 0.496,
-          "h": 0.73
+          "y": 0,
+          "w": 1,
+          "h": 1
         }
       },
       "post": {
-        "name": "MR. OBVIOUS",
-        "handle": "@ObviousRises",
-        "verified": true,
-        "avatar": "/media/avatars/obviousrises.webp",
-        "text": "I'm very much enjoying this female Draco Malfoid meme.",
-        "postedAt": "2026-09-29T12:00:01.000Z"
+        "name": "el🧛🏻‍♀️🕊️",
+        "handle": "@lesbianstatt",
+        "verified": false,
+        "avatar": "/media/avatars/lesbianstatt.webp",
+        "text": "Ur off this app for one day and suddenly Candace Owens is a lesbian",
+        "postedAt": "2026-09-29T11:22:12.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T07:03:04.344Z"
+      "collectedAt": "2026-10-14T06:07:10.251Z"
     }
   ]
 }

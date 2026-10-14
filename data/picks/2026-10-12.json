@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-12",
+  "stories": [
+    {
+      "title": "Breaking Bad's RJ Mitte dies at 34",
+      "summary": "RJ Mitte, who played Walter White Jr. on Breaking Bad and, like the character, had cerebral palsy, died by suicide at 34, TMZ reported. Dean Norris's \"Oh my God! ... I am heartbroken\" got 482K likes, the most of any post that day, and Bryan Cranston's tribute to \"my sweet son on Breaking Bad\" got 348K on DiscussingFilm's post. A resurfaced clip of Mitte describing how he was financially exploited at 17 spread alongside them, and his Wikipedia page drew 1.4 million views.",
+      "kind": "image",
+      "tags": ["rj-mitte", "breaking-bad", "bryan-cranston"],
+      "category": "tv-film",
+      "crossover": true,
+      "reach": 9,
+      "dominance": 9,
+      "memeability": 3,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/DiscussingFilm/status/2109832988485673255",
+      "imageUrl": "https://pbs.twimg.com/media/HUeh6y-WsAEujA9.jpg",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "w": 1,
+        "h": 0.901
+      }
+    }
+  ]
+}

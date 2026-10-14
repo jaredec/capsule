@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-18",
+  "stories": [
+    {
+      "title": "Trump announces a Greenland deal with Denmark",
+      "summary": "Donald Trump announced an agreement with Denmark and Greenland that he said gives the United States \"permanent control over security, and all other needs, in Greenland.\" His post got 495K likes and 36.8K replies, and Pete Hegseth said the military would begin building a large presence there.",
+      "kind": "moment",
+      "tags": [
+        "greenland",
+        "trump",
+        "denmark"
+      ],
+      "category": "politics",
+      "crossover": true,
+      "reach": 9,
+      "dominance": 9,
+      "memeability": 6,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/realDonaldTrump/status/2101101979808493780"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-24",
+  "stories": [
+    {
+      "title": "Delegates walk out as Netanyahu speaks at the UN",
+      "summary": "Delegates streamed out of the UN General Assembly hall as Benjamin Netanyahu began his speech. Acyn's clip of the room emptying got 99K likes and a 179K-like quote. Elsewhere in the city, Susan Sarandon and Hannah Einbinder were detained by police while protesting the speech.",
+      "kind": "video",
+      "tags": [
+        "netanyahu",
+        "un",
+        "walkout",
+        "israel"
+      ],
+      "category": "news",
+      "crossover": true,
+      "reach": 9,
+      "dominance": 8,
+      "memeability": 5,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/Acyn/status/2103184330453549371",
+      "frameAt": 8,
+      "crop": {
+        "x": 0.22,
+        "y": 0,
+        "w": 0.421875,
+        "h": 1
+      }
+    }
+  ]
+}

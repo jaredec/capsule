@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-15",
+  "items": [
+    {
+      "id": "2026-09-15-x-ed-sheeran-s-openers-and-band-quit-his-tour",
+      "platform": "x",
+      "rank": 1,
+      "title": "Ed Sheeran's openers and band quit his tour",
+      "summary": "A day after Macklemore said Ed Sheeran's team pulled him from the Loop tour over his support for Palestine, all three remaining opening acts and Sheeran's touring band said they were leaving the tour in solidarity. FINNEAS withdrew too. Pop Base's post got 439K likes, and posts about Sheeran topped 5 million likes combined that day.",
+      "kind": "image",
+      "tags": [
+        "ed-sheeran",
+        "macklemore",
+        "loop-tour",
+        "finneas"
+      ],
+      "author": "@PopBase",
+      "sourceUrl": "https://x.com/PopBase/status/2099960014576218350",
+      "metrics": {
+        "likes": "438.7K",
+        "replies": "2.8K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 8.3,
+        "reach": 9,
+        "dominance": 9,
+        "memeability": 6,
+        "category": "music",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-15/2026-09-15-x-ed-sheeran-s-openers-and-band-quit-his-tour.webp",
+        "width": 720,
+        "height": 1008,
+        "from": "https://pbs.twimg.com/media/HSSOf0nXMAArAXS.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0.024,
+          "w": 1,
+          "h": 0.952
+        }
+      },
+      "post": {
+        "name": "Pop Base",
+        "handle": "@PopBase",
+        "verified": true,
+        "avatar": "/media/avatars/popbase.webp",
+        "text": "All three remaining opening acts and Ed Sheeran’s touring band have announced that they are dropping out of the remaining dates of his ‘Loop’ tour in solidarity with Palestine and Macklemore.",
+        "postedAt": "2026-09-15T20:34:17.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:33:18.460Z"
+    }
+  ]
+}

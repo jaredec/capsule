@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-12",
+  "items": [
+    {
+      "id": "2026-10-12-x-breaking-bad-s-rj-mitte-dies-at-34",
+      "platform": "x",
+      "rank": 1,
+      "title": "Breaking Bad's RJ Mitte dies at 34",
+      "summary": "RJ Mitte, who played Walter White Jr. on Breaking Bad and, like the character, had cerebral palsy, died by suicide at 34, TMZ reported. Dean Norris's \"Oh my God! ... I am heartbroken\" got 482K likes, the most of any post that day, and Bryan Cranston's tribute to \"my sweet son on Breaking Bad\" got 348K on DiscussingFilm's post. A resurfaced clip of Mitte describing how he was financially exploited at 17 spread alongside them, and his Wikipedia page drew 1.4 million views.",
+      "kind": "image",
+      "tags": [
+        "rj-mitte",
+        "breaking-bad",
+        "bryan-cranston"
+      ],
+      "author": "@DiscussingFilm",
+      "sourceUrl": "https://x.com/DiscussingFilm/status/2109832988485673255",
+      "metrics": {
+        "likes": "348.2K",
+        "replies": "1"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.5,
+        "reach": 9,
+        "dominance": 9,
+        "memeability": 3,
+        "category": "tv-film",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-10-12/2026-10-12-x-breaking-bad-s-rj-mitte-dies-at-34.webp",
+        "width": 720,
+        "height": 1065,
+        "from": "https://pbs.twimg.com/media/HUeh6y-WsAEujA9.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.901
+        }
+      },
+      "post": {
+        "name": "DiscussingFilm",
+        "handle": "@DiscussingFilm",
+        "verified": true,
+        "avatar": "/media/avatars/discussingfilm.webp",
+        "text": "Bryan Cranston has written a tribute for his ‘Breaking Bad’ on-screen son RJ Mitte who tragically passed away due to suicide.\n\n“We were texting each other just a few weeks ago - figuring out when we could meet for lunch. I don't know if that lunch would have changed his future...",
+        "postedAt": "2026-10-13T02:25:57.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-14T03:17:03.928Z"
+    }
+  ]
+}

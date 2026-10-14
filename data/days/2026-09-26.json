@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-26",
+  "items": [
+    {
+      "id": "2026-09-26-x-the-cornell-seven",
+      "platform": "x",
+      "rank": 1,
+      "title": "The Cornell Seven",
+      "summary": "The Cornell Daily Sun's reporting on seven Chi Phi fraternity members accused in a civil suit of drugging a student with ketamine and gang-raping her for seven hours in October 2024 took over the timeline, and so did the fact that the university's punishment was essays and that none were criminally charged. \"Why is 'punishment' for the Cornell r@pısts being handled by the university and not law enforcement?\" got 255K likes, and a post pointing out that the men in the group chat where it was advertised never reported it got 226K. The next day prosecutors reopened the investigation.",
+      "kind": "moment",
+      "tags": [
+        "cornell",
+        "chi-phi",
+        "sexual-assault",
+        "college"
+      ],
+      "author": "@omgsidewalks",
+      "sourceUrl": "https://x.com/omgsidewalks/status/2103853405366018479",
+      "metrics": {
+        "likes": "254.8K",
+        "replies": "568"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7,
+        "reach": 9,
+        "dominance": 9,
+        "memeability": 4,
+        "category": "news",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-26/2026-09-26-x-the-cornell-seven.webp",
+        "width": 720,
+        "height": 960,
+        "from": "https://x.com/omgsidewalks/status/2103853405366018479",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "‏ً",
+        "handle": "@omgsidewalks",
+        "verified": true,
+        "avatar": "/media/avatars/omgsidewalks.webp",
+        "text": "Maybe I'm missing something. But why is \"punishment\" for the Cornell r@pısts being handled by the university and not law enforcement?????",
+        "postedAt": "2026-09-26T14:25:14.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-14T06:07:09.484Z"
+    }
+  ]
+}

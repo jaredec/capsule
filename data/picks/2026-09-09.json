@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-09",
+  "stories": [
+    {
+      "title": "Apple unveils the foldable iPhone Duo",
+      "summary": "Apple's Sep 9 event introduced the iPhone Duo, its first foldable iPhone, alongside the iPhone 18 Pro, Apple Watch Series 12 and AirPods 5. Marques Brownlee's clip of it unfolding got 199K likes, and Merriam-Webster replied, \"Not to brag, but our product has been foldable since 1828.\"",
+      "kind": "video",
+      "tags": [
+        "apple",
+        "iphone-duo",
+        "foldable",
+        "apple-event"
+      ],
+      "category": "tech",
+      "crossover": true,
+      "reach": 9,
+      "dominance": 9,
+      "memeability": 6,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/MKBHD/status/2097782855141335144",
+      "frameAt": 6,
+      "crop": {
+        "x": 0,
+        "y": 0.1,
+        "w": 1,
+        "h": 0.75
+      }
+    }
+  ]
+}

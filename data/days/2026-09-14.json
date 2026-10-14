@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-14",
+  "items": [
+    {
+      "id": "2026-09-14-x-i-would-like-to-invite-you-and-spider-man-to-hav",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"I would like to invite you and Spider-Man to have dinner at my house\"",
+      "summary": "Presenting at the Emmys, SNL's Marcello Hernández invited Zendaya \"and Spider-Man\" to dinner at his house, while Tom Holland sat next to her in the audience laughing. The clip got 405K likes, and photos of Holland cracking up, captioned \"jolly little fucker isn't he\", got 91K, with a quote of them adding 455K.",
+      "kind": "video",
+      "tags": [
+        "emmys",
+        "zendaya",
+        "tom-holland",
+        "marcello-hernandez"
+      ],
+      "author": "@chrislarbsyou",
+      "sourceUrl": "https://x.com/chrislarbsyou/status/2099677010687865278",
+      "metrics": {
+        "likes": "404.8K",
+        "replies": "2"
+      },
+      "references": [],
+      "pulse": {
+        "score": 8.7,
+        "reach": 9,
+        "dominance": 8,
+        "memeability": 9,
+        "category": "tv-film",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-14/2026-09-14-x-i-would-like-to-invite-you-and-spider-man-to-hav.webp",
+        "width": 720,
+        "height": 850,
+        "from": "https://pbs.twimg.com/media/HSOVOTQXwAAMkCS.jpg",
+        "crop": {
+          "x": 0.03,
+          "y": 0,
+          "w": 0.885669,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "chris ༯",
+        "handle": "@chrislarbsyou",
+        "verified": false,
+        "avatar": "/media/avatars/chrislarbsyou.webp",
+        "text": "“i would like to invite you and spider-man to have dinner at my house” 😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭",
+        "postedAt": "2026-09-15T01:49:44.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-14T06:07:07.950Z"
+    }
+  ]
+}

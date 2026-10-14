@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-21",
+  "items": [
+    {
+      "id": "2026-09-21-x-the-white-house-launches-trump-tv",
+      "platform": "x",
+      "rank": 1,
+      "title": "The White House launches Trump TV",
+      "summary": "Hours after the major networks pulled out of the White House press pool in solidarity with CNN, the White House launched \"Trump TV\", a 24/7 stream of administration speeches and announcements, with a promo of sitcom clips stamped with a TRUMPTV logo. \"Can't wait until someone hacks Trump TV and live broadcasts the Epstein files\" got 69K likes, and within two days posts mocking its few hundred live viewers were going around.",
+      "kind": "image",
+      "tags": [
+        "donald-trump",
+        "white-house",
+        "trump-tv",
+        "press"
+      ],
+      "author": "@WhiteHouse",
+      "sourceUrl": "https://x.com/WhiteHouse/status/2102172574822048160",
+      "metrics": {
+        "likes": "37.8K",
+        "replies": "6K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.6,
+        "reach": 9,
+        "dominance": 8,
+        "memeability": 8,
+        "category": "politics",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-21/2026-09-21-x-the-white-house-launches-trump-tv.webp",
+        "width": 720,
+        "height": 900,
+        "from": "https://pbs.twimg.com/media/HSxaxpLXIAAieVW.jpg",
+        "crop": {
+          "x": 0.03125,
+          "y": 0,
+          "w": 0.9375,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "The White House",
+        "handle": "@WhiteHouse",
+        "verified": true,
+        "avatar": "/media/avatars/whitehouse.webp",
+        "text": "IT'S LIVE. 📺🦅\n\nTRUMP TV IS STREAMING NOW. 24/7, updated in real time, with top past moments, announcements, and the latest and greatest from the administration all in one place. \n\nNot every big moment has made it on your tv, now it can. \n\n📲 youtube.com/@WhiteHouse",
+        "postedAt": "2026-09-21T23:06:12.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-14T06:07:08.754Z"
+    }
+  ]
+}

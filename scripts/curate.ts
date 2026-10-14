@@ -10,7 +10,8 @@
  * same fields the LLM picker returns (see Story in scripts/lib/pick.ts); headlineIds refer
  * to data/signals/<date>.json, which is gathered first if missing. An optional "sourceUrl"
  * pins a specific X post to feature. For the image, "imageUrl" swaps in a better still than the
- * post's own media (say, a photo instead of a screenshot of text), "frameAt" picks the second of
+ * post's own media (say, a photo instead of a screenshot of text; a video URL ending in
+ * "#t=<seconds>" uses that frame of another post's video), "frameAt" picks the second of
  * the post's video to use instead of the automatic frame, and "crop" ({ x, y, w, h } as fractions
  * of the image) picks the part the calendar shows instead of the automatic crop.
  */

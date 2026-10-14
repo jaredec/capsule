@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-18",
+  "items": [
+    {
+      "id": "2026-09-18-x-trump-announces-a-greenland-deal-with-denmark",
+      "platform": "x",
+      "rank": 1,
+      "title": "Trump announces a Greenland deal with Denmark",
+      "summary": "Donald Trump announced an agreement with Denmark and Greenland that he said gives the United States \"permanent control over security, and all other needs, in Greenland.\" His post got 495K likes and 36.8K replies, and Pete Hegseth said the military would begin building a large presence there.",
+      "kind": "moment",
+      "tags": [
+        "greenland",
+        "trump",
+        "denmark"
+      ],
+      "author": "@realDonaldTrump",
+      "sourceUrl": "https://x.com/realDonaldTrump/status/2101101979808493780",
+      "metrics": {
+        "likes": "495.3K",
+        "replies": "36.8K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.4,
+        "reach": 9,
+        "dominance": 9,
+        "memeability": 6,
+        "category": "politics",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-18/2026-09-18-x-trump-announces-a-greenland-deal-with-denmark.webp",
+        "width": 720,
+        "height": 960,
+        "from": "https://x.com/realDonaldTrump/status/2101101979808493780",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "Donald J. Trump",
+        "handle": "@realDonaldTrump",
+        "verified": true,
+        "avatar": "/media/avatars/realdonaldtrump.webp",
+        "text": "BREAKING NEWS: I am pleased to announce that the United States of America has entered into an Agreement with The Kingdom of Denmark, and Greenland, that gives the United States permanent control over security, and all other needs, in Greenland, completely addressing ALL of our",
+        "postedAt": "2026-09-19T00:12:03.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T04:45:39.420Z"
+    }
+  ]
+}

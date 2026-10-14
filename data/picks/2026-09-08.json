@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-08",
+  "stories": [
+    {
+      "title": "OpenAI claims a solution to Navier-Stokes",
+      "summary": "OpenAI said a group of AI agents, running a next-generation model more capable than GPT-6 Astra, had produced a solution to the Navier-Stokes Millennium Prize Problem in 88 hours. The announcement got 120K likes, and the pushback was nearly as big: a post accusing OpenAI of overclaiming got 68K.",
+      "kind": "image",
+      "tags": [
+        "openai",
+        "navier-stokes",
+        "millennium-prize",
+        "math"
+      ],
+      "category": "tech",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 6,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/OpenAI/status/2097374640582668336",
+      "crop": {
+        "x": 0.07,
+        "y": 0,
+        "w": 0.75,
+        "h": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-13",
+  "items": [
+    {
+      "id": "2026-10-13-x-shane-gillis-on-snl-women-at-the-gym-just-dress-",
+      "platform": "x",
+      "rank": 1,
+      "title": "Shane Gillis on SNL: women at the gym \"just dress like whores now\"",
+      "summary": "Three days after his SNL monologue, the fight over one line was still going: \"I haven't been to the gym in so long I didn't know women just dress like whores now? Look, I'm sorry, there's no other way to describe it.\" Dan Levy said he was \"speechless that something like that can exist on live national television\" (Variety's post got 42K), Ego Nwodim answered with a photo of herself working out, and thousands of women posted themselves in compression shorts and sports bras tagging him. The other side had the jokes: \"Shane Gillis goading thousands of women into tagging him in their half-naked selfies is elite tier\" (68K), \"Shane Gillis told a joke about women dressing up as whores at the gym and, boy, did those whores prove him wrong\" (20K), and \"Walking into the gym today to see what all the ladies are wearing to 'own Shane Gillis'\" (19K). His Wikipedia page drew over 100K views a day from Oct 11 to 13.",
+      "kind": "video",
+      "tags": [
+        "shane-gillis",
+        "snl",
+        "gym-clothes"
+      ],
+      "author": "@nbcsnl",
+      "sourceUrl": "https://x.com/nbcsnl/status/2109130481195434198",
+      "metrics": {
+        "likes": "42.3K",
+        "replies": "2.4K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 8,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 8,
+        "category": "tv-film",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-10-13/2026-10-13-x-shane-gillis-on-snl-women-at-the-gym-just-dress-.webp",
+        "width": 720,
+        "height": 405,
+        "from": "https://video.twimg.com/amplify_video/2109129384305086464/vid/avc1/1280x720/nQYu9LAq-pi6incy.mp4#t=144",
+        "crop": {
+          "x": 0.365,
+          "y": 0.04,
+          "w": 0.27,
+          "h": 0.64
+        }
+      },
+      "post": {
+        "name": "Saturday Night Live",
+        "handle": "@nbcsnl",
+        "verified": true,
+        "avatar": "/media/avatars/nbcsnl.webp",
+        "text": "Shane Gillis’ monologue!",
+        "postedAt": "2026-10-11T03:54:27.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-14T04:13:28.448Z"
+    }
+  ]
+}

@@ -2,22 +2,26 @@
   "date": "2026-10-02",
   "stories": [
     {
-      "title": "Jonathan Bailey's breathy Dracula audiobook clip sends fans feral",
-      "summary": "Entertainment Tonight shared a behind-the-scenes clip of Jonathan Bailey and Ella Purnell recording a feeding scene for Audible's new Bram Stoker's Dracula, with heavy breathing, a hand on his chest and Purnell biting an apple for the sound effect. The clip split viewers between thirst and second-hand embarrassment, and posts asking whether audiobooks were their new kink spread across X and TikTok.",
-      "kind": "video",
-      "tags": ["celebrity", "audiobook", "dracula"],
+      "title": "Shivon Zilis posts Elon Musk's texts after their breakup",
+      "summary": "Hours after an alert account noticed Elon Musk had unfollowed Shivon Zilis, the mother of four of his children, she announced on X that he had ended their relationship: \"It's hard to go from in love to let go in a week with no warning.\" She attached a screenshot of their texts, Musk's \"Love you too\" followed by \"I didn't realize that this Xi dinner included significant other (Beijing one did not) or I would have invited you.\" Replies ranged from \"Elon… my brother, what are you doing? Marry this woman immediately\" to \"are you free next weekend,\" and her Wikipedia page went from about 1K daily views to 28K, then 50K the next day.",
+      "kind": "image",
+      "tags": [
+        "elon-musk",
+        "shivon-zilis",
+        "breakup"
+      ],
       "category": "celebrity",
-      "crossover": false,
-      "reach": 6,
+      "crossover": true,
+      "reach": 8,
       "dominance": 7,
       "memeability": 7,
       "platform": "x",
-      "headlineIds": [83, 97, 104],
-      "frameAt": 35.6,
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/shivon/status/2106023691003777479",
       "crop": {
-        "x": 0.31,
+        "x": 0,
         "y": 0,
-        "w": 0.48,
+        "w": 0.807,
         "h": 1
       }
     }

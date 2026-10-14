@@ -242,7 +242,11 @@ async function* stills(
   imageUrl?: string,
   frameAt?: number,
 ): AsyncGenerator<Still> {
-  if (imageUrl) yield { from: imageUrl, bytes: await download(imageUrl) };
+  if (imageUrl) {
+    const [url, at] = imageUrl.split("#t=");
+    const bytes = at === undefined ? await download(url) : ((await representativeFrame(url, item, Number(at)))?.bytes ?? null);
+    yield { from: imageUrl, bytes };
+  }
   if (post?.videoUrl) {
     const frame = await representativeFrame(post.videoUrl, item, frameAt);
     if (frame) yield { from: `${post.videoUrl}#t=${frame.at}`, bytes: frame.bytes };
@@ -327,7 +331,7 @@ async function storeAvatar(post: XPost): Promise<string | null> {
 
 /** Editor choices from a picks file; each beats what the pipeline would pick. */
 export type MediaOverrides = {
-  /** A still to use instead of the post's own media. */
+  /** A still to use instead of the post's own media, or a video URL ending in "#t=<seconds>" for that frame. */
   imageUrl?: string;
   /** Second of the post's video to use as the still. */
   frameAt?: number;

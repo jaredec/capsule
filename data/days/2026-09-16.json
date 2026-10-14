@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-16",
+  "items": [
+    {
+      "id": "2026-09-16-x-barack-obama-says-goodbye-to-his-dog-sunny",
+      "platform": "x",
+      "rank": 1,
+      "title": "Barack Obama says goodbye to his dog Sunny",
+      "summary": "Barack Obama announced that Sunny, the dog the family got at the start of his second term, had died: \"Yesterday, we lost a cherished member of our family.\" The post got 329K likes.",
+      "kind": "image",
+      "tags": [
+        "barack-obama",
+        "sunny",
+        "obama-family"
+      ],
+      "author": "@BarackObama",
+      "sourceUrl": "https://x.com/BarackObama/status/2100193157522620711",
+      "metrics": {
+        "likes": "329.4K",
+        "replies": "12.4K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 6.4,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 3,
+        "category": "celebrity",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-16/2026-09-16-x-barack-obama-says-goodbye-to-his-dog-sunny.webp",
+        "width": 720,
+        "height": 973,
+        "from": "https://pbs.twimg.com/media/HSVgTGdX0AAsu5K.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0.006,
+          "w": 1,
+          "h": 0.987
+        }
+      },
+      "post": {
+        "name": "Barack Obama",
+        "handle": "@BarackObama",
+        "verified": true,
+        "avatar": "/media/avatars/barackobama.webp",
+        "text": "Yesterday, we lost a cherished member of our family.\n\nWe got Sunny at the start of our second term in the White House, and all of us – including our first dog, Bo – immediately fell in love. We also had trouble keeping up with her, for Sunny was a force of nature. Athletic and",
+        "postedAt": "2026-09-16T12:00:43.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:52:50.931Z"
+    }
+  ]
+}

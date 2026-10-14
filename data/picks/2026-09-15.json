@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-15",
+  "stories": [
+    {
+      "title": "Ed Sheeran's openers and band quit his tour",
+      "summary": "A day after Macklemore said Ed Sheeran's team pulled him from the Loop tour over his support for Palestine, FINNEAS withdrew from the tour, and by the afternoon all three remaining opening acts and Sheeran's own touring band, Beoga, had dropped out in solidarity. Pop Base's post got 439K likes.",
+      "kind": "image",
+      "tags": [
+        "ed-sheeran",
+        "macklemore",
+        "loop-tour",
+        "finneas"
+      ],
+      "category": "music",
+      "crossover": true,
+      "reach": 9,
+      "dominance": 9,
+      "memeability": 6,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/PopBase/status/2099960014576218350",
+      "imageUrl": "https://pbs.twimg.com/media/HSSOf0nXMAArAXS.jpg",
+      "crop": {
+        "x": 0,
+        "y": 0.024,
+        "w": 1,
+        "h": 0.952
+      }
+    }
+  ]
+}

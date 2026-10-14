@@ -2,64 +2,54 @@
   "date": "2026-10-01",
   "items": [
     {
-      "id": "2026-10-01-x-mike-tomlin-reveals-the-minecraft-city-he-built-",
+      "id": "2026-10-01-x-christa-pike-survives-two-lethal-injections",
       "platform": "x",
       "rank": 1,
-      "title": "Mike Tomlin reveals the Minecraft city he built for 12 years",
-      "summary": "Former Steelers coach Mike Tomlin, now an NBC analyst, posted a nearly 20-minute YouTube tour of a Minecraft city he has worked on since 2014, complete with penthouses, stadiums and a worry about enough public bathrooms. His announcement post on X passed 20 million views and the video doubled its views overnight, while fans joked about his urban-planning cadence and rivals like the Browns trolled the Steelers with Minecraft memes.",
+      "title": "Christa Pike survives two lethal injections",
+      "summary": "Tennessee tried to execute Christa Pike, on death row for 30 years for the 1995 murder of Colleen Slemmer, on the night of Sep 30. She was still alive after two lethal injections; her lawyers said she was still breathing and \"snoring,\" and she was taken to a hospital. The Spectator Index's \"BREAKING\" post got 39K likes, and by Oct 1 her Wikipedia page had 4.3M views, almost nine times any other article that day. The timeline split between people calling it torture, people saying she deserved worse, and Matt Walsh's \"Call me a conspiracy theorist\" post (49K) questioning whether the failure was an accident.",
       "kind": "video",
       "tags": [
-        "nfl",
-        "minecraft",
-        "gaming",
-        "celebrity"
+        "christa-pike",
+        "death-penalty",
+        "tennessee"
       ],
-      "author": "@CoachTomlin",
-      "sourceUrl": "https://x.com/CoachTomlin/status/2105331631913672735",
+      "author": "@BBCWorld",
+      "sourceUrl": "https://x.com/BBCWorld/status/2105517400498086363",
       "metrics": {
-        "likes": "163.5K",
-        "replies": "1.5K"
+        "likes": "6.6K",
+        "replies": "1.8K"
       },
-      "references": [
-        {
-          "title": "The Internet Is Losing Its Mind Over Retired NFL Coach Mike Tomlin Spending 12 Years Making A Very Intricate Minecraft City",
-          "url": "https://kotaku.com/mike-tomlin-minecraft-city-nfl-coach-steelers-mojang-youtube-2000739307"
-        },
-        {
-          "title": "Cleveland Browns troll Steelers with perfect Minecraft meme after clutch win",
-          "url": "https://sports.yahoo.com/articles/cleveland-browns-troll-steelers-perfect-103247508.html"
-        }
-      ],
+      "references": [],
       "pulse": {
         "score": 7,
-        "reach": 8,
-        "dominance": 8,
-        "memeability": 7,
-        "category": "sports",
+        "reach": 9,
+        "dominance": 9,
+        "memeability": 4,
+        "category": "news",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-01/2026-10-01-x-mike-tomlin-reveals-the-minecraft-city-he-built-.webp",
+        "src": "/media/2026-10-01/2026-10-01-x-christa-pike-survives-two-lethal-injections.webp",
         "width": 720,
-        "height": 405,
-        "from": "https://pbs.twimg.com/media/HTej9dYWUAAPM1n.jpg?name=medium",
+        "height": 1280,
+        "from": "https://video.twimg.com/ext_tw_video/2105517370710044672/pu/vid/avc1/720x1280/IkzhRN3q0GWApReZ.mp4?tag=12#t=3",
         "crop": {
-          "x": 0.56,
-          "y": 0,
-          "w": 0.44,
-          "h": 1
+          "x": 0,
+          "y": 0.04,
+          "w": 1,
+          "h": 0.75
         }
       },
       "post": {
-        "name": "Mike Tomlin",
-        "handle": "@CoachTomlin",
+        "name": "BBC News (World)",
+        "handle": "@BBCWorld",
         "verified": true,
-        "avatar": "/media/avatars/coachtomlin.webp",
-        "text": "Tonight. \n\n8 p.m.\n\nMy Minecraft City. \n\nSubscribe now: \nyoutube.com/@miket757",
-        "postedAt": "2026-09-30T16:19:10.000Z"
+        "avatar": "/media/avatars/bbcworld.webp",
+        "text": "Tennessee death row inmate Christa Pike has been taken to hospital after her heart was still beating following two lethal injections during her execution, her lawyer says. Full story: bbc.in/46Tn0ss",
+        "postedAt": "2026-10-01T04:37:21.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T02:41:17.410Z"
+      "collectedAt": "2026-10-14T04:26:45.474Z"
     }
   ]
 }

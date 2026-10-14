@@ -2,22 +2,28 @@
   "date": "2026-10-01",
   "stories": [
     {
-      "title": "Mike Tomlin reveals the Minecraft city he built for 12 years",
-      "summary": "Former Steelers coach Mike Tomlin, now an NBC analyst, posted a nearly 20-minute YouTube tour of a Minecraft city he has worked on since 2014, complete with penthouses, stadiums and a worry about enough public bathrooms. His announcement post on X passed 20 million views and the video doubled its views overnight, while fans joked about his urban-planning cadence and rivals like the Browns trolled the Steelers with Minecraft memes.",
+      "title": "Christa Pike survives two lethal injections",
+      "summary": "Tennessee tried to execute Christa Pike, on death row for 30 years for the 1995 murder of Colleen Slemmer, on the night of Sep 30. She was still alive after two lethal injections; her lawyers said she was still breathing and \"snoring,\" and she was taken to a hospital. The Spectator Index's \"BREAKING\" post got 39K likes, and by Oct 1 her Wikipedia page had 4.3M views, almost nine times any other article that day. The timeline split between people calling it torture, people saying she deserved worse, and Matt Walsh's \"Call me a conspiracy theorist\" post (49K) questioning whether the failure was an accident.",
       "kind": "video",
-      "tags": ["nfl", "minecraft", "gaming", "celebrity"],
-      "category": "sports",
+      "tags": [
+        "christa-pike",
+        "death-penalty",
+        "tennessee"
+      ],
+      "category": "news",
       "crossover": true,
-      "reach": 8,
-      "dominance": 8,
-      "memeability": 7,
+      "reach": 9,
+      "dominance": 9,
+      "memeability": 4,
       "platform": "x",
-      "headlineIds": [88, 55],
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/BBCWorld/status/2105517400498086363",
+      "frameAt": 3,
       "crop": {
-        "x": 0.56,
-        "y": 0,
-        "w": 0.44,
-        "h": 1
+        "x": 0,
+        "y": 0.04,
+        "w": 1,
+        "h": 0.75
       }
     }
   ]

@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-07",
+  "items": [
+    {
+      "id": "2026-09-07-x-he-shit-his-pants-again",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"He shit his pants again…\"",
+      "summary": "A clip from the Oval Office of JD Vance and an aide standing behind Trump's desk, with Vance briefly grimacing, was posted with the caption \"He shit his pants again…\" and got 107K likes. It spread through Labor Day: \"He's gotta firing off straight diarrhea with the way people instantly react like they've been flashbanged\" got 300K.",
+      "kind": "video",
+      "tags": [
+        "donald-trump",
+        "jd-vance",
+        "oval-office",
+        "meme"
+      ],
+      "author": "@MarkMantis",
+      "sourceUrl": "https://x.com/MarkMantis/status/2096835379861278734",
+      "metrics": {
+        "likes": "107K",
+        "replies": "1.4K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 3.2,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 9,
+        "category": "politics",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-07/2026-09-07-x-he-shit-his-pants-again.webp",
+        "width": 720,
+        "height": 960,
+        "from": "https://video.twimg.com/amplify_video/2096659884783931392/vid/avc1/720x960/4zKk3CL62H7bAISR.mp4#t=15",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "Metal Mark 🇺🇸",
+        "handle": "@MarkMantis",
+        "verified": true,
+        "avatar": "/media/avatars/markmantis.webp",
+        "text": "He shit his pants again…",
+        "postedAt": "2026-09-07T05:38:06.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-14T06:07:06.503Z"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-19",
+  "items": [
+    {
+      "id": "2026-09-19-x-cnn-ms-now-and-politico-are-turned-away-from-the",
+      "platform": "x",
+      "rank": 1,
+      "title": "CNN, MS NOW and Politico are turned away from the White House",
+      "summary": "A day after Trump said he was banning CNN, MS NOW and Politico from the White House, their journalists were stopped at the gate and reported from the sidewalk outside. \"White House\" trended all day. Benny Johnson's \"When Trump was banned from every major social media platform... CNN and MSNBC celebrated\" got 65K likes, a post praising Kaitlan Collins as the reason for the ban got 64K, and Bernie Sanders warned that the New York Times and Washington Post could be next (37K).",
+      "kind": "video",
+      "tags": [
+        "white-house",
+        "cnn",
+        "press-freedom",
+        "donald-trump"
+      ],
+      "author": "@BernieSanders",
+      "sourceUrl": "https://x.com/BernieSanders/status/2101378046531977512",
+      "metrics": {
+        "likes": "36.7K",
+        "replies": "6K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 2.7,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 4,
+        "category": "politics",
+        "crossover": true
+      },
+      "post": {
+        "name": "Bernie Sanders",
+        "handle": "@BernieSanders",
+        "verified": true,
+        "avatar": "/media/avatars/berniesanders.webp",
+        "text": "Trump has now banned CNN, MS NOW and POLITICO from entering the White House grounds. \n\nThat’s not all. He is threatening that more news organizations who criticize him, including the New York Times and Washington Post, will be next. \n\nWhy? Because when demagogues like Trump are",
+        "postedAt": "2026-09-19T18:29:02.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-14T04:52:56.224Z",
+      "image": {
+        "src": "/media/2026-09-19/2026-09-19-x-cnn-ms-now-and-politico-are-turned-away-from-the.webp",
+        "width": 720,
+        "height": 405,
+        "from": "https://video.twimg.com/amplify_video/2101378428964409344/vid/avc1/1920x1080/U2hpoHILc7E-IML0.mp4#t=18",
+        "crop": {
+          "x": 0.41,
+          "y": 0,
+          "w": 0.421875,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

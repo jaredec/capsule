@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-05",
+  "stories": [
+    {
+      "title": "\"THEY GOT THE HOT DOG IN THE BUN\"",
+      "summary": "Fans at a Blue Jays game passed an inflatable hot dog and an inflatable bun around the stands until they got the hot dog into the bun. Sportsnet's clip got 118K likes, and quote posts like \"this is what baseball is about\" added more than 500K.",
+      "kind": "video",
+      "tags": [
+        "baseball",
+        "blue-jays",
+        "hot-dog",
+        "crowd"
+      ],
+      "category": "sports",
+      "crossover": true,
+      "reach": 7,
+      "dominance": 7,
+      "memeability": 7,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/Sportsnet/status/2096395978723021299",
+      "frameAt": 17,
+      "crop": {
+        "x": 0.235,
+        "y": 0,
+        "w": 0.421875,
+        "h": 1
+      }
+    }
+  ]
+}

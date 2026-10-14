@@ -2,59 +2,55 @@
   "date": "2026-10-09",
   "items": [
     {
-      "id": "2026-10-09-x-tom-welling-s-hello-nycc-skyline-photo-shows-mor",
+      "id": "2026-10-09-x-mike-ditka-dies-at-86",
       "platform": "x",
       "rank": 1,
-      "title": "Tom Welling's \"Hello, NYCC\" skyline photo shows more than the view",
-      "summary": "The Smallville star posted a New York hotel-window view to his Instagram Story ahead of Comic Con, not noticing his nude reflection in the glass; it stayed up about 10 hours and screenshots spread with millions of views. Fans made \"POV: you're a tourist and see Tom Welling at his hotel window\" Reels, and co-star Michael Rosenbaum posted a parody window selfie holding a \"PERVERTS\" sign. Welling reposted it and commented \"Came for the sights.\"",
+      "title": "Mike Ditka dies at 86",
+      "summary": "Mike Ditka, the Hall of Fame tight end who coached the 1985 Bears to a Super Bowl win, died at 86. Adam Schefter's post got 82K likes, the NFL's 48K and Barack Obama's tribute 46K, and old clips of his sideline rants and the \"Da Bears\" sketches resurfaced. The same day, the Nobel Peace Prize went to Navi Pillay and Hurricane Isaias hit the Florida Panhandle as a Category 3.",
       "kind": "image",
       "tags": [
-        "celebrity",
-        "tv",
-        "comic-con"
+        "mike-ditka",
+        "bears",
+        "nfl",
+        "obituary"
       ],
-      "author": "@Okori13Okorie",
-      "sourceUrl": "https://x.com/Okori13Okorie/status/2109212596939235353",
+      "author": "@AdamSchefter",
+      "sourceUrl": "https://x.com/AdamSchefter/status/2108575881996210210",
       "metrics": {
-        "likes": "5.6K",
-        "replies": "19"
+        "likes": "81.8K",
+        "replies": "2K"
       },
-      "references": [
-        {
-          "title": "Tom Welling's NSFW Instagram Story Goes Viral: 'Smallville' Star Deletes NYC Hotel Window Photo After 10 Hours",
-          "url": "https://www.ibtimes.sg/tom-wellings-nsfw-instagram-story-goes-viral-smallville-star-deletes-nyc-hotel-window-photo-94921"
-        }
-      ],
+      "references": [],
       "pulse": {
-        "score": 8,
+        "score": 6.3,
         "reach": 8,
         "dominance": 8,
-        "memeability": 8,
-        "category": "celebrity",
-        "crossover": false
+        "memeability": 4,
+        "category": "sports",
+        "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-09/2026-10-09-x-tom-welling-s-hello-nycc-skyline-photo-shows-mor.webp",
-        "width": 679,
-        "height": 1200,
-        "from": "https://pbs.twimg.com/media/HUVtobCXQAA5qdf.jpg?name=medium",
+        "src": "/media/2026-10-09/2026-10-09-x-mike-ditka-dies-at-86.webp",
+        "width": 720,
+        "height": 900,
+        "from": "https://pbs.twimg.com/media/HUMqlx-XYAAwjH2.jpg?name=medium",
         "crop": {
-          "x": 0.05,
-          "y": 0.17,
-          "w": 0.9,
-          "h": 0.62
+          "x": 0.031,
+          "y": 0,
+          "w": 0.9375,
+          "h": 1
         }
       },
       "post": {
-        "name": "Godwin",
-        "handle": "@Okori13Okorie",
-        "verified": false,
-        "avatar": "/media/avatars/okori13okorie.webp",
-        "text": "I can't take this Tom Welling gigolo-ing naked in the stories outta nowhere",
-        "postedAt": "2026-10-11T09:20:45.000Z"
+        "name": "Adam Schefter",
+        "handle": "@AdamSchefter",
+        "verified": true,
+        "avatar": "/media/avatars/adamschefter.webp",
+        "text": "NFL legend Mike Ditka, who revolutionized the tight end position before becoming the head coach of the world champion 1985 Bears and a towering figure in the city of Chicago, has passed away, his family announced. He was 86.",
+        "postedAt": "2026-10-09T15:10:40.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T04:25:10.878Z"
+      "collectedAt": "2026-10-14T02:47:22.876Z"
     }
   ]
 }

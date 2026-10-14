@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-01",
+  "items": [
+    {
+      "id": "2026-09-01-x-new-apple-ceo-john-ternus-s-first-post-hello",
+      "platform": "x",
+      "rank": 1,
+      "title": "New Apple CEO John Ternus's first post: \"hello\"",
+      "summary": "John Ternus, Apple's former head of hardware engineering, took over as CEO on Sep 1 and made his first post on X: \"hello\". It got 547K likes and 71.6K replies. Elon Musk quoted it with \"New Apple CEO posting on 𝕏\", and Merriam-Webster pointed out that \"hello\" is younger than both \"hey\" and \"hi\".",
+      "kind": "moment",
+      "tags": [
+        "apple",
+        "john-ternus",
+        "ceo",
+        "first-post"
+      ],
+      "author": "@johnternus",
+      "sourceUrl": "https://x.com/johnternus/status/2094814214787633367",
+      "metrics": {
+        "likes": "546.7K",
+        "replies": "71.6K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 7,
+        "category": "tech",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:13:30.094Z",
+      "post": {
+        "name": "John Ternus",
+        "handle": "@johnternus",
+        "verified": true,
+        "avatar": "/media/avatars/johnternus.webp",
+        "text": "hello",
+        "postedAt": "2026-09-01T15:46:43.000Z"
+      },
+      "image": {
+        "src": "/media/2026-09-01/2026-09-01-x-new-apple-ceo-john-ternus-s-first-post-hello.webp",
+        "width": 720,
+        "height": 960,
+        "from": "https://x.com/johnternus/status/2094814214787633367",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

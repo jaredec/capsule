@@ -2,23 +2,28 @@
   "date": "2026-10-09",
   "stories": [
     {
-      "title": "Tom Welling's \"Hello, NYCC\" skyline photo shows more than the view",
-      "summary": "The Smallville star posted a New York hotel-window view to his Instagram Story ahead of Comic Con, not noticing his nude reflection in the glass; it stayed up about 10 hours and screenshots spread with millions of views. Fans made \"POV: you're a tourist and see Tom Welling at his hotel window\" Reels, and co-star Michael Rosenbaum posted a parody window selfie holding a \"PERVERTS\" sign. Welling reposted it and commented \"Came for the sights.\"",
+      "title": "Mike Ditka dies at 86",
+      "summary": "Mike Ditka, the Hall of Fame tight end who coached the 1985 Bears to a Super Bowl win, died at 86. Adam Schefter's post got 82K likes, the NFL's 48K and Barack Obama's tribute 46K, and old clips of his sideline rants and the \"Da Bears\" sketches resurfaced. The same day, the Nobel Peace Prize went to Navi Pillay and Hurricane Isaias hit the Florida Panhandle as a Category 3.",
       "kind": "image",
-      "tags": ["celebrity", "tv", "comic-con"],
-      "category": "celebrity",
-      "crossover": false,
+      "tags": [
+        "mike-ditka",
+        "bears",
+        "nfl",
+        "obituary"
+      ],
+      "category": "sports",
+      "crossover": true,
       "reach": 8,
       "dominance": 8,
-      "memeability": 8,
+      "memeability": 4,
       "platform": "x",
-      "headlineIds": [29],
-      "sourceUrl": "https://x.com/Okori13Okorie/status/2109212596939235353",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/AdamSchefter/status/2108575881996210210",
       "crop": {
-        "x": 0.05,
-        "y": 0.17,
-        "w": 0.9,
-        "h": 0.62
+        "x": 0.031,
+        "y": 0,
+        "w": 0.9375,
+        "h": 1
       }
     }
   ]

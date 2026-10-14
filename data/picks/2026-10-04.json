@@ -2,25 +2,18 @@
   "date": "2026-10-04",
   "stories": [
     {
-      "title": "\"Softhearted Gunner\": an AI kitten can't shoot the zombie cat it loves",
-      "summary": "An AI-generated clip shows a teary orange kitten aiming a pistol at a zombified white cat, unable to pull the trigger, letting it lunge, then cutting to the two cuddling in a sunlit meadow. A Turkish X post captioned \"Ağlıyorum\" (\"I'm crying\") passed 2.4 million views within days and reached Korean and Turkish forums inside 48 hours, and remakes with other characters followed under the name \"Softhearted Gunner.\"",
-      "kind": "video",
-      "tags": ["ai", "cats", "zombies", "reaction"],
-      "category": "internet-culture",
+      "title": "Plague escapes a Russian lab",
+      "summary": "Five hospitals in Siberia were quarantined after Darya Shipilova, a 28-year-old lab technician at the Irkutsk Anti-Plague Institute, died after breaking a test tube of live Yersinia pestis. \"Russia pneumonic plague\" became one of the top US searches. Raw Alerts' \"Infectious 'plague' escapes Siberian lab\" got 66K likes, and \"The Pneumonic Plague that just escaped a lab in Russia is about 100x deadlier than COVID\" got 59K. Most of the timeline went for the joke: \">anti plague institute >starts a plague\" (18K), toilet-paper CEO memes, and Taylor Swift conspiracy posts pointing out her song \"Patient Zero\" came out the same day as the lab accident.",
+      "kind": "moment",
+      "tags": ["plague", "russia", "lab-leak"],
+      "category": "news",
       "crossover": true,
-      "reach": 6,
-      "dominance": 5,
-      "memeability": 8,
+      "reach": 8,
+      "dominance": 7,
+      "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/netmutsuz/status/2106887598140707014",
-      "frameAt": 0.6,
-      "crop": {
-        "x": 0.17,
-        "y": 0,
-        "w": 0.42,
-        "h": 1
-      }
+      "sourceUrl": "https://x.com/rawsalerts/status/2106895231471788184"
     }
   ]
 }
