@@ -2,29 +2,29 @@
   "date": "2026-09-07",
   "stories": [
     {
-      "title": "The far-right AfD wins in eastern Germany",
-      "summary": "A day after Germany's far-right AfD won a landslide in Saxony-Anhalt's state election, a post listing what it called party leader Alice Weidel's contradictions (an immigrant wife, two adopted children and a home in Switzerland, despite the party's stances on immigration, LGBTQ adoption and nationalism) got 354K likes, more than any other news post on X that day.",
+      "title": "Trump wants to rename New Mexico \"New America\"",
+      "summary": "Trump posted a map of New Mexico with \"Mexico\" crossed out and \"America\" written underneath, then spent Labor Day morning making seven more posts about renaming the state \"New America\". \"New America\" trended for two days. The top reaction, a clip captioned \"Google when trump renames something\", got 152K likes, and Bill Kristol's \"Trump has no interest in renaming New England, New Hampshire, New Jersey, or New York\" got 20K.",
       "kind": "image",
       "tags": [
-        "afd",
-        "alice-weidel",
-        "germany",
-        "election"
+        "donald-trump",
+        "new-mexico",
+        "new-america",
+        "labor-day"
       ],
-      "category": "news",
+      "category": "politics",
       "crossover": true,
       "reach": 8,
       "dominance": 7,
-      "memeability": 5,
+      "memeability": 8,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/GlobalUpdates24/status/2097024664757584258",
-      "imageUrl": "https://pbs.twimg.com/media/HRogw2la0AA2iAT.jpg",
+      "sourceUrl": "https://x.com/FreddyFortbear2/status/2097064317409443889",
+      "imageUrl": "https://pbs.twimg.com/media/HRjniElX0AA2ix-.jpg",
       "crop": {
-        "x": 0.063,
-        "y": 0,
-        "w": 0.874,
-        "h": 1
+        "x": 0.04,
+        "y": 0.115,
+        "w": 0.92,
+        "h": 0.857
       }
     }
   ]

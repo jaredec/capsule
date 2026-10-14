@@ -2,55 +2,55 @@
   "date": "2026-09-07",
   "items": [
     {
-      "id": "2026-09-07-x-the-far-right-afd-wins-in-eastern-germany",
+      "id": "2026-09-07-x-trump-wants-to-rename-new-mexico-new-america",
       "platform": "x",
       "rank": 1,
-      "title": "The far-right AfD wins in eastern Germany",
-      "summary": "A day after Germany's far-right AfD won a landslide in Saxony-Anhalt's state election, a post listing what it called party leader Alice Weidel's contradictions (an immigrant wife, two adopted children and a home in Switzerland, despite the party's stances on immigration, LGBTQ adoption and nationalism) got 354K likes, more than any other news post on X that day.",
+      "title": "Trump wants to rename New Mexico \"New America\"",
+      "summary": "Trump posted a map of New Mexico with \"Mexico\" crossed out and \"America\" written underneath, then spent Labor Day morning making seven more posts about renaming the state \"New America\". \"New America\" trended for two days. The top reaction, a clip captioned \"Google when trump renames something\", got 152K likes, and Bill Kristol's \"Trump has no interest in renaming New England, New Hampshire, New Jersey, or New York\" got 20K.",
       "kind": "image",
       "tags": [
-        "afd",
-        "alice-weidel",
-        "germany",
-        "election"
+        "donald-trump",
+        "new-mexico",
+        "new-america",
+        "labor-day"
       ],
-      "author": "@GlobalUpdates24",
-      "sourceUrl": "https://x.com/GlobalUpdates24/status/2097024664757584258",
+      "author": "@FreddyFortbear2",
+      "sourceUrl": "https://x.com/FreddyFortbear2/status/2097064317409443889",
       "metrics": {
-        "likes": "353.6K",
-        "replies": "4.6K"
+        "likes": "152.2K",
+        "replies": "123"
       },
       "references": [],
       "pulse": {
-        "score": 6.2,
+        "score": 3.1,
         "reach": 8,
         "dominance": 7,
-        "memeability": 5,
-        "category": "news",
+        "memeability": 8,
+        "category": "politics",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-09-07/2026-09-07-x-the-far-right-afd-wins-in-eastern-germany.webp",
+        "src": "/media/2026-09-07/2026-09-07-x-trump-wants-to-rename-new-mexico-new-america.webp",
         "width": 720,
-        "height": 840,
-        "from": "https://pbs.twimg.com/media/HRogw2la0AA2iAT.jpg",
+        "height": 1031,
+        "from": "https://pbs.twimg.com/media/HRjniElX0AA2ix-.jpg",
         "crop": {
-          "x": 0.063,
-          "y": 0,
-          "w": 0.874,
-          "h": 1
+          "x": 0.04,
+          "y": 0.115,
+          "w": 0.92,
+          "h": 0.857
         }
       },
       "post": {
-        "name": "Global UPDATES",
-        "handle": "@GlobalUpdates24",
-        "verified": true,
-        "avatar": "/media/avatars/globalupdates24.webp",
-        "text": "Alice Weidel becomes the first leader in the world who is anti-immigration but has an immigrant wife, is anti-LGBTQ+ but is a lesbian herself, opposes LGBT adoption but has adopted two children, and is a hardcore German nationalist but lives in Switzerland",
-        "postedAt": "2026-09-07T18:10:15.000Z"
+        "name": "Fortbear",
+        "handle": "@FreddyFortbear2",
+        "verified": false,
+        "avatar": "/media/avatars/freddyfortbear2.webp",
+        "text": "Google when trump renames something:",
+        "postedAt": "2026-09-07T20:47:49.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T04:22:56.004Z"
+      "collectedAt": "2026-10-14T04:51:40.133Z"
     }
   ]
 }
