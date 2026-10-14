@@ -2,54 +2,54 @@
   "date": "2026-10-02",
   "items": [
     {
-      "id": "2026-10-02-x-the-pope-on-ai-art-an-ontological-difference",
+      "id": "2026-10-02-x-shivon-zilis-posts-elon-musk-s-texts-after-their",
       "platform": "x",
       "rank": 1,
-      "title": "The Pope on AI art: \"an ontological difference\"",
-      "summary": "Pope Leo XIV posted that \"in this era of artificial intelligence, it is becoming urgent to distinguish human art from what machines produce,\" saying there is \"an ontological difference, even before an aesthetic one\" between art and what a machine generates from millions of other people's images. It got 460K likes, the most of any post that day, and turned into a day-long argument about AI art. The Latin version on his @Pontifex_ln account inspired \"The pope is calling your AI art shit in Latin\" (50K).",
-      "kind": "moment",
+      "title": "Shivon Zilis posts Elon Musk's texts after their breakup",
+      "summary": "Hours after an alert account noticed Elon Musk had unfollowed Shivon Zilis, the mother of four of his children, she announced on X that he had ended their relationship: \"It's hard to go from in love to let go in a week with no warning.\" She attached a screenshot of their texts, Musk's \"Love you too\" followed by \"I didn't realize that this Xi dinner included significant other (Beijing one did not) or I would have invited you.\" Replies ranged from \"Elon… my brother, what are you doing? Marry this woman immediately\" to \"are you free next weekend,\" and her Wikipedia page went from about 1K daily views to 28K, then 50K the next day.",
+      "kind": "image",
       "tags": [
-        "pope-leo",
-        "ai-art",
-        "vatican"
+        "elon-musk",
+        "shivon-zilis",
+        "breakup"
       ],
-      "author": "@Pontifex",
-      "sourceUrl": "https://x.com/Pontifex/status/2105983638147891490",
+      "author": "@shivon",
+      "sourceUrl": "https://x.com/shivon/status/2106023691003777479",
       "metrics": {
-        "likes": "460.6K",
-        "replies": "4.8K"
+        "likes": "23.3K",
+        "replies": "6.1K"
       },
       "references": [],
       "pulse": {
-        "score": 7.3,
-        "reach": 9,
-        "dominance": 8,
+        "score": 7.4,
+        "reach": 8,
+        "dominance": 7,
         "memeability": 7,
-        "category": "tech",
+        "category": "celebrity",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-02/2026-10-02-x-the-pope-on-ai-art-an-ontological-difference.webp",
+        "src": "/media/2026-10-02/2026-10-02-x-shivon-zilis-posts-elon-musk-s-texts-after-their.webp",
         "width": 720,
-        "height": 960,
-        "from": "https://x.com/Pontifex/status/2105983638147891490",
+        "height": 774,
+        "from": "https://pbs.twimg.com/media/HToZYqOWAAAk11G.jpg?name=medium",
         "crop": {
           "x": 0,
           "y": 0,
-          "w": 1,
+          "w": 0.807,
           "h": 1
         }
       },
       "post": {
-        "name": "Pope Leo XIV",
-        "handle": "@Pontifex",
+        "name": "Shivon Zilis",
+        "handle": "@shivon",
         "verified": true,
-        "avatar": "/media/avatars/pontifex.webp",
-        "text": "In this era of artificial intelligence, it is becoming urgent to distinguish human art from what machines produce. There is an ontological difference, even before an aesthetic one, between art and what a machine can generate through statistical calculation based on millions of",
-        "postedAt": "2026-10-02T11:30:01.000Z"
+        "avatar": "/media/avatars/shivon.webp",
+        "text": "It’s hard to go from in love to let go in a week with no warning, but that’s just how it is sometimes 🤷🏻‍♀️\n\nI feel happy that I got to show Elon how it feels to be deeply understood, nurtured, and peacefully loved with stability and gentleness. Given the tumultuous nature of his",
+        "postedAt": "2026-10-02T14:09:10.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T03:16:59.273Z"
+      "collectedAt": "2026-10-14T04:27:17.549Z"
     }
   ]
 }
