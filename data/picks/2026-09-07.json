@@ -2,30 +2,24 @@
   "date": "2026-09-07",
   "stories": [
     {
-      "title": "Trump wants to rename New Mexico \"New America\"",
-      "summary": "Trump posted a map of New Mexico with \"Mexico\" crossed out and \"America\" written underneath, then spent Labor Day morning making seven more posts about renaming the state \"New America\". \"New America\" trended for two days. The top reaction, a clip captioned \"Google when trump renames something\", got 152K likes, and Bill Kristol's \"Trump has no interest in renaming New England, New Hampshire, New Jersey, or New York\" got 20K.",
-      "kind": "image",
+      "title": "\"He shit his pants again…\"",
+      "summary": "A clip from the Oval Office of JD Vance and an aide standing behind Trump's desk, with Vance briefly grimacing, was posted with the caption \"He shit his pants again…\" and got 107K likes. It spread through Labor Day: \"He's gotta firing off straight diarrhea with the way people instantly react like they've been flashbanged\" got 300K.",
+      "kind": "video",
       "tags": [
         "donald-trump",
-        "new-mexico",
-        "new-america",
-        "labor-day"
+        "jd-vance",
+        "oval-office",
+        "meme"
       ],
       "category": "politics",
       "crossover": true,
       "reach": 8,
       "dominance": 7,
-      "memeability": 8,
+      "memeability": 9,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/FreddyFortbear2/status/2097064317409443889",
-      "imageUrl": "https://pbs.twimg.com/media/HRjniElX0AA2ix-.jpg",
-      "crop": {
-        "x": 0.04,
-        "y": 0.115,
-        "w": 0.92,
-        "h": 0.857
-      }
+      "sourceUrl": "https://x.com/MarkMantis/status/2096835379861278734",
+      "frameAt": 15
     }
   ]
 }
