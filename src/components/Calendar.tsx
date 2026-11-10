@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
+import { mediaSrc } from "@/lib/basePath";
 import { MONTH_NAMES, WEEKDAYS_SHORT, formatLongDate, monthGrid, monthKey, parseIsoDate } from "@/lib/dates";
 import { usePlatformFilter, useToday } from "@/lib/hooks";
 import { PLATFORM_META } from "@/lib/platforms";
@@ -239,7 +240,7 @@ function DayCell({
           {top.post && (
             <span className="mb-1 flex items-center gap-1.5 text-[11px] font-semibold text-white/90">
               {top.post.avatar && (
-                <Image src={top.post.avatar} alt="" width={16} height={16} unoptimized className="size-4 rounded-full" />
+                <Image src={mediaSrc(top.post.avatar)} alt="" width={16} height={16} unoptimized className="size-4 rounded-full" />
               )}
               <span className="truncate">{top.post.name}</span>
             </span>

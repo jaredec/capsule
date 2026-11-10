@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { mediaSrc } from "@/lib/basePath";
 import { cropStyle } from "@/lib/crop";
 import type { Item } from "@/lib/schema";
 
@@ -20,7 +21,7 @@ export function CroppedImage({
       style={{ aspectRatio: aspect }}
     >
       <Image
-        src={image.src}
+        src={mediaSrc(image.src)}
         alt={alt}
         width={image.width}
         height={image.height}
