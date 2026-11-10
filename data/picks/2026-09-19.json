@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-19",
+  "stories": [
+    {
+      "title": "CNN, MS NOW and Politico are turned away from the White House",
+      "summary": "A day after Trump said he was banning CNN, MS NOW and Politico from the White House, their journalists were stopped at the gate and reported from the sidewalk outside. \"White House\" trended all day. Benny Johnson's \"When Trump was banned from every major social media platform... CNN and MSNBC celebrated\" got 65K likes, a post praising Kaitlan Collins as the reason for the ban got 64K, and Bernie Sanders warned that the New York Times and Washington Post could be next (37K).",
+      "kind": "video",
+      "tags": [
+        "white-house",
+        "cnn",
+        "press-freedom",
+        "donald-trump"
+      ],
+      "category": "politics",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 7,
+      "memeability": 4,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/BernieSanders/status/2101378046531977512",
+      "imageUrl": "https://video.twimg.com/amplify_video/2101378428964409344/vid/avc1/1920x1080/U2hpoHILc7E-IML0.mp4#t=18",
+      "crop": {
+        "x": 0.41,
+        "y": 0,
+        "w": 0.421875,
+        "h": 1
+      }
+    }
+  ]
+}

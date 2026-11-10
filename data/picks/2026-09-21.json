@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-21",
+  "stories": [
+    {
+      "title": "The White House launches Trump TV",
+      "summary": "Hours after the major networks pulled out of the White House press pool in solidarity with CNN, the White House launched \"Trump TV\", a 24/7 stream of administration speeches and announcements, with a promo of sitcom clips stamped with a TRUMPTV logo. \"Can't wait until someone hacks Trump TV and live broadcasts the Epstein files\" got 69K likes, and within two days posts mocking its few hundred live viewers were going around.",
+      "kind": "image",
+      "tags": [
+        "donald-trump",
+        "white-house",
+        "trump-tv",
+        "press"
+      ],
+      "category": "politics",
+      "crossover": true,
+      "reach": 9,
+      "dominance": 8,
+      "memeability": 8,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/WhiteHouse/status/2102172574822048160",
+      "imageUrl": "https://pbs.twimg.com/media/HSxaxpLXIAAieVW.jpg",
+      "crop": {
+        "x": 0.03125,
+        "y": 0,
+        "w": 0.9375,
+        "h": 1
+      }
+    }
+  ]
+}

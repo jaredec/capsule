@@ -2,22 +2,23 @@
   "date": "2026-09-30",
   "stories": [
     {
-      "title": "Backpack, Bear 89, is crowned Fat Bear Week champ",
-      "summary": "Katmai National Park’s Fat Bear Week ended with Bear 89, \"Backpack\", as the 2026 champion. The Interior Department’s post noted his mom, Holly \"the Duchess of Density\", won in 2019 and carried him on her back as a cub, and it became the most-liked post of the contest as accounts celebrated the year’s chonkiest bear.",
-      "kind": "image",
-      "tags": ["fat-bear-week", "katmai", "bears"],
-      "category": "animals",
+      "title": "Mike Tomlin reveals the Minecraft city he built for 12 years",
+      "summary": "Former Steelers coach Mike Tomlin posted \"Tonight. 8 p.m. My Minecraft City.\" (163K likes) and premiered a YouTube tour of a Minecraft city he has been building for 12 years, down to the interiors of its high-rise apartments. Clips of the tour took over the timeline and the jokes followed: \"mike tomlin has 100% stood on an nfl sideline pretending to listen to the headset while thinking about something he was gonna build in minecraft later\" (62K), a fake report that he banned Antonio Brown from his server for blowing up a hospital with TNT (43K), and people asking what happened to the villagers who used to live there.",
+      "kind": "video",
+      "tags": ["nfl", "minecraft", "gaming", "celebrity"],
+      "category": "sports",
       "crossover": true,
-      "reach": 7,
-      "dominance": 6,
-      "memeability": 7,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 8,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/Interior/status/2105295755925745956",
+      "sourceUrl": "https://x.com/CoachTomlin/status/2105331631913672735",
+      "imageUrl": "https://pbs.twimg.com/media/HTej9dYWUAAPM1n.jpg?name=medium",
       "crop": {
-        "x": 0.2,
+        "x": 0.56,
         "y": 0,
-        "w": 0.5,
+        "w": 0.44,
         "h": 1
       }
     }

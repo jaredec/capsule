@@ -2,55 +2,54 @@
   "date": "2026-10-10",
   "items": [
     {
-      "id": "2026-10-10-x-c-est-le-docteur-guerit-tout-serge-veilleux-s-19",
+      "id": "2026-10-10-x-the-yorkshire-wildlife-park-tiger",
       "platform": "x",
       "rank": 1,
-      "title": "\"C’est le docteur Guérit-tout\": Serge Veilleux’s 1981 TV performance",
-      "summary": "An archival clip from the Quebec folklore show Soirée canadienne shows Serge Veilleux, a pint-sized 16-year-old who had received a kidney transplant four years earlier, belting the traditional folk song \"Le docteur Guérit-tout\" (\"C’est le docteur Guérit-tout, qui a un remède à tout\"), a comic call-and-response tune about a doctor who cures every ailment by cutting off another body part. An English post captioned \"POV: You told a rude Québécois kid… that fries are better with ketchup than as poutine\" carried it far beyond Quebec, replies dug up who he was (he died in 2007), and even Pierre Poilievre quoted it.",
-      "kind": "video",
+      "title": "The Yorkshire Wildlife Park tiger",
+      "summary": "A man climbed into the tiger enclosure at Yorkshire Wildlife Park in Doncaster and was killed by Altai, a five-year-old Amur tiger, and footage of him sitting in the grass in front of the tiger spread everywhere. X split between \"the tiger should have been shot immediately\" and people defending the park and the tiger, and a post of the next day's news that Altai would not be put down got 199K likes. The man was later named as William Chapman, 23, whose family said he had a significant mental illness.",
+      "kind": "image",
       "tags": [
-        "quebec",
-        "tv",
-        "music",
-        "throwback"
+        "tiger",
+        "yorkshire-wildlife-park",
+        "uk"
       ],
-      "author": "@UCCavalier",
-      "sourceUrl": "https://x.com/UCCavalier/status/2108182875120243177",
+      "author": "@PolitlcsUK",
+      "sourceUrl": "https://x.com/PolitlcsUK/status/2108968933327794349",
       "metrics": {
-        "likes": "11.7K",
-        "replies": "655"
+        "likes": "14.3K",
+        "replies": "1.7K"
       },
       "references": [],
       "pulse": {
-        "score": 6.7,
-        "reach": 7,
-        "dominance": 6,
-        "memeability": 7,
-        "category": "internet-culture",
-        "crossover": false
+        "score": 7.7,
+        "reach": 9,
+        "dominance": 8,
+        "memeability": 5,
+        "category": "animals",
+        "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-10/2026-10-10-x-c-est-le-docteur-guerit-tout-serge-veilleux-s-19.webp",
-        "width": 720,
-        "height": 548,
-        "from": "https://video.twimg.com/amplify_video/2107264295130042368/vid/avc1/946x720/dfAaU5t0zvNbbjxt.mp4#t=12",
+        "src": "/media/2026-10-10/2026-10-10-x-the-yorkshire-wildlife-park-tiger.webp",
+        "width": 401,
+        "height": 501,
+        "from": "https://pbs.twimg.com/media/HUXF272WMAAd05J.jpg",
         "crop": {
-          "x": 0.21,
+          "x": 0.063,
           "y": 0,
-          "w": 0.57,
+          "w": 0.937,
           "h": 1
         }
       },
       "post": {
-        "name": "Upper Canadian Cavalier",
-        "handle": "@UCCavalier",
+        "name": "Politics UK",
+        "handle": "@PolitlcsUK",
         "verified": true,
-        "avatar": "/media/avatars/uccavalier.webp",
-        "text": "POV: You told a rude Québécois kid who gave you grief for daring to speak English that fries are better with ketchup than as poutine, so now he's folk-dancing to defend the village's honour.",
-        "postedAt": "2026-10-08T13:09:00.000Z"
+        "avatar": "/media/avatars/politlcsuk.webp",
+        "text": "🚨 BREAKING: A man has died after being attacked by a tiger at Yorkshire Wildfire Park",
+        "postedAt": "2026-10-10T17:12:31.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T04:50:14.981Z"
+      "collectedAt": "2026-10-14T04:13:27.029Z"
     }
   ]
 }

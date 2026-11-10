@@ -2,24 +2,22 @@
   "date": "2026-09-29",
   "stories": [
     {
-      "title": "\"Malfoid\": X falls for a female Draco Malfoy",
-      "summary": "\"Malfoid\", fan art imagining Draco Malfoy as a blonde Slytherin girl, took over X: artists posted their own versions by the dozen, Korean and Japanese fans traded jokes about a 110-chapter Harry x Malfoid fanfic, and posts like \"This Week’s Trending: The Bread / The Circus\" framed it as the meme of the week. Explainers followed the next day.",
-      "kind": "image",
-      "tags": ["malfoid", "harry-potter", "fan-art"],
+      "title": "\"Suddenly Candace Owens is a lesbian\"",
+      "summary": "A researcher posting as EsoShaggy claimed that leaked data from 2007-08 dating sites tied Candace Owens's old email addresses to four lesbian dating profiles. The claim was unverified and Owens called it \"the most Israel-coded accusations of all time\", but the timeline ran with it: \"Ur off this app for one day and suddenly Candace Owens is a lesbian\" got 107K likes, \"i don't have time for candace owens being a lesbian right now\" got 127K, and \"Candace Owens getting more pussy than me\" got 96K.",
+      "kind": "moment",
+      "tags": [
+        "candace-owens",
+        "meme",
+        "dating-profiles"
+      ],
       "category": "internet-culture",
-      "crossover": false,
-      "reach": 6,
+      "crossover": true,
+      "reach": 8,
       "dominance": 8,
-      "memeability": 8,
+      "memeability": 9,
       "platform": "x",
-      "headlineIds": [50],
-      "sourceUrl": "https://x.com/ObviousRises/status/2104904024717742204",
-      "crop": {
-        "x": 0,
-        "y": 0.27,
-        "w": 0.496,
-        "h": 0.73
-      }
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/lesbianstatt/status/2104894507070247323"
     }
   ]
 }

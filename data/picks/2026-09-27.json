@@ -2,19 +2,30 @@
   "date": "2026-09-27",
   "stories": [
     {
-      "title": "\"When it’s time to eat the rich and I get Kim Kardashian\"",
-      "summary": "An ASMR creator posted a clip of himself chewing on a clear silicone pad, captioned \"when it’s time to eat the rich and I get Kim Kardashian\", a dig at how much of her is supposedly plastic. It passed 300K likes within a day, the quote posts piled on, and people reused the format with other celebrities.",
-      "kind": "video",
-      "tags": ["eat-the-rich", "kim-kardashian", "asmr", "format"],
-      "category": "internet-culture",
+      "title": "PinkPantheress takes a Zara Larsson cutout to the VMAs",
+      "summary": "At the VMAs, PinkPantheress posed with her award for the \"Stateside\" video and a cardboard cutout of her collaborator Zara Larsson. The photo got 201K likes. BTS won Best Group, Best K-Pop and Song of the Year for \"SWIM\", and their thank-you post got 210K.",
+      "kind": "image",
+      "tags": [
+        "vmas",
+        "pinkpantheress",
+        "zara-larsson",
+        "bts"
+      ],
+      "category": "music",
       "crossover": true,
-      "reach": 7,
-      "dominance": 7,
-      "memeability": 8,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/taypalite/status/2104239715746455831",
-      "frameAt": 14
+      "sourceUrl": "https://x.com/lidolmix/status/2104394813743530119",
+      "imageUrl": "https://pbs.twimg.com/media/HTRP7HYbAAEMYth.jpg",
+      "crop": {
+        "x": 0.01,
+        "y": 0,
+        "w": 0.98,
+        "h": 1
+      }
     }
   ]
 }

@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-13",
+  "stories": [
+    {
+      "title": "Steve Sarkisian walks out on Holly Rowe",
+      "summary": "After No. 4 Texas beat No. 1 Ohio State 24-23 with a 21-point comeback, coach Steve Sarkisian walked away from Holly Rowe's postgame interview seconds in, throwing up the horns to the camera as he left. Chad Fisher's meme of Sark with Laura Rutledge vs. Holly Rowe got 26K likes, and Sark, Holly Rowe and #HookEm all trended.",
+      "kind": "image",
+      "tags": [
+        "steve-sarkisian",
+        "holly-rowe",
+        "texas",
+        "ohio-state"
+      ],
+      "category": "sports",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 8,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/ChadFisher/status/2099235888295256289",
+      "crop": {
+        "x": 0.578,
+        "y": 0,
+        "w": 0.4219,
+        "h": 1
+      }
+    }
+  ]
+}

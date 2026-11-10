@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-22",
+  "items": [
+    {
+      "id": "2026-09-22-x-alexandr-wang-asks-if-meta-s-muse-mascot-does-an",
+      "platform": "x",
+      "rank": 1,
+      "title": "Alexandr Wang asks if Meta's Muse mascot \"does anything\" for you",
+      "summary": "Two weeks after Meta launched Muse, its personal AI agent, Meta's Alexandr Wang quoted a user's \"I'd smash ngl\" with a render of Muse's chubby yeti mascot and \"does this do anything for any of you / be honest no judgment zone\". It got 3.8K likes and 516 replies, and the \"thicc Muse mascot\" jokes kept going after Meta unveiled the Muse Charm at Meta Connect the next day.",
+      "kind": "image",
+      "tags": [
+        "muse",
+        "meta",
+        "alexandr-wang",
+        "mascot"
+      ],
+      "author": "@alexandr_wang",
+      "sourceUrl": "https://x.com/alexandr_wang/status/2102424404584214870",
+      "metrics": {
+        "likes": "3.8K",
+        "replies": "516"
+      },
+      "references": [],
+      "pulse": {
+        "score": 5.5,
+        "reach": 6,
+        "dominance": 5,
+        "memeability": 8,
+        "category": "tech",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-22/2026-09-22-x-alexandr-wang-asks-if-meta-s-muse-mascot-does-an.webp",
+        "width": 720,
+        "height": 807,
+        "from": "https://pbs.twimg.com/media/HS1P2r2boAAdRPv.jpg?name=medium",
+        "crop": {
+          "x": 0.2,
+          "y": 0.08,
+          "w": 0.672,
+          "h": 0.8
+        }
+      },
+      "post": {
+        "name": "Alexandr Wang",
+        "handle": "@alexandr_wang",
+        "verified": true,
+        "avatar": "/media/avatars/alexandr_wang.webp",
+        "text": "does this do anything for any of you\n\nbe honest no judgment zone",
+        "postedAt": "2026-09-22T15:46:53.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T04:09:05.553Z"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-25",
+  "items": [
+    {
+      "id": "2026-09-25-x-man-city-found-guilty-and-de-gea-asks-how-many-t",
+      "platform": "x",
+      "rank": 1,
+      "title": "Man City found guilty, and De Gea asks how many titles he's won",
+      "summary": "The Athletic's David Ornstein reported that an independent commission found Manchester City guilty on virtually all of the Premier League's financial charges, with sanctions still undecided and City expected to appeal. His post got 363K likes. Former Manchester United goalkeeper David de Gea then posted \"So…… Let's talk. How many Premier League titles have I won then?\", which got 378K. Zohran Mamdani posted just \"114\", a nod to the 115 charges, and got 270K.",
+      "kind": "moment",
+      "tags": [
+        "manchester-city",
+        "premier-league",
+        "115-charges",
+        "de-gea"
+      ],
+      "author": "@D_DeGea",
+      "sourceUrl": "https://x.com/D_DeGea/status/2103559973540340178",
+      "metrics": {
+        "likes": "377.8K",
+        "replies": "5.4K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.5,
+        "reach": 8,
+        "dominance": 9,
+        "memeability": 8,
+        "category": "sports",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:13:30.730Z",
+      "post": {
+        "name": "David de Gea",
+        "handle": "@D_DeGea",
+        "verified": true,
+        "avatar": "/media/avatars/d_degea.webp",
+        "text": "So…… \n\nLet’s talk.\n\nHow many Premier League titles have I won then? 🤔",
+        "postedAt": "2026-09-25T18:59:14.000Z"
+      },
+      "image": {
+        "src": "/media/2026-09-25/2026-09-25-x-man-city-found-guilty-and-de-gea-asks-how-many-t.webp",
+        "width": 720,
+        "height": 960,
+        "from": "https://x.com/D_DeGea/status/2103559973540340178",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

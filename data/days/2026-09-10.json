@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-10",
+  "items": [
+    {
+      "id": "2026-09-10-x-kirkiversary-one-year-since-charlie-kirk-s-death",
+      "platform": "x",
+      "rank": 1,
+      "title": "#kirkiversary: one year since Charlie Kirk's death",
+      "summary": "On the first anniversary of Charlie Kirk's death, #kirkiversary trended as X filled with Kirk memes. \"It's officially 1 AK (after Kirk)\" got 127K likes, a \"9/9-9/10-9/11\" meme pairing Kirk with Queen Elizabeth II and a plane got 470K, and Netflix UK joined in with \"Nearly did himself a neck injury\" (150K). Erika Kirk's own post, a wedding photo captioned \"...until Heaven.\", got 176K.",
+      "kind": "image",
+      "tags": [
+        "charlie-kirk",
+        "kirkiversary",
+        "anniversary",
+        "memes"
+      ],
+      "author": "@EverythingOOC",
+      "sourceUrl": "https://x.com/EverythingOOC/status/2098000526491222133",
+      "metrics": {
+        "likes": "127.2K",
+        "replies": "182"
+      },
+      "references": [],
+      "pulse": {
+        "score": 9.3,
+        "reach": 9,
+        "dominance": 9,
+        "memeability": 10,
+        "category": "internet-culture",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-10/2026-09-10-x-kirkiversary-one-year-since-charlie-kirk-s-death.webp",
+        "width": 720,
+        "height": 900,
+        "from": "https://pbs.twimg.com/media/HR2YW0_a0AAJ-aD.jpg?name=medium",
+        "crop": {
+          "x": 0.031,
+          "y": 0,
+          "w": 0.938,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "Everything Out Of Context",
+        "handle": "@EverythingOOC",
+        "verified": true,
+        "avatar": "/media/avatars/everythingooc.webp",
+        "text": "It's officially 1 AK (after Kirk)",
+        "postedAt": "2026-09-10T10:47:59.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T04:36:10.641Z"
+    }
+  ]
+}

@@ -2,55 +2,54 @@
   "date": "2026-10-04",
   "items": [
     {
-      "id": "2026-10-04-x-softhearted-gunner-an-ai-kitten-can-t-shoot-the-",
+      "id": "2026-10-04-x-plague-escapes-a-russian-lab",
       "platform": "x",
       "rank": 1,
-      "title": "\"Softhearted Gunner\": an AI kitten can't shoot the zombie cat it loves",
-      "summary": "An AI-generated clip shows a teary orange kitten aiming a pistol at a zombified white cat, unable to pull the trigger, letting it lunge, then cutting to the two cuddling in a sunlit meadow. A Turkish X post captioned \"Ağlıyorum\" (\"I'm crying\") passed 2.4 million views within days and reached Korean and Turkish forums inside 48 hours, and remakes with other characters followed under the name \"Softhearted Gunner.\"",
-      "kind": "video",
+      "title": "Plague escapes a Russian lab",
+      "summary": "Five hospitals in Siberia were quarantined after Darya Shipilova, a 28-year-old lab technician at the Irkutsk Anti-Plague Institute, died after breaking a test tube of live Yersinia pestis. \"Russia pneumonic plague\" became one of the top US searches. Raw Alerts' \"Infectious 'plague' escapes Siberian lab\" got 66K likes, and \"The Pneumonic Plague that just escaped a lab in Russia is about 100x deadlier than COVID\" got 59K. Most of the timeline went for the joke: \">anti plague institute >starts a plague\" (18K), toilet-paper CEO memes, and Taylor Swift conspiracy posts pointing out her song \"Patient Zero\" came out the same day as the lab accident.",
+      "kind": "moment",
       "tags": [
-        "ai",
-        "cats",
-        "zombies",
-        "reaction"
+        "plague",
+        "russia",
+        "lab-leak"
       ],
-      "author": "@netmutsuz",
-      "sourceUrl": "https://x.com/netmutsuz/status/2106887598140707014",
+      "author": "@rawsalerts",
+      "sourceUrl": "https://x.com/rawsalerts/status/2106895231471788184",
       "metrics": {
-        "likes": "49.3K",
-        "replies": "463"
+        "likes": "65.8K",
+        "replies": "2.2K"
       },
       "references": [],
       "pulse": {
-        "score": 6.2,
-        "reach": 6,
-        "dominance": 5,
-        "memeability": 8,
-        "category": "internet-culture",
+        "score": 6.7,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 7,
+        "category": "news",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-04/2026-10-04-x-softhearted-gunner-an-ai-kitten-can-t-shoot-the-.webp",
+        "src": "/media/2026-10-04/2026-10-04-x-plague-escapes-a-russian-lab.webp",
         "width": 720,
-        "height": 408,
-        "from": "https://video.twimg.com/amplify_video/2106887574501347329/vid/avc1/848x480/Z4g0TMw15cq4gkJa.mp4#t=0.6",
+        "height": 960,
+        "from": "https://x.com/rawsalerts/status/2106895231471788184",
         "crop": {
-          "x": 0.17,
+          "x": 0,
           "y": 0,
-          "w": 0.42,
+          "w": 1,
           "h": 1
         }
       },
       "post": {
-        "name": "Miraç",
-        "handle": "@netmutsuz",
-        "verified": false,
-        "avatar": "/media/avatars/netmutsuz.webp",
-        "text": "Ağlıyorum",
-        "postedAt": "2026-10-04T23:22:02.000Z"
+        "name": "R A W S A L E R T S",
+        "handle": "@rawsalerts",
+        "verified": true,
+        "avatar": "/media/avatars/rawsalerts.webp",
+        "text": "🚨 #BREAKING: Infectious “plague” escapes Siberian lab, kills researcher, Russians begin quarantine.",
+        "postedAt": "2026-10-04T23:52:22.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T03:11:58.105Z"
+      "collectedAt": "2026-10-14T04:13:25.263Z"
     }
   ]
 }

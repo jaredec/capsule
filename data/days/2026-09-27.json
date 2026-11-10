@@ -2,55 +2,55 @@
   "date": "2026-09-27",
   "items": [
     {
-      "id": "2026-09-27-x-when-it-s-time-to-eat-the-rich-and-i-get-kim-kar",
+      "id": "2026-09-27-x-pinkpantheress-takes-a-zara-larsson-cutout-to-th",
       "platform": "x",
       "rank": 1,
-      "title": "\"When it’s time to eat the rich and I get Kim Kardashian\"",
-      "summary": "An ASMR creator posted a clip of himself chewing on a clear silicone pad, captioned \"when it’s time to eat the rich and I get Kim Kardashian\", a dig at how much of her is supposedly plastic. It passed 300K likes within a day, the quote posts piled on, and people reused the format with other celebrities.",
-      "kind": "video",
+      "title": "PinkPantheress takes a Zara Larsson cutout to the VMAs",
+      "summary": "At the VMAs, PinkPantheress posed with her award for the \"Stateside\" video and a cardboard cutout of her collaborator Zara Larsson. The photo got 201K likes. BTS won Best Group, Best K-Pop and Song of the Year for \"SWIM\", and their thank-you post got 210K.",
+      "kind": "image",
       "tags": [
-        "eat-the-rich",
-        "kim-kardashian",
-        "asmr",
-        "format"
+        "vmas",
+        "pinkpantheress",
+        "zara-larsson",
+        "bts"
       ],
-      "author": "@taypalite",
-      "sourceUrl": "https://x.com/taypalite/status/2104239715746455831",
+      "author": "@lidolmix",
+      "sourceUrl": "https://x.com/lidolmix/status/2104394813743530119",
       "metrics": {
-        "likes": "313.2K",
-        "replies": "500"
+        "likes": "200.7K",
+        "replies": "147"
       },
       "references": [],
       "pulse": {
-        "score": 7.3,
-        "reach": 7,
-        "dominance": 7,
-        "memeability": 8,
-        "category": "internet-culture",
+        "score": 7.8,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 7,
+        "category": "music",
         "crossover": true
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:33:22.193Z",
+      "post": {
+        "name": "AARON",
+        "handle": "@lidolmix",
+        "verified": true,
+        "avatar": "/media/avatars/lidolmix.webp",
+        "text": "pinkpantheress holding a cutout of zara larsson after winning a vma for their stateside music video😭😭",
+        "postedAt": "2026-09-28T02:16:36.000Z"
+      },
       "image": {
-        "src": "/media/2026-09-27/2026-09-27-x-when-it-s-time-to-eat-the-rich-and-i-get-kim-kar.webp",
+        "src": "/media/2026-09-27/2026-09-27-x-pinkpantheress-takes-a-zara-larsson-cutout-to-th.webp",
         "width": 720,
-        "height": 846,
-        "from": "https://video.twimg.com/amplify_video/2104239660805337089/vid/avc1/720x846/tFLgAWSygXxib66y.mp4#t=14",
+        "height": 938,
+        "from": "https://pbs.twimg.com/media/HTRP7HYbAAEMYth.jpg",
         "crop": {
-          "x": 0,
+          "x": 0.01,
           "y": 0,
-          "w": 0.881,
+          "w": 0.98,
           "h": 1
         }
-      },
-      "post": {
-        "name": "𝐀𝐱𝐞𝐥⸆⸉",
-        "handle": "@taypalite",
-        "verified": false,
-        "avatar": "/media/avatars/taypalite.webp",
-        "text": "when it’s time to eat the rich and I get Kim Kardashian",
-        "postedAt": "2026-09-27T16:00:17.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T07:03:02.929Z"
+      }
     }
   ]
 }

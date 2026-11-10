@@ -49,7 +49,7 @@ export function Calendar({ year, month, itemsByDate, firstDate, prevHref, nextHr
   }, [itemsByDate, platform]);
 
   const shown = (date: string) =>
-    Boolean(visible[date]) || (date.startsWith(monthPrefix) && (!firstDate || date >= firstDate));
+    date.startsWith(monthPrefix) && (Boolean(visible[date]) || !firstDate || date >= firstDate);
 
   const counts = useMemo(() => {
     const c = Object.fromEntries(PLATFORMS.map((p) => [p, 0])) as Record<Platform, number>;
@@ -108,7 +108,7 @@ export function Calendar({ year, month, itemsByDate, firstDate, prevHref, nextHr
       {/* Mobile: agenda list */}
       <ol className="mt-6 space-y-2 md:hidden">
         {cells
-          .filter((d) => d.startsWith(monthPrefix) && shown(d))
+          .filter(shown)
           .map((date) => {
             const items = visible[date] ?? [];
             const state = dayState(date, items.length > 0, Boolean(itemsByDate[date]), today);

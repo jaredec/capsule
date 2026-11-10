@@ -6,18 +6,18 @@
       "platform": "x",
       "rank": 1,
       "title": "Kelly Clarkson's \"Pretty Woman\" feud with a Brooklyn toy shop",
-      "summary": "Kelly Clarkson told her 8.8 million X followers that the Brooklyn shop Art of Play treated her like Julia Roberts in Pretty Woman, saying a clerk assumed she couldn't afford something. The store replied that she had asked to buy \"Molly,\" a one-of-a-kind singing bird automaton bolted to the wall and not for sale, and Clarkson fired back, \"So you're not only rude, you're also a liar.\" The back-and-forth split the internet between the star and the small business.",
-      "kind": "moment",
+      "summary": "Kelly Clarkson told her 8.8 million X followers that the Brooklyn shop Art of Play treated her like Julia Roberts in Pretty Woman, saying a clerk looked at her as if she couldn't afford anything. The store replied that she had asked to buy \"Molly,\" a one-of-a-kind singing and dancing bird automaton attached to the wall and not for sale. Clarkson fired back with a screenshot of Molly's $15,000 price tag: \"Cool, cool. Sure, it wasn't for sale\" (168K). The back-and-forth split the internet between the star and the small business, and Molly became a Halloween-costume joke.",
+      "kind": "image",
       "tags": [
         "celebrity",
         "shopping",
         "feud"
       ],
       "author": "@kellyclarkson",
-      "sourceUrl": "https://x.com/kellyclarkson/status/2108998378675933224",
+      "sourceUrl": "https://x.com/kellyclarkson/status/2109433351019094451",
       "metrics": {
-        "likes": "261.6K",
-        "replies": "8.3K"
+        "likes": "168.3K",
+        "replies": "10.2K"
       },
       "references": [
         {
@@ -40,13 +40,13 @@
       "image": {
         "src": "/media/2026-10-11/2026-10-11-x-kelly-clarkson-s-pretty-woman-feud-with-a-brookl.webp",
         "width": 720,
-        "height": 960,
-        "from": "https://x.com/kellyclarkson/status/2108998378675933224",
+        "height": 1280,
+        "from": "https://video.twimg.com/amplify_video/2109502372330209280/vid/avc1/1080x1920/3k34t1gT-_dYWSaY.mp4#t=11.5",
         "crop": {
-          "x": 0,
-          "y": 0,
-          "w": 1,
-          "h": 1
+          "x": 0.15,
+          "y": 0.01,
+          "w": 0.733,
+          "h": 0.55
         }
       },
       "post": {
@@ -54,11 +54,11 @@
         "handle": "@kellyclarkson",
         "verified": true,
         "avatar": "/media/avatars/kellyclarkson.webp",
-        "text": "Just drove all the way to Brooklyn to check out this store I thought looked really rad and had a few things in mind to buy and literally was looked at as if I couldn’t afford it and was told he could find something comparable for me. Wow, dude. You’re an idiot and just lost a",
-        "postedAt": "2026-10-10T19:09:31.000Z"
+        "text": "Cool, cool. Sure, it wasn’t for sale. That’s the narrative Art of Play is gonna go with 👍 so the whole conversation we had when I asked you if it was for sale whilst pointing to the price tag hanging on the wall with the title Singing Bird didn’t happen as you elevator eyed me",
+        "postedAt": "2026-10-11T23:57:56.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-12T04:31:55.310Z"
+      "collectedAt": "2026-10-14T04:27:19.026Z"
     }
   ]
 }

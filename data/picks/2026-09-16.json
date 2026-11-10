@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-16",
+  "stories": [
+    {
+      "title": "Barack Obama says goodbye to his dog Sunny",
+      "summary": "Barack Obama announced that Sunny, the dog the family got at the start of his second term, had died: \"Yesterday, we lost a cherished member of our family.\" The post got 329K likes.",
+      "kind": "image",
+      "tags": [
+        "barack-obama",
+        "sunny",
+        "obama-family"
+      ],
+      "category": "celebrity",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 7,
+      "memeability": 3,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/BarackObama/status/2100193157522620711",
+      "imageUrl": "https://pbs.twimg.com/media/HSVgTGdX0AAsu5K.jpg",
+      "crop": {
+        "x": 0,
+        "y": 0.006,
+        "w": 1,
+        "h": 0.987
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-12",
+  "items": [
+    {
+      "id": "2026-09-12-x-sydney-sweeney-knows-ball-in-novig-s-near-nude-a",
+      "platform": "x",
+      "rank": 1,
+      "title": "Sydney Sweeney \"knows ball\" in Novig's near-nude ad",
+      "summary": "Sports prediction app Novig posted its \"Just Sports\" ad with Sydney Sweeney posing nearly nude with footballs, a basketball and a pool table, captioned \"Confirmed: Sydney Sweeney knows ball.\" By her birthday on Sep 12 it was on a Times Square billboard and women in sports media were criticizing it. The top quote of the billboard photo got 465K likes.",
+      "kind": "video",
+      "tags": [
+        "sydney-sweeney",
+        "novig",
+        "ads",
+        "sports-betting"
+      ],
+      "author": "@Novig",
+      "sourceUrl": "https://x.com/Novig/status/2097672302976459025",
+      "metrics": {
+        "likes": "101.1K",
+        "replies": "1.7K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.8,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 7,
+        "category": "celebrity",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T02:42:53.645Z",
+      "post": {
+        "name": "Novig",
+        "handle": "@Novig",
+        "verified": true,
+        "avatar": "/media/avatars/novig.webp",
+        "text": "Confirmed: Sydney Sweeney knows ball.",
+        "postedAt": "2026-09-09T13:03:44.000Z"
+      },
+      "image": {
+        "src": "/media/2026-09-12/2026-09-12-x-sydney-sweeney-knows-ball-in-novig-s-near-nude-a.webp",
+        "width": 720,
+        "height": 405,
+        "from": "https://video.twimg.com/amplify_video/2097672260199034880/vid/avc1/1280x720/9qPVemPhb7jWRogq.mp4#t=45",
+        "crop": {
+          "x": 0.25,
+          "y": 0,
+          "w": 0.45,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

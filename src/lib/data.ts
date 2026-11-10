@@ -1,6 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
-import { compareYearMonth, monthGrid, parseIsoDate, type YearMonth } from "./dates";
+import { compareYearMonth, daysInMonth, parseIsoDate, toIsoDate, type YearMonth } from "./dates";
 import { dayFileSchema, type DayFile, type Item } from "./schema";
 
 const DAYS_DIR = path.join(process.cwd(), "data", "days");
@@ -36,11 +36,12 @@ export function getDatesWithItems(): string[] {
   return [...loadAll().values()].filter((d) => d.items.length > 0).map((d) => d.date);
 }
 
-/** Items for every day in the month's grid, including the adjacent months' days that fill its first and last weeks. */
+/** Items for each day of the month. */
 export function getMonthItems({ year, month }: YearMonth): Record<string, Item[]> {
   const all = loadAll();
   const result: Record<string, Item[]> = {};
-  for (const date of monthGrid(year, month)) {
+  for (let d = 1; d <= daysInMonth(year, month); d++) {
+    const date = toIsoDate(year, month, d);
     const day = all.get(date);
     if (day && day.items.length > 0) result[date] = day.items;
   }

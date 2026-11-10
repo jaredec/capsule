@@ -3,16 +3,31 @@
   "stories": [
     {
       "title": "Kelly Clarkson's \"Pretty Woman\" feud with a Brooklyn toy shop",
-      "summary": "Kelly Clarkson told her 8.8 million X followers that the Brooklyn shop Art of Play treated her like Julia Roberts in Pretty Woman, saying a clerk assumed she couldn't afford something. The store replied that she had asked to buy \"Molly,\" a one-of-a-kind singing bird automaton bolted to the wall and not for sale, and Clarkson fired back, \"So you're not only rude, you're also a liar.\" The back-and-forth split the internet between the star and the small business.",
-      "kind": "moment",
-      "tags": ["celebrity", "shopping", "feud"],
+      "summary": "Kelly Clarkson told her 8.8 million X followers that the Brooklyn shop Art of Play treated her like Julia Roberts in Pretty Woman, saying a clerk looked at her as if she couldn't afford anything. The store replied that she had asked to buy \"Molly,\" a one-of-a-kind singing and dancing bird automaton attached to the wall and not for sale. Clarkson fired back with a screenshot of Molly's $15,000 price tag: \"Cool, cool. Sure, it wasn't for sale\" (168K). The back-and-forth split the internet between the star and the small business, and Molly became a Halloween-costume joke.",
+      "kind": "image",
+      "tags": [
+        "celebrity",
+        "shopping",
+        "feud"
+      ],
       "category": "celebrity",
       "crossover": false,
       "reach": 8,
       "dominance": 7,
       "memeability": 6,
       "platform": "x",
-      "headlineIds": [115, 348]
+      "headlineIds": [
+        115,
+        348
+      ],
+      "sourceUrl": "https://x.com/kellyclarkson/status/2109433351019094451",
+      "imageUrl": "https://video.twimg.com/amplify_video/2109502372330209280/vid/avc1/1080x1920/3k34t1gT-_dYWSaY.mp4#t=11.5",
+      "crop": {
+        "x": 0.15,
+        "y": 0.01,
+        "w": 0.733,
+        "h": 0.55
+      }
     }
   ]
 }

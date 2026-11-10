@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-08",
+  "items": [
+    {
+      "id": "2026-09-08-x-openai-claims-a-solution-to-navier-stokes",
+      "platform": "x",
+      "rank": 1,
+      "title": "OpenAI claims a solution to Navier-Stokes",
+      "summary": "OpenAI said a group of AI agents, running a next-generation model more capable than GPT-6 Astra, had produced a solution to the Navier-Stokes Millennium Prize Problem in 88 hours. The announcement got 120K likes, and the pushback was nearly as big: a post accusing OpenAI of overclaiming got 68K.",
+      "kind": "image",
+      "tags": [
+        "openai",
+        "navier-stokes",
+        "millennium-prize",
+        "math"
+      ],
+      "author": "@OpenAI",
+      "sourceUrl": "https://x.com/OpenAI/status/2097374640582668336",
+      "metrics": {
+        "likes": "120.3K",
+        "replies": "5.7K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 6.8,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 6,
+        "category": "tech",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-09-08/2026-09-08-x-openai-claims-a-solution-to-navier-stokes.webp",
+        "width": 720,
+        "height": 720,
+        "from": "https://pbs.twimg.com/media/HRtS_iLboAUUlYv.jpg?name=medium",
+        "crop": {
+          "x": 0.07,
+          "y": 0,
+          "w": 0.75,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "OpenAI",
+        "handle": "@OpenAI",
+        "verified": true,
+        "avatar": "/media/avatars/openai.webp",
+        "text": "We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics.\n\nThe proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra.\n\nThe problem",
+        "postedAt": "2026-09-08T17:20:56.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T04:33:37.919Z"
+    }
+  ]
+}
