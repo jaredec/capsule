@@ -2,11 +2,11 @@
   "date": "2026-09-18",
   "items": [
     {
-      "id": "2026-09-18-x-trump-announces-a-greenland-deal-with-denmark",
+      "id": "2026-09-18-x-trump-announces-a-greenland-deal-and-x-digs-up-t",
       "platform": "x",
       "rank": 1,
-      "title": "Trump announces a Greenland deal with Denmark",
-      "summary": "Donald Trump announced an agreement with Denmark and Greenland that he said gives the United States \"permanent control over security, and all other needs, in Greenland.\" His post got 495K likes and 36.8K replies, and Pete Hegseth said the military would begin building a large presence there.",
+      "title": "Trump announces a Greenland deal and X digs up the 1951 one",
+      "summary": "Trump announced an agreement with Denmark and Greenland that he said gives the United States \"permanent control over security, and all other needs, in Greenland\" (492K likes). X's answer was the Defense of Greenland Agreement, which has let the US build and run bases there since 1951: \"It's like 1951 but in 2026\" (20K), and \"This is more or less the same deal that has been in place in Greenland for eight decades\" (Anne Applebaum, 6.7K). Denmark and Greenland said the deal keeps Danish sovereignty and Greenlanders' right to self-determination. Hours earlier Katie Miller had posted Greenland covered in the Stars and Stripes, \"ITS HAPPENING\" (12K), which drew replies calling it \"shameless propaganda.\" By the next morning the jokes had moved on to Trump getting France to sell America the Louisiana Territory (13K).",
       "kind": "moment",
       "tags": [
         "greenland",
@@ -16,30 +16,20 @@
       "author": "@realDonaldTrump",
       "sourceUrl": "https://x.com/realDonaldTrump/status/2101101979808493780",
       "metrics": {
-        "likes": "495.3K",
-        "replies": "36.8K"
+        "likes": "492.4K",
+        "replies": "36.6K"
       },
       "references": [],
       "pulse": {
-        "score": 7.4,
+        "score": 7.3,
         "reach": 9,
-        "dominance": 9,
-        "memeability": 6,
+        "dominance": 8,
+        "memeability": 7,
         "category": "politics",
         "crossover": true
       },
-      "image": {
-        "src": "/media/2026-09-18/2026-09-18-x-trump-announces-a-greenland-deal-with-denmark.webp",
-        "width": 1200,
-        "height": 1600,
-        "from": "https://x.com/realDonaldTrump/status/2101101979808493780",
-        "crop": {
-          "x": 0,
-          "y": 0,
-          "w": 1,
-          "h": 1
-        }
-      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T07:57:13.215Z",
       "post": {
         "name": "Donald J. Trump",
         "handle": "@realDonaldTrump",
@@ -48,8 +38,18 @@
         "text": "BREAKING NEWS: I am pleased to announce that the United States of America has entered into an Agreement with The Kingdom of Denmark, and Greenland, that gives the United States permanent control over security, and all other needs, in Greenland, completely addressing ALL of our",
         "postedAt": "2026-09-19T00:12:03.000Z"
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T04:45:39.420Z"
+      "image": {
+        "src": "/media/2026-09-18/2026-09-18-x-trump-announces-a-greenland-deal-and-x-digs-up-t.webp",
+        "width": 925,
+        "height": 1369,
+        "from": "https://pbs.twimg.com/media/HSh9-TgXUAAsZoX.jpg?name=orig",
+        "crop": {
+          "x": 0.14,
+          "y": 0.06,
+          "w": 0.74,
+          "h": 0.5
+        }
+      }
     }
   ]
 }

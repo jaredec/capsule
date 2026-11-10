@@ -15,7 +15,7 @@
       "headlineIds": [],
       "sourceUrl": "https://x.com/jieselong/status/2119576584898416808",
       "imageUrl": "https://image.cnbcfm.com/api/v1/image/108447194-1792682505441-108447194-1792682412759-gettyimages-2301328017-2s4a6117_3tcndrih.jpg?v=1792682514&w=1920&h=1080",
-      "crop": { "x": 0.25, "y": 0, "w": 0.5, "h": 1 }
+      "crop": { "x": 0.15, "y": 0, "w": 0.7, "h": 1 }
     }
   ]
 }

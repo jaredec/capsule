@@ -2,22 +2,31 @@
   "date": "2026-09-29",
   "stories": [
     {
-      "title": "\"Suddenly Candace Owens is a lesbian\"",
-      "summary": "A researcher posting as EsoShaggy claimed that leaked data from 2007-08 dating sites tied Candace Owens's old email addresses to four lesbian dating profiles. The claim was unverified and Owens called it \"the most Israel-coded accusations of all time\", but the timeline ran with it: \"Ur off this app for one day and suddenly Candace Owens is a lesbian\" got 107K likes, \"i don't have time for candace owens being a lesbian right now\" got 127K, and \"Candace Owens getting more pussy than me\" got 96K.",
-      "kind": "moment",
-      "tags": [
-        "candace-owens",
-        "meme",
-        "dating-profiles"
-      ],
+      "title": "Katie Britt's face as a Hawks/Hawkeyes perjury gotcha collapses",
+      "summary": "At Jack Smith's Senate Judiciary hearing, Sen. Eric Schmitt called Smith a \"dirtbag\" and accused him of perjury, citing texts from Smith's staff that he said put Smith at a Warriors-Hawks game in Atlanta the day after Fani Willis disclosed her relationship with Nathan Wade. Smith said the only game he remembered was Iowa at Maryland, to watch Caitlin Clark, and Sen. Amy Klobuchar checked and confirmed it (\"Could it then be that the University of Iowa is the Hawkeyes?\"), and Sahil Kapur's clip of the full exchange got 32K likes. MS NOW's slow zoom on Sen. Katie Britt, sitting next to Schmitt with her mouth open, became the moment: she never explained the look, but people read it as secondhand embarrassment, @thepondering_'s clip got 40K likes, and the face spread as a reaction GIF far beyond politics, set to the Curb Your Enthusiasm theme and captioned for any \"something just went very wrong\" moment.",
+      "kind": "video",
+      "tags": ["katie-britt", "jack-smith", "eric-schmitt", "reaction-gif", "senate-hearing"],
       "category": "internet-culture",
       "crossover": true,
       "reach": 8,
       "dominance": 8,
       "memeability": 9,
       "platform": "x",
-      "headlineIds": [],
-      "sourceUrl": "https://x.com/lesbianstatt/status/2104894507070247323"
+      "headlineIds": [27, 29],
+      "sourceUrl": "https://x.com/sahilkapur/status/2104958793859616896",
+      "bounds": {
+        "x": 0,
+        "y": 0.12,
+        "w": 1,
+        "h": 0.763
+      },
+      "crop": {
+        "x": 0.29,
+        "y": 0.14,
+        "w": 0.42,
+        "h": 0.743
+      },
+      "imageUrl": "https://video.twimg.com/amplify_video/2104968580336930817/vid/avc1/1920x1080/Ke_BR3ycHqVsASEy.mp4#t=11"
     }
   ]
 }

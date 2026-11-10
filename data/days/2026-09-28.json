@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Starship reaches orbit for the first time",
-      "summary": "On Flight 14, SpaceX's Starship performed its orbital insertion burn and entered Earth orbit for the first time, then deployed 26 Starlink V3 satellites, all of which SpaceX made contact with. SpaceX's clip of the burn got 31K likes, and Elon Musk's \"First orbital flight of Starship successful!\" got 79K.",
+      "summary": "On Flight 14, SpaceX's Starship performed its orbital insertion burn and entered Earth orbit for the first time, then deployed 26 Starlink V3 satellites, all of which SpaceX made contact with. SpaceX's clip of the burn got 30K likes, and Elon Musk's \"First orbital flight of Starship successful!\" got 78K.",
       "kind": "video",
       "tags": [
         "spacex",
@@ -17,7 +17,7 @@
       "author": "@SpaceX",
       "sourceUrl": "https://x.com/SpaceX/status/2104560708969259344",
       "metrics": {
-        "likes": "30.7K",
+        "likes": "30.5K",
         "replies": "1.1K"
       },
       "references": [],
@@ -29,18 +29,8 @@
         "category": "tech",
         "crossover": true
       },
-      "image": {
-        "src": "/media/2026-09-28/2026-09-28-x-starship-reaches-orbit-for-the-first-time.webp",
-        "width": 1600,
-        "height": 900,
-        "from": "https://video.twimg.com/amplify_video/2104560614626766848/vid/avc1/1920x1080/a4o1HBSNTwSYTVT9.mp4#t=19",
-        "crop": {
-          "x": 0.2,
-          "y": 0,
-          "w": 0.42,
-          "h": 1
-        }
-      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T05:48:33.171Z",
       "post": {
         "name": "SpaceX",
         "handle": "@SpaceX",
@@ -49,8 +39,24 @@
         "text": "Starship performs its orbital insertion burn and enters orbit of Earth for the first time",
         "postedAt": "2026-09-28T13:15:48.000Z"
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T04:09:06.709Z"
+      "image": {
+        "src": "/media/2026-09-28/2026-09-28-x-starship-reaches-orbit-for-the-first-time.webp",
+        "width": 1600,
+        "height": 900,
+        "from": "https://video.twimg.com/amplify_video/2104560614626766848/vid/avc1/1920x1080/a4o1HBSNTwSYTVT9.mp4#t=19",
+        "crop": {
+          "x": 0.15,
+          "y": 0.2,
+          "w": 0.5,
+          "h": 0.6
+        },
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.82
+        }
+      }
     }
   ]
 }

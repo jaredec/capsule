@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "The Pentagon hosts Logan and Jake Paul",
-      "summary": "The Department of War posted a video of Logan and Jake Paul's visit to the Pentagon \"to meet with our warriors.\" It got 35K likes and 19K replies, while quote posts like \"holy shit we are all going to die\" (345K) and a reminder of Logan's 2018 suicide forest video (321K) went far bigger.",
+      "summary": "The Department of War posted a video of Logan and Jake Paul's visit to the Pentagon \"to meet with our warriors.\" It got 36K likes and 19K replies, while quote posts went far bigger: \"holy shit we are all going to die\" (343K), \"Hawk Tuah really fumbled the bag, she could be Secretary of the Interior by now\" (142K) and \"Imagine showing this image to someone in 2017\" (115K).",
       "kind": "video",
       "tags": [
         "logan-paul",
@@ -16,7 +16,7 @@
       "author": "@DeptofWar",
       "sourceUrl": "https://x.com/DeptofWar/status/2101704848009744783",
       "metrics": {
-        "likes": "35.4K",
+        "likes": "35.6K",
         "replies": "19.2K"
       },
       "references": [],
@@ -27,6 +27,16 @@
         "memeability": 8,
         "category": "politics",
         "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T05:43:28.327Z",
+      "post": {
+        "name": "Department of War 🇺🇸",
+        "handle": "@DeptofWar",
+        "verified": true,
+        "avatar": "/media/avatars/deptofwar.webp",
+        "text": "Last Thursday, we welcomed Logan and Jake Paul to the Pentagon to meet with our warriors.",
+        "postedAt": "2026-09-20T16:07:38.000Z"
       },
       "image": {
         "src": "/media/2026-09-20/2026-09-20-x-the-pentagon-hosts-logan-and-jake-paul.webp",
@@ -39,17 +49,7 @@
           "w": 0.42,
           "h": 1
         }
-      },
-      "post": {
-        "name": "Department of War 🇺🇸",
-        "handle": "@DeptofWar",
-        "verified": true,
-        "avatar": "/media/avatars/deptofwar.webp",
-        "text": "Last Thursday, we welcomed Logan and Jake Paul to the Pentagon to meet with our warriors.",
-        "postedAt": "2026-09-20T16:07:38.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:33:19.927Z"
+      }
     }
   ]
 }

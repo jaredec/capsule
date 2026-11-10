@@ -3,7 +3,7 @@
   "stories": [
     {
       "title": "\"New cat alert!\": the first new cat species in over 100 years",
-      "summary": "National Geographic announced that a wildlife sanctuary's call about a \"weird cat\" led to the first new cat species discovered in over 100 years, found in Bolivia's Yungas forest. The post got 379K likes, and quotes like \"NEW CAT DROPPED I REPEAT NEW CAT DROPPED\" added more than 700K.",
+      "summary": "National Geographic announced that a wildlife sanctuary's call about a \"weird cat\" led to the first new cat species discovered in over 100 years, the tilcayo, found in Bolivia's Yungas forest. The post got 377K likes, \"NEW CAT DROPPED I REPEAT NEW CAT DROPPED THIS IS NOT A DRILL ITS IN FACT A CAT\" got 243K, and NatGeo's follow-up photos got 167K.",
       "kind": "video",
       "tags": ["cats", "new-species", "bolivia", "science"],
       "category": "animals",
@@ -14,8 +14,9 @@
       "platform": "x",
       "headlineIds": [],
       "sourceUrl": "https://x.com/NatGeo/status/2100601922168209413",
-      "frameAt": 6,
-      "crop": { "x": 0, "y": 0.2, "w": 1, "h": 0.75 }
+      "imageUrl": "https://pbs.twimg.com/media/HSc2xZ3WUAAmuK9.jpg?name=large",
+      "crop": { "x": 0.28, "y": 0.3, "w": 0.56, "h": 0.5 },
+      "bounds": { "x": 0, "y": 0.15, "w": 1, "h": 0.8 }
     }
   ]
 }

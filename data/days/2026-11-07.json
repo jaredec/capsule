@@ -30,7 +30,7 @@
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-10T05:01:11.477Z",
+      "collectedAt": "2026-11-10T05:02:47.102Z",
       "post": {
         "name": "Pop Base",
         "handle": "@PopBase",
@@ -45,9 +45,9 @@
         "height": 960,
         "from": "https://pbs.twimg.com/media/HWl-slUbQAAMeO-.jpg?name=large",
         "crop": {
-          "x": 0.14,
+          "x": 0.09,
           "y": 0,
-          "w": 0.5,
+          "w": 0.6,
           "h": 1
         }
       }

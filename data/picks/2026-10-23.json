@@ -3,7 +3,7 @@
   "stories": [
     {
       "title": "Hila Klein reveals Ethan Klein's affair, and H3 cuts ties with him",
-      "summary": "Late Thursday, Hila Klein posted that her husband and H3 Podcast co-host Ethan had been having an affair for over six months and that they had separated (\"'It was just a kiss' became 'it was emotional cheating'\"). By Friday morning the H3 crew said it would no longer work with him, the show went on indefinite hiatus, and the scandal took over the feed. The image of it became an old Halloween photo of Ethan as the Cat in the Hat with Hila and the other woman as Thing 1 and Thing 2, posted with \"Ethan Klein dressed his wife and his mistress up as thing 1 and thing 2\" (124K likes).",
+      "summary": "Late Thursday, Hila Klein posted that her husband and H3 Podcast co-host Ethan had been having an affair for over six months and that they had separated (\"'It was just a kiss' became 'it was emotional cheating'\"). Ethan had put the show on indefinite hiatus hours earlier, by Friday morning the H3 crew said it would no longer work with him, and the scandal took over the feed. The meme of the day was an old Halloween photo of Ethan as the Cat in the Hat between two women dressed as Thing 1 and Thing 2, posted with the unverified claim \"Ethan Klein dressed his wife and his mistress up as thing 1 and thing 2\" (124K likes).",
       "kind": "image",
       "tags": ["ethan-klein", "hila-klein", "h3-podcast", "cheating-scandal"],
       "category": "internet-culture",
@@ -14,7 +14,13 @@
       "platform": "x",
       "headlineIds": [10],
       "sourceUrl": "https://x.com/snarkingislegal/status/2113586333457518842",
-      "crop": { "x": 0, "y": 0.2, "w": 1, "h": 0.732 }
+      "imageUrl": "https://pyxis.nymag.com/v1/imgs/fce/369/dd30a5f6e099ffb4231515c8d02316075a-kleins.jpg",
+      "crop": {
+        "x": 0.19,
+        "y": 0.07,
+        "w": 0.6,
+        "h": 0.36
+      }
     }
   ]
 }

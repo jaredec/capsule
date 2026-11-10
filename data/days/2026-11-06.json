@@ -2,54 +2,66 @@
   "date": "2026-11-06",
   "items": [
     {
-      "id": "2026-11-06-x-if-newton-saw-the-way-i-be-moving-he-d-add-a-fou",
+      "id": "2026-11-06-x-after-the-midterm-rout-trump-makes-stephen-mille",
       "platform": "x",
       "rank": 1,
-      "title": "\"If Newton saw the way I be moving\" he'd add a fourth law of motion",
-      "summary": "A one-line brag posted Friday afternoon, \"If newton saw the way I be moving these days he'd add a fourth law of motion,\" passed 1M views and 94K likes within a day and is now at 220K likes and 2.9M views. By the next morning accounts everywhere were reposting it word for word or swapping in a footballer, a friend or a celebrity whose form seemed to defy physics, and X News ran a story on it. The same day, Swifties went after Knicks guard Tyler Kolek for calling Taylor Swift the team's \"fakest\" celebrity fan, and the Knicks put out a statement defending her.",
-      "kind": "phrase",
+      "title": "After the midterm rout, Trump makes Stephen Miller chief of staff",
+      "summary": "Three days after Republicans lost both chambers of Congress, Trump announced on Truth Social Friday that Stephen Miller, the architect of his mass-deportation campaign, would replace Susie Wiles as White House chief of staff on Monday; Wiles had resigned Thursday night and posted that Friday was her last day. Trump War Room posted this black-and-white photo of Miller with \"It's Miller time,\" Miller's \"honored beyond words\" post drew 160K likes and Pete Hegseth's \"Patriots in control.\" 133K, while Hakeem Jeffries called Miller's presence in government a \"malignant tumor\" and even Republicans like Thom Tillis and Don Bacon called it a bad choice. Miller's Wikipedia page jumped from about 10K daily views to 220K and then 374K. Earlier that day the feed had been dunking on the Cybertruck, which Elon Musk said overnight would be discontinued (\"a useful way to learn who the dumbest, most gullible people were in your parents' neighborhood,\" 55K likes).",
+      "kind": "image",
       "tags": [
-        "newton",
-        "fourth-law-of-motion",
-        "copypasta"
+        "stephen-miller",
+        "susie-wiles",
+        "chief-of-staff",
+        "midterms"
       ],
-      "author": "@sbxloch",
-      "sourceUrl": "https://x.com/sbxloch/status/2118821023151706276",
+      "author": "@TrumpWarRoom",
+      "sourceUrl": "https://x.com/TrumpWarRoom/status/2118780908245250113",
       "metrics": {
-        "likes": "219.6K",
-        "replies": "266"
+        "likes": "21.1K",
+        "replies": "1.2K"
       },
-      "references": [],
+      "references": [
+        {
+          "title": "‘Everything is going to get worse’: America erupts over Trump’s pick of Stephen Miller to lead White House",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/stephen-miller-trump-chief-of-staff-reaction-b3080823.html"
+        }
+      ],
       "pulse": {
-        "score": 7.2,
-        "reach": 7,
-        "dominance": 6,
-        "memeability": 9,
-        "category": "internet-culture",
-        "crossover": false
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-10T05:01:10.162Z",
-      "post": {
-        "name": "Mir",
-        "handle": "@sbxloch",
-        "verified": false,
-        "avatar": "/media/avatars/sbxloch.webp",
-        "text": "If newton saw the way I be moving these days he'd add a fourth law of motion",
-        "postedAt": "2026-11-06T21:41:12.000Z"
+        "score": 7.1,
+        "reach": 9,
+        "dominance": 8,
+        "memeability": 6,
+        "category": "politics",
+        "crossover": true
       },
       "image": {
-        "src": "/media/2026-11-06/2026-11-06-x-if-newton-saw-the-way-i-be-moving-he-d-add-a-fou.webp",
-        "width": 1139,
+        "src": "/media/2026-11-06/2026-11-06-x-after-the-midterm-rout-trump-makes-stephen-mille.webp",
+        "width": 1450,
         "height": 1600,
-        "from": "https://upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-1689.jpg",
+        "from": "https://pbs.twimg.com/media/HWdr-SUXAAIp8Wc.jpg?name=large",
         "crop": {
-          "x": 0.1,
+          "x": 0.23,
           "y": 0,
-          "w": 0.9,
-          "h": 0.85
+          "w": 0.45,
+          "h": 0.56
+        },
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.78,
+          "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "Trump War Room",
+        "handle": "@TrumpWarRoom",
+        "verified": true,
+        "avatar": "/media/avatars/trumpwarroom.webp",
+        "text": "It’s Miller time.",
+        "postedAt": "2026-11-06T19:01:48.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T05:15:35.349Z"
     }
   ]
 }

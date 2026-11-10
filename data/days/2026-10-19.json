@@ -2,54 +2,55 @@
   "date": "2026-10-19",
   "items": [
     {
-      "id": "2026-10-19-x-office-space-s-richard-riehle-dies-at-78",
+      "id": "2026-10-19-x-jalen-hurts-blood-clots-reach-both-lungs-ending-",
       "platform": "x",
       "rank": 1,
-      "title": "Office Space's Richard Riehle dies at 78",
-      "summary": "Richard Riehle, the character actor who played Tom Smykowski in Office Space, died at 78 the previous week, TMZ reported on Oct 19 and his reps confirmed. The tributes came in his character's own lines: \"I have people skills!,\" a pile of jokes about not wanting to jump to conclusions, and clips of his \"I deal with the goddamn customers\" scene. TMZ's post got 28K likes, \"Office Space\" and \"Richard Riehle\" both trended on X, and his Wikipedia page drew 98K views that day. The same day, Dylan Sprouse's \"dad coded hollering\" video of Barbara Palvin's runway walk was spreading, along with a Chinese dissident's claim that Kim Jong Un had died, which was false.",
+      "title": "Jalen Hurts' blood clots reach both lungs, ending his season",
+      "summary": "Monday morning the Eagles and agent Nicole Lynn said the \"superficial\" calf clot Jalen Hurts had been cleared to play with in London on Oct. 11 was now a deep vein thrombosis with clots in both lungs; he would go on blood thinners and is expected to make a full recovery. Adam Schefter's \"Jalen Hurts will be out for the season\" got 97K likes and Karl-Anthony Towns' \"Prayers up\" 39K, and sympathy turned to anger at the team's doctors after Tom Pelissero framed reports that Hurts had gone about 36 hours without sleep before kickoff as a sign of commitment (\"Tom, I respect you as a journalist, but this tweet is garbage\"); Lynn later clarified that he had been able to sleep after leaving the hospital. The next day the NFL Players Association called for a full investigation.",
       "kind": "image",
       "tags": [
-        "richard-riehle",
-        "office-space",
-        "obituary"
+        "jalen-hurts",
+        "eagles",
+        "blood-clots",
+        "nfl"
       ],
-      "author": "@TMZ",
-      "sourceUrl": "https://x.com/TMZ/status/2112231064663887996",
+      "author": "@AdamSchefter",
+      "sourceUrl": "https://x.com/AdamSchefter/status/2112186516684357831",
       "metrics": {
-        "likes": "28.3K",
-        "replies": "879"
+        "likes": "96.6K",
+        "replies": "5.1K"
       },
       "references": [],
       "pulse": {
-        "score": 6.2,
-        "reach": 7,
-        "dominance": 6,
-        "memeability": 5,
-        "category": "tv-film",
+        "score": 5.8,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 3,
+        "category": "sports",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-10T04:47:17.263Z",
-      "post": {
-        "name": "TMZ",
-        "handle": "@TMZ",
-        "verified": true,
-        "avatar": "/media/avatars/tmz.webp",
-        "text": "🕊️ \"Office Space\" star Richard Riehle has died at 78. tmz.com/2026/10/19/ric…",
-        "postedAt": "2026-10-19T17:15:03.000Z"
-      },
       "image": {
-        "src": "/media/2026-10-19/2026-10-19-x-office-space-s-richard-riehle-dies-at-78.webp",
-        "width": 728,
-        "height": 546,
-        "from": "https://pbs.twimg.com/media/HVAm9eOWQAAMpCo.jpg?name=large",
+        "src": "/media/2026-10-19/2026-10-19-x-jalen-hurts-blood-clots-reach-both-lungs-ending-.webp",
+        "width": 1600,
+        "height": 1067,
+        "from": "https://www.inquirer.com/resizer/v2/SJ2GPWAWBNB4NOGQNUHWENMO7Q.jpg?auth=cb5e4ba1d12bfdd109914bffb404ccd1240bbc7d1b10980c1a070b786e916f41&width=2000",
         "crop": {
-          "x": 0.315,
-          "y": 0,
-          "w": 0.563,
-          "h": 1
+          "x": 0.33,
+          "y": 0.06,
+          "w": 0.38,
+          "h": 0.88
         }
-      }
+      },
+      "post": {
+        "name": "Adam Schefter",
+        "handle": "@AdamSchefter",
+        "verified": true,
+        "avatar": "/media/avatars/adamschefter.webp",
+        "text": "Jalen Hurts will be out for the season after doctors discovered multiple blood clots in his lungs.",
+        "postedAt": "2026-10-19T14:18:02.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T07:55:42.274Z"
     }
   ]
 }

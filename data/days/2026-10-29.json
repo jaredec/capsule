@@ -38,16 +38,6 @@
         "category": "tv-film",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-10T04:46:37.521Z",
-      "post": {
-        "name": "Patrick Stewart",
-        "handle": "@SirPatStew",
-        "verified": true,
-        "avatar": "/media/avatars/sirpatstew.webp",
-        "text": "In lieu of flowers, memorial contributions may be made to:\nJohns Hopkins Alzheimer’s Disease Research Center Fund   \nalzresearch.org/giving/\nAlzheimer’s Foundation of America Caregiver Resources    \nalzfdn.org/donate/\n\nPhoto Credit: Tommy Garcia",
-        "postedAt": "2026-10-29T19:39:23.000Z"
-      },
       "image": {
         "src": "/media/2026-10-29/2026-10-29-x-patrick-stewart-dies-at-86.webp",
         "width": 1280,
@@ -59,7 +49,17 @@
           "w": 0.938,
           "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "Patrick Stewart",
+        "handle": "@SirPatStew",
+        "verified": true,
+        "avatar": "/media/avatars/sirpatstew.webp",
+        "text": "In lieu of flowers, memorial contributions may be made to:\nJohns Hopkins Alzheimer’s Disease Research Center Fund   \nalzresearch.org/giving/\nAlzheimer’s Foundation of America Caregiver Resources    \nalzfdn.org/donate/\n\nPhoto Credit: Tommy Garcia",
+        "postedAt": "2026-10-29T19:39:23.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:46:37.521Z"
     }
   ]
 }

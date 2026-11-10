@@ -39,7 +39,7 @@
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-10T04:46:33.834Z",
+      "collectedAt": "2026-11-10T05:59:54.011Z",
       "post": {
         "name": "Milwaukee Brewers",
         "handle": "@Brewers",
@@ -50,14 +50,14 @@
       },
       "image": {
         "src": "/media/2026-10-28/2026-10-28-x-the-brewers-win-their-first-world-series-and-ded.webp",
-        "width": 1280,
-        "height": 1600,
-        "from": "https://pbs.twimg.com/media/HVxGMNlXEAERYkO.jpg?name=large",
+        "width": 1600,
+        "height": 900,
+        "from": "https://img.mlbstatic.com/mlb-images/image/upload/t_w2208/mlb/b3wn4pwaw1srwczmcpxs.jpg",
         "crop": {
-          "x": 0.062,
+          "x": 0.3,
           "y": 0,
-          "w": 0.938,
-          "h": 1
+          "w": 0.46,
+          "h": 0.82
         }
       }
     }

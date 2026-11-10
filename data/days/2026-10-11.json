@@ -2,63 +2,54 @@
   "date": "2026-10-11",
   "items": [
     {
-      "id": "2026-10-11-x-kelly-clarkson-s-pretty-woman-feud-with-a-brookl",
+      "id": "2026-10-11-x-a-man-sits-down-in-front-of-a-tiger-at-yorkshire",
       "platform": "x",
       "rank": 1,
-      "title": "Kelly Clarkson's \"Pretty Woman\" feud with a Brooklyn toy shop",
-      "summary": "Kelly Clarkson told her 8.8 million X followers that the Brooklyn shop Art of Play treated her like Julia Roberts in Pretty Woman, saying a clerk looked at her as if she couldn't afford anything. The store replied that she had asked to buy \"Molly,\" a one-of-a-kind singing and dancing bird automaton attached to the wall and not for sale. Clarkson fired back with a screenshot of Molly's $15,000 price tag: \"Cool, cool. Sure, it wasn't for sale\" (168K). The back-and-forth split the internet between the star and the small business, and Molly became a Halloween-costume joke.",
-      "kind": "image",
+      "title": "A man sits down in front of a tiger at Yorkshire Wildlife Park",
+      "summary": "A man climbed two fences into the Land of the Tigers enclosure at Yorkshire Wildlife Park near Doncaster and sat down in the grass in front of Altai, a five-year-old Amur tiger, which killed him. Phone footage of him sitting face to face with the tiger spread everywhere even as police asked people not to share it, and on Sunday the park said \"many, many people\" had contacted it and that Altai \"is safe and well and will not be euthanised\" (Pop Base's post of the news got 198K likes). X split between people relieved the tiger was spared and people calling the reaction callous toward the victim, later named as William Chapman, 24, whose family said he had a significant mental illness. Kelly Clarkson's follow-up in her Art of Play feud (172K) was the day's other big post.",
+      "kind": "moment",
       "tags": [
-        "celebrity",
-        "shopping",
-        "feud"
+        "tiger",
+        "yorkshire-wildlife-park",
+        "uk"
       ],
-      "author": "@kellyclarkson",
-      "sourceUrl": "https://x.com/kellyclarkson/status/2109433351019094451",
+      "author": "@PopBase",
+      "sourceUrl": "https://x.com/PopBase/status/2109309551342239956",
       "metrics": {
-        "likes": "168.3K",
-        "replies": "10.2K"
+        "likes": "198K",
+        "replies": "957"
       },
-      "references": [
-        {
-          "title": "Kelly Clarkson called out a store over how she was treated. Now it's responded.",
-          "url": "https://www.mamamia.com.au/kelly-clarkson-store-drama/"
-        },
-        {
-          "title": "Brooklyn store Art of Play reacts to Kelly Clarkson's 'Pretty Woman' claim",
-          "url": "https://www.geo.tv/latest/686099-brooklyn-store-art-of-play-responds-to-kelly-clarksons-pretty-woman-claim"
-        }
-      ],
+      "references": [],
       "pulse": {
-        "score": 7.2,
-        "reach": 8,
-        "dominance": 7,
-        "memeability": 6,
-        "category": "celebrity",
-        "crossover": false
+        "score": 7.4,
+        "reach": 9,
+        "dominance": 8,
+        "memeability": 4,
+        "category": "animals",
+        "crossover": true
       },
       "image": {
-        "src": "/media/2026-10-11/2026-10-11-x-kelly-clarkson-s-pretty-woman-feud-with-a-brookl.webp",
-        "width": 900,
-        "height": 1600,
-        "from": "https://video.twimg.com/amplify_video/2109502372330209280/vid/avc1/1080x1920/3k34t1gT-_dYWSaY.mp4#t=11.5",
+        "src": "/media/2026-10-11/2026-10-11-x-a-man-sits-down-in-front-of-a-tiger-at-yorkshire.webp",
+        "width": 1078,
+        "height": 1148,
+        "from": "https://video.twimg.com/amplify_video/2108930014422904832/vid/avc1/1078x1148/XMFMTNalusN-ll_h.mp4?tag=29#t=16.5",
         "crop": {
-          "x": 0.15,
-          "y": 0.01,
-          "w": 0.733,
-          "h": 0.55
+          "x": 0.24,
+          "y": 0.18,
+          "w": 0.58,
+          "h": 0.43
         }
       },
       "post": {
-        "name": "Kelly Clarkson",
-        "handle": "@kellyclarkson",
+        "name": "Pop Base",
+        "handle": "@PopBase",
         "verified": true,
-        "avatar": "/media/avatars/kellyclarkson.webp",
-        "text": "Cool, cool. Sure, it wasn’t for sale. That’s the narrative Art of Play is gonna go with 👍 so the whole conversation we had when I asked you if it was for sale whilst pointing to the price tag hanging on the wall with the title Singing Bird didn’t happen as you elevator eyed me",
-        "postedAt": "2026-10-11T23:57:56.000Z"
+        "avatar": "/media/avatars/popbase.webp",
+        "text": "The tiger that attacked a man who entered its enclosure at Yorkshire Wildlife Park will not be euthanized, park officials confirm.\n\n(Via: @YorkshireWP)",
+        "postedAt": "2026-10-11T15:46:00.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T04:27:19.026Z"
+      "collectedAt": "2026-11-10T07:32:52.252Z"
     }
   ]
 }

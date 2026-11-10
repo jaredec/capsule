@@ -3,14 +3,9 @@
   "stories": [
     {
       "title": "Gayle King learns the Clancy holdout juror was Black",
-      "summary": "On CBS Mornings, Lindsay Clancy juror Paula Devlin told Gayle King that the lone holdout who voted to find Clancy guilty of murdering her children was the jury's only person of color, a Black man. King replied, \"Woah. I have to sit with that for just a second.\" Curtis Houck's clip got 67K likes and quotes of it another 160K, and Gayle King and Oprah trended alongside 9/11's 25th anniversary.",
+      "summary": "On CBS Mornings, Lindsay Clancy juror Paula Devlin told Gayle King that the lone holdout who voted to find Clancy guilty of murdering her children was the jury's only person of color, a Black man. King replied, \"Whoa. I have to sit with that for just a second.\" Curtis Houck's clip got 66K likes and 6.9K replies, and King trended on the 25th anniversary of 9/11.",
       "kind": "video",
-      "tags": [
-        "gayle-king",
-        "lindsay-clancy",
-        "juror",
-        "cbs-mornings"
-      ],
+      "tags": ["gayle-king", "lindsay-clancy", "juror", "cbs-mornings"],
       "category": "news",
       "crossover": true,
       "reach": 9,
@@ -19,12 +14,18 @@
       "platform": "x",
       "headlineIds": [],
       "sourceUrl": "https://x.com/CurtisHouck/status/2098380024369811488",
-      "frameAt": 4,
+      "frameAt": 8.5,
       "crop": {
-        "x": 0.36,
+        "x": 0.5,
+        "y": 0.08,
+        "w": 0.355,
+        "h": 0.66
+      },
+      "bounds": {
+        "x": 0,
         "y": 0,
-        "w": 0.421875,
-        "h": 1
+        "w": 0.855,
+        "h": 0.775
       }
     }
   ]

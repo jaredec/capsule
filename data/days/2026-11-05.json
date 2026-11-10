@@ -2,23 +2,23 @@
   "date": "2026-11-05",
   "items": [
     {
-      "id": "2026-11-05-x-stocks-have-their-worst-day-since-april-2025-nas",
+      "id": "2026-11-05-x-the-ai-trade-cracks-stocks-have-their-worst-day-",
       "platform": "x",
       "rank": 1,
-      "title": "Stocks have their worst day since April 2025; \"Nasdaqistan\" memes",
-      "summary": "An AI-led sell-off sent the Nasdaq down 5.5% into correction, the S&P 500 down 4.4% and the Dow down 1,833 points, the worst day for all three since the April 2025 tariff shock; Nvidia fell more than 9% and AMD about 17%. Bryan Johnson posted himself bathing in the glow of a red stock heatmap as red-light therapy, \"always improving my protocol\" (28K likes), Zero Hedge priced the wipeout at \"almost 3 Elons,\" and finance X filed dispatches from \"Nasdaqistan\" (\"JUST IN: explosions heard in the city center of Nasdaqistan\"). The same day in London, Russell Brand was found guilty of one count of rape and three of sexual assault.",
-      "kind": "image",
+      "title": "The AI trade cracks: stocks have their worst day since April 2025",
+      "summary": "Two days after Democrats swept Congress, fears of a crackdown on AI data centers sent the Nasdaq down 5.5% into a correction, the S&P 500 down 4.4% and the Dow down 1,833 points, the worst day for all three since the April 2025 tariff shock. Nvidia fell more than 9% and AMD 17%, and the Nasdaq 100's 6.4% drop was its worst since March 2020 (\"BREAKING\" from Unusual Whales, 14K likes). The timeline coped with jokes: Zero Hedge priced the wipeout at \"almost 3 Elons\" (6K), and Bryan Johnson posted himself bathing in the red glow of a stock heatmap, \"always improving my protocol\" (28K). The same day in London, Russell Brand was found guilty of one count of rape and three of sexual assault.",
+      "kind": "moment",
       "tags": [
         "stock-market-crash",
-        "nasdaqistan",
-        "bryan-johnson",
-        "nvidia"
+        "nasdaq",
+        "nvidia",
+        "ai-bubble"
       ],
-      "author": "@bryan_johnson",
-      "sourceUrl": "https://x.com/bryan_johnson/status/2118451740219457963",
+      "author": "@unusual_whales",
+      "sourceUrl": "https://x.com/unusual_whales/status/2118456823011242185",
       "metrics": {
-        "likes": "27.8K",
-        "replies": "395"
+        "likes": "14.4K",
+        "replies": "280"
       },
       "references": [],
       "pulse": {
@@ -30,25 +30,25 @@
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-10T05:01:09.312Z",
+      "collectedAt": "2026-11-10T05:42:21.974Z",
       "post": {
-        "name": "Bryan Johnson",
-        "handle": "@bryan_johnson",
+        "name": "unusual_whales",
+        "handle": "@unusual_whales",
         "verified": true,
-        "avatar": "/media/avatars/bryan_johnson.webp",
-        "text": "always improving my protocol",
-        "postedAt": "2026-11-05T21:13:48.000Z"
+        "avatar": "/media/avatars/unusual_whales.webp",
+        "text": "BREAKING: The Nasdaq 100 closed down 6.4%, its worst day since the COVID crash on March 16, 2020.",
+        "postedAt": "2026-11-05T21:34:00.000Z"
       },
       "image": {
-        "src": "/media/2026-11-05/2026-11-05-x-stocks-have-their-worst-day-since-april-2025-nas.webp",
-        "width": 1024,
-        "height": 674,
-        "from": "https://pbs.twimg.com/media/HWZAnPDXYAADrND.jpg?name=large",
+        "src": "/media/2026-11-05/2026-11-05-x-the-ai-trade-cracks-stocks-have-their-worst-day-.webp",
+        "width": 1600,
+        "height": 1067,
+        "from": "https://www.reuters.com/resizer/v2/5RRIGNPFVZJP3AX2RTIT6M6PQE.jpg?auth=2e21c15f254571c27fe74ebdf71a40fadf124cf698b2415daed29081b10b155e&width=1920&quality=90",
         "crop": {
-          "x": 0.37,
-          "y": 0,
-          "w": 0.5,
-          "h": 1
+          "x": 0.2,
+          "y": 0.06,
+          "w": 0.46,
+          "h": 0.52
         }
       }
     }

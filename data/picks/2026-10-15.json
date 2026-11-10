@@ -3,7 +3,7 @@
   "stories": [
     {
       "title": "Tesla's new Roadster does a kickflip over a Semi",
-      "summary": "At the Roadster unveiling at SpaceX's test site in McGregor, Texas, Tesla's new car drove up a curved ramp until it hung upside down, then used cold-gas thrusters to leap off flat ground and barrel-roll over a Model 3, Model Y, Cybertruck, Cybercab and Semi before landing on its wheels. Tesla's \"Do a kickflip!\" clip got 206K likes, and the reaction was immediate: \"we got flying cars before GTA 6\" (Rockstar had dropped the GTA 6 launch trailer the same day), Knight Rider turbo-boost comparisons, AI edits of Roadsters hopping over traffic and police checkpoints, and arguments over whether the footage was CGI.",
+      "summary": "At the Roadster unveiling at SpaceX's test site in McGregor, Texas, Tesla's new car, with no one inside, drove up a curved ramp until it hung upside down, then used SpaceX-built thrusters to jump and barrel-roll over a Model 3, Model Y, Cybertruck, Cybercab and Semi before landing on its wheels. Tesla's \"Do a kickflip!\" clip got 206K likes, and the joke of the night was \"we got flying cars before GTA 6,\" since Rockstar had released the GTA 6 launch trailer that morning. Even the White House posted it, over a Vice City-style picture of Trump and a flying car. Production is planned for 2028.",
       "kind": "video",
       "tags": ["tesla", "roadster", "flying-car", "elon-musk"],
       "category": "tech",
@@ -14,7 +14,8 @@
       "platform": "x",
       "headlineIds": [15, 23, 27, 29, 30],
       "sourceUrl": "https://x.com/Tesla/status/2110926164306931860",
-      "frameAt": 14
+      "frameAt": 28,
+      "crop": { "x": 0.22, "y": 0.05, "w": 0.42, "h": 0.9 }
     }
   ]
 }

@@ -17,8 +17,8 @@
       "author": "@BernieSanders",
       "sourceUrl": "https://x.com/BernieSanders/status/2101378046531977512",
       "metrics": {
-        "likes": "36.7K",
-        "replies": "6K"
+        "likes": "36.5K",
+        "replies": "5.9K"
       },
       "references": [],
       "pulse": {
@@ -29,18 +29,8 @@
         "category": "politics",
         "crossover": true
       },
-      "image": {
-        "src": "/media/2026-09-19/2026-09-19-x-cnn-ms-now-and-politico-are-turned-away-from-the.webp",
-        "width": 1600,
-        "height": 900,
-        "from": "https://video.twimg.com/amplify_video/2101378428964409344/vid/avc1/1920x1080/U2hpoHILc7E-IML0.mp4#t=18",
-        "crop": {
-          "x": 0.41,
-          "y": 0,
-          "w": 0.421875,
-          "h": 1
-        }
-      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T05:47:25.552Z",
       "post": {
         "name": "Bernie Sanders",
         "handle": "@BernieSanders",
@@ -49,8 +39,24 @@
         "text": "Trump has now banned CNN, MS NOW and POLITICO from entering the White House grounds. \n\nThat’s not all. He is threatening that more news organizations who criticize him, including the New York Times and Washington Post, will be next. \n\nWhy? Because when demagogues like Trump are",
         "postedAt": "2026-09-19T18:29:02.000Z"
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-14T04:52:56.224Z"
+      "image": {
+        "src": "/media/2026-09-19/2026-09-19-x-cnn-ms-now-and-politico-are-turned-away-from-the.webp",
+        "width": 1600,
+        "height": 900,
+        "from": "https://video.twimg.com/amplify_video/2101378428964409344/vid/avc1/1920x1080/U2hpoHILc7E-IML0.mp4#t=18",
+        "crop": {
+          "x": 0.42,
+          "y": 0.18,
+          "w": 0.47,
+          "h": 0.38
+        },
+        "bounds": {
+          "x": 0.335,
+          "y": 0.075,
+          "w": 0.63,
+          "h": 0.63
+        }
+      }
     }
   ]
 }

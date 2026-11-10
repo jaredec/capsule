@@ -13,7 +13,9 @@
       "memeability": 3,
       "platform": "x",
       "headlineIds": [9, 77],
-      "sourceUrl": "https://x.com/Brewers/status/2115643107601428888"
+      "sourceUrl": "https://x.com/Brewers/status/2115643107601428888",
+      "imageUrl": "https://img.mlbstatic.com/mlb-images/image/upload/t_w2208/mlb/b3wn4pwaw1srwczmcpxs.jpg",
+      "crop": { "x": 0.3, "y": 0, "w": 0.46, "h": 0.82 }
     },
     {
       "title": "Every Brewers reaction after the final out of the World Series",

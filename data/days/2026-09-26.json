@@ -2,11 +2,11 @@
   "date": "2026-09-26",
   "items": [
     {
-      "id": "2026-09-26-x-the-cornell-seven",
+      "id": "2026-09-26-x-x-erupts-over-the-cornell-seven-suit-s-claim-of-",
       "platform": "x",
       "rank": 1,
-      "title": "The Cornell Seven",
-      "summary": "The Cornell Daily Sun's reporting on seven Chi Phi fraternity members accused in a civil suit of drugging a student with ketamine and gang-raping her for seven hours in October 2024 took over the timeline, and so did the fact that the university's punishment was essays and that none were criminally charged. \"Why is 'punishment' for the Cornell r@pısts being handled by the university and not law enforcement?\" got 255K likes, and a post pointing out that the men in the group chat where it was advertised never reported it got 226K. The next day prosecutors reopened the investigation.",
+      "title": "X erupts over the Cornell Seven suit's claim of essays as punishment",
+      "summary": "The day's wave was set off by one detail in a former student's lawsuit: on Sep 25 People headlined that only two of the seven Chi Phi members she accuses were expelled \"while others had to write essays\", and on Sep 26 it took over X. The civil suit, filed Sep 14 and first reported by the Cornell Daily Sun on Sep 18, alleges the seven pressured her into taking ketamine and sexually assaulted her for hours at the fraternity house in October 2024, and that no one was arrested; the men have denied wrongdoing. \"Why is 'punishment' for the Cornell r@pısts being handled by the university and not law enforcement?\" got 254K likes, and \"I am genuinely requesting Cornell publish the essays these men were required to write as an apology... I have a red pen\" got 114K. On Sep 28 the district attorney reopened the criminal case, and Cornell said no one had been given essays as their only consequence.",
       "kind": "moment",
       "tags": [
         "cornell",
@@ -17,7 +17,7 @@
       "author": "@omgsidewalks",
       "sourceUrl": "https://x.com/omgsidewalks/status/2103853405366018479",
       "metrics": {
-        "likes": "254.8K",
+        "likes": "253.8K",
         "replies": "568"
       },
       "references": [],
@@ -29,18 +29,8 @@
         "category": "news",
         "crossover": true
       },
-      "image": {
-        "src": "/media/2026-09-26/2026-09-26-x-the-cornell-seven.webp",
-        "width": 1200,
-        "height": 1600,
-        "from": "https://x.com/omgsidewalks/status/2103853405366018479",
-        "crop": {
-          "x": 0,
-          "y": 0,
-          "w": 1,
-          "h": 1
-        }
-      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T07:46:28.900Z",
       "post": {
         "name": "‏ً",
         "handle": "@omgsidewalks",
@@ -49,8 +39,18 @@
         "text": "Maybe I'm missing something. But why is \"punishment\" for the Cornell r@pısts being handled by the university and not law enforcement?????",
         "postedAt": "2026-09-26T14:25:14.000Z"
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-14T06:07:09.484Z"
+      "image": {
+        "src": "/media/2026-09-26/2026-09-26-x-x-erupts-over-the-cornell-seven-suit-s-claim-of-.webp",
+        "width": 1600,
+        "height": 1018,
+        "from": "https://pyxis.nymag.com/v1/imgs/952/392/05fff6e1d8ee59b5bca2d93c58bc42084e-cornell-frat-house.jpg",
+        "crop": {
+          "x": 0.06,
+          "y": 0,
+          "w": 0.94,
+          "h": 0.92
+        }
+      }
     }
   ]
 }

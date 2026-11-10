@@ -2,18 +2,20 @@
   "date": "2026-10-26",
   "stories": [
     {
-      "title": "Eric Bauza, the voice of Bugs Bunny and Daffy Duck, dies at 46",
-      "summary": "Eric Bauza, the modern voice of Bugs Bunny, Daffy Duck and much of the Looney Tunes cast, died suddenly at home at 46; the medical examiner listed hypertensive cardiovascular disease. His family announced it late Sunday, and by Monday DiscussingFilm's post had 173K likes and his Wikipedia page drew 511K views. Warner Bros. TV said he \"followed in the footsteps of giants like Mel Blanc,\" and John Cena, his Coyote vs. Acme co-star, thanked him \"for giving our favorites their 'voice.'\" Bauza had publicly campaigned to get that film released after Warner shelved it.",
-      "kind": "image",
-      "tags": ["eric-bauza", "looney-tunes", "bugs-bunny", "daffy-duck", "voice-actor", "obituary"],
-      "category": "tv-film",
+      "title": "Harry Kane wins the Ballon d'Or: \"Work hard in silence\"",
+      "summary": "At the London Palladium, Ronaldo Nazário handed Harry Kane the Ballon d'Or, the first for an Englishman since Michael Owen in 2001, after a season of 73 goals in 65 games; Kylian Mbappé was second and Lamine Yamal third. \"Wow, I'm almost speechless,\" Kane said, then posted \"Work hard in silence. Let success be your noise. 🏆,\" which got 1.3M likes and was widely read as a jab at Yamal (Kane later said it wasn't aimed at anyone). Guti called it a coincidence that the ceremony moved to London and a Londoner won, Yamal's uncle posted \"Very sad,\" the winners had leaked on the official site hours before the show, and Harry Kane and #BallonDor were the top two US trends.",
+      "kind": "moment",
+      "tags": ["harry-kane", "ballon-dor", "lamine-yamal", "mbappe", "soccer"],
+      "category": "sports",
       "crossover": true,
-      "reach": 8,
-      "dominance": 7,
-      "memeability": 4,
+      "reach": 9,
+      "dominance": 8,
+      "memeability": 6,
       "platform": "x",
-      "headlineIds": [],
-      "sourceUrl": "https://x.com/DiscussingFilm/status/2114561950071853408"
+      "headlineIds": [49, 52, 60],
+      "sourceUrl": "https://x.com/HKane/status/2114858516406051189",
+      "imageUrl": "https://img-4.linternaute.com/ZFsm3yJbqpXhGP3JVMUCxD_aqmY=/1600x900/smart/209e9b368df747b98c4814ede8f5aab4/ccmcms-linternaute/95380006.jpg",
+      "crop": { "x": 0.42, "y": 0.13, "w": 0.38, "h": 0.72 }
     }
   ]
 }

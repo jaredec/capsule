@@ -2,20 +2,20 @@
   "date": "2026-10-17",
   "stories": [
     {
-      "title": "\"This is Tommy. Tommy had a question about my allegiances.\"",
-      "summary": "At a Saturday town hall in Caro, Michigan, a young man who gave his name as Tommy demanded that Democratic Senate candidate Abdul El-Sayed disavow the Muslim Brotherhood. El-Sayed said \"Sure, yeah, absolutely,\" asked why Tommy assumed he wouldn't, compared it to the doubts once raised about JFK's Catholicism, then asked Tommy, a Christian, whether he would disavow writing religious doctrine into law. Tommy said no, and El-Sayed told him it was he who needed to understand the Constitution. El-Sayed's post of the clip that evening got 195K likes, the Guardian counted more than 50 million views across platforms, screenshots of Tommy's stare became reaction memes (BuzzFeed called him \"the funniest meme of the 2026 midterms\"), and by Monday the Handbasket and the Guardian had identified him from congressional staff records as a former aide to Sen. Josh Hawley.",
+      "title": "Limoges' town hall spire collapses as France's riots peak",
+      "summary": "France's Saturday cost-of-living day of action, swelled by the high-school blockade movement that began Sept. 17 at a lycée in Créteil and by former Yellow Vests, turned violent: rioters stormed Marseille's city hall and burned Lyon's tourist office, and around 6 p.m. masked men broke into Limoges' 143-year-old town hall and set it alight. At about 8:30 p.m. local time its 43-meter campanile came down in flames, and Globe Eye News' clip of the collapse got 42K likes, with replies like \"We really witnessing a second French Revolution bruh.\" The Interior Ministry counted 550,000 marchers (organizers said 800,000) and 2,397 arrests, and the BBC later called the ruins the defining image of the protests; fact-checkers flagged older clips, such as cars burning after PSG's Champions League win in May, being passed off as riot footage.",
       "kind": "video",
-      "tags": ["abdul-el-sayed", "tommy", "town-hall"],
-      "category": "politics",
+      "tags": ["limoges", "france-protests", "town-hall-fire", "riots"],
+      "category": "news",
       "crossover": true,
-      "reach": 8,
+      "reach": 9,
       "dominance": 8,
-      "memeability": 8,
+      "memeability": 4,
       "platform": "x",
-      "headlineIds": [],
-      "sourceUrl": "https://x.com/AbdulElSayed/status/2111627277578731885",
-      "frameAt": 204,
-      "crop": { "x": 0, "y": 0.15, "w": 0.8, "h": 0.6 }
+      "headlineIds": [44],
+      "sourceUrl": "https://x.com/GlobeEyeNews/status/2111551829079408774",
+      "frameAt": 1.5,
+      "crop": { "x": 0.22, "y": 0.29, "w": 0.56, "h": 0.42 }
     }
   ]
 }

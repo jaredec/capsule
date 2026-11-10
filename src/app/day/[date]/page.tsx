@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { DayInfo, DayMedia, PlayBadge } from "@/components/DayDetail";
+import { DayInfo, DayMedia } from "@/components/DayDetail";
 import { PlatformLogo } from "@/components/PlatformLogo";
 import { MONTH_NAMES, formatLongDate, formatShortDate, isValidIsoDate, monthPath, parseIsoDate } from "@/lib/dates";
 import { getDatesWithItems, getDay } from "@/lib/data";
@@ -81,17 +81,6 @@ export default async function DayRoute({ params }: PageProps<"/day/[date]">) {
       <article className="mt-5 flex w-full max-w-[980px] flex-col overflow-hidden rounded-[22px] bg-white shadow-[0_0_0_1px_rgb(0_0_0/0.04),0_16px_48px_-24px_rgb(0_0_0/0.3)] md:mt-6 md:h-[min(620px,calc(100dvh-120px))] md:flex-row">
         <div className="relative aspect-[4/3] w-full shrink-0 bg-zinc-100 md:aspect-auto md:h-full md:w-[46%]">
           <DayMedia item={item} className="absolute inset-0" />
-          {item.kind === "video" && item.sourceUrl && (
-            <a
-              href={item.sourceUrl}
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Watch the video"
-              className="absolute inset-0 grid place-items-center transition-transform duration-200 hover:scale-105"
-            >
-              <PlayBadge />
-            </a>
-          )}
         </div>
         <div className="min-h-0 flex-1 px-5 pt-5 pb-6 md:overflow-y-auto md:px-8 md:pt-7 md:pb-7">
           <DayInfo item={item} date={date} />

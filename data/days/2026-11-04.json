@@ -30,7 +30,7 @@
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-10T05:01:07.845Z",
+      "collectedAt": "2026-11-10T06:00:13.312Z",
       "post": {
         "name": "ˑ 𓈒 𐔌 𝓡𝐈𝐕𝐄𝐑 is Benito the reindeer ͡꒱ ۫𓈒",
         "handle": "@BYRNEGRACES",
@@ -41,14 +41,20 @@
       },
       "image": {
         "src": "/media/2026-11-04/2026-11-04-x-ben-affleck-s-i-voted-smoking-photo-updates-the-.webp",
-        "width": 1600,
-        "height": 1069,
-        "from": "https://x.com/BYRNEGRACES/status/2118046162838053124#photos",
+        "width": 1323,
+        "height": 1600,
+        "from": "https://pbs.twimg.com/media/HWTPwS8WkAEXHnC.jpg?name=large",
         "crop": {
-          "x": 0.499,
-          "y": 0,
-          "w": 0.501,
-          "h": 1
+          "x": 0,
+          "y": 0.05,
+          "w": 1,
+          "h": 0.61
+        },
+        "bounds": {
+          "x": 0,
+          "y": 0.05,
+          "w": 1,
+          "h": 0.95
         }
       }
     }

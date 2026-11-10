@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Ed Sheeran's openers and band quit his tour",
-      "summary": "A day after Macklemore said Ed Sheeran's team pulled him from the Loop tour over his support for Palestine, all three remaining opening acts and Sheeran's touring band said they were leaving the tour in solidarity. FINNEAS withdrew too. Pop Base's post got 439K likes, and posts about Sheeran topped 5 million likes combined that day.",
+      "summary": "A day after Macklemore was dropped from Ed Sheeran's Loop tour over his support for Palestine, Sheeran said the decision was final. Within hours Aaron Rowe, Lukas Graham and FINNEAS quit the tour in solidarity, along with Beoga, the Irish band that plays with Sheeran on the tour. Pop Base's post got 437K likes.",
       "kind": "image",
       "tags": [
         "ed-sheeran",
@@ -17,8 +17,8 @@
       "author": "@PopBase",
       "sourceUrl": "https://x.com/PopBase/status/2099960014576218350",
       "metrics": {
-        "likes": "438.7K",
-        "replies": "2.8K"
+        "likes": "436.7K",
+        "replies": "2.7K"
       },
       "references": [],
       "pulse": {
@@ -31,14 +31,14 @@
       },
       "image": {
         "src": "/media/2026-09-15/2026-09-15-x-ed-sheeran-s-openers-and-band-quit-his-tour.webp",
-        "width": 857,
-        "height": 1200,
-        "from": "https://pbs.twimg.com/media/HSSOf0nXMAArAXS.jpg",
+        "width": 1600,
+        "height": 1066,
+        "from": "https://california-times-brightspot.s3.amazonaws.com/c4/7a/5a6b4d6142e3a92eff944e023599/2251930893.jpg",
         "crop": {
-          "x": 0,
-          "y": 0.024,
-          "w": 1,
-          "h": 0.952
+          "x": 0.36,
+          "y": 0.12,
+          "w": 0.44,
+          "h": 0.78
         }
       },
       "post": {
@@ -50,7 +50,7 @@
         "postedAt": "2026-09-15T20:34:17.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:33:18.460Z"
+      "collectedAt": "2026-11-10T05:47:24.548Z"
     }
   ]
 }

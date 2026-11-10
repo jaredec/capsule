@@ -2,54 +2,55 @@
   "date": "2026-09-16",
   "items": [
     {
-      "id": "2026-09-16-x-barack-obama-says-goodbye-to-his-dog-sunny",
+      "id": "2026-09-16-x-nbc4-s-own-live-feed-captured-its-news-helicopte",
       "platform": "x",
       "rank": 1,
-      "title": "Barack Obama says goodbye to his dog Sunny",
-      "summary": "Barack Obama announced that Sunny, the dog the family got at the start of his second term, had died: \"Yesterday, we lost a cherished member of our family.\" The post got 329K likes.",
-      "kind": "image",
+      "title": "NBC4's own live feed captured its news helicopter's final moments",
+      "summary": "NewsChopper4, flown for NBC4 Los Angeles and Telemundo 52, went down in Chatsworth just before 7 p.m. PT on Sep 15 while broadcasting live over a fatal Metro bus collision; its feed caught a cockpit horn, the engine winding down and aerial reporter Eliana Moreno asking \"You can't pull up?\" before it cut out. BNO News posted the live shot at 7:12 p.m. (73K likes), and anchor Colleen Williams told viewers on air that the station had \"lost valued friends and colleagues.\" On Sep 16 the station opened its 4 a.m. newscast with a tribute to Moreno, 38, and pilot George Marciniw, 70, the coroner identified the man killed on the ground as Edy Gutierrez Mejia, 29, and the NTSB called the live recording \"probably the most important evidence\" in its investigation.",
+      "kind": "video",
       "tags": [
-        "barack-obama",
-        "sunny",
-        "obama-family"
+        "nbc4",
+        "knbc",
+        "helicopter-crash",
+        "los-angeles"
       ],
-      "author": "@BarackObama",
-      "sourceUrl": "https://x.com/BarackObama/status/2100193157522620711",
+      "author": "@BNONews",
+      "sourceUrl": "https://x.com/BNONews/status/2100045119739039821",
       "metrics": {
-        "likes": "329.4K",
-        "replies": "12.4K"
+        "likes": "72.7K",
+        "replies": "856"
       },
       "references": [],
       "pulse": {
-        "score": 6.4,
-        "reach": 8,
-        "dominance": 7,
-        "memeability": 3,
-        "category": "celebrity",
+        "score": 4.6,
+        "reach": 7,
+        "dominance": 6,
+        "memeability": 1,
+        "category": "news",
         "crossover": true
       },
-      "image": {
-        "src": "/media/2026-09-16/2026-09-16-x-barack-obama-says-goodbye-to-his-dog-sunny.webp",
-        "width": 888,
-        "height": 1200,
-        "from": "https://pbs.twimg.com/media/HSVgTGdX0AAsu5K.jpg",
-        "crop": {
-          "x": 0,
-          "y": 0.006,
-          "w": 1,
-          "h": 0.987
-        }
-      },
-      "post": {
-        "name": "Barack Obama",
-        "handle": "@BarackObama",
-        "verified": true,
-        "avatar": "/media/avatars/barackobama.webp",
-        "text": "Yesterday, we lost a cherished member of our family.\n\nWe got Sunny at the start of our second term in the White House, and all of us – including our first dog, Bo – immediately fell in love. We also had trouble keeping up with her, for Sunny was a force of nature. Athletic and",
-        "postedAt": "2026-09-16T12:00:43.000Z"
-      },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:52:50.931Z"
+      "collectedAt": "2026-11-10T08:22:21.094Z",
+      "post": {
+        "name": "BNO News",
+        "handle": "@BNONews",
+        "verified": true,
+        "avatar": "/media/avatars/bnonews.webp",
+        "text": "BREAKING: TV news helicopter crashes during live shot of bus crash in Los Angeles.\n\nThe helicopter belongs to NBC Los Angeles (KNBC-TV). No word yet on casualties.",
+        "postedAt": "2026-09-16T02:12:28.000Z"
+      },
+      "image": {
+        "src": "/media/2026-09-16/2026-09-16-x-nbc4-s-own-live-feed-captured-its-news-helicopte.webp",
+        "width": 1280,
+        "height": 720,
+        "from": "https://video.twimg.com/ext_tw_video/2100044831808516097/pu/vid/avc1/1280x720/_4YHfRXz8zcVWku9.mp4?tag=12#t=0.5",
+        "crop": {
+          "x": 0.26,
+          "y": 0.12,
+          "w": 0.5,
+          "h": 0.78
+        }
+      }
     }
   ]
 }

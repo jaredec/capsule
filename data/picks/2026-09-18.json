@@ -2,22 +2,20 @@
   "date": "2026-09-18",
   "stories": [
     {
-      "title": "Trump announces a Greenland deal with Denmark",
-      "summary": "Donald Trump announced an agreement with Denmark and Greenland that he said gives the United States \"permanent control over security, and all other needs, in Greenland.\" His post got 495K likes and 36.8K replies, and Pete Hegseth said the military would begin building a large presence there.",
+      "title": "Trump announces a Greenland deal and X digs up the 1951 one",
+      "summary": "Trump announced an agreement with Denmark and Greenland that he said gives the United States \"permanent control over security, and all other needs, in Greenland\" (492K likes). X's answer was the Defense of Greenland Agreement, which has let the US build and run bases there since 1951: \"It's like 1951 but in 2026\" (20K), and \"This is more or less the same deal that has been in place in Greenland for eight decades\" (Anne Applebaum, 6.7K). Denmark and Greenland said the deal keeps Danish sovereignty and Greenlanders' right to self-determination. Hours earlier Katie Miller had posted Greenland covered in the Stars and Stripes, \"ITS HAPPENING\" (12K), which drew replies calling it \"shameless propaganda.\" By the next morning the jokes had moved on to Trump getting France to sell America the Louisiana Territory (13K).",
       "kind": "moment",
-      "tags": [
-        "greenland",
-        "trump",
-        "denmark"
-      ],
+      "tags": ["greenland", "trump", "denmark"],
       "category": "politics",
       "crossover": true,
       "reach": 9,
-      "dominance": 9,
-      "memeability": 6,
+      "dominance": 8,
+      "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/realDonaldTrump/status/2101101979808493780"
+      "sourceUrl": "https://x.com/realDonaldTrump/status/2101101979808493780",
+      "imageUrl": "https://pbs.twimg.com/media/HSh9-TgXUAAsZoX.jpg?name=orig",
+      "crop": { "x": 0.14, "y": 0.06, "w": 0.74, "h": 0.5 }
     }
   ]
 }

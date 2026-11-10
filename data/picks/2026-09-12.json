@@ -3,7 +3,7 @@
   "stories": [
     {
       "title": "Sydney Sweeney \"knows ball\" in Novig's near-nude ad",
-      "summary": "Sports prediction app Novig posted its \"Just Sports\" ad with Sydney Sweeney posing nearly nude with footballs, a basketball and a pool table, captioned \"Confirmed: Sydney Sweeney knows ball.\" By her birthday on Sep 12 it was on a Times Square billboard and women in sports media were criticizing it. The top quote of the billboard photo got 465K likes.",
+      "summary": "Sports prediction app Novig's \"Just Sports\" ad had Sydney Sweeney posing nearly nude with footballs, a basketball and a pool table, captioned \"Confirmed: Sydney Sweeney knows ball.\" The post got 101K likes and the ad passed 22 million views in two days. By her 29th birthday on Sep 12 it was a Times Square billboard (a photo of it got 64K likes), and female athletes had started a trend of \"this is what a woman in sport looks like\" videos of themselves training. That weekend Olympic swimmer Ariarne Titmus called it \"a kick in the face to every woman who has dedicated her life to perfecting her craft\" and told Sweeney to \"do better.\"",
       "kind": "video",
       "tags": ["sydney-sweeney", "novig", "ads", "sports-betting"],
       "category": "celebrity",
@@ -12,7 +12,7 @@
       "dominance": 8,
       "memeability": 7,
       "platform": "x",
-      "headlineIds": [],
+      "headlineIds": [10],
       "sourceUrl": "https://x.com/Novig/status/2097672302976459025",
       "frameAt": 45,
       "crop": { "x": 0.25, "y": 0, "w": 0.45, "h": 1 }

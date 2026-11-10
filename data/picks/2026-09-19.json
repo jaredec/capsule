@@ -21,10 +21,16 @@
       "sourceUrl": "https://x.com/BernieSanders/status/2101378046531977512",
       "imageUrl": "https://video.twimg.com/amplify_video/2101378428964409344/vid/avc1/1920x1080/U2hpoHILc7E-IML0.mp4#t=18",
       "crop": {
-        "x": 0.41,
-        "y": 0,
-        "w": 0.421875,
-        "h": 1
+        "x": 0.42,
+        "y": 0.18,
+        "w": 0.47,
+        "h": 0.38
+      },
+      "bounds": {
+        "x": 0.335,
+        "y": 0.075,
+        "w": 0.63,
+        "h": 0.63
       }
     }
   ]

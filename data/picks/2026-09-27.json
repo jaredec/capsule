@@ -19,12 +19,12 @@
       "platform": "x",
       "headlineIds": [],
       "sourceUrl": "https://x.com/lidolmix/status/2104394813743530119",
-      "imageUrl": "https://pbs.twimg.com/media/HTRP7HYbAAEMYth.jpg",
+      "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/cmg/IZ5U4FZA3JCYLLJC6G6JDIGWDY.jpg",
       "crop": {
-        "x": 0.01,
-        "y": 0,
-        "w": 0.98,
-        "h": 1
+        "x": 0.18,
+        "y": 0.06,
+        "w": 0.7,
+        "h": 0.5
       }
     }
   ]

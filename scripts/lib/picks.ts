@@ -20,8 +20,8 @@ export function readPicks(date: string): PickFile | null {
 /** The editor's image choices for a day, by item id. */
 export function mediaOverrides(date: string): Map<string, MediaOverrides> {
   const out = new Map<string, MediaOverrides>();
-  for (const { title, imageUrl, frameAt, crop } of readPicks(date)?.stories ?? []) {
-    out.set(itemId(date, title), { imageUrl, frameAt, crop });
+  for (const { title, imageUrl, frameAt, crop, bounds } of readPicks(date)?.stories ?? []) {
+    out.set(itemId(date, title), { imageUrl, frameAt, crop, bounds });
   }
   return out;
 }

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowUpRight, BadgeCheck, Heart, MessageCircle, Play } from "lucide-react";
+import { ArrowUpRight, BadgeCheck, Heart, MessageCircle } from "lucide-react";
 import { mediaSrc } from "@/lib/basePath";
 import { archiveDateOf, formatLongDate, formatShortDate } from "@/lib/dates";
 import { embedTarget } from "@/lib/embeds";
@@ -34,19 +34,6 @@ export function DayMedia({ item, className = "" }: { item: Item; className?: str
     );
   }
   return <CroppedImage image={item.image} alt={item.title} sync className={className} />;
-}
-
-export function PlayBadge({ size = "lg" }: { size?: "sm" | "lg" }) {
-  return (
-    <span
-      aria-hidden
-      className={`grid place-items-center rounded-full bg-black/50 text-white backdrop-blur-md ${
-        size === "lg" ? "size-14" : "size-5"
-      }`}
-    >
-      <Play className={`fill-current ${size === "lg" ? "ml-[3px] size-5" : "ml-px size-2.5"}`} />
-    </span>
-  );
 }
 
 /** Everything about the day beside its picture: the headline, the post, what happened and where it was covered. */

@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "OpenAI claims a solution to Navier-Stokes",
-      "summary": "OpenAI said a group of AI agents, running a next-generation model more capable than GPT-6 Astra, had produced a solution to the Navier-Stokes Millennium Prize Problem in 88 hours. The announcement got 120K likes, and the pushback was nearly as big: a post accusing OpenAI of overclaiming got 68K.",
+      "summary": "OpenAI said about 10,000 AI agents, running a next-generation model more capable than GPT-6 Astra, had produced a solution to the Navier-Stokes Millennium Prize Problem in roughly 88 hours, formalized in the proof language Lean. The announcement got 120K likes and landed in the middle of a credit fight: NYU mathematician Tristan Buckmaster had said a day earlier that OpenAI raced ahead after learning of his and Anthropic researcher Levent Alpöge's progress on the problem. OpenAI denied using their work, and Sam Altman's defense got 11K likes.",
       "kind": "image",
       "tags": [
         "openai",
@@ -17,7 +17,7 @@
       "author": "@OpenAI",
       "sourceUrl": "https://x.com/OpenAI/status/2097374640582668336",
       "metrics": {
-        "likes": "120.3K",
+        "likes": "119.8K",
         "replies": "5.7K"
       },
       "references": [],
@@ -29,18 +29,8 @@
         "category": "tech",
         "crossover": true
       },
-      "image": {
-        "src": "/media/2026-09-08/2026-09-08-x-openai-claims-a-solution-to-navier-stokes.webp",
-        "width": 1254,
-        "height": 1254,
-        "from": "https://pbs.twimg.com/media/HRtS_iLboAUUlYv.jpg?name=large",
-        "crop": {
-          "x": 0.07,
-          "y": 0,
-          "w": 0.75,
-          "h": 1
-        }
-      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T05:45:45.380Z",
       "post": {
         "name": "OpenAI",
         "handle": "@OpenAI",
@@ -49,8 +39,24 @@
         "text": "We’re sharing a solution to the Navier-Stokes Millennium Prize Problem, one of the deepest problems at the frontier of mathematics.\n\nThe proof was produced by a group of agents, using an OpenAI next-generation model significantly more capable than GPT-6 Astra.\n\nThe problem",
         "postedAt": "2026-09-08T17:20:56.000Z"
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T04:33:37.919Z"
+      "image": {
+        "src": "/media/2026-09-08/2026-09-08-x-openai-claims-a-solution-to-navier-stokes.webp",
+        "width": 1254,
+        "height": 1254,
+        "from": "https://pbs.twimg.com/media/HRtS_iLboAUUlYv.jpg?name=large",
+        "crop": {
+          "x": 0.32,
+          "y": 0.14,
+          "w": 0.5,
+          "h": 0.8
+        },
+        "bounds": {
+          "x": 0.3,
+          "y": 0.11,
+          "w": 0.66,
+          "h": 0.89
+        }
+      }
     }
   ]
 }

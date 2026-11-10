@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "New Apple CEO John Ternus's first post: \"hello\"",
-      "summary": "John Ternus, Apple's former head of hardware engineering, took over as CEO on Sep 1 and made his first post on X: \"hello\". It got 547K likes and 71.6K replies. Elon Musk quoted it with \"New Apple CEO posting on 𝕏\", and Merriam-Webster pointed out that \"hello\" is younger than both \"hey\" and \"hi\".",
+      "summary": "John Ternus, Apple's former head of hardware engineering, took over from Tim Cook as CEO on Sep 1 and made his first post on X: \"hello\". It got 544K likes and 71K replies. Elon Musk replied \"Congrats!\" and quoted it with \"New Apple CEO posting on 𝕏\", and Merriam-Webster pointed out that \"hello\" is younger than both \"hey\" and \"hi\".",
       "kind": "moment",
       "tags": [
         "apple",
@@ -17,8 +17,8 @@
       "author": "@johnternus",
       "sourceUrl": "https://x.com/johnternus/status/2094814214787633367",
       "metrics": {
-        "likes": "546.7K",
-        "replies": "71.6K"
+        "likes": "543.9K",
+        "replies": "71.2K"
       },
       "references": [],
       "pulse": {
@@ -33,12 +33,12 @@
         "src": "/media/2026-09-01/2026-09-01-x-new-apple-ceo-john-ternus-s-first-post-hello.webp",
         "width": 1200,
         "height": 1600,
-        "from": "https://x.com/johnternus/status/2094814214787633367",
+        "from": "https://www.apple.com/newsroom/images/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/article/Apple-John-Ternus_inline.jpg.large_2x.jpg",
         "crop": {
-          "x": 0,
+          "x": 0.06,
           "y": 0,
-          "w": 1,
-          "h": 1
+          "w": 0.9,
+          "h": 0.56
         }
       },
       "post": {
@@ -50,7 +50,7 @@
         "postedAt": "2026-09-01T15:46:43.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:13:30.094Z"
+      "collectedAt": "2026-11-10T05:45:27.316Z"
     }
   ]
 }

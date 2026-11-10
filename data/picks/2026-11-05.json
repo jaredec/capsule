@@ -2,10 +2,10 @@
   "date": "2026-11-05",
   "stories": [
     {
-      "title": "Stocks have their worst day since April 2025; \"Nasdaqistan\" memes",
-      "summary": "An AI-led sell-off sent the Nasdaq down 5.5% into correction, the S&P 500 down 4.4% and the Dow down 1,833 points, the worst day for all three since the April 2025 tariff shock; Nvidia fell more than 9% and AMD about 17%. Bryan Johnson posted himself bathing in the glow of a red stock heatmap as red-light therapy, \"always improving my protocol\" (28K likes), Zero Hedge priced the wipeout at \"almost 3 Elons,\" and finance X filed dispatches from \"Nasdaqistan\" (\"JUST IN: explosions heard in the city center of Nasdaqistan\"). The same day in London, Russell Brand was found guilty of one count of rape and three of sexual assault.",
-      "kind": "image",
-      "tags": ["stock-market-crash", "nasdaqistan", "bryan-johnson", "nvidia"],
+      "title": "The AI trade cracks: stocks have their worst day since April 2025",
+      "summary": "Two days after Democrats swept Congress, fears of a crackdown on AI data centers sent the Nasdaq down 5.5% into a correction, the S&P 500 down 4.4% and the Dow down 1,833 points, the worst day for all three since the April 2025 tariff shock. Nvidia fell more than 9% and AMD 17%, and the Nasdaq 100's 6.4% drop was its worst since March 2020 (\"BREAKING\" from Unusual Whales, 14K likes). The timeline coped with jokes: Zero Hedge priced the wipeout at \"almost 3 Elons\" (6K), and Bryan Johnson posted himself bathing in the red glow of a stock heatmap, \"always improving my protocol\" (28K). The same day in London, Russell Brand was found guilty of one count of rape and three of sexual assault.",
+      "kind": "moment",
+      "tags": ["stock-market-crash", "nasdaq", "nvidia", "ai-bubble"],
       "category": "news",
       "crossover": true,
       "reach": 8,
@@ -13,8 +13,9 @@
       "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/bryan_johnson/status/2118451740219457963",
-      "crop": { "x": 0.37, "y": 0, "w": 0.5, "h": 1 }
+      "sourceUrl": "https://x.com/unusual_whales/status/2118456823011242185",
+      "imageUrl": "https://www.reuters.com/resizer/v2/5RRIGNPFVZJP3AX2RTIT6M6PQE.jpg?auth=2e21c15f254571c27fe74ebdf71a40fadf124cf698b2415daed29081b10b155e&width=1920&quality=90",
+      "crop": { "x": 0.2, "y": 0.06, "w": 0.46, "h": 0.52 }
     },
     {
       "title": "Russell Brand found guilty of rape",

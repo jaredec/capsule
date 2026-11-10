@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Mistrial in the Lindsay Clancy murder case",
-      "summary": "A judge declared a mistrial in the case of Lindsay Clancy, charged with murdering her three children, after the jury deadlocked 11-1. The lone holdout, the only juror voting to convict, became the story of the day, and so did defense attorney Kevin Reddington, who complained to reporters about him outside court. Nick Sortor's post of the courtroom as the mistrial was declared got 107K likes, and \"The juror who held out in the Clancy trial. The world salutes you\" got 122K.",
+      "summary": "A judge declared a mistrial in the case of Lindsay Clancy, charged with murdering her three children, after a jury that defense attorney Kevin Reddington said was 11-1 for acquittal deadlocked. The lone holdout became the story of the day as #IAmTheHoldout trended, and so did Reddington, who told reporters outside court that the other jurors \"were robbed by one man\". Nick Sortor's video from the courtroom as the mistrial was declared got 107K likes.",
       "kind": "video",
       "tags": [
         "lindsay-clancy",
@@ -17,7 +17,7 @@
       "author": "@nicksortor",
       "sourceUrl": "https://x.com/nicksortor/status/2095941743870894581",
       "metrics": {
-        "likes": "107.4K",
+        "likes": "106.7K",
         "replies": "1.5K"
       },
       "references": [],
@@ -28,6 +28,16 @@
         "memeability": 7,
         "category": "news",
         "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T05:45:34.702Z",
+      "post": {
+        "name": "Nick Sortor",
+        "handle": "@nicksortor",
+        "verified": true,
+        "avatar": "/media/avatars/nicksortor.webp",
+        "text": "🚨 BREAKING — IT'S OVER: The judge in the Lindsay Clancy case has OFFICIALLY declared a mistrial\n\nThe Ku Klux Klancy folks FAILED to free Clancy, thanks to ONE LEGENDARY MAN, who spent 7 DAYS being yelled at by 9 mentally ill women and 2 beta cuck men.\n\nTHANK YOU, SIR! 🇺🇸",
+        "postedAt": "2026-09-04T18:27:07.000Z"
       },
       "image": {
         "src": "/media/2026-09-04/2026-09-04-x-mistrial-in-the-lindsay-clancy-murder-case.webp",
@@ -40,17 +50,7 @@
           "w": 0.421875,
           "h": 1
         }
-      },
-      "post": {
-        "name": "Nick Sortor",
-        "handle": "@nicksortor",
-        "verified": true,
-        "avatar": "/media/avatars/nicksortor.webp",
-        "text": "🚨 BREAKING — IT'S OVER: The judge in the Lindsay Clancy case has OFFICIALLY declared a mistrial\n\nThe Ku Klux Klancy folks FAILED to free Clancy, thanks to ONE LEGENDARY MAN, who spent 7 DAYS being yelled at by 9 mentally ill women and 2 beta cuck men.\n\nTHANK YOU, SIR! 🇺🇸",
-        "postedAt": "2026-09-04T18:27:07.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-14T06:07:03.598Z"
+      }
     }
   ]
 }

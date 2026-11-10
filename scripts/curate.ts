@@ -12,8 +12,9 @@
  * pins a specific X post to feature. For the image, "imageUrl" swaps in a better still than the
  * post's own media (say, a photo instead of a screenshot of text; a video URL ending in
  * "#t=<seconds>" uses that frame of another post's video), "frameAt" picks the second of
- * the post's video to use instead of the automatic frame, and "crop" ({ x, y, w, h } as fractions
- * of the image) picks the part the calendar shows instead of the automatic crop.
+ * the post's video to use instead of the automatic frame, "crop" ({ x, y, w, h } as fractions
+ * of the image) marks the subject every frame keeps whole instead of the automatic one, and
+ * "bounds" (same shape) limits what frames may show around it, to leave out captions or tickers.
  */
 import fs from "node:fs";
 import { isValidIsoDate } from "../src/lib/dates";

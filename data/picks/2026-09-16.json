@@ -2,29 +2,20 @@
   "date": "2026-09-16",
   "stories": [
     {
-      "title": "Barack Obama says goodbye to his dog Sunny",
-      "summary": "Barack Obama announced that Sunny, the dog the family got at the start of his second term, had died: \"Yesterday, we lost a cherished member of our family.\" The post got 329K likes.",
-      "kind": "image",
-      "tags": [
-        "barack-obama",
-        "sunny",
-        "obama-family"
-      ],
-      "category": "celebrity",
+      "title": "NBC4's own live feed captured its news helicopter's final moments",
+      "summary": "NewsChopper4, flown for NBC4 Los Angeles and Telemundo 52, went down in Chatsworth just before 7 p.m. PT on Sep 15 while broadcasting live over a fatal Metro bus collision; its feed caught a cockpit horn, the engine winding down and aerial reporter Eliana Moreno asking \"You can't pull up?\" before it cut out. BNO News posted the live shot at 7:12 p.m. (73K likes), and anchor Colleen Williams told viewers on air that the station had \"lost valued friends and colleagues.\" On Sep 16 the station opened its 4 a.m. newscast with a tribute to Moreno, 38, and pilot George Marciniw, 70, the coroner identified the man killed on the ground as Edy Gutierrez Mejia, 29, and the NTSB called the live recording \"probably the most important evidence\" in its investigation.",
+      "kind": "video",
+      "tags": ["nbc4", "knbc", "helicopter-crash", "los-angeles", "eliana-moreno"],
+      "category": "news",
       "crossover": true,
-      "reach": 8,
-      "dominance": 7,
-      "memeability": 3,
+      "reach": 7,
+      "dominance": 6,
+      "memeability": 1,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/BarackObama/status/2100193157522620711",
-      "imageUrl": "https://pbs.twimg.com/media/HSVgTGdX0AAsu5K.jpg",
-      "crop": {
-        "x": 0,
-        "y": 0.006,
-        "w": 1,
-        "h": 0.987
-      }
+      "sourceUrl": "https://x.com/BNONews/status/2100045119739039821",
+      "frameAt": 0.5,
+      "crop": { "x": 0.26, "y": 0.12, "w": 0.5, "h": 0.78 }
     }
   ]
 }

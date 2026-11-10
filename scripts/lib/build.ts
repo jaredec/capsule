@@ -65,8 +65,8 @@ export async function buildItems(
       collectedAt: new Date().toISOString(),
     });
     if (parsed.success) {
-      const { imageUrl, frameAt, crop } = story;
-      items.push(await attachMedia(signals.date, parsed.data, { log, imageUrl, frameAt, crop }));
+      const { imageUrl, frameAt, crop, bounds } = story;
+      items.push(await attachMedia(signals.date, parsed.data, { log, imageUrl, frameAt, crop, bounds }));
     }
     else log(`    skipped: ${parsed.error.message}`);
   }

@@ -13,7 +13,10 @@
       "memeability": 9,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/BYRNEGRACES/status/2118046162838053124"
+      "sourceUrl": "https://x.com/BYRNEGRACES/status/2118046162838053124",
+      "imageUrl": "https://pbs.twimg.com/media/HWTPwS8WkAEXHnC.jpg?name=large",
+      "crop": { "x": 0, "y": 0.05, "w": 1, "h": 0.61 },
+      "bounds": { "x": 0, "y": 0.05, "w": 1, "h": 0.95 }
     },
     {
       "title": "Telegram: \"i can't believe bill gates named that company after his penis\"",

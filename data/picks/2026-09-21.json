@@ -2,30 +2,20 @@
   "date": "2026-09-21",
   "stories": [
     {
-      "title": "The White House launches Trump TV",
-      "summary": "Hours after the major networks pulled out of the White House press pool in solidarity with CNN, the White House launched \"Trump TV\", a 24/7 stream of administration speeches and announcements, with a promo of sitcom clips stamped with a TRUMPTV logo. \"Can't wait until someone hacks Trump TV and live broadcasts the Epstein files\" got 69K likes, and within two days posts mocking its few hundred live viewers were going around.",
-      "kind": "image",
-      "tags": [
-        "donald-trump",
-        "white-house",
-        "trump-tv",
-        "press"
-      ],
-      "category": "politics",
+      "title": "Taylor Swift's \"That's my husband!\" becomes every husband's meme",
+      "summary": "During Sunday Night Football, cameras caught Taylor Swift in her Arrowhead suite pointing at her wedding ring and yelling \"That's my husband!\" after Travis Kelce's touchdown, and by Monday husbands had turned the clip into a \"My wife when I...\" template. \"my neurosurgeon breadwinner wife watching me shotgun my 11th beer of the night\" got 41K likes, \"My wife after I kill the spider…\" got 18K, and others celebrated loading the dishwasher or fixing the wifi; Kansas City's mayor joined in. The clip itself got 19.6K on Buzzing Pop and 16.5K on the NFL's account, and Kelce answered the memes on New Heights two days later.",
+      "kind": "video",
+      "tags": ["taylor-swift", "travis-kelce", "thats-my-husband", "nfl"],
+      "category": "celebrity",
       "crossover": true,
-      "reach": 9,
-      "dominance": 8,
-      "memeability": 8,
+      "reach": 8,
+      "dominance": 7,
+      "memeability": 9,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/WhiteHouse/status/2102172574822048160",
-      "imageUrl": "https://pbs.twimg.com/media/HSxaxpLXIAAieVW.jpg",
-      "crop": {
-        "x": 0.03125,
-        "y": 0,
-        "w": 0.9375,
-        "h": 1
-      }
+      "sourceUrl": "https://x.com/CaudilloXIV/status/2101899861654163857",
+      "frameAt": 1.3,
+      "crop": { "x": 0.1, "y": 0.04, "w": 0.55, "h": 0.72 }
     }
   ]
 }

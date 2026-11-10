@@ -26,7 +26,14 @@ import {
 } from "@/lib/dates";
 import { usePlatformFilter, useToday } from "@/lib/hooks";
 import type { Item, Platform } from "@/lib/schema";
-import { DAY_IMAGE_SHARE, dayImageName, type Step } from "@/lib/transitions";
+import {
+  DAY_CARD_SHARE,
+  DAY_IMAGE_SHARE,
+  dayCardName,
+  dayImageName,
+  rememberCellRadius,
+  type Step,
+} from "@/lib/transitions";
 import { useCalendarState, type CalendarView as View } from "./CalendarState";
 import { CroppedImage } from "./CroppedImage";
 import { DayModal } from "./DayModal";
@@ -92,8 +99,7 @@ export function Calendar({ year, month, itemsByDate, platforms, lastDate, prevHr
   const today = useToday();
   const [platformParam, setPlatformParam] = usePlatformFilter();
   const available = useMemo(() => new Set(platforms), [platforms]);
-  const platform: Platform =
-    platformParam && available.has(platformParam) ? platformParam : (platforms[0] ?? "x");
+  const platform: Platform = platformParam && available.has(platformParam) ? platformParam : (platforms[0] ?? "x");
 
   // The stagger comes off once played: the router hides and re-shows visited pages, which
   // would restart it.
@@ -128,7 +134,8 @@ export function Calendar({ year, month, itemsByDate, platforms, lastDate, prevHr
 
   // The week shown: this week, else the month's latest archived week.
   const defaultWeek = useMemo(() => {
-    const anchor = today && cells.includes(today) ? today : archivedDates.filter((d) => d.startsWith(monthPrefix)).at(-1);
+    const anchor =
+      today && cells.includes(today) ? today : archivedDates.filter((d) => d.startsWith(monthPrefix)).at(-1);
     return (anchor && weekStartOf(anchor)) ?? cells[0];
   }, [today, cells, archivedDates, monthPrefix, weekStartOf]);
   const weekStart = weekPick && cells.includes(weekPick) ? weekPick : defaultWeek;
@@ -204,14 +211,16 @@ export function Calendar({ year, month, itemsByDate, platforms, lastDate, prevHr
     [weekStartOf, setWeekPick],
   );
 
+  // Back in the week view, the week is today's again rather than one browsed to earlier.
   const switchView = useCallback(
     (next: View) => {
       startTransition(() => {
         addTransitionType(`view-${next}`);
         setView(next);
+        if (next === "week") setWeekPick(null);
       });
     },
-    [setView],
+    [setView, setWeekPick],
   );
 
   // Weeks past the month's own continue in the neighboring month; weeks after the archive's
@@ -286,7 +295,10 @@ export function Calendar({ year, month, itemsByDate, platforms, lastDate, prevHr
       {/* On wide screens the week sits with the header in the middle of the screen; the month
           fills the screen under it. */}
       <ViewTransition name="calendar-header" update={HEADER_UPDATE} default="none">
-        <header className={`flex shrink-0 flex-col items-center pt-6 pb-3 md:pt-8 md:pb-6 ${view === "week" ? "md:mt-auto" : ""}`}>
+        <header
+          data-under-card
+          className={`flex shrink-0 flex-col items-center pt-6 pb-3 md:pt-8 md:pb-6 ${view === "week" ? "md:mt-auto" : ""}`}
+        >
           <h1 className="flex items-center gap-[0.24em] text-[30px] leading-none font-semibold tracking-[-0.04em] text-zinc-950 md:text-[38px]">
             Trending on
             <PlatformSwitcher
@@ -295,7 +307,10 @@ export function Calendar({ year, month, itemsByDate, platforms, lastDate, prevHr
               onChange={(p) => setPlatformParam(p === platforms[0] ? null : p)}
             />
           </h1>
-          <nav className="mt-3 flex items-center gap-1.5 md:mt-3.5 md:gap-3" aria-label={view === "week" ? "Week" : "Month"}>
+          <nav
+            className="mt-3 flex items-center gap-1.5 md:mt-3.5 md:gap-3"
+            aria-label={view === "week" ? "Week" : "Month"}
+          >
             <div className="flex items-center gap-1">
               <StepButton step="prev" noun={stepNoun} disabled={!canStep("prev")} onStep={step} />
               <ViewTransition key={label} name="calendar-label" share={LABEL_SHARE} default="none">
@@ -325,17 +340,21 @@ export function Calendar({ year, month, itemsByDate, platforms, lastDate, prevHr
       </ViewTransition>
 
       <main
+        data-under-card
         className={`relative min-h-0 flex-1 [container-type:size] ${
           view === "week" ? "md:h-[min(calc(100dvh-236px),calc((100vw-136px)/7*var(--ratio)+100px))] md:flex-none" : ""
         }`}
         style={{ "--ratio": WEEK_CARD_RATIO } as React.CSSProperties}
         {...swipe}
       >
-        <ViewTransition key={view === "week" ? weekStart : "month"} name="calendar-stage" share={STAGE_SHARE} default="none">
+        <ViewTransition
+          key={view === "week" ? weekStart : "month"}
+          name="calendar-stage"
+          share={STAGE_SHARE}
+          default="none"
+        >
           {view === "week" ? (
-            <div
-              className="absolute inset-0 grid grid-cols-2 grid-rows-4 gap-x-2 gap-y-3 md:grid-cols-7 md:grid-rows-1 md:gap-3"
-            >
+            <div className="absolute inset-0 grid grid-cols-2 grid-rows-4 gap-x-2 gap-y-3 md:grid-cols-7 md:grid-rows-1 md:gap-3">
               {weekDays.map((date, i) => (
                 <WeekCard key={date} {...cardProps(date, i)} />
               ))}
@@ -353,23 +372,36 @@ export function Calendar({ year, month, itemsByDate, platforms, lastDate, prevHr
               className="absolute inset-y-0 left-1/2 flex w-full -translate-x-1/2 flex-col md:w-[min(100cqw,calc((100cqh-58px)/6*7*var(--aspect)+36px))]"
               style={{ "--aspect": MONTH_CELL_ASPECT } as React.CSSProperties}
             >
-              <div className="grid shrink-0 grid-cols-7 gap-[3px] md:gap-1.5" style={{ height: WEEKDAY_ROW }} aria-hidden>
+              <div
+                className="grid shrink-0 grid-cols-7 gap-[3px] md:gap-1.5"
+                style={{ height: WEEKDAY_ROW }}
+                aria-hidden
+              >
                 {WEEKDAYS_SHORT.map((d) => (
-                  <div key={d} className="px-1 text-center text-[11px] font-medium text-zinc-400 md:pl-2 md:text-left md:text-[12px]">
+                  <div
+                    key={d}
+                    className="px-1 text-center text-[11px] font-medium text-zinc-400 md:pl-2 md:text-left md:text-[12px]"
+                  >
                     <span className="md:hidden">{d[0]}</span>
                     <span className="hidden md:inline">{d}</span>
                   </div>
                 ))}
               </div>
               <div
-                className="grid min-h-0 flex-1 grid-cols-7 gap-[3px] md:gap-1.5"
-                style={{ gridTemplateRows: `repeat(${weeks}, minmax(0, 1fr))` }}
+                className="grid min-h-0 flex-1 grid-cols-7 gap-[3px] max-md:max-h-[calc((100cqw-18px)/7*4/3*var(--weeks)+(var(--weeks)-1)*3px)] md:gap-1.5"
+                style={
+                  { gridTemplateRows: `repeat(${weeks}, minmax(0, 1fr))`, "--weeks": weeks } as React.CSSProperties
+                }
               >
                 {cells.map((date, i) =>
                   date.startsWith(monthPrefix) ? (
                     <MonthCell key={date} {...cardProps(date, i)} />
                   ) : (
-                    <div key={date} aria-hidden className="rounded-[6px] bg-black/[0.018] sm:rounded-[9px] md:rounded-[12px]" />
+                    <div
+                      key={date}
+                      aria-hidden
+                      className="rounded-[6px] bg-black/[0.018] sm:rounded-[9px] md:rounded-[12px]"
+                    />
                   ),
                 )}
               </div>
@@ -378,7 +410,10 @@ export function Calendar({ year, month, itemsByDate, platforms, lastDate, prevHr
         </ViewTransition>
       </main>
 
-      <footer className="flex shrink-0 items-center justify-center gap-1.5 py-3 text-[12px] text-zinc-400 md:mt-auto md:py-4">
+      <footer
+        data-under-card
+        className="flex shrink-0 items-center justify-center gap-1.5 py-3 text-[12px] text-zinc-400 md:mt-auto md:py-4"
+      >
         <span>
           Capsule by{" "}
           <a href="https://www.jaredconnolly.com" className="text-zinc-500 transition-colors hover:text-zinc-900">
@@ -477,7 +512,19 @@ type CardProps = {
 const radius = "rounded-[6px] sm:rounded-[9px] md:rounded-[12px]";
 
 /** Screenshots of text posts are set as type instead, so every day reads as a picture or a headline. */
-function DayMediaTile({ item, date, isOpen, text, lines }: { item: Item; date: string; isOpen: boolean; text: string; lines: number }) {
+function DayMediaTile({
+  item,
+  date,
+  isOpen,
+  text,
+  lines,
+}: {
+  item: Item;
+  date: string;
+  isOpen: boolean;
+  text: string;
+  lines: number;
+}) {
   const asText = !item.image || isImageOfPost(item);
   const media = asText ? (
     <span className="absolute inset-0 bg-zinc-900 [container-type:size]">
@@ -513,6 +560,17 @@ function DayMediaTile({ item, date, isOpen, text, lines }: { item: Item; date: s
   );
 }
 
+/** The cell's box, which grows into the open card; the open day's box belongs to the card. */
+function CardBox({ date, isOpen, children }: { date: string; isOpen: boolean; children: React.ReactNode }) {
+  return isOpen ? (
+    children
+  ) : (
+    <ViewTransition name={dayCardName(date)} share={DAY_CARD_SHARE} default="none">
+      {children}
+    </ViewTransition>
+  );
+}
+
 const cardButton =
   "group relative overflow-hidden text-left outline-offset-2 transition-[scale,box-shadow] duration-200 ease-out hover:shadow-[0_12px_28px_-14px_rgb(0_0_0/0.5)] focus-visible:outline-2 focus-visible:outline-zinc-900 active:scale-[0.97]";
 
@@ -539,17 +597,30 @@ function WeekCard({ date, index, item, pending, isToday, isOpen, animateIn, onOp
         </span>
       </p>
       {item ? (
-        <button
-          type="button"
-          data-day={date}
-          onClick={() => onOpen(date)}
-          aria-label={`${formatLongDate(date)}: ${item.title}`}
-          className={`${cardButton} min-h-0 flex-1 rounded-[12px] md:rounded-[16px]`}
-        >
-          <DayMediaTile item={item} date={date} isOpen={isOpen} text={(asText && item.post?.text) || item.title} lines={9} />
-        </button>
+        <CardBox date={date} isOpen={isOpen}>
+          <button
+            type="button"
+            data-day={date}
+            onClick={(e) => {
+              rememberCellRadius(e.currentTarget);
+              onOpen(date);
+            }}
+            aria-label={`${formatLongDate(date)}: ${item.title}`}
+            className={`${cardButton} min-h-0 flex-1 rounded-[12px] md:rounded-[16px]`}
+          >
+            <DayMediaTile
+              item={item}
+              date={date}
+              isOpen={isOpen}
+              text={(asText && item.post?.text) || item.title}
+              lines={9}
+            />
+          </button>
+        </CardBox>
       ) : (
-        <div className={`min-h-0 flex-1 rounded-[12px] md:rounded-[16px] ${pending ? "bg-black/[0.025]" : "bg-black/[0.04]"}`} />
+        <div
+          className={`min-h-0 flex-1 rounded-[12px] md:rounded-[16px] ${pending ? "bg-black/[0.025]" : "bg-black/[0.04]"}`}
+        />
       )}
       <p className="mt-2.5 hidden h-[54px] shrink-0 overflow-hidden text-[13px] leading-snug font-medium text-pretty text-zinc-700 md:line-clamp-3">
         {item?.title}
@@ -589,16 +660,21 @@ function MonthCell({ date, index, item, pending, isToday, isOpen, animateIn, onO
   }
 
   return (
-    <button
-      type="button"
-      data-day={date}
-      style={style}
-      onClick={() => onOpen(date)}
-      aria-label={`${formatLongDate(date)}: ${item.title}`}
-      className={`${enter} ${cardButton} ${radius}`}
-    >
-      <DayMediaTile item={item} date={date} isOpen={isOpen} text={item.title} lines={3} />
-      <span className="absolute top-1 left-1.5 md:top-2 md:left-2.5">{number(true)}</span>
-    </button>
+    <CardBox date={date} isOpen={isOpen}>
+      <button
+        type="button"
+        data-day={date}
+        style={style}
+        onClick={(e) => {
+          rememberCellRadius(e.currentTarget);
+          onOpen(date);
+        }}
+        aria-label={`${formatLongDate(date)}: ${item.title}`}
+        className={`${enter} ${cardButton} ${radius}`}
+      >
+        <DayMediaTile item={item} date={date} isOpen={isOpen} text={item.title} lines={3} />
+        <span className="absolute top-1 left-1.5 md:top-2 md:left-2.5">{number(true)}</span>
+      </button>
+    </CardBox>
   );
 }

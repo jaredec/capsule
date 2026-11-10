@@ -14,13 +14,8 @@
       "platform": "x",
       "headlineIds": [],
       "sourceUrl": "https://x.com/DiscussingFilm/status/2109832988485673255",
-      "imageUrl": "https://pbs.twimg.com/media/HUeh6y-WsAEujA9.jpg",
-      "crop": {
-        "x": 0,
-        "y": 0,
-        "w": 1,
-        "h": 0.901
-      }
+      "imageUrl": "https://pbs.twimg.com/media/HUeh6y-WsAEujA9.jpg?name=large",
+      "crop": { "x": 0, "y": 0.02, "w": 1, "h": 0.5 }
     }
   ]
 }

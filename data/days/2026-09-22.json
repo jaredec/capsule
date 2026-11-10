@@ -2,55 +2,55 @@
   "date": "2026-09-22",
   "items": [
     {
-      "id": "2026-09-22-x-alexandr-wang-asks-if-meta-s-muse-mascot-does-an",
+      "id": "2026-09-22-x-trump-tells-the-un-that-ai-will-now-be-called-su",
       "platform": "x",
       "rank": 1,
-      "title": "Alexandr Wang asks if Meta's Muse mascot \"does anything\" for you",
-      "summary": "Two weeks after Meta launched Muse, its personal AI agent, Meta's Alexandr Wang quoted a user's \"I'd smash ngl\" with a render of Muse's chubby yeti mascot and \"does this do anything for any of you / be honest no judgment zone\". It got 3.8K likes and 516 replies, and the \"thicc Muse mascot\" jokes kept going after Meta unveiled the Muse Charm at Meta Connect the next day.",
-      "kind": "image",
+      "title": "Trump tells the UN that AI will now be called \"super intelligence\"",
+      "summary": "At the UN General Assembly, Trump said artificial intelligence would \"hereinafter officially\" be called super intelligence, because \"the use of the word artificial makes it sound fake.\" \"Welcome to the new world of super intelligence — SI,\" he said, adding, \"let's see if I have any power,\" and said US government documents would switch to \"SI.\" He had floated the rename in an X poll three days earlier (66K likes). The C-SPAN clip spread from @ns123abc (9.8K) and @atrupar (7.1K), and X went to work on the new initials: Sports Illustrated, the Spanish \"sí\" and the metric system's SI units. The State Department then told diplomats to use \"SI.\"",
+      "kind": "video",
       "tags": [
-        "muse",
-        "meta",
-        "alexandr-wang",
-        "mascot"
+        "trump",
+        "united-nations",
+        "ai",
+        "super-intelligence"
       ],
-      "author": "@alexandr_wang",
-      "sourceUrl": "https://x.com/alexandr_wang/status/2102424404584214870",
+      "author": "@ns123abc",
+      "sourceUrl": "https://x.com/ns123abc/status/2102439154944545253",
       "metrics": {
-        "likes": "3.8K",
-        "replies": "516"
+        "likes": "9.8K",
+        "replies": "912"
       },
       "references": [],
       "pulse": {
-        "score": 5.5,
-        "reach": 6,
-        "dominance": 5,
+        "score": 6.9,
+        "reach": 8,
+        "dominance": 7,
         "memeability": 8,
         "category": "tech",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-09-22/2026-09-22-x-alexandr-wang-asks-if-meta-s-muse-mascot-does-an.webp",
-        "width": 1328,
-        "height": 1488,
-        "from": "https://pbs.twimg.com/media/HS1P2r2boAAdRPv.jpg?name=large",
+        "src": "/media/2026-09-22/2026-09-22-x-trump-tells-the-un-that-ai-will-now-be-called-su.webp",
+        "width": 1600,
+        "height": 1067,
+        "from": "https://i.abcnewsfe.com/a/61f1eff1-5110-4e2a-a134-abbe1020d81d/un-14-gty-gmh-260922_1790088028729_hpMain.jpg?w=1600",
         "crop": {
-          "x": 0.2,
-          "y": 0.08,
-          "w": 0.672,
-          "h": 0.8
+          "x": 0.28,
+          "y": 0.24,
+          "w": 0.44,
+          "h": 0.6
         }
       },
       "post": {
-        "name": "Alexandr Wang",
-        "handle": "@alexandr_wang",
+        "name": "NIK",
+        "handle": "@ns123abc",
         "verified": true,
-        "avatar": "/media/avatars/alexandr_wang.webp",
-        "text": "does this do anything for any of you\n\nbe honest no judgment zone",
-        "postedAt": "2026-09-22T15:46:53.000Z"
+        "avatar": "/media/avatars/ns123abc.webp",
+        "text": "🚨 BREAKING: TRUMP REJECTS UN AI TREATY, OFFICIALLY BANS THE TERM “ARTIFICIAL INTELLIGENCE”\n\n\"The United States totally rejects any attempt to construct a globalist schemeto control artificial intelligence.\"\n\n\"The word 'artificial' makes it sound fake. It is not fake... It’s",
+        "postedAt": "2026-09-22T16:45:30.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T04:09:05.553Z"
+      "collectedAt": "2026-11-10T07:57:53.514Z"
     }
   ]
 }

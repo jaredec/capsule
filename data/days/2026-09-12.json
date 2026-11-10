@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Sydney Sweeney \"knows ball\" in Novig's near-nude ad",
-      "summary": "Sports prediction app Novig posted its \"Just Sports\" ad with Sydney Sweeney posing nearly nude with footballs, a basketball and a pool table, captioned \"Confirmed: Sydney Sweeney knows ball.\" By her birthday on Sep 12 it was on a Times Square billboard and women in sports media were criticizing it. The top quote of the billboard photo got 465K likes.",
+      "summary": "Sports prediction app Novig's \"Just Sports\" ad had Sydney Sweeney posing nearly nude with footballs, a basketball and a pool table, captioned \"Confirmed: Sydney Sweeney knows ball.\" The post got 101K likes and the ad passed 22 million views in two days. By her 29th birthday on Sep 12 it was a Times Square billboard (a photo of it got 64K likes), and female athletes had started a trend of \"this is what a woman in sport looks like\" videos of themselves training. That weekend Olympic swimmer Ariarne Titmus called it \"a kick in the face to every woman who has dedicated her life to perfecting her craft\" and told Sweeney to \"do better.\"",
       "kind": "video",
       "tags": [
         "sydney-sweeney",
@@ -17,10 +17,15 @@
       "author": "@Novig",
       "sourceUrl": "https://x.com/Novig/status/2097672302976459025",
       "metrics": {
-        "likes": "101.1K",
+        "likes": "100.8K",
         "replies": "1.7K"
       },
-      "references": [],
+      "references": [
+        {
+          "title": "Women In Sports Media 'Not Happy' With Sydney Sweeney's Racy Ad",
+          "url": "https://sports.yahoo.com/articles/women-sports-media-not-happy-150343213.html"
+        }
+      ],
       "pulse": {
         "score": 7.8,
         "reach": 8,
@@ -28,6 +33,16 @@
         "memeability": 7,
         "category": "celebrity",
         "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T07:13:20.017Z",
+      "post": {
+        "name": "Novig",
+        "handle": "@Novig",
+        "verified": true,
+        "avatar": "/media/avatars/novig.webp",
+        "text": "Confirmed: Sydney Sweeney knows ball.",
+        "postedAt": "2026-09-09T13:03:44.000Z"
       },
       "image": {
         "src": "/media/2026-09-12/2026-09-12-x-sydney-sweeney-knows-ball-in-novig-s-near-nude-a.webp",
@@ -40,17 +55,7 @@
           "w": 0.45,
           "h": 1
         }
-      },
-      "post": {
-        "name": "Novig",
-        "handle": "@Novig",
-        "verified": true,
-        "avatar": "/media/avatars/novig.webp",
-        "text": "Confirmed: Sydney Sweeney knows ball.",
-        "postedAt": "2026-09-09T13:03:44.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T02:42:53.645Z"
+      }
     }
   ]
 }

@@ -2,30 +2,20 @@
   "date": "2026-09-23",
   "stories": [
     {
-      "title": "Xi Jinping lands in the US for a state visit",
-      "summary": "Chinese President Xi Jinping and his wife, Peng Liyuan, landed at Joint Base Andrews and were greeted by Donald and Melania Trump ahead of a state visit to the White House. The White House's arrival video got 20K likes, and a clip of Trump wincing at the military flyover while Xi stood still drew a 160K-like quote: \"Absolutely mogged\".",
+      "title": "\"Absolutely mogged\": Trump flinches at a flyover as Xi stands still",
+      "summary": "At Xi Jinping's arrival ceremony at Joint Base Andrews, two B-1 bombers roared overhead during the US national anthem. Trump, mid-salute, winced, gritted his teeth and ducked; Xi barely moved. \"That was loud,\" Trump told him afterwards. MeidasTouch's clip (36K likes) was quoted with two words, \"Absolutely mogged\" (159K), and the riffs followed: \"Hang it in the Louvre,\" and a meme of Marco Rubio leaning in to whisper, \"Sir, Xi didn't flinch at all.\"",
       "kind": "video",
-      "tags": [
-        "xi-jinping",
-        "china",
-        "donald-trump",
-        "state-visit"
-      ],
+      "tags": ["xi-jinping", "donald-trump", "flyover", "state-visit"],
       "category": "news",
       "crossover": true,
       "reach": 8,
-      "dominance": 7,
-      "memeability": 5,
+      "dominance": 8,
+      "memeability": 9,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/WhiteHouse/status/2102926157955936657",
-      "frameAt": 15,
-      "crop": {
-        "x": 0.32,
-        "y": 0,
-        "w": 0.3955,
-        "h": 1
-      }
+      "sourceUrl": "https://x.com/raymackmelon/status/2102887515430822363",
+      "imageUrl": "https://pbs.twimg.com/media/HS7141BbkAA0cx_.jpg?name=orig",
+      "crop": { "x": 0.14, "y": 0, "w": 0.82, "h": 0.62 }
     }
   ]
 }

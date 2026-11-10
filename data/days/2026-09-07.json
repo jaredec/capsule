@@ -2,55 +2,55 @@
   "date": "2026-09-07",
   "items": [
     {
-      "id": "2026-09-07-x-he-shit-his-pants-again",
+      "id": "2026-09-07-x-why-would-i-deceive-you-nathan-fielder-s-elizabe",
       "platform": "x",
       "rank": 1,
-      "title": "\"He shit his pants again…\"",
-      "summary": "A clip from the Oval Office of JD Vance and an aide standing behind Trump's desk, with Vance briefly grimacing, was posted with the caption \"He shit his pants again…\" and got 107K likes. It spread through Labor Day: \"He's gotta firing off straight diarrhea with the way people instantly react like they've been flashbanged\" got 300K.",
+      "title": "\"Why would I deceive you?\": Nathan Fielder's Elizabeth Holmes teaser",
+      "summary": "A24 dropped the first teaser for You Can See Everything, Nathan Fielder and Lance Oppenheim's secret documentary following Theranos founder Elizabeth Holmes in the days before she went to prison, as it premiered by surprise at the Telluride Film Festival. The minute-long teaser is almost entirely the two staring each other down while Holmes insists, \"Why would I deceive you? There's no reason for me to do that.\" A24's post got 81K likes, and \"Why would I deceive you?\" became a meme format of its own.",
       "kind": "video",
       "tags": [
-        "donald-trump",
-        "jd-vance",
-        "oval-office",
-        "meme"
+        "nathan-fielder",
+        "elizabeth-holmes",
+        "a24",
+        "trailer"
       ],
-      "author": "@MarkMantis",
-      "sourceUrl": "https://x.com/MarkMantis/status/2096835379861278734",
+      "author": "@A24",
+      "sourceUrl": "https://x.com/A24/status/2096757842435084301",
       "metrics": {
-        "likes": "107K",
-        "replies": "1.4K"
+        "likes": "81.5K",
+        "replies": "1.7K"
       },
       "references": [],
       "pulse": {
-        "score": 3.2,
+        "score": 7.7,
         "reach": 8,
         "dominance": 7,
-        "memeability": 9,
-        "category": "politics",
+        "memeability": 8,
+        "category": "tv-film",
         "crossover": true
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T05:45:40.516Z",
+      "post": {
+        "name": "A24",
+        "handle": "@A24",
+        "verified": true,
+        "avatar": "/media/avatars/a24.webp",
+        "text": "YOU CAN SEE EVERYTHING, a documentary by Nathan Fielder and Lance Oppenheim. Featuring Elizabeth Holmes. Only in theaters this October.",
+        "postedAt": "2026-09-07T00:30:00.000Z"
+      },
       "image": {
-        "src": "/media/2026-09-07/2026-09-07-x-he-shit-his-pants-again.webp",
-        "width": 720,
-        "height": 960,
-        "from": "https://video.twimg.com/amplify_video/2096659884783931392/vid/avc1/720x960/4zKk3CL62H7bAISR.mp4#t=15",
+        "src": "/media/2026-09-07/2026-09-07-x-why-would-i-deceive-you-nathan-fielder-s-elizabe.webp",
+        "width": 1600,
+        "height": 1200,
+        "from": "https://video.twimg.com/amplify_video/2096599674694049794/vid/avc1/1920x1440/ZZ4uJmjRSRrLL1KU.mp4#t=20",
         "crop": {
-          "x": 0,
+          "x": 0.29,
           "y": 0,
-          "w": 1,
+          "w": 0.5625,
           "h": 1
         }
-      },
-      "post": {
-        "name": "Metal Mark 🇺🇸",
-        "handle": "@MarkMantis",
-        "verified": true,
-        "avatar": "/media/avatars/markmantis.webp",
-        "text": "He shit his pants again…",
-        "postedAt": "2026-09-07T05:38:06.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-14T06:07:06.503Z"
+      }
     }
   ]
 }

@@ -2,55 +2,55 @@
   "date": "2026-09-13",
   "items": [
     {
-      "id": "2026-09-13-x-steve-sarkisian-walks-out-on-holly-rowe",
+      "id": "2026-09-13-x-zverev-wins-the-us-open-and-doesn-t-realize-it",
       "platform": "x",
       "rank": 1,
-      "title": "Steve Sarkisian walks out on Holly Rowe",
-      "summary": "After No. 4 Texas beat No. 1 Ohio State 24-23 with a 21-point comeback, coach Steve Sarkisian walked away from Holly Rowe's postgame interview seconds in, throwing up the horns to the camera as he left. Chad Fisher's meme of Sark with Laura Rutledge vs. Holly Rowe got 26K likes, and Sark, Holly Rowe and #HookEm all trended.",
-      "kind": "image",
+      "title": "Zverev wins the US Open and doesn't realize it",
+      "summary": "Alexander Zverev beat Ben Shelton 6-3, 7-6, 5-7, 6-2 to win his first US Open and his second major of the year, ending Shelton's run in his first Grand Slam final. On match point Zverev walked back to the baseline as if to play another point until the standing ovation told him it was over. The US Open's clip, captioned \"HE DIDN'T REALIZE HE'D WON\", got 42K likes, and Zverev told the crowd, \"I know that today 99.9 per cent of the people wanted Ben to win, so I'm very sorry.\"",
+      "kind": "video",
       "tags": [
-        "steve-sarkisian",
-        "holly-rowe",
-        "texas",
-        "ohio-state"
+        "tennis",
+        "us-open",
+        "alexander-zverev",
+        "ben-shelton"
       ],
-      "author": "@ChadFisher",
-      "sourceUrl": "https://x.com/ChadFisher/status/2099235888295256289",
+      "author": "@usopen",
+      "sourceUrl": "https://x.com/usopen/status/2099256168342257762",
       "metrics": {
-        "likes": "26K",
-        "replies": "763"
+        "likes": "42.4K",
+        "replies": "543"
       },
       "references": [],
       "pulse": {
-        "score": 7.2,
+        "score": 6.7,
         "reach": 8,
-        "dominance": 8,
-        "memeability": 8,
+        "dominance": 7,
+        "memeability": 7,
         "category": "sports",
         "crossover": true
       },
-      "image": {
-        "src": "/media/2026-09-13/2026-09-13-x-steve-sarkisian-walks-out-on-holly-rowe.webp",
-        "width": 1600,
-        "height": 900,
-        "from": "https://pbs.twimg.com/media/HSH7bfcWsAAgaRp.jpg?name=large",
-        "crop": {
-          "x": 0.578,
-          "y": 0,
-          "w": 0.4219,
-          "h": 1
-        }
-      },
-      "post": {
-        "name": "Chad Fisher DNP",
-        "handle": "@ChadFisher",
-        "verified": true,
-        "avatar": "/media/avatars/chadfisher.webp",
-        "text": "Steve Sarkisian when Laura Rutledge wants to interview him vs. when Holly Rowe wants to interview him.",
-        "postedAt": "2026-09-13T20:36:52.000Z"
-      },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T04:33:25.220Z"
+      "collectedAt": "2026-11-10T05:45:49.831Z",
+      "post": {
+        "name": "US Open Tennis",
+        "handle": "@usopen",
+        "verified": true,
+        "avatar": "/media/avatars/usopen.webp",
+        "text": "HE DIDN'T REALIZE HE'D WON 🏆\n\nAlexander Zverev exorcises his 2020 demons and defeats Shelton 6-3, 7-6, 5-7, 6-2 to win his first US Open title!",
+        "postedAt": "2026-09-13T21:57:27.000Z"
+      },
+      "image": {
+        "src": "/media/2026-09-13/2026-09-13-x-zverev-wins-the-us-open-and-doesn-t-realize-it.webp",
+        "width": 1200,
+        "height": 675,
+        "from": "https://pbs.twimg.com/media/HSIORDPbYAAh9dT.jpg",
+        "crop": {
+          "x": 0.2,
+          "y": 0.08,
+          "w": 0.4,
+          "h": 0.92
+        }
+      }
     }
   ]
 }

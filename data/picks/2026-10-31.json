@@ -2,49 +2,25 @@
   "date": "2026-10-31",
   "stories": [
     {
-      "title": "A Halloween costume of Lois Griffin falling down the stairs",
-      "summary": "For Halloween, @blonddtyler put on an orange wig, a teal shirt and khakis and was photographed mid-air on a staircase, posted next to the Family Guy frame of Lois tumbling down the stairs, captioned \"howd i do?\" (208K likes). The Lois frame has been a reaction image since 2019, and the full-body commitment to the fall is what people shared; the top quote-post, \"do you wanna do this or not\", drew another 161K. It outran the celebrity costumes of the night, including Heidi Klum dressed as a giant severed replica of her own hand (Variety's video, 66K).",
+      "title": "\"I hate gay Halloween\": the feed dresses up as its own memes",
+      "summary": "Halloween on X turned into gay Halloween, the yearly contest to dress as a reference so specific only the extremely online get it, posted as \"I hate gay Halloween, what do you mean you're...\". Friday night set the bar with \"the whore mirror from Black Swan,\" a lipstick-scrawled mirror worn as a costume (354K likes, 9.9M views), and RuPaul's conversion-camp counselor from But I'm a Cheerleader (187K). On Halloween night @blonddtyler leapt down a stairwell in an orange wig and teal shirt as Lois Griffin falling down the stairs (\"howd i do?\", 208K, 5.9M views), and the year's own moments became costumes too, from Molly, the $15,000 bird in Kelly Clarkson's toy-shop feud, to a man lying with his torso through a tennis racket: \"the best last minute Halloween costume ever.\"",
       "kind": "image",
-      "tags": [
-        "halloween",
-        "lois-griffin",
-        "family-guy",
-        "costume"
-      ],
+      "tags": ["halloween", "gay-halloween", "i-hate-gay-halloween", "costume", "lois-griffin"],
       "category": "internet-culture",
       "crossover": true,
       "reach": 8,
-      "dominance": 7,
+      "dominance": 8,
       "memeability": 9,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/blonddtyler/status/2116733204950352049",
+      "sourceUrl": "https://x.com/adrnvic/status/2116339042962833541",
+      "imageUrl": "https://pbs.twimg.com/media/HV6_IwNXkAA5n02.jpg?name=large",
       "crop": {
-        "x": 0,
-        "y": 0,
-        "w": 0.395,
-        "h": 1
+        "x": 0.24,
+        "y": 0.0,
+        "w": 0.66,
+        "h": 0.74
       }
-    },
-    {
-      "title": "Heidi Klum dresses as a giant severed replica of her own hand",
-      "summary": "Heidi Klum arrived at her annual Halloween party as an oversized severed hand modeled on her own, and Variety's video of it drew 66K likes as people riffed that you have to hand it to her.",
-      "kind": "video",
-      "tags": [
-        "halloween",
-        "heidi-klum",
-        "costume"
-      ],
-      "category": "celebrity",
-      "crossover": true,
-      "reach": 7,
-      "dominance": 6,
-      "memeability": 7,
-      "platform": "x",
-      "headlineIds": [
-        38
-      ],
-      "sourceUrl": "https://x.com/Variety/status/2116722712718791114"
     }
   ]
 }

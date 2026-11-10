@@ -2,24 +2,24 @@
   "date": "2026-10-10",
   "stories": [
     {
-      "title": "The Yorkshire Wildlife Park tiger",
-      "summary": "A man climbed into the tiger enclosure at Yorkshire Wildlife Park in Doncaster and was killed by Altai, a five-year-old Amur tiger, and footage of him sitting in the grass in front of the tiger spread everywhere. X split between \"the tiger should have been shot immediately\" and people defending the park and the tiger, and a post of the next day's news that Altai would not be put down got 199K likes. The man was later named as William Chapman, 23, whose family said he had a significant mental illness.",
-      "kind": "image",
-      "tags": ["tiger", "yorkshire-wildlife-park", "uk"],
-      "category": "animals",
+      "title": "Kelly Clarkson says a Brooklyn shop treated her like \"Pretty Woman\"",
+      "summary": "Kelly Clarkson posted that she \"drove all the way to Brooklyn\" to the curiosity shop Art of Play and \"literally was looked at as if I couldn't afford it,\" adding \"Wow, dude. You're an idiot and just lost a huge sale\" and telling fans to go there \"if you enjoy being treated like Julia Roberts character in Pretty Woman\" (272K likes). The next day the store said she had asked about Molly, a singing bird automaton attached to its wall that isn't for sale, and Clarkson fired back with a photo of a $15,000 price tag: \"So you're not only rude, you're also a liar.\" The same day, a man was killed after climbing into the tiger enclosure at Yorkshire Wildlife Park.",
+      "kind": "moment",
+      "tags": ["kelly-clarkson", "art-of-play", "brooklyn", "pretty-woman"],
+      "category": "celebrity",
       "crossover": true,
-      "reach": 9,
+      "reach": 8,
       "dominance": 8,
-      "memeability": 5,
+      "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/PolitlcsUK/status/2108968933327794349",
-      "imageUrl": "https://pbs.twimg.com/media/HUXF272WMAAd05J.jpg",
+      "sourceUrl": "https://x.com/kellyclarkson/status/2108998378675933224",
+      "imageUrl": "https://video.twimg.com/amplify_video/2109502372330209280/vid/avc1/1080x1920/3k34t1gT-_dYWSaY.mp4#t=11.5",
       "crop": {
-        "x": 0.063,
-        "y": 0,
-        "w": 0.937,
-        "h": 1
+        "x": 0.15,
+        "y": 0.01,
+        "w": 0.733,
+        "h": 0.55
       }
     }
   ]

@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Gayle King learns the Clancy holdout juror was Black",
-      "summary": "On CBS Mornings, Lindsay Clancy juror Paula Devlin told Gayle King that the lone holdout who voted to find Clancy guilty of murdering her children was the jury's only person of color, a Black man. King replied, \"Woah. I have to sit with that for just a second.\" Curtis Houck's clip got 67K likes and quotes of it another 160K, and Gayle King and Oprah trended alongside 9/11's 25th anniversary.",
+      "summary": "On CBS Mornings, Lindsay Clancy juror Paula Devlin told Gayle King that the lone holdout who voted to find Clancy guilty of murdering her children was the jury's only person of color, a Black man. King replied, \"Whoa. I have to sit with that for just a second.\" Curtis Houck's clip got 66K likes and 6.9K replies, and King trended on the 25th anniversary of 9/11.",
       "kind": "video",
       "tags": [
         "gayle-king",
@@ -17,8 +17,8 @@
       "author": "@CurtisHouck",
       "sourceUrl": "https://x.com/CurtisHouck/status/2098380024369811488",
       "metrics": {
-        "likes": "66.6K",
-        "replies": "7K"
+        "likes": "66.1K",
+        "replies": "6.9K"
       },
       "references": [],
       "pulse": {
@@ -33,12 +33,18 @@
         "src": "/media/2026-09-11/2026-09-11-x-gayle-king-learns-the-clancy-holdout-juror-was-b.webp",
         "width": 1280,
         "height": 720,
-        "from": "https://video.twimg.com/amplify_video/2098379986990141447/vid/avc1/1280x720/Qv_Db1zviX9cgq9u.mp4?tag=16#t=4",
+        "from": "https://video.twimg.com/amplify_video/2098379986990141447/vid/avc1/1280x720/Qv_Db1zviX9cgq9u.mp4?tag=16#t=8.5",
         "crop": {
-          "x": 0.36,
+          "x": 0.5,
+          "y": 0.08,
+          "w": 0.355,
+          "h": 0.66
+        },
+        "bounds": {
+          "x": 0,
           "y": 0,
-          "w": 0.421875,
-          "h": 1
+          "w": 0.855,
+          "h": 0.775
         }
       },
       "post": {
@@ -50,7 +56,7 @@
         "postedAt": "2026-09-11T11:55:58.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T04:42:56.405Z"
+      "collectedAt": "2026-11-10T05:48:01.237Z"
     }
   ]
 }

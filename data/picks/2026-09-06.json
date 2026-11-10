@@ -2,20 +2,40 @@
   "date": "2026-09-06",
   "stories": [
     {
-      "title": "A24's teaser for Nathan Fielder's Elizabeth Holmes documentary",
-      "summary": "A24 posted the first teaser for You Can See Everything, a documentary by Nathan Fielder and Lance Oppenheim that follows Theranos founder Elizabeth Holmes in the 34 days before she reported to prison. People fixated on the close-ups of the two sizing each other up, with one quote calling it \"the look of a fake lunatic realizing he's met a real one\".",
-      "kind": "video",
-      "tags": ["nathan-fielder", "elizabeth-holmes", "a24", "trailer"],
-      "category": "tv-film",
+      "title": "Trump wants to rename New Mexico \"New America\"",
+      "summary": "Trump posted on Truth Social: \"Many people suggested changing the name of New Mexico, one of the great vote cheating states of all time, to NEW AMERICA. So much more prestigious and beautiful for the people of that potentially incredible State. Wow, I Love It!!!\" The White House followed with a map of the state with \"Mexico\" crossed out, which got 52K likes and 7.3K replies. New Mexico Sen. Martin Heinrich answered that there are three things he will always call by their actual names: the Gulf of Mexico, Lake Ontario and New Mexico. It was part of a Sunday posting spree that also declared \"THE MOON IS OURS.\" A president has no power to rename a state.",
+      "kind": "image",
+      "tags": [
+        "donald-trump",
+        "new-mexico",
+        "new-america",
+        "renaming"
+      ],
+      "category": "politics",
       "crossover": true,
-      "reach": 7,
+      "reach": 8,
       "dominance": 7,
-      "memeability": 7,
+      "memeability": 8,
       "platform": "x",
-      "headlineIds": [],
-      "sourceUrl": "https://x.com/A24/status/2096757842435084301",
-      "frameAt": 20,
-      "crop": { "x": 0.29, "y": 0, "w": 0.5625, "h": 1 }
+      "headlineIds": [
+        44,
+        48,
+        55
+      ],
+      "sourceUrl": "https://x.com/WhiteHouse/status/2096657477928448250",
+      "imageUrl": "https://pbs.twimg.com/media/HRjS3KSW8AINFYt.jpg",
+      "crop": {
+        "x": 0.1,
+        "y": 0.24,
+        "w": 0.83,
+        "h": 0.62
+      },
+      "bounds": {
+        "x": 0.045,
+        "y": 0.11,
+        "w": 0.91,
+        "h": 0.86
+      }
     }
   ]
 }

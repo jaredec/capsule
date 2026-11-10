@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Man City found guilty, and De Gea asks how many titles he's won",
-      "summary": "The Athletic's David Ornstein reported that an independent commission found Manchester City guilty on virtually all of the Premier League's financial charges, with sanctions still undecided and City expected to appeal. His post got 363K likes. Former Manchester United goalkeeper David de Gea then posted \"So…… Let's talk. How many Premier League titles have I won then?\", which got 378K. Zohran Mamdani posted just \"114\", a nod to the 115 charges, and got 270K.",
+      "summary": "The Athletic's David Ornstein reported that an independent commission found Manchester City guilty on virtually all of the Premier League's financial charges, with sanctions still undecided and City expected to appeal. His post got 362K likes. Former Manchester United goalkeeper David de Gea then posted \"So…… Let's talk. How many Premier League titles have I won then?\", which got 376K. Zohran Mamdani posted just \"114\", a nod to the reported 114 of 115 charges, and got 268K. A clip of City chairman Khaldoon Al Mubarak leading a crowd of suits became \"28 lawyers to win 1 out of 115 charges\" (135K).",
       "kind": "moment",
       "tags": [
         "manchester-city",
@@ -17,7 +17,7 @@
       "author": "@D_DeGea",
       "sourceUrl": "https://x.com/D_DeGea/status/2103559973540340178",
       "metrics": {
-        "likes": "377.8K",
+        "likes": "375.9K",
         "replies": "5.4K"
       },
       "references": [],
@@ -29,18 +29,8 @@
         "category": "sports",
         "crossover": true
       },
-      "image": {
-        "src": "/media/2026-09-25/2026-09-25-x-man-city-found-guilty-and-de-gea-asks-how-many-t.webp",
-        "width": 1200,
-        "height": 1600,
-        "from": "https://x.com/D_DeGea/status/2103559973540340178",
-        "crop": {
-          "x": 0,
-          "y": 0,
-          "w": 1,
-          "h": 1
-        }
-      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T08:45:56.206Z",
       "post": {
         "name": "David de Gea",
         "handle": "@D_DeGea",
@@ -49,8 +39,18 @@
         "text": "So…… \n\nLet’s talk.\n\nHow many Premier League titles have I won then? 🤔",
         "postedAt": "2026-09-25T18:59:14.000Z"
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:13:30.730Z"
+      "image": {
+        "src": "/media/2026-09-25/2026-09-25-x-man-city-found-guilty-and-de-gea-asks-how-many-t.webp",
+        "width": 1600,
+        "height": 667,
+        "from": "https://video.twimg.com/ext_tw_video/1228779955498168322/pu/vid/1728x720/EIFIajWpkIvJw_TR.mp4?tag=10#t=0.4",
+        "crop": {
+          "x": 0.22,
+          "y": 0.08,
+          "w": 0.56,
+          "h": 0.92
+        }
+      }
     }
   ]
 }

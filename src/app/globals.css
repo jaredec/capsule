@@ -6,6 +6,17 @@
   --ease-out: cubic-bezier(0.25, 0.8, 0.25, 1);
   --ease-sheet: cubic-bezier(0.32, 0.72, 0, 1);
   --ease-travel: cubic-bezier(0.45, 0, 0.1, 1);
+  /* The open day's card; the cell's radius is set from the tapped cell. */
+  --cell-radius: 16px;
+  --card-radius: 22px;
+  --card-image-radius: 22px 0 0 22px;
+  --card-shadow: 0 24px 80px -20px rgb(0 0 0 / 0.45);
+}
+@media (width < 48rem) {
+  :root {
+    --card-radius: 22px 22px 0 0;
+    --card-image-radius: 22px 22px 0 0;
+  }
 }
 
 @theme inline {
@@ -56,10 +67,29 @@ body {
 ::view-transition-group(.morph-close) {
   animation-duration: 480ms;
   animation-timing-function: var(--ease-sheet);
-  overflow: clip;
-  border-radius: 14px;
   /* Above the card and backdrop, which fade in around it. */
   z-index: 10;
+}
+::view-transition-group(.morph) {
+  overflow: clip;
+  border-radius: 14px;
+}
+/* The group's own animation can't be extended, so the corners round on the pair inside it. */
+::view-transition-image-pair(.morph-open),
+::view-transition-image-pair(.morph-close) {
+  overflow: clip;
+  animation: 480ms var(--ease-sheet) both image-corners;
+}
+::view-transition-image-pair(.morph-close) {
+  animation-direction: reverse;
+}
+@keyframes image-corners {
+  from {
+    border-radius: var(--cell-radius);
+  }
+  to {
+    border-radius: var(--card-image-radius);
+  }
 }
 ::view-transition-old(.morph),
 ::view-transition-new(.morph),
@@ -195,15 +225,89 @@ body {
   --from: -12px;
 }
 
-/* The day card. */
+/* The day card. The backdrop's snapshot has its tint but not its blur, which only exists live and
+   can't reach the page beneath the transition, so the live page blurs itself until the real
+   backdrop takes over. */
+@keyframes page-blur {
+  to {
+    filter: blur(3px);
+  }
+}
 ::view-transition-new(.backdrop-in) {
-  animation: 300ms ease-out both vt-fade-in;
+  animation: 480ms var(--ease-sheet) both vt-fade-in;
 }
 ::view-transition-old(.backdrop-out) {
-  animation: 300ms ease-in both vt-fade-out;
+  animation: 400ms ease-out both vt-fade-out;
+}
+html:active-view-transition-type(day-open) [data-under-card] {
+  animation: 480ms var(--ease-sheet) both page-blur;
+}
+html:active-view-transition-type(day-close) [data-under-card] {
+  animation: 400ms ease-out both reverse page-blur;
 }
 
-/* The card fades in place around the travelling image, so the two never drift apart. */
+/* The cell's box grows into the card and back, under the image. The card is anchored at the
+   top-left corner, where the image pane is, so the growing box reveals it rather than stretching
+   it; the cell's own snapshot is only there for the first and last moments. */
+::view-transition-group(.card-open),
+::view-transition-group(.card-close) {
+  animation-duration: 480ms;
+  animation-timing-function: var(--ease-sheet);
+  z-index: 9;
+}
+/* The pair clips instead of the group so its shadow, which grows in with the box, isn't clipped. */
+::view-transition-image-pair(.card-open),
+::view-transition-image-pair(.card-close) {
+  overflow: clip;
+  animation: 480ms var(--ease-sheet) both card-corners;
+}
+::view-transition-image-pair(.card-close) {
+  animation-direction: reverse;
+}
+@keyframes card-corners {
+  from {
+    border-radius: var(--cell-radius);
+    box-shadow: 0 0 0 0 rgb(0 0 0 / 0);
+  }
+  to {
+    border-radius: var(--card-radius);
+    box-shadow: var(--card-shadow);
+  }
+}
+/* The card scales with the box along the side its image pane spans (its height on wide screens,
+   its width on phones), so the pane keeps pace with the image flying into it. */
+::view-transition-new(.card-open),
+::view-transition-old(.card-close) {
+  width: auto;
+  height: 100%;
+}
+@media (width < 48rem) {
+  ::view-transition-new(.card-open),
+  ::view-transition-old(.card-close) {
+    width: 100%;
+    height: auto;
+  }
+}
+::view-transition-old(.card-open),
+::view-transition-new(.card-close) {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+::view-transition-old(.card-open) {
+  animation: 120ms ease-out both vt-fade-out;
+}
+::view-transition-new(.card-open) {
+  animation: none;
+}
+::view-transition-old(.card-close) {
+  animation: 140ms ease-in 340ms both vt-fade-out;
+}
+::view-transition-new(.card-close) {
+  animation: 140ms ease-out 340ms both vt-fade-in;
+}
+
+/* Without a cell to grow from (a linked day), the card fades in place. */
 @keyframes card-in {
   from {
     opacity: 0;

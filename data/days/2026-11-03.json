@@ -2,53 +2,53 @@
   "date": "2026-11-03",
   "items": [
     {
-      "id": "2026-11-03-x-no-way-jd-vance-has-a-wario-jd-ford-goes-viral-o",
+      "id": "2026-11-03-x-blexas-texas-elects-its-first-democratic-senator",
       "platform": "x",
       "rank": 1,
-      "title": "\"NO WAY JD VANCE HAS A WARIO\": JD Ford goes viral on election night",
-      "summary": "As midterm results came in, a screenshot of Indiana's 5th District board, with bearded Democrat J.D. Ford leading Rep. Victoria Spartz, was posted with \"NO FUCKING WAY JD VANCE HAS A WARIO\" (340K likes), the most-liked post of election night. Replies quickly flipped it (\"thats JD Vances Mario\", \"JD Vance IS the Wario\"), and Ford went on to win, becoming Indiana's first openly gay member of Congress. It led a night of blue-wave jokes as Democrats took both chambers, with posts like \"REV UP THOSE PRONOUNS\" (305K) and \"rip dolly parton you would have loved blexas\" (265K).",
-      "kind": "image",
+      "title": "'Blexas': Texas elects its first Democratic senator since 1988",
+      "summary": "On midterm election night Democrat James Talarico beat Republican Ken Paxton to become Texas's first Democratic U.S. senator since 1988, and Gina Hinojosa unseated Gov. Greg Abbott to become the state's first Latina governor, as Democrats won control of both the House and the Senate. As the Texas returns came in, \"how do you fuck up being president so bad that you turn texas BLUE\" drew 772K likes, and the state was rechristened \"Blexas\" (\"she's from blexas i can tell by the way she's libbing round the room\"). Other Texas jokes followed: \"Trump got regime change in Texas before Iran\" (223K), \"we literally got blue texas before gta 6\" (165K) and, over a clip of car horns in downtown Austin, \"Austin Texas sounds like an Eastern European city that just overthrew a dictator\" (232K). They shared the timeline with blue-wave bits like \"REV UP THOSE PRONOUNS\" (305K) and a results board that made Indiana Democrat J.D. Ford \"JD Vance's Wario\" (341K).",
+      "kind": "moment",
       "tags": [
-        "jd-ford",
-        "jd-vance",
-        "wario",
+        "blexas",
+        "texas",
+        "james-talarico",
         "midterms"
       ],
-      "author": "@slightlysus1",
-      "sourceUrl": "https://x.com/slightlysus1/status/2117775845142278337",
+      "author": "@burritoprophet",
+      "sourceUrl": "https://x.com/burritoprophet/status/2117798607000928272",
       "metrics": {
-        "likes": "340.6K",
-        "replies": "296"
+        "likes": "771.8K",
+        "replies": "1.8K"
       },
       "references": [],
       "pulse": {
-        "score": 7.8,
-        "reach": 9,
-        "dominance": 8,
-        "memeability": 9,
+        "score": 8.2,
+        "reach": 10,
+        "dominance": 9,
+        "memeability": 8,
         "category": "politics",
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-10T04:40:51.073Z",
+      "collectedAt": "2026-11-10T08:01:48.087Z",
       "post": {
-        "name": "SlightlySus⁉️⁉️",
-        "handle": "@slightlysus1",
+        "name": "sam 🍂",
+        "handle": "@burritoprophet",
         "verified": false,
-        "avatar": "/media/avatars/slightlysus1.webp",
-        "text": "NO FUCKING WAY JD VANCE HAS A WARIO",
-        "postedAt": "2026-11-04T00:28:02.000Z"
+        "avatar": "/media/avatars/burritoprophet.webp",
+        "text": "how do you fuck up being president so bad that you turn texas BLUE",
+        "postedAt": "2026-11-04T01:58:29.000Z"
       },
       "image": {
-        "src": "/media/2026-11-03/2026-11-03-x-no-way-jd-vance-has-a-wario-jd-ford-goes-viral-o.webp",
-        "width": 720,
-        "height": 369,
-        "from": "https://pbs.twimg.com/media/HWPZ6AbW4AApBzL.jpg?name=medium",
+        "src": "/media/2026-11-03/2026-11-03-x-blexas-texas-elects-its-first-democratic-senator.webp",
+        "width": 1600,
+        "height": 1067,
+        "from": "https://assets.communityimpact.com/uploads/images/2026/11/04/7a300b79260cc219465a85ff0ad3292972b804e33c5a63b4e977eda854b19966.jpg",
         "crop": {
-          "x": 0.22,
-          "y": 0.22,
-          "w": 0.42,
-          "h": 0.62
+          "x": 0.38,
+          "y": 0.14,
+          "w": 0.36,
+          "h": 0.56
         }
       }
     }

@@ -2,52 +2,58 @@
   "date": "2026-10-17",
   "items": [
     {
-      "id": "2026-10-17-x-this-is-tommy-tommy-had-a-question-about-my-alle",
+      "id": "2026-10-17-x-limoges-town-hall-spire-collapses-as-france-s-ri",
       "platform": "x",
       "rank": 1,
-      "title": "\"This is Tommy. Tommy had a question about my allegiances.\"",
-      "summary": "At a Saturday town hall in Caro, Michigan, a young man who gave his name as Tommy demanded that Democratic Senate candidate Abdul El-Sayed disavow the Muslim Brotherhood. El-Sayed said \"Sure, yeah, absolutely,\" asked why Tommy assumed he wouldn't, compared it to the doubts once raised about JFK's Catholicism, then asked Tommy, a Christian, whether he would disavow writing religious doctrine into law. Tommy said no, and El-Sayed told him it was he who needed to understand the Constitution. El-Sayed's post of the clip that evening got 195K likes, the Guardian counted more than 50 million views across platforms, screenshots of Tommy's stare became reaction memes (BuzzFeed called him \"the funniest meme of the 2026 midterms\"), and by Monday the Handbasket and the Guardian had identified him from congressional staff records as a former aide to Sen. Josh Hawley.",
+      "title": "Limoges' town hall spire collapses as France's riots peak",
+      "summary": "France's Saturday cost-of-living day of action, swelled by the high-school blockade movement that began Sept. 17 at a lycée in Créteil and by former Yellow Vests, turned violent: rioters stormed Marseille's city hall and burned Lyon's tourist office, and around 6 p.m. masked men broke into Limoges' 143-year-old town hall and set it alight. At about 8:30 p.m. local time its 43-meter campanile came down in flames, and Globe Eye News' clip of the collapse got 42K likes, with replies like \"We really witnessing a second French Revolution bruh.\" The Interior Ministry counted 550,000 marchers (organizers said 800,000) and 2,397 arrests, and the BBC later called the ruins the defining image of the protests; fact-checkers flagged older clips, such as cars burning after PSG's Champions League win in May, being passed off as riot footage.",
       "kind": "video",
       "tags": [
-        "abdul-el-sayed",
-        "tommy",
-        "town-hall"
+        "limoges",
+        "france-protests",
+        "town-hall-fire",
+        "riots"
       ],
-      "author": "@AbdulElSayed",
-      "sourceUrl": "https://x.com/AbdulElSayed/status/2111627277578731885",
+      "author": "@GlobeEyeNews",
+      "sourceUrl": "https://x.com/GlobeEyeNews/status/2111551829079408774",
       "metrics": {
-        "likes": "195.1K",
-        "replies": "11K"
+        "likes": "42K",
+        "replies": "1.1K"
       },
-      "references": [],
+      "references": [
+        {
+          "title": "France protests: How a viral TikTok rumour, 132 million views and the ‘Young Vests’ slogan revived memorie",
+          "url": "https://m.economictimes.com/news/international/world-news/france-protests-how-a-viral-tiktok-rumour-132-million-views-and-the-young-vests-slogan-revived-memories-of-the-2018-yellow-vests-movemen/articleshow/135030732.cms"
+        }
+      ],
       "pulse": {
-        "score": 3.2,
-        "reach": 8,
+        "score": 6.7,
+        "reach": 9,
         "dominance": 8,
-        "memeability": 8,
-        "category": "politics",
+        "memeability": 4,
+        "category": "news",
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-10T04:46:54.834Z",
+      "collectedAt": "2026-11-10T07:56:18.065Z",
       "post": {
-        "name": "Dr. Abdul El-Sayed",
-        "handle": "@AbdulElSayed",
+        "name": "Globe Eye News",
+        "handle": "@GlobeEyeNews",
         "verified": true,
-        "avatar": "/media/avatars/abdulelsayed.webp",
-        "text": "This is Tommy. Tommy had a question about my allegiances. Listen to the end to hear about his.",
-        "postedAt": "2026-10-18T01:15:49.000Z"
+        "avatar": "/media/avatars/globeeyenews.webp",
+        "text": "BREAKING:\n\nHistoric 143-year-old Limoges town hall in France collapsed after protesters set it on fire.",
+        "postedAt": "2026-10-17T20:16:01.000Z"
       },
       "image": {
-        "src": "/media/2026-10-17/2026-10-17-x-this-is-tommy-tommy-had-a-question-about-my-alle.webp",
-        "width": 900,
-        "height": 1600,
-        "from": "https://video.twimg.com/amplify_video/2111627042059862016/vid/avc1/1080x1920/SVW3FDQnnoFt8mgu.mp4#t=204",
+        "src": "/media/2026-10-17/2026-10-17-x-limoges-town-hall-spire-collapses-as-france-s-ri.webp",
+        "width": 720,
+        "height": 1132,
+        "from": "https://video.twimg.com/amplify_video/2111526916666617856/vid/avc1/720x1132/hb_6TXYH8CKZaYa2.mp4#t=1.5",
         "crop": {
-          "x": 0,
-          "y": 0.15,
-          "w": 0.8,
-          "h": 0.6
+          "x": 0.22,
+          "y": 0.29,
+          "w": 0.56,
+          "h": 0.42
         }
       }
     }

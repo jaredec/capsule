@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Marlins Man chats up Dua Lipa at her first baseball game",
-      "summary": "At Game 3 of the Yankees-Rays ALDS, broadcast cameras caught Marlins Man, the famous fan in the orange jersey, chatting all night with Dua Lipa and her husband Callum Turner behind home plate. X users joked he was shooting his shot, not realizing her husband was right there. He later posted that he had no idea who they were, and that it was her first game and her first hot dog.",
+      "summary": "At Wednesday night's Game 3 of the Yankees-Rays ALDS, the broadcast kept catching Marlins Man, the famous fan in the orange jersey, chatting with Dua Lipa and her husband Callum Turner behind home plate. Afterward he posted \"So i had no idea who this couple were and they were so nice and friendly to everyone\" (138K likes), then added that it was her first baseball game and first American hot dog. The Rays won 4-3 to sweep the Yankees after a game-tying Anthony Volpe home run was overturned for fan interference.",
       "kind": "video",
       "tags": [
         "celebrity",
@@ -16,8 +16,8 @@
       "author": "@marlins_man",
       "sourceUrl": "https://x.com/marlins_man/status/2108058126263914691",
       "metrics": {
-        "likes": "138.3K",
-        "replies": "384"
+        "likes": "137.7K",
+        "replies": "382"
       },
       "references": [
         {
@@ -33,6 +33,16 @@
         "category": "celebrity",
         "crossover": true
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T06:03:42.624Z",
+      "post": {
+        "name": "Marlins_Man",
+        "handle": "@marlins_man",
+        "verified": true,
+        "avatar": "/media/avatars/marlins_man.webp",
+        "text": "So i had no idea who this couple were and they were so nice and friendly to everyone.  I told them i know sports, not music nor movies.  They recently got married in june in italy i think.  I wish them 50 years or more of happiness.",
+        "postedAt": "2026-10-08T04:53:17.000Z"
+      },
       "image": {
         "src": "/media/2026-10-07/2026-10-07-x-marlins-man-chats-up-dua-lipa-at-her-first-baseb.webp",
         "width": 1600,
@@ -44,17 +54,7 @@
           "w": 0.52,
           "h": 0.9
         }
-      },
-      "post": {
-        "name": "Marlins_Man",
-        "handle": "@marlins_man",
-        "verified": true,
-        "avatar": "/media/avatars/marlins_man.webp",
-        "text": "So i had no idea who this couple were and they were so nice and friendly to everyone.  I told them i know sports, not music nor movies.  They recently got married in june in italy i think.  I wish them 50 years or more of happiness.",
-        "postedAt": "2026-10-08T04:53:17.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-12T04:24:59.919Z"
+      }
     }
   ]
 }

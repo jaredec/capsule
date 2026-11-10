@@ -16,7 +16,7 @@
       "author": "@DiscussingFilm",
       "sourceUrl": "https://x.com/DiscussingFilm/status/2109832988485673255",
       "metrics": {
-        "likes": "348.2K",
+        "likes": "350.5K",
         "replies": "1"
       },
       "references": [],
@@ -30,14 +30,14 @@
       },
       "image": {
         "src": "/media/2026-10-12/2026-10-12-x-breaking-bad-s-rj-mitte-dies-at-34.webp",
-        "width": 811,
-        "height": 1200,
-        "from": "https://pbs.twimg.com/media/HUeh6y-WsAEujA9.jpg",
+        "width": 909,
+        "height": 1345,
+        "from": "https://pbs.twimg.com/media/HUeh6y-WsAEujA9.jpg?name=large",
         "crop": {
           "x": 0,
-          "y": 0,
+          "y": 0.02,
           "w": 1,
-          "h": 0.901
+          "h": 0.5
         }
       },
       "post": {
@@ -49,7 +49,7 @@
         "postedAt": "2026-10-13T02:25:57.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T03:17:03.928Z"
+      "collectedAt": "2026-11-10T07:05:04.774Z"
     }
   ]
 }

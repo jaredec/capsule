@@ -2,24 +2,34 @@
   "date": "2026-09-29",
   "items": [
     {
-      "id": "2026-09-29-x-suddenly-candace-owens-is-a-lesbian",
+      "id": "2026-09-29-x-katie-britt-s-face-as-a-hawks-hawkeyes-perjury-g",
       "platform": "x",
       "rank": 1,
-      "title": "\"Suddenly Candace Owens is a lesbian\"",
-      "summary": "A researcher posting as EsoShaggy claimed that leaked data from 2007-08 dating sites tied Candace Owens's old email addresses to four lesbian dating profiles. The claim was unverified and Owens called it \"the most Israel-coded accusations of all time\", but the timeline ran with it: \"Ur off this app for one day and suddenly Candace Owens is a lesbian\" got 107K likes, \"i don't have time for candace owens being a lesbian right now\" got 127K, and \"Candace Owens getting more pussy than me\" got 96K.",
-      "kind": "moment",
+      "title": "Katie Britt's face as a Hawks/Hawkeyes perjury gotcha collapses",
+      "summary": "At Jack Smith's Senate Judiciary hearing, Sen. Eric Schmitt called Smith a \"dirtbag\" and accused him of perjury, citing texts from Smith's staff that he said put Smith at a Warriors-Hawks game in Atlanta the day after Fani Willis disclosed her relationship with Nathan Wade. Smith said the only game he remembered was Iowa at Maryland, to watch Caitlin Clark, and Sen. Amy Klobuchar checked and confirmed it (\"Could it then be that the University of Iowa is the Hawkeyes?\"), and Sahil Kapur's clip of the full exchange got 32K likes. MS NOW's slow zoom on Sen. Katie Britt, sitting next to Schmitt with her mouth open, became the moment: she never explained the look, but people read it as secondhand embarrassment, @thepondering_'s clip got 40K likes, and the face spread as a reaction GIF far beyond politics, set to the Curb Your Enthusiasm theme and captioned for any \"something just went very wrong\" moment.",
+      "kind": "video",
       "tags": [
-        "candace-owens",
-        "meme",
-        "dating-profiles"
+        "katie-britt",
+        "jack-smith",
+        "eric-schmitt",
+        "reaction-gif"
       ],
-      "author": "@lesbianstatt",
-      "sourceUrl": "https://x.com/lesbianstatt/status/2104894507070247323",
+      "author": "@sahilkapur",
+      "sourceUrl": "https://x.com/sahilkapur/status/2104958793859616896",
       "metrics": {
-        "likes": "107.3K",
-        "replies": "42"
+        "likes": "32.5K",
+        "replies": "1.7K"
       },
-      "references": [],
+      "references": [
+        {
+          "title": "Sen. Katie Britt’s ‘look of utter horror’ as GOP colleague’s perjury accusation unravels during Jack Smith hearing goes viral",
+          "url": "https://nypost.com/2026/09/29/us-news/sen-katie-britts-look-of-utter-horror-as-gop-colleagues-perjury-accusation-unravels-during-jack-smith-hearing-goes-viral/"
+        },
+        {
+          "title": "Senator behind viral Jack Smith got blunder doubles down when confronted over error",
+          "url": "https://www.independent.co.uk/news/world/americas/us-politics/jack-smith-schmitt-katie-britt-gotcha-b3059002.html"
+        }
+      ],
       "pulse": {
         "score": 8.3,
         "reach": 8,
@@ -28,28 +38,34 @@
         "category": "internet-culture",
         "crossover": true
       },
-      "image": {
-        "src": "/media/2026-09-29/2026-09-29-x-suddenly-candace-owens-is-a-lesbian.webp",
-        "width": 1200,
-        "height": 1600,
-        "from": "https://x.com/lesbianstatt/status/2104894507070247323",
-        "crop": {
-          "x": 0,
-          "y": 0,
-          "w": 1,
-          "h": 1
-        }
-      },
-      "post": {
-        "name": "el🧛🏻‍♀️🕊️",
-        "handle": "@lesbianstatt",
-        "verified": false,
-        "avatar": "/media/avatars/lesbianstatt.webp",
-        "text": "Ur off this app for one day and suddenly Candace Owens is a lesbian",
-        "postedAt": "2026-09-29T11:22:12.000Z"
-      },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T06:07:10.251Z"
+      "collectedAt": "2026-11-10T08:20:15.633Z",
+      "post": {
+        "name": "Sahil Kapur",
+        "handle": "@sahilkapur",
+        "verified": true,
+        "avatar": "/media/avatars/sahilkapur.webp",
+        "text": "A phenomenal moment in the Senate.\n\nEric Schmitt, R-Mo., claims he has evidence Jack Smith went to a HAWKS game in Atlanta.\n\nSmith denies it.\n\nSchmitt declares he has busted Jack Smith for perjury.\n\nSmith, vexed, says he went to HAWKEYES game in Maryland.\n\nWatch the whole thing:",
+        "postedAt": "2026-09-29T15:37:39.000Z"
+      },
+      "image": {
+        "src": "/media/2026-09-29/2026-09-29-x-katie-britt-s-face-as-a-hawks-hawkeyes-perjury-g.webp",
+        "width": 1600,
+        "height": 900,
+        "from": "https://video.twimg.com/amplify_video/2104968580336930817/vid/avc1/1920x1080/Ke_BR3ycHqVsASEy.mp4#t=11",
+        "crop": {
+          "x": 0.29,
+          "y": 0.14,
+          "w": 0.42,
+          "h": 0.743
+        },
+        "bounds": {
+          "x": 0,
+          "y": 0.12,
+          "w": 1,
+          "h": 0.763
+        }
+      }
     }
   ]
 }

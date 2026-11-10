@@ -2,55 +2,64 @@
   "date": "2026-09-05",
   "items": [
     {
-      "id": "2026-09-05-x-they-got-the-hot-dog-in-the-bun",
+      "id": "2026-09-05-x-a-fan-yells-pattinson-s-own-beggars-meme-at-him-",
       "platform": "x",
       "rank": 1,
-      "title": "\"THEY GOT THE HOT DOG IN THE BUN\"",
-      "summary": "Fans at a Blue Jays game passed an inflatable hot dog and an inflatable bun around the stands until they got the hot dog into the bun. Sportsnet's clip got 118K likes, and quote posts like \"this is what baseball is about\" added more than 500K.",
+      "title": "A fan yells Pattinson's own \"beggars\" meme at him in Venice",
+      "summary": "Robert Pattinson was signing autographs for a crush of fans outside the Venice premiere of Primetime when someone shouted \"Somebody get these beggars out of here!\", his line as the suitor Antinous in Christopher Nolan's The Odyssey and one of the year's most-used movie memes. Pattinson looked up and broke into laughter. DiscussingFilm's repost of the clip got 181K likes and the original by @leadaal 57K, with people calling it the meme escaping the screen.",
       "kind": "video",
       "tags": [
-        "baseball",
-        "blue-jays",
-        "hot-dog",
-        "crowd"
+        "robert-pattinson",
+        "the-odyssey",
+        "venice-film-festival",
+        "beggars"
       ],
-      "author": "@Sportsnet",
-      "sourceUrl": "https://x.com/Sportsnet/status/2096395978723021299",
+      "author": "@DiscussingFilm",
+      "sourceUrl": "https://x.com/DiscussingFilm/status/2096304153899209070",
       "metrics": {
-        "likes": "118.2K",
-        "replies": "611"
+        "likes": "181.1K",
+        "replies": "309"
       },
-      "references": [],
+      "references": [
+        {
+          "title": "Robert Pattinson reacts after fan yells iconic ‘The Odyssey' line at him",
+          "url": "https://www.geo.tv/latest/680891-robert-pattinson-reacts-after-fan-yells-iconic-the-odyssey-line-at-him"
+        },
+        {
+          "title": "Robert Pattinson cracks up after fan quotes his 'beggars' line from 'The Odyssey' in viral video",
+          "url": "https://news.meaww.com/robert-pattinson-cracks-up-after-fan-quotes-his-beggars-line-from-the-odyssey-in-viral-video"
+        }
+      ],
       "pulse": {
-        "score": 6.3,
-        "reach": 7,
-        "dominance": 7,
-        "memeability": 7,
-        "category": "sports",
+        "score": 8.3,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 9,
+        "category": "celebrity",
         "crossover": true
       },
       "image": {
-        "src": "/media/2026-09-05/2026-09-05-x-they-got-the-hot-dog-in-the-bun.webp",
-        "width": 1600,
-        "height": 900,
-        "from": "https://video.twimg.com/amplify_video/2096395913510166528/vid/avc1/1920x1080/XzpCWuY35z5J_rlv.mp4#t=17",
+        "src": "/media/2026-09-05/2026-09-05-x-a-fan-yells-pattinson-s-own-beggars-meme-at-him-.webp",
+        "width": 720,
+        "height": 1280,
+        "from": "https://video.twimg.com/amplify_video/2096251168288907264/vid/avc1/720x1280/Kj36OejodClZOv9c.mp4#t=3",
         "crop": {
-          "x": 0.235,
-          "y": 0,
-          "w": 0.421875,
-          "h": 1
+          "x": 0.12,
+          "y": 0.32,
+          "w": 0.68,
+          "h": 0.42
         }
       },
       "post": {
-        "name": "Sportsnet",
-        "handle": "@Sportsnet",
+        "name": "DiscussingFilm",
+        "handle": "@DiscussingFilm",
         "verified": true,
-        "avatar": "/media/avatars/sportsnet.webp",
-        "text": "THEY GOT THE HOT DOG IN THE BUN 🌭",
-        "postedAt": "2026-09-06T00:32:05.000Z"
+        "avatar": "/media/avatars/discussingfilm.webp",
+        "text": "Robert Pattinson laughs after a fan yells “somebody get these BEGGARS out of here” at people asking him for autographs.\n\n(via: @leadaal)",
+        "postedAt": "2026-09-05T18:27:12.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T06:07:05.495Z"
+      "collectedAt": "2026-11-10T07:13:17.116Z"
     }
   ]
 }

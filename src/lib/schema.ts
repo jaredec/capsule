@@ -39,7 +39,7 @@ export const pulseSchema = z.object({
 
 const unit = z.number().min(0).max(1);
 
-/** The part of an image that matters, as fractions of its width and height; it's what fills a frame. */
+/** A region of an image, as fractions of its width and height. */
 export const cropSchema = z
   .object({ x: unit, y: unit, w: unit.positive(), h: unit.positive() })
   .refine((c) => c.x + c.w <= 1.0001 && c.y + c.h <= 1.0001, "crop must lie inside the image");
@@ -64,7 +64,10 @@ export const itemSchema = z.object({
       width: z.number(),
       height: z.number(),
       from: z.url(),
+      /** The subject: every frame shows all of it when the image leaves room, whatever the frame's shape. */
       crop: cropSchema.optional(),
+      /** What a frame may show around the subject (leaving out captions, tickers, a second photo); the whole image by default. */
+      bounds: cropSchema.optional(),
     })
     .optional(),
   /** Snapshot of the featured post, so the calendar can render it without loading the platform's embed. */

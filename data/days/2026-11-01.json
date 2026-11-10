@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Macaulay Culkin's thousand-yard stare costume, mistaken for blackface",
-      "summary": "Macaulay Culkin posted a dim Halloween selfie in a tilted helmet and olive-green face paint, recreating the thousand-yard stare soldier meme, captioned \"War. War never changes.\" DiscussingFilm's repost late on Oct 31 drew 351K likes and 16.5M views, and through Nov 1 the argument was whether the warm lighting made it look like blackface: \"Great costume but one small issue\" (48K) became the line everyone quoted, and X added a note saying the paint was green. Paparazzi photos then showed he was a green army man from Toy Story, trick-or-treating with Brenda Song as Jessie and their son as Buzz Lightyear.",
+      "summary": "Macaulay Culkin posted a dim Halloween selfie in a tilted helmet and olive-green face paint, recreating the thousand-yard stare soldier meme, captioned \"War. War never changes.\" DiscussingFilm's repost late on Oct 31 drew 351K likes and 17M views, and through Nov 1 the argument was whether the warm lighting made it look like blackface: the top reply was the Tropic Thunder jab \"nah that's Kirk Lazarus\" (15K), and X added a note saying the paint was green. Paparazzi photos then showed he was a green army man from Toy Story, trick-or-treating with Brenda Song as Jessie and their son as Buzz Lightyear.",
       "kind": "image",
       "tags": [
         "macaulay-culkin",
@@ -34,8 +34,24 @@
         "category": "celebrity",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-10T04:40:12.468Z",
+      "image": {
+        "src": "/media/2026-11-01/2026-11-01-x-macaulay-culkin-s-thousand-yard-stare-costume-mi.webp",
+        "width": 1600,
+        "height": 1077,
+        "from": "https://x.com/DiscussingFilm/status/2116776966141415441#photos",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 0.505,
+          "h": 1
+        },
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.51,
+          "h": 1
+        }
+      },
       "post": {
         "name": "DiscussingFilm",
         "handle": "@DiscussingFilm",
@@ -44,18 +60,8 @@
         "text": "Macaulay Culkin recreating the thousand-yard stare soldier meme for Halloween.",
         "postedAt": "2026-11-01T06:18:51.000Z"
       },
-      "image": {
-        "src": "/media/2026-11-01/2026-11-01-x-macaulay-culkin-s-thousand-yard-stare-costume-mi.webp",
-        "width": 720,
-        "height": 484,
-        "from": "https://x.com/DiscussingFilm/status/2116776966141415441#photos",
-        "crop": {
-          "x": 0,
-          "y": 0,
-          "w": 0.504,
-          "h": 1
-        }
-      }
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T05:09:15.380Z"
     }
   ]
 }

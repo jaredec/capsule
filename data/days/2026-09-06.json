@@ -2,55 +2,74 @@
   "date": "2026-09-06",
   "items": [
     {
-      "id": "2026-09-06-x-a24-s-teaser-for-nathan-fielder-s-elizabeth-holm",
+      "id": "2026-09-06-x-trump-wants-to-rename-new-mexico-new-america",
       "platform": "x",
       "rank": 1,
-      "title": "A24's teaser for Nathan Fielder's Elizabeth Holmes documentary",
-      "summary": "A24 posted the first teaser for You Can See Everything, a documentary by Nathan Fielder and Lance Oppenheim that follows Theranos founder Elizabeth Holmes in the 34 days before she reported to prison. People fixated on the close-ups of the two sizing each other up, with one quote calling it \"the look of a fake lunatic realizing he's met a real one\".",
-      "kind": "video",
+      "title": "Trump wants to rename New Mexico \"New America\"",
+      "summary": "Trump posted on Truth Social: \"Many people suggested changing the name of New Mexico, one of the great vote cheating states of all time, to NEW AMERICA. So much more prestigious and beautiful for the people of that potentially incredible State. Wow, I Love It!!!\" The White House followed with a map of the state with \"Mexico\" crossed out, which got 52K likes and 7.3K replies. New Mexico Sen. Martin Heinrich answered that there are three things he will always call by their actual names: the Gulf of Mexico, Lake Ontario and New Mexico. It was part of a Sunday posting spree that also declared \"THE MOON IS OURS.\" A president has no power to rename a state.",
+      "kind": "image",
       "tags": [
-        "nathan-fielder",
-        "elizabeth-holmes",
-        "a24",
-        "trailer"
+        "donald-trump",
+        "new-mexico",
+        "new-america",
+        "renaming"
       ],
-      "author": "@A24",
-      "sourceUrl": "https://x.com/A24/status/2096757842435084301",
+      "author": "@WhiteHouse",
+      "sourceUrl": "https://x.com/WhiteHouse/status/2096657477928448250",
       "metrics": {
-        "likes": "78.6K",
-        "replies": "1.6K"
+        "likes": "52.2K",
+        "replies": "7.3K"
       },
-      "references": [],
+      "references": [
+        {
+          "title": "Trump posts map suggesting New Mexico be renamed 'New America'",
+          "url": "https://thenationaldesk.com/news/americas-news-now/trump-new-mexico-new-america-name-map-truth-social"
+        },
+        {
+          "title": "Trump suggests renaming New Mexico amid torrent of online memes and taunts",
+          "url": "https://www.washingtonpost.com/politics/2026/09/07/trump-suggests-renaming-new-mexico-amid-torrent-online-memes-taunts/"
+        },
+        {
+          "title": "Trump Touts Renaming New Mexico, Claims ‘Moon Is Ours’",
+          "url": "https://www.newsweek.com/trump-rename-new-mexico-claims-moon-is-ours-12410814"
+        }
+      ],
       "pulse": {
-        "score": 7,
-        "reach": 7,
+        "score": 3.1,
+        "reach": 8,
         "dominance": 7,
-        "memeability": 7,
-        "category": "tv-film",
+        "memeability": 8,
+        "category": "politics",
         "crossover": true
       },
-      "image": {
-        "src": "/media/2026-09-06/2026-09-06-x-a24-s-teaser-for-nathan-fielder-s-elizabeth-holm.webp",
-        "width": 1600,
-        "height": 1200,
-        "from": "https://video.twimg.com/amplify_video/2096599674694049794/vid/avc1/1920x1440/ZZ4uJmjRSRrLL1KU.mp4#t=20",
-        "crop": {
-          "x": 0.29,
-          "y": 0,
-          "w": 0.5625,
-          "h": 1
-        }
-      },
-      "post": {
-        "name": "A24",
-        "handle": "@A24",
-        "verified": true,
-        "avatar": "/media/avatars/a24.webp",
-        "text": "YOU CAN SEE EVERYTHING, a documentary by Nathan Fielder and Lance Oppenheim. Featuring Elizabeth Holmes. Only in theaters this October.",
-        "postedAt": "2026-09-07T00:30:00.000Z"
-      },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T02:42:51.258Z"
+      "collectedAt": "2026-11-10T07:13:51.400Z",
+      "post": {
+        "name": "The White House",
+        "handle": "@WhiteHouse",
+        "verified": true,
+        "avatar": "/media/avatars/whitehouse.webp",
+        "text": "",
+        "postedAt": "2026-09-06T17:51:11.000Z"
+      },
+      "image": {
+        "src": "/media/2026-09-06/2026-09-06-x-trump-wants-to-rename-new-mexico-new-america.webp",
+        "width": 735,
+        "height": 1200,
+        "from": "https://pbs.twimg.com/media/HRjS3KSW8AINFYt.jpg",
+        "crop": {
+          "x": 0.1,
+          "y": 0.24,
+          "w": 0.83,
+          "h": 0.62
+        },
+        "bounds": {
+          "x": 0.045,
+          "y": 0.11,
+          "w": 0.91,
+          "h": 0.86
+        }
+      }
     }
   ]
 }

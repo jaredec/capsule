@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "#kirkiversary: one year since Charlie Kirk's death",
-      "summary": "On the first anniversary of Charlie Kirk's death, #kirkiversary trended as X filled with Kirk memes. \"It's officially 1 AK (after Kirk)\" got 127K likes, a \"9/9-9/10-9/11\" meme pairing Kirk with Queen Elizabeth II and a plane got 470K, and Netflix UK joined in with \"Nearly did himself a neck injury\" (150K). Erika Kirk's own post, a wedding photo captioned \"...until Heaven.\", got 176K.",
+      "summary": "On the first anniversary of Charlie Kirk's killing, #kirkiversary trended as X and TikTok filled with memes about his death, while his supporters posted tributes. Everything Out Of Context's \"It's officially 1 AK (after Kirk)\" got 126K likes.",
       "kind": "image",
       "tags": [
         "charlie-kirk",
@@ -17,28 +17,34 @@
       "author": "@EverythingOOC",
       "sourceUrl": "https://x.com/EverythingOOC/status/2098000526491222133",
       "metrics": {
-        "likes": "127.2K",
+        "likes": "126.5K",
         "replies": "182"
       },
       "references": [],
       "pulse": {
-        "score": 9.3,
-        "reach": 9,
-        "dominance": 9,
-        "memeability": 10,
+        "score": 7.9,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 9,
         "category": "internet-culture",
         "crossover": true
       },
       "image": {
         "src": "/media/2026-09-10/2026-09-10-x-kirkiversary-one-year-since-charlie-kirk-s-death.webp",
-        "width": 1280,
-        "height": 1600,
-        "from": "https://pbs.twimg.com/media/HR2YW0_a0AAJ-aD.jpg?name=large",
+        "width": 960,
+        "height": 1200,
+        "from": "https://pbs.twimg.com/media/HR2YW0_a0AAJ-aD.jpg",
         "crop": {
-          "x": 0.031,
-          "y": 0,
-          "w": 0.938,
-          "h": 1
+          "x": 0.2,
+          "y": 0.06,
+          "w": 0.6,
+          "h": 0.54
+        },
+        "bounds": {
+          "x": 0,
+          "y": 0.04,
+          "w": 1,
+          "h": 0.58
         }
       },
       "post": {
@@ -50,7 +56,7 @@
         "postedAt": "2026-09-10T10:47:59.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-13T04:36:10.641Z"
+      "collectedAt": "2026-11-10T05:45:48.072Z"
     }
   ]
 }

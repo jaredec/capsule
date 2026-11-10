@@ -354,7 +354,10 @@ export type MediaOverrides = {
   imageUrl?: string;
   /** Second of the post's video to use as the still. */
   frameAt?: number;
+  /** The subject, which every frame keeps whole when it can. */
   crop?: Crop;
+  /** What frames may show around the subject; the whole image when absent. */
+  bounds?: Crop;
 };
 
 /**
@@ -371,6 +374,7 @@ export async function attachMedia(
     imageUrl,
     frameAt,
     crop,
+    bounds,
     log = console.log,
   }: MediaOverrides & { redoImage?: boolean; log?: (m: string) => void } = {},
 ): Promise<Item> {
@@ -402,8 +406,11 @@ export async function attachMedia(
   }
   if (out.image) {
     const image = out.image;
-    const kept = item.image && sameSource(item.image.from, image.from) ? item.image.crop : undefined;
-    out.image = { ...image, crop: crop ?? kept ?? (await autoCrop(path.join("public", image.src))) };
+    const same = item.image && sameSource(item.image.from, image.from) ? item.image : undefined;
+    out.image = { ...image, crop: crop ?? same?.crop ?? (await autoCrop(path.join("public", image.src))) };
+    const kept = bounds ?? same?.bounds;
+    if (kept) out.image.bounds = kept;
+    else delete out.image.bounds;
   }
   return out;
 }

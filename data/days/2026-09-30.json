@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Mike Tomlin reveals the Minecraft city he built for 12 years",
-      "summary": "Former Steelers coach Mike Tomlin posted \"Tonight. 8 p.m. My Minecraft City.\" (163K likes) and premiered a YouTube tour of a Minecraft city he has been building for 12 years, down to the interiors of its high-rise apartments. Clips of the tour took over the timeline and the jokes followed: \"mike tomlin has 100% stood on an nfl sideline pretending to listen to the headset while thinking about something he was gonna build in minecraft later\" (62K), a fake report that he banned Antonio Brown from his server for blowing up a hospital with TNT (43K), and people asking what happened to the villagers who used to live there.",
+      "summary": "Former Steelers coach Mike Tomlin posted \"Tonight. 8 p.m. My Minecraft City.\" (162K likes) and premiered a YouTube tour of a Minecraft city he has been building for 12 years, down to the interiors of its high-rise apartments. Clips of the tour took over the timeline and the jokes followed: \"mike tomlin has 100% stood on an nfl sideline pretending to listen to the headset while thinking about something he was gonna build in minecraft later\" (62K), and people asking what happened to the villagers who used to live there.",
       "kind": "video",
       "tags": [
         "nfl",
@@ -17,7 +17,7 @@
       "author": "@CoachTomlin",
       "sourceUrl": "https://x.com/CoachTomlin/status/2105331631913672735",
       "metrics": {
-        "likes": "163.4K",
+        "likes": "162.4K",
         "replies": "1.5K"
       },
       "references": [],
@@ -31,14 +31,20 @@
       },
       "image": {
         "src": "/media/2026-09-30/2026-09-30-x-mike-tomlin-reveals-the-minecraft-city-he-built-.webp",
-        "width": 1200,
-        "height": 675,
-        "from": "https://pbs.twimg.com/media/HTej9dYWUAAPM1n.jpg?name=medium",
+        "width": 1600,
+        "height": 900,
+        "from": "https://pbs.twimg.com/media/HTej9dYWUAAPM1n.jpg?name=orig",
         "crop": {
-          "x": 0.56,
+          "x": 0.7,
+          "y": 0.26,
+          "w": 0.3,
+          "h": 0.44
+        },
+        "bounds": {
+          "x": 0.5,
           "y": 0,
-          "w": 0.44,
-          "h": 1
+          "w": 0.5,
+          "h": 0.7
         }
       },
       "post": {
@@ -50,7 +56,7 @@
         "postedAt": "2026-09-30T16:19:10.000Z"
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-10-14T04:13:24.441Z"
+      "collectedAt": "2026-11-10T06:04:49.174Z"
     }
   ]
 }
