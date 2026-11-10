@@ -11,9 +11,12 @@ import { BROWSER_UA, decodeEntities, fetchText } from "./http";
 import { renderPostCard } from "./postCard";
 
 const MEDIA_DIR = path.join(process.cwd(), "public", "media");
-const MAX_WIDTH = 720;
+// Week cards show a tall slice of a frame and the day card a large one, both on high-density
+// screens, so stills keep up to 1600px on their long side.
+const MAX_SIDE = 1600;
+const QUALITY = 82;
 const MIN_WIDTH = 300;
-const AVATAR_SIZE = 96;
+const AVATAR_SIZE = 192;
 
 function metaImage(html: string): string | null {
   for (const prop of ["og:image", "twitter:image", "og:image:url"]) {
@@ -48,7 +51,7 @@ function youtubeId(url: string): string | null {
 /** Preview images worth trying after the post's video: its photo or poster, then thumbnails and coverage images. */
 async function imageCandidates(item: Item, post: XPost | null): Promise<string[]> {
   const out: string[] = [];
-  if (post?.mediaUrl) out.push(post.mediaUrl.includes("pbs.twimg.com/media") ? `${post.mediaUrl}?name=medium` : post.mediaUrl);
+  if (post?.mediaUrl) out.push(post.mediaUrl.includes("pbs.twimg.com/media") ? `${post.mediaUrl}?name=large` : post.mediaUrl);
   if (item.sourceUrl?.includes("tiktok.com")) {
     const thumb = await tiktokThumbnail(item.sourceUrl);
     if (thumb) out.push(thumb);
@@ -204,13 +207,16 @@ async function representativeFrame(videoUrl: string, item: Item, at?: number): P
   }
 }
 
-type Still = { from: string; bytes: Buffer | null };
+type Still = { from: string; bytes: Buffer | null; minWidth?: number };
+
+// A coverage photo stands in for a text-only post only when it's sharp enough to fill a card.
+const STAND_IN_WIDTH = 1000;
 
 const PHOTO_GAP = 4;
 
 /** Two photos at the same height with a thin white gap, the way X lays out a two-photo post. */
 async function sideBySide(urls: string[]): Promise<Buffer | null> {
-  const files = await Promise.all(urls.map((u) => download(u.includes("pbs.twimg.com/media") ? `${u}?name=medium` : u)));
+  const files = await Promise.all(urls.map((u) => download(u.includes("pbs.twimg.com/media") ? `${u}?name=large` : u)));
   if (files.some((f) => !f)) return null;
   try {
     const height = Math.min(...(await Promise.all(files.map(async (f) => (await sharp(f!).metadata()).height ?? 0))));
@@ -233,7 +239,8 @@ async function sideBySide(urls: string[]): Promise<Buffer | null> {
 
 /**
  * Stills to try, best first: the editor's image, a representative video frame, a two-photo post's
- * photos side by side, an image of the post itself when it's text-only, then preview images.
+ * photos side by side, then for a text-only post a sharp coverage photo or else an image of the
+ * post itself, then preview images.
  */
 async function* stills(
   item: Item,
@@ -254,10 +261,12 @@ async function* stills(
   if (post?.photos.length === 2) {
     yield { from: `${post.url}#photos`, bytes: await sideBySide(post.photos) };
   }
+  const candidates = await imageCandidates(item, post);
   if (post && !post.mediaUrl && !post.videoUrl && post.text) {
+    for (const url of candidates) yield { from: url, bytes: await download(url), minWidth: STAND_IN_WIDTH };
     yield { from: post.url, bytes: await renderPostCard(post, avatarFile).catch(() => null) };
   }
-  for (const url of await imageCandidates(item, post)) yield { from: url, bytes: await download(url) };
+  for (const url of candidates) yield { from: url, bytes: await download(url) };
 }
 
 async function storeImage(
@@ -267,16 +276,17 @@ async function storeImage(
   log: (m: string) => void,
   { imageUrl, frameAt, avatarFile }: { imageUrl?: string; frameAt?: number; avatarFile: string | null },
 ): Promise<Item["image"]> {
-  for await (const { from, bytes } of stills(item, post, avatarFile, imageUrl, frameAt)) {
+  for await (const { from, bytes, minWidth = MIN_WIDTH } of stills(item, post, avatarFile, imageUrl, frameAt)) {
     if (!bytes) continue;
     try {
       const image = sharp(bytes, { failOn: "none" });
       const meta = await image.metadata();
-      if (!meta.width || meta.width < MIN_WIDTH) continue;
+      if (!meta.width || meta.width < minWidth) continue;
       const dir = path.join(MEDIA_DIR, date);
       fs.mkdirSync(dir, { recursive: true });
       const file = path.join(dir, `${item.id}.webp`);
-      const info = await image.rotate().resize({ width: MAX_WIDTH, withoutEnlargement: true }).webp({ quality: 72 }).toFile(file);
+      const info = await image.rotate().resize({ width: MAX_SIDE, height: MAX_SIDE, fit: "inside", withoutEnlargement: true })
+        .webp({ quality: QUALITY, smartSubsample: true }).toFile(file);
       return { src: `/media/${date}/${item.id}.webp`, width: info.width, height: info.height, from };
     } catch {
       continue;
@@ -329,6 +339,15 @@ async function storeAvatar(post: XPost): Promise<string | null> {
   }
 }
 
+/** Whether two stills come from the same picture: the same photo at another size, or the same second of the same video. */
+function sameSource(a: string, b: string): boolean {
+  const key = (s: string) => {
+    const video = s.match(/(?:ext_tw_video|amplify_video|tweet_video)\/(\d+)\/.*?(#t=[\d.]+)$/);
+    return video ? `${video[1]}${video[2]}` : s.replace(/\?name=\w+$/, "");
+  };
+  return a === b || key(a) === key(b);
+}
+
 /** Editor choices from a picks file; each beats what the pipeline would pick. */
 export type MediaOverrides = {
   /** A still to use instead of the post's own media, or a video URL ending in "#t=<seconds>" for that frame. */
@@ -370,15 +389,21 @@ export async function attachMedia(
   }
   const from = item.image?.from ?? "";
   if (imageUrl ? from !== imageUrl : frameAt !== undefined && !from.endsWith(`#t=${frameAt}`)) redoImage = true;
+  // Redoing an image (say, at a higher resolution) keeps the frame it was taken from, so a
+  // still someone checked doesn't silently become another one.
+  const keptAt = from.match(/#t=([\d.]+)$/)?.[1];
+  if (redoImage && frameAt === undefined && !imageUrl && keptAt && post?.videoUrl) frameAt = Number(keptAt);
   if (!item.image || redoImage) {
     const avatarFile = out.post?.avatar ? path.join("public", out.post.avatar) : null;
     const image = await storeImage(date, item, post, log, { imageUrl, frameAt, avatarFile });
+    // A post deleted or a video taken down since leaves the stored image as the only copy.
     if (image) out.image = image;
-    else delete out.image;
+    if (image && item.image && !sameSource(item.image.from, image.from)) log(`    image source changed: ${item.image.from} -> ${image.from}`);
   }
   if (out.image) {
     const image = out.image;
-    out.image = { ...image, crop: crop ?? (redoImage ? undefined : image.crop) ?? (await autoCrop(path.join("public", image.src))) };
+    const kept = item.image && sameSource(item.image.from, image.from) ? item.image.crop : undefined;
+    out.image = { ...image, crop: crop ?? kept ?? (await autoCrop(path.join("public", image.src))) };
   }
   return out;
 }

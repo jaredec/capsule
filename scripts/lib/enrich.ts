@@ -45,7 +45,7 @@ type SyndicatedMedia = {
 
 function media(t: SyndicatedMedia): Pick<XPost, "mediaUrl" | "photos" | "videoUrl"> {
   // Variant URLs carry their size (".../vid/avc1/720x1280/..."); the smallest whose short side
-  // reaches 720px is plenty for a 720px still and avoids downloading 4K files.
+  // reaches 1080px is plenty for a 1600px still and avoids downloading 4K files.
   const mp4s = (t.video?.variants ?? [])
     .filter((v) => v.type === "video/mp4" && v.src)
     .map((v) => {
@@ -56,15 +56,17 @@ function media(t: SyndicatedMedia): Pick<XPost, "mediaUrl" | "photos" | "videoUr
   return {
     mediaUrl: t.photos?.[0]?.url ?? t.video?.poster ?? t.mediaDetails?.[0]?.media_url_https ?? null,
     photos: (t.photos ?? []).flatMap((p) => (p.url ? [p.url] : [])),
-    videoUrl: (mp4s.find((v) => v.short >= 720) ?? mp4s.at(-1))?.src ?? null,
+    videoUrl: (mp4s.find((v) => v.short >= 1080) ?? mp4s.at(-1))?.src ?? null,
   };
 }
 
 type SyndicatedTweet = {
   text?: string;
   display_text_range?: [number, number];
-  entities?: { urls?: { url: string; display_url: string }[]; media?: { indices: [number, number] }[] };
+  entities?: { urls?: { url: string; display_url: string; expanded_url?: string }[]; media?: { indices: [number, number] }[] };
 };
+
+const MEDIA_LINK = /^https:\/\/(?:x|twitter)\.com\/\w+\/status\/\d+\/(?:photo|video)\/\d+$/;
 
 function postText(t: SyndicatedTweet): string {
   // display_text_range counts code points of the still-escaped text and excludes the trailing media link.
@@ -73,7 +75,8 @@ function postText(t: SyndicatedTweet): string {
   // The range sometimes overlaps the media link by a character.
   const end = Math.min(rangeEnd, ...(t.entities?.media ?? []).map((m) => m.indices[0]));
   let text = chars.slice(start, end).join("");
-  for (const u of t.entities?.urls ?? []) text = text.replace(u.url, u.display_url);
+  // A link to another post's photo or video is that media embedded, even when X no longer attaches it.
+  for (const u of t.entities?.urls ?? []) text = text.replace(u.url, MEDIA_LINK.test(u.expanded_url ?? "") ? "" : u.display_url);
   return decodeEntities(text.replace(/https:\/\/t\.co\/\w+/g, "")).trim();
 }
 
@@ -103,7 +106,7 @@ function toXPost(t: Syndicated, id: string): XPost | null {
     handle: `@${t.user.screen_name}`,
     name: t.user.name ?? t.user.screen_name,
     verified: Boolean(t.user.is_blue_verified || t.user.verified),
-    avatarUrl: t.user.profile_image_url_https?.replace("_normal.", "_bigger.") ?? null,
+    avatarUrl: t.user.profile_image_url_https?.replace("_normal.", "_400x400.") ?? null,
     text: postText(t),
     truncated: Boolean(t.note_tweet),
     likes: t.favorite_count ?? 0,
@@ -168,13 +171,18 @@ export async function enrichStory(date: string, headlines: Headline[], maxArticl
     const featured = originalPost(post);
     if (!xPosts.some((p) => p.url === featured.url)) xPosts.push(featured);
   }
-  xPosts.sort((a, b) => languageRank(a) - languageRank(b) || b.likes - a.likes);
+  xPosts.sort((a, b) => languageRank(a) - languageRank(b) || weight(b) - weight(a));
 
   return { references, xPosts };
 }
 
 // X's codes for posts without real text: media or links only, emoji, hashtags, mentions, too short.
 const NO_LANGUAGE = new Set(["zxx", "und", "qme", "qam", "qct", "qht", "qst", "art"]);
+
+/** A day shows its post's photo or video, so a text-only post has to be far bigger to be featured. */
+function weight(post: XPost): number {
+  return post.mediaUrl || post.videoUrl ? post.likes * 5 : post.likes;
+}
 
 /** The featured post is quoted in an English archive: English first, then posts with no text to read, then the rest. */
 function languageRank(post: XPost): number {

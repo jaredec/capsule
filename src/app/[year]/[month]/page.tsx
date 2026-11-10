@@ -4,6 +4,9 @@ import { MonthPage } from "@/components/MonthPage";
 import { MONTH_NAMES } from "@/lib/dates";
 import { getArchivedMonths } from "@/lib/data";
 
+// Every month is prerendered from generateStaticParams and prefetched by its neighbors.
+export const instant = false;
+
 export function generateStaticParams() {
   return getArchivedMonths().map(({ year, month }) => ({
     year: String(year),

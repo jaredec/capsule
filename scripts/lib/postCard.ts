@@ -3,10 +3,12 @@ import sharp, { type OverlayOptions } from "sharp";
 import type { XPost } from "./enrich";
 
 // A 3:4 card fills a calendar cell without cropping.
-const WIDTH = 720;
-const HEIGHT = 960;
-const PAD = 56;
-const AVATAR = 88;
+// Laid out in 720x960 points and rendered at twice that, so the card stays crisp on high-density screens.
+const S = 2;
+const WIDTH = 720 * S;
+const HEIGHT = 960 * S;
+const PAD = 56 * S;
+const AVATAR = 88 * S;
 const FONT = "Inter, Helvetica Neue, Arial, Liberation Sans, DejaVu Sans";
 const INK = "#0f1419";
 const MUTED = "#536471";
@@ -21,13 +23,13 @@ const escape = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").rep
 
 type Rendered = { data: Buffer; width: number; height: number };
 
-/** Pango markup rendered at 72 dpi, so sizes are pixels. */
+/** Pango markup rendered at 72 dpi times the scale, so sizes are points of the 720x960 layout. */
 async function text(markup: string, size: number, width?: number): Promise<Rendered> {
   const { data, info } = await sharp({
     text: {
       text: markup,
       font: `${FONT} ${size}`,
-      dpi: 72,
+      dpi: 72 * S,
       rgba: true,
       ...(width ? { width, wrap: "word" as const } : {}),
     },
@@ -61,8 +63,8 @@ function timestamp(createdAt: string): string {
 export async function renderPostCard(post: XPost, avatarFile: string | null): Promise<Buffer> {
   const inner = WIDTH - 2 * PAD;
   const body = escape(post.text) + (post.truncated ? `… <span foreground="${BLUE}">Show\u00a0more</span>` : "");
-  const header = 88;
-  const gap = 32;
+  const header = 88 * S;
+  const gap = 32 * S;
   const footer = await text(`<span foreground="${MUTED}">${escape(timestamp(post.createdAt))}</span>`, 26);
   let size = 40;
   let rendered = await text(`<span foreground="${INK}">${body}</span>`, size, inner);
@@ -71,18 +73,18 @@ export async function renderPostCard(post: XPost, avatarFile: string | null): Pr
     rendered = await text(`<span foreground="${INK}">${body}</span>`, size, inner);
   }
 
-  const nameX = PAD + AVATAR + 20;
+  const nameX = PAD + AVATAR + 20 * S;
   const name = await text(`<span foreground="${INK}" weight="bold">${escape(post.name)}</span>`, 32);
   const handle = await text(`<span foreground="${MUTED}">${escape(post.handle)}</span>`, 28);
   const top = Math.round((HEIGHT - (header + gap + rendered.height + gap + footer.height)) / 2);
   const layers: OverlayOptions[] = [
     { input: await avatar(avatarFile), left: PAD, top },
-    { input: name.data, left: nameX, top: top + 8 },
-    { input: handle.data, left: nameX, top: top + 50 },
+    { input: name.data, left: nameX, top: top + 8 * S },
+    { input: handle.data, left: nameX, top: top + 50 * S },
     { input: rendered.data, left: PAD, top: top + header + gap },
     { input: footer.data, left: PAD, top: top + header + gap + rendered.height + gap },
   ];
-  if (post.verified) layers.push({ input: VERIFIED_SVG(30), left: nameX + name.width + 6, top: top + 10 });
+  if (post.verified) layers.push({ input: VERIFIED_SVG(30 * S), left: nameX + name.width + 6 * S, top: top + 10 * S });
   return sharp({ create: { width: WIDTH, height: HEIGHT, channels: 3, background: "#ffffff" } })
     .composite(layers)
     .png()

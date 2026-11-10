@@ -1,496 +1,604 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
-import { ChevronDown, ChevronLeft, ChevronRight, Play, X } from "lucide-react";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
+import { CalendarDays, ChevronLeft, ChevronRight } from "lucide-react";
+import {
+  ViewTransition,
+  addTransitionType,
+  startTransition,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import { mediaSrc } from "@/lib/basePath";
 import {
   MONTH_NAMES,
   WEEKDAYS_SHORT,
+  addDays,
   formatLongDate,
   formatShortDate,
+  formatWeekRange,
   monthGrid,
-  monthKey,
   parseIsoDate,
 } from "@/lib/dates";
 import { usePlatformFilter, useToday } from "@/lib/hooks";
-import { PLATFORM_META } from "@/lib/platforms";
-import { PLATFORMS, type Item, type Platform } from "@/lib/schema";
+import type { Item, Platform } from "@/lib/schema";
+import { DAY_IMAGE_SHARE, dayImageName, type Step } from "@/lib/transitions";
+import { useCalendarState, type CalendarView as View } from "./CalendarState";
 import { CroppedImage } from "./CroppedImage";
-import { ItemDetail } from "./ItemDetail";
+import { DayModal } from "./DayModal";
+import { isImageOfPost } from "./DayDetail";
+import { PlatformSwitcher } from "./PlatformSwitcher";
 
 type Props = {
   year: number;
   month: number;
+  /** Items for every day of the month's weeks, including the days of neighboring months. */
   itemsByDate: Record<string, Item[]>;
-  /** The archive's first day; earlier days are left blank rather than shown as missing. */
-  firstDate: string | null;
-  /** The archive's last day; later days read as not archived yet. */
+  /** Platforms with anything archived; the rest are listed as coming soon. */
+  platforms: Platform[];
+  /** The archive's last day. */
   lastDate: string | null;
   prevHref: string | null;
   nextHref: string | null;
 };
 
-type DayState = "archived" | "filtered" | "pending";
+const WEEKDAY_ROW = 28;
+/** Height over width of a day in the week view at its tallest: 3:4, the shape of the stored crops. */
+const WEEK_CARD_RATIO = 4 / 3;
+/** Width over height of a day in the month view at its widest, assuming six weeks. */
+const MONTH_CELL_ASPECT = 1.3;
 
-function dayState(date: string, visible: boolean, any: boolean, lastDate: string | null): DayState {
-  if (visible) return "archived";
-  if (any) return "filtered";
-  return lastDate && date > lastDate ? "pending" : "filtered";
+const STAGE_SHARE = {
+  "month-next": "grid-next",
+  "month-prev": "grid-prev",
+  "week-next": "grid-next",
+  "week-prev": "grid-prev",
+  "view-month": "stage-swap",
+  "view-week": "stage-swap",
+  default: "none",
+};
+const HEADER_UPDATE = { "view-month": "header-move", "view-week": "header-move", default: "none" };
+const LABEL_SHARE = {
+  "month-next": "roll-next",
+  "month-prev": "roll-prev",
+  "week-next": "roll-next",
+  "week-prev": "roll-prev",
+  "view-month": "roll-next",
+  "view-week": "roll-prev",
+  default: "none",
+};
+
+// Cells settle in on the first paint only; later changes arrive with their own transitions.
+let booted = false;
+
+function readDayParam(): string | null {
+  const day = new URLSearchParams(window.location.search).get("day");
+  return day && /^\d{4}-\d{2}-\d{2}$/.test(day) ? day : null;
 }
 
-const DRAWER_MS = 320;
+function urlWithDay(day: string | null): string {
+  const url = new URL(window.location.href);
+  if (day) url.searchParams.set("day", day);
+  else url.searchParams.delete("day");
+  return url.pathname + url.search;
+}
 
-export function Calendar({ year, month, itemsByDate, firstDate, lastDate, prevHref, nextHref }: Props) {
+export function Calendar({ year, month, itemsByDate, platforms, lastDate, prevHref, nextHref }: Props) {
+  const router = useRouter();
   const today = useToday();
-  const [platform, setPlatform] = usePlatformFilter();
-  const [selected, setSelected] = useState<string | null>(null);
+  const [platformParam, setPlatformParam] = usePlatformFilter();
+  const available = useMemo(() => new Set(platforms), [platforms]);
+  const platform: Platform =
+    platformParam && available.has(platformParam) ? platformParam : (platforms[0] ?? "x");
+
+  // The stagger comes off once played: the router hides and re-shows visited pages, which
+  // would restart it.
+  const [animateIn, setAnimateIn] = useState(() => !booted);
+  const { view, setView, week: weekPick, setWeek: setWeekPick } = useCalendarState();
+  useEffect(() => {
+    booted = true;
+    const timer = window.setTimeout(() => setAnimateIn(false), 1200);
+    return () => window.clearTimeout(timer);
+  }, []);
 
   const cells = useMemo(() => monthGrid(year, month), [year, month]);
-  const monthPrefix = `${monthKey({ year, month })}-`;
+  const weeks = cells.length / 7;
+  const monthPrefix = `${year}-${String(month).padStart(2, "0")}-`;
+  const weekStartOf = useCallback(
+    (date: string) => {
+      const i = cells.indexOf(date);
+      return i < 0 ? null : cells[i - (i % 7)];
+    },
+    [cells],
+  );
 
   const visible = useMemo(() => {
-    const out: Record<string, Item[]> = {};
+    const out: Record<string, Item> = {};
     for (const [date, items] of Object.entries(itemsByDate)) {
-      const filtered = platform ? items.filter((i) => i.platform === platform) : items;
-      if (filtered.length > 0) out[date] = filtered;
+      const top = items.find((i) => i.platform === platform);
+      if (top) out[date] = top;
     }
     return out;
   }, [itemsByDate, platform]);
-
-  const counts = useMemo(() => {
-    const c = Object.fromEntries(PLATFORMS.map((p) => [p, 0])) as Record<Platform, number>;
-    for (const items of Object.values(itemsByDate)) {
-      for (const p of new Set(items.map((i) => i.platform))) c[p]++;
-    }
-    return c;
-  }, [itemsByDate]);
-  const platformsWithData = PLATFORMS.filter((p) => counts[p] > 0).length;
-
-  const inMonth = (date: string) => date.startsWith(monthPrefix);
-  const shown = (date: string) => inMonth(date) && (Boolean(visible[date]) || !firstDate || date >= firstDate);
-  const isPending = (date: string) => Boolean(lastDate && date > lastDate);
-
-  // Weeks wholly past the archive's end collapse into one line instead of rows of empty cells.
-  const weeks = useMemo(() => {
-    const out: string[][] = [];
-    for (let i = 0; i < cells.length; i += 7) out.push(cells.slice(i, i + 7));
-    return out;
-  }, [cells]);
-  const isPendingWeek = (week: string[]) => week.filter(inMonth).every(isPending);
-  const shownWeeks = weeks.filter((w) => !isPendingWeek(w));
-  const pendingDays = cells.filter((d) => inMonth(d) && isPending(d));
-  const pendingNote = pendingDays.length > 0 && lastDate ? `Nothing archived after ${formatShortDate(lastDate)} yet.` : null;
-
   const archivedDates = useMemo(() => Object.keys(visible).sort(), [visible]);
-  const selectedIndex = selected ? archivedDates.indexOf(selected) : -1;
 
-  return (
-    <>
-      <div className="flex items-center justify-between gap-4">
-        <h1 className="min-w-0 font-display text-5xl leading-none whitespace-nowrap text-zinc-900 sm:text-6xl md:text-7xl">
-          {MONTH_NAMES[month - 1]} <span className="text-zinc-300">{year}</span>
-        </h1>
-        <div className="flex shrink-0 items-center gap-2">
-          {platformsWithData > 1 && <PlatformSelect value={platform} counts={counts} onChange={setPlatform} />}
-          <nav className="flex gap-1.5" aria-label="Month navigation">
-            <MonthLink href={prevHref} label="Previous month">
-              <ChevronLeft className="size-5" />
-            </MonthLink>
-            <MonthLink href={nextHref} label="Next month">
-              <ChevronRight className="size-5" />
-            </MonthLink>
-          </nav>
-        </div>
-      </div>
-      <p className="mt-3 text-[15px] text-zinc-500">The post that took over the internet, one day at a time.</p>
+  // The week shown: this week, else the month's latest archived week.
+  const defaultWeek = useMemo(() => {
+    const anchor = today && cells.includes(today) ? today : archivedDates.filter((d) => d.startsWith(monthPrefix)).at(-1);
+    return (anchor && weekStartOf(anchor)) ?? cells[0];
+  }, [today, cells, archivedDates, monthPrefix, weekStartOf]);
+  const weekStart = weekPick && cells.includes(weekPick) ? weekPick : defaultWeek;
+  const weekDays = useMemo(() => Array.from({ length: 7 }, (_, i) => addDays(weekStart, i)), [weekStart]);
 
-      {/* Desktop: month grid */}
-      <div className="mt-8 hidden md:block">
-        <div className="grid grid-cols-7 gap-2 pb-2.5 lg:gap-2.5">
-          {WEEKDAYS_SHORT.map((d) => (
-            <div key={d} className="px-1 text-xs font-medium tracking-wider text-zinc-400 uppercase">
-              {d}
-            </div>
-          ))}
-        </div>
-        <div className="grid grid-cols-7 gap-2 lg:gap-2.5">
-          {shownWeeks.flat().map((date) =>
-            shown(date) ? (
-              <DayCell
-                key={date}
-                date={date}
-                items={visible[date] ?? []}
-                state={dayState(date, Boolean(visible[date]), Boolean(itemsByDate[date]), lastDate)}
-                isToday={date === today}
-                onOpen={() => setSelected(date)}
-              />
-            ) : (
-              <div key={date} aria-hidden />
-            ),
-          )}
-          {pendingNote && shownWeeks.length < weeks.length && (
-            <p className="col-span-7 rounded-2xl border border-dashed border-zinc-300/80 px-5 py-4 text-center text-sm text-zinc-500">
-              {pendingNote}
-            </p>
-          )}
-        </div>
-      </div>
-
-      {/* Mobile: agenda list */}
-      <ol className="mt-6 space-y-2 md:hidden">
-        {cells
-          .filter((d) => shown(d) && !isPending(d))
-          .map((date) => {
-            const items = visible[date] ?? [];
-            return (
-              <li key={date}>
-                <AgendaRow date={date} items={items} isToday={date === today} onOpen={() => setSelected(date)} />
-              </li>
-            );
-          })}
-        {pendingNote && (
-          <li className="rounded-2xl border border-dashed border-zinc-300/80 px-4 py-3.5 text-center text-sm text-zinc-500">
-            {pendingNote}
-          </li>
-        )}
-      </ol>
-
-      {selected && visible[selected]?.[0] && (
-        <DayDrawer
-          date={selected}
-          item={visible[selected][0]}
-          prev={archivedDates[selectedIndex - 1] ?? null}
-          next={archivedDates[selectedIndex + 1] ?? null}
-          onNavigate={setSelected}
-          onClose={() => setSelected(null)}
-        />
-      )}
-    </>
-  );
-}
-
-const roundButton =
-  "grid size-10 place-items-center rounded-full border transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900";
-
-function MonthLink({ href, label, children }: { href: string | null; label: string; children: React.ReactNode }) {
-  if (!href) {
-    return (
-      <span aria-disabled className={`${roundButton} cursor-not-allowed border-zinc-200 text-zinc-300`} title={label}>
-        {children}
-      </span>
-    );
-  }
-  return (
-    <Link
-      href={href}
-      aria-label={label}
-      title={label}
-      className={`${roundButton} border-zinc-300 bg-white/60 text-zinc-700 hover:border-zinc-400 hover:bg-white`}
-    >
-      {children}
-    </Link>
-  );
-}
-
-function PlatformSelect({
-  value,
-  counts,
-  onChange,
-}: {
-  value: Platform | null;
-  counts: Record<Platform, number>;
-  onChange: (p: Platform | null) => void;
-}) {
-  return (
-    <label className="relative">
-      <span className="sr-only">Platform</span>
-      <select
-        value={value ?? ""}
-        onChange={(e) => onChange((e.target.value || null) as Platform | null)}
-        className="h-10 appearance-none rounded-full border border-zinc-300 bg-white pr-9 pl-4 text-sm text-zinc-700 hover:border-zinc-400 focus-visible:outline-2 focus-visible:outline-zinc-900"
-      >
-        <option value="">All platforms</option>
-        {PLATFORMS.map((p) => (
-          <option key={p} value={p} disabled={counts[p] === 0}>
-            {PLATFORM_META[p].label}
-            {counts[p] === 0 ? " (soon)" : ""}
-          </option>
-        ))}
-      </select>
-      <ChevronDown
-        aria-hidden
-        className="pointer-events-none absolute top-1/2 right-3.5 size-4 -translate-y-1/2 text-zinc-400"
-      />
-    </label>
-  );
-}
-
-function DayNumber({ day, isToday, onImage }: { day: number; isToday: boolean; onImage?: boolean }) {
-  const tone = isToday
-    ? "bg-zinc-900 font-semibold text-white"
-    : onImage
-      ? "bg-white/95 font-medium text-zinc-900 shadow-[0_1px_3px_rgb(0_0_0/0.2)]"
-      : "font-medium text-zinc-400";
-  return (
-    <span
-      className={`grid size-6 shrink-0 place-items-center rounded-full text-xs tabular-nums [text-box:trim-both_cap_alphabetic] ${tone}`}
-    >
-      {day}
-    </span>
-  );
-}
-
-function VideoBadge({ className = "" }: { className?: string }) {
-  return (
-    <span
-      aria-hidden
-      className={`grid size-6 place-items-center rounded-full bg-black/55 text-white backdrop-blur-sm ${className}`}
-    >
-      <Play className="ml-px size-3 fill-current" />
-    </span>
-  );
-}
-
-const CELL_ASPECT = 3 / 4;
-
-function DayCell({
-  date,
-  items,
-  state,
-  isToday,
-  onOpen,
-}: {
-  date: string;
-  items: Item[];
-  state: DayState;
-  isToday: boolean;
-  onOpen: () => void;
-}) {
-  const { day } = parseIsoDate(date);
-  const top = items[0];
-
-  if (!top) {
-    return (
-      <div
-        className={`flex aspect-[3/4] flex-col rounded-2xl p-2 ${
-          state === "pending" ? "border border-dashed border-zinc-300/80" : "bg-zinc-200/40"
-        }`}
-      >
-        <DayNumber day={day} isToday={isToday} />
-      </div>
-    );
-  }
-
-  return (
-    <button
-      type="button"
-      onClick={onOpen}
-      aria-label={`${formatLongDate(date)}: ${top.title}`}
-      className="group relative aspect-[3/4] overflow-hidden rounded-2xl bg-zinc-200 text-left ring-1 ring-black/5 transition-[translate,box-shadow] duration-200 ease-out hover:-translate-y-0.5 hover:shadow-[0_12px_28px_-10px_rgb(0_0_0/0.35)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900"
-    >
-      {top.image ? (
-        <CroppedImage
-          image={top.image}
-          aspect={CELL_ASPECT}
-          className="absolute inset-0 transition-transform duration-500 ease-out group-hover:scale-[1.03]"
-        />
-      ) : (
-        <span className="absolute inset-x-0 bottom-0 line-clamp-5 p-2.5 font-display text-lg leading-tight text-zinc-800">
-          {top.title}
-        </span>
-      )}
-      <span className="absolute top-2 left-2">
-        <DayNumber day={day} isToday={isToday} onImage={Boolean(top.image)} />
-      </span>
-      {top.kind === "video" && <VideoBadge className="absolute top-2 right-2" />}
-      {top.image && (
-        <span className="absolute inset-x-0 bottom-0 translate-y-1 bg-gradient-to-t from-black/85 via-black/55 to-transparent p-3 pt-14 opacity-0 transition duration-200 ease-out group-hover:translate-y-0 group-hover:opacity-100 group-focus-visible:translate-y-0 group-focus-visible:opacity-100">
-          {top.post && (
-            <span className="mb-1 flex items-center gap-1.5 text-[11px] font-semibold text-white/90">
-              {top.post.avatar && (
-                <Image
-                  src={mediaSrc(top.post.avatar)}
-                  alt=""
-                  width={16}
-                  height={16}
-                  unoptimized
-                  className="size-4 rounded-full"
-                />
-              )}
-              <span className="truncate">{top.post.name}</span>
-            </span>
-          )}
-          <span className="line-clamp-3 text-[13px] leading-snug font-medium text-white">{top.title}</span>
-        </span>
-      )}
-    </button>
-  );
-}
-
-function AgendaRow({
-  date,
-  items,
-  isToday,
-  onOpen,
-}: {
-  date: string;
-  items: Item[];
-  isToday: boolean;
-  onOpen: () => void;
-}) {
-  const { day } = parseIsoDate(date);
-  const weekday = formatLongDate(date).split(",")[0].slice(0, 3);
-  const top = items[0];
-  const dateLabel = (
-    <div className="w-9 shrink-0 text-center">
-      <div className="text-[11px] font-medium tracking-wide text-zinc-400 uppercase">{weekday}</div>
-      <div className={`text-xl leading-7 tabular-nums ${isToday ? "font-semibold text-amber-600" : "text-zinc-900"}`}>
-        {day}
-      </div>
-    </div>
-  );
-
-  if (!top) {
-    return <div className="flex items-center gap-3 rounded-2xl p-2 opacity-50">{dateLabel}</div>;
-  }
-  return (
-    <button
-      type="button"
-      onClick={onOpen}
-      aria-label={`${formatLongDate(date)}: ${top.title}`}
-      className="flex w-full items-center gap-3 rounded-2xl bg-white p-2 pr-3 text-left ring-1 ring-black/[0.06] transition-colors active:bg-zinc-50"
-    >
-      {dateLabel}
-      <span className="relative shrink-0">
-        {top.image ? (
-          <CroppedImage image={top.image} aspect={1} className="size-14 rounded-xl" />
-        ) : (
-          <span className="block size-14 rounded-xl bg-zinc-100" />
-        )}
-        {top.kind === "video" && <VideoBadge className="absolute right-1 bottom-1 size-5" />}
-      </span>
-      <span className="min-w-0 flex-1">
-        <span className="line-clamp-2 text-[15px] leading-snug font-medium text-zinc-900">{top.title}</span>
-        {top.post && <span className="mt-0.5 block truncate text-[13px] text-zinc-500">{top.post.handle}</span>}
-      </span>
-    </button>
-  );
-}
-
-function DayDrawer({
-  date,
-  item,
-  prev,
-  next,
-  onNavigate,
-  onClose,
-}: {
-  date: string;
-  item: Item;
-  prev: string | null;
-  next: string | null;
-  onNavigate: (date: string) => void;
-  onClose: () => void;
-}) {
-  const [open, setOpen] = useState(false);
-  const closeRef = useRef<HTMLButtonElement>(null);
-  const bodyRef = useRef<HTMLDivElement>(null);
-  const closing = useRef(false);
-
-  const close = useCallback(() => {
-    if (closing.current) return;
-    closing.current = true;
-    setOpen(false);
-    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    window.setTimeout(onClose, reduced ? 0 : DRAWER_MS);
-  }, [onClose]);
+  // The open day lives in `?day=`, so a day can be linked to and Back closes it. The URL is
+  // only read on load and on popstate: the router re-renders synchronously on pushState, and
+  // reading it during that render would mount the card outside its transition.
+  const [selected, setSelected] = useState<string | null>(null);
+  const pushedDay = useRef(false);
 
   useEffect(() => {
-    const opener = document.activeElement as HTMLElement | null;
-    const frame = requestAnimationFrame(() => setOpen(true));
-    closeRef.current?.focus({ preventScroll: true });
-    const overflow = document.body.style.overflow;
-    document.body.style.overflow = "hidden";
+    const linked = readDayParam();
+    const frame = linked
+      ? requestAnimationFrame(() =>
+          startTransition(() => {
+            addTransitionType("day-open");
+            setSelected(linked);
+            setWeekPick(weekStartOf(linked));
+          }),
+        )
+      : 0;
+    const onPop = () => {
+      const day = readDayParam();
+      pushedDay.current = false;
+      startTransition(() => {
+        addTransitionType(day ? "day-open" : "day-close");
+        setSelected(day);
+      });
+    };
+    window.addEventListener("popstate", onPop);
     return () => {
       cancelAnimationFrame(frame);
-      document.body.style.overflow = overflow;
-      opener?.focus({ preventScroll: true });
+      window.removeEventListener("popstate", onPop);
     };
+  }, [weekStartOf, setWeekPick]);
+
+  const openDay = useCallback(
+    (date: string) => {
+      startTransition(() => {
+        addTransitionType("day-open");
+        setSelected(date);
+        setWeekPick(weekStartOf(date));
+      });
+      window.history.pushState(null, "", urlWithDay(date));
+      pushedDay.current = true;
+    },
+    [weekStartOf, setWeekPick],
+  );
+
+  const closeDay = useCallback(() => {
+    if (pushedDay.current) {
+      window.history.back();
+      return;
+    }
+    startTransition(() => {
+      addTransitionType("day-close");
+      setSelected(null);
+    });
+    window.history.replaceState(null, "", urlWithDay(null));
   }, []);
 
+  // The week follows the open day, so closing it lands on the day's card.
+  const stepDay = useCallback(
+    (date: string, step: Step) => {
+      startTransition(() => {
+        addTransitionType(step === "next" ? "day-next" : "day-prev");
+        setSelected(date);
+        setWeekPick(weekStartOf(date));
+      });
+      window.history.replaceState(null, "", urlWithDay(date));
+    },
+    [weekStartOf, setWeekPick],
+  );
+
+  const switchView = useCallback(
+    (next: View) => {
+      startTransition(() => {
+        addTransitionType(`view-${next}`);
+        setView(next);
+      });
+    },
+    [setView],
+  );
+
+  // Weeks past the month's own continue in the neighboring month; weeks after the archive's
+  // last day have nothing to show.
+  const weekTarget = (step: Step): { week: string; href: string | null } | null => {
+    const week = addDays(weekStart, step === "next" ? 7 : -7);
+    if (step === "next" && lastDate && week > lastDate) return null;
+    if (cells.includes(week)) return { week, href: null };
+    const href = step === "next" ? nextHref : prevHref;
+    return href ? { week, href } : null;
+  };
+  const canStep = (step: Step) =>
+    view === "week" ? weekTarget(step) !== null : Boolean(step === "next" ? nextHref : prevHref);
+
+  const step = (dir: Step) => {
+    if (view === "month") {
+      const href = dir === "next" ? nextHref : prevHref;
+      if (href) router.push(href, { scroll: false, transitionTypes: [`month-${dir}`] });
+      return;
+    }
+    const target = weekTarget(dir);
+    if (!target) return;
+    // Crossing into the neighboring month changes the week and the page in one transition.
+    const href = target.href;
+    startTransition(() => {
+      addTransitionType(`week-${dir}`);
+      setWeekPick(target.week);
+      if (href) router.push(href, { scroll: false });
+    });
+  };
   useEffect(() => {
+    if (prevHref) router.prefetch(prevHref);
+    if (nextHref) router.prefetch(nextHref);
+  }, [router, prevHref, nextHref]);
+
+  const stepRef = useRef(step);
+  useEffect(() => {
+    stepRef.current = step;
+  });
+
+  useEffect(() => {
+    if (selected) return;
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === "Escape") close();
-      else if (e.key === "ArrowLeft" && prev) onNavigate(prev);
-      else if (e.key === "ArrowRight" && next) onNavigate(next);
+      if (e.defaultPrevented || e.metaKey || e.ctrlKey || e.altKey) return;
+      if (e.key === "ArrowLeft") stepRef.current("prev");
+      else if (e.key === "ArrowRight") stepRef.current("next");
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [close, prev, next, onNavigate]);
+  }, [selected]);
 
-  useEffect(() => {
-    bodyRef.current?.scrollTo({ top: 0 });
-  }, [date]);
+  const swipe = useSwipe((dir) => stepRef.current(dir));
 
-  const iconButton =
-    "grid size-9 shrink-0 place-items-center rounded-full text-zinc-600 transition-colors duration-150 hover:bg-zinc-100 hover:text-zinc-900 disabled:pointer-events-none disabled:text-zinc-300 focus-visible:outline-2 focus-visible:outline-zinc-900";
+  const selectedIndex = selected ? archivedDates.indexOf(selected) : -1;
+  const openItem = selected ? visible[selected] : undefined;
+  const label = view === "week" ? formatWeekRange(weekStart) : `${MONTH_NAMES[month - 1]} ${year}`;
+  const stepNoun = view === "week" ? "week" : "month";
+
+  const cardProps = (date: string, index: number) => ({
+    date,
+    index,
+    item: visible[date],
+    pending: Boolean(lastDate && date > lastDate),
+    isToday: date === today,
+    isOpen: date === selected,
+    animateIn,
+    onOpen: openDay,
+  });
 
   return (
-    <div className="fixed inset-0 z-50 flex justify-end" role="dialog" aria-modal="true" aria-label={formatLongDate(date)}>
-      <button
-        type="button"
-        aria-label="Close"
-        tabIndex={-1}
-        onClick={close}
-        className={`absolute inset-0 bg-zinc-900/30 backdrop-blur-[2px] transition-opacity duration-300 ease-out motion-reduce:transition-none ${
-          open ? "opacity-100" : "opacity-0"
+    <div className="flex h-dvh flex-col overflow-hidden px-2.5 sm:px-5 md:px-8">
+      {/* On wide screens the week sits with the header in the middle of the screen; the month
+          fills the screen under it. */}
+      <ViewTransition name="calendar-header" update={HEADER_UPDATE} default="none">
+        <header className={`flex shrink-0 flex-col items-center pt-6 pb-3 md:pt-8 md:pb-6 ${view === "week" ? "md:mt-auto" : ""}`}>
+          <h1 className="flex items-center gap-[0.24em] text-[30px] leading-none font-semibold tracking-[-0.04em] text-zinc-950 md:text-[38px]">
+            Trending on
+            <PlatformSwitcher
+              value={platform}
+              available={available}
+              onChange={(p) => setPlatformParam(p === platforms[0] ? null : p)}
+            />
+          </h1>
+          <nav className="mt-3 flex items-center gap-1.5 md:mt-3.5 md:gap-3" aria-label={view === "week" ? "Week" : "Month"}>
+            <div className="flex items-center gap-1">
+              <StepButton step="prev" noun={stepNoun} disabled={!canStep("prev")} onStep={step} />
+              <ViewTransition key={label} name="calendar-label" share={LABEL_SHARE} default="none">
+                <span
+                  aria-live="polite"
+                  className="w-[8.25rem] text-center text-[14px] md:w-[9.5rem] md:text-[15px] font-medium tracking-[-0.01em] text-zinc-500 tabular-nums"
+                >
+                  {label}
+                </span>
+              </ViewTransition>
+              <StepButton step="next" noun={stepNoun} disabled={!canStep("next")} onStep={step} />
+            </div>
+            <button
+              type="button"
+              aria-pressed={view === "month"}
+              aria-label={view === "month" ? "Show the week" : "Show the whole month"}
+              title={view === "month" ? "Show the week" : "Show the whole month"}
+              onClick={() => switchView(view === "month" ? "week" : "month")}
+              className={`grid size-8 place-items-center rounded-full transition-[background-color,color,scale] duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900 active:scale-90 ${
+                view === "month" ? "bg-zinc-950 text-white" : "text-zinc-500 hover:bg-black/[0.05] hover:text-zinc-900"
+              }`}
+            >
+              <CalendarDays className="size-[17px]" strokeWidth={2} />
+            </button>
+          </nav>
+        </header>
+      </ViewTransition>
+
+      <main
+        className={`relative min-h-0 flex-1 [container-type:size] ${
+          view === "week" ? "md:h-[min(calc(100dvh-236px),calc((100vw-136px)/7*var(--ratio)+100px))] md:flex-none" : ""
         }`}
-      />
-      <div
-        className={`relative flex h-full w-full max-w-[560px] flex-col bg-white shadow-2xl transition-transform duration-[320ms] ease-[cubic-bezier(0.3,0.75,0.1,1)] motion-reduce:transition-none ${
-          open ? "translate-x-0" : "translate-x-full"
+        style={{ "--ratio": WEEK_CARD_RATIO } as React.CSSProperties}
+        {...swipe}
+      >
+        <ViewTransition key={view === "week" ? weekStart : "month"} name="calendar-stage" share={STAGE_SHARE} default="none">
+          {view === "week" ? (
+            <div
+              className="absolute inset-0 grid grid-cols-2 grid-rows-4 gap-x-2 gap-y-3 md:grid-cols-7 md:grid-rows-1 md:gap-3"
+            >
+              {weekDays.map((date, i) => (
+                <WeekCard key={date} {...cardProps(date, i)} />
+              ))}
+              <button
+                type="button"
+                onClick={() => switchView("month")}
+                className="flex flex-col items-center justify-center gap-1 rounded-[12px] bg-black/[0.04] text-[13px] font-medium text-zinc-500 transition-colors active:bg-black/[0.07] md:hidden"
+              >
+                All of {MONTH_NAMES[month - 1]}
+                <ChevronRight className="size-4" strokeWidth={2.25} />
+              </button>
+            </div>
+          ) : (
+            <div
+              className="absolute inset-y-0 left-1/2 flex w-full -translate-x-1/2 flex-col md:w-[min(100cqw,calc((100cqh-58px)/6*7*var(--aspect)+36px))]"
+              style={{ "--aspect": MONTH_CELL_ASPECT } as React.CSSProperties}
+            >
+              <div className="grid shrink-0 grid-cols-7 gap-[3px] md:gap-1.5" style={{ height: WEEKDAY_ROW }} aria-hidden>
+                {WEEKDAYS_SHORT.map((d) => (
+                  <div key={d} className="px-1 text-center text-[11px] font-medium text-zinc-400 md:pl-2 md:text-left md:text-[12px]">
+                    <span className="md:hidden">{d[0]}</span>
+                    <span className="hidden md:inline">{d}</span>
+                  </div>
+                ))}
+              </div>
+              <div
+                className="grid min-h-0 flex-1 grid-cols-7 gap-[3px] md:gap-1.5"
+                style={{ gridTemplateRows: `repeat(${weeks}, minmax(0, 1fr))` }}
+              >
+                {cells.map((date, i) =>
+                  date.startsWith(monthPrefix) ? (
+                    <MonthCell key={date} {...cardProps(date, i)} />
+                  ) : (
+                    <div key={date} aria-hidden className="rounded-[6px] bg-black/[0.018] sm:rounded-[9px] md:rounded-[12px]" />
+                  ),
+                )}
+              </div>
+            </div>
+          )}
+        </ViewTransition>
+      </main>
+
+      <footer className="flex shrink-0 items-center justify-center gap-1.5 py-3 text-[12px] text-zinc-400 md:mt-auto md:py-4">
+        <span>
+          Capsule by{" "}
+          <a href="https://www.jaredconnolly.com" className="text-zinc-500 transition-colors hover:text-zinc-900">
+            Jared Connolly
+          </a>
+        </span>
+        {lastDate && (
+          <>
+            <span aria-hidden>·</span>
+            <span>Updated through {formatShortDate(lastDate)}</span>
+          </>
+        )}
+      </footer>
+
+      {/* Each overlay layer is its own boundary, mounted right here: React only runs a boundary's
+          enter and exit when the boundary itself is what mounts or unmounts. */}
+      {openItem && (
+        <ViewTransition enter="backdrop-in" exit="backdrop-out" default="none">
+          <div aria-hidden className="fixed inset-0 z-50 bg-zinc-950/35 backdrop-blur-[3px]" />
+        </ViewTransition>
+      )}
+      {selected && openItem && (
+        <ViewTransition enter="card-in" exit="card-out" default="none">
+          <DayModal
+            date={selected}
+            item={openItem}
+            prev={archivedDates[selectedIndex - 1] ?? null}
+            next={archivedDates[selectedIndex + 1] ?? null}
+            onStep={stepDay}
+            onClose={closeDay}
+          />
+        </ViewTransition>
+      )}
+    </div>
+  );
+}
+
+/** Horizontal swipes on touch screens step the week or month. */
+function useSwipe(onSwipe: (step: Step) => void) {
+  const start = useRef<{ x: number; y: number } | null>(null);
+  return {
+    onTouchStart: (e: React.TouchEvent) => {
+      const t = e.touches[0];
+      start.current = { x: t.clientX, y: t.clientY };
+    },
+    onTouchEnd: (e: React.TouchEvent) => {
+      const s = start.current;
+      start.current = null;
+      if (!s) return;
+      const t = e.changedTouches[0];
+      const dx = t.clientX - s.x;
+      const dy = t.clientY - s.y;
+      if (Math.abs(dx) > 56 && Math.abs(dx) > Math.abs(dy) * 1.5) onSwipe(dx < 0 ? "next" : "prev");
+    },
+  };
+}
+
+function StepButton({
+  step,
+  noun,
+  disabled,
+  onStep,
+}: {
+  step: Step;
+  noun: string;
+  disabled: boolean;
+  onStep: (step: Step) => void;
+}) {
+  const label = `${step === "prev" ? "Previous" : "Next"} ${noun}`;
+  const Icon = step === "prev" ? ChevronLeft : ChevronRight;
+  return (
+    <button
+      type="button"
+      disabled={disabled}
+      onClick={() => onStep(step)}
+      aria-label={label}
+      title={`${label} (${step === "prev" ? "←" : "→"})`}
+      className="grid size-8 place-items-center rounded-full text-zinc-500 transition-[background-color,color,scale] duration-150 ease-out hover:bg-black/[0.05] hover:text-zinc-900 focus-visible:outline-2 focus-visible:outline-zinc-900 active:scale-90 disabled:pointer-events-none disabled:text-zinc-300"
+    >
+      <Icon className="size-[18px]" strokeWidth={2.25} />
+    </button>
+  );
+}
+
+type CardProps = {
+  date: string;
+  index: number;
+  item: Item | undefined;
+  pending: boolean;
+  isToday: boolean;
+  isOpen: boolean;
+  animateIn: boolean;
+  onOpen: (date: string) => void;
+};
+
+const radius = "rounded-[6px] sm:rounded-[9px] md:rounded-[12px]";
+
+/** Screenshots of text posts are set as type instead, so every day reads as a picture or a headline. */
+function DayMediaTile({ item, date, isOpen, text, lines }: { item: Item; date: string; isOpen: boolean; text: string; lines: number }) {
+  const asText = !item.image || isImageOfPost(item);
+  const media = asText ? (
+    <span className="absolute inset-0 bg-zinc-900 [container-type:size]">
+      <span
+        className="absolute inset-x-0 bottom-0 overflow-hidden p-[clamp(6px,7cqw,16px)] text-[clamp(10px,8cqw,20px)] leading-[1.18] font-semibold tracking-[-0.015em] text-balance text-white @max-[88px]:hidden"
+        style={{ display: "-webkit-box", WebkitBoxOrient: "vertical", WebkitLineClamp: lines }}
+      >
+        {text}
+      </span>
+      {item.post?.avatar && (
+        <Image
+          src={mediaSrc(item.post.avatar)}
+          alt=""
+          width={28}
+          height={28}
+          unoptimized
+          className="absolute inset-0 m-auto hidden size-[min(28px,60cqw)] rounded-full @max-[88px]:block"
+        />
+      )}
+    </span>
+  ) : (
+    <CroppedImage
+      image={item.image!}
+      className="absolute inset-0 transition-transform duration-500 ease-out group-hover:scale-[1.03]"
+    />
+  );
+  return isOpen ? (
+    media
+  ) : (
+    <ViewTransition name={dayImageName(date)} share={DAY_IMAGE_SHARE} default="none">
+      {media}
+    </ViewTransition>
+  );
+}
+
+const cardButton =
+  "group relative overflow-hidden text-left outline-offset-2 transition-[scale,box-shadow] duration-200 ease-out hover:shadow-[0_12px_28px_-14px_rgb(0_0_0/0.5)] focus-visible:outline-2 focus-visible:outline-zinc-900 active:scale-[0.97]";
+
+function WeekCard({ date, index, item, pending, isToday, isOpen, animateIn, onOpen }: CardProps) {
+  const { year, month, day } = parseIsoDate(date);
+  const weekday = WEEKDAYS_SHORT[new Date(Date.UTC(year, month - 1, day)).getUTCDay()];
+  const asText = item && (!item.image || isImageOfPost(item));
+
+  return (
+    <div
+      className={`flex min-h-0 flex-col ${animateIn ? "cell-in" : ""}`}
+      style={animateIn ? ({ "--i": index } as React.CSSProperties) : undefined}
+    >
+      <p className="mb-1.5 flex h-5 shrink-0 items-center gap-1.5 text-[12px] font-medium text-zinc-400 tabular-nums md:mb-2">
+        {weekday}
+        <span
+          className={
+            isToday
+              ? "inline-grid h-5 min-w-5 place-items-center rounded-full bg-zinc-950 px-1.5 text-[11px] font-semibold text-white"
+              : "text-zinc-600"
+          }
+        >
+          {day}
+        </span>
+      </p>
+      {item ? (
+        <button
+          type="button"
+          data-day={date}
+          onClick={() => onOpen(date)}
+          aria-label={`${formatLongDate(date)}: ${item.title}`}
+          className={`${cardButton} min-h-0 flex-1 rounded-[12px] md:rounded-[16px]`}
+        >
+          <DayMediaTile item={item} date={date} isOpen={isOpen} text={(asText && item.post?.text) || item.title} lines={9} />
+        </button>
+      ) : (
+        <div className={`min-h-0 flex-1 rounded-[12px] md:rounded-[16px] ${pending ? "bg-black/[0.025]" : "bg-black/[0.04]"}`} />
+      )}
+      <p className="mt-2.5 hidden h-[54px] shrink-0 overflow-hidden text-[13px] leading-snug font-medium text-pretty text-zinc-700 md:line-clamp-3">
+        {item?.title}
+      </p>
+    </div>
+  );
+}
+
+function MonthCell({ date, index, item, pending, isToday, isOpen, animateIn, onOpen }: CardProps) {
+  const { day } = parseIsoDate(date);
+  const enter = animateIn ? "cell-in" : "";
+  const style = animateIn ? ({ "--i": index } as React.CSSProperties) : undefined;
+  const number = (onImage: boolean) =>
+    isToday ? (
+      <span className="inline-grid h-[18px] min-w-[18px] place-items-center rounded-full bg-zinc-950 px-1 text-[10px] font-semibold text-white tabular-nums md:h-5 md:min-w-5 md:px-1.5 md:text-[11px]">
+        <span className="[text-box:trim-both_cap_alphabetic]">{day}</span>
+      </span>
+    ) : (
+      <span
+        className={`text-[10px] font-semibold tabular-nums md:text-[12px] ${
+          onImage ? "text-white [text-shadow:0_1px_3px_rgb(0_0_0/0.55)]" : "text-zinc-400"
         }`}
       >
-        <header className="flex items-center gap-2 border-b border-zinc-100 py-3 pr-3 pl-6">
-          <Link
-            href={`/day/${date}`}
-            className="min-w-0 flex-1 truncate font-display text-[22px] leading-tight text-zinc-900 hover:underline hover:decoration-zinc-300 hover:underline-offset-4"
-          >
-            {formatLongDate(date).replace(/, \d{4}$/, "")}
-          </Link>
-          <button
-            type="button"
-            className={iconButton}
-            disabled={!prev}
-            onClick={() => prev && onNavigate(prev)}
-            aria-label="Previous day"
-            title="Previous day (←)"
-          >
-            <ChevronLeft className="size-5" />
-          </button>
-          <button
-            type="button"
-            className={iconButton}
-            disabled={!next}
-            onClick={() => next && onNavigate(next)}
-            aria-label="Next day"
-            title="Next day (→)"
-          >
-            <ChevronRight className="size-5" />
-          </button>
-          <span className="mx-1 h-5 w-px bg-zinc-200" aria-hidden />
-          <button ref={closeRef} type="button" onClick={close} className={iconButton} aria-label="Close" title="Close (Esc)">
-            <X className="size-5" />
-          </button>
-        </header>
-        <div ref={bodyRef} className="flex-1 overflow-y-auto overscroll-contain">
-          <div key={date} className="animate-rise px-6 pt-6 pb-10">
-            <ItemDetail item={item} date={date} />
-          </div>
-        </div>
+        {day}
+      </span>
+    );
+
+  if (!item) {
+    return (
+      <div
+        style={style}
+        className={`${enter} ${radius} px-1.5 py-1 md:px-2.5 md:py-2 ${pending ? "bg-black/[0.025]" : "bg-black/[0.04]"}`}
+      >
+        {number(false)}
       </div>
-    </div>
+    );
+  }
+
+  return (
+    <button
+      type="button"
+      data-day={date}
+      style={style}
+      onClick={() => onOpen(date)}
+      aria-label={`${formatLongDate(date)}: ${item.title}`}
+      className={`${enter} ${cardButton} ${radius}`}
+    >
+      <DayMediaTile item={item} date={date} isOpen={isOpen} text={item.title} lines={3} />
+      <span className="absolute top-1 left-1.5 md:top-2 md:left-2.5">{number(true)}</span>
+    </button>
   );
 }

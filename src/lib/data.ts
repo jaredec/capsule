@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
-import { compareYearMonth, daysInMonth, parseIsoDate, toIsoDate, type YearMonth } from "./dates";
-import { dayFileSchema, type DayFile, type Item } from "./schema";
+import { compareYearMonth, parseIsoDate, type YearMonth } from "./dates";
+import { PLATFORMS, dayFileSchema, type DayFile, type Item, type Platform } from "./schema";
 
 const DAYS_DIR = path.join(process.cwd(), "data", "days");
 
@@ -36,16 +36,21 @@ export function getDatesWithItems(): string[] {
   return [...loadAll().values()].filter((d) => d.items.length > 0).map((d) => d.date);
 }
 
-/** Items for each day of the month. */
-export function getMonthItems({ year, month }: YearMonth): Record<string, Item[]> {
+/** Items for each of the given days that has any. */
+export function getItemsForDates(dates: string[]): Record<string, Item[]> {
   const all = loadAll();
   const result: Record<string, Item[]> = {};
-  for (let d = 1; d <= daysInMonth(year, month); d++) {
-    const date = toIsoDate(year, month, d);
+  for (const date of dates) {
     const day = all.get(date);
     if (day && day.items.length > 0) result[date] = day.items;
   }
   return result;
+}
+
+export function getPlatformsWithData(): Platform[] {
+  const found = new Set<Platform>();
+  for (const day of loadAll().values()) for (const item of day.items) found.add(item.platform);
+  return PLATFORMS.filter((p) => found.has(p));
 }
 
 /** Every month from the earliest archived month through the latest, inclusive. */

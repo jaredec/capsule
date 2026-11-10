@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { CroppedImage } from "@/components/CroppedImage";
-import { ItemDetail } from "@/components/ItemDetail";
-import { MONTH_NAMES, addDays, formatLongDate, formatShortDate, isValidIsoDate, monthPath, parseIsoDate } from "@/lib/dates";
+import { DayInfo, DayMedia, PlayBadge } from "@/components/DayDetail";
+import { PlatformLogo } from "@/components/PlatformLogo";
+import { MONTH_NAMES, formatLongDate, formatShortDate, isValidIsoDate, monthPath, parseIsoDate } from "@/lib/dates";
 import { getDatesWithItems, getDay } from "@/lib/data";
 
 export function generateStaticParams() {
@@ -27,23 +27,24 @@ export async function generateMetadata({ params }: PageProps<"/day/[date]">): Pr
   };
 }
 
-function Neighbor({ date, direction }: { date: string; direction: "prev" | "next" }) {
-  const item = load(date)?.items[0];
-  if (!item) return <span />;
-  const Chevron = direction === "prev" ? ChevronLeft : ChevronRight;
+function Neighbor({ date, step }: { date: string | undefined; step: "prev" | "next" }) {
+  const label = step === "prev" ? "Previous day" : "Next day";
+  const Icon = step === "prev" ? ChevronLeft : ChevronRight;
+  const base = "grid size-9 place-items-center rounded-full transition-colors";
+  if (!date) {
+    return (
+      <span aria-disabled className={`${base} text-zinc-300`}>
+        <Icon className="size-[18px]" strokeWidth={2.25} />
+      </span>
+    );
+  }
   return (
     <Link
       href={`/day/${date}`}
-      className={`group flex min-w-0 items-center gap-3 rounded-2xl p-2 transition-colors hover:bg-white ${
-        direction === "next" ? "flex-row-reverse text-right" : ""
-      }`}
+      aria-label={`${label}, ${formatShortDate(date)}`}
+      className={`${base} text-zinc-500 hover:bg-black/[0.05] hover:text-zinc-900`}
     >
-      <Chevron className="size-5 shrink-0 text-zinc-400 group-hover:text-zinc-900" />
-      {item.image && <CroppedImage image={item.image} aspect={1} className="size-12 shrink-0 rounded-xl" />}
-      <span className="min-w-0">
-        <span className="block text-xs text-zinc-500">{formatShortDate(date)}</span>
-        <span className="line-clamp-2 text-sm leading-snug font-medium text-zinc-900">{item.title}</span>
-      </span>
+      <Icon className="size-[18px]" strokeWidth={2.25} />
     </Link>
   );
 }
@@ -53,27 +54,49 @@ export default async function DayRoute({ params }: PageProps<"/day/[date]">) {
   const day = load(date);
   if (!day) notFound();
 
+  const item = day.items[0];
   const { year, month } = parseIsoDate(date);
+  const dates = getDatesWithItems();
+  const index = dates.indexOf(date);
 
   return (
-    <div className="mx-auto max-w-[600px]">
-      <Link
-        href={monthPath({ year, month })}
-        className="-ml-1 inline-flex items-center gap-1 text-sm text-zinc-500 transition-colors hover:text-zinc-900"
-      >
-        <ChevronLeft className="size-4" />
-        {MONTH_NAMES[month - 1]} {year}
-      </Link>
-      <p className="mt-6 text-sm font-medium text-zinc-500">{formatLongDate(date)}</p>
+    <div className="flex min-h-dvh flex-col items-center px-3 pt-6 pb-8 md:px-8 md:pt-8">
+      <header className="flex w-full max-w-[980px] items-center justify-between">
+        <Link
+          href={monthPath({ year, month })}
+          className="-ml-2 inline-flex items-center gap-1.5 rounded-full py-1.5 pr-3 pl-2 text-[15px] font-medium tracking-[-0.01em] text-zinc-500 transition-colors hover:bg-black/[0.05] hover:text-zinc-900"
+        >
+          <ChevronLeft className="size-[18px]" strokeWidth={2.25} />
+          {MONTH_NAMES[month - 1]} {year}
+        </Link>
+        <span className="flex items-center gap-1.5 text-[15px] font-semibold tracking-[-0.02em] text-zinc-950">
+          Trending on <PlatformLogo platform={item.platform} className="size-3.5" />
+        </span>
+        <nav className="-mr-2 flex items-center" aria-label="Other days">
+          <Neighbor date={dates[index - 1]} step="prev" />
+          <Neighbor date={dates[index + 1]} step="next" />
+        </nav>
+      </header>
 
-      <div className="mt-2">
-        <ItemDetail item={day.items[0]} date={date} as="h1" />
-      </div>
-
-      <nav className="mt-14 grid grid-cols-2 gap-4 border-t border-zinc-200 pt-6" aria-label="Other days">
-        <Neighbor date={addDays(date, -1)} direction="prev" />
-        <Neighbor date={addDays(date, 1)} direction="next" />
-      </nav>
+      <article className="mt-5 flex w-full max-w-[980px] flex-col overflow-hidden rounded-[22px] bg-white shadow-[0_0_0_1px_rgb(0_0_0/0.04),0_16px_48px_-24px_rgb(0_0_0/0.3)] md:mt-6 md:h-[min(620px,calc(100dvh-120px))] md:flex-row">
+        <div className="relative aspect-[4/3] w-full shrink-0 bg-zinc-100 md:aspect-auto md:h-full md:w-[46%]">
+          <DayMedia item={item} className="absolute inset-0" />
+          {item.kind === "video" && item.sourceUrl && (
+            <a
+              href={item.sourceUrl}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Watch the video"
+              className="absolute inset-0 grid place-items-center transition-transform duration-200 hover:scale-105"
+            >
+              <PlayBadge />
+            </a>
+          )}
+        </div>
+        <div className="min-h-0 flex-1 px-5 pt-5 pb-6 md:overflow-y-auto md:px-8 md:pt-7 md:pb-7">
+          <DayInfo item={item} date={date} />
+        </div>
+      </article>
     </div>
   );
 }

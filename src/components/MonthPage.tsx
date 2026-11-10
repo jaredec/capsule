@@ -1,5 +1,5 @@
-import { addMonths, compareYearMonth, monthPath, type YearMonth } from "@/lib/dates";
-import { getAllDates, getArchivedMonths, getMonthItems } from "@/lib/data";
+import { addMonths, compareYearMonth, monthGrid, monthPath, type YearMonth } from "@/lib/dates";
+import { getAllDates, getArchivedMonths, getItemsForDates, getPlatformsWithData } from "@/lib/data";
 import { Calendar } from "./Calendar";
 
 export function MonthPage({ year, month }: YearMonth) {
@@ -14,8 +14,8 @@ export function MonthPage({ year, month }: YearMonth) {
     <Calendar
       year={year}
       month={month}
-      itemsByDate={getMonthItems({ year, month })}
-      firstDate={dates[0] ?? null}
+      itemsByDate={getItemsForDates(monthGrid(year, month))}
+      platforms={getPlatformsWithData()}
       lastDate={dates.at(-1) ?? null}
       prevHref={first && compareYearMonth(prev, first) >= 0 ? monthPath(prev) : null}
       nextHref={last && compareYearMonth(next, last) <= 0 ? monthPath(next) : null}

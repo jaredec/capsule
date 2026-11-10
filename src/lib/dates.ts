@@ -88,12 +88,26 @@ export function formatShortDate(iso: string, relativeTo?: string): string {
   return relativeTo && parseIsoDate(relativeTo).year !== year ? `${short}, ${year}` : short;
 }
 
-/** Whole weeks covering the month: the first week starts with the previous month's last days, the last week ends with the next month's first days. */
+/** Whole weeks covering the month: the first starts on the Sunday on or before the 1st, the last ends on the Saturday on or after its last day. */
 export function monthGrid(year: number, month: number): string[] {
   const first = toIsoDate(year, month, 1);
   const lead = weekdayOf(year, month, 1);
   const total = Math.ceil((lead + daysInMonth(year, month)) / 7) * 7;
   return Array.from({ length: total }, (_, i) => addDays(first, i - lead));
+}
+
+/** "Oct 11 – 17", or "Sep 27 – Oct 3" when the week spans two months. */
+export function formatWeekRange(start: string): string {
+  const end = parseIsoDate(addDays(start, 6));
+  const from = parseIsoDate(start);
+  const head = `${MONTH_NAMES[from.month - 1].slice(0, 3)} ${from.day}`;
+  return from.month === end.month
+    ? `${head} – ${end.day}`
+    : `${head} – ${MONTH_NAMES[end.month - 1].slice(0, 3)} ${end.day}`;
+}
+
+export function monthDays(year: number, month: number): string[] {
+  return Array.from({ length: daysInMonth(year, month) }, (_, i) => toIsoDate(year, month, i + 1));
 }
 
 const pacificFormatter = new Intl.DateTimeFormat("en-CA", {
