@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-01",
+  "stories": [
+    {
+      "title": "Macaulay Culkin's thousand-yard stare costume, mistaken for blackface",
+      "summary": "Macaulay Culkin posted a dim Halloween selfie in a tilted helmet and olive-green face paint, recreating the thousand-yard stare soldier meme, captioned \"War. War never changes.\" DiscussingFilm's repost late on Oct 31 drew 351K likes and 16.5M views, and through Nov 1 the argument was whether the warm lighting made it look like blackface: \"Great costume but one small issue\" (48K) became the line everyone quoted, and X added a note saying the paint was green. Paparazzi photos then showed he was a green army man from Toy Story, trick-or-treating with Brenda Song as Jessie and their son as Buzz Lightyear.",
+      "kind": "image",
+      "tags": ["macaulay-culkin", "halloween", "thousand-yard-stare", "costume"],
+      "category": "celebrity",
+      "crossover": true,
+      "reach": 9,
+      "dominance": 8,
+      "memeability": 8,
+      "platform": "x",
+      "headlineIds": [31],
+      "sourceUrl": "https://x.com/DiscussingFilm/status/2116776966141415441"
+    }
+  ]
+}

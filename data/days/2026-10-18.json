@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-18",
+  "items": [
+    {
+      "id": "2026-10-18-x-kylie-jenner-walks-victoria-s-secret-in-the-50-m",
+      "platform": "x",
+      "rank": 1,
+      "title": "Kylie Jenner walks Victoria's Secret in the $50 million Fantasy Bra",
+      "summary": "Kylie Jenner made a surprise Victoria's Secret runway debut in the brand's first Fantasy Bra since 2018, a $50 million Jacob & Co. piece with 4,410 diamonds around a 75.54-carat yellow one, walking to JADE's \"Angel of My Dreams\" with Timothée Chalamet and Kris Jenner in the crowd. Pop Culture 2000s' clip got 140K likes, fans argued over whether a reality star should have gotten the bra instead of a veteran supermodel, TikTok filled with videos set to the song, and the two-and-a-half-year-old single jumped 4,300% on Spotify.",
+      "kind": "video",
+      "tags": [
+        "kylie-jenner",
+        "victorias-secret",
+        "fantasy-bra"
+      ],
+      "author": "@PopCulture2000s",
+      "sourceUrl": "https://x.com/PopCulture2000s/status/2111977227483267574",
+      "metrics": {
+        "likes": "140.3K",
+        "replies": "2K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.5,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 6,
+        "category": "celebrity",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:47:09.931Z",
+      "post": {
+        "name": "2000s",
+        "handle": "@PopCulture2000s",
+        "verified": true,
+        "avatar": "/media/avatars/popculture2000s.webp",
+        "text": "omg kylie jenner wearing the 22 million dollars fantasy bra at victoria’s secret show",
+        "postedAt": "2026-10-19T00:26:24.000Z"
+      },
+      "image": {
+        "src": "/media/2026-10-18/2026-10-18-x-kylie-jenner-walks-victoria-s-secret-in-the-50-m.webp",
+        "width": 1600,
+        "height": 1280,
+        "from": "https://video.twimg.com/amplify_video/2111977136173072384/vid/avc1/1650x1320/iOsiFw_moSdN6t1X.mp4#t=36",
+        "crop": {
+          "x": 0.4,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

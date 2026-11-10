@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-24",
+  "items": [
+    {
+      "id": "2026-10-24-x-a-langur-walks-into-a-phone-shop-and-hugs-the-ow",
+      "platform": "x",
+      "rank": 1,
+      "title": "A langur walks into a phone shop and hugs the owner",
+      "summary": "CCTV from a mobile repair shop in Odisha, stamped Oct 22, shows a grey langur hopping onto the counter, climbing into the lap of the shopkeeper, who is busy on his phone, and resting its head on his chest twice while a man in a yellow shirt slips out of the shop. The shopkeeper's Instagram post passed 227 million views, and Buitengebieden's \"We all need a hug sometimes..\" carried it on X (15K likes). Replies praised the shopkeeper for staying perfectly still, and one asked on the langur's behalf, \"Why you no hug me back?\"",
+      "kind": "video",
+      "tags": [
+        "langur",
+        "monkey-hug",
+        "cctv",
+        "odisha"
+      ],
+      "author": "@buitengebieden",
+      "sourceUrl": "https://x.com/buitengebieden/status/2113902703068033450",
+      "metrics": {
+        "likes": "14.5K",
+        "replies": "124"
+      },
+      "references": [
+        {
+          "title": "WATCH | Langur walks into Odisha repair shop, hugs shopkeeper; internet reacts to heartwarming video",
+          "url": "https://www.wionews.com/trending/watch-langur-walks-into-odisha-repair-shop-hugs-shopkeeper-internet-reacts-to-heartwarming-video-1792933112917"
+        }
+      ],
+      "pulse": {
+        "score": 6.8,
+        "reach": 8,
+        "dominance": 6,
+        "memeability": 6,
+        "category": "animals",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:46:09.180Z",
+      "post": {
+        "name": "Buitengebieden",
+        "handle": "@buitengebieden",
+        "verified": true,
+        "avatar": "/media/avatars/buitengebieden.webp",
+        "text": "We all need a hug sometimes.. 😊",
+        "postedAt": "2026-10-24T07:57:33.000Z"
+      },
+      "image": {
+        "src": "/media/2026-10-24/2026-10-24-x-a-langur-walks-into-a-phone-shop-and-hugs-the-ow.webp",
+        "width": 1600,
+        "height": 903,
+        "from": "https://video.twimg.com/amplify_video/2113902593277673472/vid/avc1/1914x1080/WPFiClECnA2lB1OW.mp4#t=27.8",
+        "crop": {
+          "x": 0.09,
+          "y": 0,
+          "w": 0.423,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

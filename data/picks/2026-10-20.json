@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-20",
+  "stories": [
+    {
+      "title": "Dylan Sprouse: \"Cole and I are children of incest\"",
+      "summary": "On his Wildmen podcast, Dylan Sprouse explained that an Ancestry deep-dive showed his parents' families had already intermarried during the Gold Rush, then \"married again with my mom and my dad, like, last generation,\" which is why the family has \"seven sets of twins in four generations.\" His sign-off, \"Long story short, Cole and I are children of incest,\" went everywhere, though the two family lines actually met generations back. TMZ's clip got 28K likes, Cole posted that \"no media training on earth can prep you to read this clickbait headline at 10am,\" and Dylan leaned in: \"Ngl they cooked with this headline. Printing this out and hanging it over the communal family bed.\"",
+      "kind": "video",
+      "tags": ["dylan-sprouse", "cole-sprouse", "children-of-incest", "wildmen-podcast"],
+      "category": "celebrity",
+      "crossover": true,
+      "reach": 7,
+      "dominance": 6,
+      "memeability": 8,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/TMZ/status/2112619988926300257",
+      "frameAt": 125,
+      "crop": { "x": 0.34, "y": 0, "w": 0.422, "h": 1 }
+    }
+  ]
+}

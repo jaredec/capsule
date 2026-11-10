@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-17",
+  "items": [
+    {
+      "id": "2026-10-17-x-this-is-tommy-tommy-had-a-question-about-my-alle",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"This is Tommy. Tommy had a question about my allegiances.\"",
+      "summary": "At a Saturday town hall in Caro, Michigan, a young man who gave his name as Tommy demanded that Democratic Senate candidate Abdul El-Sayed disavow the Muslim Brotherhood. El-Sayed said \"Sure, yeah, absolutely,\" asked why Tommy assumed he wouldn't, compared it to the doubts once raised about JFK's Catholicism, then asked Tommy, a Christian, whether he would disavow writing religious doctrine into law. Tommy said no, and El-Sayed told him it was he who needed to understand the Constitution. El-Sayed's post of the clip that evening got 195K likes, the Guardian counted more than 50 million views across platforms, screenshots of Tommy's stare became reaction memes (BuzzFeed called him \"the funniest meme of the 2026 midterms\"), and by Monday the Handbasket and the Guardian had identified him from congressional staff records as a former aide to Sen. Josh Hawley.",
+      "kind": "video",
+      "tags": [
+        "abdul-el-sayed",
+        "tommy",
+        "town-hall"
+      ],
+      "author": "@AbdulElSayed",
+      "sourceUrl": "https://x.com/AbdulElSayed/status/2111627277578731885",
+      "metrics": {
+        "likes": "195.1K",
+        "replies": "11K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 3.2,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 8,
+        "category": "politics",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:46:54.834Z",
+      "post": {
+        "name": "Dr. Abdul El-Sayed",
+        "handle": "@AbdulElSayed",
+        "verified": true,
+        "avatar": "/media/avatars/abdulelsayed.webp",
+        "text": "This is Tommy. Tommy had a question about my allegiances. Listen to the end to hear about his.",
+        "postedAt": "2026-10-18T01:15:49.000Z"
+      },
+      "image": {
+        "src": "/media/2026-10-17/2026-10-17-x-this-is-tommy-tommy-had-a-question-about-my-alle.webp",
+        "width": 900,
+        "height": 1600,
+        "from": "https://video.twimg.com/amplify_video/2111627042059862016/vid/avc1/1080x1920/SVW3FDQnnoFt8mgu.mp4#t=204",
+        "crop": {
+          "x": 0,
+          "y": 0.15,
+          "w": 0.8,
+          "h": 0.6
+        }
+      }
+    }
+  ]
+}

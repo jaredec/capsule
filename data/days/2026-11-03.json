@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-03",
+  "items": [
+    {
+      "id": "2026-11-03-x-no-way-jd-vance-has-a-wario-jd-ford-goes-viral-o",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"NO WAY JD VANCE HAS A WARIO\": JD Ford goes viral on election night",
+      "summary": "As midterm results came in, a screenshot of Indiana's 5th District board, with bearded Democrat J.D. Ford leading Rep. Victoria Spartz, was posted with \"NO FUCKING WAY JD VANCE HAS A WARIO\" (340K likes), the most-liked post of election night. Replies quickly flipped it (\"thats JD Vances Mario\", \"JD Vance IS the Wario\"), and Ford went on to win, becoming Indiana's first openly gay member of Congress. It led a night of blue-wave jokes as Democrats took both chambers, with posts like \"REV UP THOSE PRONOUNS\" (305K) and \"rip dolly parton you would have loved blexas\" (265K).",
+      "kind": "image",
+      "tags": [
+        "jd-ford",
+        "jd-vance",
+        "wario",
+        "midterms"
+      ],
+      "author": "@slightlysus1",
+      "sourceUrl": "https://x.com/slightlysus1/status/2117775845142278337",
+      "metrics": {
+        "likes": "340.6K",
+        "replies": "296"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.8,
+        "reach": 9,
+        "dominance": 8,
+        "memeability": 9,
+        "category": "politics",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:40:51.073Z",
+      "post": {
+        "name": "SlightlySus⁉️⁉️",
+        "handle": "@slightlysus1",
+        "verified": false,
+        "avatar": "/media/avatars/slightlysus1.webp",
+        "text": "NO FUCKING WAY JD VANCE HAS A WARIO",
+        "postedAt": "2026-11-04T00:28:02.000Z"
+      },
+      "image": {
+        "src": "/media/2026-11-03/2026-11-03-x-no-way-jd-vance-has-a-wario-jd-ford-goes-viral-o.webp",
+        "width": 720,
+        "height": 369,
+        "from": "https://pbs.twimg.com/media/HWPZ6AbW4AApBzL.jpg?name=medium",
+        "crop": {
+          "x": 0.22,
+          "y": 0.22,
+          "w": 0.42,
+          "h": 0.62
+        }
+      }
+    }
+  ]
+}

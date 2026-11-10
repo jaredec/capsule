@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-31",
+  "items": [
+    {
+      "id": "2026-10-31-x-a-halloween-costume-of-lois-griffin-falling-down",
+      "platform": "x",
+      "rank": 1,
+      "title": "A Halloween costume of Lois Griffin falling down the stairs",
+      "summary": "For Halloween, @blonddtyler put on an orange wig, a teal shirt and khakis and was photographed mid-air on a staircase, posted next to the Family Guy frame of Lois tumbling down the stairs, captioned \"howd i do?\" (208K likes). The Lois frame has been a reaction image since 2019, and the full-body commitment to the fall is what people shared; the top quote-post, \"do you wanna do this or not\", drew another 161K. It outran the celebrity costumes of the night, including Heidi Klum dressed as a giant severed replica of her own hand (Variety's video, 66K).",
+      "kind": "image",
+      "tags": [
+        "halloween",
+        "lois-griffin",
+        "family-guy",
+        "costume"
+      ],
+      "author": "@blonddtyler",
+      "sourceUrl": "https://x.com/blonddtyler/status/2116733204950352049",
+      "metrics": {
+        "likes": "208.4K",
+        "replies": "476"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.9,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 9,
+        "category": "internet-culture",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:40:45.464Z",
+      "post": {
+        "name": "Jalen’s Rose",
+        "handle": "@blonddtyler",
+        "verified": false,
+        "avatar": "/media/avatars/blonddtyler.webp",
+        "text": "howd i do? #Halloween",
+        "postedAt": "2026-11-01T03:24:57.000Z"
+      },
+      "image": {
+        "src": "/media/2026-10-31/2026-10-31-x-a-halloween-costume-of-lois-griffin-falling-down.webp",
+        "width": 720,
+        "height": 414,
+        "from": "https://x.com/blonddtyler/status/2116733204950352049#photos",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 0.395,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

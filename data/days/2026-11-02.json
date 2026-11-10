@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-02",
+  "items": [
+    {
+      "id": "2026-11-02-x-karl-bushby-walks-home-after-28-years-his-mum-wh",
+      "platform": "x",
+      "rank": 1,
+      "title": "Karl Bushby walks home after 28 years; his mum: \"Where have you been?\"",
+      "summary": "Former paratrooper Karl Bushby, who set off from the tip of Chile in November 1998 vowing to walk home without any transport, reached his mother's front door in Hull on Nov 2 after about 31,000 miles. Her first words were \"Where have you been?\"; he answered \"Twenty-eight years later. Here we are\" and announced he was going to get a cup of tea. Sky News's clip of his walk home drew 10K likes, AP, CBS and BBC carried the reunion, and his Wikipedia page drew 148K views that day.",
+      "kind": "moment",
+      "tags": [
+        "karl-bushby",
+        "walk-around-the-world",
+        "hull"
+      ],
+      "author": "@SkyNews",
+      "sourceUrl": "https://x.com/SkyNews/status/2117231671099400702",
+      "metrics": {
+        "likes": "10.5K",
+        "replies": "1.1K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 5.2,
+        "reach": 7,
+        "dominance": 5,
+        "memeability": 5,
+        "category": "news",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:40:46.335Z",
+      "post": {
+        "name": "Sky News",
+        "handle": "@SkyNews",
+        "verified": true,
+        "avatar": "/media/avatars/skynews.webp",
+        "text": "Karl Bushby has arrived home in Hull after walking 30,000 miles over the last 28 years. He set off from southern Chile in 1998, aged 28, promising to walk all the way home.\n\nSky's @ShingiMararike caught up with Karl as he headed home to see his mum\n\ntrib.al/KLEvD1M",
+        "postedAt": "2026-11-02T12:25:41.000Z"
+      },
+      "image": {
+        "src": "/media/2026-11-02/2026-11-02-x-karl-bushby-walks-home-after-28-years-his-mum-wh.webp",
+        "width": 720,
+        "height": 405,
+        "from": "https://video.twimg.com/amplify_video/2117231494074671104/vid/avc1/1280x720/fFgRekXk6Hrg2rdu.mp4?tag=16#t=22.4",
+        "crop": {
+          "x": 0.08,
+          "y": 0,
+          "w": 0.42,
+          "h": 0.8
+        }
+      }
+    }
+  ]
+}

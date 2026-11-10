@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-16",
+  "items": [
+    {
+      "id": "2026-10-16-x-katie-zacharia-out-as-press-secretary-after-five",
+      "platform": "x",
+      "rank": 1,
+      "title": "Katie Zacharia out as press secretary after five days",
+      "summary": "Katie Zacharia was out as White House press secretary five days after starting, following a debut briefing of under 15 minutes in which she called her husband \"my president,\" a South Lawn answer of \"When I moved to China\" when asked where she passed the bar, and a Wall Street Journal report that she had failed the California bar exam. Her tenure became a unit of time on the spot (\"Half of a Scaramucci is called a Zacharia\"), Scaramucci posted \"Records are made to be broken. But I take no pleasure in other people's pain\" (27K likes), and the Democrats posted her photo with an #OpenToWork banner. Her exit post calling Trump \"kind, wonderful, gracious\" drew 93K likes and a pile of mocking quote-posts; her Wikipedia page drew 400K to 900K views a day all week.",
+      "kind": "moment",
+      "tags": [
+        "katie-zacharia",
+        "press-secretary",
+        "scaramucci",
+        "white-house"
+      ],
+      "author": "@KatieZacharia",
+      "sourceUrl": "https://x.com/KatieZacharia/status/2111263907297788052",
+      "metrics": {
+        "likes": "93.5K",
+        "replies": "23K"
+      },
+      "references": [
+        {
+          "title": "Anthony Scaramucci Reacts To Katie Zacharia's White House Tenure",
+          "url": "https://deadline.com/2026/10/anthony-scaramucci-katie-zacharia-trump-press-secretary-1237166304/"
+        }
+      ],
+      "pulse": {
+        "score": 7.9,
+        "reach": 9,
+        "dominance": 9,
+        "memeability": 8,
+        "category": "politics",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-10-16/2026-10-16-x-katie-zacharia-out-as-press-secretary-after-five.webp",
+        "width": 1600,
+        "height": 1067,
+        "from": "https://pbs.twimg.com/media/HUy2y0UW8AAdBQn.jpg?name=large",
+        "crop": {
+          "x": 0.5,
+          "y": 0,
+          "w": 0.5,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "Katie Zacharia",
+        "handle": "@KatieZacharia",
+        "verified": true,
+        "avatar": "/media/avatars/katiezacharia.webp",
+        "text": "President Trump is a kind, wonderful, gracious, thoughtful, enthusiastic, and hardworking man. I wish more Americans appreciated him. No one will ever make America great the way he has and continues to.\n\nIt was an honor to work for him.",
+        "postedAt": "2026-10-17T01:11:55.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:46:53.298Z"
+    }
+  ]
+}

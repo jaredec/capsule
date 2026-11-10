@@ -31,9 +31,9 @@
       },
       "image": {
         "src": "/media/2026-09-10/2026-09-10-x-kirkiversary-one-year-since-charlie-kirk-s-death.webp",
-        "width": 720,
-        "height": 900,
-        "from": "https://pbs.twimg.com/media/HR2YW0_a0AAJ-aD.jpg?name=medium",
+        "width": 1280,
+        "height": 1600,
+        "from": "https://pbs.twimg.com/media/HR2YW0_a0AAJ-aD.jpg?name=large",
         "crop": {
           "x": 0.031,
           "y": 0,

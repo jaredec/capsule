@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-21",
+  "items": [
+    {
+      "id": "2026-10-21-x-ea-shuts-down-bioware-and-cancels-the-next-mass-",
+      "platform": "x",
+      "rank": 1,
+      "title": "EA shuts down BioWare and cancels the next Mass Effect",
+      "summary": "BioWare posted a black-card farewell, \"Now, after more than three decades of shared adventures, BioWare is closing and early development on the next Mass Effect project is ending,\" and it drew 330K likes. The studio behind Baldur's Gate, Knights of the Old Republic, Mass Effect and Dragon Age was closed by an EA taken private two months earlier by Saudi Arabia's PIF, Silver Lake and Jared Kushner's Affinity Partners. BioWare, Mass Effect, KOTOR, Jade Empire and Baldur's Gate all trended in the US, and feeds filled with grief (\"this was my childhood. its now gone,\" Hasan Piker, 28K) and pleas for EA to sell the IP. BioWare's Wikipedia page jumped to 171K views.",
+      "kind": "image",
+      "tags": [
+        "bioware",
+        "mass-effect",
+        "ea",
+        "dragon-age"
+      ],
+      "author": "@bioware",
+      "sourceUrl": "https://x.com/bioware/status/2112953618093535510",
+      "metrics": {
+        "likes": "330.2K",
+        "replies": "31K"
+      },
+      "references": [
+        {
+          "title": "'PLEASE Sell Your IPs to Another Company' — The Internet Reacts to the Cancellation of Mass Effect 5 and the Death of BioWare",
+          "url": "https://www.ign.com/articles/the-internet-reacts-to-the-cancelation-of-mass-effect-5-and-the-death-of-bioware"
+        }
+      ],
+      "pulse": {
+        "score": 6.9,
+        "reach": 7,
+        "dominance": 8,
+        "memeability": 5,
+        "category": "pop-culture",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:47:23.843Z",
+      "post": {
+        "name": "BioWare",
+        "handle": "@bioware",
+        "verified": true,
+        "avatar": "/media/avatars/bioware.webp",
+        "text": "",
+        "postedAt": "2026-10-21T17:06:13.000Z"
+      },
+      "image": {
+        "src": "/media/2026-10-21/2026-10-21-x-ea-shuts-down-bioware-and-cancels-the-next-mass-.webp",
+        "width": 848,
+        "height": 1199,
+        "from": "https://pbs.twimg.com/media/HVK5VLDWAAA5_7b.jpg",
+        "crop": {
+          "x": 0,
+          "y": 0.057,
+          "w": 1,
+          "h": 0.943
+        }
+      }
+    }
+  ]
+}

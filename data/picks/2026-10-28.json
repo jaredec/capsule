@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-28",
+  "stories": [
+    {
+      "title": "The Brewers win their first World Series and dedicate it to Bob Uecker",
+      "summary": "The Milwaukee Brewers beat the Rays 4-1 in Game 5 for the first World Series title in franchise history, in their 57th season. The team posted \"THE WORLD SERIES CHAMPIONSHIP BELONGS TO MILWAUKEE, WISCONSIN!!!!!!!\" (78K likes). Christian Yelich dedicated the title to the late broadcaster Bob Uecker (\"Uecky, I love you, man. We did it\"), and closer Trevor Megill told fans to \"have fun talking shit to Chicago next year. We have a ring,\" which sent Cubs fans into his replies.",
+      "kind": "image",
+      "tags": ["brewers", "world-series", "milwaukee", "bob-uecker", "yelich", "mlb"],
+      "category": "sports",
+      "crossover": true,
+      "reach": 7,
+      "dominance": 7,
+      "memeability": 3,
+      "platform": "x",
+      "headlineIds": [9, 77],
+      "sourceUrl": "https://x.com/Brewers/status/2115643107601428888"
+    },
+    {
+      "title": "Every Brewers reaction after the final out of the World Series",
+      "summary": "MLB's compilation of the Brewers' dugout, dogpile and clubhouse reactions after the final out of Game 5, Milwaukee's first World Series title, got 34K likes.",
+      "kind": "video",
+      "tags": ["brewers", "world-series", "milwaukee", "mlb"],
+      "category": "sports",
+      "crossover": true,
+      "reach": 7,
+      "dominance": 7,
+      "memeability": 3,
+      "platform": "x",
+      "headlineIds": [77],
+      "sourceUrl": "https://x.com/MLB/status/2115662531138068724"
+    }
+  ]
+}

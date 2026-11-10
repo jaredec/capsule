@@ -29,8 +29,18 @@
         "category": "tech",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:13:30.094Z",
+      "image": {
+        "src": "/media/2026-09-01/2026-09-01-x-new-apple-ceo-john-ternus-s-first-post-hello.webp",
+        "width": 1200,
+        "height": 1600,
+        "from": "https://x.com/johnternus/status/2094814214787633367",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
       "post": {
         "name": "John Ternus",
         "handle": "@johnternus",
@@ -39,18 +49,8 @@
         "text": "hello",
         "postedAt": "2026-09-01T15:46:43.000Z"
       },
-      "image": {
-        "src": "/media/2026-09-01/2026-09-01-x-new-apple-ceo-john-ternus-s-first-post-hello.webp",
-        "width": 720,
-        "height": 960,
-        "from": "https://x.com/johnternus/status/2094814214787633367",
-        "crop": {
-          "x": 0,
-          "y": 0,
-          "w": 1,
-          "h": 1
-        }
-      }
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:13:30.094Z"
     }
   ]
 }

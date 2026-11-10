@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-08",
+  "items": [
+    {
+      "id": "2026-11-08-x-rogue-corgi-quinn-jukes-her-handlers-at-panthers",
+      "platform": "x",
+      "rank": 1,
+      "title": "Rogue corgi Quinn jukes her handlers at Panthers-Broncos halftime",
+      "summary": "During the Panthers' halftime corgi race, a one-year-old corgi named Quinn ditched the race and ran the field in a Carolina blue sweater, juking at least four diving handlers before being taken down around the 40-yard line and delaying the second-half kickoff. \"A rogue Corgi at the Panthers-Broncos game now has the Week 9 lead for missed tackles\" (34K likes), and Scott Hanson's RedZone call, \"They can't get him at the 40! They can't get him at the 45!,\" spread on ESPN and Awful Announcing. The Panthers posted \"Still a good boy though,\" fans demanded a contract, and Ollie, not Quinn, officially won the race. The same afternoon, Jensen Huang's affair admission set off a meme wave that peaked the next day.",
+      "kind": "video",
+      "tags": [
+        "corgi",
+        "panthers",
+        "halftime",
+        "dogs"
+      ],
+      "author": "@NFLMemes",
+      "sourceUrl": "https://x.com/NFLMemes/status/2119530559235883158",
+      "metrics": {
+        "likes": "34.2K",
+        "replies": "789"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.9,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 9,
+        "category": "animals",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T05:01:12.395Z",
+      "post": {
+        "name": "NFL Memes",
+        "handle": "@NFLMemes",
+        "verified": true,
+        "avatar": "/media/avatars/nflmemes.webp",
+        "text": "A rogue Corgi at the Panthers-Broncos game now has the Week 9 lead for missed tackles",
+        "postedAt": "2026-11-08T20:40:38.000Z"
+      },
+      "image": {
+        "src": "/media/2026-11-08/2026-11-08-x-rogue-corgi-quinn-jukes-her-handlers-at-panthers.webp",
+        "width": 608,
+        "height": 1080,
+        "from": "https://video.twimg.com/amplify_video/2119520456445149184/vid/avc1/608x1080/0GWbl_Kdom9vkrkH.mp4#t=6.1",
+        "crop": {
+          "x": 0.1,
+          "y": 0.02,
+          "w": 0.9,
+          "h": 0.86
+        }
+      }
+    }
+  ]
+}

@@ -29,8 +29,18 @@
         "category": "tech",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:33:15.146Z",
+      "image": {
+        "src": "/media/2026-09-09/2026-09-09-x-apple-unveils-the-foldable-iphone-duo.webp",
+        "width": 900,
+        "height": 1600,
+        "from": "https://video.twimg.com/amplify_video/2097782703810916352/vid/avc1/1080x1920/82WxZwvbS_EEXUOL.mp4#t=6",
+        "crop": {
+          "x": 0,
+          "y": 0.1,
+          "w": 1,
+          "h": 0.75
+        }
+      },
       "post": {
         "name": "Marques Brownlee",
         "handle": "@MKBHD",
@@ -39,18 +49,8 @@
         "text": "This iPhone duo animation",
         "postedAt": "2026-09-09T20:23:02.000Z"
       },
-      "image": {
-        "src": "/media/2026-09-09/2026-09-09-x-apple-unveils-the-foldable-iphone-duo.webp",
-        "width": 720,
-        "height": 1280,
-        "from": "https://video.twimg.com/amplify_video/2097782703810916352/vid/avc1/720x1280/q50GJjQBRfVTnamQ.mp4#t=6",
-        "crop": {
-          "x": 0,
-          "y": 0.1,
-          "w": 1,
-          "h": 0.75
-        }
-      }
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:33:15.146Z"
     }
   ]
 }

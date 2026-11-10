@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-06",
+  "items": [
+    {
+      "id": "2026-11-06-x-if-newton-saw-the-way-i-be-moving-he-d-add-a-fou",
+      "platform": "x",
+      "rank": 1,
+      "title": "\"If Newton saw the way I be moving\" he'd add a fourth law of motion",
+      "summary": "A one-line brag posted Friday afternoon, \"If newton saw the way I be moving these days he'd add a fourth law of motion,\" passed 1M views and 94K likes within a day and is now at 220K likes and 2.9M views. By the next morning accounts everywhere were reposting it word for word or swapping in a footballer, a friend or a celebrity whose form seemed to defy physics, and X News ran a story on it. The same day, Swifties went after Knicks guard Tyler Kolek for calling Taylor Swift the team's \"fakest\" celebrity fan, and the Knicks put out a statement defending her.",
+      "kind": "phrase",
+      "tags": [
+        "newton",
+        "fourth-law-of-motion",
+        "copypasta"
+      ],
+      "author": "@sbxloch",
+      "sourceUrl": "https://x.com/sbxloch/status/2118821023151706276",
+      "metrics": {
+        "likes": "219.6K",
+        "replies": "266"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.2,
+        "reach": 7,
+        "dominance": 6,
+        "memeability": 9,
+        "category": "internet-culture",
+        "crossover": false
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T05:01:10.162Z",
+      "post": {
+        "name": "Mir",
+        "handle": "@sbxloch",
+        "verified": false,
+        "avatar": "/media/avatars/sbxloch.webp",
+        "text": "If newton saw the way I be moving these days he'd add a fourth law of motion",
+        "postedAt": "2026-11-06T21:41:12.000Z"
+      },
+      "image": {
+        "src": "/media/2026-11-06/2026-11-06-x-if-newton-saw-the-way-i-be-moving-he-d-add-a-fou.webp",
+        "width": 1139,
+        "height": 1600,
+        "from": "https://upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-1689.jpg",
+        "crop": {
+          "x": 0.1,
+          "y": 0,
+          "w": 0.9,
+          "h": 0.85
+        }
+      }
+    }
+  ]
+}

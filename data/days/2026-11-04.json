@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-04",
+  "items": [
+    {
+      "id": "2026-11-04-x-ben-affleck-s-i-voted-smoking-photo-updates-the-",
+      "platform": "x",
+      "rank": 1,
+      "title": "Ben Affleck's \"I Voted\" smoking photo updates the tired-Affleck meme",
+      "summary": "A paparazzi photo taken on Election Day of Ben Affleck smoking with his eyes closed and an \"I Voted\" sticker on his blazer was paired the next morning with the classic 2016 tired-and-smoking Affleck photo: \"Wake up, babe. Ben Affleck tired and smoking meme has been updated\" (130K likes, 1.5M views). It became the go-to image for how everyone felt after election night, and indy100 declared \"a new tired and smoking Ben Affleck meme has dropped.\" The same day Telegram's official account posted \"i can't believe bill gates named that company after his penis\" (160K).",
+      "kind": "image",
+      "tags": [
+        "ben-affleck",
+        "i-voted",
+        "tired-smoking",
+        "midterms"
+      ],
+      "author": "@BYRNEGRACES",
+      "sourceUrl": "https://x.com/BYRNEGRACES/status/2118046162838053124",
+      "metrics": {
+        "likes": "130.4K",
+        "replies": "108"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.9,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 9,
+        "category": "celebrity",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T05:01:07.845Z",
+      "post": {
+        "name": "ˑ 𓈒 𐔌 𝓡𝐈𝐕𝐄𝐑 is Benito the reindeer ͡꒱ ۫𓈒",
+        "handle": "@BYRNEGRACES",
+        "verified": false,
+        "avatar": "/media/avatars/byrnegraces.webp",
+        "text": "Wake up, babe. Ben Affleck tired and smoking meme has been updated.",
+        "postedAt": "2026-11-04T18:22:11.000Z"
+      },
+      "image": {
+        "src": "/media/2026-11-04/2026-11-04-x-ben-affleck-s-i-voted-smoking-photo-updates-the-.webp",
+        "width": 1600,
+        "height": 1069,
+        "from": "https://x.com/BYRNEGRACES/status/2118046162838053124#photos",
+        "crop": {
+          "x": 0.499,
+          "y": 0,
+          "w": 0.501,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

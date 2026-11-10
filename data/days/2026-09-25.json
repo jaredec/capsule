@@ -29,8 +29,18 @@
         "category": "sports",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:13:30.730Z",
+      "image": {
+        "src": "/media/2026-09-25/2026-09-25-x-man-city-found-guilty-and-de-gea-asks-how-many-t.webp",
+        "width": 1200,
+        "height": 1600,
+        "from": "https://x.com/D_DeGea/status/2103559973540340178",
+        "crop": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 1
+        }
+      },
       "post": {
         "name": "David de Gea",
         "handle": "@D_DeGea",
@@ -39,18 +49,8 @@
         "text": "So…… \n\nLet’s talk.\n\nHow many Premier League titles have I won then? 🤔",
         "postedAt": "2026-09-25T18:59:14.000Z"
       },
-      "image": {
-        "src": "/media/2026-09-25/2026-09-25-x-man-city-found-guilty-and-de-gea-asks-how-many-t.webp",
-        "width": 720,
-        "height": 960,
-        "from": "https://x.com/D_DeGea/status/2103559973540340178",
-        "crop": {
-          "x": 0,
-          "y": 0,
-          "w": 1,
-          "h": 1
-        }
-      }
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:13:30.730Z"
     }
   ]
 }

@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-29",
+  "items": [
+    {
+      "id": "2026-10-29-x-patrick-stewart-dies-at-86",
+      "platform": "x",
+      "rank": 1,
+      "title": "Patrick Stewart dies at 86",
+      "summary": "Sir Patrick Stewart, Star Trek's Captain Picard and X-Men's Professor X, died at home in Los Angeles at 86 after \"a brief and poignant journey with Alzheimer's Disease and Lewy Body Dementia.\" The announcement on his own account got 345K likes. Marvel Studios' tribute got 535K, Ian McKellen's \"He wore his heart on his sleeve\" 475K and William Shatner's 189K, and his Wikipedia page drew 2.4M views. Ricky Gervais posted the blooper reel from their Extras scene, and fans shared old \"Make it so\" memes as tributes.",
+      "kind": "image",
+      "tags": [
+        "patrick-stewart",
+        "star-trek",
+        "picard",
+        "x-men"
+      ],
+      "author": "@SirPatStew",
+      "sourceUrl": "https://x.com/SirPatStew/status/2115891266131300517",
+      "metrics": {
+        "likes": "345.4K",
+        "replies": "6.7K"
+      },
+      "references": [
+        {
+          "title": "‘Make It So’: The Ultimate Patrick Stewart Meme Hall of Fame",
+          "url": "https://www.mensjournal.com/news/make-it-so-the-ultimate-patrick-stewart-meme-hall-of-fame"
+        },
+        {
+          "title": "California Farewell as Star Trek Legend Patrick Stewart Dies at 86 and the Son He Admitted Losing Answers With One Wordless Photo: 'We Don't Have Relationships'",
+          "url": "https://thenerdstash.com/california-farewell-as-star-trek-legend-patrick-stewart-dies-at-86-and-the-son-he-admitted-losing-answers-with-one-wordless-photo-we-dont-have-relationships/"
+        }
+      ],
+      "pulse": {
+        "score": 8.8,
+        "reach": 10,
+        "dominance": 10,
+        "memeability": 5,
+        "category": "tv-film",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:46:37.521Z",
+      "post": {
+        "name": "Patrick Stewart",
+        "handle": "@SirPatStew",
+        "verified": true,
+        "avatar": "/media/avatars/sirpatstew.webp",
+        "text": "In lieu of flowers, memorial contributions may be made to:\nJohns Hopkins Alzheimer’s Disease Research Center Fund   \nalzresearch.org/giving/\nAlzheimer’s Foundation of America Caregiver Resources    \nalzfdn.org/donate/\n\nPhoto Credit: Tommy Garcia",
+        "postedAt": "2026-10-29T19:39:23.000Z"
+      },
+      "image": {
+        "src": "/media/2026-10-29/2026-10-29-x-patrick-stewart-dies-at-86.webp",
+        "width": 1280,
+        "height": 1600,
+        "from": "https://pbs.twimg.com/media/HV0nTpuXAAAIeIB.jpg?name=large",
+        "crop": {
+          "x": 0.062,
+          "y": 0,
+          "w": 0.938,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-14",
+  "items": [
+    {
+      "id": "2026-10-14-x-mark-zuckerberg-pretending-to-enjoy-guinness",
+      "platform": "x",
+      "rank": 1,
+      "title": "Mark Zuckerberg \"pretending to enjoy Guinness\"",
+      "summary": "On John Collison's Cheeky Pint podcast, Mark Zuckerberg took a sip of Guinness next to Alexandr Wang, swished it around his mouth with the look of a man unsure whether to swallow, and put the pint back down. Mark Malone's 12-second clip, captioned \"Mark Zuckerberg pretending to enjoy Guinness is my new favourite thing,\" passed 13 million views and 107K likes. Zuckerberg replied \"that's just my face,\" and by Oct 14 Forbes, the Independent and TheJournal.ie were asking whether it was his first pint, noting that he had just moved into a castle in Co Waterford.",
+      "kind": "video",
+      "tags": [
+        "mark-zuckerberg",
+        "guinness",
+        "cheeky-pint"
+      ],
+      "author": "@soundmigration",
+      "sourceUrl": "https://x.com/soundmigration/status/2109749349928554884",
+      "metrics": {
+        "likes": "107.6K",
+        "replies": "2.3K"
+      },
+      "references": [
+        {
+          "title": "Video: Mark Zuckerberg's Reaction After Sipping Guinness Beer Goes Viral, Internet Reacts",
+          "url": "https://www.ndtv.com/offbeat/video-mark-zuckerbergs-reaction-after-sipping-guinness-goes-viral-internet-reacts-12184501"
+        },
+        {
+          "title": "Internet reacts to video of Mark Zuckerberg drinking Guinness: ‘Must be a wine guy’",
+          "url": "https://www.independent.co.uk/bulletin/culture/mark-zuckerberg-guinness-drinking-video-cheeky-pint-b3066380.html"
+        }
+      ],
+      "pulse": {
+        "score": 7.7,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 8,
+        "category": "celebrity",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-10-14/2026-10-14-x-mark-zuckerberg-pretending-to-enjoy-guinness.webp",
+        "width": 1280,
+        "height": 576,
+        "from": "https://video.twimg.com/amplify_video/2109749334237458432/vid/avc1/1280x576/iW7Hk84vOftVeJpj.mp4#t=5",
+        "crop": {
+          "x": 0.12,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "Mark Malone",
+        "handle": "@soundmigration",
+        "verified": false,
+        "avatar": "/media/avatars/soundmigration.webp",
+        "text": "Mark Zuckerberg pretending to enjoy Guinness is my new favourite thing.",
+        "postedAt": "2026-10-12T20:53:36.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:46:43.115Z"
+    }
+  ]
+}

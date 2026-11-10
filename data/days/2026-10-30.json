@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-30",
+  "items": [
+    {
+      "id": "2026-10-30-x-a-man-stuck-in-a-tennis-racket-while-the-whole-b",
+      "platform": "x",
+      "rank": 1,
+      "title": "A man stuck in a tennis racket while the whole bar just watches",
+      "summary": "A short clip of a man wedged torso-and-one-leg through a stringless tennis racket, slapping a restaurant floor while people stand around him, was reposted on X on the afternoon of Oct 30 and passed 23 million views (234K likes). \"Fire department gonna be talking about this for generations\" (87K) led the jokes, and the replies filled with demands for an update on what happened next. USA Today later found the filmer, an emcee in Benin City, Nigeria: the man was a contortionist hired by the restaurant who fooled even the waiters, and \"just sort of stood up\" once the camera stopped.",
+      "kind": "video",
+      "tags": [
+        "tennis-racket",
+        "stuck",
+        "contortionist"
+      ],
+      "author": "@gapjilreborn",
+      "sourceUrl": "https://x.com/gapjilreborn/status/2116281350219076025",
+      "metrics": {
+        "likes": "234K",
+        "replies": "2.1K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.9,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 9,
+        "category": "internet-culture",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:53:41.910Z",
+      "post": {
+        "name": "🍰",
+        "handle": "@gapjilreborn",
+        "verified": false,
+        "avatar": "/media/avatars/gapjilreborn.webp",
+        "text": "Nigga stuck in a tennis racket",
+        "postedAt": "2026-10-30T21:29:27.000Z"
+      },
+      "image": {
+        "src": "/media/2026-10-30/2026-10-30-x-a-man-stuck-in-a-tennis-racket-while-the-whole-b.webp",
+        "width": 720,
+        "height": 1280,
+        "from": "https://video.twimg.com/amplify_video/2116281250361061376/vid/avc1/720x1280/oofh1CMXF139Bht4.mp4?tag=14#t=13",
+        "crop": {
+          "x": 0,
+          "y": 0.06,
+          "w": 1,
+          "h": 0.56
+        }
+      }
+    }
+  ]
+}

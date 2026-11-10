@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-29",
+  "stories": [
+    {
+      "title": "Patrick Stewart dies at 86",
+      "summary": "Sir Patrick Stewart, Star Trek's Captain Picard and X-Men's Professor X, died at home in Los Angeles at 86 after \"a brief and poignant journey with Alzheimer's Disease and Lewy Body Dementia.\" The announcement on his own account got 345K likes. Marvel Studios' tribute got 535K, Ian McKellen's \"He wore his heart on his sleeve\" 475K and William Shatner's 189K, and his Wikipedia page drew 2.4M views. Ricky Gervais posted the blooper reel from their Extras scene, and fans shared old \"Make it so\" memes as tributes.",
+      "kind": "image",
+      "tags": ["patrick-stewart", "star-trek", "picard", "x-men", "obituary"],
+      "category": "tv-film",
+      "crossover": true,
+      "reach": 10,
+      "dominance": 10,
+      "memeability": 5,
+      "platform": "x",
+      "headlineIds": [54, 88],
+      "sourceUrl": "https://x.com/SirPatStew/status/2115891266131300517"
+    },
+    {
+      "title": "Ian McKellen's tribute to Patrick Stewart",
+      "summary": "Ian McKellen, Stewart's X-Men co-star and the officiant at his wedding, wrote that \"He wore his heart on his sleeve, which made him a man to rely on, to admire and in my case, love.\" The post got 475K likes.",
+      "kind": "image",
+      "tags": ["patrick-stewart", "ian-mckellen", "x-men", "obituary"],
+      "category": "tv-film",
+      "crossover": true,
+      "reach": 9,
+      "dominance": 9,
+      "memeability": 3,
+      "platform": "x",
+      "headlineIds": [54],
+      "sourceUrl": "https://x.com/IanMcKellen/status/2115961299729596647"
+    }
+  ]
+}

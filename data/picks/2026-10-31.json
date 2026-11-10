@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-31",
+  "stories": [
+    {
+      "title": "A Halloween costume of Lois Griffin falling down the stairs",
+      "summary": "For Halloween, @blonddtyler put on an orange wig, a teal shirt and khakis and was photographed mid-air on a staircase, posted next to the Family Guy frame of Lois tumbling down the stairs, captioned \"howd i do?\" (208K likes). The Lois frame has been a reaction image since 2019, and the full-body commitment to the fall is what people shared; the top quote-post, \"do you wanna do this or not\", drew another 161K. It outran the celebrity costumes of the night, including Heidi Klum dressed as a giant severed replica of her own hand (Variety's video, 66K).",
+      "kind": "image",
+      "tags": [
+        "halloween",
+        "lois-griffin",
+        "family-guy",
+        "costume"
+      ],
+      "category": "internet-culture",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 7,
+      "memeability": 9,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/blonddtyler/status/2116733204950352049",
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "w": 0.395,
+        "h": 1
+      }
+    },
+    {
+      "title": "Heidi Klum dresses as a giant severed replica of her own hand",
+      "summary": "Heidi Klum arrived at her annual Halloween party as an oversized severed hand modeled on her own, and Variety's video of it drew 66K likes as people riffed that you have to hand it to her.",
+      "kind": "video",
+      "tags": [
+        "halloween",
+        "heidi-klum",
+        "costume"
+      ],
+      "category": "celebrity",
+      "crossover": true,
+      "reach": 7,
+      "dominance": 6,
+      "memeability": 7,
+      "platform": "x",
+      "headlineIds": [
+        38
+      ],
+      "sourceUrl": "https://x.com/Variety/status/2116722712718791114"
+    }
+  ]
+}

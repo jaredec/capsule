@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-21",
+  "stories": [
+    {
+      "title": "EA shuts down BioWare and cancels the next Mass Effect",
+      "summary": "BioWare posted a black-card farewell, \"Now, after more than three decades of shared adventures, BioWare is closing and early development on the next Mass Effect project is ending,\" and it drew 330K likes. The studio behind Baldur's Gate, Knights of the Old Republic, Mass Effect and Dragon Age was closed by an EA taken private two months earlier by Saudi Arabia's PIF, Silver Lake and Jared Kushner's Affinity Partners. BioWare, Mass Effect, KOTOR, Jade Empire and Baldur's Gate all trended in the US, and feeds filled with grief (\"this was my childhood. its now gone,\" Hasan Piker, 28K) and pleas for EA to sell the IP. BioWare's Wikipedia page jumped to 171K views.",
+      "kind": "image",
+      "tags": ["bioware", "mass-effect", "ea", "dragon-age", "video-games"],
+      "category": "pop-culture",
+      "crossover": true,
+      "reach": 7,
+      "dominance": 8,
+      "memeability": 5,
+      "platform": "x",
+      "headlineIds": [42],
+      "sourceUrl": "https://x.com/bioware/status/2112953618093535510",
+      "imageUrl": "https://pbs.twimg.com/media/HVK5VLDWAAA5_7b.jpg"
+    }
+  ]
+}

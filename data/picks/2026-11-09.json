@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-09",
+  "stories": [
+    {
+      "title": "Jensen Huang admits an affair with an alleged Chinese spy; memes",
+      "summary": "In a Sunday staff email Jensen Huang wrote \"I was unfaithful to my wife. My actions hurt her and our children,\" after the New York Times reported that US intelligence believes Alice Huang, a former Megaspeed executive, was recruited by China's Ministry of State Security to get close to him; Nvidia's board opened an independent investigation and China called the claims smears. The internet's verdict: \"Can't believe Jensen popped the AI bubble with his dick\" (165K likes), \"Me and Jensen Huang's ex wife after she gets half his money in the divorce\" (121K), \"it's crazy that the only way to get a RTX 5080 is by sleeping with Jensen Huang\" (60K), plus AI Coldplay kiss-cam clips. On Monday Nvidia fell 4.3% while the rest of the market rallied, wiping out nearly $200 billion, Trump said the FBI was looking into it, and Huang's Wikipedia page drew 733K views. Russell Brand's 10½-year sentence the same day drew even more Wikipedia traffic but few memes.",
+      "kind": "phrase",
+      "tags": ["jensen-huang", "nvidia", "honeypot", "affair"],
+      "category": "tech",
+      "crossover": true,
+      "reach": 9,
+      "dominance": 9,
+      "memeability": 9,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/jieselong/status/2119576584898416808",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108447194-1792682505441-108447194-1792682412759-gettyimages-2301328017-2s4a6117_3tcndrih.jpg?v=1792682514&w=1920&h=1080",
+      "crop": { "x": 0.25, "y": 0, "w": 0.5, "h": 1 }
+    }
+  ]
+}

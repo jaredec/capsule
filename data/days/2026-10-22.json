@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-22",
+  "items": [
+    {
+      "id": "2026-10-22-x-the-atlanta-falcons-new-profile-picture-becomes-",
+      "platform": "x",
+      "rank": 1,
+      "title": "The Atlanta Falcons' new profile picture becomes \"the Bird Reich\"",
+      "summary": "Ahead of a 1966 throwback game, the Falcons posted \"New PFP\" with their old angular falcon over red, white, black and gold stripes. By Thursday it had spread far past football fans and passed 26 million views (80K likes), with nearly everyone seeing Nazi iconography. \"I must say, I was not expecting to wake up this morning to see that the Atlanta Falcons are preparing to invade Poland,\" one reply went; others offered \"Falcons were up 28-3 at Dunkirk,\" the \"28-3rd Reich,\" \"I give this a nein/10\" and \"49ers vs 39ers.\" The team quietly swapped it for the falcon on a red helmet the next day.",
+      "kind": "image",
+      "tags": [
+        "atlanta-falcons",
+        "bird-reich",
+        "logo",
+        "nfl"
+      ],
+      "author": "@AtlantaFalcons",
+      "sourceUrl": "https://x.com/AtlantaFalcons/status/2112945043522654700",
+      "metrics": {
+        "likes": "80.5K",
+        "replies": "11.1K"
+      },
+      "references": [
+        {
+          "title": "‘The Bird Reich’: Atlanta Falcons roasted over throwback logo with Nazi resemblance",
+          "url": "https://www.theguardian.com/sport/2026/oct/22/atlanta-falcons-throwback-logo-nazi-germany-comparisons-memes"
+        },
+        {
+          "title": "Atlanta Falcons show off new profile pic on social media that some fans say resembles Nazi imagery",
+          "url": "https://www.nbcnews.com/news/us-news/atlanta-falcons-show-eyebrow-raising-retro-image-social-media-rcna605083"
+        },
+        {
+          "title": "Falcons’ New Logo Sparks Nazi Comparisons From Fans",
+          "url": "https://heavy.com/sports/nfl/atlanta-falcons/falcons-new-logo-sparks-nazi-comparisons-from-fans/"
+        }
+      ],
+      "pulse": {
+        "score": 8.3,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 9,
+        "category": "brands",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:46:06.759Z",
+      "post": {
+        "name": "Atlanta Falcons",
+        "handle": "@AtlantaFalcons",
+        "verified": true,
+        "avatar": "/media/avatars/atlantafalcons.webp",
+        "text": "New PFP 👀",
+        "postedAt": "2026-10-21T16:32:09.000Z"
+      },
+      "image": {
+        "src": "/media/2026-10-22/2026-10-22-x-the-atlanta-falcons-new-profile-picture-becomes-.webp",
+        "width": 1600,
+        "height": 1600,
+        "from": "https://pbs.twimg.com/media/HVKwPBKWIAAnEZb.jpg?name=large",
+        "crop": {
+          "x": 0.125,
+          "y": 0,
+          "w": 0.75,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

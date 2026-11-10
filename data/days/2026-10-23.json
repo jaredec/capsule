@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-23",
+  "items": [
+    {
+      "id": "2026-10-23-x-hila-klein-reveals-ethan-klein-s-affair-and-h3-c",
+      "platform": "x",
+      "rank": 1,
+      "title": "Hila Klein reveals Ethan Klein's affair, and H3 cuts ties with him",
+      "summary": "Late Thursday, Hila Klein posted that her husband and H3 Podcast co-host Ethan had been having an affair for over six months and that they had separated (\"'It was just a kiss' became 'it was emotional cheating'\"). By Friday morning the H3 crew said it would no longer work with him, the show went on indefinite hiatus, and the scandal took over the feed. The image of it became an old Halloween photo of Ethan as the Cat in the Hat with Hila and the other woman as Thing 1 and Thing 2, posted with \"Ethan Klein dressed his wife and his mistress up as thing 1 and thing 2\" (124K likes).",
+      "kind": "image",
+      "tags": [
+        "ethan-klein",
+        "hila-klein",
+        "h3-podcast",
+        "cheating-scandal"
+      ],
+      "author": "@SnarkingIsLegal",
+      "sourceUrl": "https://x.com/SnarkingIsLegal/status/2113586333457518842",
+      "metrics": {
+        "likes": "124.1K",
+        "replies": "868"
+      },
+      "references": [
+        {
+          "title": "Ethan Klein's Old Halloween Pic Goes Viral, He Dressed Wife And Mistress As 'Thing 1' And 'Thing 2'",
+          "url": "https://www.bollywoodshaadis.com/articles/ethan-klein-old-halloween-pic-goes-viral-85937"
+        }
+      ],
+      "pulse": {
+        "score": 8.1,
+        "reach": 8,
+        "dominance": 9,
+        "memeability": 7,
+        "category": "internet-culture",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:39:47.721Z",
+      "post": {
+        "name": "OG SNARK ☕️",
+        "handle": "@SnarkingIsLegal",
+        "verified": false,
+        "avatar": "/media/avatars/snarkingislegal.webp",
+        "text": "Ethan Klein dressed his wife and his mistress up as thing 1 and thing 2",
+        "postedAt": "2026-10-23T11:00:25.000Z"
+      },
+      "image": {
+        "src": "/media/2026-10-23/2026-10-23-x-hila-klein-reveals-ethan-klein-s-affair-and-h3-c.webp",
+        "width": 552,
+        "height": 1005,
+        "from": "https://pbs.twimg.com/media/HVT3kX2WAAAN5jt.jpg?name=medium",
+        "crop": {
+          "x": 0,
+          "y": 0.2,
+          "w": 1,
+          "h": 0.732
+        }
+      }
+    }
+  ]
+}

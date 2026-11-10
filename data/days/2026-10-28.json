@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-28",
+  "items": [
+    {
+      "id": "2026-10-28-x-the-brewers-win-their-first-world-series-and-ded",
+      "platform": "x",
+      "rank": 1,
+      "title": "The Brewers win their first World Series and dedicate it to Bob Uecker",
+      "summary": "The Milwaukee Brewers beat the Rays 4-1 in Game 5 for the first World Series title in franchise history, in their 57th season. The team posted \"THE WORLD SERIES CHAMPIONSHIP BELONGS TO MILWAUKEE, WISCONSIN!!!!!!!\" (78K likes). Christian Yelich dedicated the title to the late broadcaster Bob Uecker (\"Uecky, I love you, man. We did it\"), and closer Trevor Megill told fans to \"have fun talking shit to Chicago next year. We have a ring,\" which sent Cubs fans into his replies.",
+      "kind": "image",
+      "tags": [
+        "brewers",
+        "world-series",
+        "milwaukee",
+        "bob-uecker"
+      ],
+      "author": "@Brewers",
+      "sourceUrl": "https://x.com/Brewers/status/2115643107601428888",
+      "metrics": {
+        "likes": "78.5K",
+        "replies": "2K"
+      },
+      "references": [
+        {
+          "title": "Before winning the World Series, this Latter-day Saint’s Fanta celebration went viral",
+          "url": "https://www.ldsliving.com/before-winning-the-world-series-this-latter-day-saints-fanta-celebration-went-viral/s/13483"
+        },
+        {
+          "title": "MLB World Reacts to Milwaukee Brewers World Series Victory",
+          "url": "https://sports.yahoo.com/articles/mlb-world-reacts-milwaukee-brewers-063402994.html"
+        }
+      ],
+      "pulse": {
+        "score": 5.4,
+        "reach": 7,
+        "dominance": 7,
+        "memeability": 3,
+        "category": "sports",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:46:33.834Z",
+      "post": {
+        "name": "Milwaukee Brewers",
+        "handle": "@Brewers",
+        "verified": false,
+        "avatar": "/media/avatars/brewers.webp",
+        "text": "THE WORLD SERIES CHAMPIONSHIP BELONGS TO MILWAUKEE, WISCONSIN!!!!!!!!!!!!!!!!!!!!!!!",
+        "postedAt": "2026-10-29T03:13:18.000Z"
+      },
+      "image": {
+        "src": "/media/2026-10-28/2026-10-28-x-the-brewers-win-their-first-world-series-and-ded.webp",
+        "width": 1280,
+        "height": 1600,
+        "from": "https://pbs.twimg.com/media/HVxGMNlXEAERYkO.jpg?name=large",
+        "crop": {
+          "x": 0.062,
+          "y": 0,
+          "w": 0.938,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-15",
+  "items": [
+    {
+      "id": "2026-10-15-x-tesla-s-new-roadster-does-a-kickflip-over-a-semi",
+      "platform": "x",
+      "rank": 1,
+      "title": "Tesla's new Roadster does a kickflip over a Semi",
+      "summary": "At the Roadster unveiling at SpaceX's test site in McGregor, Texas, Tesla's new car drove up a curved ramp until it hung upside down, then used cold-gas thrusters to leap off flat ground and barrel-roll over a Model 3, Model Y, Cybertruck, Cybercab and Semi before landing on its wheels. Tesla's \"Do a kickflip!\" clip got 206K likes, and the reaction was immediate: \"we got flying cars before GTA 6\" (Rockstar had dropped the GTA 6 launch trailer the same day), Knight Rider turbo-boost comparisons, AI edits of Roadsters hopping over traffic and police checkpoints, and arguments over whether the footage was CGI.",
+      "kind": "video",
+      "tags": [
+        "tesla",
+        "roadster",
+        "flying-car",
+        "elon-musk"
+      ],
+      "author": "@Tesla",
+      "sourceUrl": "https://x.com/Tesla/status/2110926164306931860",
+      "metrics": {
+        "likes": "206.4K",
+        "replies": "4.5K"
+      },
+      "references": [
+        {
+          "title": "Tesla's Flying Car Is Here, and so Are the Memes",
+          "url": "https://www.businessinsider.com/teslas-flying-car-meme-roundup-2026-10"
+        },
+        {
+          "title": "Internet reacts to Tesla's new Roadster - 'Finally...flying cars'",
+          "url": "https://autos.yahoo.com/ev-and-future-tech/articles/internet-reacts-teslas-roadster-finally-173523372.html"
+        },
+        {
+          "title": "Internet Reacts As Elon Musk’s Tesla Roadster 2 Flips In Mid-Air During Texas Demo: ‘Greatest Thing I’ve Ev",
+          "url": "https://www.news18.com/viral/internet-reacts-as-elon-musks-tesla-roadster-2-flips-in-mid-air-during-texas-demo-greatest-thing-ive-ever-seen-ws-l-10384332.html"
+        }
+      ],
+      "pulse": {
+        "score": 7,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 7,
+        "category": "tech",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-10-15/2026-10-15-x-tesla-s-new-roadster-does-a-kickflip-over-a-semi.webp",
+        "width": 1600,
+        "height": 900,
+        "from": "https://video.twimg.com/amplify_video/2110926020517732352/vid/avc1/1920x1080/iySVmnJkzxA49Xdv.mp4#t=14",
+        "crop": {
+          "x": 0.578,
+          "y": 0,
+          "w": 0.422,
+          "h": 1
+        }
+      },
+      "post": {
+        "name": "Tesla",
+        "handle": "@Tesla",
+        "verified": true,
+        "avatar": "/media/avatars/tesla.webp",
+        "text": "Do a kickflip!",
+        "postedAt": "2026-10-16T02:49:51.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:46:49.286Z"
+    }
+  ]
+}

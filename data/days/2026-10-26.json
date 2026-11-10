@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-26",
+  "items": [
+    {
+      "id": "2026-10-26-x-eric-bauza-the-voice-of-bugs-bunny-and-daffy-duc",
+      "platform": "x",
+      "rank": 1,
+      "title": "Eric Bauza, the voice of Bugs Bunny and Daffy Duck, dies at 46",
+      "summary": "Eric Bauza, the modern voice of Bugs Bunny, Daffy Duck and much of the Looney Tunes cast, died suddenly at home at 46; the medical examiner listed hypertensive cardiovascular disease. His family announced it late Sunday, and by Monday DiscussingFilm's post had 173K likes and his Wikipedia page drew 511K views. Warner Bros. TV said he \"followed in the footsteps of giants like Mel Blanc,\" and John Cena, his Coyote vs. Acme co-star, thanked him \"for giving our favorites their 'voice.'\" Bauza had publicly campaigned to get that film released after Warner shelved it.",
+      "kind": "image",
+      "tags": [
+        "eric-bauza",
+        "looney-tunes",
+        "bugs-bunny",
+        "daffy-duck"
+      ],
+      "author": "@DiscussingFilm",
+      "sourceUrl": "https://x.com/DiscussingFilm/status/2114561950071853408",
+      "metrics": {
+        "likes": "172.7K",
+        "replies": "2K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 6.7,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 4,
+        "category": "tv-film",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:46:22.348Z",
+      "post": {
+        "name": "DiscussingFilm",
+        "handle": "@DiscussingFilm",
+        "verified": true,
+        "avatar": "/media/avatars/discussingfilm.webp",
+        "text": "Eric Bauza has sadly passed away at the age of 46.\n\nThe modern voice of Bugs Bunny and Daffy Duck alongside many other beloved characters.",
+        "postedAt": "2026-10-26T03:37:10.000Z"
+      },
+      "image": {
+        "src": "/media/2026-10-26/2026-10-26-x-eric-bauza-the-voice-of-bugs-bunny-and-daffy-duc.webp",
+        "width": 438,
+        "height": 552,
+        "from": "https://pbs.twimg.com/media/HVhu4vsWYAA3RPR.jpg?name=large",
+        "crop": {
+          "x": 0.055,
+          "y": 0,
+          "w": 0.945,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

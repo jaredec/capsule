@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-24",
+  "stories": [
+    {
+      "title": "A langur walks into a phone shop and hugs the owner",
+      "summary": "CCTV from a mobile repair shop in Odisha, stamped Oct 22, shows a grey langur hopping onto the counter, climbing into the lap of the shopkeeper, who is busy on his phone, and resting its head on his chest twice while a man in a yellow shirt slips out of the shop. The shopkeeper's Instagram post passed 227 million views, and Buitengebieden's \"We all need a hug sometimes..\" carried it on X (15K likes). Replies praised the shopkeeper for staying perfectly still, and one asked on the langur's behalf, \"Why you no hug me back?\"",
+      "kind": "video",
+      "tags": ["langur", "monkey-hug", "cctv", "odisha"],
+      "category": "animals",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 6,
+      "memeability": 6,
+      "platform": "x",
+      "headlineIds": [24],
+      "sourceUrl": "https://x.com/buitengebieden/status/2113902703068033450",
+      "crop": { "x": 0.09, "y": 0, "w": 0.423, "h": 1 }
+    }
+  ]
+}

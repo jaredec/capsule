@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-27",
+  "items": [
+    {
+      "id": "2026-10-27-x-mbappe-s-favorite-meme-his-face-on-mao-costs-him",
+      "platform": "x",
+      "rank": 1,
+      "title": "Mbappé's favorite meme, his face on Mao, costs him Chinese sponsors",
+      "summary": "In a clip from the French show The Bridge, Kylian Mbappé laughed that his favorite meme put his face on \"some guy, I think he's a Chinese dictator.\" It was Mao Zedong. Chinese brands Mengniu, Dongpeng and Milkground ended their deals with him, and state broadcaster CCTV suspended La Liga broadcasts. Mbappé apologized for the \"ill-judged\" comment (456K likes), and La Liga apologized too. It came a day after \"cry harder Mbappé\" jokes about him losing the Ballon d'Or to Harry Kane.",
+      "kind": "moment",
+      "tags": [
+        "mbappe",
+        "mao",
+        "meme",
+        "china"
+      ],
+      "author": "@KMbappe",
+      "sourceUrl": "https://x.com/KMbappe/status/2115045633832931532",
+      "metrics": {
+        "likes": "456.4K",
+        "replies": "26.4K"
+      },
+      "references": [
+        {
+          "title": "From 'Mobut' to Mao, Mbappe dictator meme turns self-mockery into China storm",
+          "url": "https://www.reuters.com/sports/soccer/mobut-mao-mbappe-dictator-meme-turns-self-mockery-into-china-storm-2026-10-27/"
+        },
+        {
+          "title": "Kylian Mbappé faces China backlash as sponsors cut ties over viral meme",
+          "url": "https://www.cnbc.com/2026/10/28/china-mbappe-football-sponsor-meme-controversy.html"
+        },
+        {
+          "title": "Mao, memes and Mbappé: Chinese brands drop soccer star in fury over ‘dictator’ joke",
+          "url": "https://www.nbcnews.com/world/asia/china-kylian-mbappe-mao-zedong-memes-brands-la-liga-rcna605873"
+        }
+      ],
+      "pulse": {
+        "score": 7.3,
+        "reach": 8,
+        "dominance": 9,
+        "memeability": 7,
+        "category": "sports",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-10-27/2026-10-27-x-mbappe-s-favorite-meme-his-face-on-mao-costs-him.webp",
+        "width": 720,
+        "height": 1280,
+        "from": "https://video.twimg.com/amplify_video/2114729904109469696/vid/avc1/720x1280/s9aUFWo94GW3ZFbr.mp4#t=32.4",
+        "crop": {
+          "x": 0.46,
+          "y": 0.285,
+          "w": 0.35,
+          "h": 0.26
+        }
+      },
+      "post": {
+        "name": "Kylian Mbappé",
+        "handle": "@KMbappe",
+        "verified": true,
+        "avatar": "/media/avatars/kmbappe.webp",
+        "text": "",
+        "postedAt": "2026-10-27T11:39:09.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:46:30.160Z"
+    }
+  ]
+}

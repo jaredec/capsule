@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-22",
+  "stories": [
+    {
+      "title": "The Atlanta Falcons' new profile picture becomes \"the Bird Reich\"",
+      "summary": "Ahead of a 1966 throwback game, the Falcons posted \"New PFP\" with their old angular falcon over red, white, black and gold stripes. By Thursday it had spread far past football fans and passed 26 million views (80K likes), with nearly everyone seeing Nazi iconography. \"I must say, I was not expecting to wake up this morning to see that the Atlanta Falcons are preparing to invade Poland,\" one reply went; others offered \"Falcons were up 28-3 at Dunkirk,\" the \"28-3rd Reich,\" \"I give this a nein/10\" and \"49ers vs 39ers.\" The team quietly swapped it for the falcon on a red helmet the next day.",
+      "kind": "image",
+      "tags": ["atlanta-falcons", "bird-reich", "logo", "nfl"],
+      "category": "brands",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 9,
+      "platform": "x",
+      "headlineIds": [29, 99, 101, 40, 11],
+      "sourceUrl": "https://x.com/AtlantaFalcons/status/2112945043522654700",
+      "crop": { "x": 0.125, "y": 0, "w": 0.75, "h": 1 }
+    }
+  ]
+}

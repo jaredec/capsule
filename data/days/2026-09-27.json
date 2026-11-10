@@ -29,8 +29,18 @@
         "category": "music",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-13T03:33:22.193Z",
+      "image": {
+        "src": "/media/2026-09-27/2026-09-27-x-pinkpantheress-takes-a-zara-larsson-cutout-to-th.webp",
+        "width": 921,
+        "height": 1200,
+        "from": "https://pbs.twimg.com/media/HTRP7HYbAAEMYth.jpg",
+        "crop": {
+          "x": 0.01,
+          "y": 0,
+          "w": 0.98,
+          "h": 1
+        }
+      },
       "post": {
         "name": "AARON",
         "handle": "@lidolmix",
@@ -39,18 +49,8 @@
         "text": "pinkpantheress holding a cutout of zara larsson after winning a vma for their stateside music video😭😭",
         "postedAt": "2026-09-28T02:16:36.000Z"
       },
-      "image": {
-        "src": "/media/2026-09-27/2026-09-27-x-pinkpantheress-takes-a-zara-larsson-cutout-to-th.webp",
-        "width": 720,
-        "height": 938,
-        "from": "https://pbs.twimg.com/media/HTRP7HYbAAEMYth.jpg",
-        "crop": {
-          "x": 0.01,
-          "y": 0,
-          "w": 0.98,
-          "h": 1
-        }
-      }
+      "collectedBy": "editor",
+      "collectedAt": "2026-10-13T03:33:22.193Z"
     }
   ]
 }

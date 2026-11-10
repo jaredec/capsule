@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-25",
+  "items": [
+    {
+      "id": "2026-10-25-x-firefox-reunites-numa-numa-guy-chocolate-rain-an",
+      "platform": "x",
+      "rank": 1,
+      "title": "Firefox reunites Numa Numa Guy, Chocolate Rain and Bad Luck Brian",
+      "summary": "Firefox's \"Come Back to Firefox\" ad, which debuted during Sunday Night Football, brought back the early internet's meme stars, including the Numa Numa Guy, Tay Zonday, Bad Luck Brian, Overly Attached Girlfriend, Kelly's \"Shoes,\" Annoying Orange, Chuck Testa and Success Kid. It opens with \"What happened to the internet? It used to be fun,\" Overly Attached Girlfriend complains that big tech makes money by following us \"and somehow I'm the creepy one,\" and it ends with the whole cast doing the Numa Numa dance. Firefox's post got 150K likes, and commenters compared it to YouTube Rewind and called it \"The Avengers for chronically online millennials.\"",
+      "kind": "video",
+      "tags": [
+        "firefox",
+        "mozilla",
+        "numa-numa",
+        "chocolate-rain"
+      ],
+      "author": "@firefox",
+      "sourceUrl": "https://x.com/firefox/status/2114498937432441230",
+      "metrics": {
+        "likes": "150.5K",
+        "replies": "1.8K"
+      },
+      "references": [
+        {
+          "title": "Firefox reunites meme royalty to remind you what the internet used to feel like",
+          "url": "https://blog.mozilla.org/en/firefox/come-back-to-firefox/"
+        }
+      ],
+      "pulse": {
+        "score": 8,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 8,
+        "category": "internet-culture",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:46:17.217Z",
+      "post": {
+        "name": "Firefox",
+        "handle": "@firefox",
+        "verified": true,
+        "avatar": "/media/avatars/firefox.webp",
+        "text": "How is the internet less private than in 2006, when the whole family shared one computer?\n\nBack then, the internet was weird, personal, and all of ours.\n\nSo, we got your favorite meme legends back together to say it louder:  What happened to the internet? 1/3",
+        "postedAt": "2026-10-25T23:26:46.000Z"
+      },
+      "image": {
+        "src": "/media/2026-10-25/2026-10-25-x-firefox-reunites-numa-numa-guy-chocolate-rain-an.webp",
+        "width": 1600,
+        "height": 900,
+        "from": "https://video.twimg.com/amplify_video/2114496264687517696/vid/avc1/1920x1080/qKA4f0PoYCc9hXlA.mp4#t=46.1",
+        "crop": {
+          "x": 0.29,
+          "y": 0,
+          "w": 0.42,
+          "h": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-20",
+  "items": [
+    {
+      "id": "2026-10-20-x-dylan-sprouse-cole-and-i-are-children-of-incest",
+      "platform": "x",
+      "rank": 1,
+      "title": "Dylan Sprouse: \"Cole and I are children of incest\"",
+      "summary": "On his Wildmen podcast, Dylan Sprouse explained that an Ancestry deep-dive showed his parents' families had already intermarried during the Gold Rush, then \"married again with my mom and my dad, like, last generation,\" which is why the family has \"seven sets of twins in four generations.\" His sign-off, \"Long story short, Cole and I are children of incest,\" went everywhere, though the two family lines actually met generations back. TMZ's clip got 28K likes, Cole posted that \"no media training on earth can prep you to read this clickbait headline at 10am,\" and Dylan leaned in: \"Ngl they cooked with this headline. Printing this out and hanging it over the communal family bed.\"",
+      "kind": "video",
+      "tags": [
+        "dylan-sprouse",
+        "cole-sprouse",
+        "children-of-incest",
+        "wildmen-podcast"
+      ],
+      "author": "@TMZ",
+      "sourceUrl": "https://x.com/TMZ/status/2112619988926300257",
+      "metrics": {
+        "likes": "28.4K",
+        "replies": "512"
+      },
+      "references": [],
+      "pulse": {
+        "score": 6.9,
+        "reach": 7,
+        "dominance": 6,
+        "memeability": 8,
+        "category": "celebrity",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-10T04:47:18.261Z",
+      "post": {
+        "name": "TMZ",
+        "handle": "@TMZ",
+        "verified": true,
+        "avatar": "/media/avatars/tmz.webp",
+        "text": "😯 Dylan Sprouse says he and his twin Cole are \"children of incest.\"\n\n🎥: Wildmen Podcast",
+        "postedAt": "2026-10-20T19:00:30.000Z"
+      },
+      "image": {
+        "src": "/media/2026-10-20/2026-10-20-x-dylan-sprouse-cole-and-i-are-children-of-incest.webp",
+        "width": 1280,
+        "height": 720,
+        "from": "https://video.twimg.com/amplify_video/2112619953069178880/vid/avc1/1280x720/qHnGQUO7iwfcKLt9.mp4?tag=16#t=125",
+        "crop": {
+          "x": 0.34,
+          "y": 0,
+          "w": 0.422,
+          "h": 1
+        }
+      }
+    }
+  ]
+}
