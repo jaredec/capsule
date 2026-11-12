@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-10",
+  "stories": [
+    {
+      "title": "Dario Amodei: cancer will be a \"relic of the past\" in under a decade",
+      "summary": "Closing Anthropic's 42-minute IPO roadshow video, released Tuesday, CEO Dario Amodei gave his own estimate: \"cancer, Alzheimer's, heart disease, mental illness — these will be relics of the past in, I think, less than a decade,\" adding that \"if we do this right, we can create an age of miracles.\" @ns123abc's clip (\"ACCELERATE\") drew 13.6K likes and about 2.6M views, and the pushback came from doctors as much as tech X: cardiologist Eric Topol called it \"an unattainable objective... curing all these diseases in the next 10 years is impossible\" (870 likes), Germany's former health minister Karl Lauterbach asked whether Amodei knows \"so little about medicine,\" and a biotech CEO called it \"insane things to say in an IPO pitch\" (630). The most-liked replies were jokes and jabs (\"I would bet my entire net worth, leveraged 10X that he's wrong,\" 6.7K; \"If you do not see this man, and his peers, as cult leaders, you are a fool,\" 3.8K), while others cheered the ambition; the prospectus itself doesn't repeat the line, which echoes his 2024 essay Machines of Loving Grace.",
+      "kind": "video",
+      "tags": ["dario-amodei", "anthropic", "ipo", "cancer", "ai-hype"],
+      "category": "tech",
+      "crossover": true,
+      "reach": 7,
+      "dominance": 6,
+      "memeability": 6,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/ns123abc/status/2120233187112636745",
+      "imageUrl": "https://video.twimg.com/amplify_video/2120172920790200320/vid/avc1/1920x1080/gLn5HaXTk1wQavsR.mp4#t=10.5",
+      "crop": { "x": 0.16, "y": 0.04, "w": 0.72, "h": 0.96 }
+    }
+  ]
+}

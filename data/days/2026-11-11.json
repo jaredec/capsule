@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-11",
+  "items": [
+    {
+      "id": "2026-11-11-x-nvidia-s-board-meets-to-oust-jensen-huang-as-the",
+      "platform": "x",
+      "rank": 1,
+      "title": "Nvidia's board meets to oust Jensen Huang as the stock sinks 8%",
+      "summary": "Three days after Jensen Huang admitted an affair with an alleged Chinese spy, the Wall Street Journal reported that Nvidia's board was preparing to oust its founder and was meeting that night to decide his future; the stock fell about 8% after hours, close to $400 billion. The move came minutes after a New York Times report, citing five people who worked at Nvidia and unconfirmed by the company, that Huang had also had a relationship with an executive who reports to him; asked about it, Huang told the Times \"I don't think you should be talking to me directly\" and hung up. \"Jensen\" became the top trend on X worldwide: Zero Hedge posted \"Elon please hire Jensen\" (19K likes), Elon Musk answered \"That would be an honor\" (37K), and Derek Guy wrote \"perhaps it was a bad idea to build an entire global economy around whether one man would be faithful to his wife\" (15K). Polymarket listed his daughter Madison as the favorite to succeed him, and by night the board had not announced a decision.",
+      "kind": "moment",
+      "tags": [
+        "jensen-huang",
+        "nvidia",
+        "ceo-ouster",
+        "elon-musk"
+      ],
+      "author": "@elonmusk",
+      "sourceUrl": "https://x.com/elonmusk/status/2120688743111971293",
+      "metrics": {
+        "likes": "37.2K",
+        "replies": "1.8K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 6.8,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 6,
+        "category": "tech",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T02:35:00.661Z",
+      "post": {
+        "name": "Elon Musk",
+        "handle": "@elonmusk",
+        "verified": true,
+        "avatar": "/media/avatars/elonmusk.webp",
+        "text": "That would be an honor",
+        "postedAt": "2026-11-12T01:22:51.000Z"
+      },
+      "image": {
+        "src": "/media/2026-11-11/2026-11-11-x-nvidia-s-board-meets-to-oust-jensen-huang-as-the.webp",
+        "width": 1600,
+        "height": 900,
+        "from": "https://image.cnbcfm.com/api/v1/image/108548919-1794436123875-108548919-1794403650801-gettyimages-2280478637-csj17492_lh46rpzq.jpeg?v=1794436166&w=1920&h=1080",
+        "crop": {
+          "x": 0.2,
+          "y": 0,
+          "w": 0.6,
+          "h": 1
+        }
+      }
+    }
+  ]
+}
