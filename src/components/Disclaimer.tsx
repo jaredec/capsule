@@ -3,6 +3,8 @@
 import { useEffect, useRef } from "react";
 
 const SEEN_KEY = "capsule:disclaimer-seen";
+/** Fired when a first-time visitor dismisses the disclaimer, so the calendar can show what it does. */
+export const INTRO_EVENT = "capsule:intro";
 
 /** Shown once per browser, on the first visit. */
 export function Disclaimer() {
@@ -22,6 +24,7 @@ export function Disclaimer() {
     try {
       localStorage.setItem(SEEN_KEY, "1");
     } catch {}
+    window.dispatchEvent(new Event(INTRO_EVENT));
   };
 
   return (

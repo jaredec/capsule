@@ -37,6 +37,7 @@ import {
   rememberCellRadius,
   type Step,
 } from "@/lib/transitions";
+import { INTRO_EVENT } from "./Disclaimer";
 import { useCalendarState, type CalendarView as View } from "./CalendarState";
 import { CroppedImage } from "./CroppedImage";
 import { DayModal } from "./DayModal";
@@ -329,6 +330,32 @@ export function Calendar({
 
   const swipe = useSwipe((dir) => stepRef.current(dir));
 
+  // A first visit ends with the calendar zooming into this week by itself, the toggle pressing
+  // along with it, so the visitor learns the view can change and which button does it.
+  const [introducing, setIntroducing] = useState(false);
+  const intro = useRef({ view, selected, switchView });
+  useEffect(() => {
+    intro.current = { view, selected, switchView };
+  });
+  useEffect(() => {
+    const onIntro = () => {
+      const { view, selected } = intro.current;
+      if (view !== "month" || selected || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+      setIntroducing(true);
+    };
+    window.addEventListener(INTRO_EVENT, onIntro);
+    return () => window.removeEventListener(INTRO_EVENT, onIntro);
+  }, []);
+  useEffect(() => {
+    if (!introducing) return;
+    const zoom = setTimeout(() => intro.current.switchView("week"), 1050);
+    const done = setTimeout(() => setIntroducing(false), 1500);
+    return () => {
+      clearTimeout(zoom);
+      clearTimeout(done);
+    };
+  }, [introducing]);
+
   const selectedIndex = selected ? archivedDates.indexOf(selected) : -1;
   const openItem = selected ? visible[selected] : undefined;
   const label = view === "week" ? formatWeekRange(rangeStart, false, 7 * span) : `${MONTH_NAMES[month - 1]} ${year}`;
@@ -400,7 +427,8 @@ export function Calendar({
               aria-label={view === "month" ? "Zoom into this week" : "Show the whole month"}
               title={view === "month" ? "Zoom into this week" : "Show the whole month"}
               onClick={() => switchView(view === "month" ? "week" : "month")}
-              className="pointer-events-auto absolute right-0 bottom-[calc(100%+12px)] grid size-8 place-items-center rounded-full text-zinc-500 transition-[background-color,color,scale] duration-200 ease-out hover:bg-black/[0.05] hover:text-zinc-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900 active:scale-90 md:bottom-[calc(100%+24px)]"
+              data-intro={introducing || undefined}
+              className="pointer-events-auto data-intro:animate-[toggle-hint_1000ms_var(--ease-out)_350ms_both] absolute right-0 bottom-[calc(100%+12px)] grid size-8 place-items-center rounded-full text-zinc-500 transition-[background-color,color,scale] duration-200 ease-out hover:bg-black/[0.05] hover:text-zinc-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900 active:scale-90 md:bottom-[calc(100%+24px)]"
             >
               {view === "month" ? (
                 <ZoomIn className="size-[18px]" strokeWidth={2} />
