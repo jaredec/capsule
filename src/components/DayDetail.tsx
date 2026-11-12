@@ -92,14 +92,13 @@ export function DayInfo({
 
       {/* On wide screens the post settles at the bottom, so a short day leaves its space in the middle. */}
       <div className="mt-5 flex flex-col gap-6 md:mt-auto md:pt-8">
-        <hr className="-mb-3 border-zinc-100" />
         {item.sourceUrl && (
           <a
             href={item.sourceUrl}
             target="_blank"
             rel="noreferrer"
             title={item.kind === "video" ? `Watch on ${platform}` : `View on ${platform}`}
-            className="group -mx-4 block rounded-2xl px-4 py-3.5 transition-colors duration-150 hover:bg-zinc-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900"
+            className="group block rounded-2xl bg-zinc-100/70 p-4 transition-colors duration-150 hover:bg-zinc-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900"
           >
             {showText && (
               <p className="mb-3.5 text-[17px] leading-[1.45] tracking-[-0.01em] whitespace-pre-line text-pretty text-zinc-950">
@@ -116,7 +115,7 @@ export function DayInfo({
                   unoptimized
                   loading="eager"
                   decoding="sync"
-                  className="size-8 shrink-0 rounded-full bg-zinc-100"
+                  className="size-8 shrink-0 rounded-full bg-zinc-200"
                 />
               ) : (
                 post && <span className="size-8 shrink-0 rounded-full bg-zinc-200" />
