@@ -397,7 +397,8 @@ export function Calendar({
   const label = view === "week" ? formatWeekRange(rangeStart, false, 7 * span) : `${MONTH_NAMES[month - 1]} ${year}`;
   const longLabel = view === "week" ? formatWeekRange(rangeStart, true, 7 * span) : label;
   const stepNoun = view === "month" ? "month" : span === 2 ? "two weeks" : "week";
-  const toggleLabel = view === "month" ? "Zoom into this week" : "Show the whole month";
+  const zoomInLabel = span === 2 ? "Zoom into these two weeks" : "Zoom into this week";
+  const toggleLabel = view === "month" ? zoomInLabel : "Show the whole month";
   const spotlight = introducing && view === "month" && !selected;
 
   const cardProps = (date: string, index: number) => ({
@@ -478,7 +479,7 @@ export function Calendar({
                 data-show={introducing || undefined}
                 className="pointer-events-none absolute top-full right-0 mt-2 -translate-y-1 rounded-full bg-zinc-900 px-2.5 py-1 text-[12px] font-medium whitespace-nowrap text-white opacity-0 shadow-[0_4px_14px_-4px_rgb(0_0_0/0.35)] transition-[opacity,translate] duration-300 ease-(--ease-out) data-show:translate-y-0 data-show:opacity-100"
               >
-                Zoom into this week
+                {zoomInLabel}
               </span>
             </button>
           </ViewTransition>
