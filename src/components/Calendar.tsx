@@ -346,8 +346,8 @@ export function Calendar({
   const swipe = useSwipe((dir) => stepRef.current(dir));
 
   // Opening the site shows the month, then demonstrates zooming into this week: the other weeks dim,
-  // the toggle is labeled and presses itself, and the label then names the way back. Visitors learn
-  // the view can change and which button does it. It waits for the disclaimer and for the month's
+  // the toggle is labeled and presses itself. Visitors learn the view can change and which button
+  // does it. It waits for the disclaimer and for the month's
   // pictures, and plays once per page load.
   const [introducing, setIntroducing] = useState(false);
   const intro = useRef({ view, selected, switchView, pictures: () => picturesFor(cells) });
@@ -385,7 +385,7 @@ export function Calendar({
       const { view, selected, switchView } = intro.current;
       if (view === "month" && !selected) switchView("week");
     }, 1250);
-    const done = setTimeout(() => setIntroducing(false), 2800);
+    const done = setTimeout(() => setIntroducing(false), 2100);
     return () => {
       clearTimeout(zoom);
       clearTimeout(done);
@@ -478,7 +478,7 @@ export function Calendar({
                 data-show={introducing || undefined}
                 className="pointer-events-none absolute top-full right-0 mt-2 -translate-y-1 rounded-full bg-zinc-900 px-2.5 py-1 text-[12px] font-medium whitespace-nowrap text-white opacity-0 shadow-[0_4px_14px_-4px_rgb(0_0_0/0.35)] transition-[opacity,translate] duration-300 ease-(--ease-out) data-show:translate-y-0 data-show:opacity-100"
               >
-                {toggleLabel}
+                Zoom into this week
               </span>
             </button>
           </ViewTransition>
