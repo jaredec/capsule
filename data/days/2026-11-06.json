@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Trump names Stephen Miller White House chief of staff",
-      "summary": "Stephen Miller will replace Susie Wiles, who resigned Thursday, as White House chief of staff. Trump War Room announced it with a photo of the two and \"It's Miller time.\"",
+      "summary": "Trump announced that Stephen Miller will replace Susie Wiles as White House chief of staff, three days after Republicans lost control of Congress in the midterms. Wiles moves to Trump's political operation.",
       "kind": "image",
       "tags": [
         "stephen-miller",
@@ -14,11 +14,11 @@
         "chief-of-staff",
         "midterms"
       ],
-      "author": "@TrumpWarRoom",
-      "sourceUrl": "https://x.com/TrumpWarRoom/status/2118780908245250113",
+      "author": "@NBCNews",
+      "sourceUrl": "https://x.com/NBCNews/status/2118781188739383725",
       "metrics": {
-        "likes": "21.1K",
-        "replies": "1.2K"
+        "likes": "1.7K",
+        "replies": "698"
       },
       "references": [
         {
@@ -35,14 +35,14 @@
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-12T03:36:26.376Z",
+      "collectedAt": "2026-11-12T04:07:31.799Z",
       "post": {
-        "name": "Trump War Room",
-        "handle": "@TrumpWarRoom",
+        "name": "NBC News",
+        "handle": "@NBCNews",
         "verified": true,
-        "avatar": "/media/avatars/trumpwarroom.webp",
-        "text": "It’s Miller time.",
-        "postedAt": "2026-11-06T19:01:48.000Z"
+        "avatar": "/media/avatars/nbcnews.webp",
+        "text": "BREAKING: Susie Wiles is out as White House chief of staff and will be replaced by Stephen Miller. nbcnews.com/politics/donal…",
+        "postedAt": "2026-11-06T19:02:55.000Z"
       },
       "image": {
         "src": "/media/2026-11-06/2026-11-06-x-trump-names-stephen-miller-white-house-chief-of-.webp",
