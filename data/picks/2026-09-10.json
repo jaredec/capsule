@@ -2,31 +2,19 @@
   "date": "2026-09-10",
   "stories": [
     {
-      "title": "#kirkiversary: one year since Charlie Kirk's death",
-      "summary": "On the first anniversary of Charlie Kirk's killing, X and TikTok filled with memes about his death, like this \"1 AK (after Kirk)\" image, while his supporters posted tributes.",
+      "title": "The NFL's first game in Australia, 50 yards from the front row",
+      "summary": "The Rams and 49ers played the NFL's first regular-season game in Australia before 100,021 fans at the Melbourne Cricket Ground. X fixated on the giant oval leaving even front-row seats far from the field, and on Netflix's \"Mel-bin.\"",
       "kind": "image",
-      "tags": ["charlie-kirk", "kirkiversary", "anniversary", "memes"],
-      "category": "internet-culture",
+      "tags": ["nfl", "melbourne", "mcg", "49ers", "rams", "australia"],
+      "category": "sports",
       "crossover": true,
       "reach": 8,
       "dominance": 7,
-      "memeability": 9,
+      "memeability": 7,
       "platform": "x",
-      "headlineIds": [],
-      "sourceUrl": "https://x.com/EverythingOOC/status/2098000526491222133",
-      "crop": {
-        "x": 0.2,
-        "y": 0.06,
-        "w": 0.6,
-        "h": 0.54
-      },
-      "imageUrl": "https://pbs.twimg.com/media/HR2YW0_a0AAJ-aD.jpg",
-      "bounds": {
-        "x": 0,
-        "y": 0.04,
-        "w": 1,
-        "h": 0.58
-      }
+      "headlineIds": [83, 158, 222],
+      "sourceUrl": "https://x.com/NFL/status/2098144410940711391",
+      "crop": { "x": 0.06, "y": 0.4, "w": 0.88, "h": 0.4 }
     }
   ]
 }

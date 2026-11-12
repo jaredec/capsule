@@ -2,20 +2,21 @@
   "date": "2026-10-24",
   "stories": [
     {
-      "title": "Hitler's Eagle's Nest burns down in a suspected arson",
-      "summary": "The Kehlsteinhaus, built for Hitler in 1938 and now a tourist site, burned to a shell overnight, and police stopped a 33-year-old man. Webcam shots spread on X, with jokes that Hitler wasn't home.",
+      "title": "Avengers: Doomsday puts Mjolnir back in Steve Rogers' hand",
+      "summary": "A World Series preview and a new teaser showed Chris Evans' Steve Rogers wielding Thor's hammer, and Ant-Man calling him \"Cap\" before correcting himself. Fans argued over who the real Captain America is now.",
       "kind": "video",
-      "tags": ["eagles-nest", "kehlsteinhaus", "hitler", "arson", "germany"],
-      "category": "news",
+      "tags": ["avengers-doomsday", "marvel", "captain-america", "trailer"],
+      "category": "tv-film",
       "crossover": true,
-      "reach": 7,
-      "dominance": 6,
+      "reach": 8,
+      "dominance": 5,
       "memeability": 6,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/KlaxonWire/status/2113898877573280235",
-      "imageUrl": "https://cloudfront-us-east-1.images.arcpublishing.com/gmg/C5IJTWDQD5BM7HGBMCNB6AUIUM.jpg",
-      "crop": { "x": 0.24, "y": 0.22, "w": 0.46, "h": 0.5 }
+      "sourceUrl": "https://x.com/MarvelStudios/status/2114144918448840873",
+      "frameAt": 25.7,
+      "bounds": { "x": 0, "y": 0.13, "w": 1, "h": 0.745 },
+      "crop": { "x": 0.22, "y": 0.15, "w": 0.38, "h": 0.71 }
     }
   ]
 }

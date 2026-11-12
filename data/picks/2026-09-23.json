@@ -2,7 +2,7 @@
   "date": "2026-09-23",
   "stories": [
     {
-      "title": "\"Absolutely mogged\": Trump flinches at a flyover as Xi stands still",
+      "title": "Trump flinches at a flyover as Xi stands still",
       "summary": "At Xi Jinping's arrival ceremony, Trump winced and ducked mid-salute as two B-1 bombers roared over during the anthem, while Xi barely moved. \"That was loud,\" Trump told him, and X turned the contrast into memes.",
       "kind": "video",
       "tags": ["xi-jinping", "donald-trump", "flyover", "state-visit"],
@@ -15,7 +15,12 @@
       "headlineIds": [],
       "sourceUrl": "https://x.com/MeidasTouch/status/2102886833055232492",
       "imageUrl": "https://pbs.twimg.com/media/HS7141BbkAA0cx_.jpg?name=orig",
-      "crop": { "x": 0.14, "y": 0, "w": 0.82, "h": 0.62 }
+      "crop": {
+        "x": 0.14,
+        "y": 0,
+        "w": 0.82,
+        "h": 0.62
+      }
     }
   ]
 }

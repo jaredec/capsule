@@ -2,53 +2,72 @@
   "date": "2026-09-24",
   "items": [
     {
-      "id": "2026-09-24-x-delegates-walk-out-as-netanyahu-speaks-at-the-un",
+      "id": "2026-09-24-x-a-packers-fan-checks-her-own-pulse-on-thursday-n",
       "platform": "x",
       "rank": 1,
-      "title": "Delegates walk out as Netanyahu speaks at the UN",
-      "summary": "Delegates streamed out of the UN General Assembly hall as Benjamin Netanyahu began his speech, and he called them \"moral cowards.\" Outside, Susan Sarandon and Hannah Einbinder were detained by police while protesting.",
+      "title": "A Packers fan checks her own pulse on Thursday Night Football",
+      "summary": "With Green Bay down 27-7 to Atlanta, Prime's cameras caught a fan calmly pressing two fingers to her neck, and she became the night's meme. Maddie Clark later said it was a stress-relief bit and she was fine.",
       "kind": "video",
       "tags": [
-        "netanyahu",
-        "un",
-        "walkout",
-        "israel"
+        "packers",
+        "pulse-check",
+        "thursday-night-football",
+        "fan-cam"
       ],
-      "author": "@Acyn",
-      "sourceUrl": "https://x.com/Acyn/status/2103184330453549371",
+      "author": "@SportsCenter",
+      "sourceUrl": "https://x.com/SportsCenter/status/2103318271869034970",
       "metrics": {
-        "likes": "98K",
-        "replies": "1.1K"
+        "likes": "13.6K",
+        "replies": "412"
       },
-      "references": [],
+      "references": [
+        {
+          "title": "Packers fans just found the perfect meme for their nightmare season",
+          "url": "https://sports.yahoo.com/articles/packers-fans-just-found-perfect-143632506.html"
+        },
+        {
+          "title": "Distraught Packers fan checking her pulse became an instant hilarious meme",
+          "url": "https://ftw.usatoday.com/story/sports/nfl/2026/09/25/packers-fan-meme-woman-checking-pulse/91934620007/"
+        },
+        {
+          "title": "Packers fan turns into a meme",
+          "url": "https://www.wsaw.com/video/2026/09/25/packers-fan-turns-into-meme/"
+        }
+      ],
       "pulse": {
-        "score": 6.9,
-        "reach": 9,
-        "dominance": 8,
-        "memeability": 5,
-        "category": "news",
+        "score": 7.1,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 9,
+        "category": "sports",
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-12T02:51:41.291Z",
+      "collectedAt": "2026-11-12T03:43:34.357Z",
       "post": {
-        "name": "Acyn",
-        "handle": "@Acyn",
+        "name": "SportsCenter",
+        "handle": "@SportsCenter",
         "verified": true,
-        "avatar": "/media/avatars/acyn.webp",
-        "text": "Room empties out at the UN as Netanyahu begins his speech.",
-        "postedAt": "2026-09-24T18:06:34.000Z"
+        "avatar": "/media/avatars/sportscenter.webp",
+        "text": "This Packers fan is going through it 😭\n\n(📺 Prime)",
+        "postedAt": "2026-09-25T02:58:48.000Z"
       },
       "image": {
-        "src": "/media/2026-09-24/2026-09-24-x-delegates-walk-out-as-netanyahu-speaks-at-the-un.webp",
-        "width": 1600,
-        "height": 900,
-        "from": "https://video.twimg.com/amplify_video/2103184296119087104/vid/avc1/1920x1080/YS0vFLoTIkrfqCyX.mp4?tag=16#t=8",
+        "src": "/media/2026-09-24/2026-09-24-x-a-packers-fan-checks-her-own-pulse-on-thursday-n.webp",
+        "width": 1080,
+        "height": 1080,
+        "from": "https://video.twimg.com/amplify_video/2103318225891041280/vid/avc1/1080x1080/XL8wNvL8URA-4Rc5.mp4?tag=16#t=4",
         "crop": {
-          "x": 0.22,
+          "x": 0.18,
+          "y": 0.08,
+          "w": 0.62,
+          "h": 0.72
+        },
+        "bounds": {
+          "x": 0,
           "y": 0,
-          "w": 0.421875,
-          "h": 1
+          "w": 1,
+          "h": 0.81
         }
       }
     }

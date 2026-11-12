@@ -2,53 +2,72 @@
   "date": "2026-09-15",
   "items": [
     {
-      "id": "2026-09-15-x-ed-sheeran-s-openers-and-band-quit-his-tour",
+      "id": "2026-09-15-x-mets-prospect-mitch-voit-is-so-polished-x-decide",
       "platform": "x",
       "rank": 1,
-      "title": "Ed Sheeran's openers and band quit his tour",
-      "summary": "A day after Macklemore was dropped from Ed Sheeran's tour over his support for Palestine, Sheeran called the decision final. Within hours openers Aaron Rowe, Lukas Graham and FINNEAS, and his band Beoga, quit in solidarity.",
-      "kind": "image",
+      "title": "Mets prospect Mitch Voit is so polished X decides he must be AI",
+      "summary": "A routine SNY clip of the 21-year-old accepting a Mets player-development award went viral as X insisted he looked AI-generated, \"like an AI generated Disney prince.\" He is very much real, and hit .273 this season.",
+      "kind": "video",
       "tags": [
-        "ed-sheeran",
-        "macklemore",
-        "loop-tour",
-        "finneas"
+        "mitch-voit",
+        "mets",
+        "ai-generated",
+        "baseball"
       ],
-      "author": "@PopBase",
-      "sourceUrl": "https://x.com/PopBase/status/2099960014576218350",
+      "author": "@SNY_Mets",
+      "sourceUrl": "https://x.com/SNY_Mets/status/2099591368700248154",
       "metrics": {
-        "likes": "436.7K",
-        "replies": "2.7K"
+        "likes": "3.9K",
+        "replies": "659"
       },
-      "references": [],
+      "references": [
+        {
+          "title": "Top Mets prospect Mitch Voit goes viral for looking like AI: ‘Most attractive person of all time’",
+          "url": "https://nypost.com/2026/09/15/sports/top-mets-prospect-mitch-voit-goes-viral-for-looking-like-ai/"
+        },
+        {
+          "title": "Mets Prospect Mitch Voit Goes Viral For Uncannily Looking Like An AI-Generated Human Being",
+          "url": "https://brobible.com/sports/article/mitch-voit-viral-video-ai-generated/"
+        },
+        {
+          "title": "The Mets Have A Prospect Who’s So Good Looking The Internet Is Convinced He’s AI",
+          "url": "https://cassiuslife.com/1413275/mets-prospect-mitch-voit/"
+        }
+      ],
       "pulse": {
-        "score": 8.3,
-        "reach": 9,
-        "dominance": 9,
-        "memeability": 6,
-        "category": "music",
+        "score": 6.8,
+        "reach": 7,
+        "dominance": 7,
+        "memeability": 9,
+        "category": "sports",
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-12T02:51:21.269Z",
+      "collectedAt": "2026-11-12T03:43:40.388Z",
       "post": {
-        "name": "Pop Base",
-        "handle": "@PopBase",
+        "name": "SNY Mets",
+        "handle": "@SNY_Mets",
         "verified": true,
-        "avatar": "/media/avatars/popbase.webp",
-        "text": "All three remaining opening acts and Ed Sheeran’s touring band have announced that they are dropping out of the remaining dates of his ‘Loop’ tour in solidarity with Palestine and Macklemore.",
-        "postedAt": "2026-09-15T20:34:17.000Z"
+        "avatar": "/media/avatars/sny_mets.webp",
+        "text": "\"It's really a moment for me to share with my family\"\n\nMitch Voit says he's \"incredibly proud\" to be able to share the moment with his family after he was named the Mets' Player Development Player of the Year:",
+        "postedAt": "2026-09-14T20:09:25.000Z"
       },
       "image": {
-        "src": "/media/2026-09-15/2026-09-15-x-ed-sheeran-s-openers-and-band-quit-his-tour.webp",
-        "width": 1600,
-        "height": 1066,
-        "from": "https://california-times-brightspot.s3.amazonaws.com/c4/7a/5a6b4d6142e3a92eff944e023599/2251930893.jpg",
+        "src": "/media/2026-09-15/2026-09-15-x-mets-prospect-mitch-voit-is-so-polished-x-decide.webp",
+        "width": 1080,
+        "height": 1350,
+        "from": "https://video.twimg.com/amplify_video/2099591143159746560/vid/avc1/1080x1350/EGK1M7db24fHz1W_.mp4#t=0.2",
         "crop": {
-          "x": 0.36,
-          "y": 0.12,
-          "w": 0.44,
-          "h": 0.78
+          "x": 0.08,
+          "y": 0,
+          "w": 0.66,
+          "h": 0.8
+        },
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 0.84,
+          "h": 1
         }
       }
     }

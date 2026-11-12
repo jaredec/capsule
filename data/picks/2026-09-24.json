@@ -2,25 +2,21 @@
   "date": "2026-09-24",
   "stories": [
     {
-      "title": "Delegates walk out as Netanyahu speaks at the UN",
-      "summary": "Delegates streamed out of the UN General Assembly hall as Benjamin Netanyahu began his speech, and he called them \"moral cowards.\" Outside, Susan Sarandon and Hannah Einbinder were detained by police while protesting.",
+      "title": "A Packers fan checks her own pulse on Thursday Night Football",
+      "summary": "With Green Bay down 27-7 to Atlanta, Prime's cameras caught a fan calmly pressing two fingers to her neck, and she became the night's meme. Maddie Clark later said it was a stress-relief bit and she was fine.",
       "kind": "video",
-      "tags": ["netanyahu", "un", "walkout", "israel"],
-      "category": "news",
+      "tags": ["packers", "pulse-check", "thursday-night-football", "fan-cam"],
+      "category": "sports",
       "crossover": true,
-      "reach": 9,
-      "dominance": 8,
-      "memeability": 5,
+      "reach": 8,
+      "dominance": 7,
+      "memeability": 9,
       "platform": "x",
-      "headlineIds": [],
-      "sourceUrl": "https://x.com/Acyn/status/2103184330453549371",
-      "frameAt": 8,
-      "crop": {
-        "x": 0.22,
-        "y": 0,
-        "w": 0.421875,
-        "h": 1
-      }
+      "headlineIds": [37, 39, 41],
+      "sourceUrl": "https://x.com/SportsCenter/status/2103318271869034970",
+      "frameAt": 4,
+      "crop": { "x": 0.18, "y": 0.08, "w": 0.62, "h": 0.72 },
+      "bounds": { "x": 0, "y": 0, "w": 1, "h": 0.81 }
     }
   ]
 }

@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { CalendarStateProvider } from "@/components/CalendarState";
+import { Disclaimer } from "@/components/Disclaimer";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
       <body className="min-h-full">
         <CalendarStateProvider>{children}</CalendarStateProvider>
+        <Disclaimer />
       </body>
     </html>
   );

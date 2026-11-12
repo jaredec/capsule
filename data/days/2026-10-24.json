@@ -2,53 +2,59 @@
   "date": "2026-10-24",
   "items": [
     {
-      "id": "2026-10-24-x-hitler-s-eagle-s-nest-burns-down-in-a-suspected-",
+      "id": "2026-10-24-x-avengers-doomsday-puts-mjolnir-back-in-steve-rog",
       "platform": "x",
       "rank": 1,
-      "title": "Hitler's Eagle's Nest burns down in a suspected arson",
-      "summary": "The Kehlsteinhaus, built for Hitler in 1938 and now a tourist site, burned to a shell overnight, and police stopped a 33-year-old man. Webcam shots spread on X, with jokes that Hitler wasn't home.",
+      "title": "Avengers: Doomsday puts Mjolnir back in Steve Rogers' hand",
+      "summary": "A World Series preview and a new teaser showed Chris Evans' Steve Rogers wielding Thor's hammer, and Ant-Man calling him \"Cap\" before correcting himself. Fans argued over who the real Captain America is now.",
       "kind": "video",
       "tags": [
-        "eagles-nest",
-        "kehlsteinhaus",
-        "hitler",
-        "arson"
+        "avengers-doomsday",
+        "marvel",
+        "captain-america",
+        "trailer"
       ],
-      "author": "@KlaxonWire",
-      "sourceUrl": "https://x.com/KlaxonWire/status/2113898877573280235",
+      "author": "@MarvelStudios",
+      "sourceUrl": "https://x.com/MarvelStudios/status/2114144918448840873",
       "metrics": {
-        "likes": "3.2K",
-        "replies": "209"
+        "likes": "63.5K",
+        "replies": "529"
       },
       "references": [],
       "pulse": {
-        "score": 5.8,
-        "reach": 7,
-        "dominance": 6,
+        "score": 6.5,
+        "reach": 8,
+        "dominance": 5,
         "memeability": 6,
-        "category": "news",
+        "category": "tv-film",
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-12T02:51:48.665Z",
+      "collectedAt": "2026-11-12T03:47:38.036Z",
       "post": {
-        "name": "Klaxon Wire",
-        "handle": "@KlaxonWire",
+        "name": "Marvel Studios",
+        "handle": "@MarvelStudios",
         "verified": true,
-        "avatar": "/media/avatars/klaxonwire.webp",
-        "text": "WATCH: Hitler’s Eagle’s Nest (Kehlsteinhaus) damaged beyond repair after massive fire; arson suspected",
-        "postedAt": "2026-10-24T07:42:21.000Z"
+        "avatar": "/media/avatars/marvelstudios.webp",
+        "text": "Stand together.\n \nAvengers: Doomsday arrives in theaters everywhere December 18. Get your tickets now: fandango.com/avengersdoomsd…",
+        "postedAt": "2026-10-25T00:00:02.000Z"
       },
       "image": {
-        "src": "/media/2026-10-24/2026-10-24-x-hitler-s-eagle-s-nest-burns-down-in-a-suspected-.webp",
+        "src": "/media/2026-10-24/2026-10-24-x-avengers-doomsday-puts-mjolnir-back-in-steve-rog.webp",
         "width": 1600,
-        "height": 1067,
-        "from": "https://cloudfront-us-east-1.images.arcpublishing.com/gmg/C5IJTWDQD5BM7HGBMCNB6AUIUM.jpg",
+        "height": 900,
+        "from": "https://video.twimg.com/amplify_video/2114085620616437760/vid/avc1/1920x1080/WLP26g7JF5kSPY5T.mp4#t=25.7",
         "crop": {
-          "x": 0.24,
-          "y": 0.22,
-          "w": 0.46,
-          "h": 0.5
+          "x": 0.22,
+          "y": 0.15,
+          "w": 0.38,
+          "h": 0.71
+        },
+        "bounds": {
+          "x": 0,
+          "y": 0.13,
+          "w": 1,
+          "h": 0.745
         }
       }
     }

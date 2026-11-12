@@ -2,66 +2,58 @@
   "date": "2026-10-22",
   "items": [
     {
-      "id": "2026-10-22-x-the-atlanta-falcons-new-profile-picture-becomes-",
+      "id": "2026-10-22-x-airbnb-bans-hosts-from-making-guests-do-checkout",
       "platform": "x",
       "rank": 1,
-      "title": "The Atlanta Falcons' new profile picture becomes \"the Bird Reich\"",
-      "summary": "Ahead of a 1966 throwback game, the Falcons made their original angular logo their profile picture, and nearly everyone saw Nazi iconography. The jokes piled up, and the team quietly swapped it out two days later.",
+      "title": "Airbnb bans hosts from making guests do checkout chores",
+      "summary": "Airbnb said hosts can no longer require guests to strip beds, wash dishes or take out trash. Guests celebrated the end of chores on top of cleaning fees, while hosts threatened to raise prices or quit.",
       "kind": "image",
       "tags": [
-        "atlanta-falcons",
-        "bird-reich",
-        "logo",
-        "nfl"
+        "airbnb",
+        "cleaning-fees",
+        "travel"
       ],
-      "author": "@AtlantaFalcons",
-      "sourceUrl": "https://x.com/AtlantaFalcons/status/2112945043522654700",
+      "author": "@PopBase",
+      "sourceUrl": "https://x.com/PopBase/status/2112971839530316025",
       "metrics": {
-        "likes": "80.5K",
-        "replies": "11.1K"
+        "likes": "79K",
+        "replies": "431"
       },
-      "references": [
-        {
-          "title": "‘The Bird Reich’: Atlanta Falcons roasted over throwback logo with Nazi resemblance",
-          "url": "https://www.theguardian.com/sport/2026/oct/22/atlanta-falcons-throwback-logo-nazi-germany-comparisons-memes"
-        },
-        {
-          "title": "Atlanta Falcons show off new profile pic on social media that some fans say resembles Nazi imagery",
-          "url": "https://www.nbcnews.com/news/us-news/atlanta-falcons-show-eyebrow-raising-retro-image-social-media-rcna605083"
-        },
-        {
-          "title": "Falcons’ New Logo Sparks Nazi Comparisons From Fans",
-          "url": "https://heavy.com/sports/nfl/atlanta-falcons/falcons-new-logo-sparks-nazi-comparisons-from-fans/"
-        }
-      ],
+      "references": [],
       "pulse": {
-        "score": 8.3,
-        "reach": 8,
-        "dominance": 8,
-        "memeability": 9,
-        "category": "brands",
+        "score": 6.4,
+        "reach": 7,
+        "dominance": 6,
+        "memeability": 6,
+        "category": "everyday-life",
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-12T02:51:43.232Z",
+      "collectedAt": "2026-11-12T03:45:09.247Z",
       "post": {
-        "name": "Atlanta Falcons",
-        "handle": "@AtlantaFalcons",
+        "name": "Pop Base",
+        "handle": "@PopBase",
         "verified": true,
-        "avatar": "/media/avatars/atlantafalcons.webp",
-        "text": "New PFP 👀",
-        "postedAt": "2026-10-21T16:32:09.000Z"
+        "avatar": "/media/avatars/popbase.webp",
+        "text": "Airbnb is introducing a new policy prohibiting hosts from asking guests to strip beds, wash and put away dishes or take trash offsite, as well as imposing their own fines on guests.\n\nThe policy applies to reservations booked on or after November 20.",
+        "postedAt": "2026-10-21T18:18:38.000Z"
       },
       "image": {
-        "src": "/media/2026-10-22/2026-10-22-x-the-atlanta-falcons-new-profile-picture-becomes-.webp",
-        "width": 1600,
-        "height": 1600,
-        "from": "https://pbs.twimg.com/media/HVKwPBKWIAAnEZb.jpg?name=large",
+        "src": "/media/2026-10-22/2026-10-22-x-airbnb-bans-hosts-from-making-guests-do-checkout.webp",
+        "width": 1080,
+        "height": 1350,
+        "from": "https://pbs.twimg.com/media/HVMQAqmXwAEBWPU.jpg?name=orig",
         "crop": {
-          "x": 0.125,
+          "x": 0.03,
+          "y": 0.04,
+          "w": 0.94,
+          "h": 0.52
+        },
+        "bounds": {
+          "x": 0,
           "y": 0,
-          "w": 0.75,
-          "h": 1
+          "w": 1,
+          "h": 0.61
         }
       }
     }

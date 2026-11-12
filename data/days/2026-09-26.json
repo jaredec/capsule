@@ -2,53 +2,59 @@
   "date": "2026-09-26",
   "items": [
     {
-      "id": "2026-09-26-x-x-erupts-over-the-cornell-seven-suit-s-claim-of-",
+      "id": "2026-09-26-x-justin-verlander-s-daughter-takes-him-out-of-his",
       "platform": "x",
       "rank": 1,
-      "title": "X erupts over the Cornell Seven suit's claim of essays as punishment",
-      "summary": "A former student's lawsuit alleges seven Cornell Chi Phi members pressured her into taking ketamine and sexually assaulted her; the men deny it. Outrage focused on a report that some only had to write essays, which Cornell later disputed.",
-      "kind": "moment",
+      "title": "Justin Verlander's daughter takes him out of his final start",
+      "summary": "When A.J. Hinch came to pull Verlander in the sixth inning of his last game, his 7-year-old daughter Genevieve sprinted to the mound instead. He sobbed, then walked off holding her hand to a standing ovation.",
+      "kind": "video",
       "tags": [
-        "cornell",
-        "chi-phi",
-        "sexual-assault",
-        "college"
+        "justin-verlander",
+        "tigers",
+        "retirement",
+        "mlb"
       ],
-      "author": "@omgsidewalks",
-      "sourceUrl": "https://x.com/omgsidewalks/status/2103853405366018479",
+      "author": "@MLB",
+      "sourceUrl": "https://x.com/MLB/status/2103937420219601205",
       "metrics": {
-        "likes": "253.8K",
-        "replies": "568"
+        "likes": "109.8K",
+        "replies": "1.5K"
       },
       "references": [],
       "pulse": {
-        "score": 7,
-        "reach": 9,
-        "dominance": 9,
-        "memeability": 4,
-        "category": "news",
+        "score": 6.5,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 5,
+        "category": "sports",
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-12T02:51:47.237Z",
+      "collectedAt": "2026-11-12T03:44:24.449Z",
       "post": {
-        "name": "‏ً",
-        "handle": "@omgsidewalks",
+        "name": "MLB",
+        "handle": "@MLB",
         "verified": true,
-        "avatar": "/media/avatars/omgsidewalks.webp",
-        "text": "Maybe I'm missing something. But why is \"punishment\" for the Cornell r@pısts being handled by the university and not law enforcement?????",
-        "postedAt": "2026-09-26T14:25:14.000Z"
+        "avatar": "/media/avatars/mlb.webp",
+        "text": "Justin Verlander says goodbye to his teammates \n\nAnd then holds his daughter’s hand as he leaves the mound 🥹",
+        "postedAt": "2026-09-26T19:59:04.000Z"
       },
       "image": {
-        "src": "/media/2026-09-26/2026-09-26-x-x-erupts-over-the-cornell-seven-suit-s-claim-of-.webp",
-        "width": 1600,
-        "height": 1018,
-        "from": "https://pyxis.nymag.com/v1/imgs/952/392/05fff6e1d8ee59b5bca2d93c58bc42084e-cornell-frat-house.jpg",
+        "src": "/media/2026-09-26/2026-09-26-x-justin-verlander-s-daughter-takes-him-out-of-his.webp",
+        "width": 1080,
+        "height": 1080,
+        "from": "https://video.twimg.com/amplify_video/2103937045664030720/vid/avc1/1080x1080/Y2yqeYJxeYYGQUvD.mp4#t=82.5",
         "crop": {
-          "x": 0.06,
+          "x": 0.02,
           "y": 0,
-          "w": 0.94,
-          "h": 0.92
+          "w": 0.7,
+          "h": 0.94
+        },
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.94
         }
       }
     }

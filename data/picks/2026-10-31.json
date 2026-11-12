@@ -2,25 +2,19 @@
   "date": "2026-10-31",
   "stories": [
     {
-      "title": "\"I hate gay Halloween\": the feed dresses up as its own memes",
-      "summary": "On X's yearly \"gay Halloween,\" people dressed as references only the extremely online would get, led by \"the whore mirror from Black Swan,\" a lipstick-scrawled mirror worn as a costume. The year's own memes became costumes too.",
+      "title": "A Halloween costume recreates Lois Griffin falling down the stairs",
+      "summary": "A man posted a photo of himself mid-air in a stairwell, dressed as Lois Griffin in Family Guy's famous stair-fall scene, beside the cartoon frame. It became the night's most-shared costume.",
       "kind": "image",
-      "tags": ["halloween", "gay-halloween", "i-hate-gay-halloween", "costume", "lois-griffin"],
+      "tags": ["halloween", "costume", "family-guy", "lois-griffin"],
       "category": "internet-culture",
       "crossover": true,
       "reach": 8,
-      "dominance": 8,
+      "dominance": 7,
       "memeability": 9,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/adrnvic/status/2116339042962833541",
-      "imageUrl": "https://pbs.twimg.com/media/HV6_IwNXkAA5n02.jpg?name=large",
-      "crop": {
-        "x": 0.24,
-        "y": 0.0,
-        "w": 0.66,
-        "h": 0.74
-      }
+      "sourceUrl": "https://x.com/blonddtyler/status/2116733204950352049",
+      "crop": { "x": 0.05, "y": 0.08, "w": 0.63, "h": 0.62 }
     }
   ]
 }
