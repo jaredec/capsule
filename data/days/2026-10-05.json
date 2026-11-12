@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Trump: \"Let them take out Los Angeles. Let them take out San Diego\"",
-      "summary": "At a Monday night rally in Grand Island, Nebraska, talking about the war with Iran and high prices, Trump said: \"It's a small price to pay. They can take out a city. Let them take out Los Angeles. Let them take out San Diego.\" Clips of the line spread across X, and Gavin Newsom's response got 53K likes. White House communications director Steven Cheung said he meant the war was being fought to stop Iran from ever being able to hit those cities.",
+      "summary": "At a Nebraska rally, talking about the war with Iran, Trump called it \"a small price to pay.\" Gavin Newsom hit back, and the White House said he meant the war would stop Iran from ever hitting those cities.",
       "kind": "video",
       "tags": [
         "trump",
@@ -29,6 +29,16 @@
         "category": "politics",
         "crossover": true
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T02:50:22.890Z",
+      "post": {
+        "name": "Headquarters",
+        "handle": "@HQNewsNow",
+        "verified": true,
+        "avatar": "/media/avatars/hqnewsnow.webp",
+        "text": "Trump on Iran: Let 'em take out Los Angeles and San Diego, it's a small price to pay",
+        "postedAt": "2026-10-06T00:08:22.000Z"
+      },
       "image": {
         "src": "/media/2026-10-05/2026-10-05-x-trump-let-them-take-out-los-angeles-let-them-tak.webp",
         "width": 1280,
@@ -40,17 +50,7 @@
           "w": 0.3375,
           "h": 0.8
         }
-      },
-      "post": {
-        "name": "Headquarters",
-        "handle": "@HQNewsNow",
-        "verified": true,
-        "avatar": "/media/avatars/hqnewsnow.webp",
-        "text": "Trump on Iran: Let 'em take out Los Angeles and San Diego, it's a small price to pay",
-        "postedAt": "2026-10-06T00:08:22.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-10T06:03:38.293Z"
+      }
     }
   ]
 }

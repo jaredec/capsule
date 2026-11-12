@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Mark Zuckerberg \"pretending to enjoy Guinness\"",
-      "summary": "On John Collison's Cheeky Pint podcast, Mark Zuckerberg took a sip of Guinness next to Alexandr Wang, swished it around his mouth with the look of a man unsure whether to swallow, and put the pint back down. Mark Malone's 12-second clip, captioned \"Mark Zuckerberg pretending to enjoy Guinness is my new favourite thing,\" passed 13 million views and 107K likes. Zuckerberg replied \"that's just my face,\" and by Oct 14 Forbes, the Independent and TheJournal.ie were asking whether it was his first pint, noting that he had just moved into a castle in Co Waterford.",
+      "summary": "On the Cheeky Pint podcast, Mark Zuckerberg sipped a Guinness, swished it around with an unsure look and set it down. The clip went viral, and he replied \"that's just my face.\"",
       "kind": "video",
       "tags": [
         "mark-zuckerberg",
@@ -37,6 +37,16 @@
         "category": "celebrity",
         "crossover": true
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T02:51:07.545Z",
+      "post": {
+        "name": "Mark Malone",
+        "handle": "@soundmigration",
+        "verified": false,
+        "avatar": "/media/avatars/soundmigration.webp",
+        "text": "Mark Zuckerberg pretending to enjoy Guinness is my new favourite thing.",
+        "postedAt": "2026-10-12T20:53:36.000Z"
+      },
       "image": {
         "src": "/media/2026-10-14/2026-10-14-x-mark-zuckerberg-pretending-to-enjoy-guinness.webp",
         "width": 1280,
@@ -54,17 +64,7 @@
           "w": 1,
           "h": 0.96
         }
-      },
-      "post": {
-        "name": "Mark Malone",
-        "handle": "@soundmigration",
-        "verified": false,
-        "avatar": "/media/avatars/soundmigration.webp",
-        "text": "Mark Zuckerberg pretending to enjoy Guinness is my new favourite thing.",
-        "postedAt": "2026-10-12T20:53:36.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-10T04:46:43.115Z"
+      }
     }
   ]
 }

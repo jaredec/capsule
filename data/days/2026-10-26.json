@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Harry Kane wins the Ballon d'Or: \"Work hard in silence\"",
-      "summary": "At the London Palladium, Ronaldo Nazário handed Harry Kane the Ballon d'Or, the first for an Englishman since Michael Owen in 2001, after a season of 73 goals in 65 games; Kylian Mbappé was second and Lamine Yamal third. \"Wow, I'm almost speechless,\" Kane said, then posted \"Work hard in silence. Let success be your noise. 🏆,\" which got 1.3M likes and was widely read as a jab at Yamal (Kane later said it wasn't aimed at anyone). Guti called it a coincidence that the ceremony moved to London and a Londoner won, Yamal's uncle posted \"Very sad,\" the winners had leaked on the official site hours before the show, and Harry Kane and #BallonDor were the top two US trends.",
+      "summary": "Kane became the first Englishman since Michael Owen in 2001 to win the Ballon d'Or, ahead of Mbappé and Yamal. His victory post was widely read as a jab at Yamal; Kane later said it wasn't aimed at anyone.",
       "kind": "moment",
       "tags": [
         "harry-kane",
@@ -42,6 +42,16 @@
         "category": "sports",
         "crossover": true
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T02:51:58.162Z",
+      "post": {
+        "name": "Harry Kane",
+        "handle": "@HKane",
+        "verified": true,
+        "avatar": "/media/avatars/hkane.webp",
+        "text": "Work hard in silence. Let success be your noise. 🏆",
+        "postedAt": "2026-10-26T23:15:37.000Z"
+      },
       "image": {
         "src": "/media/2026-10-26/2026-10-26-x-harry-kane-wins-the-ballon-d-or-work-hard-in-sil.webp",
         "width": 1600,
@@ -53,17 +63,7 @@
           "w": 0.38,
           "h": 0.72
         }
-      },
-      "post": {
-        "name": "Harry Kane",
-        "handle": "@HKane",
-        "verified": true,
-        "avatar": "/media/avatars/hkane.webp",
-        "text": "Work hard in silence. Let success be your noise. 🏆",
-        "postedAt": "2026-10-26T23:15:37.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-10T07:30:22.041Z"
+      }
     }
   ]
 }

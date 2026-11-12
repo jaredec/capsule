@@ -3,37 +3,16 @@
   "stories": [
     {
       "title": "Mbappé's favorite meme, his face on Mao, costs him Chinese sponsors",
-      "summary": "In a clip from the French show The Bridge, Kylian Mbappé laughed that his favorite meme put his face on \"some guy, I think he's a Chinese dictator.\" It was Mao Zedong. Chinese brands Mengniu, Dongpeng and Milkground ended their deals with him, and state broadcaster CCTV suspended La Liga broadcasts. Mbappé apologized for the \"ill-judged\" comment (456K likes), La Liga apologized too, and Real Madrid followed the next day. It came a day after he finished second to Harry Kane in the Ballon d'Or.",
+      "summary": "On a French TV show, Kylian Mbappé laughed that his favorite meme put his face on \"some guy, I think he's a Chinese dictator\": Mao Zedong. Chinese sponsors dropped him and CCTV suspended La Liga broadcasts; he apologized.",
       "kind": "moment",
-      "tags": [
-        "mbappe",
-        "mao",
-        "meme",
-        "china",
-        "real-madrid",
-        "la-liga",
-        "apology"
-      ],
+      "tags": ["mbappe", "mao", "meme", "china", "real-madrid", "la-liga", "apology"],
       "category": "sports",
       "crossover": true,
       "reach": 8,
       "dominance": 9,
       "memeability": 7,
       "platform": "x",
-      "headlineIds": [
-        23,
-        24,
-        25,
-        27,
-        31,
-        33,
-        34,
-        36,
-        37,
-        40,
-        41,
-        43
-      ],
+      "headlineIds": [23, 24, 25, 27, 31, 33, 34, 36, 37, 40, 41, 43],
       "sourceUrl": "https://x.com/KMbappe/status/2115045633832931532",
       "imageUrl": "https://video.twimg.com/amplify_video/2114729904109469696/vid/avc1/720x1280/s9aUFWo94GW3ZFbr.mp4#t=32.4",
       "crop": {
@@ -45,14 +24,9 @@
     },
     {
       "title": "\"*paws at you*\": the wide-eyed snow leopard meme",
-      "summary": "An AI-edited photo of Himmel, a snow leopard at Japan's Ishikawa Zoo, with Mei Mei the cat's huge eyes became the day's reaction image. People captioned it \"*paws at you*\" over and over to nag friends. Two posts with it got 151K and 145K likes within hours, and Epic Games joined in the next day with \"*paws at you* hop online.\"",
+      "summary": "An AI edit gave Himmel, a snow leopard at Japan's Ishikawa Zoo, a cat's huge eyes, and it became the day's go-to image for nagging friends. Epic Games joined in the next day.",
       "kind": "image",
-      "tags": [
-        "snow-leopard",
-        "paws-at-you",
-        "cat",
-        "reaction-image"
-      ],
+      "tags": ["snow-leopard", "paws-at-you", "cat", "reaction-image"],
       "category": "animals",
       "crossover": false,
       "reach": 5,

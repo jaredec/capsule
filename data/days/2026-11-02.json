@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Tucker Carlson claims Trump is days from a nuclear strike on Iran",
-      "summary": "On Sunday evening Tucker Carlson posted that \"under pressure from Israeli prime minister Benjamin Netanyahu, the Trump administration may be within days of launching a nuclear strike on Iran,\" naming the Pickax Mountain tunnel complex and quoting an unnamed \"informed observer\": \"Bibi calls Trump about it every day.\" The post drew 402K likes and more than 80 million views, and \"Tucker\" sat at or near the top of X's worldwide trends through Monday, two days before the midterms. Nothing backed it up: a White House official said Carlson has \"no insight into military planning or the Commander-in-Chief's thinking,\" Trump answered \"no\" when reporters asked if he was considering an attack after the election, and The War Zone's headline called the idea absurd. It shared the timeline with the fallout from Rep. Haley Stevens endorsing Republican Mike Rogers over Democrat Abdul El-Sayed.",
+      "summary": "Tucker Carlson posted that, under pressure from Netanyahu, the administration \"may be within days\" of a nuclear strike on Iran. It topped X's trends, but nothing backed it up: the White House dismissed it and Trump said no.",
       "kind": "phrase",
       "tags": [
         "tucker-carlson",
@@ -18,7 +18,7 @@
       "sourceUrl": "https://x.com/TuckerCarlson/status/2117071025955389828",
       "metrics": {
         "likes": "402.3K",
-        "replies": "29.8K"
+        "replies": "29.9K"
       },
       "references": [],
       "pulse": {
@@ -28,6 +28,16 @@
         "memeability": 4,
         "category": "politics",
         "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T02:52:17.588Z",
+      "post": {
+        "name": "Tucker Carlson",
+        "handle": "@TuckerCarlson",
+        "verified": true,
+        "avatar": "/media/avatars/tuckercarlson.webp",
+        "text": "Under pressure from Israeli prime minister Benjamin Netanyahu, the Trump administration may be within days of launching a nuclear strike on Iran. The target would be Pickax Mountain in central Iran, where Israeli intelligence claims the Iranian government has restarted its",
+        "postedAt": "2026-11-02T01:47:20.000Z"
       },
       "image": {
         "src": "/media/2026-11-02/2026-11-02-x-tucker-carlson-claims-trump-is-days-from-a-nucle.webp",
@@ -40,17 +50,7 @@
           "w": 0.52,
           "h": 0.9
         }
-      },
-      "post": {
-        "name": "Tucker Carlson",
-        "handle": "@TuckerCarlson",
-        "verified": true,
-        "avatar": "/media/avatars/tuckercarlson.webp",
-        "text": "Under pressure from Israeli prime minister Benjamin Netanyahu, the Trump administration may be within days of launching a nuclear strike on Iran. The target would be Pickax Mountain in central Iran, where Israeli intelligence claims the Iranian government has restarted its",
-        "postedAt": "2026-11-02T01:47:20.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-10T05:45:24.295Z"
+      }
     }
   ]
 }

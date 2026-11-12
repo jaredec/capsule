@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Mike Tomlin reveals the Minecraft city he built for 12 years",
-      "summary": "Former Steelers coach Mike Tomlin posted \"Tonight. 8 p.m. My Minecraft City.\" (162K likes) and premiered a YouTube tour of a Minecraft city he has been building for 12 years, down to the interiors of its high-rise apartments. Clips of the tour took over the timeline and the jokes followed: \"mike tomlin has 100% stood on an nfl sideline pretending to listen to the headset while thinking about something he was gonna build in minecraft later\" (62K), and people asking what happened to the villagers who used to live there.",
+      "summary": "Former Steelers coach Mike Tomlin premiered a YouTube tour of his Minecraft city, down to its apartment interiors. X joked he'd been planning builds on the sideline while pretending to listen to his headset.",
       "kind": "video",
       "tags": [
         "nfl",
@@ -29,6 +29,16 @@
         "category": "sports",
         "crossover": true
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T02:52:00.541Z",
+      "post": {
+        "name": "Mike Tomlin",
+        "handle": "@CoachTomlin",
+        "verified": true,
+        "avatar": "/media/avatars/coachtomlin.webp",
+        "text": "Tonight. \n\n8 p.m.\n\nMy Minecraft City. \n\nSubscribe now: \nyoutube.com/@miket757",
+        "postedAt": "2026-09-30T16:19:10.000Z"
+      },
       "image": {
         "src": "/media/2026-09-30/2026-09-30-x-mike-tomlin-reveals-the-minecraft-city-he-built-.webp",
         "width": 1600,
@@ -46,17 +56,7 @@
           "w": 0.5,
           "h": 0.7
         }
-      },
-      "post": {
-        "name": "Mike Tomlin",
-        "handle": "@CoachTomlin",
-        "verified": true,
-        "avatar": "/media/avatars/coachtomlin.webp",
-        "text": "Tonight. \n\n8 p.m.\n\nMy Minecraft City. \n\nSubscribe now: \nyoutube.com/@miket757",
-        "postedAt": "2026-09-30T16:19:10.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-10T06:04:49.174Z"
+      }
     }
   ]
 }

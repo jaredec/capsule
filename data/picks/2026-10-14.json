@@ -3,23 +3,16 @@
   "stories": [
     {
       "title": "Mark Zuckerberg \"pretending to enjoy Guinness\"",
-      "summary": "On John Collison's Cheeky Pint podcast, Mark Zuckerberg took a sip of Guinness next to Alexandr Wang, swished it around his mouth with the look of a man unsure whether to swallow, and put the pint back down. Mark Malone's 12-second clip, captioned \"Mark Zuckerberg pretending to enjoy Guinness is my new favourite thing,\" passed 13 million views and 107K likes. Zuckerberg replied \"that's just my face,\" and by Oct 14 Forbes, the Independent and TheJournal.ie were asking whether it was his first pint, noting that he had just moved into a castle in Co Waterford.",
+      "summary": "On the Cheeky Pint podcast, Mark Zuckerberg sipped a Guinness, swished it around with an unsure look and set it down. The clip went viral, and he replied \"that's just my face.\"",
       "kind": "video",
-      "tags": [
-        "mark-zuckerberg",
-        "guinness",
-        "cheeky-pint"
-      ],
+      "tags": ["mark-zuckerberg", "guinness", "cheeky-pint"],
       "category": "celebrity",
       "crossover": true,
       "reach": 8,
       "dominance": 7,
       "memeability": 8,
       "platform": "x",
-      "headlineIds": [
-        18,
-        19
-      ],
+      "headlineIds": [18, 19],
       "sourceUrl": "https://x.com/soundmigration/status/2109749349928554884",
       "frameAt": 5,
       "crop": {

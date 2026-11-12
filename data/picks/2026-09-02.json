@@ -3,14 +3,9 @@
   "stories": [
     {
       "title": "The NBA strips the Clippers of five first-round picks",
-      "summary": "After a yearlong probe into salary cap circumvention involving Kawhi Leonard, the NBA took five first-round picks from the Los Angeles Clippers, fined owner Steve Ballmer $30 million and suspended Ballmer for a year. Shams Charania's report got 124K likes and 7.5K replies.",
+      "summary": "After a yearlong probe into salary cap circumvention involving Kawhi Leonard, the NBA took five first-round picks from the Clippers, fined owner Steve Ballmer $30 million and suspended him for a year.",
       "kind": "image",
-      "tags": [
-        "nba",
-        "clippers",
-        "kawhi-leonard",
-        "steve-ballmer"
-      ],
+      "tags": ["nba", "clippers", "kawhi-leonard", "steve-ballmer"],
       "category": "sports",
       "crossover": true,
       "reach": 8,

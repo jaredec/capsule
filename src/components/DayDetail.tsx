@@ -63,6 +63,19 @@ export function DayInfo({
         {item.title}
       </h2>
 
+      {item.sourceUrl && (
+        <a
+          href={item.sourceUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="group mt-4 inline-flex h-9 items-center gap-2 self-start rounded-full bg-zinc-950 pr-3.5 pl-3 text-[14px] font-medium text-white transition-[background-color,scale] duration-150 hover:bg-zinc-800 active:scale-[0.97] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900"
+        >
+          <PlatformLogo platform={item.platform} mono className="size-3.5" />
+          {item.kind === "video" ? `Watch on ${platform}` : `View on ${platform}`}
+          <ArrowUpRight className="size-4 text-white/60 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+        </a>
+      )}
+
       {post && (
         <div className="mt-5 flex items-center gap-2.5">
           {post.avatar ? (
@@ -137,21 +150,6 @@ export function DayInfo({
               </li>
             ))}
           </ul>
-        </div>
-      )}
-
-      {item.sourceUrl && (
-        <div className="mt-auto pt-6">
-          <a
-            href={item.sourceUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="group inline-flex h-10 items-center gap-2 rounded-full bg-zinc-950 pr-4 pl-3.5 text-[14px] font-medium text-white transition-[background-color,scale] duration-150 hover:bg-zinc-800 active:scale-[0.97] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900"
-          >
-            <PlatformLogo platform={item.platform} mono className="size-3.5" />
-            {item.kind === "video" ? `Watch on ${platform}` : `View on ${platform}`}
-            <ArrowUpRight className="size-4 text-white/60 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-          </a>
         </div>
       )}
     </div>

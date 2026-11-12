@@ -3,13 +3,9 @@
   "stories": [
     {
       "title": "The Pentagon hosts Logan and Jake Paul",
-      "summary": "The Department of War posted a video of Logan and Jake Paul's visit to the Pentagon \"to meet with our warriors.\" It got 36K likes and 19K replies, while quote posts went far bigger: \"holy shit we are all going to die\" (343K), \"Hawk Tuah really fumbled the bag, she could be Secretary of the Interior by now\" (142K) and \"Imagine showing this image to someone in 2017\" (115K).",
+      "summary": "The Department of War posted video of Logan and Jake Paul visiting the Pentagon \"to meet with our warriors.\" Quote posts far outdrew the original, most of them disbelief and dark jokes.",
       "kind": "video",
-      "tags": [
-        "logan-paul",
-        "jake-paul",
-        "pentagon"
-      ],
+      "tags": ["logan-paul", "jake-paul", "pentagon"],
       "category": "politics",
       "crossover": true,
       "reach": 8,

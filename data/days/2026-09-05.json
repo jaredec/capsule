@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "A fan yells Pattinson's own \"beggars\" meme at him in Venice",
-      "summary": "Robert Pattinson was signing autographs for a crush of fans outside the Venice premiere of Primetime when someone shouted \"Somebody get these beggars out of here!\", his line as the suitor Antinous in Christopher Nolan's The Odyssey and one of the year's most-used movie memes. Pattinson looked up and broke into laughter. DiscussingFilm's repost of the clip got 181K likes and the original by @leadaal 57K, with people calling it the meme escaping the screen.",
+      "summary": "Outside the Venice premiere of Primetime, a fan shouted Robert Pattinson's much-memed Odyssey line, \"Somebody get these beggars out of here!\" He broke into laughter, and X called it the meme escaping the screen.",
       "kind": "video",
       "tags": [
         "robert-pattinson",
@@ -17,7 +17,7 @@
       "author": "@DiscussingFilm",
       "sourceUrl": "https://x.com/DiscussingFilm/status/2096304153899209070",
       "metrics": {
-        "likes": "181.1K",
+        "likes": "181.2K",
         "replies": "309"
       },
       "references": [
@@ -38,6 +38,16 @@
         "category": "celebrity",
         "crossover": true
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T02:50:51.933Z",
+      "post": {
+        "name": "DiscussingFilm",
+        "handle": "@DiscussingFilm",
+        "verified": true,
+        "avatar": "/media/avatars/discussingfilm.webp",
+        "text": "Robert Pattinson laughs after a fan yells “somebody get these BEGGARS out of here” at people asking him for autographs.\n\n(via: @leadaal)",
+        "postedAt": "2026-09-05T18:27:12.000Z"
+      },
       "image": {
         "src": "/media/2026-09-05/2026-09-05-x-a-fan-yells-pattinson-s-own-beggars-meme-at-him-.webp",
         "width": 720,
@@ -49,17 +59,7 @@
           "w": 0.68,
           "h": 0.42
         }
-      },
-      "post": {
-        "name": "DiscussingFilm",
-        "handle": "@DiscussingFilm",
-        "verified": true,
-        "avatar": "/media/avatars/discussingfilm.webp",
-        "text": "Robert Pattinson laughs after a fan yells “somebody get these BEGGARS out of here” at people asking him for autographs.\n\n(via: @leadaal)",
-        "postedAt": "2026-09-05T18:27:12.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-10T07:13:17.116Z"
+      }
     }
   ]
 }

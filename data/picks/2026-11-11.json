@@ -3,7 +3,7 @@
   "stories": [
     {
       "title": "NYT reports a second Jensen Huang affair; Nvidia moves to oust him",
-      "summary": "Three days after Jensen Huang admitted an affair with an alleged Chinese spy, the New York Times reported that he had also had a relationship with an Nvidia executive who reports to him, citing five people who worked at the company; Nvidia did not confirm it, and Huang told the Times \"I don't think you should be talking to me directly\" before hanging up. Minutes later the Wall Street Journal reported that Nvidia's board was preparing to oust its founder and meeting that night to decide his future, and the stock fell about 8% after hours, close to $400 billion. \"Jensen\" became the top trend on X worldwide: Zero Hedge posted \"Elon please hire Jensen\" (19K likes), Elon Musk answered \"That would be an honor\" (37K), and Derek Guy wrote \"perhaps it was a bad idea to build an entire global economy around whether one man would be faithful to his wife\" (15K). By night the board had not announced a decision.",
+      "summary": "The New York Times reported a second affair, with an Nvidia executive who reports to Huang; Nvidia didn't confirm it. Within minutes the Wall Street Journal said the board was preparing to oust him, and the stock fell about 8%.",
       "kind": "moment",
       "tags": ["jensen-huang", "nvidia", "ceo-ouster", "second-affair"],
       "category": "tech",

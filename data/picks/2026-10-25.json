@@ -3,26 +3,16 @@
   "stories": [
     {
       "title": "Firefox reunites Numa Numa Guy, Chocolate Rain and Bad Luck Brian",
-      "summary": "Firefox's \"Come Back to Firefox\" ad, which debuted during Sunday Night Football, brought back the early internet's meme stars, including the Numa Numa Guy, Tay Zonday, Bad Luck Brian, Overly Attached Girlfriend, Kelly's \"Shoes,\" Annoying Orange, Chuck Testa and Success Kid. It opens with \"What happened to the internet? It used to be fun,\" Overly Attached Girlfriend complains that big tech makes money by following us \"and somehow I'm the creepy one,\" and it ends with the whole cast doing the Numa Numa dance. Firefox's post got 150K likes, and commenters compared it to YouTube Rewind and called it \"The Avengers for chronically online millennials.\"",
+      "summary": "Firefox's \"Come Back to Firefox\" ad, which debuted during Sunday Night Football, reunited early-internet meme stars and ended with the whole cast doing the Numa Numa dance. Commenters called it \"The Avengers for chronically online millennials.\"",
       "kind": "video",
-      "tags": [
-        "firefox",
-        "mozilla",
-        "numa-numa",
-        "chocolate-rain",
-        "bad-luck-brian",
-        "nostalgia",
-        "ad"
-      ],
+      "tags": ["firefox", "mozilla", "numa-numa", "chocolate-rain", "bad-luck-brian", "nostalgia", "ad"],
       "category": "internet-culture",
       "crossover": true,
       "reach": 8,
       "dominance": 8,
       "memeability": 8,
       "platform": "x",
-      "headlineIds": [
-        18
-      ],
+      "headlineIds": [18],
       "sourceUrl": "https://x.com/firefox/status/2114498937432441230",
       "frameAt": 5.6,
       "crop": {
@@ -34,15 +24,9 @@
     },
     {
       "title": "Protesters rally against Liberty Mutual's Liberty Biberty mascot",
-      "summary": "About 100 people protested outside Liberty Mutual's Boston headquarters against Liberty Biberty, the insurer's fuzzy-ball mascot. They chanted \"Who do we want? Liberty Biberty! How do we want him? Dead!\" and held signs reading \"If you give me Biberty, give me death.\" A counter-protester dressed as Biberty called him \"a beautiful freak.\" Photos of the rally got 21K likes.",
+      "summary": "About 100 people rallied outside Liberty Mutual's Boston headquarters against the insurer's fuzzy-ball mascot, chanting \"How do we want him? Dead!\" One counter-protester came dressed as Biberty.",
       "kind": "image",
-      "tags": [
-        "liberty-biberty",
-        "liberty-mutual",
-        "mascot",
-        "protest",
-        "boston"
-      ],
+      "tags": ["liberty-biberty", "liberty-mutual", "mascot", "protest", "boston"],
       "category": "brands",
       "crossover": true,
       "reach": 6,

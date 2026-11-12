@@ -3,7 +3,7 @@
   "stories": [
     {
       "title": "The AI trade cracks: stocks have their worst day since April 2025",
-      "summary": "Two days after Democrats swept Congress, fears of a crackdown on AI data centers sent the Nasdaq down 5.5% into a correction, the S&P 500 down 4.4% and the Dow down 1,833 points, the worst day for all three since the April 2025 tariff shock. Nvidia fell more than 9% and AMD 17%, and the Nasdaq 100's 6.4% drop was its worst since March 2020 (\"BREAKING\" from Unusual Whales, 14K likes). The timeline coped with jokes: Zero Hedge priced the wipeout at \"almost 3 Elons\" (6K), and Bryan Johnson posted himself bathing in the red glow of a stock heatmap, \"always improving my protocol\" (28K). The same day in London, Russell Brand was found guilty of one count of rape and three of sexual assault.",
+      "summary": "Two days after Democrats swept Congress, fears of a crackdown on AI data centers sent the Nasdaq down 5.5% and Nvidia down more than 9%. X coped with jokes, like Bryan Johnson bathing in a stock heatmap's red glow.",
       "kind": "moment",
       "tags": ["stock-market-crash", "nasdaq", "nvidia", "ai-bubble"],
       "category": "news",
@@ -19,7 +19,7 @@
     },
     {
       "title": "Russell Brand found guilty of rape",
-      "summary": "A Southwark Crown Court jury found Russell Brand guilty of one count of rape and three of sexual assault, and he was remanded in custody until sentencing. Sean Lock's old 8 Out of 10 Cats takedown of Brand went viral again: \"RIP Sean Lock, you would have loved Russell Brand going to fucking prison\" (29K likes).",
+      "summary": "A Southwark Crown Court jury convicted Russell Brand of one rape and three sexual assaults, and he was remanded in custody. Sean Lock's old 8 Out of 10 Cats takedown of Brand went viral again.",
       "kind": "image",
       "tags": ["russell-brand", "verdict", "sean-lock"],
       "category": "celebrity",

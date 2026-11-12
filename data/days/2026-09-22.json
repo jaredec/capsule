@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Trump tells the UN that AI will now be called \"super intelligence\"",
-      "summary": "At the UN General Assembly, Trump said artificial intelligence would \"hereinafter officially\" be called super intelligence, because \"the use of the word artificial makes it sound fake.\" \"Welcome to the new world of super intelligence — SI,\" he said, adding, \"let's see if I have any power,\" and said US government documents would switch to \"SI.\" He had floated the rename in an X poll three days earlier (66K likes). The C-SPAN clip spread from @ns123abc (9.8K) and @atrupar (7.1K), and X went to work on the new initials: Sports Illustrated, the Spanish \"sí\" and the metric system's SI units. The State Department then told diplomats to use \"SI.\"",
+      "summary": "At the UN General Assembly, Trump said \"artificial\" makes AI sound fake, so it would now be SI, and the State Department told diplomats to use it. X riffed on the initials: Sports Illustrated, \"sí\" and metric units.",
       "kind": "video",
       "tags": [
         "trump",
@@ -29,6 +29,16 @@
         "category": "tech",
         "crossover": true
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T02:51:38.598Z",
+      "post": {
+        "name": "NIK",
+        "handle": "@ns123abc",
+        "verified": true,
+        "avatar": "/media/avatars/ns123abc.webp",
+        "text": "🚨 BREAKING: TRUMP REJECTS UN AI TREATY, OFFICIALLY BANS THE TERM “ARTIFICIAL INTELLIGENCE”\n\n\"The United States totally rejects any attempt to construct a globalist schemeto control artificial intelligence.\"\n\n\"The word 'artificial' makes it sound fake. It is not fake... It’s",
+        "postedAt": "2026-09-22T16:45:30.000Z"
+      },
       "image": {
         "src": "/media/2026-09-22/2026-09-22-x-trump-tells-the-un-that-ai-will-now-be-called-su.webp",
         "width": 1600,
@@ -40,17 +50,7 @@
           "w": 0.44,
           "h": 0.6
         }
-      },
-      "post": {
-        "name": "NIK",
-        "handle": "@ns123abc",
-        "verified": true,
-        "avatar": "/media/avatars/ns123abc.webp",
-        "text": "🚨 BREAKING: TRUMP REJECTS UN AI TREATY, OFFICIALLY BANS THE TERM “ARTIFICIAL INTELLIGENCE”\n\n\"The United States totally rejects any attempt to construct a globalist schemeto control artificial intelligence.\"\n\n\"The word 'artificial' makes it sound fake. It is not fake... It’s",
-        "postedAt": "2026-09-22T16:45:30.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-10T07:57:53.514Z"
+      }
     }
   ]
 }

@@ -93,7 +93,7 @@ Editorial rules:
 - The story must have peaked on the target date (a US Pacific-time day). Headlines from the following day often recap the target day; use peakDay to say when it actually peaked.
 - Merge headlines about the same thing into one story and list all their ids in headlineIds (most informative first). Only cite ids from the list.
 - Do not repeat stories already picked on recent days.
-- Write the title as a short punchy archival headline (max ~70 chars) and the summary in 2-3 sentences: what happened, why it blew up, how people riffed on it. No emojis, no hype words like "breaks the internet".`;
+- Write the title as a short punchy archival headline (max ~70 chars) and the summary in 1-2 short sentences (under ~40 words): what happened and the gist of how people reacted. No like or view counts, no emojis, no hype words like "breaks the internet".`;
 
 const stampFormatter = new Intl.DateTimeFormat("en-CA", {
   timeZone: ARCHIVE_TIME_ZONE,

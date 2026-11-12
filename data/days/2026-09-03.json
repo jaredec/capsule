@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "OpenAI launches GPT-6 Astra",
-      "summary": "OpenAI introduced GPT-6 Astra with \"Anything you can do on a computer, Astra can do for you. Fast.\" The launch video got 338K likes, and Sam Altman said he hoped it would \"begin to enable a new generation of entrepreneurship, scientific discovery, and building.\"",
+      "summary": "OpenAI introduced GPT-6 Astra, pitched as able to do \"anything you can do on a computer.\" Sam Altman said he hoped it would enable a new generation of entrepreneurship and scientific discovery.",
       "kind": "video",
       "tags": [
         "openai",
@@ -17,7 +17,7 @@
       "author": "@OpenAI",
       "sourceUrl": "https://x.com/OpenAI/status/2095595741528125780",
       "metrics": {
-        "likes": "338K",
+        "likes": "337.9K",
         "replies": "9.1K"
       },
       "references": [],
@@ -28,6 +28,16 @@
         "memeability": 5,
         "category": "tech",
         "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T02:50:36.432Z",
+      "post": {
+        "name": "OpenAI",
+        "handle": "@OpenAI",
+        "verified": true,
+        "avatar": "/media/avatars/openai.webp",
+        "text": "This is GPT-6 Astra.\n\nAnything you can do on a computer, Astra can do for you. Fast.",
+        "postedAt": "2026-09-03T19:32:13.000Z"
       },
       "image": {
         "src": "/media/2026-09-03/2026-09-03-x-openai-launches-gpt-6-astra.webp",
@@ -40,17 +50,7 @@
           "w": 0.42,
           "h": 1
         }
-      },
-      "post": {
-        "name": "OpenAI",
-        "handle": "@OpenAI",
-        "verified": true,
-        "avatar": "/media/avatars/openai.webp",
-        "text": "This is GPT-6 Astra.\n\nAnything you can do on a computer, Astra can do for you. Fast.",
-        "postedAt": "2026-09-03T19:32:13.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-10T05:47:56.229Z"
+      }
     }
   ]
 }

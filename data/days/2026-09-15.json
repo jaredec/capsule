@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Ed Sheeran's openers and band quit his tour",
-      "summary": "A day after Macklemore was dropped from Ed Sheeran's Loop tour over his support for Palestine, Sheeran said the decision was final. Within hours Aaron Rowe, Lukas Graham and FINNEAS quit the tour in solidarity, along with Beoga, the Irish band that plays with Sheeran on the tour. Pop Base's post got 437K likes.",
+      "summary": "A day after Macklemore was dropped from Ed Sheeran's tour over his support for Palestine, Sheeran called the decision final. Within hours openers Aaron Rowe, Lukas Graham and FINNEAS, and his band Beoga, quit in solidarity.",
       "kind": "image",
       "tags": [
         "ed-sheeran",
@@ -29,6 +29,16 @@
         "category": "music",
         "crossover": true
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T02:51:21.269Z",
+      "post": {
+        "name": "Pop Base",
+        "handle": "@PopBase",
+        "verified": true,
+        "avatar": "/media/avatars/popbase.webp",
+        "text": "All three remaining opening acts and Ed Sheeran’s touring band have announced that they are dropping out of the remaining dates of his ‘Loop’ tour in solidarity with Palestine and Macklemore.",
+        "postedAt": "2026-09-15T20:34:17.000Z"
+      },
       "image": {
         "src": "/media/2026-09-15/2026-09-15-x-ed-sheeran-s-openers-and-band-quit-his-tour.webp",
         "width": 1600,
@@ -40,17 +50,7 @@
           "w": 0.44,
           "h": 0.78
         }
-      },
-      "post": {
-        "name": "Pop Base",
-        "handle": "@PopBase",
-        "verified": true,
-        "avatar": "/media/avatars/popbase.webp",
-        "text": "All three remaining opening acts and Ed Sheeran’s touring band have announced that they are dropping out of the remaining dates of his ‘Loop’ tour in solidarity with Palestine and Macklemore.",
-        "postedAt": "2026-09-15T20:34:17.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-10T05:47:24.548Z"
+      }
     }
   ]
 }

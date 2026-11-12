@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "New Apple CEO John Ternus's first post: \"hello\"",
-      "summary": "John Ternus, Apple's former head of hardware engineering, took over from Tim Cook as CEO on Sep 1 and made his first post on X: \"hello\". It got 544K likes and 71K replies. Elon Musk replied \"Congrats!\" and quoted it with \"New Apple CEO posting on 𝕏\", and Merriam-Webster pointed out that \"hello\" is younger than both \"hey\" and \"hi\".",
+      "summary": "John Ternus, Apple's former head of hardware engineering, took over from Tim Cook as CEO and marked it with a one-word post on X. It drew a flood of replies, including Elon Musk's \"Congrats!\"",
       "kind": "moment",
       "tags": [
         "apple",
@@ -17,8 +17,8 @@
       "author": "@johnternus",
       "sourceUrl": "https://x.com/johnternus/status/2094814214787633367",
       "metrics": {
-        "likes": "543.9K",
-        "replies": "71.2K"
+        "likes": "543.8K",
+        "replies": "71.1K"
       },
       "references": [],
       "pulse": {
@@ -28,6 +28,16 @@
         "memeability": 7,
         "category": "tech",
         "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T02:50:33.917Z",
+      "post": {
+        "name": "John Ternus",
+        "handle": "@johnternus",
+        "verified": true,
+        "avatar": "/media/avatars/johnternus.webp",
+        "text": "hello",
+        "postedAt": "2026-09-01T15:46:43.000Z"
       },
       "image": {
         "src": "/media/2026-09-01/2026-09-01-x-new-apple-ceo-john-ternus-s-first-post-hello.webp",
@@ -40,17 +50,7 @@
           "w": 0.9,
           "h": 0.56
         }
-      },
-      "post": {
-        "name": "John Ternus",
-        "handle": "@johnternus",
-        "verified": true,
-        "avatar": "/media/avatars/johnternus.webp",
-        "text": "hello",
-        "postedAt": "2026-09-01T15:46:43.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-10T05:45:27.316Z"
+      }
     }
   ]
 }

@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Taylor Swift's \"That's my husband!\" becomes every husband's meme",
-      "summary": "During Sunday Night Football, cameras caught Taylor Swift in her Arrowhead suite pointing at her wedding ring and yelling \"That's my husband!\" after Travis Kelce's touchdown, and by Monday husbands had turned the clip into a \"My wife when I...\" template. \"my neurosurgeon breadwinner wife watching me shotgun my 11th beer of the night\" got 41K likes, \"My wife after I kill the spider…\" got 18K, and others celebrated loading the dishwasher or fixing the wifi; Kansas City's mayor joined in. The clip itself got 19.6K on Buzzing Pop and 16.5K on the NFL's account, and Kelce answered the memes on New Heights two days later.",
+      "summary": "Cameras caught Taylor Swift pointing at her ring and yelling after Travis Kelce's Sunday Night Football touchdown, and by Monday husbands had made it a \"My wife when I...\" meme about beers, spiders and dishwashers.",
       "kind": "video",
       "tags": [
         "taylor-swift",
@@ -29,6 +29,16 @@
         "category": "celebrity",
         "crossover": true
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T02:51:37.139Z",
+      "post": {
+        "name": "Joseph 🕊️",
+        "handle": "@CaudilloXIV",
+        "verified": true,
+        "avatar": "/media/avatars/caudilloxiv.webp",
+        "text": "my neurosurgeon breadwinner wife watching me shotgun my 11th beer of the night",
+        "postedAt": "2026-09-21T05:02:33.000Z"
+      },
       "image": {
         "src": "/media/2026-09-21/2026-09-21-x-taylor-swift-s-that-s-my-husband-becomes-every-h.webp",
         "width": 1080,
@@ -40,17 +50,7 @@
           "w": 0.55,
           "h": 0.72
         }
-      },
-      "post": {
-        "name": "Joseph 🕊️",
-        "handle": "@CaudilloXIV",
-        "verified": true,
-        "avatar": "/media/avatars/caudilloxiv.webp",
-        "text": "my neurosurgeon breadwinner wife watching me shotgun my 11th beer of the night",
-        "postedAt": "2026-09-21T05:02:33.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-10T07:14:53.833Z"
+      }
     }
   ]
 }

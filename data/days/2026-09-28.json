@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Starship reaches orbit for the first time",
-      "summary": "On Flight 14, SpaceX's Starship performed its orbital insertion burn and entered Earth orbit for the first time, then deployed 26 Starlink V3 satellites, all of which SpaceX made contact with. SpaceX's clip of the burn got 30K likes, and Elon Musk's \"First orbital flight of Starship successful!\" got 78K.",
+      "summary": "On Flight 14, SpaceX's Starship completed its orbital insertion burn, entered orbit for the first time and deployed 26 Starlink V3 satellites. Elon Musk called the first orbital flight \"successful.\"",
       "kind": "video",
       "tags": [
         "spacex",
@@ -17,7 +17,7 @@
       "author": "@SpaceX",
       "sourceUrl": "https://x.com/SpaceX/status/2104560708969259344",
       "metrics": {
-        "likes": "30.5K",
+        "likes": "30.4K",
         "replies": "1.1K"
       },
       "references": [],
@@ -30,7 +30,7 @@
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-10T05:48:33.171Z",
+      "collectedAt": "2026-11-12T02:51:50.825Z",
       "post": {
         "name": "SpaceX",
         "handle": "@SpaceX",

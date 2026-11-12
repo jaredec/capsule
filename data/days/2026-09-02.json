@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "The NBA strips the Clippers of five first-round picks",
-      "summary": "After a yearlong probe into salary cap circumvention involving Kawhi Leonard, the NBA took five first-round picks from the Los Angeles Clippers, fined owner Steve Ballmer $30 million and suspended Ballmer for a year. Shams Charania's report got 124K likes and 7.5K replies.",
+      "summary": "After a yearlong probe into salary cap circumvention involving Kawhi Leonard, the NBA took five first-round picks from the Clippers, fined owner Steve Ballmer $30 million and suspended him for a year.",
       "kind": "image",
       "tags": [
         "nba",
@@ -29,6 +29,16 @@
         "category": "sports",
         "crossover": true
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T02:50:35.339Z",
+      "post": {
+        "name": "Shams Charania",
+        "handle": "@ShamsCharania",
+        "verified": true,
+        "avatar": "/media/avatars/shamscharania.webp",
+        "text": "BREAKING: The NBA has ruled on the Los Angeles Clippers in for salary cap circumvention investigations on Kawhi Leonard after yearlong probe -- stripping the franchise of 5 first-round picks, issuing a $30 million fine to owner Steve Ballmer and suspensions for Ballmer, Lawrence",
+        "postedAt": "2026-09-02T20:21:26.000Z"
+      },
       "image": {
         "src": "/media/2026-09-02/2026-09-02-x-the-nba-strips-the-clippers-of-five-first-round-.webp",
         "width": 960,
@@ -46,17 +56,7 @@
           "w": 0.495,
           "h": 0.68
         }
-      },
-      "post": {
-        "name": "Shams Charania",
-        "handle": "@ShamsCharania",
-        "verified": true,
-        "avatar": "/media/avatars/shamscharania.webp",
-        "text": "BREAKING: The NBA has ruled on the Los Angeles Clippers in for salary cap circumvention investigations on Kawhi Leonard after yearlong probe -- stripping the franchise of 5 first-round picks, issuing a $30 million fine to owner Steve Ballmer and suspensions for Ballmer, Lawrence",
-        "postedAt": "2026-09-02T20:21:26.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-10T05:45:28.057Z"
+      }
     }
   ]
 }

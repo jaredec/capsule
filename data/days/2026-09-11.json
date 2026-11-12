@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Gayle King learns the Clancy holdout juror was Black",
-      "summary": "On CBS Mornings, Lindsay Clancy juror Paula Devlin told Gayle King that the lone holdout who voted to find Clancy guilty of murdering her children was the jury's only person of color, a Black man. King replied, \"Whoa. I have to sit with that for just a second.\" Curtis Houck's clip got 66K likes and 6.9K replies, and King trended on the 25th anniversary of 9/11.",
+      "summary": "On CBS Mornings, Clancy juror Paula Devlin told Gayle King that the lone holdout, who voted guilty, was the jury's only person of color. King's reply, \"I have to sit with that for just a second,\" made her trend.",
       "kind": "video",
       "tags": [
         "gayle-king",
@@ -29,6 +29,16 @@
         "category": "news",
         "crossover": true
       },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T02:51:12.083Z",
+      "post": {
+        "name": "Curtis Houck",
+        "handle": "@CurtisHouck",
+        "verified": true,
+        "avatar": "/media/avatars/curtishouck.webp",
+        "text": "NEW: Lindsay Clancy juror Paula Devlin reveals on 'CBS Mornings' that the lone, male holdout juror who voted to find Clancy guilty of murdering her children was the *only* person of color -- a black man.\n\nThe 11 not-guilty jurors -- who hectored him for a week to cave -- were all",
+        "postedAt": "2026-09-11T11:55:58.000Z"
+      },
       "image": {
         "src": "/media/2026-09-11/2026-09-11-x-gayle-king-learns-the-clancy-holdout-juror-was-b.webp",
         "width": 1280,
@@ -46,17 +56,7 @@
           "w": 0.855,
           "h": 0.775
         }
-      },
-      "post": {
-        "name": "Curtis Houck",
-        "handle": "@CurtisHouck",
-        "verified": true,
-        "avatar": "/media/avatars/curtishouck.webp",
-        "text": "NEW: Lindsay Clancy juror Paula Devlin reveals on 'CBS Mornings' that the lone, male holdout juror who voted to find Clancy guilty of murdering her children was the *only* person of color -- a black man.\n\nThe 11 not-guilty jurors -- who hectored him for a week to cave -- were all",
-        "postedAt": "2026-09-11T11:55:58.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-10T05:48:01.237Z"
+      }
     }
   ]
 }
