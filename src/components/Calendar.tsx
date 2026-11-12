@@ -412,7 +412,7 @@ export function Calendar({
   const label = view === "week" ? formatWeekRange(rangeStart, false, 7 * span) : `${MONTH_NAMES[month - 1]} ${year}`;
   const longLabel = view === "week" ? formatWeekRange(rangeStart, true, 7 * span) : label;
   const stepNoun = view === "month" ? "month" : span === 2 ? "two weeks" : "week";
-  const zoomInLabel = span === 2 ? "Zoom into these two weeks" : "Zoom into this week";
+  const zoomInLabel = span === 2 ? "Zoom in" : "Zoom into this week";
   const toggleLabel = view === "month" ? zoomInLabel : "Show the whole month";
   const spotlight = introducing && view === "month" && !selected;
 
