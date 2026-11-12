@@ -109,10 +109,10 @@ body {
   /* Above the card and backdrop, which fade in around it. */
   z-index: 10;
 }
-/* The group's own animation can't be extended, so the corners round on the pair inside it. */
+/* The group's own animation can't be extended, so the corners round on the pair inside it.
+   Safari ignores overflow and border-radius on these pseudo-elements; clip-path holds everywhere. */
 ::view-transition-image-pair(.zoom-in),
 ::view-transition-image-pair(.zoom-out) {
-  overflow: clip;
   animation: 480ms var(--ease-sheet) both zoom-corners;
 }
 ::view-transition-image-pair(.zoom-in) {
@@ -125,15 +125,14 @@ body {
 }
 @keyframes zoom-corners {
   from {
-    border-radius: var(--from-radius);
+    clip-path: inset(0 round var(--from-radius));
   }
   to {
-    border-radius: var(--to-radius);
+    clip-path: inset(0 round var(--to-radius));
   }
 }
 ::view-transition-image-pair(.morph-open),
 ::view-transition-image-pair(.morph-close) {
-  overflow: clip;
   animation: 480ms var(--ease-sheet) both image-corners;
 }
 ::view-transition-image-pair(.morph-close) {
@@ -141,10 +140,10 @@ body {
 }
 @keyframes image-corners {
   from {
-    border-radius: var(--cell-radius);
+    clip-path: inset(0 round var(--cell-radius));
   }
   to {
-    border-radius: var(--card-image-radius);
+    clip-path: inset(0 round var(--card-image-radius));
   }
 }
 ::view-transition-old(.zoom-in),
@@ -159,8 +158,6 @@ body {
   height: 100%;
   object-fit: cover;
   animation-duration: 480ms;
-  /* Composited, the pair's rounded clip drops out on some frames; rounding the snapshots too holds. */
-  border-radius: inherit;
 }
 /* The cell and the card crop the picture differently, so crossfading the two reads as the
    picture jumping. Opening shows the card's sharper image the whole way; closing keeps it
