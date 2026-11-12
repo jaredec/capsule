@@ -1,9 +1,10 @@
 name: Collect daily pulse
 
 on:
-  schedule:
-    # Twice a day, after Pacific midnight and again in the afternoon PT: coverage of a viral moment trails it, so each run re-settles the last two days.
-    - cron: "17 9,21 * * *"
+  # Scheduled runs are paused. To resume, restore:
+  # schedule:
+  #   # Twice a day, after Pacific midnight and again in the afternoon PT: coverage of a viral moment trails it, so each run re-settles the last two days.
+  #   - cron: "17 9,21 * * *"
   workflow_dispatch:
     inputs:
       date:
