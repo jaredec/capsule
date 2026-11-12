@@ -28,12 +28,25 @@ export function DayMedia({ item, className = "" }: { item: Item; className?: str
     const target = embedTarget(item);
     if (target) return <Embed target={target} title={item.title} />;
     return (
-      <div className={`grid place-items-center bg-zinc-100 p-8 text-center text-2xl font-semibold text-zinc-400 ${className}`}>
+      <div
+        className={`grid place-items-center bg-zinc-100 p-8 text-center text-2xl font-semibold text-zinc-400 ${className}`}
+      >
         {item.title}
       </div>
     );
   }
   return <CroppedImage image={item.image} alt={item.title} sync className={className} />;
+}
+
+/** Looks like a button but renders as a span, because it always sits inside the link to the post. */
+function SourceButton({ item, platform }: { item: Item; platform: string }) {
+  return (
+    <span className="inline-flex h-8 shrink-0 items-center gap-1.5 rounded-full bg-zinc-950 pr-2.5 pl-3 text-[13px] font-medium text-white transition-[background-color,scale] duration-150 group-hover:bg-zinc-800 group-active:scale-[0.97]">
+      <PlatformLogo platform={item.platform} mono className="size-3" />
+      {item.kind === "video" ? `Watch on ${platform}` : `View on ${platform}`}
+      <ArrowUpRight className="size-3.5 text-white/60 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+    </span>
+  );
 }
 
 /** Everything about the day beside its picture: the headline, the post, what happened and where it was covered. */
@@ -56,84 +69,90 @@ export function DayInfo({
 
   return (
     <div className="flex min-h-full flex-col">
-      <p className={`text-[13px] text-zinc-500 tabular-nums ${besideToolbar ? "md:flex md:h-9 md:items-center md:pr-32" : ""}`}>
+      <p
+        className={`text-[13px] text-zinc-500 tabular-nums ${besideToolbar ? "md:flex md:h-9 md:items-center md:pr-32" : ""}`}
+      >
         {formatLongDate(date).replace(/, \d{4}$/, "")}
       </p>
-      <h2 className={`${besideToolbar ? "mt-1.5 md:mt-3" : "mt-1.5"} text-[24px] leading-[1.15] font-semibold tracking-[-0.02em] text-balance text-zinc-950 md:text-[26px]`}>
+      <h2
+        className={`${besideToolbar ? "mt-1.5 md:mt-3" : "mt-1.5"} text-[24px] leading-[1.15] font-semibold tracking-[-0.02em] text-balance text-zinc-950 md:text-[26px]`}
+      >
         {item.title}
       </h2>
 
-      {item.sourceUrl && (
+      <p className="mt-2.5 text-[15px] leading-[1.55] text-pretty text-zinc-600">{item.summary}</p>
+
+      {post && item.sourceUrl ? (
         <a
           href={item.sourceUrl}
           target="_blank"
           rel="noreferrer"
-          className="group mt-4 inline-flex h-9 items-center gap-2 self-start rounded-full bg-zinc-950 pr-3.5 pl-3 text-[14px] font-medium text-white transition-[background-color,scale] duration-150 hover:bg-zinc-800 active:scale-[0.97] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900"
+          className="group mt-5 block rounded-2xl border border-zinc-200 p-4 transition-colors duration-150 hover:border-zinc-300 hover:bg-zinc-50/70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900"
         >
-          <PlatformLogo platform={item.platform} mono className="size-3.5" />
-          {item.kind === "video" ? `Watch on ${platform}` : `View on ${platform}`}
-          <ArrowUpRight className="size-4 text-white/60 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-        </a>
-      )}
-
-      {post && (
-        <div className="mt-5 flex items-center gap-2.5">
-          {post.avatar ? (
-            <Image
-              src={mediaSrc(post.avatar)}
-              alt=""
-              width={36}
-              height={36}
-              unoptimized
-              className="size-9 shrink-0 rounded-full bg-zinc-100"
-            />
-          ) : (
-            <span className="size-9 shrink-0 rounded-full bg-zinc-200" />
-          )}
-          <div className="min-w-0 flex-1 leading-tight">
-            <div className="flex items-center gap-1">
-              <span className="truncate text-[14px] font-semibold text-zinc-900">{post.name}</span>
-              {post.verified && (
-                <BadgeCheck aria-label="Verified" className="size-4 shrink-0 fill-[#1d9bf0] text-white" />
-              )}
+          <div className="flex items-center gap-2.5">
+            {post.avatar ? (
+              <Image
+                src={mediaSrc(post.avatar)}
+                alt=""
+                width={36}
+                height={36}
+                unoptimized
+                className="size-9 shrink-0 rounded-full bg-zinc-100"
+              />
+            ) : (
+              <span className="size-9 shrink-0 rounded-full bg-zinc-200" />
+            )}
+            <div className="min-w-0 flex-1 leading-tight">
+              <div className="flex items-center gap-1">
+                <span className="truncate text-[14px] font-semibold text-zinc-900">{post.name}</span>
+                {post.verified && (
+                  <BadgeCheck aria-label="Verified" className="size-4 shrink-0 fill-[#1d9bf0] text-white" />
+                )}
+              </div>
+              <div className="truncate text-[13px] text-zinc-500">{post.handle}</div>
             </div>
-            <div className="truncate text-[13px] text-zinc-500">{post.handle}</div>
+            <SourceButton item={item} platform={platform} />
           </div>
-          <PlatformLogo platform={item.platform} className="size-4 shrink-0 text-zinc-900" />
-        </div>
-      )}
 
-      {showText && (
-        <p className="mt-3 text-[15px] leading-[1.5] whitespace-pre-line text-pretty text-zinc-800">{post.text}</p>
-      )}
-
-      {(likes || replies || note) && (
-        <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-[13px] text-zinc-500 tabular-nums">
-          {likes && (
-            <span className="flex items-center gap-1.5">
-              <Heart className="size-3.5" aria-hidden />
-              {likes}
-              <span className="sr-only">likes</span>
-            </span>
+          {showText && (
+            <p className="mt-3 text-[15px] leading-[1.5] whitespace-pre-line text-pretty text-zinc-900">{post.text}</p>
           )}
-          {replies && (
-            <span className="flex items-center gap-1.5">
-              <MessageCircle className="size-3.5" aria-hidden />
-              {replies}
-              <span className="sr-only">replies</span>
-            </span>
-          )}
-          {note && <span>{note}</span>}
-        </div>
-      )}
 
-      <div className="mt-6 border-t border-zinc-100 pt-5">
-        <h3 className="text-[12px] font-medium text-zinc-400">What happened</h3>
-        <p className="mt-1.5 text-[14px] leading-[1.6] text-pretty text-zinc-600">{item.summary}</p>
-      </div>
+          {(likes || replies || note) && (
+            <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-[13px] text-zinc-500 tabular-nums">
+              {likes && (
+                <span className="flex items-center gap-1.5">
+                  <Heart className="size-3.5" aria-hidden />
+                  {likes}
+                  <span className="sr-only">likes</span>
+                </span>
+              )}
+              {replies && (
+                <span className="flex items-center gap-1.5">
+                  <MessageCircle className="size-3.5" aria-hidden />
+                  {replies}
+                  <span className="sr-only">replies</span>
+                </span>
+              )}
+              {note && <span>{note}</span>}
+            </div>
+          )}
+        </a>
+      ) : (
+        item.sourceUrl && (
+          <a
+            href={item.sourceUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="group mt-5 self-start rounded-full focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900"
+          >
+            <SourceButton item={item} platform={platform} />
+          </a>
+        )
+      )}
 
       {item.references.length > 0 && (
-        <div className="mt-5">
+        <div className="mt-6">
           <h3 className="text-[12px] font-medium text-zinc-400">Coverage</h3>
           <ul className="mt-1 -mx-2">
             {item.references.map((ref) => (
