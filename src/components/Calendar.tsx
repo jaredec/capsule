@@ -27,7 +27,7 @@ import {
   monthGrid,
   parseIsoDate,
 } from "@/lib/dates";
-import { usePlatformFilter, useToday } from "@/lib/hooks";
+import { useMediaQuery, usePlatformFilter, useToday } from "@/lib/hooks";
 import type { Item, Platform } from "@/lib/schema";
 import {
   DAY_CARD_SHARE,
@@ -172,7 +172,16 @@ export function Calendar({
     return (anchor && weekStartOf(anchor)) ?? cells[0];
   }, [today, cells, archivedDates, monthPrefix, weekStartOf]);
   const weekStart = weekPick && cells.includes(weekPick) ? weekPick : defaultWeek;
-  const weekDays = useMemo(() => Array.from({ length: 7 }, (_, i) => addDays(weekStart, i)), [weekStart]);
+
+  // Zoomed in, phones show one week as a list; wide screens show a row per week, two when there's
+  // room. A pair that would end in a week still to come shows the week before instead.
+  const wide = useMediaQuery("(min-width: 48rem)");
+  const span = useMediaQuery("(min-width: 48rem) and (min-height: 46rem)") ? 2 : 1;
+  const rangeStart = span === 2 && lastDate && addDays(weekStart, 7) > lastDate ? addDays(weekStart, -7) : weekStart;
+  const rangeDays = useMemo(
+    () => Array.from({ length: 7 * span }, (_, i) => addDays(rangeStart, i)),
+    [rangeStart, span],
+  );
 
   // The open day lives in `?day=`, so a day can be linked to and Back closes it. The URL is
   // only read on load and on popstate: the router re-renders synchronously on pushState, and
@@ -211,12 +220,12 @@ export function Calendar({
       startTransition(() => {
         addTransitionType("day-open");
         setSelected(date);
-        setWeekPick(weekStartOf(date));
+        if (!rangeDays.includes(date)) setWeekPick(weekStartOf(date));
       });
       window.history.pushState(null, "", urlWithDay(date));
       pushedDay.current = true;
     },
-    [weekStartOf, setWeekPick],
+    [weekStartOf, setWeekPick, rangeDays],
   );
 
   const closeDay = useCallback(() => {
@@ -237,11 +246,11 @@ export function Calendar({
       startTransition(() => {
         addTransitionType(step === "next" ? "day-next" : "day-prev");
         setSelected(date);
-        setWeekPick(weekStartOf(date));
+        if (!rangeDays.includes(date)) setWeekPick(weekStartOf(date));
       });
       window.history.replaceState(null, "", urlWithDay(date));
     },
-    [weekStartOf, setWeekPick],
+    [weekStartOf, setWeekPick, rangeDays],
   );
 
   // Zooming in shows the chosen week, or else this week rather than one browsed to earlier.
@@ -260,7 +269,7 @@ export function Calendar({
   // Weeks past the month's own continue in the neighboring month; weeks after the archive's
   // last day have nothing to show.
   const weekTarget = (step: Step): { week: string; href: string | null } | null => {
-    const week = addDays(weekStart, step === "next" ? 7 : -7);
+    const week = addDays(rangeStart, (step === "next" ? 7 : -7) * span);
     if (step === "next" && lastDate && week > lastDate) return null;
     if (cells.includes(week)) return { week, href: null };
     const href = step === "next" ? nextHref : prevHref;
@@ -287,7 +296,7 @@ export function Calendar({
     const target = weekTarget(dir);
     if (!target) return;
     stepping.current = true;
-    await warmImages(picturesFor(Array.from({ length: 7 }, (_, i) => addDays(target.week, i))), 400);
+    await warmImages(picturesFor(Array.from({ length: 7 * span }, (_, i) => addDays(target.week, i))), 400);
     stepping.current = false;
     // Crossing into the neighboring month changes the week and the page in one transition.
     const href = target.href;
@@ -322,9 +331,9 @@ export function Calendar({
 
   const selectedIndex = selected ? archivedDates.indexOf(selected) : -1;
   const openItem = selected ? visible[selected] : undefined;
-  const label = view === "week" ? formatWeekRange(weekStart) : `${MONTH_NAMES[month - 1]} ${year}`;
-  const longLabel = view === "week" ? formatWeekRange(weekStart, true) : label;
-  const stepNoun = view === "week" ? "week" : "month";
+  const label = view === "week" ? formatWeekRange(rangeStart, false, 7 * span) : `${MONTH_NAMES[month - 1]} ${year}`;
+  const longLabel = view === "week" ? formatWeekRange(rangeStart, true, 7 * span) : label;
+  const stepNoun = view === "month" ? "month" : span === 2 ? "two weeks" : "week";
 
   const cardProps = (date: string, index: number) => ({
     date,
@@ -375,9 +384,11 @@ export function Calendar({
       <main
         data-under-card
         className={`relative min-h-0 flex-1 [container-type:size] ${
-          view === "week" ? "md:h-[min(calc(100dvh-236px),calc((100vw-136px)/7*var(--ratio)+100px))] md:flex-none" : ""
+          view === "week"
+            ? "md:h-[min(calc(100dvh-236px),calc(((100vw-136px)/7*var(--ratio)+100px)*var(--rows)+(var(--rows)-1)*20px))] md:flex-none"
+            : ""
         }`}
-        style={{ "--ratio": WEEK_CARD_RATIO } as React.CSSProperties}
+        style={{ "--ratio": WEEK_CARD_RATIO, "--rows": span } as React.CSSProperties}
         {...swipe}
       >
         {/* Level with the header's nav but flush with the grid's right edge, so the title and nav stay
@@ -407,24 +418,25 @@ export function Calendar({
           </ViewTransition>
         </div>
         <ViewTransition
-          key={view === "week" ? weekStart : "month"}
+          key={view === "week" ? rangeStart : "month"}
           name="calendar-stage"
           share={STAGE_SHARE}
           default="none"
         >
-          {view === "week" ? (
-            <div className="absolute inset-0 grid grid-cols-2 grid-rows-4 gap-x-2 gap-y-3 md:grid-cols-7 md:grid-rows-1 md:gap-3">
-              {weekDays.map((date, i) => (
+          {view === "week" && wide ? (
+            <div
+              className="absolute inset-0 grid grid-cols-7 gap-x-3 gap-y-5"
+              style={{ gridTemplateRows: `repeat(${span}, minmax(0, 1fr))` }}
+            >
+              {rangeDays.map((date, i) => (
                 <WeekCard key={date} {...cardProps(date, i)} />
               ))}
-              <button
-                type="button"
-                onClick={() => switchView("month")}
-                className="flex flex-col items-center justify-center gap-1 rounded-[12px] bg-black/[0.04] text-[13px] font-medium text-zinc-500 transition-colors active:bg-black/[0.07] md:hidden"
-              >
-                All of {MONTH_NAMES[month - 1]}
-                <ChevronRight className="size-4" strokeWidth={2.25} />
-              </button>
+            </div>
+          ) : view === "week" ? (
+            <div className="absolute inset-0 grid grid-rows-7 gap-2 pb-1">
+              {rangeDays.map((date, i) => (
+                <WeekRow key={date} {...cardProps(date, i)} />
+              ))}
             </div>
           ) : (
             <div
@@ -659,9 +671,27 @@ function CardBox({ date, isOpen, children }: { date: string; isOpen: boolean; ch
 const cardButton =
   "group relative overflow-hidden text-left outline-offset-2 transition-[scale,box-shadow] duration-200 ease-out hover:shadow-[0_12px_28px_-14px_rgb(0_0_0/0.5)] focus-visible:outline-2 focus-visible:outline-zinc-900 active:scale-[0.97]";
 
-function WeekCard({ date, index, item, pending, isToday, isOpen, animateIn, onOpen }: CardProps) {
+/** "Wednesday 11", with today's number in a dark pill. */
+function DayLabel({ date, isToday, className = "" }: { date: string; isToday: boolean; className?: string }) {
   const { year, month, day } = parseIsoDate(date);
   const weekday = WEEKDAYS[new Date(Date.UTC(year, month - 1, day)).getUTCDay()];
+  return (
+    <span className={`flex h-5 items-center gap-1.5 text-[12px] font-medium text-zinc-400 tabular-nums ${className}`}>
+      {weekday}
+      <span
+        className={
+          isToday
+            ? "inline-grid h-5 min-w-5 place-items-center rounded-full bg-zinc-950 px-1.5 text-[11px] font-semibold text-white"
+            : "text-zinc-600"
+        }
+      >
+        {day}
+      </span>
+    </span>
+  );
+}
+
+function WeekCard({ date, index, item, pending, isToday, isOpen, animateIn, onOpen }: CardProps) {
   const asText = item && (!item.image || isImageOfPost(item));
 
   return (
@@ -669,18 +699,7 @@ function WeekCard({ date, index, item, pending, isToday, isOpen, animateIn, onOp
       className={`flex min-h-0 flex-col ${animateIn ? "cell-in" : ""}`}
       style={animateIn ? ({ "--i": index } as React.CSSProperties) : undefined}
     >
-      <p className="mb-1.5 flex h-5 shrink-0 items-center gap-1.5 text-[12px] font-medium text-zinc-400 tabular-nums md:mb-2">
-        {weekday}
-        <span
-          className={
-            isToday
-              ? "inline-grid h-5 min-w-5 place-items-center rounded-full bg-zinc-950 px-1.5 text-[11px] font-semibold text-white"
-              : "text-zinc-600"
-          }
-        >
-          {day}
-        </span>
-      </p>
+      <DayLabel date={date} isToday={isToday} className="mb-2 shrink-0" />
       {item ? (
         <CardBox date={date} isOpen={isOpen}>
           <button
@@ -707,10 +726,51 @@ function WeekCard({ date, index, item, pending, isToday, isOpen, animateIn, onOp
           className={`min-h-0 flex-1 rounded-[12px] md:rounded-[16px] ${pending ? "bg-black/[0.025]" : "bg-black/[0.04]"}`}
         />
       )}
-      <p className="mt-2.5 hidden h-[54px] shrink-0 overflow-hidden text-[13px] leading-snug font-medium text-pretty text-zinc-700 md:line-clamp-3">
+      <p className="mt-2.5 line-clamp-3 h-[54px] shrink-0 overflow-hidden text-[13px] leading-snug font-medium text-pretty text-zinc-700">
         {item?.title}
       </p>
     </div>
+  );
+}
+
+/** A day in the phone's week list: its picture as a square thumbnail beside the date and headline. */
+function WeekRow({ date, index, item, pending, isToday, isOpen, animateIn, onOpen }: CardProps) {
+  const enter = animateIn ? "cell-in" : "";
+  const style = animateIn ? ({ "--i": index } as React.CSSProperties) : undefined;
+  const thumb = "relative aspect-square h-full shrink-0 overflow-hidden rounded-[12px]";
+
+  if (!item) {
+    return (
+      <div style={style} className={`${enter} flex min-h-0 items-center gap-3.5`}>
+        <span className={`${thumb} ${pending ? "bg-black/[0.025]" : "bg-black/[0.04]"}`} />
+        <DayLabel date={date} isToday={isToday} />
+      </div>
+    );
+  }
+  return (
+    <button
+      type="button"
+      data-day={date}
+      style={style}
+      onClick={(e) => {
+        rememberCellRadius(e.currentTarget.querySelector("[data-thumb]") ?? e.currentTarget);
+        onOpen(date);
+      }}
+      aria-label={`${formatLongDate(date)}: ${item.title}`}
+      className={`${enter} group flex min-h-0 items-center gap-3.5 rounded-[14px] text-left outline-offset-2 transition-[scale] duration-200 ease-out focus-visible:outline-2 focus-visible:outline-zinc-900 active:scale-[0.98]`}
+    >
+      <CardBox date={date} isOpen={isOpen}>
+        <span data-thumb className={thumb}>
+          <DayMediaTile item={item} date={date} isOpen={isOpen} text={item.title} lines={3} />
+        </span>
+      </CardBox>
+      <span className="min-w-0 flex-1">
+        <DayLabel date={date} isToday={isToday} />
+        <span className="mt-1 line-clamp-2 text-[15px] leading-[1.3] font-semibold tracking-[-0.01em] text-pretty text-zinc-900">
+          {item.title}
+        </span>
+      </span>
+    </button>
   );
 }
 

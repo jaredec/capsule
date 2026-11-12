@@ -100,9 +100,9 @@ export function monthGrid(year: number, month: number): string[] {
   return Array.from({ length: total }, (_, i) => addDays(first, i - lead));
 }
 
-/** "Oct 11 – 17", or "Sep 27 – Oct 3" when the week spans two months; month names in full when `long`. */
-export function formatWeekRange(start: string, long = false): string {
-  const end = parseIsoDate(addDays(start, 6));
+/** "Oct 11 – 17", or "Sep 27 – Oct 3" when the range spans two months; month names in full when `long`. */
+export function formatWeekRange(start: string, long = false, days = 7): string {
+  const end = parseIsoDate(addDays(start, days - 1));
   const from = parseIsoDate(start);
   const head = `${monthName(from.month, long)} ${from.day}`;
   return from.month === end.month ? `${head} – ${end.day}` : `${head} – ${monthName(end.month, long)} ${end.day}`;

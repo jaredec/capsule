@@ -11,6 +11,23 @@ export function useToday(): string | null {
   return useSyncExternalStore(noopSubscribe, todayPacific, () => null);
 }
 
+/** Whether a media query matches; false during prerender, so only use it for views that appear after a click. */
+export function useMediaQuery(query: string): boolean {
+  const subscribe = useCallback(
+    (onChange: () => void) => {
+      const list = window.matchMedia(query);
+      list.addEventListener("change", onChange);
+      return () => list.removeEventListener("change", onChange);
+    },
+    [query],
+  );
+  return useSyncExternalStore(
+    subscribe,
+    () => window.matchMedia(query).matches,
+    () => false,
+  );
+}
+
 const URL_CHANGE_EVENT = "capsule:urlchange";
 
 function subscribeToUrl(onChange: () => void) {

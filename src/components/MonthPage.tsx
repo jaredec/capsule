@@ -1,4 +1,4 @@
-import { addMonths, compareYearMonth, monthGrid, monthPath, type YearMonth } from "@/lib/dates";
+import { addDays, addMonths, compareYearMonth, monthGrid, monthPath, type YearMonth } from "@/lib/dates";
 import { getAllDates, getArchivedMonths, getItemsForDates, getPlatformsWithData } from "@/lib/data";
 import { Calendar } from "./Calendar";
 import { picturesOfItem } from "./DayDetail";
@@ -11,6 +11,11 @@ function picturesOf({ year, month }: YearMonth): Record<string, string[]> {
     if (srcs.length) out[date] = srcs;
   }
   return out;
+}
+
+/** The month's weeks plus two on either side, which a two-week view can reach into. */
+function withMargin(cells: string[]): string[] {
+  return Array.from({ length: cells.length + 28 }, (_, i) => addDays(cells[0], i - 14));
 }
 
 export function MonthPage({ year, month }: YearMonth) {
@@ -27,7 +32,7 @@ export function MonthPage({ year, month }: YearMonth) {
     <Calendar
       year={year}
       month={month}
-      itemsByDate={getItemsForDates(monthGrid(year, month))}
+      itemsByDate={getItemsForDates(withMargin(monthGrid(year, month)))}
       neighborPictures={{ ...(hasPrev ? picturesOf(prev) : {}), ...(hasNext ? picturesOf(next) : {}) }}
       platforms={getPlatformsWithData()}
       lastDate={dates.at(-1) ?? null}
