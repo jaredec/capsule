@@ -366,7 +366,11 @@ export function Calendar({
   }, []);
   useEffect(() => {
     if (!introducing) return;
-    const zoom = setTimeout(() => intro.current.switchView("week"), 1050);
+    // Opening a day or zooming by hand during the wait takes over from the intro.
+    const zoom = setTimeout(() => {
+      const { view, selected, switchView } = intro.current;
+      if (view === "month" && !selected) switchView("week");
+    }, 1050);
     const done = setTimeout(() => setIntroducing(false), 1500);
     return () => {
       clearTimeout(zoom);
