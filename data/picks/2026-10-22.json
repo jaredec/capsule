@@ -2,21 +2,19 @@
   "date": "2026-10-22",
   "stories": [
     {
-      "title": "Airbnb bans hosts from making guests do checkout chores",
-      "summary": "Airbnb said hosts can no longer require guests to strip beds, wash dishes or take out trash. Guests celebrated the end of chores on top of cleaning fees, while hosts threatened to raise prices or quit.",
+      "title": "The Atlanta Falcons' new profile picture becomes \"the Bird Reich\"",
+      "summary": "Ahead of a 1966 throwback game, the Falcons made their original angular logo their profile picture, and nearly everyone saw Nazi iconography. The jokes piled up, and the team quietly swapped it out two days later.",
       "kind": "image",
-      "tags": ["airbnb", "cleaning-fees", "travel"],
-      "category": "everyday-life",
+      "tags": ["atlanta-falcons", "bird-reich", "logo", "nfl"],
+      "category": "brands",
       "crossover": true,
-      "reach": 7,
-      "dominance": 6,
-      "memeability": 6,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 9,
       "platform": "x",
-      "headlineIds": [],
-      "sourceUrl": "https://x.com/PopBase/status/2112971839530316025",
-      "imageUrl": "https://pbs.twimg.com/media/HVMQAqmXwAEBWPU.jpg?name=orig",
-      "bounds": { "x": 0, "y": 0, "w": 1, "h": 0.61 },
-      "crop": { "x": 0.03, "y": 0.04, "w": 0.94, "h": 0.52 }
+      "headlineIds": [29, 99, 101, 40, 11],
+      "sourceUrl": "https://x.com/AtlantaFalcons/status/2112945043522654700",
+      "crop": { "x": 0.125, "y": 0, "w": 0.75, "h": 1 }
     }
   ]
 }

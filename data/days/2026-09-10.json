@@ -2,66 +2,59 @@
   "date": "2026-09-10",
   "items": [
     {
-      "id": "2026-09-10-x-the-nfl-s-first-game-in-australia-50-yards-from-",
+      "id": "2026-09-10-x-kirkiversary-one-year-since-charlie-kirk-s-death",
       "platform": "x",
       "rank": 1,
-      "title": "The NFL's first game in Australia, 50 yards from the front row",
-      "summary": "The Rams and 49ers played the NFL's first regular-season game in Australia before 100,021 fans at the Melbourne Cricket Ground. X fixated on the giant oval leaving even front-row seats far from the field, and on Netflix's \"Mel-bin.\"",
+      "title": "#kirkiversary: one year since Charlie Kirk's death",
+      "summary": "On the first anniversary of Charlie Kirk's killing, X and TikTok filled with memes about his death, like this \"1 AK (after Kirk)\" image, while his supporters posted tributes.",
       "kind": "image",
       "tags": [
-        "nfl",
-        "melbourne",
-        "mcg",
-        "49ers"
+        "charlie-kirk",
+        "kirkiversary",
+        "anniversary",
+        "memes"
       ],
-      "author": "@NFL",
-      "sourceUrl": "https://x.com/NFL/status/2098144410940711391",
+      "author": "@EverythingOOC",
+      "sourceUrl": "https://x.com/EverythingOOC/status/2098000526491222133",
       "metrics": {
-        "likes": "13.9K",
-        "replies": "261"
+        "likes": "126.5K",
+        "replies": "182"
       },
-      "references": [
-        {
-          "title": "The Internet is DIVIDED Over Noah Eagle's Australian Pronunciation of The Word \"Melbourne\"",
-          "url": "https://www.barstoolsports.com/blog/3577002/the-internet-is-divided-over-noah-eagles-australian-pronunciation-of-the-word"
-        },
-        {
-          "title": "'Waste of jet fuel': Fans troll MCG after viral clip sparks questions over Rams-49ers clash in Australia",
-          "url": "https://www.hitc.com/waste-of-jet-fuel-fans-troll-mcg-after-viral-clip-sparks-questions-over-rams-49ers-clash-in-australia/"
-        },
-        {
-          "title": "NFL fans rage at 49ers-Rams seats with view 'MILES' away from field and obstructed at iconic stadium",
-          "url": "https://www.the-sun.com/sport/16989079/49ers-rams-seats-obstructed-views-australia-game/"
-        }
-      ],
+      "references": [],
       "pulse": {
-        "score": 6.7,
+        "score": 7.9,
         "reach": 8,
         "dominance": 7,
-        "memeability": 7,
-        "category": "sports",
+        "memeability": 9,
+        "category": "internet-culture",
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-12T03:41:40.006Z",
+      "collectedAt": "2026-11-12T02:51:11.129Z",
       "post": {
-        "name": "NFL",
-        "handle": "@NFL",
+        "name": "Everything Out Of Context",
+        "handle": "@EverythingOOC",
         "verified": true,
-        "avatar": "/media/avatars/nfl.webp",
-        "text": "Good morning from Melbourne 📍 @NFLAUNZ",
-        "postedAt": "2026-09-10T20:19:43.000Z"
+        "avatar": "/media/avatars/everythingooc.webp",
+        "text": "It's officially 1 AK (after Kirk)",
+        "postedAt": "2026-09-10T10:47:59.000Z"
       },
       "image": {
-        "src": "/media/2026-09-10/2026-09-10-x-the-nfl-s-first-game-in-australia-50-yards-from-.webp",
-        "width": 1200,
-        "height": 1600,
-        "from": "https://pbs.twimg.com/media/HR4bNFtbkAAEDwY.jpg?name=large",
+        "src": "/media/2026-09-10/2026-09-10-x-kirkiversary-one-year-since-charlie-kirk-s-death.webp",
+        "width": 960,
+        "height": 1200,
+        "from": "https://pbs.twimg.com/media/HR2YW0_a0AAJ-aD.jpg",
         "crop": {
-          "x": 0.06,
-          "y": 0.4,
-          "w": 0.88,
-          "h": 0.4
+          "x": 0.2,
+          "y": 0.06,
+          "w": 0.6,
+          "h": 0.54
+        },
+        "bounds": {
+          "x": 0,
+          "y": 0.04,
+          "w": 1,
+          "h": 0.58
         }
       }
     }

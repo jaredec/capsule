@@ -2,21 +2,20 @@
   "date": "2026-09-26",
   "stories": [
     {
-      "title": "Justin Verlander's daughter takes him out of his final start",
-      "summary": "When A.J. Hinch came to pull Verlander in the sixth inning of his last game, his 7-year-old daughter Genevieve sprinted to the mound instead. He sobbed, then walked off holding her hand to a standing ovation.",
-      "kind": "video",
-      "tags": ["justin-verlander", "tigers", "retirement", "mlb"],
-      "category": "sports",
+      "title": "X erupts over the Cornell Seven suit's claim of essays as punishment",
+      "summary": "A former student's lawsuit alleges seven Cornell Chi Phi members pressured her into taking ketamine and sexually assaulted her; the men deny it. Outrage focused on a report that some only had to write essays, which Cornell later disputed.",
+      "kind": "moment",
+      "tags": ["cornell", "chi-phi", "sexual-assault", "college"],
+      "category": "news",
       "crossover": true,
-      "reach": 8,
-      "dominance": 8,
-      "memeability": 5,
+      "reach": 9,
+      "dominance": 9,
+      "memeability": 4,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/MLB/status/2103937420219601205",
-      "frameAt": 82.5,
-      "crop": { "x": 0.02, "y": 0, "w": 0.7, "h": 0.94 },
-      "bounds": { "x": 0, "y": 0, "w": 1, "h": 0.94 }
+      "sourceUrl": "https://x.com/omgsidewalks/status/2103853405366018479",
+      "imageUrl": "https://pyxis.nymag.com/v1/imgs/952/392/05fff6e1d8ee59b5bca2d93c58bc42084e-cornell-frat-house.jpg",
+      "crop": { "x": 0.06, "y": 0, "w": 0.94, "h": 0.92 }
     }
   ]
 }
