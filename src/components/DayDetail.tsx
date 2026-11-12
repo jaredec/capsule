@@ -14,6 +14,13 @@ export function isImageOfPost(item: Item): boolean {
   return Boolean(item.image && /^https:\/\/(?:x|twitter)\.com\/[^#]*$/.test(item.image.from));
 }
 
+/** The files a day shows: its picture, unless it's set as type, and the poster's avatar. */
+export function picturesOfItem(item: Item): string[] {
+  const out = item.image && !isImageOfPost(item) ? [item.image.src] : [];
+  if (item.post?.avatar) out.push(item.post.avatar);
+  return out;
+}
+
 /** Explains a featured post that went up before the day it blew up. */
 function dateNote(item: Item, date: string): string | null {
   if (!item.post?.postedAt) return null;
@@ -97,6 +104,8 @@ export function DayInfo({
                 width={36}
                 height={36}
                 unoptimized
+                loading="eager"
+                decoding="sync"
                 className="size-9 shrink-0 rounded-full bg-zinc-100"
               />
             ) : (

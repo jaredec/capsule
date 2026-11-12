@@ -39,7 +39,7 @@ import {
 import { useCalendarState, type CalendarView as View } from "./CalendarState";
 import { CroppedImage } from "./CroppedImage";
 import { DayModal } from "./DayModal";
-import { isImageOfPost } from "./DayDetail";
+import { isImageOfPost, picturesOfItem } from "./DayDetail";
 import { PlatformSwitcher } from "./PlatformSwitcher";
 
 type Props = {
@@ -149,8 +149,7 @@ export function Calendar({
     (dates: string[]) =>
       dates.flatMap((date) => {
         const item = visible[date];
-        if (item) return item.image && !isImageOfPost(item) ? [mediaSrc(item.image.src)] : [];
-        return (neighborPictures[date] ?? []).map(mediaSrc);
+        return (item ? picturesOfItem(item) : (neighborPictures[date] ?? [])).map(mediaSrc);
       }),
     [visible, neighborPictures],
   );
@@ -369,18 +368,6 @@ export function Calendar({
               </ViewTransition>
               <StepButton step="next" noun={stepNoun} disabled={!canStep("next")} onStep={step} />
             </div>
-            <button
-              type="button"
-              aria-pressed={view === "month"}
-              aria-label={view === "month" ? "Show the week" : "Show the whole month"}
-              title={view === "month" ? "Show the week" : "Show the whole month"}
-              onClick={() => switchView(view === "month" ? "week" : "month")}
-              className={`grid size-8 place-items-center rounded-full transition-[background-color,color,scale] duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900 active:scale-90 ${
-                view === "month" ? "bg-zinc-950 text-white" : "text-zinc-500 hover:bg-black/[0.05] hover:text-zinc-900"
-              }`}
-            >
-              <CalendarDays className="size-[17px]" strokeWidth={2} />
-            </button>
           </nav>
         </header>
       </ViewTransition>
@@ -393,6 +380,31 @@ export function Calendar({
         style={{ "--ratio": WEEK_CARD_RATIO } as React.CSSProperties}
         {...swipe}
       >
+        {/* Level with the header's nav but flush with the grid's right edge, so the title and nav stay
+            centered. It sits in a box the same width as the grid, outside the grid's own transition. */}
+        <div
+          className={
+            view === "week"
+              ? "pointer-events-none absolute inset-0"
+              : "pointer-events-none absolute inset-y-0 left-1/2 w-full -translate-x-1/2 md:w-[min(100cqw,calc((100cqh-58px)/6*7*var(--aspect)+36px))]"
+          }
+          style={{ "--aspect": MONTH_CELL_ASPECT } as React.CSSProperties}
+        >
+          <ViewTransition name="view-toggle" update={HEADER_UPDATE} default="none">
+            <button
+              type="button"
+              aria-pressed={view === "month"}
+              aria-label={view === "month" ? "Show the week" : "Show the whole month"}
+              title={view === "month" ? "Show the week" : "Show the whole month"}
+              onClick={() => switchView(view === "month" ? "week" : "month")}
+              className={`pointer-events-auto absolute right-0 bottom-[calc(100%+12px)] grid size-8 place-items-center rounded-full transition-[background-color,color,scale] duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900 active:scale-90 md:bottom-[calc(100%+24px)] ${
+                view === "month" ? "bg-zinc-950 text-white" : "text-zinc-500 hover:bg-black/[0.05] hover:text-zinc-900"
+              }`}
+            >
+              <CalendarDays className="size-[17px]" strokeWidth={2} />
+            </button>
+          </ViewTransition>
+        </div>
         <ViewTransition
           key={view === "week" ? weekStart : "month"}
           name="calendar-stage"
@@ -587,6 +599,7 @@ function DayMediaTile({
           width={28}
           height={28}
           unoptimized
+          loading="eager"
           className="absolute inset-0 m-auto hidden size-[min(28px,60cqw)] rounded-full @max-[88px]:block"
         />
       )}

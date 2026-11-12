@@ -1,13 +1,13 @@
 import { addMonths, compareYearMonth, monthGrid, monthPath, type YearMonth } from "@/lib/dates";
 import { getAllDates, getArchivedMonths, getItemsForDates, getPlatformsWithData } from "@/lib/data";
 import { Calendar } from "./Calendar";
-import { isImageOfPost } from "./DayDetail";
+import { picturesOfItem } from "./DayDetail";
 
 /** The pictures each day of a month's weeks shows, so the calendar can load them before stepping there. */
 function picturesOf({ year, month }: YearMonth): Record<string, string[]> {
   const out: Record<string, string[]> = {};
   for (const [date, items] of Object.entries(getItemsForDates(monthGrid(year, month)))) {
-    const srcs = items.flatMap((item) => (item.image && !isImageOfPost(item) ? [item.image.src] : []));
+    const srcs = items.flatMap(picturesOfItem);
     if (srcs.length) out[date] = srcs;
   }
   return out;
