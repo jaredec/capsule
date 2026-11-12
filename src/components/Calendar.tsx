@@ -391,16 +391,9 @@ export function Calendar({
         style={{ "--ratio": WEEK_CARD_RATIO, "--rows": span } as React.CSSProperties}
         {...swipe}
       >
-        {/* Level with the header's nav but flush with the grid's right edge, so the title and nav stay
-            centered. It sits in a box the same width as the grid, outside the grid's own transition. */}
-        <div
-          className={
-            view === "week"
-              ? "pointer-events-none absolute inset-0"
-              : "pointer-events-none absolute inset-y-0 left-1/2 w-full -translate-x-1/2 md:w-[min(100cqw,calc((100cqh-58px)/6*7*var(--aspect)+36px))]"
-          }
-          style={{ "--aspect": MONTH_CELL_ASPECT } as React.CSSProperties}
-        >
+        {/* Level with the header's nav but flush with the content's right edge, so the title and nav stay
+            centered and the button stays put when the view changes under it. */}
+        <div className="pointer-events-none absolute inset-0">
           <ViewTransition name="view-toggle" update={HEADER_UPDATE} default="none">
             <button
               type="button"
@@ -477,11 +470,7 @@ export function Calendar({
                           date.startsWith(monthPrefix) ? (
                             <MonthCell key={date} {...cardProps(date, row * 7 + j)} />
                           ) : (
-                            <div
-                              key={date}
-                              aria-hidden
-                              className="rounded-[6px] bg-black/[0.018] sm:rounded-[9px] md:rounded-[12px]"
-                            />
+                            <div key={date} aria-hidden className="rounded-(--month-radius) bg-black/[0.018]" />
                           ),
                         )}
                       <button
@@ -605,7 +594,7 @@ type CardProps = {
   onOpen: (date: string) => void;
 };
 
-const radius = "rounded-[6px] sm:rounded-[9px] md:rounded-[12px]";
+const radius = "rounded-(--month-radius)";
 
 /** Screenshots of text posts are set as type instead, so every day reads as a picture or a headline. */
 function DayMediaTile({
@@ -710,7 +699,7 @@ function WeekCard({ date, index, item, pending, isToday, isOpen, animateIn, onOp
               onOpen(date);
             }}
             aria-label={`${formatLongDate(date)}: ${item.title}`}
-            className={`${cardButton} min-h-0 flex-1 rounded-[12px] md:rounded-[16px]`}
+            className={`${cardButton} min-h-0 flex-1 rounded-(--week-radius)`}
           >
             <DayMediaTile
               item={item}
@@ -722,9 +711,7 @@ function WeekCard({ date, index, item, pending, isToday, isOpen, animateIn, onOp
           </button>
         </CardBox>
       ) : (
-        <div
-          className={`min-h-0 flex-1 rounded-[12px] md:rounded-[16px] ${pending ? "bg-black/[0.025]" : "bg-black/[0.04]"}`}
-        />
+        <div className={`min-h-0 flex-1 rounded-(--week-radius) ${pending ? "bg-black/[0.025]" : "bg-black/[0.04]"}`} />
       )}
       <p className="mt-2.5 line-clamp-3 h-[54px] shrink-0 overflow-hidden text-[13px] leading-snug font-medium text-pretty text-zinc-700">
         {item?.title}
@@ -737,7 +724,7 @@ function WeekCard({ date, index, item, pending, isToday, isOpen, animateIn, onOp
 function WeekRow({ date, index, item, pending, isToday, isOpen, animateIn, onOpen }: CardProps) {
   const enter = animateIn ? "cell-in" : "";
   const style = animateIn ? ({ "--i": index } as React.CSSProperties) : undefined;
-  const thumb = "relative aspect-square h-full shrink-0 overflow-hidden rounded-[12px]";
+  const thumb = "relative aspect-square h-full shrink-0 overflow-hidden rounded-(--week-radius)";
 
   if (!item) {
     return (

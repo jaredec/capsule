@@ -11,6 +11,20 @@
   --card-radius: 22px;
   --card-image-radius: 22px 0 0 22px;
   --card-shadow: 0 24px 80px -20px rgb(0 0 0 / 0.45);
+  /* Corners of a day in each calendar view, which zooming eases between. */
+  --month-radius: 6px;
+  --week-radius: 12px;
+}
+@media (width >= 40rem) {
+  :root {
+    --month-radius: 9px;
+  }
+}
+@media (width >= 48rem) {
+  :root {
+    --month-radius: 12px;
+    --week-radius: 16px;
+  }
 }
 @media (width < 48rem) {
   :root {
@@ -62,7 +76,8 @@ body {
 }
 
 /* A day's image travels from its calendar cell into the card and back. */
-::view-transition-group(.morph),
+::view-transition-group(.zoom-in),
+::view-transition-group(.zoom-out),
 ::view-transition-group(.morph-open),
 ::view-transition-group(.morph-close) {
   animation-duration: 480ms;
@@ -70,11 +85,28 @@ body {
   /* Above the card and backdrop, which fade in around it. */
   z-index: 10;
 }
-::view-transition-group(.morph) {
-  overflow: clip;
-  border-radius: 14px;
-}
 /* The group's own animation can't be extended, so the corners round on the pair inside it. */
+::view-transition-image-pair(.zoom-in),
+::view-transition-image-pair(.zoom-out) {
+  overflow: clip;
+  animation: 480ms var(--ease-sheet) both zoom-corners;
+}
+::view-transition-image-pair(.zoom-in) {
+  --from-radius: var(--month-radius);
+  --to-radius: var(--week-radius);
+}
+::view-transition-image-pair(.zoom-out) {
+  --from-radius: var(--week-radius);
+  --to-radius: var(--month-radius);
+}
+@keyframes zoom-corners {
+  from {
+    border-radius: var(--from-radius);
+  }
+  to {
+    border-radius: var(--to-radius);
+  }
+}
 ::view-transition-image-pair(.morph-open),
 ::view-transition-image-pair(.morph-close) {
   overflow: clip;
@@ -91,8 +123,10 @@ body {
     border-radius: var(--card-image-radius);
   }
 }
-::view-transition-old(.morph),
-::view-transition-new(.morph),
+::view-transition-old(.zoom-in),
+::view-transition-new(.zoom-in),
+::view-transition-old(.zoom-out),
+::view-transition-new(.zoom-out),
 ::view-transition-old(.morph-open),
 ::view-transition-new(.morph-open),
 ::view-transition-old(.morph-close),

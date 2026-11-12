@@ -18,7 +18,7 @@ export function rememberCellRadius(cell: HTMLElement) {
 export const DAY_IMAGE_SHARE = {
   "day-open": "morph-open",
   "day-close": "morph-close",
-  "view-month": "morph",
-  "view-week": "morph",
+  "view-month": "zoom-out",
+  "view-week": "zoom-in",
   default: "none",
 };
