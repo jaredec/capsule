@@ -159,6 +159,8 @@ body {
   height: 100%;
   object-fit: cover;
   animation-duration: 480ms;
+  /* Composited, the pair's rounded clip drops out on some frames; rounding the snapshots too holds. */
+  border-radius: inherit;
 }
 /* The cell and the card crop the picture differently, so crossfading the two reads as the
    picture jumping. Opening shows the card's sharper image the whole way; closing keeps it
