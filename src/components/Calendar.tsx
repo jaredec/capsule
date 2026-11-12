@@ -37,7 +37,7 @@ import {
   rememberCellRadius,
   type Step,
 } from "@/lib/transitions";
-import { INTRO_EVENT } from "./Disclaimer";
+import { DISMISS_EVENT, disclaimerPending } from "./Disclaimer";
 import { useCalendarState, type CalendarView as View } from "./CalendarState";
 import { CroppedImage } from "./CroppedImage";
 import { DayModal } from "./DayModal";
@@ -58,6 +58,9 @@ type Props = {
   prevHref: string | null;
   nextHref: string | null;
 };
+
+/** The opening zoom into this week plays once per page load, not on every month the calendar mounts for. */
+let introPlayed = false;
 
 const WEEKDAY_ROW = 28;
 /** Height over width of a day in the week view at its tallest: 3:4, the shape of the stored crops. */
@@ -330,21 +333,36 @@ export function Calendar({
 
   const swipe = useSwipe((dir) => stepRef.current(dir));
 
-  // A first visit ends with the calendar zooming into this week by itself, the toggle pressing
-  // along with it, so the visitor learns the view can change and which button does it.
+  // Opening the site shows the month, then zooms into this week by itself with the toggle pressing
+  // along, so visitors learn the view can change and which button does it. It waits for the
+  // disclaimer and for the month's pictures, and plays once per page load.
   const [introducing, setIntroducing] = useState(false);
-  const intro = useRef({ view, selected, switchView });
+  const intro = useRef({ view, selected, switchView, pictures: () => picturesFor(cells) });
   useEffect(() => {
-    intro.current = { view, selected, switchView };
+    intro.current = { view, selected, switchView, pictures: () => picturesFor(cells) };
   });
   useEffect(() => {
-    const onIntro = () => {
+    if (introPlayed) return;
+    let cancelled = false;
+    const start = async () => {
+      await warmImages(intro.current.pictures(), 1500);
       const { view, selected } = intro.current;
-      if (view !== "month" || selected || matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+      if (cancelled || introPlayed || view !== "month" || selected || readDayParam()) return;
+      introPlayed = true;
       setIntroducing(true);
     };
-    window.addEventListener(INTRO_EVENT, onIntro);
-    return () => window.removeEventListener(INTRO_EVENT, onIntro);
+    if (disclaimerPending()) {
+      window.addEventListener(DISMISS_EVENT, start, { once: true });
+      return () => {
+        cancelled = true;
+        window.removeEventListener(DISMISS_EVENT, start);
+      };
+    }
+    const wait = setTimeout(start, 500);
+    return () => {
+      cancelled = true;
+      clearTimeout(wait);
+    };
   }, []);
   useEffect(() => {
     if (!introducing) return;

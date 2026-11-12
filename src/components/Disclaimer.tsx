@@ -3,19 +3,24 @@
 import { useEffect, useRef } from "react";
 
 const SEEN_KEY = "capsule:disclaimer-seen";
-/** Fired when a first-time visitor dismisses the disclaimer, so the calendar can show what it does. */
-export const INTRO_EVENT = "capsule:intro";
+/** Fired when the disclaimer is dismissed, so the calendar waits for it before showing what it does. */
+export const DISMISS_EVENT = "capsule:disclaimer-dismissed";
+
+/** Whether this browser has yet to see the disclaimer, so it's about to open. */
+export function disclaimerPending(): boolean {
+  try {
+    return !localStorage.getItem(SEEN_KEY);
+  } catch {
+    return false;
+  }
+}
 
 /** Shown once per browser, on the first visit. */
 export function Disclaimer() {
   const dialog = useRef<HTMLDialogElement>(null);
 
   useEffect(() => {
-    try {
-      if (localStorage.getItem(SEEN_KEY)) return;
-    } catch {
-      return;
-    }
+    if (!disclaimerPending()) return;
     dialog.current?.showModal();
     dialog.current?.focus();
   }, []);
@@ -24,7 +29,7 @@ export function Disclaimer() {
     try {
       localStorage.setItem(SEEN_KEY, "1");
     } catch {}
-    window.dispatchEvent(new Event(INTRO_EVENT));
+    window.dispatchEvent(new Event(DISMISS_EVENT));
   };
 
   return (
