@@ -2,64 +2,52 @@
   "date": "2026-10-13",
   "items": [
     {
-      "id": "2026-10-13-x-the-first-narnia-the-magician-s-nephew-trailer-a",
+      "id": "2026-10-13-x-shane-gillis-s-snl-joke-about-women-s-gym-clothe",
       "platform": "x",
       "rank": 1,
-      "title": "The first Narnia: The Magician's Nephew trailer arrives",
-      "summary": "Netflix released the first trailer for Greta Gerwig's Narnia film, set to Led Zeppelin's \"Stairway to Heaven.\" Fans split between calling it the best trailer in years and mocking the rock soundtrack.",
+      "title": "Shane Gillis's SNL joke about women's gym clothes",
+      "summary": "Three days after the monologue, the line was still a fight: Dan Levy said he was speechless, thousands of women posted gym photos tagging Gillis, and his fans joked he had goaded them into it.",
       "kind": "video",
       "tags": [
-        "narnia",
-        "greta-gerwig",
-        "netflix",
-        "trailer"
+        "shane-gillis",
+        "snl",
+        "gym-clothes"
       ],
-      "author": "@netflix",
-      "sourceUrl": "https://x.com/netflix/status/2110068047700443191",
+      "author": "@nbcsnl",
+      "sourceUrl": "https://x.com/nbcsnl/status/2109130481195434198",
       "metrics": {
-        "likes": "26.9K",
-        "replies": "1.2K"
+        "likes": "52.3K",
+        "replies": "2.9K"
       },
-      "references": [
-        {
-          "title": "Narnia Trailer Has Fans Saying the Same Thing About Emma Mackey’s White Witch Costume Reveal",
-          "url": "https://www.aol.com/articles/narnia-trailer-fans-saying-same-202240000.html"
-        }
-      ],
+      "references": [],
       "pulse": {
-        "score": 6.9,
+        "score": 8,
         "reach": 8,
-        "dominance": 7,
-        "memeability": 5,
+        "dominance": 8,
+        "memeability": 8,
         "category": "tv-film",
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-12T03:47:57.143Z",
+      "collectedAt": "2026-11-12T04:26:37.133Z",
       "post": {
-        "name": "Netflix",
-        "handle": "@netflix",
+        "name": "Saturday Night Live",
+        "handle": "@nbcsnl",
         "verified": true,
-        "avatar": "/media/avatars/netflix.webp",
-        "text": "A Universe Begins. See how Narnia was created in Narnia: The Magician's Nephew, a film by Greta Gerwig - only in theaters February 12.",
-        "postedAt": "2026-10-13T18:00:00.000Z"
+        "avatar": "/media/avatars/nbcsnl.webp",
+        "text": "Shane Gillis’ monologue!",
+        "postedAt": "2026-10-11T03:54:27.000Z"
       },
       "image": {
-        "src": "/media/2026-10-13/2026-10-13-x-the-first-narnia-the-magician-s-nephew-trailer-a.webp",
+        "src": "/media/2026-10-13/2026-10-13-x-shane-gillis-s-snl-joke-about-women-s-gym-clothe.webp",
         "width": 1600,
         "height": 900,
-        "from": "https://video.twimg.com/amplify_video/2110037733309579264/vid/avc1/1920x1080/53pcZA7VLrqBitnq.mp4?tag=16#t=139.5",
+        "from": "https://video.twimg.com/amplify_video/2109129384305086464/vid/avc1/1920x1080/Ucodj0pxyZku-jD0.mp4#t=144",
         "crop": {
-          "x": 0.37,
-          "y": 0.12,
-          "w": 0.4,
-          "h": 0.76
-        },
-        "bounds": {
-          "x": 0,
-          "y": 0.035,
-          "w": 1,
-          "h": 0.93
+          "x": 0.365,
+          "y": 0.04,
+          "w": 0.27,
+          "h": 0.64
         }
       }
     }
