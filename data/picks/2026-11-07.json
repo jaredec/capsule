@@ -13,24 +13,9 @@
       "memeability": 8,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/PopBase/status/2119364409340621264",
-      "crop": { "x": 0.09, "y": 0, "w": 0.6, "h": 1 }
-    },
-    {
-      "title": "Druski as Elizabeth Holmes in SNL's \"Dru Can See Everything\"",
-      "summary": "In a parody of Nathan Fielder's Holmes documentary, Druski wore prosthetics, a blonde wig and blue contacts for a \"Holmes-off\" with Jane Wickline.",
-      "kind": "video",
-      "tags": ["druski", "snl", "elizabeth-holmes"],
-      "category": "tv-film",
-      "crossover": true,
-      "reach": 7,
-      "dominance": 6,
-      "memeability": 7,
-      "platform": "x",
-      "headlineIds": [],
       "sourceUrl": "https://x.com/nbcsnl/status/2119297119081074855",
-      "frameAt": 166,
-      "crop": { "x": 0.2, "y": 0, "w": 0.55, "h": 1 }
+      "frameAt": 163.5,
+      "crop": { "x": 0.14, "y": 0, "w": 0.66, "h": 1 }
     }
   ]
 }

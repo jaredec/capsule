@@ -14,11 +14,11 @@
         "elizabeth-holmes",
         "whiteface"
       ],
-      "author": "@PopBase",
-      "sourceUrl": "https://x.com/PopBase/status/2119364409340621264",
+      "author": "@nbcsnl",
+      "sourceUrl": "https://x.com/nbcsnl/status/2119297119081074855",
       "metrics": {
-        "likes": "102.2K",
-        "replies": "462"
+        "likes": "5.7K",
+        "replies": "57"
       },
       "references": [],
       "pulse": {
@@ -30,24 +30,24 @@
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-12T02:52:31.939Z",
+      "collectedAt": "2026-11-12T04:42:05.863Z",
       "post": {
-        "name": "Pop Base",
-        "handle": "@PopBase",
+        "name": "Saturday Night Live",
+        "handle": "@nbcsnl",
         "verified": true,
-        "avatar": "/media/avatars/popbase.webp",
-        "text": "Druski as Elizabeth Holmes on SNL.",
-        "postedAt": "2026-11-08T09:40:25.000Z"
+        "avatar": "/media/avatars/nbcsnl.webp",
+        "text": "Dru Can See Everything",
+        "postedAt": "2026-11-08T05:13:02.000Z"
       },
       "image": {
         "src": "/media/2026-11-07/2026-11-07-x-druski-hosts-snl-and-turns-himself-into-elizabet.webp",
-        "width": 1320,
-        "height": 960,
-        "from": "https://pbs.twimg.com/media/HWl-slUbQAAMeO-.jpg?name=large",
+        "width": 1440,
+        "height": 1080,
+        "from": "https://video.twimg.com/amplify_video/2119296288864755712/vid/avc1/1440x1080/A1mG2ML21FZ_utoP.mp4#t=163.5",
         "crop": {
-          "x": 0.09,
+          "x": 0.14,
           "y": 0,
-          "w": 0.6,
+          "w": 0.66,
           "h": 1
         }
       }

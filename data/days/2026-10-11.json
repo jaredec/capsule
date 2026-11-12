@@ -13,11 +13,11 @@
         "yorkshire-wildlife-park",
         "uk"
       ],
-      "author": "@PopBase",
-      "sourceUrl": "https://x.com/PopBase/status/2109309551342239956",
+      "author": "@YorkshireWP",
+      "sourceUrl": "https://x.com/YorkshireWP/status/2109222128192987497",
       "metrics": {
-        "likes": "198K",
-        "replies": "957"
+        "likes": "67.8K",
+        "replies": "0"
       },
       "references": [],
       "pulse": {
@@ -29,14 +29,14 @@
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-12T02:50:44.960Z",
+      "collectedAt": "2026-11-12T04:47:20.912Z",
       "post": {
-        "name": "Pop Base",
-        "handle": "@PopBase",
-        "verified": true,
-        "avatar": "/media/avatars/popbase.webp",
-        "text": "The tiger that attacked a man who entered its enclosure at Yorkshire Wildlife Park will not be euthanized, park officials confirm.\n\n(Via: @YorkshireWP)",
-        "postedAt": "2026-10-11T15:46:00.000Z"
+        "name": "Yorkshire Wildlife Park",
+        "handle": "@YorkshireWP",
+        "verified": false,
+        "avatar": "/media/avatars/yorkshirewp.webp",
+        "text": "",
+        "postedAt": "2026-10-11T09:58:37.000Z"
       },
       "image": {
         "src": "/media/2026-10-11/2026-10-11-x-a-man-sits-down-in-front-of-a-tiger-at-yorkshire.webp",

@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "Jensen Huang admits an affair with an alleged Chinese spy; memes",
-      "summary": "Huang told staff he had been unfaithful after the New York Times reported US intelligence believes the woman, a former tech executive, was recruited by Chinese intelligence; China called it a smear. X piled on with jokes, and Nvidia fell 4.3%.",
+      "summary": "Huang told staff he had been unfaithful after reports that US intelligence believes the woman, a former tech executive, was recruited by Chinese intelligence; China called it a smear. X piled on with jokes, and Nvidia fell 4.3%.",
       "kind": "phrase",
       "tags": [
         "jensen-huang",
@@ -14,11 +14,11 @@
         "honeypot",
         "affair"
       ],
-      "author": "@PopBase",
-      "sourceUrl": "https://x.com/PopBase/status/2119561276372500766",
+      "author": "@FT",
+      "sourceUrl": "https://x.com/FT/status/2119541721201582399",
       "metrics": {
-        "likes": "79.8K",
-        "replies": "685"
+        "likes": "1.2K",
+        "replies": "166"
       },
       "references": [],
       "pulse": {
@@ -30,14 +30,14 @@
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-12T04:01:52.586Z",
+      "collectedAt": "2026-11-12T04:43:18.612Z",
       "post": {
-        "name": "Pop Base",
-        "handle": "@PopBase",
+        "name": "Financial Times",
+        "handle": "@FT",
         "verified": true,
-        "avatar": "/media/avatars/popbase.webp",
-        "text": "Nvidia CEO Jensen Huang admits to having an affair. \n\nU.S. intelligence believes he had a relationship with a Chinese spy.",
-        "postedAt": "2026-11-08T22:42:42.000Z"
+        "avatar": "/media/avatars/ft.webp",
+        "text": "Breaking news: Nvidia’s chief executive Jensen Huang has admitted having an affair two days after the FT reported his alleged romantic relationship with a woman the US intelligence community believes was working as a spy for China. ft.trib.al/kQjw5UV",
+        "postedAt": "2026-11-08T21:25:00.000Z"
       },
       "image": {
         "src": "/media/2026-11-09/2026-11-09-x-jensen-huang-admits-an-affair-with-an-alleged-ch.webp",
