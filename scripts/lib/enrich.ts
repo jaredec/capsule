@@ -180,8 +180,12 @@ export async function enrichStory(date: string, headlines: Headline[], maxArticl
 const NO_LANGUAGE = new Set(["zxx", "und", "qme", "qam", "qct", "qht", "qst", "art"]);
 
 /** A day shows its post's photo or video, so a text-only post has to be far bigger to be featured. */
+/** Accounts that repost every story. They link out only when nothing closer to the moment was embedded. */
+const AGGREGATORS = new Set(["@popbase", "@discussingfilm", "@popcrave", "@culturecrave"]);
+
 function weight(post: XPost): number {
-  return post.mediaUrl || post.videoUrl ? post.likes * 5 : post.likes;
+  const likes = AGGREGATORS.has(post.handle.toLowerCase()) ? post.likes / 5 : post.likes;
+  return post.mediaUrl || post.videoUrl ? likes * 5 : likes;
 }
 
 /** The featured post is quoted in an English archive: English first, then posts with no text to read, then the rest. */
