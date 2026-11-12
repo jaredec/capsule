@@ -62,6 +62,19 @@ type Props = {
 /** The opening zoom into this week plays once per page load, not on every month the calendar mounts for. */
 let introPlayed = false;
 
+const EXPLAINED_KEY = "capsule:zoom-explained";
+
+/** True the first time a browser asks, so the intro's label only shows on the first visit. */
+function claimExplanation(): boolean {
+  try {
+    if (localStorage.getItem(EXPLAINED_KEY)) return false;
+    localStorage.setItem(EXPLAINED_KEY, "1");
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 const WEEKDAY_ROW = 28;
 /** Height over width of a day in the week view at its tallest: 3:4, the shape of the stored crops. */
 const WEEK_CARD_RATIO = 4 / 3;
@@ -345,11 +358,12 @@ export function Calendar({
 
   const swipe = useSwipe((dir) => stepRef.current(dir));
 
-  // Opening the site shows the month, then demonstrates zooming into this week: the other weeks dim,
-  // the toggle is labeled and presses itself. Visitors learn the view can change and which button
-  // does it. It waits for the disclaimer and for the month's
-  // pictures, and plays once per page load.
+  // Opening the site shows the month, then demonstrates zooming into this week: the other weeks dim
+  // and the toggle presses itself, labeled on a browser's first visit. Visitors learn the view can
+  // change and which button does it. It waits for the disclaimer and for the month's pictures, and
+  // plays once per page load.
   const [introducing, setIntroducing] = useState(false);
+  const [explaining, setExplaining] = useState(false);
   const intro = useRef({ view, selected, switchView, pictures: () => picturesFor(cells) });
   useEffect(() => {
     intro.current = { view, selected, switchView, pictures: () => picturesFor(cells) };
@@ -362,6 +376,7 @@ export function Calendar({
       const { view, selected } = intro.current;
       if (cancelled || introPlayed || view !== "month" || selected || readDay()) return;
       introPlayed = true;
+      setExplaining(claimExplanation());
       setIntroducing(true);
     };
     if (disclaimerPending()) {
@@ -476,7 +491,7 @@ export function Calendar({
               )}
               <span
                 aria-hidden
-                data-show={introducing || undefined}
+                data-show={(introducing && explaining) || undefined}
                 className="pointer-events-none absolute top-full right-0 mt-2 -translate-y-1 rounded-full bg-zinc-900 px-2.5 py-1 text-[12px] font-medium whitespace-nowrap text-white opacity-0 shadow-[0_4px_14px_-4px_rgb(0_0_0/0.35)] transition-[opacity,translate] duration-300 ease-(--ease-out) data-show:translate-y-0 data-show:opacity-100"
               >
                 {zoomInLabel}
