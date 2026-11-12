@@ -5,7 +5,12 @@
       "title": "Mistrial in the Lindsay Clancy murder case",
       "summary": "A judge declared a mistrial in Lindsay Clancy's trial for murdering her three children after the jury deadlocked, 11-1 for acquittal according to her lawyer. #IAmTheHoldout trended as the lone holdout became the story.",
       "kind": "video",
-      "tags": ["lindsay-clancy", "mistrial", "jury", "trial"],
+      "tags": [
+        "lindsay-clancy",
+        "mistrial",
+        "jury",
+        "trial"
+      ],
       "category": "news",
       "crossover": true,
       "reach": 9,
@@ -13,14 +18,14 @@
       "memeability": 7,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/nicksortor/status/2095941743870894581",
+      "sourceUrl": "https://x.com/FoxNews/status/2095941756302876837",
+      "imageUrl": "https://video.twimg.com/amplify_video/2095941679823867906/vid/avc1/1920x1080/OGDCweus0YtmAEMM.mp4#t=116",
       "crop": {
         "x": 0.32,
         "y": 0,
         "w": 0.421875,
         "h": 1
-      },
-      "frameAt": 116
+      }
     }
   ]
 }

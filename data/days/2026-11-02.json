@@ -2,53 +2,53 @@
   "date": "2026-11-02",
   "items": [
     {
-      "id": "2026-11-02-x-tucker-carlson-claims-trump-is-days-from-a-nucle",
+      "id": "2026-11-02-x-karl-bushby-walks-home-to-hull-after-28-years-on",
       "platform": "x",
       "rank": 1,
-      "title": "Tucker Carlson claims Trump is days from a nuclear strike on Iran",
-      "summary": "Tucker Carlson posted that, under pressure from Netanyahu, the administration \"may be within days\" of a nuclear strike on Iran. It topped X's trends, but nothing backed it up: the White House dismissed it and Trump said no.",
-      "kind": "phrase",
+      "title": "Karl Bushby walks home to Hull after 28 years on foot",
+      "summary": "The former paratrooper who set off from Chile in 1998 finished his 31,000-mile walk at his mother's gate in Hull. Her first words, \"Where have you been?\", became the line of the day.",
+      "kind": "video",
       "tags": [
-        "tucker-carlson",
-        "iran",
-        "nuclear",
-        "pickax-mountain"
+        "karl-bushby",
+        "goliath-expedition",
+        "hull",
+        "walk"
       ],
-      "author": "@TuckerCarlson",
-      "sourceUrl": "https://x.com/TuckerCarlson/status/2117071025955389828",
+      "author": "@SkyNews",
+      "sourceUrl": "https://x.com/SkyNews/status/2117231671099400702",
       "metrics": {
-        "likes": "402.3K",
-        "replies": "29.9K"
+        "likes": "10.5K",
+        "replies": "1.1K"
       },
       "references": [],
       "pulse": {
-        "score": 6.7,
-        "reach": 9,
-        "dominance": 8,
-        "memeability": 4,
-        "category": "politics",
+        "score": 6.4,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 6,
+        "category": "news",
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-12T02:52:17.588Z",
+      "collectedAt": "2026-11-12T03:38:23.966Z",
       "post": {
-        "name": "Tucker Carlson",
-        "handle": "@TuckerCarlson",
+        "name": "Sky News",
+        "handle": "@SkyNews",
         "verified": true,
-        "avatar": "/media/avatars/tuckercarlson.webp",
-        "text": "Under pressure from Israeli prime minister Benjamin Netanyahu, the Trump administration may be within days of launching a nuclear strike on Iran. The target would be Pickax Mountain in central Iran, where Israeli intelligence claims the Iranian government has restarted its",
-        "postedAt": "2026-11-02T01:47:20.000Z"
+        "avatar": "/media/avatars/skynews.webp",
+        "text": "Karl Bushby has arrived home in Hull after walking 30,000 miles over the last 28 years. He set off from southern Chile in 1998, aged 28, promising to walk all the way home.\n\nSky's @ShingiMararike caught up with Karl as he headed home to see his mum\n\ntrib.al/KLEvD1M",
+        "postedAt": "2026-11-02T12:25:41.000Z"
       },
       "image": {
-        "src": "/media/2026-11-02/2026-11-02-x-tucker-carlson-claims-trump-is-days-from-a-nucle.webp",
+        "src": "/media/2026-11-02/2026-11-02-x-karl-bushby-walks-home-to-hull-after-28-years-on.webp",
         "width": 1600,
-        "height": 1067,
-        "from": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Tucker_Carlson_%2852586718370%29.jpg/1920px-Tucker_Carlson_%2852586718370%29.jpg",
+        "height": 1280,
+        "from": "https://i.guim.co.uk/img/media/5682baf21de7120029a3a538ca88c38627df4668/738_211_3993_3195/master/3993.jpg?width=1920&quality=85&auto=format&fit=max&s=5f36a99c9b0b3dc550bdd5f6e739c28c",
         "crop": {
-          "x": 0.27,
-          "y": 0.1,
-          "w": 0.52,
-          "h": 0.9
+          "x": 0.22,
+          "y": 0.02,
+          "w": 0.58,
+          "h": 0.68
         }
       }
     }

@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "CNN, MS NOW and Politico are turned away from the White House",
-      "summary": "A day after Trump said he was banning CNN, MS NOW and Politico, their journalists were stopped at the White House gate and reported from the sidewalk. Bernie Sanders warned the Times and Post could be next.",
+      "summary": "A day after Trump said he was banning CNN, MS NOW and Politico, their journalists were stopped at the White House gate, had their passes taken, and reported from the sidewalk.",
       "kind": "video",
       "tags": [
         "white-house",
@@ -14,11 +14,11 @@
         "press-freedom",
         "donald-trump"
       ],
-      "author": "@BernieSanders",
-      "sourceUrl": "https://x.com/BernieSanders/status/2101378046531977512",
+      "author": "@brianstelter",
+      "sourceUrl": "https://x.com/brianstelter/status/2101287238860468697",
       "metrics": {
-        "likes": "36.5K",
-        "replies": "5.9K"
+        "likes": "7.2K",
+        "replies": "1.8K"
       },
       "references": [],
       "pulse": {
@@ -30,14 +30,14 @@
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-12T02:51:27.230Z",
+      "collectedAt": "2026-11-12T03:43:15.584Z",
       "post": {
-        "name": "Bernie Sanders",
-        "handle": "@BernieSanders",
+        "name": "Brian Stelter",
+        "handle": "@brianstelter",
         "verified": true,
-        "avatar": "/media/avatars/berniesanders.webp",
-        "text": "Trump has now banned CNN, MS NOW and POLITICO from entering the White House grounds. \n\nThat’s not all. He is threatening that more news organizations who criticize him, including the New York Times and Washington Post, will be next. \n\nWhy? Because when demagogues like Trump are",
-        "postedAt": "2026-09-19T18:29:02.000Z"
+        "avatar": "/media/avatars/brianstelter.webp",
+        "text": "Here's MS NOW reporter @gardnerakayla describing her arrival at the White House this morning. Her badge didn't work. \"The officer asked me to hand over my badge. He said that it was disabled. I asked why I was not able to get inside. He said it was above him.\"",
+        "postedAt": "2026-09-19T12:28:12.000Z"
       },
       "image": {
         "src": "/media/2026-09-19/2026-09-19-x-cnn-ms-now-and-politico-are-turned-away-from-the.webp",

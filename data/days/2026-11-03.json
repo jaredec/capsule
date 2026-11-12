@@ -6,7 +6,7 @@
       "platform": "x",
       "rank": 1,
       "title": "'Blexas': Texas elects its first Democratic senator since 1988",
-      "summary": "Democrat James Talarico beat Ken Paxton, Gina Hinojosa unseated Gov. Greg Abbott, and Democrats won both chambers of Congress. X marveled at how badly Trump must have done to turn Texas blue, and joked it happened before GTA 6.",
+      "summary": "Democrat James Talarico beat Ken Paxton, and Gina Hinojosa unseated Gov. Greg Abbott as the state flipped blue. X dubbed it \"Blexas\" and joked it arrived before GTA 6.",
       "kind": "moment",
       "tags": [
         "blexas",
@@ -14,11 +14,11 @@
         "james-talarico",
         "midterms"
       ],
-      "author": "@burritoprophet",
-      "sourceUrl": "https://x.com/burritoprophet/status/2117798607000928272",
+      "author": "@NBCNews",
+      "sourceUrl": "https://x.com/NBCNews/status/2117827479444287629",
       "metrics": {
-        "likes": "771.6K",
-        "replies": "1.8K"
+        "likes": "14.6K",
+        "replies": "225"
       },
       "references": [],
       "pulse": {
@@ -30,14 +30,14 @@
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-12T02:52:22.989Z",
+      "collectedAt": "2026-11-12T04:00:44.369Z",
       "post": {
-        "name": "sam 🍂",
-        "handle": "@burritoprophet",
-        "verified": false,
-        "avatar": "/media/avatars/burritoprophet.webp",
-        "text": "how do you fuck up being president so bad that you turn texas BLUE",
-        "postedAt": "2026-11-04T01:58:29.000Z"
+        "name": "NBC News",
+        "handle": "@NBCNews",
+        "verified": true,
+        "avatar": "/media/avatars/nbcnews.webp",
+        "text": "BREAKING: Democrat James Talarico wins U.S. Senate race in Texas, NBC News projects. nbcnews.to/4ilA3cL",
+        "postedAt": "2026-11-04T03:53:13.000Z"
       },
       "image": {
         "src": "/media/2026-11-03/2026-11-03-x-blexas-texas-elects-its-first-democratic-senator.webp",

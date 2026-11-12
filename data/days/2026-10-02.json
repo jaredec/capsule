@@ -13,11 +13,11 @@
         "shivon-zilis",
         "breakup"
       ],
-      "author": "@shivon",
-      "sourceUrl": "https://x.com/shivon/status/2106023691003777479",
+      "author": "@BigTechAlert",
+      "sourceUrl": "https://x.com/BigTechAlert/status/2105945324409716951",
       "metrics": {
-        "likes": "23.3K",
-        "replies": "6.1K"
+        "likes": "1.4K",
+        "replies": "287"
       },
       "references": [],
       "pulse": {
@@ -27,6 +27,16 @@
         "memeability": 7,
         "category": "celebrity",
         "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T03:49:24.455Z",
+      "post": {
+        "name": "Big Tech Alert",
+        "handle": "@BigTechAlert",
+        "verified": true,
+        "avatar": "/media/avatars/bigtechalert.webp",
+        "text": "🚫 @elonmusk is no longer following @shivon\n\nStill followed by: @miramurati, @karpathy, @kimbal, @turkeybeaver, @drfeifei & 52 more\n\n$TSLA $SPCX\n\n(🤖🧩: am i missing something?)",
+        "postedAt": "2026-10-02T08:57:46.000Z"
       },
       "image": {
         "src": "/media/2026-10-02/2026-10-02-x-shivon-zilis-posts-elon-musk-s-texts-after-their.webp",
@@ -39,17 +49,7 @@
           "w": 0.807,
           "h": 1
         }
-      },
-      "post": {
-        "name": "Shivon Zilis",
-        "handle": "@shivon",
-        "verified": true,
-        "avatar": "/media/avatars/shivon.webp",
-        "text": "It’s hard to go from in love to let go in a week with no warning, but that’s just how it is sometimes 🤷🏻‍♀️\n\nI feel happy that I got to show Elon how it feels to be deeply understood, nurtured, and peacefully loved with stability and gentleness. Given the tumultuous nature of his",
-        "postedAt": "2026-10-02T14:09:10.000Z"
-      },
-      "collectedBy": "editor",
-      "collectedAt": "2026-10-14T04:27:17.549Z"
+      }
     }
   ]
 }

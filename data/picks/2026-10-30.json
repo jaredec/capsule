@@ -5,7 +5,11 @@
       "title": "A man stuck in a tennis racket while the whole bar just watches",
       "summary": "A clip of a man wedged through a stringless tennis racket on a restaurant floor drew jokes and pleas for an update. USA Today later found he was a contortionist the restaurant had hired.",
       "kind": "video",
-      "tags": ["tennis-racket", "stuck", "contortionist"],
+      "tags": [
+        "tennis-racket",
+        "stuck",
+        "contortionist"
+      ],
       "category": "internet-culture",
       "crossover": true,
       "reach": 8,
@@ -13,8 +17,8 @@
       "memeability": 9,
       "platform": "x",
       "headlineIds": [],
-      "sourceUrl": "https://x.com/gapjilreborn/status/2116281350219076025",
-      "frameAt": 13,
+      "sourceUrl": "https://x.com/wormpuller/status/2116622011451458016",
+      "imageUrl": "https://video.twimg.com/amplify_video/2116281250361061376/vid/avc1/720x1280/oofh1CMXF139Bht4.mp4?tag=14#t=13",
       "crop": {
         "x": 0,
         "y": 0.06,
