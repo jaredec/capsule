@@ -345,9 +345,10 @@ export function Calendar({
 
   const swipe = useSwipe((dir) => stepRef.current(dir));
 
-  // Opening the site shows the month, then zooms into this week by itself with the toggle pressing
-  // along, so visitors learn the view can change and which button does it. It waits for the
-  // disclaimer and for the month's pictures, and plays once per page load.
+  // Opening the site shows the month, then demonstrates zooming into this week: the other weeks dim,
+  // the toggle is labeled and presses itself, and the label then names the way back. Visitors learn
+  // the view can change and which button does it. It waits for the disclaimer and for the month's
+  // pictures, and plays once per page load.
   const [introducing, setIntroducing] = useState(false);
   const intro = useRef({ view, selected, switchView, pictures: () => picturesFor(cells) });
   useEffect(() => {
@@ -370,7 +371,8 @@ export function Calendar({
         window.removeEventListener(DISMISS_EVENT, start);
       };
     }
-    const wait = setTimeout(start, 500);
+    // After the cells' entrance has settled.
+    const wait = setTimeout(start, 1300);
     return () => {
       cancelled = true;
       clearTimeout(wait);
@@ -382,8 +384,8 @@ export function Calendar({
     const zoom = setTimeout(() => {
       const { view, selected, switchView } = intro.current;
       if (view === "month" && !selected) switchView("week");
-    }, 1050);
-    const done = setTimeout(() => setIntroducing(false), 1500);
+    }, 1250);
+    const done = setTimeout(() => setIntroducing(false), 2800);
     return () => {
       clearTimeout(zoom);
       clearTimeout(done);
@@ -395,6 +397,8 @@ export function Calendar({
   const label = view === "week" ? formatWeekRange(rangeStart, false, 7 * span) : `${MONTH_NAMES[month - 1]} ${year}`;
   const longLabel = view === "week" ? formatWeekRange(rangeStart, true, 7 * span) : label;
   const stepNoun = view === "month" ? "month" : span === 2 ? "two weeks" : "week";
+  const toggleLabel = view === "month" ? "Zoom into this week" : "Show the whole month";
+  const spotlight = introducing && view === "month" && !selected;
 
   const cardProps = (date: string, index: number) => ({
     date,
@@ -454,21 +458,28 @@ export function Calendar({
       >
         {/* Level with the header's nav but flush with the content's right edge, so the title and nav stay
             centered and the button stays put when the view changes under it. */}
-        <div className="pointer-events-none absolute inset-0">
+        <div className="pointer-events-none absolute inset-0 z-10">
           <ViewTransition name="view-toggle" update={HEADER_UPDATE} default="none">
             <button
               type="button"
-              aria-label={view === "month" ? "Zoom into this week" : "Show the whole month"}
-              title={view === "month" ? "Zoom into this week" : "Show the whole month"}
+              aria-label={toggleLabel}
+              title={toggleLabel}
               onClick={() => switchView(view === "month" ? "week" : "month")}
               data-intro={introducing || undefined}
-              className="pointer-events-auto data-intro:animate-[toggle-hint_1000ms_var(--ease-out)_350ms_both] absolute right-0 bottom-[calc(100%+12px)] grid size-8 place-items-center rounded-full text-zinc-500 transition-[background-color,color,scale] duration-200 ease-out hover:bg-black/[0.05] hover:text-zinc-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900 active:scale-90 md:bottom-[calc(100%+24px)]"
+              className="pointer-events-auto data-intro:animate-[toggle-press_1350ms_var(--ease-out)_both] data-intro:bg-black/[0.07] data-intro:text-zinc-900 absolute right-0 bottom-[calc(100%+12px)] grid size-8 place-items-center rounded-full text-zinc-500 transition-[background-color,color,scale] duration-200 ease-out hover:bg-black/[0.05] hover:text-zinc-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900 active:scale-90 md:bottom-[calc(100%+24px)]"
             >
               {view === "month" ? (
                 <ZoomIn className="size-[18px]" strokeWidth={2} />
               ) : (
                 <ZoomOut className="size-[18px]" strokeWidth={2} />
               )}
+              <span
+                aria-hidden
+                data-show={introducing || undefined}
+                className="pointer-events-none absolute top-full right-0 mt-2 -translate-y-1 rounded-full bg-zinc-900 px-2.5 py-1 text-[12px] font-medium whitespace-nowrap text-white opacity-0 shadow-[0_4px_14px_-4px_rgb(0_0_0/0.35)] transition-[opacity,translate] duration-300 ease-(--ease-out) data-show:translate-y-0 data-show:opacity-100"
+              >
+                {toggleLabel}
+              </span>
             </button>
           </ViewTransition>
         </div>
@@ -525,7 +536,11 @@ export function Calendar({
                 {Array.from({ length: weeks }, (_, row) => {
                   const start = cells[row * 7];
                   return (
-                    <div key={start} className="group/row contents">
+                    <div
+                      key={start}
+                      data-dim={(spotlight && !rangeDays.includes(start)) || undefined}
+                      className="group/row contents *:transition-opacity *:duration-500 *:ease-(--ease-out) data-dim:*:opacity-35"
+                    >
                       {cells
                         .slice(row * 7, row * 7 + 7)
                         .map((date, j) =>
