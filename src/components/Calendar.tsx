@@ -13,7 +13,7 @@ import {
   useRef,
   useState,
 } from "react";
-import { mediaSrc } from "@/lib/basePath";
+import { BASE_PATH, mediaSrc } from "@/lib/basePath";
 import { warmImages, whenIdle } from "@/lib/preload";
 import {
   MONTH_NAMES,
@@ -91,16 +91,24 @@ const LABEL_SHARE = {
 // Cells settle in on the first paint only; later changes arrive with their own transitions.
 let booted = false;
 
-function readDayParam(): string | null {
-  const day = new URLSearchParams(window.location.search).get("day");
+// The address bar stays on the site's own URL: the month and the open day live in history
+// entries, so Back still steps through them. Links from before carry the day in `?day=`.
+const DAY_STATE = "capsuleDay";
+
+function readDay(): string | null {
+  const kept = window.history.state?.[DAY_STATE];
+  const day = typeof kept === "string" ? kept : new URLSearchParams(window.location.search).get("day");
   return day && /^\d{4}-\d{2}-\d{2}$/.test(day) ? day : null;
 }
 
-function urlWithDay(day: string | null): string {
+function homeUrl(): string {
   const url = new URL(window.location.href);
-  if (day) url.searchParams.set("day", day);
-  else url.searchParams.delete("day");
-  return url.pathname + url.search;
+  url.searchParams.delete("day");
+  return BASE_PATH + url.search;
+}
+
+function dayState(day: string | null) {
+  return day ? { [DAY_STATE]: day } : {};
 }
 
 export function Calendar({
@@ -187,14 +195,18 @@ export function Calendar({
     [rangeStart, span],
   );
 
-  // The open day lives in `?day=`, so a day can be linked to and Back closes it. The URL is
-  // only read on load and on popstate: the router re-renders synchronously on pushState, and
-  // reading it during that render would mount the card outside its transition.
+  // The open day is pushed as a history entry, so Back closes it. It's only read on load and on
+  // popstate: the router re-renders synchronously on pushState, and reading it during that
+  // render would mount the card outside its transition.
   const [selected, setSelected] = useState<string | null>(null);
   const pushedDay = useRef(false);
 
   useEffect(() => {
-    const linked = readDayParam();
+    const linked = readDay();
+    const home = homeUrl();
+    if (window.location.pathname + window.location.search !== home) {
+      window.history.replaceState(dayState(linked), "", home);
+    }
     const frame = linked
       ? requestAnimationFrame(() =>
           startTransition(() => {
@@ -205,7 +217,7 @@ export function Calendar({
         )
       : 0;
     const onPop = () => {
-      const day = readDayParam();
+      const day = readDay();
       pushedDay.current = false;
       startTransition(() => {
         addTransitionType(day ? "day-open" : "day-close");
@@ -226,7 +238,7 @@ export function Calendar({
         setSelected(date);
         if (!rangeDays.includes(date)) setWeekPick(weekStartOf(date));
       });
-      window.history.pushState(null, "", urlWithDay(date));
+      window.history.pushState(dayState(date), "", homeUrl());
       pushedDay.current = true;
     },
     [weekStartOf, setWeekPick, rangeDays],
@@ -241,7 +253,7 @@ export function Calendar({
       addTransitionType("day-close");
       setSelected(null);
     });
-    window.history.replaceState(null, "", urlWithDay(null));
+    window.history.replaceState(dayState(null), "", homeUrl());
   }, []);
 
   // The week follows the open day, so closing it lands on the day's card.
@@ -252,7 +264,7 @@ export function Calendar({
         setSelected(date);
         if (!rangeDays.includes(date)) setWeekPick(weekStartOf(date));
       });
-      window.history.replaceState(null, "", urlWithDay(date));
+      window.history.replaceState(dayState(date), "", homeUrl());
     },
     [weekStartOf, setWeekPick, rangeDays],
   );
@@ -347,7 +359,7 @@ export function Calendar({
     const start = async () => {
       await warmImages(intro.current.pictures(), 1500);
       const { view, selected } = intro.current;
-      if (cancelled || introPlayed || view !== "month" || selected || readDayParam()) return;
+      if (cancelled || introPlayed || view !== "month" || selected || readDay()) return;
       introPlayed = true;
       setIntroducing(true);
     };
