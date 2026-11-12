@@ -19,6 +19,7 @@ export const MONTH_NAMES = [
 ];
 
 export const WEEKDAYS_SHORT = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+export const WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 export type YearMonth = { year: number; month: number }; // month is 1-12
 
@@ -81,10 +82,13 @@ export function formatLongDate(iso: string): string {
   return `${weekday}, ${MONTH_NAMES[month - 1]} ${day}, ${year}`;
 }
 
-/** "Oct 8", with the year only when it differs from `relativeTo`'s. */
-export function formatShortDate(iso: string, relativeTo?: string): string {
+const monthName = (month: number, long: boolean) =>
+  long ? MONTH_NAMES[month - 1] : MONTH_NAMES[month - 1].slice(0, 3);
+
+/** "Oct 8" (or "October 8" when `long`), with the year only when it differs from `relativeTo`'s. */
+export function formatShortDate(iso: string, relativeTo?: string, long = false): string {
   const { year, month, day } = parseIsoDate(iso);
-  const short = `${MONTH_NAMES[month - 1].slice(0, 3)} ${day}`;
+  const short = `${monthName(month, long)} ${day}`;
   return relativeTo && parseIsoDate(relativeTo).year !== year ? `${short}, ${year}` : short;
 }
 
@@ -96,14 +100,12 @@ export function monthGrid(year: number, month: number): string[] {
   return Array.from({ length: total }, (_, i) => addDays(first, i - lead));
 }
 
-/** "Oct 11 – 17", or "Sep 27 – Oct 3" when the week spans two months. */
-export function formatWeekRange(start: string): string {
+/** "Oct 11 – 17", or "Sep 27 – Oct 3" when the week spans two months; month names in full when `long`. */
+export function formatWeekRange(start: string, long = false): string {
   const end = parseIsoDate(addDays(start, 6));
   const from = parseIsoDate(start);
-  const head = `${MONTH_NAMES[from.month - 1].slice(0, 3)} ${from.day}`;
-  return from.month === end.month
-    ? `${head} – ${end.day}`
-    : `${head} – ${MONTH_NAMES[end.month - 1].slice(0, 3)} ${end.day}`;
+  const head = `${monthName(from.month, long)} ${from.day}`;
+  return from.month === end.month ? `${head} – ${end.day}` : `${head} – ${monthName(end.month, long)} ${end.day}`;
 }
 
 export function monthDays(year: number, month: number): string[] {

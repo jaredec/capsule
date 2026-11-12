@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import { CalendarDays, ChevronLeft, ChevronRight } from "lucide-react";
+import { ChevronLeft, ChevronRight, ZoomIn, ZoomOut } from "lucide-react";
 import {
   ViewTransition,
   addTransitionType,
@@ -17,6 +17,7 @@ import { mediaSrc } from "@/lib/basePath";
 import { warmImages, whenIdle } from "@/lib/preload";
 import {
   MONTH_NAMES,
+  WEEKDAYS,
   WEEKDAYS_SHORT,
   addDays,
   addMonths,
@@ -243,14 +244,14 @@ export function Calendar({
     [weekStartOf, setWeekPick],
   );
 
-  // Back in the week view, the week is today's again rather than one browsed to earlier.
+  // Zooming in shows the chosen week, or else this week rather than one browsed to earlier.
   const switchView = useCallback(
-    async (next: View) => {
+    async (next: View, week: string | null = null) => {
       if (next === "month") await warmImages(picturesFor(cells), 400);
       startTransition(() => {
         addTransitionType(`view-${next}`);
         setView(next);
-        if (next === "week") setWeekPick(null);
+        if (next === "week") setWeekPick(week);
       });
     },
     [setView, setWeekPick, picturesFor, cells],
@@ -322,6 +323,7 @@ export function Calendar({
   const selectedIndex = selected ? archivedDates.indexOf(selected) : -1;
   const openItem = selected ? visible[selected] : undefined;
   const label = view === "week" ? formatWeekRange(weekStart) : `${MONTH_NAMES[month - 1]} ${year}`;
+  const longLabel = view === "week" ? formatWeekRange(weekStart, true) : label;
   const stepNoun = view === "week" ? "week" : "month";
 
   const cardProps = (date: string, index: number) => ({
@@ -340,10 +342,7 @@ export function Calendar({
       {/* On wide screens the week sits with the header in the middle of the screen; the month
           fills the screen under it. */}
       <ViewTransition name="calendar-header" update={HEADER_UPDATE} default="none">
-        <header
-          data-under-card
-          className={`flex shrink-0 flex-col items-center pt-6 pb-3 md:pt-8 md:pb-6 ${view === "week" ? "md:mt-auto" : ""}`}
-        >
+        <header data-under-card className="flex shrink-0 flex-col items-center pt-6 pb-3 md:pt-8 md:pb-6">
           <h1 className="flex items-center gap-[0.24em] text-[30px] leading-none font-semibold tracking-[-0.04em] text-zinc-950 md:text-[38px]">
             Trending on
             <PlatformSwitcher
@@ -361,9 +360,10 @@ export function Calendar({
               <ViewTransition key={label} name="calendar-label" share={LABEL_SHARE} default="none">
                 <span
                   aria-live="polite"
-                  className="w-[8.25rem] text-center text-[14px] md:w-[9.5rem] md:text-[15px] font-medium tracking-[-0.01em] text-zinc-500 tabular-nums"
+                  className="w-[8.25rem] text-center text-[14px] md:w-[15.5rem] md:text-[15px] font-medium tracking-[-0.01em] text-zinc-500 tabular-nums"
                 >
-                  {label}
+                  <span className="md:hidden">{label}</span>
+                  <span className="hidden md:inline">{longLabel}</span>
                 </span>
               </ViewTransition>
               <StepButton step="next" noun={stepNoun} disabled={!canStep("next")} onStep={step} />
@@ -393,15 +393,16 @@ export function Calendar({
           <ViewTransition name="view-toggle" update={HEADER_UPDATE} default="none">
             <button
               type="button"
-              aria-pressed={view === "month"}
-              aria-label={view === "month" ? "Show the week" : "Show the whole month"}
-              title={view === "month" ? "Show the week" : "Show the whole month"}
+              aria-label={view === "month" ? "Zoom into this week" : "Show the whole month"}
+              title={view === "month" ? "Zoom into this week" : "Show the whole month"}
               onClick={() => switchView(view === "month" ? "week" : "month")}
-              className={`pointer-events-auto absolute right-0 bottom-[calc(100%+12px)] grid size-8 place-items-center rounded-full transition-[background-color,color,scale] duration-200 ease-out focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900 active:scale-90 md:bottom-[calc(100%+24px)] ${
-                view === "month" ? "bg-zinc-950 text-white" : "text-zinc-500 hover:bg-black/[0.05] hover:text-zinc-900"
-              }`}
+              className="pointer-events-auto absolute right-0 bottom-[calc(100%+12px)] grid size-8 place-items-center rounded-full text-zinc-500 transition-[background-color,color,scale] duration-200 ease-out hover:bg-black/[0.05] hover:text-zinc-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900 active:scale-90 md:bottom-[calc(100%+24px)]"
             >
-              <CalendarDays className="size-[17px]" strokeWidth={2} />
+              {view === "month" ? (
+                <ZoomIn className="size-[18px]" strokeWidth={2} />
+              ) : (
+                <ZoomOut className="size-[18px]" strokeWidth={2} />
+              )}
             </button>
           </ViewTransition>
         </div>
@@ -435,33 +436,55 @@ export function Calendar({
                 style={{ height: WEEKDAY_ROW }}
                 aria-hidden
               >
-                {WEEKDAYS_SHORT.map((d) => (
+                {WEEKDAYS_SHORT.map((d, i) => (
                   <div
                     key={d}
                     className="px-1 text-center text-[11px] font-medium text-zinc-400 md:pl-2 md:text-left md:text-[12px]"
                   >
                     <span className="md:hidden">{d[0]}</span>
-                    <span className="hidden md:inline">{d}</span>
+                    <span className="hidden md:inline lg:hidden">{d}</span>
+                    <span className="hidden lg:inline">{WEEKDAYS[i]}</span>
                   </div>
                 ))}
               </div>
               <div
-                className="grid min-h-0 flex-1 grid-cols-7 gap-[3px] max-md:max-h-[calc((100cqw-18px)/7*4/3*var(--weeks)+(var(--weeks)-1)*3px)] md:gap-1.5"
+                className="relative grid min-h-0 flex-1 grid-cols-7 gap-[3px] max-md:max-h-[calc((100cqw-18px)/7*4/3*var(--weeks)+(var(--weeks)-1)*3px)] md:gap-1.5"
                 style={
                   { gridTemplateRows: `repeat(${weeks}, minmax(0, 1fr))`, "--weeks": weeks } as React.CSSProperties
                 }
               >
-                {cells.map((date, i) =>
-                  date.startsWith(monthPrefix) ? (
-                    <MonthCell key={date} {...cardProps(date, i)} />
-                  ) : (
-                    <div
-                      key={date}
-                      aria-hidden
-                      className="rounded-[6px] bg-black/[0.018] sm:rounded-[9px] md:rounded-[12px]"
-                    />
-                  ),
-                )}
+                {/* Each week's cells share a hover group, so its zoom button shows beside the row
+                    being pointed at; the button is placed in the row's last cell and hangs outside. */}
+                {Array.from({ length: weeks }, (_, row) => {
+                  const start = cells[row * 7];
+                  return (
+                    <div key={start} className="group/row contents">
+                      {cells
+                        .slice(row * 7, row * 7 + 7)
+                        .map((date, j) =>
+                          date.startsWith(monthPrefix) ? (
+                            <MonthCell key={date} {...cardProps(date, row * 7 + j)} />
+                          ) : (
+                            <div
+                              key={date}
+                              aria-hidden
+                              className="rounded-[6px] bg-black/[0.018] sm:rounded-[9px] md:rounded-[12px]"
+                            />
+                          ),
+                        )}
+                      <button
+                        type="button"
+                        onClick={() => switchView("week", start)}
+                        aria-label={`Zoom into ${formatWeekRange(start, true)}`}
+                        title={`Zoom into ${formatWeekRange(start, true)}`}
+                        style={{ gridRow: `${row + 1} / ${row + 2}`, gridColumn: "7 / 8" }}
+                        className="absolute top-1/2 left-full ml-1.5 hidden size-7 -translate-y-1/2 place-items-center rounded-full text-zinc-400 opacity-0 transition-[opacity,background-color,color,scale] duration-150 group-hover/row:opacity-100 hover:bg-black/[0.05] hover:text-zinc-900 focus-visible:opacity-100 focus-visible:outline-2 focus-visible:outline-zinc-900 active:scale-90 pointer-coarse:opacity-100 md:grid"
+                      >
+                        <ZoomIn className="size-4" strokeWidth={2} />
+                      </button>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           )}
@@ -481,7 +504,10 @@ export function Calendar({
         {lastDate && (
           <>
             <span aria-hidden>·</span>
-            <span>Updated through {formatShortDate(lastDate)}</span>
+            <span>
+              Updated through <span className="md:hidden">{formatShortDate(lastDate)}</span>
+              <span className="hidden md:inline">{formatShortDate(lastDate, undefined, true)}</span>
+            </span>
           </>
         )}
       </footer>
@@ -635,7 +661,7 @@ const cardButton =
 
 function WeekCard({ date, index, item, pending, isToday, isOpen, animateIn, onOpen }: CardProps) {
   const { year, month, day } = parseIsoDate(date);
-  const weekday = WEEKDAYS_SHORT[new Date(Date.UTC(year, month - 1, day)).getUTCDay()];
+  const weekday = WEEKDAYS[new Date(Date.UTC(year, month - 1, day)).getUTCDay()];
   const asText = item && (!item.image || isImageOfPost(item));
 
   return (

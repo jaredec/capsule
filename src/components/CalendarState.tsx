@@ -19,7 +19,7 @@ const CalendarStateContext = createContext<CalendarState | null>(null);
  * and restores them with their own state, which would bring back a week already left behind.
  */
 export function CalendarStateProvider({ children }: { children: React.ReactNode }) {
-  const [view, setView] = useState<CalendarView>("week");
+  const [view, setView] = useState<CalendarView>("month");
   const [week, setWeek] = useState<string | null>(null);
   const value = useMemo(() => ({ view, setView, week, setWeek }), [view, week]);
   return <CalendarStateContext value={value}>{children}</CalendarStateContext>;

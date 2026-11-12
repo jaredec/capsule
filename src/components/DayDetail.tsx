@@ -26,7 +26,7 @@ function dateNote(item: Item, date: string): string | null {
   if (!item.post?.postedAt) return null;
   const posted = archiveDateOf(item.post.postedAt);
   if (posted >= date) return null;
-  return `Posted ${formatShortDate(posted, date)}`;
+  return `Posted ${formatShortDate(posted, date, true)}`;
 }
 
 /** The day's picture, filling whatever box it's given. */
