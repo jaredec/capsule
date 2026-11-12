@@ -41,9 +41,9 @@ export function DayMedia({ item, className = "" }: { item: Item; className?: str
 /** Looks like a button but renders as a span, because it always sits inside the link to the post. */
 function SourceButton({ item, platform }: { item: Item; platform: string }) {
   return (
-    <span className="inline-flex h-8 shrink-0 items-center gap-1.5 rounded-full bg-zinc-950 pr-2.5 pl-3 text-[13px] font-medium text-white transition-[background-color,scale] duration-150 group-hover:bg-zinc-800 group-active:scale-[0.97]">
+    <span className="inline-flex h-8 shrink-0 items-center gap-1 rounded-full bg-zinc-950 pr-2 pl-2.5 text-white transition-[background-color,scale] duration-150 group-hover:bg-zinc-800 group-active:scale-[0.97]">
       <PlatformLogo platform={item.platform} mono className="size-3" />
-      {item.kind === "video" ? `Watch on ${platform}` : `View on ${platform}`}
+      <span className="sr-only">{item.kind === "video" ? `Watch on ${platform}` : `View on ${platform}`}</span>
       <ArrowUpRight className="size-3.5 text-white/60 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
     </span>
   );
