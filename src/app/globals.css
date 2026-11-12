@@ -145,7 +145,8 @@ body {
   }
 }
 
-/* Changing months: the grid slides the way time moves. */
+/* Changing months: the grid slides the way time moves. The two fades run in lockstep so, blended
+   with plus-lighter, they always add up to a fully opaque grid instead of dipping toward the page. */
 ::view-transition-group(.grid-next),
 ::view-transition-group(.grid-prev) {
   animation-duration: 460ms;
@@ -154,13 +155,13 @@ body {
 ::view-transition-new(.grid-next),
 ::view-transition-new(.grid-prev) {
   animation:
-    260ms ease-out 80ms both vt-fade-in,
+    240ms linear both vt-fade-in,
     460ms var(--ease-sheet) both vt-slide;
 }
 ::view-transition-old(.grid-next),
 ::view-transition-old(.grid-prev) {
   animation:
-    160ms ease-in both vt-fade-out,
+    240ms linear both vt-fade-out,
     460ms var(--ease-sheet) both vt-slide;
 }
 ::view-transition-new(.grid-next) {

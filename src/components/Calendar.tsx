@@ -14,10 +14,12 @@ import {
   useState,
 } from "react";
 import { mediaSrc } from "@/lib/basePath";
+import { warmImages, whenIdle } from "@/lib/preload";
 import {
   MONTH_NAMES,
   WEEKDAYS_SHORT,
   addDays,
+  addMonths,
   formatLongDate,
   formatShortDate,
   formatWeekRange,
@@ -45,6 +47,8 @@ type Props = {
   month: number;
   /** Items for every day of the month's weeks, including the days of neighboring months. */
   itemsByDate: Record<string, Item[]>;
+  /** The pictures of the neighboring months' days, loaded ahead so stepping there paints at once. */
+  neighborPictures: Record<string, string[]>;
   /** Platforms with anything archived; the rest are listed as coming soon. */
   platforms: Platform[];
   /** The archive's last day. */
@@ -94,7 +98,16 @@ function urlWithDay(day: string | null): string {
   return url.pathname + url.search;
 }
 
-export function Calendar({ year, month, itemsByDate, platforms, lastDate, prevHref, nextHref }: Props) {
+export function Calendar({
+  year,
+  month,
+  itemsByDate,
+  neighborPictures,
+  platforms,
+  lastDate,
+  prevHref,
+  nextHref,
+}: Props) {
   const router = useRouter();
   const today = useToday();
   const [platformParam, setPlatformParam] = usePlatformFilter();
@@ -131,6 +144,26 @@ export function Calendar({ year, month, itemsByDate, platforms, lastDate, prevHr
     return out;
   }, [itemsByDate, platform]);
   const archivedDates = useMemo(() => Object.keys(visible).sort(), [visible]);
+
+  const picturesFor = useCallback(
+    (dates: string[]) =>
+      dates.flatMap((date) => {
+        const item = visible[date];
+        if (item) return item.image && !isImageOfPost(item) ? [mediaSrc(item.image.src)] : [];
+        return (neighborPictures[date] ?? []).map(mediaSrc);
+      }),
+    [visible, neighborPictures],
+  );
+
+  // The rest of the month, then the months on either side, load once the page is idle.
+  useEffect(
+    () =>
+      whenIdle(() => {
+        warmImages(picturesFor(cells));
+        warmImages(Object.values(neighborPictures).flat().map(mediaSrc));
+      }),
+    [picturesFor, cells, neighborPictures],
+  );
 
   // The week shown: this week, else the month's latest archived week.
   const defaultWeek = useMemo(() => {
@@ -213,14 +246,15 @@ export function Calendar({ year, month, itemsByDate, platforms, lastDate, prevHr
 
   // Back in the week view, the week is today's again rather than one browsed to earlier.
   const switchView = useCallback(
-    (next: View) => {
+    async (next: View) => {
+      if (next === "month") await warmImages(picturesFor(cells), 400);
       startTransition(() => {
         addTransitionType(`view-${next}`);
         setView(next);
         if (next === "week") setWeekPick(null);
       });
     },
-    [setView, setWeekPick],
+    [setView, setWeekPick, picturesFor, cells],
   );
 
   // Weeks past the month's own continue in the neighboring month; weeks after the archive's
@@ -235,14 +269,26 @@ export function Calendar({ year, month, itemsByDate, platforms, lastDate, prevHr
   const canStep = (step: Step) =>
     view === "week" ? weekTarget(step) !== null : Boolean(step === "next" ? nextHref : prevHref);
 
-  const step = (dir: Step) => {
+  // The transition waits briefly for the destination's pictures, so it slides to them rather than
+  // to empty cells that fill in one by one. Presses during the wait are dropped.
+  const stepping = useRef(false);
+  const step = async (dir: Step) => {
+    if (stepping.current) return;
     if (view === "month") {
       const href = dir === "next" ? nextHref : prevHref;
-      if (href) router.push(href, { scroll: false, transitionTypes: [`month-${dir}`] });
+      if (!href) return;
+      const { year: y, month: m } = addMonths({ year, month }, dir === "next" ? 1 : -1);
+      stepping.current = true;
+      await warmImages(picturesFor(monthGrid(y, m)), 400);
+      stepping.current = false;
+      router.push(href, { scroll: false, transitionTypes: [`month-${dir}`] });
       return;
     }
     const target = weekTarget(dir);
     if (!target) return;
+    stepping.current = true;
+    await warmImages(picturesFor(Array.from({ length: 7 }, (_, i) => addDays(target.week, i))), 400);
+    stepping.current = false;
     // Crossing into the neighboring month changes the week and the page in one transition.
     const href = target.href;
     startTransition(() => {
