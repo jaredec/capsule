@@ -13,7 +13,10 @@
       "memeability": 8,
       "platform": "x",
       "headlineIds": [32, 40],
-      "sourceUrl": "https://x.com/iamtimmy/status/2120941462674460894"
+      "sourceUrl": "https://x.com/iamtimmy/status/2120941462674460894",
+      "imageUrl": "https://dimages2.corriereobjects.it/files/og_thumbnail/files/fp/uploads/2026/11/12/6af6051b73c78.r_d.939-598-0.png",
+      "crop": { "x": 0.09, "y": 0.06, "w": 0.26, "h": 0.36 },
+      "bounds": { "x": 0, "y": 0, "w": 1, "h": 0.74 }
     }
   ]
 }

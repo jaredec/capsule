@@ -39,7 +39,7 @@
         "crossover": true
       },
       "collectedBy": "editor",
-      "collectedAt": "2026-11-13T02:01:26.477Z",
+      "collectedAt": "2026-11-13T02:06:21.867Z",
       "post": {
         "name": "timmy",
         "handle": "@iamtimmy",
@@ -50,14 +50,20 @@
       },
       "image": {
         "src": "/media/2026-11-12/2026-11-12-x-outlook-goes-down-mid-workday-and-x-treats-it-as.webp",
-        "width": 640,
-        "height": 1136,
-        "from": "https://video.twimg.com/ext_tw_video/1549110759338172424/pu/vid/640x1136/B6bXOPXo03EbEFn-.mp4?tag=12#t=9.7",
+        "width": 1600,
+        "height": 900,
+        "from": "https://dimages2.corriereobjects.it/files/og_thumbnail/files/fp/uploads/2026/11/12/6af6051b73c78.r_d.939-598-0.png",
         "crop": {
+          "x": 0.09,
+          "y": 0.06,
+          "w": 0.26,
+          "h": 0.36
+        },
+        "bounds": {
           "x": 0,
-          "y": 0.249,
+          "y": 0,
           "w": 1,
-          "h": 0.751
+          "h": 0.74
         }
       }
     }
