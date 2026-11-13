@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-12",
+  "items": [
+    {
+      "id": "2026-11-12-x-outlook-goes-down-mid-workday-and-x-treats-it-as",
+      "platform": "x",
+      "rank": 1,
+      "title": "Outlook goes down mid-workday and X treats it as a day off",
+      "summary": "A Microsoft 365 outage knocked out Outlook and Teams for hours across the Americas. Workers on X celebrated the break: \"If Outlook doesn't come back within 30 minutes, can you legally go home?\"",
+      "kind": "moment",
+      "tags": [
+        "microsoft-outage",
+        "outlook",
+        "teams",
+        "work-from-home"
+      ],
+      "author": "@iamtimmy",
+      "sourceUrl": "https://x.com/iamtimmy/status/2120941462674460894",
+      "metrics": {
+        "likes": "53.7K",
+        "replies": "117"
+      },
+      "references": [
+        {
+          "title": "Microsoft and Outlook Outage Revives Kelly Rowland’s Excel Texting Meme, 24 Years After “Dilemma”",
+          "url": "https://www.merca20.com/microsoft-and-outlook-outage-revives-kelly-rowlands-excel-texting-meme-24-years-after-dilemma/"
+        },
+        {
+          "title": "#TSRReactionz: Folks are celebrating a little unexpected break from work! 🤣💻 _____________________________________ #Roomies, Microsoft experienced a widespread outage today, leaving thousands of users unable to access Outlook, Microsoft Tea",
+          "url": "https://www.instagram.com/p/Dfp-F-OAUG4/"
+        }
+      ],
+      "pulse": {
+        "score": 8.4,
+        "reach": 9,
+        "dominance": 8,
+        "memeability": 8,
+        "category": "everyday-life",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-13T02:01:26.477Z",
+      "post": {
+        "name": "timmy",
+        "handle": "@iamtimmy",
+        "verified": false,
+        "avatar": "/media/avatars/iamtimmy.webp",
+        "text": "outlook down in the middle of the work day",
+        "postedAt": "2026-11-12T18:07:04.000Z"
+      },
+      "image": {
+        "src": "/media/2026-11-12/2026-11-12-x-outlook-goes-down-mid-workday-and-x-treats-it-as.webp",
+        "width": 640,
+        "height": 1136,
+        "from": "https://video.twimg.com/ext_tw_video/1549110759338172424/pu/vid/640x1136/B6bXOPXo03EbEFn-.mp4?tag=12#t=9.7",
+        "crop": {
+          "x": 0,
+          "y": 0.249,
+          "w": 1,
+          "h": 0.751
+        }
+      }
+    }
+  ]
+}

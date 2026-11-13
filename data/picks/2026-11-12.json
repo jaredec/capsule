@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-12",
+  "stories": [
+    {
+      "title": "Outlook goes down mid-workday and X treats it as a day off",
+      "summary": "A Microsoft 365 outage knocked out Outlook and Teams for hours across the Americas. Workers on X celebrated the break: \"If Outlook doesn't come back within 30 minutes, can you legally go home?\"",
+      "kind": "moment",
+      "tags": ["microsoft-outage", "outlook", "teams", "work-from-home", "drew-barrymore-rain"],
+      "category": "everyday-life",
+      "crossover": true,
+      "reach": 9,
+      "dominance": 8,
+      "memeability": 8,
+      "platform": "x",
+      "headlineIds": [32, 40],
+      "sourceUrl": "https://x.com/iamtimmy/status/2120941462674460894"
+    }
+  ]
+}
