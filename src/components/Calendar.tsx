@@ -200,6 +200,9 @@ export function Calendar({
   // render would mount the card outside its transition.
   const [selected, setSelected] = useState<string | null>(null);
   const pushedDay = useRef(false);
+  // Set the moment someone opens a day or zooms by hand, before the transition renders it, so
+  // the intro can't zoom in the gap.
+  const introTakenOver = useRef(false);
 
   useEffect(() => {
     const linked = readDay();
@@ -233,6 +236,7 @@ export function Calendar({
 
   const openDay = useCallback(
     (date: string) => {
+      introTakenOver.current = true;
       startTransition(() => {
         addTransitionType("day-open");
         setSelected(date);
@@ -359,7 +363,7 @@ export function Calendar({
     const start = async () => {
       await warmImages(intro.current.pictures(), 1500);
       const { view, selected } = intro.current;
-      if (cancelled || introPlayed || view !== "month" || selected || readDay()) return;
+      if (cancelled || introPlayed || introTakenOver.current || view !== "month" || selected || readDay()) return;
       introPlayed = true;
       setIntroducing(true);
     };
@@ -379,17 +383,22 @@ export function Calendar({
   }, []);
   useEffect(() => {
     if (!introducing) return;
-    // Opening a day or zooming by hand during the wait takes over from the intro.
+    // Opening a day or zooming by hand during the wait takes over from the intro. A day opened
+    // mid-intro keeps the calendar behind it as it was; the dim lifts once the day closes.
+    if (introTakenOver.current) {
+      if (!selected) setIntroducing(false);
+      return;
+    }
     const zoom = setTimeout(() => {
       const { view, selected, switchView } = intro.current;
-      if (view === "month" && !selected) switchView("week");
+      if (!introTakenOver.current && view === "month" && !selected) switchView("week");
     }, 1250);
     const done = setTimeout(() => setIntroducing(false), 2100);
     return () => {
       clearTimeout(zoom);
       clearTimeout(done);
     };
-  }, [introducing]);
+  }, [introducing, selected]);
 
   const selectedIndex = selected ? archivedDates.indexOf(selected) : -1;
   const openItem = selected ? visible[selected] : undefined;
@@ -398,7 +407,7 @@ export function Calendar({
   const stepNoun = view === "month" ? "month" : span === 2 ? "two weeks" : "week";
   const zoomInLabel = span === 2 ? "Zoom in" : "Zoom into this week";
   const toggleLabel = view === "month" ? zoomInLabel : "Show the whole month";
-  const spotlight = introducing && view === "month" && !selected;
+  const spotlight = introducing && view === "month";
 
   const cardProps = (date: string, index: number) => ({
     date,
@@ -464,7 +473,10 @@ export function Calendar({
               type="button"
               aria-label={toggleLabel}
               title={toggleLabel}
-              onClick={() => switchView(view === "month" ? "week" : "month")}
+              onClick={() => {
+                introTakenOver.current = true;
+                switchView(view === "month" ? "week" : "month");
+              }}
               data-intro={introducing || undefined}
               className="pointer-events-auto data-intro:animate-[toggle-press_1350ms_var(--ease-out)_both] data-intro:bg-black/[0.07] data-intro:text-zinc-900 absolute right-0 bottom-[calc(100%+12px)] grid size-8 place-items-center rounded-full text-zinc-500 transition-[background-color,color,scale] duration-200 ease-out hover:bg-black/[0.05] hover:text-zinc-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900 active:scale-90 md:bottom-[calc(100%+24px)]"
             >
