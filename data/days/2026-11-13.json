@@ -42,16 +42,6 @@
         "category": "news",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-15T00:38:12.261Z",
-      "post": {
-        "name": "Flightradar24",
-        "handle": "@flightradar24",
-        "verified": true,
-        "avatar": "/media/avatars/flightradar24.webp",
-        "text": "Issued by the FAA just moments ago, ALL US airports are currently ground stopped. This means NO flights may depart for US airports. Flights already in the air will be allowed to land. This is related to an FAA equipment outage.",
-        "postedAt": "2026-11-13T21:01:08.000Z"
-      },
       "image": {
         "src": "/media/2026-11-13/2026-11-13-x-the-faa-grounds-every-flight-in-america.webp",
         "width": 1600,
@@ -63,7 +53,72 @@
           "w": 0.5,
           "h": 0.56
         }
-      }
+      },
+      "post": {
+        "name": "Flightradar24",
+        "handle": "@flightradar24",
+        "verified": true,
+        "avatar": "/media/avatars/flightradar24.webp",
+        "text": "Issued by the FAA just moments ago, ALL US airports are currently ground stopped. This means NO flights may depart for US airports. Flights already in the air will be allowed to land. This is related to an FAA equipment outage.",
+        "postedAt": "2026-11-13T21:01:08.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-15T00:38:12.261Z"
+    },
+    {
+      "id": "2026-11-13-instagram-avril-lavigne-introduces-her-baby-girl",
+      "platform": "instagram",
+      "rank": 1,
+      "title": "Avril Lavigne introduces her baby girl",
+      "summary": "Avril Lavigne announced the birth of her first child, a girl, with black-and-white photos and three pairs of her signature checkered Vans, one of them infant-sized. \"Our Mini F—ing Princess has arrived,\" she wrote.",
+      "kind": "image",
+      "tags": [
+        "avril-lavigne",
+        "baby",
+        "vans",
+        "sk8er-girl"
+      ],
+      "author": "@avrillavigne",
+      "sourceUrl": "https://www.instagram.com/p/Dfr-VopG76L/",
+      "metrics": {
+        "likes": "3M"
+      },
+      "references": [
+        {
+          "title": "Avril Lavigne's baby announcement proves she's always loved Vans",
+          "url": "https://pagesix.com/2026/11/13/style/avril-lavigne-baby-announcement-proves-shes-always-loved-vans/"
+        }
+      ],
+      "pulse": {
+        "score": 7,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 5,
+        "category": "celebrity",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-11-13/2026-11-13-instagram-avril-lavigne-introduces-her-baby-girl.webp",
+        "width": 1080,
+        "height": 1440,
+        "from": "https://instagram.fsan1-1.fna.fbcdn.net/v/t51.82787-15/905459894_18654435304036272_3445859553888075004_n.jpg?stp=dst-jpg_e35_p1080x1080_sh2.08_tt6&_nc_cat=1&ig_cache_key=NDAyOTU4NjQzMzQ2ODkzNjk2NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMjQ5My5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=h05a6CTDyvMQ7kNvwEKgD2L&_nc_oc=AdrB3XEuKzpxe3rsTmzjouBXPta2BaSLFfPeJ_OETMuMj1KUDa05BsbRG1fBkhwfCMq6T7yZquIW5dHZAKKvxUcg&_nc_zt=23&_nc_ht=instagram.fsan1-1.fna&_nc_gid=Km0FFlHILm5FEYscBwOJeA&_nc_ss=7f689&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQQjYf5Arx5JbkTJtxE_fi5GSxLGdl86D4w1Qlc0Ht3VjA&oe=6AFED40C",
+        "crop": {
+          "x": 0.12,
+          "y": 0.08,
+          "w": 0.76,
+          "h": 0.62
+        }
+      },
+      "post": {
+        "name": "Avril Lavigne",
+        "handle": "@avrillavigne",
+        "verified": true,
+        "avatar": "/media/avatars/avrillavigne.webp",
+        "text": "Our Mini F—ing Princess has arrived 🎀👑🍼🩷",
+        "postedAt": "2026-11-13T15:39:58.891Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-15T01:31:18.636Z"
     }
   ]
 }

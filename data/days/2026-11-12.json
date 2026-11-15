@@ -38,8 +38,18 @@
         "category": "everyday-life",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-13T02:06:21.867Z",
+      "image": {
+        "src": "/media/2026-11-12/2026-11-12-x-outlook-goes-down-mid-workday-and-x-treats-it-as.webp",
+        "width": 1600,
+        "height": 1280,
+        "from": "https://media.guim.co.uk/dfa589c16097054908f431498d8161b7edbee12f/399_0_6288_5030/2000.jpg",
+        "crop": {
+          "x": 0.04,
+          "y": 0.08,
+          "w": 0.6,
+          "h": 0.82
+        }
+      },
       "post": {
         "name": "timmy",
         "handle": "@iamtimmy",
@@ -48,24 +58,67 @@
         "text": "outlook down in the middle of the work day",
         "postedAt": "2026-11-12T18:07:04.000Z"
       },
-      "image": {
-        "src": "/media/2026-11-12/2026-11-12-x-outlook-goes-down-mid-workday-and-x-treats-it-as.webp",
-        "width": 1600,
-        "height": 900,
-        "from": "https://dimages2.corriereobjects.it/files/og_thumbnail/files/fp/uploads/2026/11/12/6af6051b73c78.r_d.939-598-0.png",
-        "crop": {
-          "x": 0.09,
-          "y": 0.06,
-          "w": 0.26,
-          "h": 0.36
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-13T02:06:21.867Z"
+    },
+    {
+      "id": "2026-11-12-instagram-a-georgian-girl-dances-to-a-bollywood-classic",
+      "platform": "instagram",
+      "rank": 1,
+      "title": "A Georgian girl dances to a Bollywood classic",
+      "summary": "Warming up by a fire, a little Georgian girl broke into \"Mehendi Laga Ke Rakhna\" from the Bollywood classic DDLJ. Her grandfather joined in from his chair, and the reel hit 55 million views in two days.",
+      "kind": "video",
+      "tags": [
+        "mehendi-laga-ke-rakhna",
+        "ddlj",
+        "shah-rukh-khan",
+        "georgia"
+      ],
+      "author": "@anamaria_eva_",
+      "sourceUrl": "https://www.instagram.com/reel/DfoJwehMEx5/",
+      "metrics": {
+        "likes": "5M"
+      },
+      "references": [
+        {
+          "title": "Super cute Georgia girl dances to Shah Rukh Khan-Kajol’s DDLJ hit, video gets 54 million views in 2 days",
+          "url": "https://www.tribuneindia.com/news/trending/super-cute-georgia-girl-dances-to-shah-rukh-khan-kajols-ddlj-hit-video-gets-54-million-views-in-2-days/"
         },
-        "bounds": {
-          "x": 0,
-          "y": 0,
-          "w": 1,
-          "h": 0.74
+        {
+          "title": "Georgia girl dances to Shah Rukh Khan's Mehendi Laga Ke Rakhna, video crosses 44 million views in a day",
+          "url": "https://www.moneycontrol.com/entertainment/georgia-girl-dances-to-shah-rukh-khan-s-mehendi-laga-ke-rakhna-video-crosses-44-million-views-in-a-day-watch-article-14080041.html"
         }
-      }
+      ],
+      "pulse": {
+        "score": 9,
+        "reach": 10,
+        "dominance": 9,
+        "memeability": 7,
+        "category": "internet-culture",
+        "crossover": false
+      },
+      "image": {
+        "src": "/media/2026-11-12/2026-11-12-instagram-a-georgian-girl-dances-to-a-bollywood-classic.webp",
+        "width": 900,
+        "height": 1600,
+        "from": "https://instagram.fsan1-1.fna.fbcdn.net/v/t51.82787-15/898799682_18348666928269760_4734045198534581387_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=1&ig_cache_key=NDAyODUxMjc4MDQwNTQ2MDA4OTE4MzQ4NjY2OTI1MjY5NzYw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyOTAuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=2D15s218_sgQ7kNvwHpbflx&_nc_oc=Adq98VMNMze3LDkogmPJEnQ1i9RTsRxpnTW1tIJi6UBdSyNj0bB7i3UIRBIAS3Bwta9S4sr_BxsyENXYIPvdoqH6&_nc_zt=23&_nc_ht=instagram.fsan1-1.fna&_nc_gid=BUSY1-eWrvkAzWuLYKSTAw&_nc_ss=7f689&_nc_ct=RQosPBUIFQ4lBAAAAA&oh=00_AQTiWqq_a8CtaSLZtti5wVb0Xct68d4b9Zu1ExbKhWLKXA&oe=6AFED2C2",
+        "crop": {
+          "x": 0.04,
+          "y": 0.25,
+          "w": 0.86,
+          "h": 0.7
+        }
+      },
+      "post": {
+        "name": "Eva Ana Maria",
+        "handle": "@anamaria_eva_",
+        "verified": false,
+        "avatar": "/media/avatars/anamaria_eva_.webp",
+        "text": "",
+        "postedAt": "2026-11-12T04:02:48.219Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-15T01:31:15.871Z"
     }
   ]
 }

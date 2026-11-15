@@ -29,16 +29,6 @@
         "category": "tech",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-12T02:53:44.205Z",
-      "post": {
-        "name": "NIK",
-        "handle": "@ns123abc",
-        "verified": true,
-        "avatar": "/media/avatars/ns123abc.webp",
-        "text": "Anthropic CEO predicts cancer, Alzheimer's, heart disease, mental illness will be cured in less than 10 years \n\nACCELERATE",
-        "postedAt": "2026-11-10T19:12:38.000Z"
-      },
       "image": {
         "src": "/media/2026-11-10/2026-11-10-x-dario-amodei-cancer-will-be-a-relic-of-the-past-.webp",
         "width": 1600,
@@ -50,7 +40,72 @@
           "w": 0.72,
           "h": 0.96
         }
-      }
+      },
+      "post": {
+        "name": "NIK",
+        "handle": "@ns123abc",
+        "verified": true,
+        "avatar": "/media/avatars/ns123abc.webp",
+        "text": "Anthropic CEO predicts cancer, Alzheimer's, heart disease, mental illness will be cured in less than 10 years \n\nACCELERATE",
+        "postedAt": "2026-11-10T19:12:38.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T02:53:44.205Z"
+    },
+    {
+      "id": "2026-11-10-instagram-megan-thee-stallion-yanks-daniel-radcliffe-into-frame",
+      "platform": "instagram",
+      "rank": 1,
+      "title": "Megan Thee Stallion yanks Daniel Radcliffe into frame",
+      "summary": "Announcing her return as Denise on NBC's The Fall and Rise of Reggie Dinkins, Megan sang along to \"Thin Ice\" before pulling co-star Daniel Radcliffe into the shot. \"Just throwing Harry Potter around like a toy,\" one fan wrote.",
+      "kind": "video",
+      "tags": [
+        "megan-thee-stallion",
+        "daniel-radcliffe",
+        "denise-is-back",
+        "reggie-dinkins"
+      ],
+      "author": "@theestallion",
+      "sourceUrl": "https://www.instagram.com/reel/DfkqECUy70P/",
+      "metrics": {
+        "likes": "1.7M"
+      },
+      "references": [
+        {
+          "title": "Megan Thee Stallion and Daniel Radcliffe have fans celebrating: \"He just cheesing\"",
+          "url": "https://www.tag24.com/en/entertainment/celebrities/megan-thee-stallion/megan-thee-stallion-and-daniel-radcliffe-have-fans-celebrating-he-just-cheesing-3548719"
+        }
+      ],
+      "pulse": {
+        "score": 7,
+        "reach": 8,
+        "dominance": 6,
+        "memeability": 6,
+        "category": "celebrity",
+        "crossover": false
+      },
+      "image": {
+        "src": "/media/2026-11-10/2026-11-10-instagram-megan-thee-stallion-yanks-daniel-radcliffe-into-frame.webp",
+        "width": 720,
+        "height": 1280,
+        "from": "https://instagram.fsan1-1.fna.fbcdn.net/v/t51.82787-15/898982933_18679670911052600_4264877160575862020_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=1&ig_cache_key=NDAyNzUyODk2MjEwMzgxOTUzNTE4Njc5NjcwOTA4MDUyNjAw.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fdXNlcl9zZWxlY3RlZF90aHVtYm5haWwuQzMifQ%3D%3D&_nc_ohc=XOGnh39PTrYQ7kNvwGnJhkv&_nc_oc=AdpxCnJmjB34Vxz2Qcsnau6CKcTVxKz2vhjWHVmGH0R05YUtYRsbF510oW_r-4x0UyQ2yyQVwcpKwwT2Knz8Fsmb&_nc_zt=23&_nc_ht=instagram.fsan1-1.fna&_nc_gid=tL0TPnLchcZC_0b0YkBxnQ&_nc_ss=7f689&_nc_ct=RQosPBUIFQ4lBAAAAA&oh=00_AQQFBoaNL_YRA1YTBCd0K2vc0BHxBOVRkIVzxB1N8x4Bww&oe=6AFEF811",
+        "crop": {
+          "x": 0.04,
+          "y": 0.14,
+          "w": 0.92,
+          "h": 0.46
+        }
+      },
+      "post": {
+        "name": "Megan Thee Stallion",
+        "handle": "@theestallion",
+        "verified": true,
+        "avatar": "/media/avatars/theestallion.webp",
+        "text": "Guess who’s on my phone againnn🧙‍♂️🪄😂 DENISE IS BACK 😘",
+        "postedAt": "2026-11-10T19:28:07.938Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-15T01:31:10.581Z"
     }
   ]
 }

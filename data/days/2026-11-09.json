@@ -29,16 +29,6 @@
         "category": "tech",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-12T04:43:18.612Z",
-      "post": {
-        "name": "Financial Times",
-        "handle": "@FT",
-        "verified": true,
-        "avatar": "/media/avatars/ft.webp",
-        "text": "Breaking news: Nvidia’s chief executive Jensen Huang has admitted having an affair two days after the FT reported his alleged romantic relationship with a woman the US intelligence community believes was working as a spy for China. ft.trib.al/kQjw5UV",
-        "postedAt": "2026-11-08T21:25:00.000Z"
-      },
       "image": {
         "src": "/media/2026-11-09/2026-11-09-x-jensen-huang-admits-an-affair-with-an-alleged-ch.webp",
         "width": 1600,
@@ -50,7 +40,78 @@
           "w": 0.7,
           "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "Financial Times",
+        "handle": "@FT",
+        "verified": true,
+        "avatar": "/media/avatars/ft.webp",
+        "text": "Breaking news: Nvidia’s chief executive Jensen Huang has admitted having an affair two days after the FT reported his alleged romantic relationship with a woman the US intelligence community believes was working as a spy for China. ft.trib.al/kQjw5UV",
+        "postedAt": "2026-11-08T21:25:00.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T04:43:18.612Z"
+    },
+    {
+      "id": "2026-11-09-instagram-finlands-embassy-closes-for-a-day-and-the-internet-mourns",
+      "platform": "instagram",
+      "rank": 1,
+      "title": "Finland's embassy closes for a day, and the internet mourns",
+      "summary": "Finland's embassy in Canberra posted that it would close Tuesday for a staff planning day, over the northern lights and a somber Sibelius etude. Instagram treated it as a national tragedy: 405,000 shares and a wave of memes.",
+      "kind": "video",
+      "tags": [
+        "finland",
+        "embassy-closed",
+        "canberra",
+        "pov"
+      ],
+      "author": "@finlandinaustralia",
+      "sourceUrl": "https://www.instagram.com/reel/DfgTcKlR_9T/",
+      "metrics": {
+        "likes": "750K"
+      },
+      "references": [
+        {
+          "title": "‘We were quite surprised’: Finland’s embassy in Australia goes viral with staff training day post on Instagram",
+          "url": "https://www.theguardian.com/media/2026/nov/11/we-were-quite-surprised-finlands-embassy-goes-viral-with-staff-training-day-post-on-instagram"
+        }
+      ],
+      "pulse": {
+        "score": 8,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 9,
+        "category": "internet-culture",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-11-09/2026-11-09-instagram-finlands-embassy-closes-for-a-day-and-the-internet-mourns.webp",
+        "width": 900,
+        "height": 1600,
+        "from": "https://instagram.fsan1-2.fna.fbcdn.net/v/t51.82787-15/898277801_18450177262135909_3200162189793365203_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNjMwMzU2NTI2MTE3NjY1OTE4NDUwMTc3MjU5MTM1OTA5.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMDYuc2RyLnZpZGVvX3VzZXJfc2VsZWN0ZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=C9dIopGrvjIQ7kNvwEzFdSo&_nc_oc=AdpbcX-IJg9R51mcA-LgM490Cs2b_w4Ri8JwpIuxsD82hY4Mp08znAY622SBXQRtf0g&_nc_zt=23&_nc_ht=instagram.fsan1-2.fna&_nc_gid=stgSwjRGRva1YabUmfQkfg&_nc_ss=7f689&_nc_ct=RQosPBUIFQ4lBAAAAA&oh=00_AQSBKt88YOXxNpYzUraWWGPj-rd3B3o4K4EO7ReDrcWexg&oe=6AFEDA60",
+        "crop": {
+          "x": 0.04,
+          "y": 0.19,
+          "w": 0.92,
+          "h": 0.48
+        },
+        "bounds": {
+          "x": 0,
+          "y": 0.14,
+          "w": 1,
+          "h": 0.86
+        }
+      },
+      "post": {
+        "name": "Finland in Australia",
+        "handle": "@finlandinaustralia",
+        "verified": true,
+        "avatar": "/media/avatars/finlandinaustralia.webp",
+        "text": "The Embassy of Finland in Canberra will be closed for an internal planning day on Tuesday, 10 November 2026. Regular Embassy hours will resume on Wednesday, 11 November 2026.",
+        "postedAt": "2026-11-09T02:53:29.251Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-15T01:36:02.736Z"
     }
   ]
 }

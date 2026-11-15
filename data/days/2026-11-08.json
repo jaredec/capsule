@@ -29,16 +29,6 @@
         "category": "animals",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-12T02:52:32.887Z",
-      "post": {
-        "name": "NFL Memes",
-        "handle": "@NFLMemes",
-        "verified": true,
-        "avatar": "/media/avatars/nflmemes.webp",
-        "text": "A rogue Corgi at the Panthers-Broncos game now has the Week 9 lead for missed tackles",
-        "postedAt": "2026-11-08T20:40:38.000Z"
-      },
       "image": {
         "src": "/media/2026-11-08/2026-11-08-x-rogue-corgi-quinn-jukes-her-handlers-at-panthers.webp",
         "width": 608,
@@ -50,7 +40,76 @@
           "w": 0.9,
           "h": 0.86
         }
-      }
+      },
+      "post": {
+        "name": "NFL Memes",
+        "handle": "@NFLMemes",
+        "verified": true,
+        "avatar": "/media/avatars/nflmemes.webp",
+        "text": "A rogue Corgi at the Panthers-Broncos game now has the Week 9 lead for missed tackles",
+        "postedAt": "2026-11-08T20:40:38.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T02:52:32.887Z"
+    },
+    {
+      "id": "2026-11-08-instagram-legends-pop-out-for-druski-at-snl",
+      "platform": "instagram",
+      "rank": 1,
+      "title": "Legends pop out for Druski at SNL",
+      "summary": "The night Druski became the first internet creator to host SNL, his clip of Dave Chappelle, Chris Rock and Michael B. Jordan joining him onstage at the end of the show passed a million likes.",
+      "kind": "video",
+      "tags": [
+        "druski",
+        "snl",
+        "dave-chappelle",
+        "chris-rock"
+      ],
+      "author": "@druski",
+      "sourceUrl": "https://www.instagram.com/reel/DfeKjA8iDKR/",
+      "metrics": {
+        "likes": "1.1M"
+      },
+      "references": [
+        {
+          "title": "Watch All of Druski's SNL Sketches & Monologue from November 7",
+          "url": "https://www.nbc.com/nbc-insider/watch-druski-november-7-snl-sketches-emma-stone-monologue"
+        },
+        {
+          "title": "Druski made SNL history. That says a lot about the state of Hollywood.",
+          "url": "https://slate.com/culture/2026/11/druski-snl-elizabeth-holmes-skit-saturday-night-live-emma-stone.html"
+        }
+      ],
+      "pulse": {
+        "score": 7,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 6,
+        "category": "tv-film",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-11-08/2026-11-08-instagram-legends-pop-out-for-druski-at-snl.webp",
+        "width": 900,
+        "height": 1600,
+        "from": "https://instagram.fsan1-1.fna.fbcdn.net/v/t51.82787-15/890716720_1807944583789840_9044809386909485298_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ig_cache_key=NDAyNTcwMTUwMzU3ODE1NzcxMzE4MDc5NDQ1ODA0NTY1MDc%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjEyMTUuc2RyLnZpZGVvX3VzZXJfdXBsb2FkZWRfdGh1bWJuYWlsLkMzIn0%3D&_nc_ohc=Wg35pcdp0x8Q7kNvwE9bazI&_nc_oc=Ado8ZHuxaIzWm3EA0VyGPgVyfsKDoXkcnSrePmHHikXfG8DIcA-YOEN_pF-UfRNpIFr1xnZEs_Z0oj1aIzLxeoHd&_nc_zt=23&_nc_ht=instagram.fsan1-1.fna&_nc_gid=2GZGqedn4TFianGqJBeqlA&_nc_ss=7f689&_nc_ct=RQosPBUIFQwlBAAAAA&oh=00_AQRqcVz4YYM_bGSCkdDS8liL3rT_rFe8iEAsWNkVlglIzA&oe=6AFEC9F3",
+        "crop": {
+          "x": 0,
+          "y": 0.1,
+          "w": 1,
+          "h": 0.52
+        }
+      },
+      "post": {
+        "name": "Druski",
+        "handle": "@druski",
+        "verified": false,
+        "avatar": "/media/avatars/druski.webp",
+        "text": "LEGENDS POPPED OUT FOR ME 🤯 @davechappelle @michaelbjordan @chrisrock Emma Stone 🔥 THANK YOU SNL",
+        "postedAt": "2026-11-08T06:57:17.906Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-15T01:31:05.199Z"
     }
   ]
 }

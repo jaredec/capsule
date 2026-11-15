@@ -29,16 +29,6 @@
         "category": "tech",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-12T03:10:42.826Z",
-      "post": {
-        "name": "derek guy",
-        "handle": "@dieworkwear",
-        "verified": true,
-        "avatar": "/media/avatars/dieworkwear.webp",
-        "text": "in hindsight, perhaps it was a bad idea to build an entire global economy around whether one man would be faithful to his wife",
-        "postedAt": "2026-11-11T22:52:13.000Z"
-      },
       "image": {
         "src": "/media/2026-11-11/2026-11-11-x-nyt-reports-a-second-jensen-huang-affair-nvidia-.webp",
         "width": 1600,
@@ -50,7 +40,67 @@
           "w": 0.42,
           "h": 1
         }
-      }
+      },
+      "post": {
+        "name": "derek guy",
+        "handle": "@dieworkwear",
+        "verified": true,
+        "avatar": "/media/avatars/dieworkwear.webp",
+        "text": "in hindsight, perhaps it was a bad idea to build an entire global economy around whether one man would be faithful to his wife",
+        "postedAt": "2026-11-11T22:52:13.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-12T03:10:42.826Z"
+    },
+    {
+      "id": "2026-11-11-instagram-instagram-turns-the-nvidia-scandal-into-ai-parodies",
+      "platform": "instagram",
+      "rank": 1,
+      "title": "Instagram turns the Nvidia scandal into AI parodies",
+      "summary": "After Jensen Huang admitted an affair with a woman US intelligence reportedly ties to China, AI \"honey trap\" parodies took over Reels: GPUs as love tokens, bedrooms stacked with RTX 5090s. The biggest drew 7 to 10 million views.",
+      "kind": "video",
+      "tags": [
+        "jensen-huang",
+        "nvidia",
+        "ai-parody",
+        "honey-trap"
+      ],
+      "author": "@yesand_ai",
+      "sourceUrl": "https://www.instagram.com/reel/DfljCqIhA6i/",
+      "metrics": {
+        "likes": "469K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 8,
+        "reach": 8,
+        "dominance": 7,
+        "memeability": 9,
+        "category": "internet-culture",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-11-11/2026-11-11-instagram-instagram-turns-the-nvidia-scandal-into-ai-parodies.webp",
+        "width": 720,
+        "height": 1280,
+        "from": "https://instagram.fsan1-1.fna.fbcdn.net/v/t51.82787-15/902962053_17910820998665418_6698695307318631753_n.jpg?stp=dst-jpg_e15_tt6&_nc_cat=1&ig_cache_key=NDAyNzc3OTU1NjA1OTY0NzY1MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNMSVBTLnhwaWRzLjcyMC5zZHIudmlkZW9fZGVmYXVsdF9jb3Zlcl9mcmFtZS5DMyJ9&_nc_ohc=f99dpiO6iyQQ7kNvwHYxp9h&_nc_oc=AdqFdreOU7ELHUiiUxwqdkGYnKB8UFj2WJVMZuGagoNplsHPuy-Ji4k7K5D-EHR7sNSOFH_EEiN7X9_R6Ha_8jsM&_nc_zt=23&_nc_ht=instagram.fsan1-1.fna&_nc_gid=C6z3p3IM9Y7-Ui-T5jKKww&_nc_ss=7f689&_nc_ct=RQosPBUIFQQlBAAAAA&oh=00_AQTEPsFVfkhDA6k7zXG_NcsIumWDRXhcxWKNfQT5UeaDBA&oe=6AFEE4CA",
+        "crop": {
+          "x": 0.12,
+          "y": 0.2,
+          "w": 0.76,
+          "h": 0.58
+        }
+      },
+      "post": {
+        "name": "yesand.ai",
+        "handle": "@yesand_ai",
+        "verified": false,
+        "avatar": "/media/avatars/yesand_ai.webp",
+        "text": "5090 Unlimited Mode : ON",
+        "postedAt": "2026-11-11T03:46:01.066Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-15T01:31:13.180Z"
     }
   ]
 }
