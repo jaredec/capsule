@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-14",
+  "items": [
+    {
+      "id": "2026-11-14-x-spacex-catches-a-starship-out-of-the-sky",
+      "platform": "x",
+      "rank": 1,
+      "title": "SpaceX catches a Starship out of the sky",
+      "summary": "After 14 orbits, Starship's upper stage flew back to Texas and was caught by the launch tower's mechanical arms, a first. SpaceX called it \"the holy grail of spaceflight.\"",
+      "kind": "video",
+      "tags": [
+        "spacex",
+        "starship",
+        "mechazilla",
+        "chopsticks"
+      ],
+      "author": "@SpaceX",
+      "sourceUrl": "https://x.com/SpaceX/status/2121715216597827756",
+      "metrics": {
+        "likes": "96.5K",
+        "replies": "5.2K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.1,
+        "reach": 9,
+        "dominance": 8,
+        "memeability": 6,
+        "category": "tech",
+        "crossover": true
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-15T00:36:53.849Z",
+      "post": {
+        "name": "SpaceX",
+        "handle": "@SpaceX",
+        "verified": true,
+        "avatar": "/media/avatars/spacex.webp",
+        "text": "Mechazilla catches Starship! Congratulations to the entire SpaceX team on this incredible achievement!",
+        "postedAt": "2026-11-14T21:21:41.000Z"
+      },
+      "image": {
+        "src": "/media/2026-11-14/2026-11-14-x-spacex-catches-a-starship-out-of-the-sky.webp",
+        "width": 1600,
+        "height": 900,
+        "from": "https://video.twimg.com/amplify_video/2121715092903596032/vid/avc1/1920x1080/C2JFTEW74_Pa-Lsr.mp4#t=61",
+        "crop": {
+          "x": 0.42,
+          "y": 0.27,
+          "w": 0.16,
+          "h": 0.46
+        },
+        "bounds": {
+          "x": 0,
+          "y": 0,
+          "w": 1,
+          "h": 0.82
+        }
+      }
+    }
+  ]
+}

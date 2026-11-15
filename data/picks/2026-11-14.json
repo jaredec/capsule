@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-14",
+  "stories": [
+    {
+      "title": "SpaceX catches a Starship out of the sky",
+      "summary": "After 14 orbits, Starship's upper stage flew back to Texas and was caught by the launch tower's mechanical arms, a first. SpaceX called it \"the holy grail of spaceflight.\"",
+      "kind": "video",
+      "tags": ["spacex", "starship", "mechazilla", "chopsticks"],
+      "category": "tech",
+      "crossover": true,
+      "reach": 9,
+      "dominance": 8,
+      "memeability": 6,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/SpaceX/status/2121715216597827756",
+      "frameAt": 61,
+      "crop": { "x": 0.42, "y": 0.27, "w": 0.16, "h": 0.46 },
+      "bounds": { "x": 0, "y": 0, "w": 1, "h": 0.82 }
+    }
+  ]
+}
