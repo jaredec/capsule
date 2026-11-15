@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowUpRight, BadgeCheck, Heart } from "lucide-react";
+import { ArrowUpRight, BadgeCheck, Heart, Play } from "lucide-react";
 import { mediaSrc } from "@/lib/basePath";
 import { archiveDateOf, formatLongDate, formatShortDate } from "@/lib/dates";
 import { embedTarget } from "@/lib/embeds";
@@ -58,16 +58,89 @@ function SourceButton({ item }: { item: Item }) {
   );
 }
 
+/** The post as Instagram heads and signs it, around the picture the day already shows. */
+function InstagramCard({
+  item,
+  sourceUrl,
+  note,
+}: {
+  item: Item;
+  sourceUrl: string;
+  note: string | null;
+}) {
+  const { post } = item;
+  const handle = post?.handle?.replace(/^@/, "");
+  const likes = item.metrics?.likes;
+  const video = item.kind === "video";
+  return (
+    <a
+      href={sourceUrl}
+      target="_blank"
+      rel="noreferrer"
+      title={video ? "Watch on Instagram" : "View on Instagram"}
+      className="group block overflow-hidden rounded-2xl border border-zinc-200 bg-white transition-shadow duration-150 hover:shadow-[0_8px_24px_-12px_rgb(0_0_0/0.25)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900"
+    >
+      <div className="flex items-center gap-2.5 px-3 py-2.5">
+        {post?.avatar ? (
+          <span className="shrink-0 rounded-full bg-[linear-gradient(45deg,#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5)] p-[2px]">
+            <Image
+              src={mediaSrc(post.avatar)}
+              alt=""
+              width={28}
+              height={28}
+              unoptimized
+              loading="eager"
+              decoding="sync"
+              className="size-7 rounded-full bg-zinc-200 ring-2 ring-white"
+            />
+          </span>
+        ) : (
+          <span className="size-8 shrink-0 rounded-full bg-zinc-200" />
+        )}
+        <div className="flex min-w-0 flex-1 items-center gap-1 text-[13px] leading-[1.3]">
+          <span className="truncate font-semibold text-zinc-900">{handle ?? post?.name}</span>
+          {post?.verified && (
+            <BadgeCheck aria-label="Verified" className="size-3.5 shrink-0 fill-[#0095f6] text-white" />
+          )}
+        </div>
+        <SourceButton item={item} />
+      </div>
+      <div className="border-t border-zinc-100 px-3 pt-2.5 pb-3 text-[13px] leading-[1.4] text-zinc-900">
+        <p className="flex items-center gap-3 font-semibold tabular-nums">
+          {likes && (
+            <span className="flex items-center gap-1.5">
+              <Heart aria-hidden className="size-3.5" />
+              {likes} likes
+            </span>
+          )}
+          {video && (
+            <span className="flex items-center gap-1.5 font-normal text-zinc-500">
+              <Play aria-hidden className="size-3 fill-current" />
+              Reel
+            </span>
+          )}
+        </p>
+        {post?.text && (
+          <p className="mt-1 line-clamp-2 text-pretty">
+            <span className="font-semibold">{handle}</span> {post.text}
+          </p>
+        )}
+        {note && <p className="mt-1 text-[12px] text-zinc-500">{note}</p>}
+      </div>
+    </a>
+  );
+}
+
 /** Everything about the day beside its picture: the headline, the post, what happened and where it was covered. */
 export function DayInfo({
   item,
   date,
-  besideToolbar = false,
+  floating = false,
 }: {
   item: Item;
   date: string;
-  /** On wide screens the date line sits level with a toolbar at the top right, and the headline starts below it. */
-  besideToolbar?: boolean;
+  /** On wide screens it sits in a panel over the picture, only as tall as its content. */
+  floating?: boolean;
 }) {
   const { post } = item;
   const note = dateNote(item, date);
@@ -77,22 +150,22 @@ export function DayInfo({
 
   return (
     <div className="flex min-h-full flex-col">
-      <p
-        className={`text-[13px] text-zinc-500 tabular-nums ${besideToolbar ? "md:flex md:h-9 md:items-center md:pr-32" : ""}`}
-      >
+      <p className="text-[13px] text-zinc-500 tabular-nums">
         {formatLongDate(date).replace(/, \d{4}$/, "")}
       </p>
       <h2
-        className={`${besideToolbar ? "mt-1.5 md:mt-3" : "mt-1.5"} text-[24px] leading-[1.15] font-semibold tracking-[-0.02em] text-balance text-zinc-950 md:text-[26px]`}
+        className="mt-1.5 text-[24px] leading-[1.15] font-semibold tracking-[-0.02em] text-balance text-zinc-950 md:text-[26px]"
       >
         {item.title}
       </h2>
 
       <p className="mt-2.5 text-[15px] leading-[1.55] text-pretty text-zinc-600">{item.summary}</p>
 
-      {/* On wide screens the post settles at the bottom, so a short day leaves its space in the middle. */}
-      <div className="mt-5 flex flex-col gap-6 md:mt-auto md:pt-8">
-        {item.sourceUrl && (
+      {/* Beside the picture on wide screens, the post settles at the bottom, so a short day leaves its space in the middle. */}
+      <div className={`mt-5 flex flex-col ${floating ? "gap-5" : "gap-6 md:mt-auto md:pt-8"}`}>
+        {item.platform === "instagram" && item.sourceUrl ? (
+          <InstagramCard item={item} sourceUrl={item.sourceUrl} note={note} />
+        ) : item.sourceUrl && (
           <a
             href={item.sourceUrl}
             target="_blank"

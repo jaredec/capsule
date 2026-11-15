@@ -107,6 +107,11 @@ function homeUrl(): string {
   return BASE_PATH + url.search;
 }
 
+/** Another month's address, keeping the platform filter so stepping stays on it. */
+function withPlatform(href: string, platform: Platform | null): string {
+  return platform ? `${href}?platform=${platform}` : href;
+}
+
 function dayState(day: string | null) {
   return day ? { [DAY_STATE]: day } : {};
 }
@@ -185,15 +190,9 @@ export function Calendar({
   }, [today, cells, archivedDates, monthPrefix, weekStartOf]);
   const weekStart = weekPick && cells.includes(weekPick) ? weekPick : defaultWeek;
 
-  // Zoomed in, phones show one week as a list; wide screens show a row per week, two when there's
-  // room. A pair that would end in a week still to come shows the week before instead.
+  // Zoomed in, phones show the week as a list; wide screens show it as a row.
   const wide = useMediaQuery("(min-width: 48rem)");
-  const span = useMediaQuery("(min-width: 48rem) and (min-height: 46rem)") ? 2 : 1;
-  const rangeStart = span === 2 && lastDate && addDays(weekStart, 7) > lastDate ? addDays(weekStart, -7) : weekStart;
-  const rangeDays = useMemo(
-    () => Array.from({ length: 7 * span }, (_, i) => addDays(rangeStart, i)),
-    [rangeStart, span],
-  );
+  const weekDays = useMemo(() => Array.from({ length: 7 }, (_, i) => addDays(weekStart, i)), [weekStart]);
 
   // The open day is pushed as a history entry, so Back closes it. It's only read on load and on
   // popstate: the router re-renders synchronously on pushState, and reading it during that
@@ -240,12 +239,12 @@ export function Calendar({
       startTransition(() => {
         addTransitionType("day-open");
         setSelected(date);
-        if (!rangeDays.includes(date)) setWeekPick(weekStartOf(date));
+        if (!weekDays.includes(date)) setWeekPick(weekStartOf(date));
       });
       window.history.pushState(dayState(date), "", homeUrl());
       pushedDay.current = true;
     },
-    [weekStartOf, setWeekPick, rangeDays],
+    [weekStartOf, setWeekPick, weekDays],
   );
 
   const closeDay = useCallback(() => {
@@ -266,11 +265,11 @@ export function Calendar({
       startTransition(() => {
         addTransitionType(step === "next" ? "day-next" : "day-prev");
         setSelected(date);
-        if (!rangeDays.includes(date)) setWeekPick(weekStartOf(date));
+        if (!weekDays.includes(date)) setWeekPick(weekStartOf(date));
       });
       window.history.replaceState(dayState(date), "", homeUrl());
     },
-    [weekStartOf, setWeekPick, rangeDays],
+    [weekStartOf, setWeekPick, weekDays],
   );
 
   // Zooming in shows the chosen week, or else this week rather than one browsed to earlier.
@@ -289,7 +288,7 @@ export function Calendar({
   // Weeks past the month's own continue in the neighboring month; weeks after the archive's
   // last day have nothing to show.
   const weekTarget = (step: Step): { week: string; href: string | null } | null => {
-    const week = addDays(rangeStart, (step === "next" ? 7 : -7) * span);
+    const week = addDays(weekStart, step === "next" ? 7 : -7);
     if (step === "next" && lastDate && week > lastDate) return null;
     if (cells.includes(week)) return { week, href: null };
     const href = step === "next" ? nextHref : prevHref;
@@ -310,26 +309,26 @@ export function Calendar({
       stepping.current = true;
       await warmImages(picturesFor(monthGrid(y, m)), 400);
       stepping.current = false;
-      router.push(href, { scroll: false, transitionTypes: [`month-${dir}`] });
+      router.push(withPlatform(href, platformParam), { scroll: false, transitionTypes: [`month-${dir}`] });
       return;
     }
     const target = weekTarget(dir);
     if (!target) return;
     stepping.current = true;
-    await warmImages(picturesFor(Array.from({ length: 7 * span }, (_, i) => addDays(target.week, i))), 400);
+    await warmImages(picturesFor(Array.from({ length: 7 }, (_, i) => addDays(target.week, i))), 400);
     stepping.current = false;
     // Crossing into the neighboring month changes the week and the page in one transition.
     const href = target.href;
     startTransition(() => {
       addTransitionType(`week-${dir}`);
       setWeekPick(target.week);
-      if (href) router.push(href, { scroll: false });
+      if (href) router.push(withPlatform(href, platformParam), { scroll: false });
     });
   };
   useEffect(() => {
-    if (prevHref) router.prefetch(prevHref);
-    if (nextHref) router.prefetch(nextHref);
-  }, [router, prevHref, nextHref]);
+    if (prevHref) router.prefetch(withPlatform(prevHref, platformParam));
+    if (nextHref) router.prefetch(withPlatform(nextHref, platformParam));
+  }, [router, prevHref, nextHref, platformParam]);
 
   const stepRef = useRef(step);
   useEffect(() => {
@@ -349,16 +348,17 @@ export function Calendar({
 
   const swipe = useSwipe((dir) => stepRef.current(dir));
 
-  // Opening the site shows the month, then demonstrates zooming into this week: the other weeks dim
-  // and the toggle presses itself. Visitors learn the view can change and which button does it.
-  // It waits for the disclaimer and for the month's pictures, and plays once per page load.
+  // On phones, opening the site shows the month, then demonstrates zooming into this week: the other
+  // weeks dim and the toggle presses itself. Visitors learn the view can change and which button
+  // does it. It waits for the disclaimer and for the month's pictures, and plays once per page load.
+  // Wide screens open on the month and stay there.
   const [introducing, setIntroducing] = useState(false);
   const intro = useRef({ view, selected, switchView, pictures: () => picturesFor(cells) });
   useEffect(() => {
     intro.current = { view, selected, switchView, pictures: () => picturesFor(cells) };
   });
   useEffect(() => {
-    if (introPlayed) return;
+    if (introPlayed || window.matchMedia("(min-width: 48rem)").matches) return;
     let cancelled = false;
     const start = async () => {
       await warmImages(intro.current.pictures(), 1500);
@@ -402,11 +402,10 @@ export function Calendar({
 
   const selectedIndex = selected ? archivedDates.indexOf(selected) : -1;
   const openItem = selected ? visible[selected] : undefined;
-  const label = view === "week" ? formatWeekRange(rangeStart, false, 7 * span) : `${MONTH_NAMES[month - 1]} ${year}`;
-  const longLabel = view === "week" ? formatWeekRange(rangeStart, true, 7 * span) : label;
-  const stepNoun = view === "month" ? "month" : span === 2 ? "two weeks" : "week";
-  const zoomInLabel = span === 2 ? "Zoom in" : "Zoom into this week";
-  const toggleLabel = view === "month" ? zoomInLabel : "Show the whole month";
+  const label = view === "week" ? formatWeekRange(weekStart) : `${MONTH_NAMES[month - 1]} ${year}`;
+  const longLabel = view === "week" ? formatWeekRange(weekStart, true) : label;
+  const stepNoun = view === "month" ? "month" : "week";
+  const toggleLabel = view === "month" ? "Zoom into this week" : "Show the whole month";
   const spotlight = introducing && view === "month";
 
   const cardProps = (date: string, index: number) => ({
@@ -459,10 +458,10 @@ export function Calendar({
         data-under-card
         className={`relative min-h-0 flex-1 [container-type:size] ${
           view === "week"
-            ? "md:h-[min(calc(100dvh-236px),calc(((100vw-136px)/7*var(--ratio)+100px)*var(--rows)+(var(--rows)-1)*20px))] md:flex-none"
+            ? "md:h-[min(calc(100dvh-236px),calc((100vw-136px)/7*var(--ratio)+100px))] md:flex-none"
             : ""
         }`}
-        style={{ "--ratio": WEEK_CARD_RATIO, "--rows": span } as React.CSSProperties}
+        style={{ "--ratio": WEEK_CARD_RATIO } as React.CSSProperties}
         {...swipe}
       >
         {/* Level with the header's nav but flush with the content's right edge, so the title and nav stay
@@ -489,23 +488,22 @@ export function Calendar({
           </ViewTransition>
         </div>
         <ViewTransition
-          key={view === "week" ? rangeStart : "month"}
+          key={view === "week" ? weekStart : "month"}
           name="calendar-stage"
           share={STAGE_SHARE}
           default="none"
         >
           {view === "week" && wide ? (
             <div
-              className="absolute inset-0 grid grid-cols-7 gap-x-3 gap-y-5"
-              style={{ gridTemplateRows: `repeat(${span}, minmax(0, 1fr))` }}
+              className="absolute inset-0 grid grid-cols-7 grid-rows-1 gap-x-3"
             >
-              {rangeDays.map((date, i) => (
+              {weekDays.map((date, i) => (
                 <WeekCard key={date} {...cardProps(date, i)} />
               ))}
             </div>
           ) : view === "week" ? (
             <div className="absolute inset-0 grid grid-rows-7 gap-2 pb-1">
-              {rangeDays.map((date, i) => (
+              {weekDays.map((date, i) => (
                 <WeekRow key={date} {...cardProps(date, i)} />
               ))}
             </div>
@@ -543,7 +541,7 @@ export function Calendar({
                   return (
                     <div
                       key={start}
-                      data-dim={(spotlight && !rangeDays.includes(start)) || undefined}
+                      data-dim={(spotlight && !weekDays.includes(start)) || undefined}
                       className="group/row contents *:transition-opacity *:duration-500 *:ease-(--ease-out) data-dim:*:opacity-35"
                     >
                       {cells
@@ -714,10 +712,14 @@ function DayMediaTile({
       )}
     </span>
   ) : (
-    <CroppedImage
-      image={item.image!}
-      className="absolute inset-0 transition-transform duration-500 ease-out group-hover:scale-[1.03]"
-    />
+    // The hover zoom happens inside a still frame, so the morph into the card starts from the
+    // cell's own box rather than the enlarged picture.
+    <span className="absolute inset-0 overflow-hidden">
+      <CroppedImage
+        image={item.image!}
+        className="absolute inset-0 transition-transform duration-500 ease-out group-hover:scale-[1.03]"
+      />
+    </span>
   );
   return isOpen ? (
     media

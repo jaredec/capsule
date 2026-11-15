@@ -52,16 +52,18 @@ body {
   font-feature-settings: "ss01";
 }
 
-/* First paint: the month's days settle in, in reading order. */
+/* First paint on phones: the month's days settle in, in reading order. Wide screens show them at once. */
 @keyframes cell-in {
   from {
     opacity: 0;
     transform: translateY(6px) scale(0.98);
   }
 }
-.cell-in {
-  animation: cell-in 520ms var(--ease-out) both;
-  animation-delay: calc(var(--i, 0) * 14ms + 60ms);
+@media (width < 48rem) {
+  .cell-in {
+    animation: cell-in 520ms var(--ease-out) both;
+    animation-delay: calc(var(--i, 0) * 14ms + 60ms);
+  }
 }
 
 /* The zoom toggle presses itself just before the opening intro zooms in. */
@@ -353,6 +355,52 @@ html:active-view-transition-type(day-close) [data-under-card] {
 }
 ::view-transition-new(.card-close) {
   animation: 140ms ease-out 340ms both vt-fade-in;
+}
+
+@media (width >= 48rem) {
+  /* The picture pane is anchored at the card's left edge, so the morphing picture keeps that edge
+     still and gives up its faded right side while the box is narrower than the pane. */
+  ::view-transition-new(.morph-open),
+  ::view-transition-old(.morph-close) {
+    object-position: left;
+  }
+  /* The story panel and toolbar sit at the card's right edge, which the growing box would clip
+     until the very end, so they leave the card's snapshot and fade in over it once it's grown. */
+  html:active-view-transition-type(day-open) [data-day-panel],
+  html:active-view-transition-type(day-close) [data-day-panel] {
+    view-transition-name: day-panel;
+  }
+  html:active-view-transition-type(day-open) [data-day-toolbar],
+  html:active-view-transition-type(day-close) [data-day-toolbar] {
+    view-transition-name: day-toolbar;
+  }
+  html:active-view-transition-type(day-open) :is([data-day-panel], [data-day-toolbar]) {
+    view-transition-class: panel-in;
+  }
+  /* A backdrop blur on a captured element renders as a grey box before it fades in. */
+  html:active-view-transition-type(day-open) :is([data-day-panel], [data-day-toolbar]),
+  html:active-view-transition-type(day-close) :is([data-day-panel], [data-day-toolbar]) {
+    backdrop-filter: none;
+  }
+  html:active-view-transition-type(day-close) :is([data-day-panel], [data-day-toolbar]) {
+    view-transition-class: panel-out;
+  }
+}
+::view-transition-group(.panel-in),
+::view-transition-group(.panel-out) {
+  z-index: 11;
+}
+@keyframes panel-in {
+  from {
+    opacity: 0;
+    translate: 0 8px;
+  }
+}
+::view-transition-new(.panel-in) {
+  animation: 300ms var(--ease-out) 200ms both panel-in;
+}
+::view-transition-old(.panel-out) {
+  animation: 120ms ease-in both vt-fade-out;
 }
 
 /* Without a cell to grow from (a linked day), the card fades in place. */
