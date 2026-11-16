@@ -225,27 +225,6 @@ export function DayInfo({
             </div>
           </a>
         )}
-
-        {item.references.length > 0 && (
-          <div>
-            <h3 className="text-[12px] font-medium text-zinc-400">Coverage</h3>
-            <ul className="mt-1 -mx-2">
-              {item.references.map((ref) => (
-                <li key={ref.url}>
-                  <a
-                    href={ref.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="group flex items-start gap-2 rounded-lg px-2 py-1.5 text-[14px] leading-snug text-zinc-700 transition-colors hover:bg-zinc-100 hover:text-zinc-950"
-                  >
-                    <span className="min-w-0 flex-1">{ref.title}</span>
-                    <ArrowUpRight className="mt-0.5 size-3.5 shrink-0 text-zinc-400 group-hover:text-zinc-900" />
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
       </div>
     </div>
   );
