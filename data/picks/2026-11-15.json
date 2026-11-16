@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-15",
+  "stories": [
+    {
+      "title": "Aidan Hutchinson ends his season celebrating a sack",
+      "summary": "In Munich, the Lions star sacked Drake Maye, leapt to celebrate and landed on a knee that buckled; he's reportedly out for the year. X revived Stephen Tulloch and Bill Gramatica, hurt celebrating the same way.",
+      "kind": "video",
+      "tags": ["aidan-hutchinson", "lions", "patriots", "munich", "celebration-injury"],
+      "category": "sports",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 6,
+      "platform": "x",
+      "headlineIds": [62],
+      "sourceUrl": "https://x.com/MySportsUpdate/status/2121977639694901577",
+      "imageUrl": "https://www.mlive.com/resizer/v2/SXEUFXFR6NGOFAPHHNCHFHOQPM.jpg?auth=b663cd96dfa1dbf02df7c5b77263b539fcf34a4382e7c8c1afa0017a53742421&width=2400",
+      "crop": { "x": 0.41, "y": 0.56, "w": 0.22, "h": 0.41 }
+    }
+  ]
+}
