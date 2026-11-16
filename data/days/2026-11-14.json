@@ -29,16 +29,6 @@
         "category": "tech",
         "crossover": true
       },
-      "collectedBy": "editor",
-      "collectedAt": "2026-11-15T00:36:53.849Z",
-      "post": {
-        "name": "SpaceX",
-        "handle": "@SpaceX",
-        "verified": true,
-        "avatar": "/media/avatars/spacex.webp",
-        "text": "Mechazilla catches Starship! Congratulations to the entire SpaceX team on this incredible achievement!",
-        "postedAt": "2026-11-14T21:21:41.000Z"
-      },
       "image": {
         "src": "/media/2026-11-14/2026-11-14-x-spacex-catches-a-starship-out-of-the-sky.webp",
         "width": 1600,
@@ -56,7 +46,78 @@
           "w": 1,
           "h": 0.82
         }
-      }
+      },
+      "post": {
+        "name": "SpaceX",
+        "handle": "@SpaceX",
+        "verified": true,
+        "avatar": "/media/avatars/spacex.webp",
+        "text": "Mechazilla catches Starship! Congratulations to the entire SpaceX team on this incredible achievement!",
+        "postedAt": "2026-11-14T21:21:41.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-15T00:36:53.849Z"
+    },
+    {
+      "id": "2026-11-14-instagram-a-pacifica-wave-catches-a-man-filming-the-swell",
+      "platform": "instagram",
+      "rank": 1,
+      "title": "A Pacifica wave catches a man filming the swell",
+      "summary": "Russ Akin was filming one of Northern California's biggest swells in decades when a wave burst over the Pacifica seawall behind him and swept across the street. His wife had told him not to go near the water.",
+      "kind": "video",
+      "tags": [
+        "pacifica",
+        "big-waves",
+        "el-nino",
+        "bay-area"
+      ],
+      "author": "@russ_akin_drums",
+      "sourceUrl": "https://www.instagram.com/reel/Dfu8elghxT8/",
+      "metrics": {
+        "likes": "161K"
+      },
+      "references": [
+        {
+          "title": "Video: Massive waves pound San Francisco’s coast in one of the biggest swells in decades",
+          "url": "https://sfstandard.com/2026/11/14/san-francisco-big-waves-photos-ocean-beach/"
+        }
+      ],
+      "pulse": {
+        "score": 7,
+        "reach": 7,
+        "dominance": 6,
+        "memeability": 7,
+        "category": "everyday-life",
+        "crossover": false
+      },
+      "image": {
+        "src": "/media/2026-11-14/2026-11-14-instagram-a-pacifica-wave-catches-a-man-filming-the-swell.webp",
+        "width": 720,
+        "height": 1280,
+        "from": "https://instagram.fsan1-2.fna.fbcdn.net/o1/v/t2/f2/m86/AQPAkdJdSBnB1HXX85RJBxyyAuUBJrvr4X61CTyKkmfp95HZSUbO_NBnh9daWeSQrCsveHktHZcZjNK5aAJuZ10JGRLZG6Nz7PuFYvg.mp4?_nc_cat=107&_nc_oc=AdqE43lixXl35xjeT42fqnu83Fer7DCixoCV0z39y1cGQhgHts8prMZ5xoXL5cTtwmrrRJ6jCGNy3kra7JxwbRBG&_nc_sid=5e9851&_nc_ht=instagram.fsan1-2.fna.fbcdn.net&_nc_ohc=HyFCIGXdQ7gQ7kNvwFkXshF&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5JTlNUQUdSQU0uQ0xJUFMuQzMuNzIwLmRhc2hfYmFzZWxpbmVfMV92MSIsInhwdl9hc3NldF9pZCI6MjcyMzYwMjIzODA2MDIzNywiYXNzZXRfYWdlX2RheXMiOjEsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjo4MywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&vs=3e5fc9b46a9b7ce0&_nc_vs=HBksFQIYUmlnX3hwdl9yZWVsc19wZXJtYW5lbnRfc3JfcHJvZC80NEQ0RkM2QzE1MkU0QkExQkIzREE3Nzk3OUVGMkI1Ml92aWRlb19kYXNoaW5pdC5tcDQVAALIARIAFQIYUWlnX3hwdl9wbGFjZW1lbnRfcGVybWFuZW50X3YyLzQ2RkI2NjVCRTgzODQyOTFBRDE3MDVCMjIzRjRCRUFBX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwOIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRJjb3B5X3NhbXBsZV9ncm91cHMBMRUAACaa28X-wcbWCRUCKAJDMywXQFTVT987ZFoYEmRhc2hfYmFzZWxpbmVfMV92MREAdf4HZeadAQA&_nc_gid=BH-BpminlVF0kQq6MkSxFg&_nc_ss=7f689&_nc_map=urlgen_bucketless&_nc_zt=28&oh=00_AQSnJLBY1NYRpaO2AuwUGo4jmxWM--ddvni1cg2VUmfwIg&oe=6AFC4708#t=44.4",
+        "crop": {
+          "x": 0.3,
+          "y": 0.345,
+          "w": 0.45,
+          "h": 0.315
+        },
+        "bounds": {
+          "x": 0,
+          "y": 0.345,
+          "w": 1,
+          "h": 0.315
+        }
+      },
+      "post": {
+        "name": "Russ Akin",
+        "handle": "@russ_akin_drums",
+        "verified": false,
+        "avatar": "/media/avatars/russ_akin_drums.webp",
+        "text": "It’s tricky telling how big those waves are going to hit until they do. I was walking away while filming behind me, then I turned around, and BOOM!!!",
+        "postedAt": "2026-11-14T19:21:26.938Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-16T02:53:25.289Z"
     }
   ]
 }

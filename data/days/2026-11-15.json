@@ -56,6 +56,65 @@
       },
       "collectedBy": "editor",
       "collectedAt": "2026-11-16T02:14:21.080Z"
+    },
+    {
+      "id": "2026-11-15-instagram-ronaldinho-returns-to-professional-football-at-46",
+      "platform": "instagram",
+      "rank": 1,
+      "title": "Ronaldinho returns to professional football at 46",
+      "summary": "Eleven years after his last match, Ronaldinho started for Serie C's Ravenna in a derby against Forlì. He helped set up the opener in a 2-0 win and left at halftime to a standing ovation, still one short of 300 career goals.",
+      "kind": "image",
+      "tags": [
+        "ronaldinho",
+        "ravenna",
+        "serie-c",
+        "comeback"
+      ],
+      "author": "@ronaldinho",
+      "sourceUrl": "https://www.instagram.com/p/Dfx0OQFGcGT/",
+      "metrics": {
+        "likes": "977K"
+      },
+      "references": [
+        {
+          "title": "Ronaldinho makes comeback in Ravenna win",
+          "url": "https://www.bbc.com/sport/football/articles/ckregz4g823xo"
+        },
+        {
+          "title": "Ronaldinho fails to score 300th goal as comeback lasts 45 minutes",
+          "url": "https://www.espn.com/soccer/story/_/id/50491487/ronaldinho-comeback-300-goals-ravenna-serie-c"
+        }
+      ],
+      "pulse": {
+        "score": 8,
+        "reach": 9,
+        "dominance": 8,
+        "memeability": 6,
+        "category": "sports",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-11-15/2026-11-15-instagram-ronaldinho-returns-to-professional-football-at-46.webp",
+        "width": 1200,
+        "height": 1600,
+        "from": "https://instagram.fsan1-1.fna.fbcdn.net/v/t51.82787-15/901668674_18661309846041643_6728172843422223914_n.webp?_nc_cat=1&ig_cache_key=NDAzMTIzMTM2MjQ4Mjk0OTUzOA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=GBArZySWpnoQ7kNvwEe3o-O&_nc_oc=AdpzMbmbBYtJQUi2eKWc4OTCPNAHQTaAnkskqnSIrjylmMv8Q6FbYjgmZst7rf8aqKdLPet_z_TC931KzJw2IG7h&_nc_zt=23&_nc_ht=instagram.fsan1-1.fna&_nc_gid=F7xEJtr2ab0-yB203jcrQg&_nc_ss=7f689&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQRFbzQO5DiDcW_TXAVgNkTlY9_njiT4qaimhf2eU5kF2g&oe=6B0047FB",
+        "crop": {
+          "x": 0.14,
+          "y": 0.08,
+          "w": 0.72,
+          "h": 0.56
+        }
+      },
+      "post": {
+        "name": "Ronaldinho",
+        "handle": "@ronaldinho",
+        "verified": true,
+        "avatar": "/media/avatars/ronaldinho.webp",
+        "text": "Mt feliz em voltar a disputar uma partida oficial... Descansei uns anos, mas agora é hora de voltar kkkkkk",
+        "postedAt": "2026-11-15T22:07:02.115Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-16T02:53:46.174Z"
     }
   ]
 }
