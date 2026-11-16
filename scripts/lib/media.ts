@@ -296,33 +296,6 @@ async function storeImage(
   return undefined;
 }
 
-// Calendar cells are 3:4; the automatic crop is the 3:4 window around the most salient spot.
-const CELL_ASPECT = 3 / 4;
-
-/** The largest cell-shaped window centred (as far as the edges allow) on what sharp finds most eye-catching. */
-async function autoCrop(file: string): Promise<Crop | undefined> {
-  try {
-    const { width: W = 0, height: H = 0 } = await sharp(file).metadata();
-    if (!W || !H) return undefined;
-    const scale = Math.max(300 / W, 400 / H);
-    const { info } = await sharp(file)
-      .resize(300, 400, { fit: "cover", position: sharp.strategy.attention })
-      .toBuffer({ resolveWithObject: true });
-    const ax = (info.attentionX ?? (W * scale) / 2) / (W * scale);
-    const ay = (info.attentionY ?? (H * scale) / 2) / (H * scale);
-    const round = (v: number) => Math.round(v * 1000) / 1000;
-    const clamp = (v: number, size: number) => round(Math.min(1 - size, Math.max(0, v - size / 2)));
-    if (W / H > CELL_ASPECT) {
-      const w = round((CELL_ASPECT * H) / W);
-      return { x: clamp(ax, w), y: 0, w, h: 1 };
-    }
-    const h = round(W / CELL_ASPECT / H);
-    return { x: 0, y: clamp(ay, h), w: 1, h };
-  } catch {
-    return undefined;
-  }
-}
-
 async function storeAvatar(post: XPost): Promise<string | null> {
   const bytes = post.avatarUrl ? await download(post.avatarUrl) : null;
   if (!bytes) return null;
@@ -407,7 +380,12 @@ export async function attachMedia(
   if (out.image) {
     const image = out.image;
     const same = item.image && sameSource(item.image.from, image.from) ? item.image : undefined;
-    out.image = { ...image, crop: crop ?? same?.crop ?? (await autoCrop(path.join("public", image.src))) };
+    // Without an editor's crop the frames centre the picture; on the archive that matched hand
+    // crops better than saliency (sharp's attention, smartcrop) or person detection.
+    out.image = { ...image };
+    const subject = crop ?? same?.crop;
+    if (subject) out.image.crop = subject;
+    else delete out.image.crop;
     const kept = bounds ?? same?.bounds;
     if (kept) out.image.bounds = kept;
     else delete out.image.bounds;

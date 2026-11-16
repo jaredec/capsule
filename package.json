@@ -11,6 +11,7 @@
     "collect": "tsx scripts/collect.ts",
     "curate": "tsx scripts/curate.ts",
     "media": "tsx scripts/media.ts",
+    "crop": "tsx scripts/crop.ts",
     "validate-data": "tsx scripts/validate.ts"
   },
   "dependencies": {

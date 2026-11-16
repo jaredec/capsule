@@ -23,7 +23,7 @@ import { buildItems } from "./lib/build";
 import { scoreStory } from "./lib/pick";
 import type { PickFile } from "./lib/picks";
 import { gatherSignals, readSignals, writeSignals } from "./lib/signals";
-import { writeDay } from "./lib/store";
+import { readDay, writeDay } from "./lib/store";
 
 async function main() {
   const files = process.argv.slice(2);
@@ -61,7 +61,8 @@ async function main() {
       console.log(`  no usable source for "${story.title}", trying the next story`);
     }
     if (items.length === 0) throw new Error(`${file}: no story had a usable source, day left as it was`);
-    writeDay({ date: picks.date, items });
+    const others = readDay(picks.date).items.filter((i) => !items.some((n) => n.platform === i.platform));
+    writeDay({ date: picks.date, items: [...items, ...others] });
   }
 }
 

@@ -36,3 +36,17 @@ export function cropStyle(image: { width: number; height: number; crop?: Crop; b
     top: `clamp(calc(100cqh - ${dh} * ${b.y + b.h}), calc(50cqh - ${dh} * ${cy}), calc(-1 * ${dh} * ${b.y}))`,
   };
 }
+
+/** The part of the image (as fractions of it) that cropStyle shows in a frame of the given width / height. */
+export function cropView(image: { width: number; height: number; crop?: Crop; bounds?: Crop }, frameAspect: number): Crop {
+  const b = image.bounds ?? WHOLE;
+  const c = intersect(image.crop ?? WHOLE, b);
+  const ratio = image.height / image.width;
+  const frameH = 1 / frameAspect;
+  const dw = Math.max(Math.min(1 / c.w, frameH / (ratio * c.h)), Math.max(1 / b.w, frameH / (ratio * b.h)));
+  const dh = dw * ratio;
+  const clamp = (min: number, value: number, max: number) => Math.max(min, Math.min(value, max));
+  const left = clamp(1 - dw * (b.x + b.w), 0.5 - dw * (c.x + c.w / 2), -dw * b.x);
+  const top = clamp(frameH - dh * (b.y + b.h), frameH / 2 - dh * (c.y + c.h / 2), -dh * b.y);
+  return { x: -left / dw, y: -top / dh, w: 1 / dw, h: frameH / dh };
+}
