@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-16",
+  "stories": [
+    {
+      "title": "Robert Pattinson is the new James Bond",
+      "summary": "Amazon MGM revealed its 007 with a single photo of Pattinson in a tux. X spent the day on Batman-to-Bond jokes, resurfaced Twilight clips and \"if AI doesn't take your job, Robert Pattinson will.\"",
+      "kind": "image",
+      "tags": ["robert-pattinson", "james-bond", "007", "casting", "amazon-mgm"],
+      "category": "tv-film",
+      "crossover": true,
+      "reach": 9,
+      "dominance": 9,
+      "memeability": 8,
+      "novelty": 8,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": [41, 53, 55, 101, 107, 109, 113, 120, 123, 126, 129],
+      "sourceUrl": "https://x.com/007/status/2122343950308540474",
+      "crop": { "x": 0.44, "y": 0.08, "w": 0.4, "h": 0.42 }
+    },
+    {
+      "title": "A thrown rosary hits Pope Leo in the face",
+      "summary": "Riding through 1.5 million people in Lima, the Pope reached for a rosary tossed from the crowd and took it below the eye. He winced and carried on; X replayed it like a sports highlight.",
+      "kind": "video",
+      "tags": ["pope-leo", "rosary", "peru", "popemobile"],
+      "category": "news",
+      "crossover": false,
+      "reach": 7,
+      "dominance": 5,
+      "memeability": 6,
+      "novelty": 7,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": [112],
+      "sourceUrl": "https://x.com/EWTNews/status/2122377957473665327"
+    },
+    {
+      "title": "RFK Jr. posts himself as James Bond with a carrot",
+      "summary": "Hours after the Pattinson news, the health secretary posted an AI image of himself in a tux aiming a carrot: \"Food. Real Food.\" Replies answered with \"Measles. Real Measles.\"",
+      "kind": "image",
+      "tags": ["rfk-jr", "james-bond", "carrot", "measles"],
+      "category": "politics",
+      "crossover": false,
+      "reach": 5,
+      "dominance": 3,
+      "memeability": 7,
+      "novelty": 6,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": [57, 59, 65]
+    }
+  ]
+}

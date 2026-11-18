@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-16",
+  "items": [
+    {
+      "id": "2026-11-16-x-robert-pattinson-is-the-new-james-bond",
+      "platform": "x",
+      "rank": 1,
+      "title": "Robert Pattinson is the new James Bond",
+      "summary": "Amazon MGM revealed its 007 with a single photo of Pattinson in a tux. X spent the day on Batman-to-Bond jokes, resurfaced Twilight clips and \"if AI doesn't take your job, Robert Pattinson will.\"",
+      "kind": "image",
+      "tags": [
+        "robert-pattinson",
+        "james-bond",
+        "007",
+        "casting"
+      ],
+      "author": "@007",
+      "sourceUrl": "https://x.com/007/status/2122343950308540474",
+      "metrics": {
+        "likes": "1.4M",
+        "replies": "24.3K"
+      },
+      "references": [
+        {
+          "title": "Robert Pattinson becomes the new 007 and the internet erupts with memes",
+          "url": "https://www.yahoo.com/entertainment/movies/articles/robert-pattinson-becomes-007-internet-214522900.html"
+        },
+        {
+          "title": "Robert Pattinson's 007 era begins with memes, job-stealing jokes and Twilight recall",
+          "url": "https://www.indiatoday.in/movies/hollywood/story/robert-pattinsons-007-era-begins-with-memes-job-stealing-jokes-and-twilight-recall-3040524-2026-11-17"
+        },
+        {
+          "title": "If AI doesn’t take your job, Robert Pattinson might",
+          "url": "https://www.fastcompany.com/91644187/if-ai-doesnt-take-your-job-robert-patterson-might"
+        }
+      ],
+      "pulse": {
+        "score": 8.9,
+        "reach": 9,
+        "dominance": 9,
+        "memeability": 8,
+        "novelty": 8,
+        "dull": false,
+        "category": "tv-film",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-11-16/2026-11-16-x-robert-pattinson-is-the-new-james-bond.webp",
+        "width": 1080,
+        "height": 1350,
+        "from": "https://pbs.twimg.com/media/HXQR9HKWsAADsY6.jpg?name=large",
+        "crop": {
+          "x": 0.44,
+          "y": 0.08,
+          "w": 0.4,
+          "h": 0.42
+        }
+      },
+      "post": {
+        "name": "James Bond",
+        "handle": "@007",
+        "verified": true,
+        "avatar": "/media/avatars/007.webp",
+        "text": "Robert Pattinson is James Bond",
+        "postedAt": "2026-11-16T15:00:03.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-18T01:58:10.918Z"
+    },
+    {
+      "id": "2026-11-16-instagram-robert-pattinson-is-the-new-james-bond",
+      "platform": "instagram",
+      "rank": 1,
+      "title": "Robert Pattinson is the new James Bond",
+      "summary": "The 007 account named its next Bond with one photo of Pattinson in a tux and four words. It became the most-liked post of the day, past four million, and the comments filled with Batman and Twilight jokes.",
+      "kind": "image",
+      "tags": [
+        "robert-pattinson",
+        "james-bond",
+        "007",
+        "casting"
+      ],
+      "author": "@007",
+      "sourceUrl": "https://www.instagram.com/p/DfzoK8nTJqI/",
+      "metrics": {
+        "likes": "4.2M"
+      },
+      "references": [
+        {
+          "title": "James Bond: Robert Pattinson to replace Daniel Craig as 007",
+          "url": "https://www.bbc.com/news/articles/cwx2ev0pxmvjo"
+        },
+        {
+          "title": "New 'James Bond' Found As Robert Pattinson Lands 007 Role",
+          "url": "https://deadline.com/2026/11/robert-pattinson-james-bond-role-amazon-mgm-studios-1237225184/"
+        }
+      ],
+      "pulse": {
+        "score": 8.8,
+        "reach": 9,
+        "dominance": 9,
+        "memeability": 7,
+        "novelty": 8,
+        "dull": false,
+        "category": "tv-film",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-11-16/2026-11-16-instagram-robert-pattinson-is-the-new-james-bond.webp",
+        "width": 1088,
+        "height": 1344,
+        "from": "https://instagram.fsan1-1.fna.fbcdn.net/v/t51.82787-15/907408005_18653471950005308_4731641388610865306_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=1&ig_cache_key=NDAzMTc0Mjc2NTU2NTc3ODU2OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuMTA4OC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=0b2aibrZ9dkQ7kNvwFoLaw2&_nc_oc=AdqQDIlmFR4NYjKeAz7Qtsfd37LDTphToPW1b_QPZiAWlmNbrQ-O2d9h20Ij6Mf4184&_nc_zt=23&_nc_ht=instagram.fsan1-1.fna&_nc_gid=Lk-0svMrg3Cgf4TNsEnz2w&_nc_ss=7f689&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQQcmenJKiflUxFPOrvijsGb6ZdOn2ntRcD0phx665Oiuw&oe=6B02DC6B",
+        "crop": {
+          "x": 0.44,
+          "y": 0.08,
+          "w": 0.4,
+          "h": 0.42
+        }
+      },
+      "post": {
+        "name": "James Bond 007",
+        "handle": "@007",
+        "verified": false,
+        "avatar": "/media/avatars/007.webp",
+        "text": "Robert Pattinson is James Bond",
+        "postedAt": "2026-11-16T15:00:12.455Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-18T02:09:15.449Z"
+    }
+  ]
+}

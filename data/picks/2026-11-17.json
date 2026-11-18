@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-17",
+  "stories": [
+    {
+      "title": "Jensen Huang says he'd be honored to return as Nvidia CEO",
+      "summary": "In his first words since resigning, Huang owned \"serious mistakes in my personal life\" and said he'd come back if the board asked. With Musk and Trump in his corner, it drew over 900,000 likes.",
+      "kind": "moment",
+      "tags": ["jensen-huang", "nvidia", "ceo", "standwithjensen"],
+      "category": "tech",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 7,
+      "memeability": 5,
+      "novelty": 6,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": [62, 63, 229],
+      "sourceUrl": "https://x.com/JensenHuang/status/2122726005219737649",
+      "imageUrl": "https://www.thedailystar.net/sites/default/files/styles/social_share/public/2026-11/60c8dfdc-d700-4902-938d-87569e23c339_1200x675-2.jpg",
+      "crop": { "x": 0.25, "y": 0.01, "w": 0.38, "h": 0.8 },
+      "bounds": { "x": 0, "y": 0, "w": 1, "h": 0.88 }
+    },
+    {
+      "title": "Trump lands in Manila and waves two tiny flags",
+      "summary": "A child handed the president a little American flag and a little Philippine one, and he waved both with gusto at 4 a.m. Benny Johnson and Newsom's press office posted the same clip for opposite reasons.",
+      "kind": "video",
+      "tags": ["trump", "tiny-flags", "philippines", "asean"],
+      "category": "politics",
+      "crossover": true,
+      "reach": 7,
+      "dominance": 6,
+      "memeability": 8,
+      "novelty": 7,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": [38, 100],
+      "sourceUrl": "https://x.com/clashreport/status/2122629686601670963"
+    },
+    {
+      "title": "The US loses its measles elimination status",
+      "summary": "After 26 years, health officials ruled measles had circulated nonstop for a year. RFK Jr.'s carrot-gun Bond post from the night before became the reply thread for it.",
+      "kind": "moment",
+      "tags": ["measles", "rfk-jr", "cdc", "paho"],
+      "category": "news",
+      "crossover": false,
+      "reach": 6,
+      "dominance": 4,
+      "memeability": 4,
+      "novelty": 5,
+      "dull": true,
+      "platform": "x",
+      "headlineIds": [34, 42, 47, 49]
+    }
+  ]
+}
