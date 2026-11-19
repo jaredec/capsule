@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-18",
+  "stories": [
+    {
+      "title": "GTA 6 is finally out, and Jason takes his dog jet skiing",
+      "summary": "Thirteen years after GTA 5, the game unlocked in New Zealand at midnight and gameplay flooded X while America waited for 9 p.m. Pacific. The clip everyone shared: Jason on a jet ski, his dog in goggles and a life vest.",
+      "kind": "video",
+      "tags": ["gta-6", "rockstar", "launch", "vice-city", "jet-ski-dog"],
+      "category": "pop-culture",
+      "crossover": true,
+      "reach": 9,
+      "dominance": 10,
+      "memeability": 8,
+      "novelty": 9,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": [34, 40, 41, 42, 45, 57, 64, 66, 73, 148, 149, 194, 196, 206],
+      "sourceUrl": "https://x.com/ChizPlays/status/2123035351212335567",
+      "frameAt": 6,
+      "crop": { "x": 0.34, "y": 0.46, "w": 0.33, "h": 0.54 }
+    },
+    {
+      "title": "xQc spends his first 45 minutes of GTA 6 renovating a house",
+      "summary": "With the whole internet watching streams, xQc skipped the heists and went straight to interior design.",
+      "kind": "video",
+      "tags": ["xqc", "gta-6", "kick", "streaming"],
+      "category": "internet-culture",
+      "crossover": false,
+      "reach": 6,
+      "dominance": 4,
+      "memeability": 7,
+      "novelty": 6,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/kick/status/2123026564833239392"
+    },
+    {
+      "title": "You can now order McDonald's through Discord",
+      "summary": "A new Discord feature lets you order McDonald's without leaving a call, timed for a night when everyone planned to stay on the couch.",
+      "kind": "image",
+      "tags": ["mcdonalds", "discord", "food-delivery"],
+      "category": "brands",
+      "crossover": false,
+      "reach": 5,
+      "dominance": 3,
+      "memeability": 5,
+      "novelty": 6,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/Dexerto/status/2123087593172521351"
+    }
+  ]
+}
