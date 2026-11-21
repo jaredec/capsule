@@ -50,6 +50,8 @@ async function main() {
         reach: s.reach,
         dominance: s.dominance,
         memeability: s.memeability,
+        novelty: s.novelty,
+        dull: s.dull,
         category: s.category,
         crossover: s.crossover,
       },

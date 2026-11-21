@@ -386,8 +386,9 @@ export function Calendar({
     // Opening a day or zooming by hand during the wait takes over from the intro. A day opened
     // mid-intro keeps the calendar behind it as it was; the dim lifts once the day closes.
     if (introTakenOver.current) {
-      if (!selected) setIntroducing(false);
-      return;
+      if (selected) return;
+      const lift = setTimeout(() => setIntroducing(false));
+      return () => clearTimeout(lift);
     }
     const zoom = setTimeout(() => {
       const { view, selected, switchView } = intro.current;

@@ -28,7 +28,7 @@ New data lands as a git commit, and the host (Vercel, Netlify, etc.) redeploys o
 
 ## What counts as "the pulse"
 
-Every candidate gets three 1–10 scores:
+The pick is what people in the US and Canada were actually talking about that day, and would still say "oh, I remember that" about later. Size comes first. Every candidate gets three 1–10 scores:
 
 | Score | Question |
 | --- | --- |
@@ -36,7 +36,9 @@ Every candidate gets three 1–10 scores:
 | dominance | How hard did it take over feeds: reposts, quote-posts, duets, outlets covering the reaction itself? |
 | memeability | Did it spawn remixes, templates, catchphrases, reaction images? |
 
-`pulse = 0.4·reach + 0.35·dominance + 0.25·memeability`. Sports, tech and news are multiplied by 0.55, or by 0.9 when they crossed over into general meme culture. Politics is multiplied by 0.4 unless it crossed over *and* scored 9 or more on reach: political clips get boosted by partisan accounts without reaching normal people, so only mega-viral memes everyone remixed qualify. Celebrities count when they became the joke or did something non-fans reposted for the laugh, not for fan-account fare like red carpets, lip-syncs or thirst clips. The rule lives in `scoreStory()` in `scripts/lib/pick.ts`, and the editorial prompt sits next to it.
+`pulse = 0.45·reach + 0.45·dominance + 0.1·memeability`. Sports, tech and news are multiplied by 0.55, or by 0.9 when they crossed over, as a meme or by sheer size (reach and dominance both 9 or more). Politics is multiplied by 0.4 unless it crossed over *and* scored 9 or more on reach: political clips get boosted by partisan accounts without reaching normal people.
+
+Two more fields shape the order without changing the score. `novelty` (1–10, one of a kind and tied to its day) only breaks ties between stories within the same half point, so a memorable small story never passes a big one. `dull` marks a story that was both predictable and little discussed (a trailer, an injury report, a routine launch); dull stories are for slow days and go behind any other story scoring `STANDOUT_FLOOR` (5) or more. Dull is about the reaction, not the topic: a death, a verdict or a joke on a weekly show is not dull if it took over the feed, and no subject is off limits. The rule lives in `scoreStory()`, `isStandout()` and `byPulse()` in `scripts/lib/pick.ts`, and the editorial prompt sits next to it.
 
 ## The automated pipeline (cheap by design)
 

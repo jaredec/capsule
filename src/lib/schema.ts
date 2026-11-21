@@ -33,6 +33,10 @@ export const pulseSchema = z.object({
   reach: z.number(),
   dominance: z.number(),
   memeability: z.number(),
+  /** One-of-a-kind and tied to its day. Only breaks ties between stories of similar size. */
+  novelty: z.number().optional(),
+  /** Predictable and little discussed: fine on a slow day, never ahead of a real moment. */
+  dull: z.boolean().optional(),
   category: z.enum(CATEGORIES),
   crossover: z.boolean(),
 });
