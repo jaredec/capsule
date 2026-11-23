@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-23",
+  "items": [
+    {
+      "id": "2026-11-23-x-nvidia-gives-jensen-huang-his-job-back-and-the-m",
+      "platform": "x",
+      "rank": 1,
+      "title": "Nvidia gives Jensen Huang his job back, and the memes pour in",
+      "summary": "Eleven days after he resigned, Nvidia's board unanimously reinstated Huang as CEO. Timelines filled with AI memes of his return, and Trump posted one of Huang raising a red bra in his Butler rally pose.",
+      "kind": "image",
+      "tags": [
+        "jensen-huang",
+        "nvidia",
+        "reinstated",
+        "red-bra"
+      ],
+      "author": "@nvidianewsroom",
+      "sourceUrl": "https://x.com/nvidianewsroom/status/2124885155743678817",
+      "metrics": {
+        "likes": "343.9K",
+        "replies": "13.9K"
+      },
+      "references": [
+        {
+          "title": "President Trump shared a meme depicting Jensen Huang, the newly reinstated CEO of Nvidia, swapped in for Trump in the photo taken moments after he was shot in Pennsylvania in 2024. Instead of a raised fist, it shows Huang holding a red bra in the air.",
+          "url": "https://www.facebook.com/washingtonpost/posts/president-trump-shared-a-meme-depicting-jensen-huang-the-newly-reinstated-ceo-of/1519444343380769/"
+        },
+        {
+          "title": "Trump shares meme of defiant, bloodied Huang raising red bra in air",
+          "url": "https://www.washingtonpost.com/politics/2026/11/23/trump-shares-meme-defiant-bloodied-huang-raising-red-bra-air/"
+        },
+        {
+          "title": "Trump Posts Bizarre AI Meme of Jensen Huang Holding Up Bra Riffing Off Assassination Attempt",
+          "url": "https://variety.com/2026/digital/news/trump-ai-meme-jensen-huang-bra-nvidia-reinstates-ceo-1236956004/"
+        }
+      ],
+      "pulse": {
+        "score": 8.1,
+        "reach": 9,
+        "dominance": 9,
+        "memeability": 9,
+        "novelty": 8,
+        "dull": false,
+        "category": "tech",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-11-23/2026-11-23-x-nvidia-gives-jensen-huang-his-job-back-and-the-m.webp",
+        "width": 1440,
+        "height": 960,
+        "from": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DSZJSPWTAACO5MG27APKYTVXNU_size-normalized.jpg&w=1440"
+      },
+      "post": {
+        "name": "NVIDIA Newsroom",
+        "handle": "@nvidianewsroom",
+        "verified": true,
+        "avatar": "/media/avatars/nvidianewsroom.webp",
+        "text": "NVIDIA Board reinstates Jensen Huang as President, CEO and Board Director.\n\nRead the release: nvidianews.nvidia.com/news/nvidia-bo…",
+        "postedAt": "2026-11-23T13:58:03.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-23T22:12:36.817Z"
+    },
+    {
+      "id": "2026-11-23-instagram-nvidia-announces-jensen-huang-is-back",
+      "platform": "instagram",
+      "rank": 1,
+      "title": "Nvidia announces Jensen Huang is back",
+      "summary": "Nvidia's post on Huang's reinstatement drew more likes than anything the company had posted during the scandal, as fans and employees celebrated his return.",
+      "kind": "image",
+      "tags": [
+        "jensen-huang",
+        "nvidia",
+        "reinstated"
+      ],
+      "author": "@nvidianewsroom",
+      "sourceUrl": "https://www.instagram.com/p/DgFjMeKldiW/",
+      "metrics": {
+        "likes": "303K"
+      },
+      "references": [
+        {
+          "title": "Jensen Huang cheered by Nvidia employees after return, pledges to be a better CEO",
+          "url": "https://www.cnbc.com/2026/11/23/jensen-huang-nvidia-ceo-return.html"
+        }
+      ],
+      "pulse": {
+        "score": 6.9,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 5,
+        "novelty": 7,
+        "dull": false,
+        "category": "tech",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-11-23/2026-11-23-instagram-nvidia-announces-jensen-huang-is-back.webp",
+        "width": 1080,
+        "height": 1350,
+        "from": "https://instagram.fsan1-1.fna.fbcdn.net/v/t51.82787-15/927507047_17927792307443330_2504177460248801092_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=1&ig_cache_key=NDAzNjc4NzI0MjkwMjI1Mzg0Ng%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTA4MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=hYpiSGr8dN0Q7kNvwHW7xk9&_nc_oc=Adp5QfnVmKnJnc4l-6rsx9ePLS4ouWrFW0alTbw5bgF4ojfTsLR4vIGEz7sjQUQSxoXD9Cfab6lhISYYwFBUTu4t&_nc_zt=23&_nc_ht=instagram.fsan1-1.fna&_nc_gid=lj3As3mE0baGUYLAKvpRnQ&_nc_ss=7f580&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQT1TPZ2FmxpGW8287m3blvj0yyJ2Bsooe9Kt56tF-ZC5w&oe=6B0A7A3E"
+      },
+      "post": {
+        "name": "NVIDIA Newsroom",
+        "handle": "@nvidianewsroom",
+        "verified": false,
+        "avatar": "/media/avatars/nvidianewsroom.webp",
+        "text": "NVIDIA Board reinstates Jensen Huang as President, CEO and Board Director.",
+        "postedAt": "2026-11-23T14:03:03.278Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-23T22:22:51.010Z"
+    }
+  ]
+}

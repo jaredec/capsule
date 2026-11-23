@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-22",
+  "stories": [
+    {
+      "title": "One guest wears yellow to Miley Cyrus's all-black wedding",
+      "summary": "A photo from the ceremony showed rows of guests in black and one woman in bright yellow, and the internet spent the day arguing about wedding dress codes.",
+      "kind": "image",
+      "tags": ["miley-cyrus", "wedding", "dress-code", "yellow-dress"],
+      "category": "pop-culture",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 7,
+      "memeability": 8,
+      "novelty": 7,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": [1, 6, 158],
+      "sourceUrl": "https://x.com/lilbitunholymc/status/2124532118097412276",
+      "crop": { "x": 0.42, "y": 0.25, "w": 0.32, "h": 0.65 }
+    },
+    {
+      "title": "A New York assemblyman's 'lizard eyes' behind Mamdani",
+      "summary": "A clip of Jordan Wright blinking behind Zohran Mamdani at a press conference sent conspiracy accounts into reptilian theories.",
+      "kind": "video",
+      "tags": ["jordan-wright", "mamdani", "lizard-people"],
+      "category": "politics",
+      "crossover": false,
+      "reach": 6,
+      "dominance": 4,
+      "memeability": 8,
+      "novelty": 6,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/pike_capit3704/status/2124244922643447838"
+    }
+  ]
+}

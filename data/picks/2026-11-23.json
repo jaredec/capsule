@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-23",
+  "stories": [
+    {
+      "title": "Nvidia gives Jensen Huang his job back, and the memes pour in",
+      "summary": "Eleven days after he resigned, Nvidia's board unanimously reinstated Huang as CEO. Timelines filled with AI memes of his return, and Trump posted one of Huang raising a red bra in his Butler rally pose.",
+      "kind": "image",
+      "tags": ["jensen-huang", "nvidia", "reinstated", "red-bra", "memes"],
+      "category": "tech",
+      "crossover": true,
+      "reach": 9,
+      "dominance": 9,
+      "memeability": 9,
+      "novelty": 8,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": [22, 23, 24, 26, 28, 35, 36, 38, 61, 78, 94],
+      "sourceUrl": "https://x.com/nvidianewsroom/status/2124885155743678817"
+    },
+    {
+      "title": "ESPN viewers turn on the network over the arguing-couple segment",
+      "summary": "After the clip of Jesse Palmer narrating a couple's fight passed millions of views, some fans said ESPN went too far with two private people.",
+      "kind": "video",
+      "tags": ["espn", "jesse-palmer", "couple"],
+      "category": "sports",
+      "crossover": false,
+      "reach": 6,
+      "dominance": 4,
+      "memeability": 5,
+      "novelty": 4,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": [13, 75]
+    }
+  ]
+}

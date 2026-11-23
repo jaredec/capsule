@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-19",
+  "items": [
+    {
+      "id": "2026-11-19-x-fiona-the-hippo-dies-after-swallowing-a-visitor-",
+      "platform": "x",
+      "rank": 1,
+      "title": "Fiona the hippo dies after swallowing a visitor's hat",
+      "summary": "The Cincinnati Zoo hippo who won over the internet as a premature calf in 2017 died at nine, days after a child's knit hat was flung into her habitat. Timelines filled with old Fiona videos.",
+      "kind": "image",
+      "tags": [
+        "fiona",
+        "hippo",
+        "cincinnati-zoo",
+        "teamfiona"
+      ],
+      "author": "@CincinnatiZoo",
+      "sourceUrl": "https://x.com/CincinnatiZoo/status/2123519903286341723",
+      "metrics": {
+        "likes": "118.1K",
+        "replies": "5.9K"
+      },
+      "references": [],
+      "pulse": {
+        "score": 7.7,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 5,
+        "novelty": 8,
+        "dull": false,
+        "category": "animals",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-11-19/2026-11-19-x-fiona-the-hippo-dies-after-swallowing-a-visitor-.webp",
+        "width": 863,
+        "height": 1024,
+        "from": "https://pbs.twimg.com/media/HXhB3CCXwAAKCU4.jpg?name=large"
+      },
+      "post": {
+        "name": "Cincinnati Zoo",
+        "handle": "@CincinnatiZoo",
+        "verified": false,
+        "avatar": "/media/avatars/cincinnatizoo.webp",
+        "text": "It is with extreme sadness that we share with you the devastating news that Fiona did not make it after multiple attempts from our amazing vets and keeper team to help her through what ended up being a medical emergency. cincinnatizoo.org/beloved-hippo-…",
+        "postedAt": "2026-11-19T20:52:52.000Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-23T22:12:14.861Z"
+    },
+    {
+      "id": "2026-11-19-instagram-the-cincinnati-zoo-tells-the-world-fiona-is-gone",
+      "platform": "instagram",
+      "rank": 1,
+      "title": "The Cincinnati Zoo tells the world Fiona is gone",
+      "summary": "The zoo that turned a premature hippo into the internet's favorite animal posted that she had died after swallowing a hat. Fans who followed her since 2017 filled the comments.",
+      "kind": "image",
+      "tags": [
+        "fiona",
+        "hippo",
+        "cincinnati-zoo",
+        "teamfiona"
+      ],
+      "author": "@cincinnatizoo",
+      "sourceUrl": "https://www.instagram.com/p/Df797TTF2kb/",
+      "metrics": {
+        "likes": "945K"
+      },
+      "references": [
+        {
+          "title": "Cincinnati Zoo's famed Fiona the hippo dies days after eating a visitor's hat",
+          "url": "https://apnews.com/article/fiona-hippo-cincinnati-zoo-hat-3d90d10c57698af06e5a7a67bed05608"
+        }
+      ],
+      "pulse": {
+        "score": 7.6,
+        "reach": 8,
+        "dominance": 8,
+        "memeability": 4,
+        "novelty": 8,
+        "dull": false,
+        "category": "animals",
+        "crossover": true
+      },
+      "image": {
+        "src": "/media/2026-11-19/2026-11-19-instagram-the-cincinnati-zoo-tells-the-world-fiona-is-gone.webp",
+        "width": 863,
+        "height": 1024,
+        "from": "https://instagram.fsan1-1.fna.fbcdn.net/v/t39.30808-6/921006189_1572347651582325_5657721176322359424_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ig_cache_key=NDAzNDA5MDI0NzI0ODExMTg5OQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkZFRUQueHBpZHMuODYzLnNkci5yZWd1bGFyX3Bob3RvLkMzIn0%3D&_nc_ohc=kXV07_y7uYsQ7kNvwGyljBT&_nc_oc=AdoJRcCi9OpKw5b_7a2ezoPQ2NbcjHdkYVZBL9Ch1PaY7HapccWAfYwNqQW5bmDpOx0phVZ3qkNbFomoMcbYDoP5&_nc_zt=23&_nc_ht=instagram.fsan1-1.fna&_nc_gid=522bA3AJ20gBUv98arY3CA&_nc_ss=7e580&_nc_ct=RQosPBUIFQIlBAAAAA&oh=00_AQQ_wst7-fksWTegnOmtRPUKysEVLDUQdTryjw52b-Knmg&oe=6B0A9378"
+      },
+      "post": {
+        "name": "Cincinnati Zoo",
+        "handle": "@cincinnatizoo",
+        "verified": true,
+        "avatar": "/media/avatars/cincinnatizoo.webp",
+        "text": "It is with extreme sadness that we share with you the devastating news that Fiona did not make it after multiple attempts from our amazing vets and keeper team to help her through what ended up being a medical emergency.",
+        "postedAt": "2026-11-19T20:44:14.079Z"
+      },
+      "collectedBy": "editor",
+      "collectedAt": "2026-11-23T22:22:31.801Z"
+    }
+  ]
+}

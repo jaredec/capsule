@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-21",
+  "stories": [
+    {
+      "title": "ESPN's Jesse Palmer narrates a couple's breakup in the stands",
+      "summary": "During Georgia Tech's loss to Wake Forest, cameras found a couple mid-argument and The Bachelor host broke it down like game film. A few minutes later, the cameras caught them kissing.",
+      "kind": "video",
+      "tags": ["espn", "jesse-palmer", "georgia-tech", "couple", "college-football"],
+      "category": "sports",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 9,
+      "novelty": 8,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": [27, 144, 149],
+      "sourceUrl": "https://x.com/carterl0we/status/2124238640444248453"
+    },
+    {
+      "title": "Miley Cyrus marries Maxx Morando in Palm Springs",
+      "summary": "Cyrus wed the Liily drummer in a poolside ceremony where guests were asked to wear black.",
+      "kind": "image",
+      "tags": ["miley-cyrus", "maxx-morando", "wedding"],
+      "category": "pop-culture",
+      "crossover": false,
+      "reach": 7,
+      "dominance": 5,
+      "memeability": 4,
+      "novelty": 6,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/HouseOfVanity88/status/2124343125749772704"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-19",
+  "stories": [
+    {
+      "title": "Fiona the hippo dies after swallowing a visitor's hat",
+      "summary": "The Cincinnati Zoo hippo who won over the internet as a premature calf in 2017 died at nine, days after a child's knit hat was flung into her habitat. Timelines filled with old Fiona videos.",
+      "kind": "image",
+      "tags": ["fiona", "hippo", "cincinnati-zoo", "teamfiona"],
+      "category": "animals",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 5,
+      "novelty": 8,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/CincinnatiZoo/status/2123519903286341723"
+    },
+    {
+      "title": "The Colts owner's sideline note-taking becomes a meme",
+      "summary": "Cameras caught Carlie Irsay-Gordon scribbling notes with a puzzled look during the Colts' loss to the Texans, and fans turned it into a template.",
+      "kind": "image",
+      "tags": ["colts", "carlie-irsay-gordon", "nfl", "sideline"],
+      "category": "sports",
+      "crossover": false,
+      "reach": 6,
+      "dominance": 4,
+      "memeability": 7,
+      "novelty": 5,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": [33, 52]
+    }
+  ]
+}

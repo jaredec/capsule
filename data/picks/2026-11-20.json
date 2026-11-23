@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-20",
+  "stories": [
+    {
+      "title": "A mathematician says he and Claude proved the Riemann hypothesis",
+      "summary": "Levent Alpöge posted a four-page note and millions of lines of Lean code claiming a proof of math's most famous open problem, first posed in 1859. Mathematicians started compiling it within hours.",
+      "kind": "image",
+      "tags": ["riemann-hypothesis", "anthropic", "claude", "levent-alpoge", "lean"],
+      "category": "tech",
+      "crossover": true,
+      "reach": 8,
+      "dominance": 8,
+      "memeability": 5,
+      "novelty": 10,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": [],
+      "sourceUrl": "https://x.com/HarryStoltz1/status/2123775783189827655"
+    },
+    {
+      "title": "Fiona the hippo's necropsy finds the hat stuck in her intestine",
+      "summary": "The Cincinnati Zoo shared what killed Fiona and thanked fans for an outpouring of love.",
+      "kind": "image",
+      "tags": ["fiona", "hippo", "cincinnati-zoo"],
+      "category": "animals",
+      "crossover": false,
+      "reach": 6,
+      "dominance": 5,
+      "memeability": 3,
+      "novelty": 4,
+      "dull": false,
+      "platform": "x",
+      "headlineIds": []
+    }
+  ]
+}
