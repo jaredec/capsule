@@ -8,6 +8,10 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 <!-- END:nextjs-agent-rules -->
 
+## Hosting
+
+This repo is `jaredec/capsule`; `main` deploys to the `capsule` Vercel project. The "Capsule" routing rule on the `jaredconnolly-com` Vercel project rewrites jaredconnolly.com/capsule to this project's production domain. Capsule will eventually move into Fast Takeoff (`jaredec/fast-takeoff`), which isn't public yet.
+
 ## Curating picks
 
 Whenever you write or edit a file in `data/picks`, follow the `SYSTEM` prompt in `scripts/lib/pick.ts` as your editorial rules. In particular:
